@@ -1,0 +1,41 @@
+---
+import { Carousel } from 'astro-bootstrap';
+
+import type { CarouselSlideType } from 'astro-bootstrap';
+
+import { getAllImages } from '../utils/functions';
+
+const images = getAllImages();
+
+const slides: CarouselSlideType[] = []
+Object.values(images).map((folder, i) => (
+  slides.push(
+    {
+      img: folder[0],
+      active:(i==0)
+    }
+  )
+));
+
+
+const id = 'CarouselProjectsDisplay';
+
+---
+
+<Carousel {id}>
+  <Carousel.Indicators {id} {slides} />
+  <Carousel.Inner>
+    {
+      slides.map((slide, i) => (
+        <Carousel.Item active={slide.active}>
+          <img
+            src={slide.img}
+            class="d-block w-100 img-fluid"
+            alt={slide.alt}
+          />
+        </Carousel.Item>
+      ))
+    }
+  </Carousel.Inner>
+  <Carousel.Controls id={id} />
+</Carousel>
