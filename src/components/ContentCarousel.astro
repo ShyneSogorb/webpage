@@ -3,23 +3,24 @@ import { Carousel } from 'astro-bootstrap';
 
 import type { CarouselSlideType } from 'astro-bootstrap';
 
-import { getAllImages } from '../utils/functions';
+import { getAllImages, getAllFirstImages } from '../utils/functions';
 
 import projects from "../../public/JSON/projects.json";
 
+const images = getAllFirstImages();
+const caca = getAllImages()
 
-const images = getAllImages();
-
-const slides: CarouselSlideType[] = []
-Object.values(images).map((folder, i) => (
-  slides.push(
-    {
-      img: folder[0],
-      active:(i==0)
-    }
-  )
+const slides: CarouselSlideType[] = 
+images.map((image, i) => (
+  {
+    img: image,
+    active:(i==0)
+  }
 ));
 
+projects.map((project, i) =>
+console.log(slides[i])
+)
 
 const id = 'CarouselProjectsDisplay';
 
@@ -34,17 +35,17 @@ const id = 'CarouselProjectsDisplay';
   <Carousel.Indicators {id} {slides} ></Carousel.Indicators>
   <Carousel.Inner>
     {
-      slides.map((slide, i) => (
-        <Carousel.Item active={slide.active}>
+      projects.map((project, i) => (
+        <Carousel.Item active={slides[i].active}>
           <img
             style="max-height: 70vh;"
-            src={slide.img}
+            src={slides[i].img}
             class="d-block mw-100 h-auto m-auto img-fluid"
-            alt={slide.alt}
+            alt={slides[i].alt}
           />
         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
-            <h3>{`${projects[i].name} (${projects[i].type})`}</h3>
-            <p>{projects[i].shortDescription}</p>
+            <h3>{`${project.name} (${project.type})`}</h3>
+            <p>{project.shortDescription}</p>
         </div>
         </Carousel.Item>
       ))

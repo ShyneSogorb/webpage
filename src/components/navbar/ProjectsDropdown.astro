@@ -1,20 +1,16 @@
 ---
 import { Dropdown, Button } from 'astro-bootstrap';
 import type { DropdownItemType } from 'astro-bootstrap';
-const items: DropdownItemType[] = [
-  {
-    text: 'Action',
-    href: '#',
-  },
-  {
-    text: 'Another action',
-    href: '#',
-  },
-  {
-    text: 'Something else here',
-    href: '#',
-  },
-];
+
+import projects from "../../../public/JSON/projects.json";
+
+const items: DropdownItemType[] = projects.map(project => {
+  return {
+    href: project.short || project.name,
+    text: project.name
+  }
+})
+
 ---
 
 
