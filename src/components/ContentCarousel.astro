@@ -5,6 +5,9 @@ import type { CarouselSlideType } from 'astro-bootstrap';
 
 import { getAllImages } from '../utils/functions';
 
+import projects from "../../public/JSON/projects.json";
+
+
 const images = getAllImages();
 
 const slides: CarouselSlideType[] = []
@@ -21,21 +24,32 @@ Object.values(images).map((folder, i) => (
 const id = 'CarouselProjectsDisplay';
 
 ---
+<style>
+  .caption{
+    color: aqua;
+  }
+</style>
 
-<Carousel {id}>
-  <Carousel.Indicators {id} {slides} />
+<Carousel {id} class:list={['customCarousel']}>
+  <Carousel.Indicators {id} {slides} ></Carousel.Indicators>
   <Carousel.Inner>
     {
       slides.map((slide, i) => (
         <Carousel.Item active={slide.active}>
           <img
+            style="max-height: 70vh;"
             src={slide.img}
-            class="d-block w-100 img-fluid"
+            class="d-block mw-100 h-auto m-auto img-fluid"
             alt={slide.alt}
           />
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75">
+            <h3>{`${projects[i].name} (${projects[i].type})`}</h3>
+            <p>{projects[i].shortDescription}</p>
+        </div>
         </Carousel.Item>
       ))
     }
   </Carousel.Inner>
   <Carousel.Controls id={id} />
 </Carousel>
+<!-- <p>{project.shortDescription}</p> -->

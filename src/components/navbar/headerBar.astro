@@ -6,10 +6,18 @@ import ProjectsDropdown from './ProjectsDropdown.astro';
 
 ---
 
+<style>
+    a{
+        background-color: yellow;
+    }
+</style>
+
 <Nav class='d-flex justify-content-evenly'>
-    <Nav.Item text='Home' href='/' />
-    <Nav.Item>
-        <ProjectsDropdown />
-    </Nav.Item>
-    <Nav.Item text='Shelter' href='https://protectoravillena.com/' />
-</Nav>
+    <div>
+        <Nav.Item text='Home' href='https://protectoravillena.com/' />
+    </div>
+        <Nav.Item>
+            <ProjectsDropdown />
+        </Nav.Item>
+        <Nav.Item text='Shelter' href='https://protectoravillena.com/' />
+    </Nav>
