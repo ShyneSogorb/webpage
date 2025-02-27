@@ -7,17 +7,23 @@ import ProjectsDropdown from './ProjectsDropdown.astro';
 ---
 
 <style>
-    a{
-        background-color: yellow;
+    :global(.nav-item > *){
+        color: black;
+    }
+    :global(.nav-item > *:hover){
+        border-radius: 10px;
+        border: 1px solid black;
+        background-color:  darkblue;
+    }
+    :global(.nav-item > a:hover){
+        color: lightblue;
     }
 </style>
 
-<Nav class='d-flex justify-content-evenly'>
-    <div>
-        <Nav.Item text='Home' href='/home' />
-    </div>
-        <Nav.Item>
-            <ProjectsDropdown />
-        </Nav.Item>
-        <Nav.Item text='Shelter' href='https://protectoravillena.com/' />
-    </Nav>
+<Nav class='d-flex justify-content-evenly align-items-center p-1'>
+    <Nav.Item text='Home' href='/home' class="" />
+    <Nav.Item>
+        <ProjectsDropdown />
+    </Nav.Item>
+    <Nav.Item text='Shelter' href='https://protectoravillena.com/' />
+</Nav>

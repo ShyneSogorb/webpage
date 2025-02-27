@@ -13,13 +13,20 @@ const items: DropdownItemType[] = projects.map(project => {
 
 ---
 
+<style>
+  :global(button){
+    padding: 0px;
+    margin: 0px;
+  }
+</style>
+
 
 <Dropdown>
   <Button variant='' dropdown>Projects</Button>
   <Dropdown.Menu>
     {
       items.map((item) => (
-        <Dropdown.Item href={item.href}>{item.text}</Dropdown.Item>
+        <Dropdown.Item href={item.href.toLowerCase()}>{item.text}</Dropdown.Item>
       ))
     }
   </Dropdown.Menu>
