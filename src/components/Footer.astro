@@ -1,0 +1,14 @@
+---
+import FooterSection from "./footer/FooterSection.astro";
+
+import MyProjects from "../../public/JSON/projects.json";
+import MySocials from "../../public/JSON/social.json"
+
+---
+
+<div class="">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top bg-dark text-white mx-0">
+    <FooterSection Title="Social" Reference={MySocials}></FooterSection>
+    <FooterSection Title="Projects" Reference={MyProjects}></FooterSection>
+  </footer>
+</div>

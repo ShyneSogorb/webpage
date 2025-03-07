@@ -1,0 +1,14 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const search = Astro.url.searchParams.get("search")
+console.log(search);
+
+
+---
+
+<Layout>
+    <div>
+        <p>{search}</p>
+    </div>
+</Layout>
