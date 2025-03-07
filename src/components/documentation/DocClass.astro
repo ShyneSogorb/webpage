@@ -1,8 +1,8 @@
 ---
-import Accordion from "../Accordion.astro"
 import DocComment from "./DocComment.astro"
 import DocFunction from "./DocFunction.astro"
 import DocVariable from "./DocVariable.astro"
+import { Accordion } from 'astro-bootstrap';
 
 const {classData} = Astro.props
 
@@ -11,24 +11,26 @@ const {classData} = Astro.props
 
 ---
 
-<Accordion title={classData.name}>
+<Accordion.Item>
+    <Accordion.Header parent={classData.name} index={0}>{classData.name}</Accordion.Header>
+          <Accordion.Body parent={classData.name} index={0} show>
+            <div style="background-color: antiquewhite;">
+                <DocComment comment={classData.comment}></DocComment>
+                {classData.name}
+                
+                {classData.functions.map((funct: any)=>(
+                    <div style="background-color: aqua;">
+                        <DocFunction {funct}></DocFunction>
+                    </div>
+                ))}
+                    
+                {classData.variables.map((variable: any)=>(
+                    <div style="background-color: brown;">
+                    <DocVariable {variable}></DocVariable>
+                    </div>
+                ))}
+            </div>
+          </Accordion.Body>
+</Accordion.Item>
     
-    <div style="background-color: antiquewhite;">
-        <DocComment comment={classData.comment}></DocComment>
-        {classData.name}
-        
-        {classData.functions.map((funct: any)=>(
-            <div style="background-color: aqua;">
-                <DocFunction {funct}></DocFunction>
-            </div>
-        ))}
-            
-        {classData.variables.map((variable: any)=>(
-            <div style="background-color: brown;">
-            <DocVariable {variable}></DocVariable>
-            </div>
-        ))}
 
-</div>
-
-</Accordion>

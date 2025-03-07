@@ -13,7 +13,6 @@ let values;
 let metaParameters;
 let metaValues;
 
-
 if(macro && macro.parameters){
     parameters = macro.parameters.map((param: any) => param.name)
     values = macro.parameters.map((param: any) => {return {description: param.value}})
