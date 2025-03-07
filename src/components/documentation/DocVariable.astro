@@ -1,0 +1,20 @@
+---
+import DocParameters from "./DocParameters.astro";
+import DocMacro from "./DocMacro.astro"
+
+
+const {variable} = Astro.props;
+const {comment, umacro} = variable;
+
+const variableLine = variable.type + " " + variable.name
+
+---
+
+<div>
+    {variableLine}
+    <DocMacro macro={umacro}></DocMacro>
+    <div>
+        <p>{comment}</p>
+        <p>Name {variable.name}</p>
+    </div>
+</div>

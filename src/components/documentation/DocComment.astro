@@ -1,0 +1,13 @@
+---
+import DocParameters from "./DocParameters.astro"
+
+const {comment} = Astro.props
+---
+
+<div>
+    <p><DocParameters parameters={comment.parameters} /></p>
+    <p>{comment.description}</p>
+    {comment.return_type && (
+        <p>{comment.return_type}</p>
+    )}
+</div>

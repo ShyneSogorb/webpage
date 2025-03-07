@@ -1,0 +1,34 @@
+---
+import Accordion from "../Accordion.astro"
+import DocComment from "./DocComment.astro"
+import DocFunction from "./DocFunction.astro"
+import DocVariable from "./DocVariable.astro"
+
+const {classData} = Astro.props
+
+//variables
+//umacro
+
+---
+
+<Accordion title={classData.name}>
+    
+    <div style="background-color: antiquewhite;">
+        <DocComment comment={classData.comment}></DocComment>
+        {classData.name}
+        
+        {classData.functions.map((funct: any)=>(
+            <div style="background-color: aqua;">
+                <DocFunction {funct}></DocFunction>
+            </div>
+        ))}
+            
+        {classData.variables.map((variable: any)=>(
+            <div style="background-color: brown;">
+            <DocVariable {variable}></DocVariable>
+            </div>
+        ))}
+
+</div>
+
+</Accordion>

@@ -1,0 +1,23 @@
+---
+import DocParameters from "./DocParameters.astro";
+import DocMacro from "./DocMacro.astro"
+
+const {funct} = Astro.props;
+const {comment, umacro} = funct;
+
+const functLine = funct.return_type + " " + funct.name + "(" + funct.parameters + ")"
+
+---
+
+<div>
+    {functLine}
+    <DocMacro macro={umacro}></DocMacro>
+    <div>
+        <p>{comment.description}</p>
+        <p>Name {funct.name}</p>
+    </div>
+    <DocParameters parameters={funct.parameters} comments={comment.parameters}></DocParameters>
+    {funct.return_type && funct.return_type != "void" && (
+        <p>{funct.return_type} {comment.return_type}</p>
+    )}
+</div>

@@ -1,0 +1,10 @@
+---
+import DocClass from "../../components/documentation/DocClass.astro"
+import data from "../../utils/JSON/was.documentation.json"
+---
+
+<div>
+    {data.map(Class=>(
+        <DocClass classData={Class}></DocClass>
+    ))}
+</div>

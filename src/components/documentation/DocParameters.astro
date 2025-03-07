@@ -1,0 +1,17 @@
+---
+import DocParameter from "./DocParameter.astro";
+
+const params = Astro.props.parameters;
+const comments = Astro.props.comments;
+
+let display = params && params.length > 0;
+
+---
+
+{display && (
+    <ul>
+        {params.map((param: any, i: number) => (
+            <DocParameter {param} comment={comments && comments[i] ? comments[i].description : null}></DocParameter>
+        ))}
+    </ul>
+)}
