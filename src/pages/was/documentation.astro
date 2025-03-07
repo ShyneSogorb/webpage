@@ -1,10 +1,13 @@
 ---
 import DocClass from "../../components/documentation/DocClass.astro"
+import Layout from "../../layouts/Layout.astro"
 import data from "../../utils/JSON/was.documentation.json"
 ---
 
-<div>
-    {data.map(Class=>(
-        <DocClass classData={Class}></DocClass>
-    ))}
-</div>
+<Layout>
+    <div>
+        {data.map(Class=>(
+            <DocClass classData={Class}></DocClass>
+        ))}
+    </div>
+</Layout>

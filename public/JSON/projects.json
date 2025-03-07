@@ -1,0 +1,28 @@
+[
+    {
+        "href": "https://www.fab.com/listings/3920bd37-7ccc-44c8-8929-742f061d8894",
+        "name": "Advanced Combat System",
+        "short": "ACS",
+        "type": "Unreal Plugin",
+        "shortDescription": "A plugin for Unreal Engine 5 that allows developers to create complex combat systems with ease."
+    },
+    {
+        "href": "https://dishop.avtrixgames.com/",
+        "name": "Dishop",
+        "type": "Video Game",
+        "shortDescription": "A 3D indie game runing on Unreal Engine 5. It is a first person shooter with a focus on exploration and combat."
+    },
+    {
+        "href": "https://www.wattpad.com/story/316243226-sombras",
+        "name": "Sombras",
+        "type": "Book",
+        "shortDescription": "A novel about a fantasy world where hero and antihero must collab for convenience."
+    },
+    {
+        "href": "https://www.fab.com/listings/3920bd37-7ccc-44c8-8929-742f061d8894",
+        "name": "Weapon Advaced System",
+        "short": "WAS",
+        "type": "Unreal Plugin",
+        "shortDescription": "Allows the creation of modular flexible weapons with its own editor and default implementation"
+    }
+]
