@@ -1,0 +1,40 @@
+---
+
+import DocParameters from "./DocParameters.astro";
+
+
+const {macro} = Astro.props
+const {metadata} = macro
+
+
+let parameters;
+let values;
+
+let metaParameters;
+let metaValues;
+
+if(macro && macro.parameters){
+    parameters = macro.parameters.map((param: any) => param.name)
+    values = macro.parameters.map((param: any) => {return {description: param.value}})
+}
+
+if(macro && metadata){
+    metaParameters = metadata.map((param: any) => param.name)
+    metaValues = metadata.map((param: any) => {return {description: param.value}})
+}
+
+---
+
+{macro && macro.parameters && (
+    <div>
+    <p>Metadata</p>
+    <p>{macro.name}</p>
+    <DocParameters {parameters} comments={values}></DocParameters>
+    {metadata && (
+        <div>
+            <p>Metaparamters</p>
+            <DocParameters parameters={metaParameters} comments={metaValues}></DocParameters>
+        </div>
+    )}
+    </div>
+)}

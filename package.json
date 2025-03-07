@@ -13,6 +13,7 @@
     "@types/bootstrap": "^5.2.10",
     "astro": "^5.3.1",
     "astro-bootstrap": "^0.7.0",
+    "astro-icon": "^1.1.5",
     "bootstrap": "^5.3.3",
     "fs": "^0.0.1-security"
   }

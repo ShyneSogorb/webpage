@@ -1,0 +1,11 @@
+---
+const {param, comment} = Astro.props
+
+
+---
+
+<li>
+    {param} {comment && (
+        <>: {comment}</>
+    )}
+</li>
