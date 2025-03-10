@@ -1,23 +1,29 @@
 ---
 import DocParameters from "./DocParameters.astro";
-import DocMacro from "./DocMacro.astro"
+import DocMacro from "./DocMacro.astro";
 import { Accordion } from "astro-bootstrap";
 
 const { variable, variableId, parentId } = Astro.props;
+
 const { comment, umacro } = variable;
 
-const variableLine = variable.type + " " + variable.name
-
+const variableLine = variable.type + " " + variable.name;
 ---
 
 <Accordion.Item>
-    <Accordion.Header parent={parentId} index={variableId}>{variable.name}</Accordion.Header>
-    <Accordion.Body parent={parentId} index={variableId}>
-    {variableLine}
-    <DocMacro macro={umacro}></DocMacro>
-    <div>
-        <p>{comment}</p>
-        <p>Name {variable.name}</p>
-    </div>
+    <Accordion.Header parent={parentId} index={variableId}>
+        {variable.name}
+    </Accordion.Header>
+    <Accordion.Body parent={parentId} index={variableId} show>
+        <div>
+            <b>Declaration:</b>
+            {variableLine}
+        </div>
+        <DocMacro macro={umacro} />
+        <div>
+            <p>{comment}</p>
+            <p>Variable name <b>{variable.name}</b></p>
+            <p>Variable type <b>{variable.type}</b></p>
+        </div>
     </Accordion.Body>
 </Accordion.Item>

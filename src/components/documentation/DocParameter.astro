@@ -1,11 +1,11 @@
 ---
-const {param, comment} = Astro.props
-
-
+const { param, comment, displayType } = Astro.props;
 ---
 
 <li>
-    {param} {comment && (
-        <>: {comment}</>
-    )}
+    {param}
+    {displayType && (
+        <b>(type placeholder)</b>
+        )}
+    {comment && <>: {comment}</>}
 </li>

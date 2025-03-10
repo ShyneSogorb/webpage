@@ -1,11 +1,10 @@
 ---
-
 import DocParameters from "./DocParameters.astro";
 
-
-const {macro} = Astro.props
-const {metadata} = macro
-
+const { macro } = Astro.props;
+const metadata =
+    macro.metadata && macro.metadata.length > 0 ? macro.metadata : null;
+console.log(macro.metadata);
 
 let parameters;
 let values;
@@ -13,28 +12,37 @@ let values;
 let metaParameters;
 let metaValues;
 
-if(macro && macro.parameters){
-    parameters = macro.parameters.map((param: any) => param.name)
-    values = macro.parameters.map((param: any) => {return {description: param.value}})
+if (macro && macro.parameters) {
+    parameters = macro.parameters.map((param: any) => param.name);
+    values = macro.parameters.map((param: any) => {
+        return { description: param.value };
+    });
 }
 
-if(macro && metadata){
-    metaParameters = metadata.map((param: any) => param.name)
-    metaValues = metadata.map((param: any) => {return {description: param.value}})
+if (macro && metadata) {
+    metaParameters = metadata.map((param: any) => param.name);
+    metaValues = metadata.map((param: any) => {
+        return { description: param.value };
+    });
 }
-
 ---
 
-{macro && macro.parameters && (
-    <div>
-    <p>Metadata</p>
-    <p>{macro.name}</p>
-    <DocParameters {parameters} comments={values}></DocParameters>
-    {metadata && (
-        <div>
-            <p>Metaparamters</p>
-            <DocParameters parameters={metaParameters} comments={metaValues}></DocParameters>
+{
+    macro && macro.parameters && (
+        <div class="border-bottom mt-4 mb-4">
+            <div class="border-top">
+                <h3>{macro.name}</h3>
+            </div>
+            <DocParameters {parameters} comments={values} />
+            {metadata && (
+                <div>
+                    <p>Metaparamters</p>
+                    <DocParameters
+                        parameters={metaParameters}
+                        comments={metaValues}
+                    />
+                </div>
+            )}
         </div>
-    )}
-    </div>
-)}
+    )
+}

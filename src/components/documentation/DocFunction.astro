@@ -6,25 +6,35 @@ import { Accordion } from "astro-bootstrap";
 const { funct, functionId, parentId } = Astro.props;
 const { comment, umacro } = funct;
 
-const functLine = funct.return_type + " " + funct.name + "(" + funct.parameters + ")";
+const functLine =
+    funct.return_type + " " + funct.name + "(" + funct.parameters + ")";
 ---
 
 <Accordion.Item>
-    <Accordion.Header parent={parentId} index={functionId}>{funct.name}</Accordion.Header>
-    <Accordion.Body parent={parentId} index={functionId}>
-        {functLine}
+    <Accordion.Header parent={parentId} index={functionId}
+        >{funct.name}</Accordion.Header
+    >
+    <Accordion.Body parent={parentId} index={functionId} show>
+        <div>
+            <b>Declaration:</b>
+            {functLine}
+        </div>
         <DocMacro macro={umacro} />
         <div>
             <p>{comment.description}</p>
-            <p>Name {funct.name}</p>
+            <p>Function name: {funct.name}</p>
         </div>
-        <DocParameters parameters={funct.parameters} comments={comment.parameters}/>
+        <DocParameters
+            parameters={funct.parameters}
+            comments={comment.parameters}
+            displayType={true}
+        />
         {
             funct.return_type && funct.return_type != "void" && (
                 <p>
-                {funct.return_type} {comment.return_type}
-            </p>
-        )
-    }
+                    return <b>({funct.return_type})</b> {comment.return_type}
+                </p>
+            )
+        }
     </Accordion.Body>
 </Accordion.Item>
