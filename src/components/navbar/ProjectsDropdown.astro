@@ -4,7 +4,7 @@ import type { DropdownItemType } from 'astro-bootstrap';
 
 import projects from "../../../public/JSON/projects.json";
 
-const items: DropdownItemType[] = projects.map(project => {
+const items = projects.map(project => {
   return {
     href: project.short || project.name,
     text: project.name
@@ -26,7 +26,7 @@ const items: DropdownItemType[] = projects.map(project => {
   <Dropdown.Menu>
     {
       items.map((item) => (
-        <Dropdown.Item href={item.href.toLowerCase()}>{item.text}</Dropdown.Item>
+        <Dropdown.Item href={"/"+item.href.toLowerCase()}>{item.text}</Dropdown.Item>
       ))
     }
   </Dropdown.Menu>

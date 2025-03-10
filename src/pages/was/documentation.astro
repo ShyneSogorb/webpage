@@ -1,24 +1,20 @@
 ---
 import DocClass from "../../components/documentation/DocClass.astro"
 import Layout from "../../layouts/Layout.astro";
-import data from "../../utils/JSON/was.documentation.json"
-
-const items = [
-  { header: 'Title 1', body: 'Text block 1', show: true },
-  { header: 'Title 2', body: 'Text block 2' },
-  { header: 'Title 3', body: 'Text block 3' },
-];
-const accordionId = 'accordionExample';
+import data from "/public/JSON/was.documentation.json"
 
 import { Accordion } from 'astro-bootstrap';
 const id = 'manualAccordion'
+
+console.log(Object.keys(data[0]));
+
 
 ---
 
 <Layout>
 <Accordion id={id}>
-    {data.map((classData: any)=>(
-        <DocClass {classData}></DocClass>
+    {data.map((classData: any, i: number)=>(
+        <DocClass {classData} classId={i} parentId={id}></DocClass>
     ))}
 </Accordion>
 </Layout>
