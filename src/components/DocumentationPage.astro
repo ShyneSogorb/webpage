@@ -1,0 +1,12 @@
+---
+let { text, url } = Astro.props;
+
+if(!text) text = "Documentation"
+if(!url) url = Astro.url
+
+
+---
+
+<div>
+    <a href={ url + "/documentation" }>{text}</a>
+</div>
