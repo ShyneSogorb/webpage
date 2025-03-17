@@ -11,22 +11,25 @@ const functionAccordion = classData.name + "functionAccordion";
 const variableId = parentId + "Variables";
 const variableAccordion = classData.name + "variableAccordion";
 
-//umacro
 ---
 
 <Accordion.Item>
-    <Accordion.Header parent={parentId} index={classId}
-        >{classData.name}</Accordion.Header
-    >
-    <Accordion.Body parent={parentId} index={classId}>
-        <DocComment comment={classData.comment} />
+    <Accordion.Header parent={parentId} index={classId}>
         {classData.name}
+    </Accordion.Header>
+    <Accordion.Body parent={parentId} index={classId} show>
+        <div class="classDocumentation mb-2">
+            <DocComment comment={classData.comment} />
+            <h2>
+                {classData.name}
+            </h2>
+        </div>
 
         <Accordion id={functionAccordion}>
             <Accordion.Item>
-                <Accordion.Header parent={functionAccordion} index={0}
-                    >Functions</Accordion.Header
-                >
+                <Accordion.Header parent={functionAccordion} index={0}>
+                    Functions
+                </Accordion.Header>
                 <Accordion.Body parent={functionAccordion} index={0} show>
                     <Accordion id={functionId}>
                         {
@@ -71,3 +74,8 @@ const variableAccordion = classData.name + "variableAccordion";
         </Accordion>
     </Accordion.Body>
 </Accordion.Item>
+
+<style>
+    .classDocumentation {
+    }
+</style>
