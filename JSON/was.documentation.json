@@ -1,0 +1,2146 @@
+[
+    {
+        "name": "UWeaponComponent",
+        "functions": [
+            {
+                "name": "ParamsAndReturn",
+                "return_type": "int32",
+                "parameters": [
+                    "int32 Param1",
+                    " int32 Param2",
+                    " int32& Return1",
+                    " int32& Return2"
+                ],
+                "comment": {
+                    "description": "/*\nParamsAndReturn some generic description\n",
+                    "parameters": [
+                        {
+                            "name": " Param1",
+                            "description": "some generic description for the first parameter"
+                        },
+                        {
+                            "name": " Param2",
+                            "description": "some generic description for the second parameter"
+                        },
+                        {
+                            "name": " Return1",
+                            "description": "some generic description for the first return value"
+                        },
+                        {
+                            "name": " Return2",
+                            "description": "some generic description for the second return value"
+                        }
+                    ],
+                    "return_type": "@return some generic description for the return value"
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Caca"
+                        }
+                    ],
+                    "metadata": [
+                        {
+                            "name": "DisplayName",
+                            "value": "ParamsAndReturn"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "ResolveAssetInstantiation",
+                "return_type": "void",
+                "parameters": [],
+                "comment": {
+                    "description": "/*\ncacacaca\n*/\n\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "Init",
+                "return_type": "void",
+                "parameters": [],
+                "comment": {
+                    "description": "//cacacacaca\n\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "OnRegister",
+                "return_type": "virtual void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "UninitializeComponent",
+                "return_type": "virtual void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "EnterTrigger",
+                "return_type": "void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        },
+                        {
+                            "name": "CallInEditor",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "ExitTrigger",
+                "return_type": "void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        },
+                        {
+                            "name": "CallInEditor",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "IsTriggering",
+                "return_type": "bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "BlueprintPure",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "CanTrigger",
+                "return_type": "virtual bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "TriggerModeAllowNextTrigger",
+                "return_type": "virtual bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "HasEnoughAmmoToTrigger",
+                "return_type": "bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "SetCooldown",
+                "return_type": "void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "SetCustomCooldown",
+                "return_type": "void",
+                "parameters": [
+                    "float Cooldown"
+                ],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "IsCoolingDown",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "TryJammWeapon",
+                "return_type": "void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "UpdateMesh",
+                "return_type": "void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "BuildAsset",
+                "return_type": "void",
+                "parameters": [
+                    "class UWeaponAssetDefault* Asset"
+                ],
+                "comment": {
+                    "description": "/**\n* Builds the weapon asset.\n",
+                    "parameters": [
+                        {
+                            "name": " Asset",
+                            "description": "The weapon asset to build."
+                        }
+                    ],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "Clean",
+                "return_type": "void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "SetAmmoSource",
+                "return_type": "void",
+                "parameters": [
+                    "UPARAM"
+                ],
+                "comment": {
+                    "description": "// ReSharper disable once CppFunctionIsNotImplemented\n\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "SolveMagazineResize",
+                "return_type": "void",
+                "parameters": [
+                    "int32 From",
+                    " int32 To"
+                ],
+                "comment": {
+                    "description": "/**\n* Sets the value of a map as the source of the ammo. This node exists since there's no find by ref in Map containers unlike in arrays that offer get by ref.\n* IMPORTANT. Even tho the Key of the map can be of any type, the value must be a value reinterpretable as int64 (eg, int32, enum, uint8, int16, etc) with any other type expect undefined behaviour and crashes\n",
+                    "parameters": [
+                        {
+                            "name": " Map",
+                            "description": "The map from where the ammo will be collected"
+                        },
+                        {
+                            "name": " InKey",
+                            "description": "Key value that must be found in the map in order to use its value as source ammo"
+                        }
+                    ],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "OnUseAmmoUpdated",
+                "return_type": "void",
+                "parameters": [
+                    "bool previous",
+                    " bool current"
+                ],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "OnUseMagazineUpdated",
+                "return_type": "void",
+                "parameters": [
+                    "bool previous",
+                    " bool current"
+                ],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "ClearCache",
+                "return_type": "FORCEINLINE void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "FindSocket",
+                "return_type": "USceneComponent*",
+                "parameters": [
+                    "const FName& Socket"
+                ],
+                "comment": {
+                    "description": "/*\nFinds the used socket\n",
+                    "parameters": [
+                        {
+                            "name": " Socket",
+                            "description": "The socket to find"
+                        }
+                    ],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "BlueprintPure",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetTaggedComponent",
+                "return_type": "USceneComponent*",
+                "parameters": [
+                    "const FName& Tag"
+                ],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "BlueprintPure",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "HasTaggedComponent",
+                "return_type": "bool",
+                "parameters": [
+                    "const FName& Tag"
+                ],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "BlueprintPure",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "FindCachedSocket",
+                "return_type": "USceneComponent*",
+                "parameters": [
+                    "const FName& Socket"
+                ],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "GetCachedTaggedComponent",
+                "return_type": "USceneComponent*",
+                "parameters": [
+                    "const FName& Tag"
+                ],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "InitializeWeapon",
+                "return_type": "void",
+                "parameters": [
+                    "UPARAM"
+                ],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "BlueprintNativeEvent",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": [
+                        {
+                            "name": "AdvancedDisplay",
+                            "value": "MoveValues"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "GenerateInitializationData",
+                "return_type": "FWeaponInitializationData",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "BlueprintNativeEvent",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": [
+                        {
+                            "name": "AdvancedDisplay",
+                            "value": "MoveValues"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "HasAnyRecursion",
+                "return_type": "bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "BindOnModified",
+                "return_type": "void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "UsesInstancedAsset",
+                "return_type": "bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "SetUseInstancedAsset",
+                "return_type": "void",
+                "parameters": [
+                    "bool NewUseInstanced"
+                ],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "ExistSlot",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [
+                    "int32 slot"
+                ],
+                "comment": {
+                    "description": "/**\n* Updates a modificator in a specific slot. Must be overrided in order to work add features.\n",
+                    "parameters": [
+                        {
+                            "name": " \tSlot",
+                            "description": "The slot where the modification is applied."
+                        },
+                        {
+                            "name": " \tModification",
+                            "description": "The modification to apply."
+                        },
+                        {
+                            "name": "\tbForceUpdate",
+                            "description": "Forces to update all generation even if no changes were made"
+                        },
+                        {
+                            "name": " \tnewModifications",
+                            "description": "Map containing the new mods and slots."
+                        },
+                        {
+                            "name": "\tbForceUpdate",
+                            "description": "Forces to update all generation even if no changes were made"
+                        }
+                    ],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "BlueprintPure",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetModificationAtSlot",
+                "return_type": "FORCEINLINE uint8",
+                "parameters": [
+                    "uint8 Slot"
+                ],
+                "comment": {
+                    "description": "/**\n* Gets a enum of modifiers in the selected slot.\n",
+                    "parameters": [
+                        {
+                            "name": " \tSlot",
+                            "description": "Index of the slot."
+                        }
+                    ],
+                    "return_type": "@returns\tNull if out of bounds, else the modifier in slot."
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "BlueprintPure",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "SetWeaponAsset",
+                "return_type": "FORCEINLINE void",
+                "parameters": [
+                    "class UWeaponAsset* Asset"
+                ],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "IsGenerating",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "BlueprintPure",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetWeaponAsset",
+                "return_type": "FORCEINLINE class UWeaponAssetDefault*",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetTriggerRate",
+                "return_type": "FORCEINLINE float",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetTriggerRateRaw",
+                "return_type": "FORCEINLINE float",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetTriggerRateSec",
+                "return_type": "FORCEINLINE float",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetTriggerRateSecRaw",
+                "return_type": "FORCEINLINE float",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetBurstTriggers",
+                "return_type": "FORCEINLINE uint8",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetBurstTriggersRaw",
+                "return_type": "FORCEINLINE uint8",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetMagazineCapability",
+                "return_type": "FORCEINLINE int32",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetMagazineCapabilityRaw",
+                "return_type": "FORCEINLINE int32",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetJammProbability",
+                "return_type": "FORCEINLINE float",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetJammProbabilityRaw",
+                "return_type": "FORCEINLINE float",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetUseAmmo",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetUseMagazine",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetAmmoInMagazine",
+                "return_type": "FORCEINLINE int32",
+                "parameters": [
+                    "int32 Fallback=0"
+                ],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetAmmoInMagazineOrSource",
+                "return_type": "FORCEINLINE int32",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetSourceAmmo64",
+                "return_type": "FORCEINLINE int64",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetSourceAmmo32",
+                "return_type": "FORCEINLINE int32",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetSourceAmmo8",
+                "return_type": "FORCEINLINE uint8",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetSourceAmmo",
+                "return_type": "FORCEINLINE T",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "GetMagazineAmmo",
+                "return_type": "FORCEINLINE T",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "GetIterationReloadStepAmmount",
+                "return_type": "FORCEINLINE uint8",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetIterationReloadStepAmmountRaw",
+                "return_type": "FORCEINLINE uint8",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetAmmoLoosePerTrigger",
+                "return_type": "FORCEINLINE int32",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetAmmoLoosePerTriggerRaw",
+                "return_type": "FORCEINLINE int32",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetTriggerIfAmmoLessThanRequired",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetCustomTriggerExecutionTiming",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetCustomReloadExecutionTiming",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetLooseExtraAmmoOnReload",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetCustomUnjammExecutionTiming",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetReloadByMagazine",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetAmmoInUse",
+                "return_type": "FORCEINLINE int32",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "HasAmmo",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetAmmoType",
+                "return_type": "FORCEINLINE TEnumAsByte<EAmmoType>",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "IsJammed",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "IsReloading",
+                "return_type": "FORCEINLINE bool",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "GetCurrentBurstIndex",
+                "return_type": "FORCEINLINE uint8",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "Reload",
+                "return_type": "void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "CallInEditor",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "CancelReload",
+                "return_type": "FORCEINLINE void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "ReloadLogic",
+                "return_type": "void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "ReloadLogicManual",
+                "return_type": "void",
+                "parameters": [
+                    "int32 AddAmmo"
+                ],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "BeginPlay",
+                "return_type": "virtual void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": ""
+            },
+            {
+                "name": "EndReload",
+                "return_type": "FORCEINLINE void",
+                "parameters": [],
+                "comment": {
+                    "description": "\n",
+                    "parameters": [],
+                    "return_type": ""
+                },
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            }
+        ],
+        "variables": [
+            {
+                "name": "ManualModificator;",
+                "type": "FWeaponAttributesModificator",
+                "comment": "",
+                "umacro": {
+                    "name": "UPROPERTY",
+                    "parameters": [
+                        {
+                            "name": "EditAnywhere",
+                            "value": ""
+                        },
+                        {
+                            "name": "BlueprintReadWrite",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "OnTriggered;",
+                "type": "FTriggered",
+                "comment": "//Used to cache components with the specific socket",
+                "umacro": {
+                    "name": "UPROPERTY",
+                    "parameters": [
+                        {
+                            "name": "BlueprintAssignable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "OnTriggerFailed;",
+                "type": "FTriggered",
+                "comment": "",
+                "umacro": {
+                    "name": "UPROPERTY",
+                    "parameters": [
+                        {
+                            "name": "BlueprintAssignable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "OnCooledDown;",
+                "type": "FCooledDown",
+                "comment": "",
+                "umacro": {
+                    "name": "UPROPERTY",
+                    "parameters": [
+                        {
+                            "name": "BlueprintAssignable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "OnBeginReload;",
+                "type": "FTriggered",
+                "comment": "",
+                "umacro": {
+                    "name": "UPROPERTY",
+                    "parameters": [
+                        {
+                            "name": "BlueprintAssignable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "OnReload;",
+                "type": "FTriggered",
+                "comment": "",
+                "umacro": {
+                    "name": "UPROPERTY",
+                    "parameters": [
+                        {
+                            "name": "BlueprintAssignable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "OnFinishReload;",
+                "type": "FTriggered",
+                "comment": "",
+                "umacro": {
+                    "name": "UPROPERTY",
+                    "parameters": [
+                        {
+                            "name": "BlueprintAssignable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "OnReloadFailed;",
+                "type": "FTriggered",
+                "comment": "",
+                "umacro": {
+                    "name": "UPROPERTY",
+                    "parameters": [
+                        {
+                            "name": "BlueprintAssignable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "OnJamm;",
+                "type": "FTriggered",
+                "comment": "",
+                "umacro": {
+                    "name": "UPROPERTY",
+                    "parameters": [
+                        {
+                            "name": "BlueprintAssignable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "AmmoSource;",
+                "type": "TDynamicPtr",
+                "comment": "",
+                "umacro": ""
+            },
+            {
+                "name": "AmmoInMagazine;",
+                "type": "TDynamicPtr",
+                "comment": "",
+                "umacro": ""
+            },
+            {
+                "name": "WeaponAsset;",
+                "type": "class UWeaponAssetDefault*",
+                "comment": "",
+                "umacro": {
+                    "name": "UPROPERTY",
+                    "parameters": [
+                        {
+                            "name": "VisibleAnywhere",
+                            "value": ""
+                        },
+                        {
+                            "name": "BlueprintReadOnly",
+                            "value": ""
+                        },
+                        {
+                            "name": "Transient",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "WeaponAssetSource;",
+                "type": "TObjectPtr<const class UWeaponAssetDefault>",
+                "comment": "//FAst access to source weapon asset. EDITOR ONLY",
+                "umacro": {
+                    "name": "UPROPERTY",
+                    "parameters": [
+                        {
+                            "name": "EditAnywhere",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "TriggerCooldown;",
+                "type": "FTimerHandle",
+                "comment": "",
+                "umacro": ""
+            },
+            { 
+                "name": "TriggerTimer;",
+                "type": "FTimerHandle",
+                "comment": "",
+                "umacro": ""
+            },   
+            {
+                "name": "BurstIndex;",
+                "type": "int32",
+                "comment": "",
+                "umacro": ""
+            },
+            {
+                "name": "Modifications;",
+                "type": "TMap<uint8, uint8>",
+                "comment": "",
+                "umacro": {
+                    "name": "UPROPERTY",
+                    "parameters": [
+                        {
+                            "name": "EditAnywhere",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "WeaponAsset->ModificationApplied;}",
+                "type": "TMap<uint8, uint8>& GetWeaponModificationsConst() const {return",
+                "comment": "",
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "Category",
+                            "value": "Trigger"
+                        }
+                    ],
+                    "metadata": []
+                }
+            },
+            {
+                "name": "WeaponAsset->ModificationApplied;}",
+                "type": "const TMap<uint8, uint8>& GetWeaponModifications() const {return",
+                "comment": "",
+                "umacro": {
+                    "name": "UFUNCTION",
+                    "parameters": [
+                        {
+                            "name": "BlueprintCallable",
+                            "value": ""
+                        },
+                        {
+                            "name": "BlueprintPure",
+                            "value": ""
+                        }
+                    ],
+                    "metadata": []
+                }
+            }
+        ],
+        "comment": {
+            "description": "/**\n* Component that handles the weapon logic.\n*/\n\n",
+            "parameters": [],
+            "return_type": ""
+        },
+        "umacro": {
+            "name": "UCLASS",
+            "parameters": [
+                {
+                    "name": "Blueprintable",
+                    "value": ""
+                },
+                {
+                    "name": "BlueprintType",
+                    "value": ""
+                }
+            ],
+            "metadata": [
+                {
+                    "name": "BlueprintSpawnableComponent",
+                    "value": ""
+                }
+            ]
+        }
+    }
+]
