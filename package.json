@@ -5,8 +5,11 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "build:gh-page": "astro check && astro build --base=/webpage/",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
@@ -14,7 +17,9 @@
     "astro": "^5.3.1",
     "astro-bootstrap": "^0.7.0",
     "astro-icon": "^1.1.5",
-    "bootstrap": "^5.3.3",
-    "fs": "^0.0.1-security"
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

@@ -3,20 +3,23 @@ import { Carousel } from 'astro-bootstrap';
 
 import type { CarouselSlideType } from 'astro-bootstrap';
 
-import { getAllImages, getAllFirstImages } from '../utils/functions';
+import { getAllFirstImages } from '../utils/functions';
 
-import projects from "../../public/JSON/projects.json";
+import projects from "/src/JSON/projects.json";
 
 const images = getAllFirstImages();
-const caca = getAllImages()
 
 const slides: CarouselSlideType[] = 
-images.map((image, i) => (
-  {
+projects.map((project, i) => {
+  const expectedName = (project.short || project.name).toLowerCase();
+  let image;
+  if(images[expectedName]) image = images[expectedName].image;
+  return {
     img: image,
     active:(i==0)
   }
-));
+});
+
 
 const id = 'CarouselProjectsDisplay';
 
@@ -49,4 +52,3 @@ const id = 'CarouselProjectsDisplay';
   </Carousel.Inner>
   <Carousel.Controls id={id} />
 </Carousel>
-<!-- <p>{project.shortDescription}</p> -->

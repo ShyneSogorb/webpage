@@ -21,9 +21,13 @@ import ProjectsDropdown from './ProjectsDropdown.astro';
 </style>
 
 <Nav class='d-flex justify-content-evenly align-items-center p-1'>
-    <Nav.Item text='Home' href='/home' class="" />
-    <Nav.Item>
+    <li class="nav-item">
+        <a href="/" class="nav-link">Home</a>
+    </li>
+    <li class="nav-item">
         <ProjectsDropdown />
-    </Nav.Item>
-    <Nav.Item text='Shelter' href='https://protectoravillena.com/' />
+    </li>
+    <li class="nav-item">
+        <a href="https://protectoravillena.com/" class="nav-link">Shelter</a>
+    </li>
 </Nav>

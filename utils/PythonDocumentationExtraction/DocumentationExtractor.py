@@ -24,7 +24,7 @@ for file in files:
         classes.append(i)
 
 output_file_path = './/was.documentation.json'
-output_file_path = "C://Users//user//Documents//WebPortfolio//webpage//public//JSON//was.documentation.json"
+output_file_path = "C://Users//user//Documents//WebPortfolio//webpage//src//JSON//was.documentation.json"
 
 
 

@@ -2,7 +2,7 @@
 import { Dropdown, Button } from 'astro-bootstrap';
 import type { DropdownItemType } from 'astro-bootstrap';
 
-import projects from "../../../public/JSON/projects.json";
+import projects from "/src/JSON/projects.json";
 
 const items = projects.map(project => {
   return {
@@ -20,14 +20,22 @@ const items = projects.map(project => {
   }
 </style>
 
-
-<Dropdown>
-  <Button variant='' dropdown>Projects</Button>
-  <Dropdown.Menu>
+<div class="dropdown">
+  <button class="btn dropdown-toggle" type="button" id="dropdownProjectsButton" data-bs-toggle="dropdown" aria-expanded="false">
+    Projects
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownProjectsButton">
     {
       items.map((item) => (
-        <Dropdown.Item href={"/"+item.href.toLowerCase()}>{item.text}</Dropdown.Item>
+        <li><a class="dropdown-item" href={"/webpage/"+item.href.toLowerCase()}>{item.text}</a></li>
       ))
     }
-  </Dropdown.Menu>
-</Dropdown>
+</div>
+
+<style>
+  .btn:hover{
+    background-color: darkblue;
+    color: lightblue;
+
+  }
+</style>

@@ -4,7 +4,6 @@ import DocParameters from "./DocParameters.astro";
 const { macro } = Astro.props;
 const metadata =
     macro.metadata && macro.metadata.length > 0 ? macro.metadata : null;
-console.log(macro.metadata);
 
 let parameters;
 let values;
