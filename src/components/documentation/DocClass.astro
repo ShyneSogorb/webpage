@@ -25,6 +25,7 @@ const variableAccordion = classData.name + "variableAccordion";
             </h2>
         </div>
 
+        {!!classData.functions.length && (
         <Accordion id={functionAccordion}>
             <Accordion.Item>
                 <Accordion.Header parent={functionAccordion} index={0}>
@@ -47,7 +48,9 @@ const variableAccordion = classData.name + "variableAccordion";
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>
+        )}
 
+        {!!classData.variables.length && (
         <Accordion id={variableAccordion}>
             <Accordion.Item>
                 <Accordion.Header parent={variableAccordion} index={0}
@@ -72,6 +75,7 @@ const variableAccordion = classData.name + "variableAccordion";
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>
+        )}
     </Accordion.Body>
 </Accordion.Item>
 
