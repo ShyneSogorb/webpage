@@ -1,0 +1,71 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+
+import data from "/src/JSON/was.documentation.json"
+
+
+const rData = data.map((classData: any, i: number) => {
+    if(i==0)
+    return [
+      {
+      params: {
+        tag: classData.name
+        }
+      },
+        ...classData.functions.map((funct: any, i: number) => {
+            return {
+            params: {
+                tag: classData.name+"/"+funct.name
+                }
+            }
+        }).flat(),
+        ...classData.variables.map((vrb: any, i: number) => {
+            return {
+            params: {
+                tag: classData.name+"/"+vrb.name
+                }
+            }
+        }).flat(),
+    ]
+  }).flat()
+
+//console.log(rData);
+  
+
+export async function getStaticPaths() {
+  const rData = data.map((classData: any, i: number) => {
+    return [
+      {
+      params: {
+        tag: classData.name
+        }
+      },
+        ...classData.functions.map((funct: any, i: number) => {
+            return {
+            params: {
+                tag: classData.name+"-"+funct.name
+                }
+            }
+        }).flat(),
+        ...classData.variables.map((vrb: any, i: number) => {
+            return {
+            params: {
+                tag: classData.name+"-"+vrb.name
+                }
+            }
+        }).flat(),
+    ]
+  }).flat()
+
+  console.log(rData);
+  return rData;
+}
+
+
+console.log(Astro.params);
+const { tag } = Astro.params;
+
+---
+<Layout pageTitle={tag}>
+  <p>Posts tagged with {tag}</p>
+</Layout>
