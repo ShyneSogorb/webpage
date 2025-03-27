@@ -1,53 +1,43 @@
 ---
+import DocFunction from '../../../components/documentation/DocFunction.astro';
 import Layout from '../../../layouts/Layout.astro';
+import type { IClassDocumentation, IFunctionDocumentation, IVariableDocumentation } from '../../../utils/IDocumentation';
 
-import data from "/src/JSON/was.documentation.json"
+import { Accordion } from "astro-bootstrap";
+import json from "/src/JSON/was.documentation.json"
+import DocVariable from '../../../components/documentation/DocVariable.astro';
 
+const { tag } = Astro.params;
 
-const rData = data.map((classData: any, i: number) => {
-    if(i==0)
+const data = json as IClassDocumentation[];
+
+const functionId = "FunctionsId";
+const functionAccordion = "functionAccordion";
+
+const variableId = "VariablesId";
+const variableAccordion = "variableAccordion";
+
+const classData = data.find((classData: IClassDocumentation) => classData.name === tag);
+
+const {functions} = classData;
+const {variables} = classData;
+
+export function getStaticPaths() {
+  return json.map((classData: IClassDocumentation, i: number) => {
     return [
       {
       params: {
         tag: classData.name
         }
       },
-        ...classData.functions.map((funct: any, i: number) => {
-            return {
-            params: {
-                tag: classData.name+"/"+funct.name
-                }
-            }
-        }).flat(),
-        ...classData.variables.map((vrb: any, i: number) => {
-            return {
-            params: {
-                tag: classData.name+"/"+vrb.name
-                }
-            }
-        }).flat(),
-    ]
-  }).flat()
-
-//console.log(rData);
-  
-
-export async function getStaticPaths() {
-  const rData = data.map((classData: any, i: number) => {
-    return [
-      {
-      params: {
-        tag: classData.name
-        }
-      },
-        ...classData.functions.map((funct: any, i: number) => {
+        ...classData.functions.map((funct: IFunctionDocumentation, i: number) => {
             return {
             params: {
                 tag: classData.name+"-"+funct.name
                 }
             }
         }).flat(),
-        ...classData.variables.map((vrb: any, i: number) => {
+        ...classData.variables.map((vrb: IVariableDocumentation, i: number) => {
             return {
             params: {
                 tag: classData.name+"-"+vrb.name
@@ -56,16 +46,57 @@ export async function getStaticPaths() {
         }).flat(),
     ]
   }).flat()
-
-  console.log(rData);
-  return rData;
 }
 
 
-console.log(Astro.params);
-const { tag } = Astro.params;
-
 ---
 <Layout pageTitle={tag}>
-  <p>Posts tagged with {tag}</p>
+  {!!functions.length && (
+    <Accordion id={functionAccordion}>
+        <Accordion.Item>
+            <Accordion.Header parent={functionAccordion} index={0}>
+                Functions
+            </Accordion.Header>
+            <Accordion.Body parent={functionAccordion} index={0} show>
+                <Accordion id={functionId}>
+                    {
+                        functions.map((funct: IFunctionDocumentation, i: number) => (
+                            <div>
+                                <DocFunction
+                                    {funct}
+                                    parentId={functionId}
+                                    functionId={i}
+                                />
+                            </div>
+                        ))
+                    }
+                </Accordion>
+            </Accordion.Body>
+        </Accordion.Item>
+    </Accordion>
+    )}
+      {!!variables.length && (
+        <Accordion id={variableAccordion}>
+            <Accordion.Item>
+                <Accordion.Header parent={variableAccordion} index={0}>
+                  Variables
+                </Accordion.Header>
+                <Accordion.Body parent={variableAccordion} index={0} show>
+                    <Accordion id={variableId}>
+                        {
+                            variables.map((variable: IVariableDocumentation, i: number) => (
+                                <div>
+                                    <DocVariable
+                                        {variable}
+                                        parentId={variableId}
+                                        variableId={i}
+                                    />
+                                </div>
+                            ))
+                        }
+                    </Accordion>
+                </Accordion.Body>
+            </Accordion.Item>
+        </Accordion>
+        )}
 </Layout>

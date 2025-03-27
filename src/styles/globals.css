@@ -1,12 +1,16 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8f9fa;
+  --foreground: #212529;
+  --primary: #007bff;
+  --secondary: #6c757d;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #121212;
+    --foreground: #e9ecef;
+    --primary: #0d6efd;
+    --secondary: #adb5bd;
   }
 }
 
@@ -19,10 +23,11 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scrollbar-width:none;
+  scrollbar-width: thin;
 }
 
 * {
@@ -32,8 +37,12 @@ body {
 }
 
 a {
-  color: inherit;
+  color: var(--primary);
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,6 +55,6 @@ a {
   margin: auto;
 }
 
-.carousel *{
+.carousel * {
   max-height: inherit;
 }

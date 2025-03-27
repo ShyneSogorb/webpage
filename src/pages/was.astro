@@ -1,25 +1,49 @@
 ---
 import DocumentationPage from "../components/DocumentationPage.astro";
-import Layout from "../layouts/Layout.astro";
+import PersonalLayout from "../layouts/PersonalLayout.astro";
 ---
 
-<Layout>
-    <DocumentationPage />
-    <div>
-        <h3>Attributions</h3>
-        <div>
-            <p>
-                <a href="https://www.flaticon.com/free-icons/gun" title="gun icons">Gun icons created by Freepik - Flaticon</a>
-            </p>
-            <p>
-                <a href="https://www.flaticon.com/free-icons/technology" title="technology icons">Technology icons created by Freepik - Flaticon</a>
-            </p>
-        </div>
+<PersonalLayout title="Weapon Assembly System" subtitle="Unreal Engine Plugin">
+    <div class="container">
+        <h1 class="display-4 text-center mb-4">Weapon Assembly System</h1>
+        <p class="lead text-justify">
+            The Weapon Assembly System is a plugin for Unreal Engine that allows you to create modular weapons. It is designed to be easy to use and flexible, enabling you to create a wide variety of weapons with different parts and configurations.
+        </p>
+        <DocumentationPage />
+        <section class="attributions mt-5">
+            <h3>Attributions</h3>
+            <ul>
+                <li>
+                    <a href="https://www.flaticon.com/free-icons/gun" title="gun icons" target="_blank" rel="noopener noreferrer">
+                        Gun icons created by Freepik - Flaticon
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.flaticon.com/free-icons/technology" title="technology icons" target="_blank" rel="noopener noreferrer">
+                        Technology icons created by Freepik - Flaticon
+                    </a>
+                </li>
+            </ul>
+        </section>
     </div>
-</Layout>
+</PersonalLayout>
 
 <style>
-    * a{
+    a {
         color: black;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .attributions ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .attributions li {
+        margin-bottom: 0.5rem;
     }
 </style>

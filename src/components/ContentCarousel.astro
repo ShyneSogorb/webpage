@@ -25,8 +25,10 @@ const id = 'CarouselProjectsDisplay';
 
 ---
 <style>
-  .caption{
-    color: aqua;
+  :global(.carousel-control-next-icon, .carousel-control-prev-icon) {
+    background-color: grey;
+    border-radius: 100%;
+    color: var(--background);
   }
 </style>
 
@@ -50,5 +52,6 @@ const id = 'CarouselProjectsDisplay';
       ))
     }
   </Carousel.Inner>
-  <Carousel.Controls id={id} />
+  <Carousel.Controls id={id} class:list={["carousel-control-caca"]} />
 </Carousel>
+

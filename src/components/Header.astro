@@ -1,20 +1,31 @@
 ---
-import HeaderBar from "./navbar/headerBar.astro"
+import HeaderBar from "./header/headerBar.astro";
+const {title, subtitle} = Astro.props;
 
 ---
 
-
-
-<!-- <header class="d-flex flex-column justify-content-center pt-2 mb-2 w-100" style={{backgroundColor :"rgb(161, 205, 255)"}}> -->
-<header class="d-flex flex-column justify-content-center pt-2 mb-2 w-100 bg-primary">
+<header class="header-container">
   <div class="text-center py-2 mt-5">
-    <h1>Kingsley Shyne Mattis Sogorb</h1>
+    <h1 class="header-title">{title}</h1>
+    <h2 class="header-subtitle">{subtitle}</h2>
   </div>
   <div class="text-center">
-    <h2>Video Game Programmer</h2>
-  </div>
-    <div class="text-center">
-      <HeaderBar>
-      </HeaderBar>
+    <HeaderBar />
   </div>
 </header>
+
+<style>
+  .header-container {
+    background-color: var(--primary);
+    color: var(--foreground);
+    padding: 2rem 0;
+  }
+  .header-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .header-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+</style>

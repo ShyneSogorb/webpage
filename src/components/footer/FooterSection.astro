@@ -1,21 +1,32 @@
 ---
-const {Title, Reference} = Astro.props
+const { Title, Reference } = Astro.props;
 ---
 
 <div class="col mb-3 text-center">
-    <p> { Title } </p>
-    <ul class="nav flex-column">
+  <h5 class="footer-title">{Title}</h5>
+  <ul class="nav flex-column">
     {
-        Reference.map((v, i)=>{
-        return (
-            <li key={i} class="nav-item mb-2">
-            <a class="nav-link p-0 text-center text-white" 
-            href={v.href} target="_blank">
-                {v.name}
-            </a>
-            </li>
-        )
-    })
+      Reference.map((v, i) => (
+        <li key={i} class="nav-item mb-2">
+          <a class="nav-link p-0 text-center text-white" href={v.href} target="_blank">
+            {v.name}
+          </a>
+        </li>
+      ))
     }
-    </ul>
+  </ul>
 </div>
+
+<style>
+  .footer-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .nav-link {
+    color: var(--foreground);
+  }
+  .nav-link:hover {
+    color: var(--primary);
+  }
+</style>

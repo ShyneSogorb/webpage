@@ -7,22 +7,20 @@ import ProjectsDropdown from './ProjectsDropdown.astro';
 ---
 
 <style>
-    :global(.nav-item > *){
-        color: black;
+    :global(.nav-item > *) {
+        color: var(--foreground);
     }
-    :global(.nav-item > *:hover){
+    :global(.nav-item > *:hover) {
         border-radius: 10px;
-        border: 1px solid black;
-        background-color:  darkblue;
-    }
-    :global(.nav-item > a:hover){
-        color: lightblue;
+        border: 1px solid var(--foreground);
+        background-color: var(--primary);
+        color: var(--background);
     }
 </style>
 
-<Nav class='d-flex justify-content-evenly align-items-center p-1'>
+<Nav class="d-flex justify-content-evenly align-items-center p-1">
     <li class="nav-item">
-        <a href="/" class="nav-link">Home</a>
+        <a href="/webpage" class="nav-link">Home</a>
     </li>
     <li class="nav-item">
         <ProjectsDropdown />

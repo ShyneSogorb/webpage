@@ -1,13 +1,22 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import PersonalLayout from '../layouts/PersonalLayout.astro';
 
-//import '../styles/globals.css';
-import Carousel from '../components/ContentCarousel.astro';
 import Me from '../components/Me.astro';
+import MyProjects from '../components/MyProjects.astro';
 
 ---
 
-<Layout>
-    <Carousel></Carousel>
+<PersonalLayout title="Kingsley Shyne Mattis Sogorb" subtitle="Video Game Programmer">
+  <section class="about-section">
     <Me></Me>
-</Layout>
+  </section>
+  <section class="carousel-section">
+    <MyProjects></MyProjects>
+  </section>
+</PersonalLayout>
+
+<style>
+  .about-section, .carousel-section {
+    padding: 2rem 0;
+  }
+</style>

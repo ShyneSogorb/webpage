@@ -1,18 +1,55 @@
 ---
-import DocClass from "../../components/documentation/DocClass.astro"
-import Layout from "../../layouts/Layout.astro";
-import data from "/src/JSON/was.documentation.json"
+import DocClass from "../../components/documentation/DocClass.astro";
+import PersonalLayout from "../../layouts/PersonalLayout.astro";
+import type { IClassDocumentation } from "../../utils/IDocumentation";
+import json from "/src/JSON/was.documentation.json";
 
-import { Accordion } from 'astro-bootstrap';
-const id = 'manualAccordion'
+const data: IClassDocumentation[] = json as IClassDocumentation[];
 
-
+const id = "manualAccordion";
 ---
 
-<Layout>
-<Accordion id={id}>
-    {data.map((classData: any, i: number)=>(
-        <DocClass {classData} classId={i} parentId={id}></DocClass>
-    ))}
-</Accordion>
-</Layout>
+<PersonalLayout title="Weaponry Assembly System" subtitle="Visual scripting framework for creating modular weapons">
+    <div class="container bg-light p-4 rounded">
+        <div class="documentation-list">
+            <ul>
+                {data.map((docClass) => (
+                <li class="doc-item">
+                    <a class="doc-link" href={`${Astro.url}/${docClass.name}`}>
+                        {docClass.name}
+                    </a>
+                </li>
+                ))}
+            </ul>
+        </div>
+    </div>
+</PersonalLayout>
+
+<style>
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        font-family: Arial, sans-serif;
+    }
+
+    .documentation-list ul {
+        /* list-style: none; */
+        padding: 0;
+    }
+
+    .doc-item {
+        margin: 0.5rem 0;
+    }
+
+    .doc-link {
+        text-decoration: none;
+        color: #000000;
+        font-size: 1.1rem;
+        transition: color 0.3s ease;
+    }
+
+    .doc-link:hover {
+        color: #005f99;
+    }
+</style>

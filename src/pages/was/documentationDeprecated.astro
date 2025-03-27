@@ -1,0 +1,18 @@
+---
+import DocClass from "../../components/documentation/DocClass.astro"
+import PersonalLayout from "../../layouts/PersonalLayout.astro";
+import data from "/src/JSON/was.documentation.json"
+
+import { Accordion } from 'astro-bootstrap';
+const id = 'manualAccordion'
+
+
+---
+
+<PersonalLayout>
+<Accordion id={id}>
+    {data.map((classData: any, i: number)=>(
+        <DocClass {classData} classId={i} parentId={id}></DocClass>
+    ))}
+</Accordion>
+</PersonalLayout>
