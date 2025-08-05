@@ -1,8 +1,59 @@
 ---
 import DocumentationPage from "../components/DocumentationPage.astro";
 import PersonalLayout from "../layouts/PersonalLayout.astro";
+
+const Features = [
+    "A robust and adaptable Health component.",
+    "As many armors as needed.",
+    "Easy to create and modify weapons with a base weapon and it's two sub-classes for melee and fire weapon",
+    "Spawn bullets with a low latency with the bullet pool system.",
+    "Have detailed simulations for bullets with ricocchete and penetration effects based on the surface",
+    "Spawn effects with a pre-integrated randomizer",
+    "Build in settings to allow the effects to adapt to the user requirements",
+    "All written in c++ and exposed to blueprints for better performance.",
+];
+
+const Modules = [
+    "Core: The main module, containing the core functionality.",
+    "Weapons: The weapons module, containing the weapon component and the weapon classes.",
+    "Health: The health module, containing the health component and the armor classes.",
+    "Weapons (Editor): The weapons editor module, containing the weapons editor classes.",
+    "Effects: The FX module, containing the FX classes.",
+];
 ---
 
-<PersonalLayout title="Advanced Combat System" subtitle="Unreal Engine free plugin">
-    <DocumentationPage />
+<PersonalLayout
+    title="Advanced Combat System"
+    subtitle="Unreal Engine free plugin"
+>
+    <div class="container rounded bg-light bg-opacity-75 p-4 mt-5 mb-5">
+        <div>
+            <p class="text-center">
+                A free plugin for Unreal Engine that allows you to create
+                complex weapons and damage events with ease.
+            </p>
+            <p>
+                This plugin contains functionallity to easilly create new
+                weapons, damage events, armor, realistic bullets, optimized
+                bullet generation, easy to use FX and facilities. Create a new
+                weapon requieres just a bit of simple programming in blueprints,
+                or none at all if you use the bullets from the demo.
+            </p>
+        </div>
+        <div>
+            Features:
+            <ul>
+                {Features.map((feature) => <li>{feature}</li>)}
+            </ul>
+        </div>
+
+        <div>
+            Modules:
+            <ul>
+                {Modules.map((module) => <li>{module}</li>)}
+            </ul>
+        </div>
+
+        <DocumentationPage />
+    </div>
 </PersonalLayout>

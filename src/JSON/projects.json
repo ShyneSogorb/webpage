@@ -19,10 +19,17 @@
         "shortDescription": "A novel about a fantasy world where hero and antihero must collab for convenience."
     },
     {
-        "href": "https://www.fab.com/listings/",
-        "name": "Weapon Advaced System",
+        "href": "https://www.fab.com/portal/listings/7adcd104-9f77-450a-b35f-dde15241e335",
+        "name": "Weaponry Assembly System",
         "short": "WAS",
         "type": "Unreal Plugin",
-        "shortDescription": "Allows the creation of modular flexible weapons with its own editor and default implementation"
+        "shortDescription": "Allows the creation of modular flexible weapons with its own editor and default implementation",
+        "attributions": [
+            {
+                "href": "https://www.linkedin.com/in/juan-manuel-blanco-araujo-677024292/",
+                "title": "Icon made by Juan Manuel Blanco Araujo",
+                "text": "Logo created by Juan Manuel Blanco Araujo"
+            }
+        ]
     }
 ]

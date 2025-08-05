@@ -8,6 +8,8 @@ const { comment, umacro } = funct;
 
 const functLine =
     funct.return_type + " " + funct.name + "(" + funct.parameters + ")";
+
+const functHref = Astro.url.href + "-" + funct.name;
 ---
 
 <Accordion.Item>
@@ -15,6 +17,7 @@ const functLine =
         >{funct.name}</Accordion.Header
     >
     <Accordion.Body parent={parentId} index={functionId} show>
+        <div>
         <div>
             <b>Declaration:</b>
             {functLine}
@@ -36,5 +39,7 @@ const functLine =
                 </p>
             )
         }
+        <!-- @TODO <a href={functHref}>Details</a> -->
+        </div>
     </Accordion.Body>
 </Accordion.Item>

@@ -1,49 +1,63 @@
 ---
+import Attributions from "../components/Attributions.astro";
 import DocumentationPage from "../components/DocumentationPage.astro";
 import PersonalLayout from "../layouts/PersonalLayout.astro";
+
+//import data from "src/JSON/projects.json";
+import projects from "/src/JSON/projects.json";
+
+
+const {attributions} = projects.find((item) => item.short?.toLowerCase()  === "was");
+
+const Features = [
+    "Fully functional modular weapon system",
+    "Custom node-based editor for intuitive weapon creation",
+    "Extendable via Blueprint and C++ custom nodes",
+    "Pre-built functional weapon component for fast results",
+    "Future-ready design for cross-plugin ecosystem expansion",
+    "Easy to integrate with multiplayer/network systems (not built-in by default)",
+]
+
+const Modules = [
+    "WASRuntime: The main module, containing the core functionality.",
+    "WASEditor: The editor module, containing the editor classes.",
+]
+
+
 ---
 
-<PersonalLayout title="Weapon Assembly System" subtitle="Unreal Engine Plugin">
-    <div class="container">
-        <h1 class="display-4 text-center mb-4">Weapon Assembly System</h1>
-        <p class="lead text-justify">
-            The Weapon Assembly System is a plugin for Unreal Engine that allows you to create modular weapons. It is designed to be easy to use and flexible, enabling you to create a wide variety of weapons with different parts and configurations.
-        </p>
-        <DocumentationPage />
-        <section class="attributions mt-5">
-            <h3>Attributions</h3>
+<PersonalLayout title="Weaponry Assembly System" subtitle="Unreal Engine Plugin">
+    <div class="container bg-light p-3 rounded-3">
+        <div class="lead text-justify">
+            <p>Create fully modular and customizable weapons with ease using this robust plugin and its dedicated node-based weapon editor. Design weapons as complex or as simple as your project needs—quickly prototype or build complete weapon systems similar to those seen in Fallout 4 or Metro Exodus.</p>
+            <p>The plugin includes a ready-to-use weapon component that handles essential weapon logic out of the box, making testing and iteration fast and efficient.</p>
+            <p>This system is designed to be extensible, supporting both Blueprint and C++ custom nodes, making it flexible for any production scale - from indie projects to AAA.</p>
+        </div>
+
+        <div>
+            Features:
             <ul>
-                <li>
-                    <a href="https://www.flaticon.com/free-icons/gun" title="gun icons" target="_blank" rel="noopener noreferrer">
-                        Gun icons created by Freepik - Flaticon
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.flaticon.com/free-icons/technology" title="technology icons" target="_blank" rel="noopener noreferrer">
-                        Technology icons created by Freepik - Flaticon
-                    </a>
-                </li>
+                {Features.map((feature) => (
+                    <li>{feature}</li>
+                ))}
             </ul>
-        </section>
+        </div>
+
+        <div>
+            Modules:
+            <ul>
+                {Modules.map((module) => (
+                    <li>{module}</li>
+                ))}
+            </ul>
+        </div>
+        <div>
+            <div class="text-center mb-3">
+                <p>Tutorial</p>
+                <iframe id="player" width="560" height="315" src="https://www.youtube.com/embed/_x48Fy006WY?si=jA_oo2Xr6TRO7qvL" title="Weaponry Assembly System Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
+            </div>
+            <DocumentationPage />
+        </div>
+        <Attributions {attributions} />
     </div>
 </PersonalLayout>
-
-<style>
-    a {
-        color: black;
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
-    .attributions ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    .attributions li {
-        margin-bottom: 0.5rem;
-    }
-</style>

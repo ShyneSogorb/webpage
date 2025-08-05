@@ -1,11 +1,15 @@
 ---
-import DocFunction from '../../../components/documentation/DocFunction.astro';
-import Layout from '../../../layouts/Layout.astro';
-import type { IClassDocumentation, IFunctionDocumentation, IVariableDocumentation } from '../../../utils/IDocumentation';
+import DocFunction from "../../../components/documentation/DocFunction.astro";
+import Layout from "../../../layouts/Layout.astro";
+import type {
+    IClassDocumentation,
+    IFunctionDocumentation,
+    IVariableDocumentation,
+} from "../../../utils/IDocumentation";
 
 import { Accordion } from "astro-bootstrap";
-import json from "/src/JSON/was.documentation.json"
-import DocVariable from '../../../components/documentation/DocVariable.astro';
+import json from "/src/JSON/was.documentation.json";
+import DocVariable from "../../../components/documentation/DocVariable.astro";
 
 const { tag } = Astro.params;
 
@@ -17,86 +21,126 @@ const functionAccordion = "functionAccordion";
 const variableId = "VariablesId";
 const variableAccordion = "variableAccordion";
 
-const classData = data.find((classData: IClassDocumentation) => classData.name === tag);
+const classData = data.find(
+    (classData: IClassDocumentation) => classData.name === tag,
+);
 
-const {functions} = classData;
-const {variables} = classData;
+const isClass = !!classData;
+
+const { functions } = classData;
+const { variables } = classData;
 
 export function getStaticPaths() {
-  return json.map((classData: IClassDocumentation, i: number) => {
-    return [
-      {
-      params: {
-        tag: classData.name
-        }
-      },
-        ...classData.functions.map((funct: IFunctionDocumentation, i: number) => {
-            return {
-            params: {
-                tag: classData.name+"-"+funct.name
-                }
-            }
-        }).flat(),
-        ...classData.variables.map((vrb: IVariableDocumentation, i: number) => {
-            return {
-            params: {
-                tag: classData.name+"-"+vrb.name
-                }
-            }
-        }).flat(),
-    ]
-  }).flat()
+    return json
+        .map((classData: IClassDocumentation, i: number) => {
+            return [
+                {
+                    params: {
+                        tag: classData.name,
+                    },
+                },
+                // ...classData.functions
+                //     .map((funct: IFunctionDocumentation, i: number) => {
+                //         return {
+                //             params: {
+                //                 tag: classData.name + "-" + funct.name,
+                //             },
+                //         };
+                //     })
+                //     .flat(),
+                // ...classData.variables
+                //     .map((vrb: IVariableDocumentation, i: number) => {
+                //         return {
+                //             params: {
+                //                 tag: classData.name + "-" + vrb.name,
+                //             },
+                //         };
+                //     })
+                //     .flat(),
+            ];
+        })
+        .flat();
 }
-
-
 ---
+
 <Layout pageTitle={tag}>
-  {!!functions.length && (
-    <Accordion id={functionAccordion}>
-        <Accordion.Item>
-            <Accordion.Header parent={functionAccordion} index={0}>
-                Functions
-            </Accordion.Header>
-            <Accordion.Body parent={functionAccordion} index={0} show>
-                <Accordion id={functionId}>
-                    {
-                        functions.map((funct: IFunctionDocumentation, i: number) => (
-                            <div>
-                                <DocFunction
-                                    {funct}
-                                    parentId={functionId}
-                                    functionId={i}
-                                />
-                            </div>
-                        ))
-                    }
-                </Accordion>
-            </Accordion.Body>
-        </Accordion.Item>
-    </Accordion>
-    )}
-      {!!variables.length && (
-        <Accordion id={variableAccordion}>
-            <Accordion.Item>
-                <Accordion.Header parent={variableAccordion} index={0}>
-                  Variables
-                </Accordion.Header>
-                <Accordion.Body parent={variableAccordion} index={0} show>
-                    <Accordion id={variableId}>
-                        {
-                            variables.map((variable: IVariableDocumentation, i: number) => (
-                                <div>
-                                    <DocVariable
-                                        {variable}
-                                        parentId={variableId}
-                                        variableId={i}
-                                    />
-                                </div>
-                            ))
-                        }
+    {
+        isClass ? (
+            <div>
+                {!!functions.length && (
+                    <Accordion id={functionAccordion}>
+                        <Accordion.Item>
+                            <Accordion.Header
+                                parent={functionAccordion}
+                                index={0}
+                            >
+                                Functions
+                            </Accordion.Header>
+                            <Accordion.Body
+                                parent={functionAccordion}
+                                index={0}
+                                show
+                            >
+                                <Accordion id={functionId}>
+                                    {functions.map(
+                                        (
+                                            funct: IFunctionDocumentation,
+                                            i: number,
+                                        ) => (
+                                            <div>
+                                                <DocFunction
+                                                    {funct}
+                                                    parentId={functionId}
+                                                    functionId={i}
+                                                />
+                                            </div>
+                                        ),
+                                    )}
+                                </Accordion>
+                            </Accordion.Body>
+                        </Accordion.Item>
                     </Accordion>
-                </Accordion.Body>
-            </Accordion.Item>
-        </Accordion>
-        )}
+                )}
+                {!!variables.length && (
+                    <Accordion id={variableAccordion}>
+                        <Accordion.Item>
+                            <Accordion.Header
+                                parent={variableAccordion}
+                                index={0}
+                            >
+                                Variables
+                            </Accordion.Header>
+                            <Accordion.Body
+                                parent={variableAccordion}
+                                index={0}
+                                show
+                            >
+                                <Accordion id={variableId}>
+                                    {variables.map(
+                                        (
+                                            variable: IVariableDocumentation,
+                                            i: number,
+                                        ) => (
+                                            <div>
+                                                <DocVariable
+                                                    {variable}
+                                                    parentId={variableId}
+                                                    variableId={i}
+                                                />
+                                            </div>
+                                        ),
+                                    )}
+                                </Accordion>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                )}
+            </div>
+        ) : (
+            <div class="text-center">
+                <h1 class="text-center">{tag}</h1>
+                <DocFunction function={functions[0]} parentId={functionId} />
+            </div>
+        )
+    }
 </Layout>

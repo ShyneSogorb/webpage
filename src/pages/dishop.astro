@@ -1,9 +1,35 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import PersonalLayout from "../layouts/PersonalLayout.astro";
+
+const Features = [
+    "Immersive Exploration",
+    "Engaging Challenges",
+    "Advanced AI",
+    "Tactical Arsenal",
+    "Experience Advanced Features"
+]
+
 ---
 
 <PersonalLayout title="Dishop" subtitle="Unreal Engine project">
-    <h1>Dishop</h1>
-    <p>Unreal Engine project.</p>
+    <div class="container bg-light p-4 rounded shadow-sm">
+
+        <p>
+            In the year 2063, human civilization teeters on the brink of collapse as the world descends into a devastating chaos, wrought by resource scarcity, relentless warfare, and rampant pollution. However, tragedy reaches new dimensions when an unexpected event ravages the Earth...<br />
+            <a href="https://dishop.avtrixgames.com/#story">continue reading</a>
+        </p>
+
+        <p>
+            Game features:
+            <ul>
+            {Features.map((feature) => (
+                <li>{feature}</li>
+            ))}
+            <li><a href="https://dishop.avtrixgames.com/the-features/">View details</a></li>
+            </ul>
+        </p>
+
+
+    </div>
 </PersonalLayout>

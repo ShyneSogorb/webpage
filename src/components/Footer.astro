@@ -2,13 +2,13 @@
 import FooterSection from "./footer/FooterSection.astro";
 
 import MyProjects from "/src/JSON/projects.json";
-import MySocials from "/src/JSON/social.json";
+import FindMe from "/src/JSON/FindMe.json";
 
 ---
 
 <div class="footer-container m-0 mt-2">
   <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top bg-dark text-white mx-0">
-    <FooterSection Title="Social" Reference={MySocials}></FooterSection>
+    <FooterSection Title="Find me in" Reference={FindMe}></FooterSection>
     <FooterSection Title="Projects" Reference={MyProjects}></FooterSection>
   </footer>
 </div>
