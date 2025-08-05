@@ -1,5 +1,6 @@
 ---
 import DocumentationPage from "../components/DocumentationPage.astro";
+import GenericImage from "../components/GenericImage.astro";
 import PersonalLayout from "../layouts/PersonalLayout.astro";
 
 const Features = [
@@ -26,12 +27,16 @@ const Modules = [
     title="Advanced Combat System"
     subtitle="Unreal Engine free plugin"
 >
-    <div class="container rounded bg-light bg-opacity-75 p-4 mt-5 mb-5">
+    <div class="container rounded bg-opacity-75 p-4 mt-5 mb-5">
         <div>
             <p class="text-center">
                 A free plugin for Unreal Engine that allows you to create
                 complex weapons and damage events with ease.
             </p>
+            <GenericImage
+                project="acs"
+                alt="Advanced Combat System Plugin Logo Image"
+            />
             <p>
                 This plugin contains functionallity to easilly create new
                 weapons, damage events, armor, realistic bullets, optimized

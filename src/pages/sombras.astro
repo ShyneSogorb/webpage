@@ -1,9 +1,10 @@
 ---
 import PersonalLayout from "../layouts/PersonalLayout.astro";
+import GenericImage from "../components/GenericImage.astro";
 ---
 
 <PersonalLayout title="Sombras" subtitle="Dark fantasy novel">
-    <section class="about-section bg-dark text-light py-5">
+    <section class="about-section text-light py-5">
         <div class="container">
             <h1 class="display-4 text-center mb-4">Sombras</h1>
             <p class="lead text-justify">
@@ -14,11 +15,10 @@ import PersonalLayout from "../layouts/PersonalLayout.astro";
                 difficult choices.
             </p>
             <div class="text-center mb-4">
-                <img
-                    src="public/images/0.sombras.jpg"
-                    alt="Sombras Book Cover"
-                    class="img-fluid rounded mb-3"
-                    style="max-width: 300px;" />
+                <GenericImage
+                    project="sombras"
+                    alt="Sombras Novel Cover"
+                    />
                 <p>
                     <b>"Sombras"</b> invites you into a world of mystery, magic,
                     and untold secrets. Step into an intricate fantasy realm where

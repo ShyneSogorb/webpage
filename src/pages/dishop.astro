@@ -1,4 +1,5 @@
 ---
+import GenericImage from "../components/GenericImage.astro";
 import Layout from "../layouts/Layout.astro";
 import PersonalLayout from "../layouts/PersonalLayout.astro";
 
@@ -13,12 +14,14 @@ const Features = [
 ---
 
 <PersonalLayout title="Dishop" subtitle="Unreal Engine project">
-    <div class="container bg-light p-4 rounded shadow-sm">
+    <div class="container p-4 rounded shadow-sm">
 
         <p>
             In the year 2063, human civilization teeters on the brink of collapse as the world descends into a devastating chaos, wrought by resource scarcity, relentless warfare, and rampant pollution. However, tragedy reaches new dimensions when an unexpected event ravages the Earth...<br />
             <a href="https://dishop.avtrixgames.com/#story">continue reading</a>
         </p>
+
+        <GenericImage project="dishop" alt="Dishop Project Logo Image" />
 
         <p>
             Game features:
