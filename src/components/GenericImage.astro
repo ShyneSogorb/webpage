@@ -1,0 +1,12 @@
+---
+const {project, alt} = Astro.props;
+---
+
+<p class="text-center mb-3">
+    <img
+    src=`public/images/0.${project}.jpg`
+    alt={alt}
+    class="img-fluid rounded mb-3 margin-auto"
+    style="max-width: 600px; max-height: 400px; width: auto; height: auto;" 
+    />
+</p>

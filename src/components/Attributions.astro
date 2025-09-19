@@ -1,0 +1,48 @@
+---
+
+const { attributions } = Astro.props;
+
+---
+
+<section class="attributions mt-5">
+    <h3>Attributions</h3>
+    <ul>
+        {
+            attributions.map((item, i) => (
+                <li key={i}>
+                    <a href={item.href} title={item.title} target="_blank" rel="noopener noreferrer">
+                        {item.text}
+                    </a>
+                </li>
+            ))
+        }
+    </ul>
+</section>
+
+<style>
+
+
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    @media (prefers-color-scheme: dark) {
+    * a {
+        color: #dcb;
+    }
+
+    .attributions ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .attributions li {
+        margin-bottom: 0.5rem;
+    }
+</style>
