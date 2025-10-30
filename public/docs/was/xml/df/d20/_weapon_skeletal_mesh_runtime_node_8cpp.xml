@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="df/d20/_weapon_skeletal_mesh_runtime_node_8cpp" kind="file" language="C++">
+    <compoundname>WeaponSkeletalMeshRuntimeNode.cpp</compoundname>
+    <includes refid="d1/d98/_weapon_skeletal_mesh_runtime_node_8h" local="yes">Nodes/ComponentsNodes/WeaponSkeletalMeshRuntimeNode.h</includes>
+    <includes refid="de/d35/_weapon_runtime_pin_8h" local="yes">WeaponRuntimePin.h</includes>
+    <includes refid="d0/df9/_node_pin_compatibility_8h" local="yes">Miscellaneous/NodePinCompatibility.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/ComponentsNodes/WeaponSkeletalMeshRuntimeNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponRuntimePin.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/NodePinCompatibility.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">TPersistantArray&lt;UPrimitiveComponent&gt;<sp/><ref refid="d2/db5/class_u_weapon_skeletal_mesh_runtime_node_1a8f077969acc59d653062d0f8c61a2eb5" kindref="member">UWeaponSkeletalMeshRuntimeNode::CreateAndAttachObject</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="10"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="df/d3f/class_u_weapon_component_runtime_node_1ace0ec216df9de61a8096e6c7d1e325b1" kindref="member">CreateAndAttachObjectTemplated</ref>(USkeletalMeshComponent::StaticClass());</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d2/db5/class_u_weapon_skeletal_mesh_runtime_node_1a75595223d55ab53fad23423e375b1045" kindref="member">UWeaponSkeletalMeshRuntimeNode::BuildPrimitive</ref>(USkeletalMeshComponent*<sp/>Component,<sp/>UObject*<sp/>Object)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="15"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>Component-&gt;SetSkeletalMesh((USkeletalMesh*)Object);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponSkeletalMeshRuntimeNode::UpdateCompatibility(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bForce)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::UpdateCompatibility(bForce);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bForce<sp/>||<sp/>!<ref refid="de/dde/class_u_weapon_runtime_node_1a9f8a497d1a33609fcd7e05fed301991c" kindref="member">OutputPin</ref>-&gt;Compatibility)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a9f8a497d1a33609fcd7e05fed301991c" kindref="member">OutputPin</ref>-&gt;Compatibility<sp/>=<sp/>MakeShared&lt;FNodePinObject&gt;(USkeletalMeshComponent::StaticClass());</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponSkeletalMeshRuntimeNode.cpp"/>
+  </compounddef>
+</doxygen>

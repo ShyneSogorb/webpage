@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d2/db8/_type_definition_8h" kind="file" language="C++">
+    <compoundname>TypeDefinition.h</compoundname>
+    <includes local="yes">Misc/TVariant.h</includes>
+    <includes local="yes">Containers/Array.h</includes>
+    <includes local="yes">Misc/Optional.h</includes>
+    <includes local="yes">UObject/StrongObjectPtr.h</includes>
+    <includedby refid="d6/de3/_weapon_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeNode.h</includedby>
+    <includedby refid="de/d35/_weapon_runtime_pin_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimePin.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h</label>
+        <link refid="d2/db8/_type_definition_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Containers/Array.h</label>
+      </node>
+      <node id="4">
+        <label>Misc/Optional.h</label>
+      </node>
+      <node id="2">
+        <label>Misc/TVariant.h</label>
+      </node>
+      <node id="5">
+        <label>UObject/StrongObjectPtr.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d7/dcd/struct_f_any_numeric_wrapper" prot="public">FAnyNumericWrapper</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="d2/db8/_type_definition_8h_1ae6037ba784a0d597844aa1ca4cc15580" prot="public" static="no">
+        <type>TVariant&lt; double, float, int32, int64, uint8 &gt;</type>
+        <definition>using FAnyNumeric =  TVariant&lt;double, float, int32, int64, uint8&gt;</definition>
+        <argsstring></argsstring>
+        <name>FAnyNumeric</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="12" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d2/db8/_type_definition_8h_1ab49061a02a95ca5b43acee7db6ba30af" prot="public" static="no">
+        <type>std::tuple&lt; double, float, int32, int64, uint8 &gt;</type>
+        <definition>using FAnyNumericTypes =  std::tuple&lt;double, float, int32, int64, uint8&gt;</definition>
+        <argsstring></argsstring>
+        <name>FAnyNumericTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Variant type to hold different value types. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="11" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d2/db8/_type_definition_8h_1aa1fc3504992e1e14cb763f3945358f2e" prot="public" static="no">
+        <type>TVariant&lt; FAnyNumeric, FString, TPersistantArray&lt; UObject &gt; &gt;</type>
+        <definition>using FPinVariants =  TVariant&lt;FAnyNumeric, FString, TPersistantArray&lt;UObject&gt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>FPinVariants</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="36" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d2/db8/_type_definition_8h_1a87497eddcdd9b16bafc9e32b0aa81016" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>TArray&lt; TStrongObjectPtr&lt; T &gt; &gt;</type>
+        <definition>using TPersistantArray =  TArray&lt;TStrongObjectPtr&lt;T&gt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>TPersistantArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="34" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Misc/TVariant.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Containers/Array.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Misc/Optional.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;UObject/StrongObjectPtr.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">FAnyNumericTypes<sp/>=<sp/>std::tuple&lt;double,<sp/>float,<sp/>int32,<sp/>int64,<sp/>uint8&gt;;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">FAnyNumeric<sp/>=<sp/>TVariant&lt;double,<sp/>float,<sp/>int32,<sp/>int64,<sp/>uint8&gt;;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="d7/dcd/struct_f_any_numeric_wrapper" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d7/dcd/struct_f_any_numeric_wrapper" kindref="compound">FAnyNumericWrapper</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>FAnyNumeric<sp/><ref refid="d7/dcd/struct_f_any_numeric_wrapper_1ac4b6c2e340e80d11d877e1e48032a534" kindref="member">Variant</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dcd/struct_f_any_numeric_wrapper_1a1c72b5445dc823393a62897463405308" kindref="member">FAnyNumericWrapper</ref>(T<sp/>Value)<sp/>:<sp/><ref refid="d7/dcd/struct_f_any_numeric_wrapper_1ac4b6c2e340e80d11d877e1e48032a534" kindref="member">Variant</ref>(FAnyNumeric(TInPlaceType&lt;std::decay_t&lt;T&gt;&gt;(),<sp/>Value)){}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dcd/struct_f_any_numeric_wrapper_1a1c72b5445dc823393a62897463405308" kindref="member">FAnyNumericWrapper</ref>(FAnyNumeric&amp;&amp;<sp/>Value)<sp/>:<sp/><ref refid="d7/dcd/struct_f_any_numeric_wrapper_1ac4b6c2e340e80d11d877e1e48032a534" kindref="member">Variant</ref>(MoveTemp(Value)){}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dcd/struct_f_any_numeric_wrapper_1a1c72b5445dc823393a62897463405308" kindref="member">FAnyNumericWrapper</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FAnyNumeric&amp;<sp/>Value)<sp/>:<sp/><ref refid="d7/dcd/struct_f_any_numeric_wrapper_1ac4b6c2e340e80d11d877e1e48032a534" kindref="member">Variant</ref>(Value){}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dcd/struct_f_any_numeric_wrapper_1a1c72b5445dc823393a62897463405308" kindref="member">FAnyNumericWrapper</ref>()<sp/>:<sp/><ref refid="d7/dcd/struct_f_any_numeric_wrapper_1a1c72b5445dc823393a62897463405308" kindref="member">FAnyNumericWrapper</ref>(0){}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/>FAnyNumeric&amp;()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/dcd/struct_f_any_numeric_wrapper_1ac4b6c2e340e80d11d877e1e48032a534" kindref="member">Variant</ref>;}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FAnyNumeric&amp;<sp/>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/dcd/struct_f_any_numeric_wrapper_1ac4b6c2e340e80d11d877e1e48032a534" kindref="member">Variant</ref>;}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">TPersistantArray<sp/>=<sp/>TArray&lt;TStrongObjectPtr&lt;T&gt;&gt;;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">FPinVariants<sp/>=<sp/>TVariant&lt;FAnyNumeric,<sp/>FString,<sp/>TPersistantArray&lt;UObject&gt;&gt;;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h"/>
+  </compounddef>
+</doxygen>

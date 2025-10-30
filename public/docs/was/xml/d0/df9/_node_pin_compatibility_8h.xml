@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d0/df9/_node_pin_compatibility_8h" kind="file" language="C++">
+    <compoundname>NodePinCompatibility.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includedby refid="d7/dc5/_node_pin_compatibility_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Miscellaneous/NodePinCompatibility.cpp</includedby>
+    <includedby refid="de/d4b/_weapon_component_runtime_node_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponComponentRuntimeNode.cpp</includedby>
+    <includedby refid="d9/d8e/_weapon_niagara_runtime_node_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponNiagaraRuntimeNode.cpp</includedby>
+    <includedby refid="df/d20/_weapon_skeletal_mesh_runtime_node_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponSkeletalMeshRuntimeNode.cpp</includedby>
+    <includedby refid="df/dc5/_weapon_static_mesh_runtime_node_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponStaticMeshRuntimeNode.cpp</includedby>
+    <includedby refid="d4/d2f/_weapon_runtime_node_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/WeaponRuntimeNode.cpp</includedby>
+    <includedby refid="de/d35/_weapon_runtime_pin_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimePin.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/NodePinCompatibility.h</label>
+        <link refid="d0/df9/_node_pin_compatibility_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITORONLY_DATA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">FNodePinCompatibility</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsCompatibleWith(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FNodePinCompatibility&amp;<sp/>Other,<sp/>FString&amp;<sp/>Feedback)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsCompatibleWith(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FNodePinCompatibility&amp;<sp/>Other)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="17"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FString<sp/>Feedback;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>IsCompatibleWith(Other,<sp/>Feedback);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>TSharedPtr&lt;FNodePinCompatibility&gt;<sp/>Clone()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsSameTypeAs()<sp/>const<sp/>noexcept<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::is_same_v&lt;T,<sp/>std::decay_t&lt;</highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(*this)&gt;&gt;;}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="d9/d59/namespace_e_node_flow_1ace6412fad06b7d580460602bd5a84b55" kindref="member">Type</ref><sp/>{Base,<sp/>Numeric,<sp/>Object,<sp/>Wildcard}<sp/>TypeID;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d59/namespace_e_node_flow_1ace6412fad06b7d580460602bd5a84b55" kindref="member">Type</ref><sp/>GetType()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Type::Base;}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>FNodePinCompatibility(Type<sp/>InTypeID<sp/>=<sp/>Type::Base)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>TypeID(InTypeID)<sp/>{}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>FString<sp/>GetName()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetFName().ToString();<sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>FName<sp/>GetFName()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="36"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(TypeID)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>Type::Numeric:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Numeric&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>Type::Object:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Object&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>Type::Wildcard:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Wildcard&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Base&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetConnectionWith(FNodePinCompatibility&amp;<sp/>ConnectWith)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RemoveConnections()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~FNodePinCompatibility()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>FNodePinCompatibility(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FNodePinCompatibility&amp;<sp/>Other)<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">FNodePinNumeric<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>FNodePinCompatibility</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>FNodePinNumeric()</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>FNodePinCompatibility(<ref refid="d9/d59/namespace_e_node_flow_1ace6412fad06b7d580460602bd5a84b55" kindref="member">Type</ref>::Numeric)<sp/>{}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetConnectionWith(FNodePinCompatibility&amp;<sp/>ConnectWith)</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RemoveConnections()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsCompatibleWith(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FNodePinCompatibility&amp;<sp/>Other,<sp/>FString&amp;<sp/>Feedback)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>TSharedPtr&lt;FNodePinCompatibility&gt;<sp/>Clone()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>MakeShared&lt;FNodePinNumeric&gt;(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d59/namespace_e_node_flow_1ace6412fad06b7d580460602bd5a84b55" kindref="member">Type</ref><sp/>GetType()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Type::Numeric;}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">FNodePinObject<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>FNodePinCompatibility</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsCompatibleWith(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FNodePinCompatibility&amp;<sp/>Other,<sp/>FString&amp;<sp/>Feedback)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>TSharedPtr&lt;FNodePinCompatibility&gt;<sp/>Clone()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>MakeShared&lt;FNodePinObject&gt;(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetConnectionWith(FNodePinCompatibility&amp;<sp/>ConnectWith)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RemoveConnections()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{<sp/>ExpectedClass<sp/>=<sp/>DefaultExpectedClass;<sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>TSubclassOf&lt;UObject&gt;<sp/>ExpectedClass;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSubclassOf&lt;UObject&gt;<sp/>DefaultExpectedClass;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>FNodePinObject(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSubclassOf&lt;UObject&gt;&amp;<sp/>InExpectedClass)<sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>FNodePinCompatibility(<ref refid="d9/d59/namespace_e_node_flow_1ace6412fad06b7d580460602bd5a84b55" kindref="member">Type</ref>::Object),<sp/>ExpectedClass(InExpectedClass),<sp/>DefaultExpectedClass(InExpectedClass)<sp/>{}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>FNodePinObject()<sp/>:<sp/>FNodePinObject(T::StaticClass)<sp/>{}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>FNodePinObject()<sp/>:<sp/>FNodePinObject(UObject::StaticClass())<sp/>{};</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d59/namespace_e_node_flow_1ace6412fad06b7d580460602bd5a84b55" kindref="member">Type</ref><sp/>GetType()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Type::Object;}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">FNodePinWildcard<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>FNodePinCompatibility</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>FNodePinWildcard()</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>FNodePinCompatibility(<ref refid="d9/d59/namespace_e_node_flow_1ace6412fad06b7d580460602bd5a84b55" kindref="member">Type</ref>::Wildcard)<sp/>{}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsCompatibleWith(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FNodePinCompatibility&amp;<sp/>Other,<sp/>FString&amp;<sp/>Feedback)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>TSharedPtr&lt;FNodePinCompatibility&gt;<sp/>Clone()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;FNodePinCompatibility&gt;<sp/>Connection;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetConnectionWith(FNodePinCompatibility&amp;<sp/>ConnectWith)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RemoveConnections()</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{<sp/>Connection.Reset();<sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d59/namespace_e_node_flow_1ace6412fad06b7d580460602bd5a84b55" kindref="member">Type</ref><sp/>GetType()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Type::Wildcard;}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>To,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>From&gt;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>To*<sp/>CastCompatibility(From*<sp/>Ptr)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Ptr-&gt;TypeID<sp/>==<sp/>FNodePinCompatibility::Type::Base<sp/>||<sp/>To::GetType()<sp/>==<sp/>Ptr-&gt;TypeID)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">To*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(Ptr);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/NodePinCompatibility.h"/>
+  </compounddef>
+</doxygen>

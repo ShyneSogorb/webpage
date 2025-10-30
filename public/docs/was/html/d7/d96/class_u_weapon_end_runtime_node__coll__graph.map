@@ -1,0 +1,11 @@
+<map id="UWeaponEndRuntimeNode" name="UWeaponEndRuntimeNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,172,187,199"/>
+<area shape="rect" id="Node000002" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="116,81,274,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,121,112,173,108,169,167,117"/>
+<area shape="rect" id="Node000004" href="$dd/d5d/class_u_weapon_runtime_pin.html" title=" " alt="" coords="211,172,357,199"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="184,123,182,135,186,147,198,160,215,169,212,174,195,164,181,149,177,136,178,122"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="237,5,307,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="250,45,209,83,206,79,246,41"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="286,45,302,85,315,132,315,149,299,173,294,170,309,147,309,132,297,86,281,46"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="259,163,206,111,209,107,262,159"/>
+</map>

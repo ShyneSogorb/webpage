@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="db/d20/class_f_weapon_modificator_customization" kind="class" language="C++" prot="public">
+    <compoundname>FWeaponModificatorCustomization</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IPropertyTypeCustomization</basecompoundref>
+    <includes local="no">WeaponModificatorCustomization.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/d20/class_f_weapon_modificator_customization_1a112d1dac44af2b13c7242812c7f952fa" prot="private" static="no" mutable="no">
+        <type>TWeakPtr&lt; IPropertyUtilities &gt;</type>
+        <definition>TWeakPtr&lt;IPropertyUtilities&gt; FWeaponModificatorCustomization::CachedDetailBuilder</definition>
+        <argsstring></argsstring>
+        <name>CachedDetailBuilder</name>
+        <qualifiedname>FWeaponModificatorCustomization::CachedDetailBuilder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificatorCustomization.h" line="32" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificatorCustomization.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d20/class_f_weapon_modificator_customization_1a074af5a696e58aa1f692e5ee856b75bc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TSharedRef&lt; IPropertyTypeCustomization &gt;</type>
+        <definition>static TSharedRef&lt; IPropertyTypeCustomization &gt; FWeaponModificatorCustomization::MakeInstance</definition>
+        <argsstring>()</argsstring>
+        <name>MakeInstance</name>
+        <qualifiedname>FWeaponModificatorCustomization::MakeInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificatorCustomization.h" line="15" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificatorCustomization.h" bodystart="15" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d20/class_f_weapon_modificator_customization_1a8102476f16c41b0b361285fdaaac01d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWeaponModificatorCustomization::CustomizeChildren</definition>
+        <argsstring>(TSharedRef&lt; IPropertyHandle &gt; PropertyHandle, IDetailChildrenBuilder &amp;ChildBuilder, IPropertyTypeCustomizationUtils &amp;CustomizationUtils) override</argsstring>
+        <name>CustomizeChildren</name>
+        <qualifiedname>FWeaponModificatorCustomization::CustomizeChildren</qualifiedname>
+        <param>
+          <type>TSharedRef&lt; IPropertyHandle &gt;</type>
+          <declname>PropertyHandle</declname>
+        </param>
+        <param>
+          <type>IDetailChildrenBuilder &amp;</type>
+          <declname>ChildBuilder</declname>
+        </param>
+        <param>
+          <type>IPropertyTypeCustomizationUtils &amp;</type>
+          <declname>CustomizationUtils</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificatorCustomization.h" line="24" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/WeaponModificatorCustomization.cpp" bodystart="45" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d20/class_f_weapon_modificator_customization_1aadbde884b501985750d1054cdf46d0bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWeaponModificatorCustomization::CustomizeHeader</definition>
+        <argsstring>(TSharedRef&lt; IPropertyHandle &gt; PropertyHandle, FDetailWidgetRow &amp;HeaderRow, IPropertyTypeCustomizationUtils &amp;CustomizationUtils) override</argsstring>
+        <name>CustomizeHeader</name>
+        <qualifiedname>FWeaponModificatorCustomization::CustomizeHeader</qualifiedname>
+        <param>
+          <type>TSharedRef&lt; IPropertyHandle &gt;</type>
+          <declname>PropertyHandle</declname>
+        </param>
+        <param>
+          <type>FDetailWidgetRow &amp;</type>
+          <declname>HeaderRow</declname>
+        </param>
+        <param>
+          <type>IPropertyTypeCustomizationUtils &amp;</type>
+          <declname>CustomizationUtils</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificatorCustomization.h" line="20" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/WeaponModificatorCustomization.cpp" bodystart="16" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d20/class_f_weapon_modificator_customization_1a629991a1fbe992884ce56b7a03d67bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponModificatorCustomization::OnEnumObjectChanged</definition>
+        <argsstring>(const FAssetData &amp;AssetData)</argsstring>
+        <name>OnEnumObjectChanged</name>
+        <qualifiedname>FWeaponModificatorCustomization::OnEnumObjectChanged</qualifiedname>
+        <param>
+          <type>const FAssetData &amp;</type>
+          <declname>AssetData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificatorCustomization.h" line="28" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/WeaponModificatorCustomization.cpp" bodystart="114" bodyend="121"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FWeaponModificatorCustomization</label>
+        <link refid="db/d20/class_f_weapon_modificator_customization"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPropertyTypeCustomization</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FWeaponModificatorCustomization</label>
+        <link refid="db/d20/class_f_weapon_modificator_customization"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPropertyTypeCustomization</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificatorCustomization.h" line="10" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificatorCustomization.h" bodystart="11" bodyend="34"/>
+    <listofallmembers>
+      <member refid="db/d20/class_f_weapon_modificator_customization_1a112d1dac44af2b13c7242812c7f952fa" prot="private" virt="non-virtual"><scope>FWeaponModificatorCustomization</scope><name>CachedDetailBuilder</name></member>
+      <member refid="db/d20/class_f_weapon_modificator_customization_1a8102476f16c41b0b361285fdaaac01d8" prot="public" virt="virtual"><scope>FWeaponModificatorCustomization</scope><name>CustomizeChildren</name></member>
+      <member refid="db/d20/class_f_weapon_modificator_customization_1aadbde884b501985750d1054cdf46d0bc" prot="public" virt="virtual"><scope>FWeaponModificatorCustomization</scope><name>CustomizeHeader</name></member>
+      <member refid="db/d20/class_f_weapon_modificator_customization_1a074af5a696e58aa1f692e5ee856b75bc" prot="public" virt="non-virtual"><scope>FWeaponModificatorCustomization</scope><name>MakeInstance</name></member>
+      <member refid="db/d20/class_f_weapon_modificator_customization_1a629991a1fbe992884ce56b7a03d67bb4" prot="public" virt="non-virtual"><scope>FWeaponModificatorCustomization</scope><name>OnEnumObjectChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

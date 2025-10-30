@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d4/d11/struct_f_property_overrider_double" kind="struct" language="C++" prot="public">
+    <compoundname>FPropertyOverriderDouble</compoundname>
+    <basecompoundref refid="d1/d3d/struct_f_property_overrider_base" prot="public" virt="non-virtual">FPropertyOverriderBase</basecompoundref>
+    <includes local="no">PropertyOverriderBlueprints.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d4/d11/struct_f_property_overrider_double_1a1a63f7c181e9dd4192e8054d55e3f1dd" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::BaseValue</definition>
+        <argsstring></argsstring>
+        <name>BaseValue</name>
+        <qualifiedname>FPropertyOverriderDouble::BaseValue</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="127" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d11/struct_f_property_overrider_double_1af820f8d6a46af6fdd4a01c47f8484e49" prot="protected" static="no" mutable="yes">
+        <type>bool</type>
+        <definition>bool FPropertyOverriderDouble::bIsDirty</definition>
+        <argsstring></argsstring>
+        <name>bIsDirty</name>
+        <qualifiedname>FPropertyOverriderDouble::bIsDirty</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="138" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d11/struct_f_property_overrider_double_1a5fda6eaf879cea1690f6d2b1e61bdedd" prot="protected" static="no" mutable="yes">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::CachedValue</definition>
+        <argsstring></argsstring>
+        <name>CachedValue</name>
+        <qualifiedname>FPropertyOverriderDouble::CachedValue</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="133" column="16" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d11/struct_f_property_overrider_double_1a7973baf9cddb9d44f4336930e9b643e0" prot="protected" static="no" mutable="no">
+        <type>EOperator</type>
+        <definition>EOperator FPropertyOverriderDouble::OperatorExpression</definition>
+        <argsstring></argsstring>
+        <name>OperatorExpression</name>
+        <qualifiedname>FPropertyOverriderDouble::OperatorExpression</qualifiedname>
+        <initializer>= EOperator::Ignore</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="136" column="11" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d11/struct_f_property_overrider_double_1ac20927252ea7fcb0e3f2241e972a6de1" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::OperatorValue</definition>
+        <argsstring></argsstring>
+        <name>OperatorValue</name>
+        <qualifiedname>FPropertyOverriderDouble::OperatorValue</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="130" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1acab00b7ec8f5c19858ea09e228074e74" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FPropertyOverriderDouble::ClearDirty</definition>
+        <argsstring>() const</argsstring>
+        <name>ClearDirty</name>
+        <qualifiedname>FPropertyOverriderDouble::ClearDirty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="63" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1ae0cf78a65d0dec483b571b12fe0c2ecf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>__forceinline double</type>
+        <definition>__forceinline double FPropertyOverriderDouble::GetBaseValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBaseValue</name>
+        <qualifiedname>FPropertyOverriderDouble::GetBaseValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="1119" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1a9d70169ae6fac832279854bb98e50498" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>__forceinline bool</type>
+        <definition>__forceinline bool FPropertyOverriderDouble::GetbIsDirty</definition>
+        <argsstring>() const</argsstring>
+        <name>GetbIsDirty</name>
+        <qualifiedname>FPropertyOverriderDouble::GetbIsDirty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="1725" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1adcea05512a1a8b527b9738044b4e62a2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>__forceinline double</type>
+        <definition>__forceinline double FPropertyOverriderDouble::GetCachedValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCachedValue</name>
+        <qualifiedname>FPropertyOverriderDouble::GetCachedValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="1663" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1a484199035fb0acf1a3060ba21314e5ac" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>__forceinline EOperator</type>
+        <definition>__forceinline EOperator FPropertyOverriderDouble::GetOperatorExpression</definition>
+        <argsstring>() const</argsstring>
+        <name>GetOperatorExpression</name>
+        <qualifiedname>FPropertyOverriderDouble::GetOperatorExpression</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="1272" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1a176c7b742a8b89342c48077cbf04b4f7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>__forceinline double</type>
+        <definition>__forceinline double FPropertyOverriderDouble::GetOperatorValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetOperatorValue</name>
+        <qualifiedname>FPropertyOverriderDouble::GetOperatorValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="1485" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1ac0e1877515ec37e3529689724265342a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::GetOriginalValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetOriginalValue</name>
+        <qualifiedname>FPropertyOverriderDouble::GetOriginalValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="293" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1a4c01395f990c5c199e73b3febf772ff5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::GetValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetValue</name>
+        <qualifiedname>FPropertyOverriderDouble::GetValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="219" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1ac635fce0ebc3934b455b2b3bd34b4f2b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FPropertyOverriderDouble::MarkDirty</definition>
+        <argsstring>() const override</argsstring>
+        <name>MarkDirty</name>
+        <qualifiedname>FPropertyOverriderDouble::MarkDirty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1a6be4b46c4cc25818c393eba4f95dc02e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FPropertyOverriderDouble::operator double</definition>
+        <argsstring>() const</argsstring>
+        <name>operator double</name>
+        <qualifiedname>FPropertyOverriderDouble::operator double</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="1022" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1ab67f9cebc7ac0ac0fc7ca47ac8cf1310" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::operator%=</definition>
+        <argsstring>(const double &amp;InValue)</argsstring>
+        <name>operator%=</name>
+        <qualifiedname>FPropertyOverriderDouble::operator%=</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="895" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1a64c74d2763b036b3a664334dee2508a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::operator*</definition>
+        <argsstring>()</argsstring>
+        <name>operator*</name>
+        <qualifiedname>FPropertyOverriderDouble::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="1070" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1a9fa2ced7da0cde845281f136f2c444c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::operator*=</definition>
+        <argsstring>(const double &amp;InValue)</argsstring>
+        <name>operator*=</name>
+        <qualifiedname>FPropertyOverriderDouble::operator*=</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="678" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1a1f89521b441c209140bd762562e456fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::operator+=</definition>
+        <argsstring>(const double &amp;InValue)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>FPropertyOverriderDouble::operator+=</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="460" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1abfbe5de8dc9c6ef140322cd6342221d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::operator-=</definition>
+        <argsstring>(const double &amp;InValue)</argsstring>
+        <name>operator-=</name>
+        <qualifiedname>FPropertyOverriderDouble::operator-=</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="569" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1aadf8a5d9bdc0e299af9ce5543b3cc2db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::operator/=</definition>
+        <argsstring>(const double &amp;InValue)</argsstring>
+        <name>operator/=</name>
+        <qualifiedname>FPropertyOverriderDouble::operator/=</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="787" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1a0ac2018cb8d0186d9b89027ebf7b2686" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::operator=</definition>
+        <argsstring>(const double &amp;InValue)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>FPropertyOverriderDouble::operator=</qualifiedname>
+        <param>
+          <type>const double &amp;</type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="343" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1af3df91b92032c120814c58e98a1fcf3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FPropertyOverriderDouble::SetBaseValue</definition>
+        <argsstring>(double NewBaseValue)</argsstring>
+        <name>SetBaseValue</name>
+        <qualifiedname>FPropertyOverriderDouble::SetBaseValue</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>NewBaseValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="1163" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1a35fe67a48416ea56d906cd86998431db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FPropertyOverriderDouble::SetOperatorExpression</definition>
+        <argsstring>(EOperator NewOperatorExpression)</argsstring>
+        <name>SetOperatorExpression</name>
+        <qualifiedname>FPropertyOverriderDouble::SetOperatorExpression</qualifiedname>
+        <param>
+          <type>EOperator</type>
+          <declname>NewOperatorExpression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="1334" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d11/struct_f_property_overrider_double_1abb29f2de2f582ae7382fe161c654bb3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FPropertyOverriderDouble::SetOperatorValue</definition>
+        <argsstring>(double NewOperatorValue)</argsstring>
+        <name>SetOperatorValue</name>
+        <qualifiedname>FPropertyOverriderDouble::SetOperatorValue</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>NewOperatorValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="141" column="1537" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FPropertyOverriderBase</label>
+        <link refid="d1/d3d/struct_f_property_overrider_base"/>
+      </node>
+      <node id="1">
+        <label>FPropertyOverriderDouble</label>
+        <link refid="d4/d11/struct_f_property_overrider_double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FPropertyOverriderBase</label>
+        <link refid="d1/d3d/struct_f_property_overrider_base"/>
+      </node>
+      <node id="1">
+        <label>FPropertyOverriderDouble</label>
+        <link refid="d4/d11/struct_f_property_overrider_double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="121" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="122" bodyend="143"/>
+    <listofallmembers>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a1a63f7c181e9dd4192e8054d55e3f1dd" prot="protected" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>BaseValue</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1af820f8d6a46af6fdd4a01c47f8484e49" prot="protected" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>bIsDirty</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a5fda6eaf879cea1690f6d2b1e61bdedd" prot="protected" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>CachedValue</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1acab00b7ec8f5c19858ea09e228074e74" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>ClearDirty</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1ae0cf78a65d0dec483b571b12fe0c2ecf" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>GetBaseValue</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a9d70169ae6fac832279854bb98e50498" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>GetbIsDirty</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1adcea05512a1a8b527b9738044b4e62a2" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>GetCachedValue</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a484199035fb0acf1a3060ba21314e5ac" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>GetOperatorExpression</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a176c7b742a8b89342c48077cbf04b4f7" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>GetOperatorValue</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1ac0e1877515ec37e3529689724265342a" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>GetOriginalValue</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a4c01395f990c5c199e73b3febf772ff5" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>GetValue</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1ac635fce0ebc3934b455b2b3bd34b4f2b" prot="public" virt="virtual"><scope>FPropertyOverriderDouble</scope><name>MarkDirty</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a6be4b46c4cc25818c393eba4f95dc02e" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>operator double</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1ab67f9cebc7ac0ac0fc7ca47ac8cf1310" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>operator%=</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a64c74d2763b036b3a664334dee2508a3" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>operator*</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a9fa2ced7da0cde845281f136f2c444c0" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>operator*=</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a1f89521b441c209140bd762562e456fa" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>operator+=</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1abfbe5de8dc9c6ef140322cd6342221d6" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>operator-=</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1aadf8a5d9bdc0e299af9ce5543b3cc2db" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>operator/=</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a0ac2018cb8d0186d9b89027ebf7b2686" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>operator=</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a7973baf9cddb9d44f4336930e9b643e0" prot="protected" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>OperatorExpression</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1ac20927252ea7fcb0e3f2241e972a6de1" prot="protected" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>OperatorValue</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1af3df91b92032c120814c58e98a1fcf3d" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>SetBaseValue</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a35fe67a48416ea56d906cd86998431db" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>SetOperatorExpression</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1abb29f2de2f582ae7382fe161c654bb3f" prot="public" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>SetOperatorValue</name></member>
+      <member refid="d1/d3d/struct_f_property_overrider_base_1ad2603771e763d2938bf8bfb6ff8ceaad" prot="public" virt="virtual"><scope>FPropertyOverriderDouble</scope><name>~FPropertyOverriderBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

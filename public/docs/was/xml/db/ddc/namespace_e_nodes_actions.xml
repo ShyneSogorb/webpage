@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="db/ddc/namespace_e_nodes_actions" kind="namespace" language="C++">
+    <compoundname>ENodesActions</compoundname>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Type</name>
+        <qualifiedname>ENodesActions::Type</qualifiedname>
+        <enumvalue id="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea6313f5a0d3863c1ac3d09bc66ee5b4e9" prot="public">
+          <name>EDelete</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8eafdbf6439cf3a7ddd8f5a6e950f1f324f" prot="public">
+          <name>ERefresh</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea753da4a6ee1e867169f30a53cf6b0632" prot="public">
+          <name>EAddInput</name>
+          <initializer>= 1 &lt;&lt; 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea858fe668704c59a5f07b5cbfc4338172" prot="public">
+          <name>EAddOutput</name>
+          <initializer>= 1 &lt;&lt; 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea076adf6e54f287b9477090b216ea0e66" prot="public">
+          <name>ALL</name>
+          <initializer>= EDelete | ERefresh | EAddInput | EAddOutput</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="21" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="22" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="db/ddc/namespace_e_nodes_actions_1a61376ebfe8bc56c1435fb2c6f58b17a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref> &amp;</type>
+        <definition>Type &amp; ENodesActions::operator&amp;=</definition>
+        <argsstring>(Type &amp;lhs, Type rhs)</argsstring>
+        <name>operator&amp;=</name>
+        <qualifiedname>ENodesActions::operator&amp;=</qualifiedname>
+        <param>
+          <type><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="30" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="db/ddc/namespace_e_nodes_actions_1a641ebf4183574ca30e0cf2e63e6d62ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref> &amp;</type>
+        <definition>Type &amp; ENodesActions::operator|=</definition>
+        <argsstring>(Type &amp;lhs, Type rhs)</argsstring>
+        <name>operator|=</name>
+        <qualifiedname>ENodesActions::operator|=</qualifiedname>
+        <param>
+          <type><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="35" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="35" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="19" column="1"/>
+  </compounddef>
+</doxygen>

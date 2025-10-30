@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d3/db6/_weapon_asset_characteristics_8cpp" kind="file" language="C++">
+    <compoundname>WeaponAssetCharacteristics.cpp</compoundname>
+    <includes refid="de/d35/_weapon_asset_characteristics_8h" local="yes">Properties/WeaponAssetCharacteristics.h</includes>
+    <includes local="yes">UObject/PropertyIterator.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Properties/WeaponAssetCharacteristics.cpp</label>
+        <link refid="d3/db6/_weapon_asset_characteristics_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UObject/PropertyIterator.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Properties/WeaponAssetCharacteristics.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;UObject/PropertyIterator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Properties/WeaponAssetCharacteristics.cpp"/>
+  </compounddef>
+</doxygen>

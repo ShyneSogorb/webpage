@@ -18,7 +18,7 @@ const items = projects.map(project => ({
   <ul class="dropdown-menu" aria-labelledby="dropdownProjectsButton">
     {
       items.map((item) => (
-        <li><a class="dropdown-item" href={"/webpage/" + item.href.toLowerCase()}>{item.text}</a></li>
+        <li><a class="dropdown-item" href={"/" + item.href.toLowerCase()}>{item.text}</a></li>
       ))
     }
   </ul>

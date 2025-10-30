@@ -1,0 +1,9 @@
+<map id="UWeaponRuntimePin" name="UWeaponRuntimePin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,152,108"/>
+<area shape="rect" id="Node000003" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="47,172,206,199"/>
+<area shape="poly" id="edge4_Node000003_Node000001" title=" " alt="" coords="43,119,32,133,31,140,33,147,46,160,63,169,60,174,43,164,29,149,25,140,27,131,39,116"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="98,5,168,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,46,90,83,86,79,113,43"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="152,44,166,81,168,95,166,108,164,129,157,149,141,173,136,170,152,147,159,128,161,108,163,95,161,82,147,46"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="110,160,83,110,88,107,115,157"/>
+</map>

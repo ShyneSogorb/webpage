@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d4/d10/class_u_weapon_asset_characteristics" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponAssetCharacteristics</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UObject</basecompoundref>
+    <derivedcompoundref refid="da/db7/class_u_weapon_asset_default_characteristics" prot="public" virt="non-virtual">UWeaponAssetDefaultCharacteristics</derivedcompoundref>
+    <includes local="no">WeaponAssetCharacteristics.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a2c3a76861be9d82406f5894c6cf4e114" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+        <definition>FORCEINLINE UWeaponAsset * UWeaponAssetCharacteristics::GetWeaponAsset</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWeaponAsset</name>
+        <qualifiedname>UWeaponAssetCharacteristics::GetWeaponAsset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponAssetCharacteristics.h" line="22" column="26" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponAssetCharacteristics.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a058e82e91a3080ae03a9342aa146b7e2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE UObject *</type>
+        <definition>FORCEINLINE UObject * UWeaponAssetCharacteristics::GetWorldContext</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWorldContext</name>
+        <qualifiedname>UWeaponAssetCharacteristics::GetWorldContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponAssetCharacteristics.h" line="25" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponAssetCharacteristics.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponAssetCharacteristics</label>
+        <link refid="d4/d10/class_u_weapon_asset_characteristics"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UWeaponAssetDefaultCharacteristics</label>
+        <link refid="da/db7/class_u_weapon_asset_default_characteristics"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponAssetCharacteristics</label>
+        <link refid="d4/d10/class_u_weapon_asset_characteristics"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponAssetCharacteristics.h" line="15" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponAssetCharacteristics.h" bodystart="16" bodyend="27"/>
+    <listofallmembers>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a2c3a76861be9d82406f5894c6cf4e114" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>GetWeaponAsset</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a058e82e91a3080ae03a9342aa146b7e2" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>GetWorldContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,27 @@
+---
+const DoxygenBasePath = '/docs/was/html/index.html';
+//const DoxygenBasePath = '/public/docs/was/html/index.html';
+
+//import HTMLSnippet from '/public/docs/was/html/index.html'
+//import Layout from "../layouts/Layout.astro"
+// let text = HTMLSnippet.toString();
+// const regex = /(href|src)=["']([^"']+)["']/g;
+// console.log(HTMLSnippet.toString());
+
+// const result = text.replace(regex, (match, g1, g2) => {
+//   const newG2 = `public/docs/was/html/${g2}`; // Reemplazo del grupo 2
+//   return `${g1}=${newG2}`; // Reconstruyes el string como quieras
+// });
+// console.log("caca");
+
+
+---
+
+<!-- <base href="/docs/was/html/"> -->
+
+
+<div style="position: absolute; width:100%; height:100vh; border:none; margin:0; top:0; left:0;">
+    <iframe src={DoxygenBasePath} style="width:100%; height:100vh; border:none; margin:0;"></iframe>
+</div>
+
+<!-- <div set:html={result}></div> -->

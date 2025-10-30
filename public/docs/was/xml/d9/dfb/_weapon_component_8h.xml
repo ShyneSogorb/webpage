@@ -1,0 +1,585 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d9/dfb/_weapon_component_8h" kind="file" language="C++">
+    <compoundname>WeaponComponent.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes refid="d0/d9e/_weapon_runtime_graph_8h" local="yes">WeaponRuntimeGraph.h</includes>
+    <includes refid="db/d21/_dynamic_pointer_8h" local="yes">Miscellaneous/DynamicPointer.h</includes>
+    <includes local="yes">Components/PrimitiveComponent.h</includes>
+    <includes local="yes">Engine/TimerHandle.h</includes>
+    <includes local="yes">TimerManager.h</includes>
+    <includes local="yes">Engine/World.h</includes>
+    <includes refid="df/da3/_w_a_s_runtime_8h" local="yes">WASRuntime.h</includes>
+    <includes refid="d2/d41/_weapon_asset_default_characteristics_8h" local="yes">Properties/WeaponAssetDefaultCharacteristics.h</includes>
+    <includes local="yes">WeaponComponent.generated.h</includes>
+    <includedby refid="d5/d85/_weapon_preview_scene_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport/WeaponPreviewScene.cpp</includedby>
+    <includedby refid="d5/d3b/_weapon_asset_editor_app_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp</includedby>
+    <includedby refid="d1/dca/_weapon_asset_actor_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Actors/WeaponAssetActor.cpp</includedby>
+    <includedby refid="d4/d68/_weapon_component_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Components/WeaponComponent.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Components/WeaponComponent.h</label>
+        <link refid="d9/dfb/_weapon_component_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Components/PrimitiveComponent.h</label>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="4">
+        <label>Engine/TimerHandle.h</label>
+      </node>
+      <node id="6">
+        <label>Engine/World.h</label>
+      </node>
+      <node id="5">
+        <label>TimerManager.h</label>
+      </node>
+      <node id="7">
+        <label>WeaponComponent.generated.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d5/d97/class_u_weapon_component" prot="public">UWeaponComponent</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="d9/dfb/_weapon_component_8h_1a94cd6d94c257ab91aae1fb63b8d47206" prot="public" static="no">
+        <name>GET_PROPERTY</name>
+        <param><defname>Property</defname></param>
+        <initializer>IProperties::Execute_I##Property(GetWeaponProperties())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Components/WeaponComponent.h" line="47" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Components/WeaponComponent.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d9/dfb/_weapon_component_8h_1a84dfbb3c8772a21f125b41b6ed74e1cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE</definition>
+        <argsstring>(FBuilded)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE</name>
+        <param>
+          <type>FBuilded</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delegate for when the build has completed </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Components/WeaponComponent.h" line="31" column="1" declfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Components/WeaponComponent.h" declline="31" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dfb/_weapon_component_8h_1aab42757afadba2cdd361e3c55d14d00a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE</definition>
+        <argsstring>(FCooledDown)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE</name>
+        <param>
+          <type>FCooledDown</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delegate for when the weapon has cooled down. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Components/WeaponComponent.h" line="26" column="1" declfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Components/WeaponComponent.h" declline="26" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dfb/_weapon_component_8h_1a965f0054b4b8500e232ede12bc6d2724" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE</definition>
+        <argsstring>(FTriggered)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE</name>
+        <param>
+          <type>FTriggered</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delegate for when the weapon is triggered. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Components/WeaponComponent.h" line="21" column="1" declfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Components/WeaponComponent.h" declline="21" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponRuntimeGraph.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;Miscellaneous/WeaponAttributesModificator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/DynamicPointer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Components/PrimitiveComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Engine/TimerHandle.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TimerManager.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Engine/World.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WASRuntime.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Properties/WeaponAssetDefaultCharacteristics.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponComponent.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE(FTriggered);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE(FCooledDown);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE(FBuilded);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">UCLASS(Blueprintable,<sp/>BlueprintType,<sp/>meta<sp/>=<sp/>(BlueprintSpawnableComponent))</highlight></codeline>
+<codeline lineno="37" refid="d5/d97/class_u_weapon_component" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref><sp/>:<sp/>public<sp/>UPrimitiveComponent</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//typedef<sp/>UWeaponAssetDefaultCharacteristics<sp/>WeaponProperties;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="da/db7/class_u_weapon_asset_default_characteristics" kindref="compound">UWeaponAssetDefaultCharacteristics</ref><sp/><ref refid="da/db7/class_u_weapon_asset_default_characteristics" kindref="compound">UWeaponProperties</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref><sp/><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponBaseProperties</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="d3/de2/class_i_weapon_default_characteristics_interface" kindref="compound">IWeaponDefaultCharacteristicsInterface</ref><sp/><ref refid="d3/de2/class_i_weapon_default_characteristics_interface" kindref="compound">IProperties</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="d9/d4d/class_u_weapon_default_characteristics_interface" kindref="compound">UWeaponDefaultCharacteristicsInterface</ref><sp/><ref refid="d9/d4d/class_u_weapon_default_characteristics_interface" kindref="compound">UPropertiesInterface</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GET_PROPERTY(Property)<sp/>IProperties::Execute_I##Property(GetWeaponProperties())</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>Properties</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category=&quot;Modificator&quot;,<sp/>meta=(DeprecatedProperty=&quot;Use<sp/>the<sp/>UWeaponAssetCharacteristics<sp/>overrider<sp/>instead&quot;))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//FWeaponAttributesModificator<sp/>ManualModificator;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>TMap&lt;FName,<sp/>TSoftObjectPtr&lt;USceneComponent&gt;&gt;<sp/>CachedSockets;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>TMap&lt;FName,<sp/>TSoftObjectPtr&lt;USceneComponent&gt;&gt;<sp/>CachedTags;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>FTriggered<sp/>OnTriggered;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>FTriggered<sp/>OnTriggerFailed;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>FCooledDown<sp/>OnCooledDown;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/>Ammo)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>FTriggered<sp/>OnBeginReload;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/>Ammo)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>FTriggered<sp/>OnReload;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/>Ammo)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>FTriggered<sp/>OnFinishReload;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/>Ammo)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>FTriggered<sp/>OnReloadFailed;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/>Jamm)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>FTriggered<sp/>OnJam;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/>Jamm)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>FTriggered<sp/>OnUnJam;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d97/struct_t_dynamic_ptr" kindref="compound">TDynamicPtr</ref><sp/>AmmoSource;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d97/struct_t_dynamic_ptr" kindref="compound">TDynamicPtr</ref><sp/>AmmoInMagazine;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Transient,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Weapon<sp/>Asset&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/>WeaponAsset;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Weapon<sp/>Asset&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>TObjectPtr&lt;UWeaponAsset&gt;<sp/>WeaponAssetSource;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TObjectPtr&lt;const<sp/>UWeaponAsset&gt;<sp/>WeaponAssetSource;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>FTimerHandle<sp/>TriggerCooldown;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>FTimerHandle<sp/>TriggerTimer;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>BurstIndex;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Weapon<sp/>Asset&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8<sp/>bUseInstancedAsset:1<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8<sp/>bJammed:1;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8<sp/>bIsTriggering:1;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8<sp/>isGenerating:1;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8<sp/>bCancelReload:1;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8<sp/>bReloading:1;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>InitializationAndDestruction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ResolveAssetInstantiation();</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Initialization&quot;</highlight><highlight class="normal">,<sp/>CallInEditor)</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Init();</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*Call<sp/>initial<sp/>delegates<sp/>bindings*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CallRequiredBindings();</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnRegister()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UninitializeComponent()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EndPlay(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EEndPlayReason::Type<sp/>EndPlayReason)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>Trigger</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Trigger(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isFirst<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger,<sp/>CallInEditor)</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnterTrigger();</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger,<sp/>CallInEditor)</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ExitTrigger();</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>BlueprintPure,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsTriggering()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bIsTriggering;<sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>CanTrigger()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TriggerModeAllowNextTrigger()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>HasEnoughAmmoToTrigger()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetCooldown();</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetCustomCooldown(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Cooldown);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>BlueprintPure,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsCoolingDown()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetWorld()-&gt;GetTimerManager().IsTimerActive(TriggerCooldown);<sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TryJamWeapon();</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetWeaponJammed(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Jammed);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UnjamWeapon()<sp/>{SetWeaponJammed(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>Build</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Generation&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UpdateMesh();</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>BuildAsset(<ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/>Asset);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Generation&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Clean();</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Generation&quot;</highlight><highlight class="normal">,<sp/>CallInEditor)</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RebuildAsset();</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AttachCreatedComponents(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;UPrimitiveComponent*&gt;&amp;<sp/>PrimitiveComponents);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>Ammo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetAmmoSourceRaw(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>Source,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>typeSize,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bReturnRemaining<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">,<sp/>CustomThunk,<sp/>meta=(CustomStructureParam=</highlight><highlight class="stringliteral">&quot;Source&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetAmmoSource(UPARAM(Ref)<sp/>int32&amp;<sp/>Source,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ReturnRemainingAmmo<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>DECLARE_FUNCTION(execSetAmmoSource);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">,<sp/>CustomThunk,<sp/>meta=(MapParam=</highlight><highlight class="stringliteral">&quot;Map&quot;</highlight><highlight class="normal">,<sp/>MapKeyParam=</highlight><highlight class="stringliteral">&quot;InKey&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetAmmoSourceFromMap(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TMap&lt;int32,<sp/>int32&gt;&amp;<sp/>Map,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32&amp;<sp/>InKey,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ReturnRemainingAmmo<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>DECLARE_FUNCTION(execSetAmmoSourceFromMap);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Delegates)</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SolveMagazineResize(int32<sp/>From,<sp/>int32<sp/>To);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Delegates)</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnUseAmmoUpdated(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>previous,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>current);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Delegates)</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnUseMagazineUpdated(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>previous,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>current);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ClearCache()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{CachedSockets.Empty();<sp/>CachedTags.Empty();}</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Components&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>USceneComponent*<sp/>FindSocket(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FName&amp;<sp/>Socket)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Components&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>USceneComponent*<sp/>GetTaggedComponent(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FName&amp;<sp/>Tag)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Components&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>HasTaggedComponent(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FName&amp;<sp/>Tag)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!!GetTaggedComponent(Tag);}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>USceneComponent*<sp/>FindCachedSocket(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FName&amp;<sp/>Socket)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>USceneComponent*<sp/>GetCachedTaggedComponent(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FName&amp;<sp/>Tag)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Initialization&quot;</highlight><highlight class="normal">,<sp/>BlueprintNativeEvent,<sp/>meta=(AdvancedDisplay=</highlight><highlight class="stringliteral">&quot;MoveValues&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>InitializeWeapon(UPARAM(ref)<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="d2/d93/struct_f_weapon_initialization_data" kindref="compound">FWeaponInitializationData</ref>&amp;<sp/>Data,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRecallDelegates<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>MoveValues<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Initialization&quot;</highlight><highlight class="normal">,<sp/>BlueprintNativeEvent,<sp/>meta=(AdvancedDisplay=</highlight><highlight class="stringliteral">&quot;MoveValues&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GenerateInitializationData(<ref refid="d2/d93/struct_f_weapon_initialization_data" kindref="compound">FWeaponInitializationData</ref>&amp;<sp/>Data);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>Debug</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITORONLY_DATA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Components&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref>*<sp/>CharacteristicsOverview;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Components&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/dcb/struct_f_modification_applied" kindref="compound">FModificationApplied</ref><sp/>Modifications;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TArray&lt;uint8&gt;<sp/>Modifications;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TMap&lt;uint8,<sp/>uint8&gt;<sp/>Modifications;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>HasAnyRecursion()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>HasAnyRecursion(TArray&lt;const<sp/>UWeaponAsset*&gt;&amp;<sp/>PreviousRecursions)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TrySetComponentsToDefault();</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>BindOnModified();</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PostEditChangeProperty(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>FPropertyChangedEvent&amp;<sp/>PropertyChangedEvent)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsPlaying()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="347"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">EWorldType;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!GetWorld())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EWorldType::Type<sp/>CurrentWorld<sp/>=<sp/>GetWorld()-&gt;WorldType;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentWorld<sp/>==<sp/>None<sp/>||</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentWorld<sp/>==<sp/>Editor<sp/>||</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentWorld<sp/>==<sp/>EditorPreview<sp/>||</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentWorld<sp/>==<sp/>GamePreview<sp/>||</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentWorld<sp/>==<sp/>Inactive</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>Accessors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponBaseProperties</ref>*<sp/>GetWeaponProperties()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>WeaponAsset<sp/>&amp;&amp;<sp/>WeaponAsset-&gt;<ref refid="df/d06/class_u_weapon_asset_1a4bea45254e388cd89bdc2e335c604d2a" kindref="member">Characteristics</ref><sp/>?</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponBaseProperties</ref>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(WeaponAsset-&gt;<ref refid="df/d06/class_u_weapon_asset_1a4bea45254e388cd89bdc2e335c604d2a" kindref="member">Characteristics</ref>)</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>UsesInstancedAsset()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bUseInstancedAsset;}</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetUseInstancedAsset(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>NewUseInstanced)<sp/>{bUseInstancedAsset<sp/>=<sp/>NewUseInstanced;}</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Components&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ChangeModificationAtSlot(uint8<sp/>Slot,<sp/>uint8<sp/>Modification,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bForceUpdate<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Components&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetWeaponModifications(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;uint8&gt;&amp;<sp/>newModifications,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bForceUpdate<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>SetWeaponModifications(const<sp/>TMap&lt;uint8,<sp/>uint8&gt;&amp;<sp/>newModifications,<sp/>bool<sp/>bForceUpdate<sp/>=<sp/>true);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="399"><highlight class="normal"></highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Components&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ExistSlot(int32<sp/>slot)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetWeaponModifications().Contains(slot);}</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Components&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>uint8<sp/>GetModificationAtSlot(uint8<sp/>Slot)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetWeaponModifications().IsValidIndex(Slot)<sp/>?<sp/>GetWeaponModifications()[Slot]<sp/>:<sp/>-1;<sp/>}</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Components&quot;</highlight><highlight class="normal">,<sp/>DisplayName=</highlight><highlight class="stringliteral">&quot;GetWeaponModifications&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>TArray&lt;uint8&gt;<sp/>GetWeaponModifications_BP()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const_cast&lt;</highlight><highlight class="keyword">const<sp/></highlight><highlight class="normal"><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(WeaponAsset)-&gt;GetModificationsApplied();}</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//FORCEINLINE<sp/>TMap&lt;uint8,<sp/>uint8&gt;<sp/>GetWeaponModifications_BP()<sp/>const<sp/>{return<sp/>WeaponAsset-&gt;GetModificationsApplied();}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//FORCEINLINE<sp/>const<sp/>TMap&lt;uint8,<sp/>uint8&gt;&amp;<sp/>GetWeaponModifications()<sp/>const<sp/>{return<sp/>const_cast&lt;const<sp/>UWeaponAsset*&gt;(WeaponAsset)-&gt;GetModificationsApplied();}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE_DEBUGGABLE<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;uint8&gt;&amp;<sp/>GetWeaponModifications()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*)WeaponAsset)-&gt;<ref refid="df/d06/class_u_weapon_asset_1a075747b69a53a712ac9a1ae5c905df08" kindref="member">GetModificationsApplied</ref>();}</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"></highlight></codeline>
+<codeline lineno="416"><highlight class="normal"></highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Weapon<sp/>Asset&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetWeaponAsset(<ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/>Asset);</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"></highlight></codeline>
+<codeline lineno="421"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Weapon<sp/>Asset&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="422"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/>GetWeaponAssetSource()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>WeaponAssetSource.Get();}</highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="425"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Generation&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="426"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsGenerating()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>isGenerating;}</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"></highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Weapon<sp/>Asset&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/>GetWeaponAsset()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>WeaponAsset;}</highlight></codeline>
+<codeline lineno="431"><highlight class="normal"></highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>ETriggerMode<sp/>GetTriggerMode()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetTriggerMode);}</highlight></codeline>
+<codeline lineno="435"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>GetTriggerRate()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetTriggerRate);<sp/>}</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="440"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>GetTriggerRateSec()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1.0<sp/>/<sp/>GetTriggerRate();<sp/>}</highlight></codeline>
+<codeline lineno="442"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="444"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="445"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>uint8<sp/>GetBurstTriggers()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetBurstTriggers);}</highlight></codeline>
+<codeline lineno="446"><highlight class="normal"></highlight></codeline>
+<codeline lineno="448"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>int32<sp/>GetMagazineCapability()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetMagazineCapability);}</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"></highlight></codeline>
+<codeline lineno="452"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>GetJamProbability()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetJamProbability);}</highlight></codeline>
+<codeline lineno="454"><highlight class="normal"></highlight></codeline>
+<codeline lineno="456"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="457"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetUsesAmmo()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="458"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="459"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!AmmoSource)<sp/>{<sp/>UE_LOG(LogWASRuntime,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;AmmoSource<sp/>is<sp/>not<sp/>set<sp/>in<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GetName());<sp/>}</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>AmmoSource<sp/>&amp;&amp;<sp/>GET_PROPERTY(GetUsesAmmo);</highlight></codeline>
+<codeline lineno="461"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="462"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="463"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="464"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetUsesMagazine()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetUsesMagazine);}</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="467"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="468"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>int32<sp/>GetAmmoInMagazine(int32<sp/>Fallback=0)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetUsesMagazine()<sp/>?<sp/>AmmoInMagazine<sp/>:<sp/>Fallback;}</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="470"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>int32<sp/>GetAmmoInMagazineOrSource()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetAmmoInMagazine(GetAmmoSource&lt;int32&gt;());}</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="473"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="474"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>int32<sp/>GetAmmoInSource(int32<sp/>Fallback=0)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetUsesAmmo()<sp/>?<sp/>AmmoSource<sp/>:<sp/>Fallback;}</highlight></codeline>
+<codeline lineno="475"><highlight class="normal"></highlight></codeline>
+<codeline lineno="477"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="478"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>int64<sp/>GetSourceAmmo64()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>AmmoSource;}</highlight></codeline>
+<codeline lineno="479"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="480"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>int32<sp/>GetSourceAmmo32()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>AmmoSource;}</highlight></codeline>
+<codeline lineno="481"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="482"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>uint8<sp/>GetSourceAmmoByte()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>AmmoSource;}</highlight></codeline>
+<codeline lineno="483"><highlight class="normal"></highlight></codeline>
+<codeline lineno="485"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="486"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>T<sp/>GetAmmoSource(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T<sp/>Fallback<sp/>=<sp/>T())</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetUsesAmmo()<sp/>?<sp/>AmmoSource<sp/>:<sp/>Fallback;}</highlight></codeline>
+<codeline lineno="487"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>int32<sp/>GetAmmoSource(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>Fallback<sp/>=<sp/>int32())</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetAmmoSource&lt;int32&gt;(Fallback);}</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"></highlight></codeline>
+<codeline lineno="490"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="491"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>T<sp/>GetMagazineAmmo(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T<sp/>Fallback<sp/>=<sp/>T())</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetUsesMagazine()<sp/>?<sp/>AmmoInMagazine<sp/>:<sp/>Fallback;}</highlight></codeline>
+<codeline lineno="492"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>int32<sp/>GetMagazineAmmo(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>Fallback<sp/>=<sp/>int32())</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetMagazineAmmo&lt;int32&gt;(Fallback);}</highlight></codeline>
+<codeline lineno="493"><highlight class="normal"></highlight></codeline>
+<codeline lineno="495"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="496"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>uint8<sp/>GetIterationReloadStepAmount()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetIterationReloadStepAmount);}</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"></highlight></codeline>
+<codeline lineno="499"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="500"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>int32<sp/>GetAmmoLoosePerTrigger()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetAmmoLoosePerTrigger);}</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"></highlight></codeline>
+<codeline lineno="503"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="504"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetTriggerIfAmmoLessThanRequired()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetTriggerIfAmmoLessThanRequired);}</highlight></codeline>
+<codeline lineno="505"><highlight class="normal"></highlight></codeline>
+<codeline lineno="507"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="508"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetCustomTriggerExecutionTiming()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetCustomTriggerExecutionTiming);}</highlight></codeline>
+<codeline lineno="509"><highlight class="normal"></highlight></codeline>
+<codeline lineno="511"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="512"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetCustomReloadExecutionTiming()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetCustomReloadExecutionTiming)<sp/>||<sp/>!GetReloadByMagazine();}</highlight></codeline>
+<codeline lineno="513"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="515"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="516"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetLooseExtraAmmoOnReload()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetLooseExtraAmmoOnReload);}</highlight></codeline>
+<codeline lineno="517"><highlight class="normal"></highlight></codeline>
+<codeline lineno="519"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="520"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetCustomUnjamExecutionTiming()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetCustomUnjamExecutionTiming);}</highlight></codeline>
+<codeline lineno="521"><highlight class="normal"></highlight></codeline>
+<codeline lineno="523"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="524"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetReloadByMagazine()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetReloadByMagazine);}</highlight></codeline>
+<codeline lineno="525"><highlight class="normal"></highlight></codeline>
+<codeline lineno="527"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>int32<sp/>GetAmmoInUse()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetAmmoInMagazineOrSource();<sp/>}</highlight></codeline>
+<codeline lineno="529"><highlight class="normal"></highlight></codeline>
+<codeline lineno="531"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="532"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>HasAmmo()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetAmmoInUse()<sp/>&gt;<sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="533"><highlight class="normal"></highlight></codeline>
+<codeline lineno="535"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="536"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>RequiresAmmoToTrigger()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetUsesAmmo()<sp/>||<sp/>GetUsesMagazine();<sp/>}</highlight></codeline>
+<codeline lineno="537"><highlight class="normal"></highlight></codeline>
+<codeline lineno="539"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="540"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>TEnumAsByte&lt;EAmmoType&gt;<sp/>GetAmmoType()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GET_PROPERTY(GetAmmoType);<sp/>}</highlight></codeline>
+<codeline lineno="541"><highlight class="normal"></highlight></codeline>
+<codeline lineno="543"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="544"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsJammed()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!!bJammed;}</highlight></codeline>
+<codeline lineno="545"><highlight class="normal"></highlight></codeline>
+<codeline lineno="547"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="548"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsReloading()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bReloading;}</highlight></codeline>
+<codeline lineno="549"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="551"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="552"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/>uint8<sp/>GetCurrentBurstIndex()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BurstIndex;}</highlight></codeline>
+<codeline lineno="553"><highlight class="normal"></highlight></codeline>
+<codeline lineno="554"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="555"><highlight class="normal"></highlight></codeline>
+<codeline lineno="557"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>CallInEditor,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="558"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Reload();</highlight></codeline>
+<codeline lineno="559"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="561"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="562"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CancelReload()<sp/>{bCancelReload<sp/>=<sp/>!GetReloadByMagazine();}</highlight></codeline>
+<codeline lineno="563"><highlight class="normal"></highlight></codeline>
+<codeline lineno="565"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="566"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ReloadLogic();</highlight></codeline>
+<codeline lineno="567"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="569"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/>Trigger)</highlight></codeline>
+<codeline lineno="570"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ReloadLogicManual(int32<sp/>AddAmmo);</highlight></codeline>
+<codeline lineno="571"><highlight class="normal"></highlight></codeline>
+<codeline lineno="573"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>BeginPlay()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="574"><highlight class="normal"></highlight></codeline>
+<codeline lineno="576"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION()</highlight></codeline>
+<codeline lineno="577"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EndReload()<sp/>{bReloading<sp/>=<sp/>bCancelReload<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="578"><highlight class="normal"></highlight></codeline>
+<codeline lineno="579"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable)</highlight></codeline>
+<codeline lineno="580"><highlight class="normal"><sp/><sp/><sp/><sp/>FBuilded<sp/>OnWeaponBuild;</highlight></codeline>
+<codeline lineno="581"><highlight class="normal"></highlight></codeline>
+<codeline lineno="582"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="583"><highlight class="normal"></highlight></codeline>
+<codeline lineno="584"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>GET_PROPERTY</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Components/WeaponComponent.h"/>
+  </compounddef>
+</doxygen>

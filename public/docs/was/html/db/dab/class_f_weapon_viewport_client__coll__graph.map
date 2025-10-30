@@ -1,0 +1,11 @@
+<map id="FWeaponViewportClient" name="FWeaponViewportClient">
+<area shape="rect" id="Node000001" title=" " alt="" coords="194,188,355,215"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,89,154,116"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,121,250,185,248,190,117,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="178,81,370,124"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="277,140,277,188,272,188,272,140"/>
+<area shape="rect" id="Node000004" href="$d5/d59/class_f_weapon_preview_scene.html" title=" " alt="" coords="394,89,554,116"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="436,126,301,190,299,185,433,121"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="418,5,531,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="477,47,477,89,472,89,472,47"/>
+</map>

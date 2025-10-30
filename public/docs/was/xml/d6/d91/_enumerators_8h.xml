@@ -1,0 +1,599 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d6/d91/_enumerators_8h" kind="file" language="C++">
+    <compoundname>Enumerators.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes local="yes">Enumerators.generated.h</includes>
+    <includedby refid="d2/d6c/_weapon_system_settings_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h</includedby>
+    <includedby refid="d2/d41/_weapon_asset_default_characteristics_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponAssetDefaultCharacteristics.h</includedby>
+    <includedby refid="db/df6/_weapon_default_characteristics_interface_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Enumerators.h</label>
+        <link refid="d6/d91/_enumerators_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="3">
+        <label>Enumerators.generated.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784c" prot="public" static="no" strong="no">
+        <type>int</type>
+        <name>EAmmoType</name>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d91/_enumerators_8h_1a4dd31da34af4dd860a0f1c073eaa784ca5fd3d6f02c1dc582f80e2af875af4561" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Default&quot;)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enum to define different ammo types. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Enumerators.h" line="12" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Enumerators.h" bodystart="13" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Enumerators.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">UENUM(BlueprintType)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>EAmmoType<sp/>:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_Default<sp/>UMETA(DisplayName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Default&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_1<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_2<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_3<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_4<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_5<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_6<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_7<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_8<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_9<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_10<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_11<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_12<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_13<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_14<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_15<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_16<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_17<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_18<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_19<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_20<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_21<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_22<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_23<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_24<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_25<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_26<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_27<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_28<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_29<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_30<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_31<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_32<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_33<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_34<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_35<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_36<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_37<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_38<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_39<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_40<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_41<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_42<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_43<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_44<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_45<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_46<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_47<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_48<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_49<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_50<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_51<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_52<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_53<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_54<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_55<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_56<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_57<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_58<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>AmmoType_MAX<sp/>UMETA(Hidden),</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Enumerators.h"/>
+  </compounddef>
+</doxygen>

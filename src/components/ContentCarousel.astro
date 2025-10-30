@@ -7,7 +7,10 @@ import { getAllFirstImages } from '../utils/functions';
 
 import projects from "/src/JSON/projects.json";
 
+console.log(projects);
+
 const images = getAllFirstImages();
+
 
 const slides: CarouselSlideType[] = 
 projects.map((project, i) => {
@@ -24,6 +27,7 @@ projects.map((project, i) => {
 const id = 'CarouselProjectsDisplay';
 
 ---
+
 <style>
   :global(.carousel-control-next-icon, .carousel-control-prev-icon) {
     background-color: grey;
@@ -36,7 +40,7 @@ const id = 'CarouselProjectsDisplay';
   <Carousel.Indicators {id} {slides} ></Carousel.Indicators>
   <Carousel.Inner>
     {
-      projects.map((project, i) => (
+      projects.map((project, i) => (        
         <Carousel.Item active={slides[i].active}>
           <img
             style="max-height: 70vh;"

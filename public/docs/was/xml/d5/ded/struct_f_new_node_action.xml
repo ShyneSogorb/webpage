@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d5/ded/struct_f_new_node_action" kind="struct" language="C++" prot="public">
+    <compoundname>FNewNodeAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FEdGraphSchemaAction</basecompoundref>
+    <includes local="no">WeaponGraphSchema.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d5/ded/struct_f_new_node_action_1a6954e63ce41da73e9574f87fd78d3843" prot="protected" static="no" mutable="no">
+        <type>UClass *</type>
+        <definition>UClass* FNewNodeAction::_classNodeTemplate</definition>
+        <argsstring></argsstring>
+        <name>_classNodeTemplate</name>
+        <qualifiedname>FNewNodeAction::_classNodeTemplate</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" line="72" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/ded/struct_f_new_node_action_1a69cf0b5bdb00ee0acb310761e47e846b" prot="protected" static="no" mutable="no">
+        <type>UFunction *</type>
+        <definition>UFunction* FNewNodeAction::_FunctionBind</definition>
+        <argsstring></argsstring>
+        <name>_FunctionBind</name>
+        <qualifiedname>FNewNodeAction::_FunctionBind</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" line="74" column="11" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/ded/struct_f_new_node_action_1af2c436a5241707a1f2e084030cb23fd5" prot="protected" static="no" mutable="no">
+        <type>UClass *</type>
+        <definition>UClass* FNewNodeAction::_ObjectBind</definition>
+        <argsstring></argsstring>
+        <name>_ObjectBind</name>
+        <qualifiedname>FNewNodeAction::_ObjectBind</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" line="75" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/ded/struct_f_new_node_action_1ac2edb4f64f6f9e2d3b100d25cf1ef8c1" prot="protected" static="no" mutable="no">
+        <type>FProperty *</type>
+        <definition>FProperty* FNewNodeAction::_PropertyBind</definition>
+        <argsstring></argsstring>
+        <name>_PropertyBind</name>
+        <qualifiedname>FNewNodeAction::_PropertyBind</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" line="73" column="11" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/ded/struct_f_new_node_action_1af5674bf85ddc05470b87f756340b2063" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FNewNodeAction::FNewNodeAction</definition>
+        <argsstring>()</argsstring>
+        <name>FNewNodeAction</name>
+        <qualifiedname>FNewNodeAction::FNewNodeAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" line="58" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/ded/struct_f_new_node_action_1ac0285788eb4ef79af26cbb38a293ca60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FNewNodeAction::FNewNodeAction</definition>
+        <argsstring>(UClass *classNodeTemplate, FText InNodeCategory, FText InMenuDesc, FText InToolTip, const int32 InGrouping)</argsstring>
+        <name>FNewNodeAction</name>
+        <qualifiedname>FNewNodeAction::FNewNodeAction</qualifiedname>
+        <param>
+          <type>UClass *</type>
+          <declname>classNodeTemplate</declname>
+        </param>
+        <param>
+          <type>FText</type>
+          <declname>InNodeCategory</declname>
+        </param>
+        <param>
+          <type>FText</type>
+          <declname>InMenuDesc</declname>
+        </param>
+        <param>
+          <type>FText</type>
+          <declname>InToolTip</declname>
+        </param>
+        <param>
+          <type>const int32</type>
+          <declname>InGrouping</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" line="59" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" bodystart="59" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/ded/struct_f_new_node_action_1a6420d095423529bcec3f752af3ed5a4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FNewNodeAction::FNewNodeAction</definition>
+        <argsstring>(UClass *classNodeTemplate, FText InNodeCategory, FText InMenuDesc, FText InToolTip, const int32 InGrouping, FProperty *Property)</argsstring>
+        <name>FNewNodeAction</name>
+        <qualifiedname>FNewNodeAction::FNewNodeAction</qualifiedname>
+        <param>
+          <type>UClass *</type>
+          <declname>classNodeTemplate</declname>
+        </param>
+        <param>
+          <type>FText</type>
+          <declname>InNodeCategory</declname>
+        </param>
+        <param>
+          <type>FText</type>
+          <declname>InMenuDesc</declname>
+        </param>
+        <param>
+          <type>FText</type>
+          <declname>InToolTip</declname>
+        </param>
+        <param>
+          <type>const int32</type>
+          <declname>InGrouping</declname>
+        </param>
+        <param>
+          <type>FProperty *</type>
+          <declname>Property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" line="62" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" bodystart="62" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/ded/struct_f_new_node_action_1a17e5fe38e2680e9f71421cd6880741f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FNewNodeAction::FNewNodeAction</definition>
+        <argsstring>(UClass *classNodeTemplate, FText InNodeCategory, FText InMenuDesc, FText InToolTip, const int32 InGrouping, UFunction *Function, UClass *ObjectClass)</argsstring>
+        <name>FNewNodeAction</name>
+        <qualifiedname>FNewNodeAction::FNewNodeAction</qualifiedname>
+        <param>
+          <type>UClass *</type>
+          <declname>classNodeTemplate</declname>
+        </param>
+        <param>
+          <type>FText</type>
+          <declname>InNodeCategory</declname>
+        </param>
+        <param>
+          <type>FText</type>
+          <declname>InMenuDesc</declname>
+        </param>
+        <param>
+          <type>FText</type>
+          <declname>InToolTip</declname>
+        </param>
+        <param>
+          <type>const int32</type>
+          <declname>InGrouping</declname>
+        </param>
+        <param>
+          <type>UFunction *</type>
+          <declname>Function</declname>
+        </param>
+        <param>
+          <type>UClass *</type>
+          <declname>ObjectClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" line="65" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" bodystart="65" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/ded/struct_f_new_node_action_1a93b5f08ab753a196336dddfc0c58dd1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UEdGraphNode *</type>
+        <definition>UEdGraphNode * FNewNodeAction::PerformAction</definition>
+        <argsstring>(UEdGraph *ParentGraph, UEdGraphPin *FromPin, const FVector2D Location, bool bSelectNewNode) override</argsstring>
+        <name>PerformAction</name>
+        <qualifiedname>FNewNodeAction::PerformAction</qualifiedname>
+        <param>
+          <type>UEdGraph *</type>
+          <declname>ParentGraph</declname>
+        </param>
+        <param>
+          <type>UEdGraphPin *</type>
+          <declname>FromPin</declname>
+        </param>
+        <param>
+          <type>const FVector2D</type>
+          <declname>Location</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bSelectNewNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" line="68" column="22" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Schemas/WeaponGraphSchema.cpp" bodystart="433" bodyend="487"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FEdGraphSchemaAction</label>
+      </node>
+      <node id="1">
+        <label>FNewNodeAction</label>
+        <link refid="d5/ded/struct_f_new_node_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FEdGraphSchemaAction</label>
+      </node>
+      <node id="1">
+        <label>FNewNodeAction</label>
+        <link refid="d5/ded/struct_f_new_node_action"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" line="53" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/WeaponGraphSchema.h" bodystart="54" bodyend="77"/>
+    <listofallmembers>
+      <member refid="d5/ded/struct_f_new_node_action_1a6954e63ce41da73e9574f87fd78d3843" prot="protected" virt="non-virtual"><scope>FNewNodeAction</scope><name>_classNodeTemplate</name></member>
+      <member refid="d5/ded/struct_f_new_node_action_1a69cf0b5bdb00ee0acb310761e47e846b" prot="protected" virt="non-virtual"><scope>FNewNodeAction</scope><name>_FunctionBind</name></member>
+      <member refid="d5/ded/struct_f_new_node_action_1af2c436a5241707a1f2e084030cb23fd5" prot="protected" virt="non-virtual"><scope>FNewNodeAction</scope><name>_ObjectBind</name></member>
+      <member refid="d5/ded/struct_f_new_node_action_1ac2edb4f64f6f9e2d3b100d25cf1ef8c1" prot="protected" virt="non-virtual"><scope>FNewNodeAction</scope><name>_PropertyBind</name></member>
+      <member refid="d5/ded/struct_f_new_node_action_1af5674bf85ddc05470b87f756340b2063" prot="public" virt="non-virtual"><scope>FNewNodeAction</scope><name>FNewNodeAction</name></member>
+      <member refid="d5/ded/struct_f_new_node_action_1ac0285788eb4ef79af26cbb38a293ca60" prot="public" virt="non-virtual"><scope>FNewNodeAction</scope><name>FNewNodeAction</name></member>
+      <member refid="d5/ded/struct_f_new_node_action_1a6420d095423529bcec3f752af3ed5a4c" prot="public" virt="non-virtual"><scope>FNewNodeAction</scope><name>FNewNodeAction</name></member>
+      <member refid="d5/ded/struct_f_new_node_action_1a17e5fe38e2680e9f71421cd6880741f1" prot="public" virt="non-virtual"><scope>FNewNodeAction</scope><name>FNewNodeAction</name></member>
+      <member refid="d5/ded/struct_f_new_node_action_1a93b5f08ab753a196336dddfc0c58dd1f" prot="public" virt="virtual"><scope>FNewNodeAction</scope><name>PerformAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

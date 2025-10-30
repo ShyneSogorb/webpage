@@ -1,0 +1,13 @@
+<map id="UWeaponSubtractNode" name="UWeaponSubtractNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="20,248,178,275"/>
+<area shape="rect" id="Node000002" href="$d1/df1/class_u_weapon_math_runtime_node.html" title=" " alt="" coords="5,172,193,199"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,214,102,248,96,248,96,214"/>
+<area shape="rect" id="Node000003" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="138,81,297,108"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="190,120,118,174,114,169,187,116"/>
+<area shape="rect" id="Node000005" href="$dd/d5d/class_u_weapon_runtime_pin.html" title=" " alt="" coords="216,172,363,199"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="202,122,199,135,202,147,214,160,231,169,228,174,211,164,197,149,194,135,197,121"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="260,5,330,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="273,45,232,83,229,79,269,41"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="313,45,324,67,332,93,335,122,329,149,321,163,310,173,306,170,317,159,325,147,330,121,327,95,319,69,308,47"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="268,162,226,110,230,107,272,158"/>
+</map>

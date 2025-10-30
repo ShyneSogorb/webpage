@@ -1,0 +1,17 @@
+<map id="UWeaponComponent" name="UWeaponComponent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="155,279,301,305"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,172,155,199"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,205,212,276,208,280,108,210"/>
+<area shape="rect" id="Node000003" href="$d2/d97/struct_t_dynamic_ptr.html" title=" " alt="" coords="179,172,277,199"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,214,231,278,225,278,225,214"/>
+<area shape="rect" id="Node000004" href="$df/d06/class_u_weapon_asset.html" title=" " alt="" coords="310,172,423,199"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="363,215,354,237,339,257,319,271,297,281,295,276,317,266,335,253,349,234,358,213"/>
+<area shape="poly" id="edge8_Node000004_Node000004" title=" " alt="" coords="440,177,449,185,441,194,424,196,423,191,439,189,444,185,436,181"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="229,5,299,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="264,47,266,77,276,107,290,126,307,144,344,169,341,174,304,148,286,130,271,109,261,78,259,47"/>
+<area shape="rect" id="Node000007" href="$d1/db3/class_u_weapon_runtime_graph.html" title=" " alt="" coords="286,81,448,108"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="295,39,351,79,348,83,292,43"/>
+<area shape="rect" id="Node000006" href="$df/dcb/struct_f_modification_applied.html" title=" " alt="" coords="472,81,614,108"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="505,118,393,174,391,169,503,113"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="369,124,369,171,364,171,364,124"/>
+</map>

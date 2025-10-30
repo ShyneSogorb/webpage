@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,101,192,128"/>
+<area shape="rect" id="Node000001" href="$de/d03/class_f_modification_description_customization.html" title=" " alt="" coords="271,5,436,48"/>
+<area shape="poly" id="edge25_Node000000_Node000001" title=" " alt="" coords="146,93,239,57,274,46,276,51,241,63,148,98"/>
+<area shape="rect" id="Node000002" href="$d6/d8b/class_f_weapon_mod_applied_customization.html" title=" " alt="" coords="240,72,468,99"/>
+<area shape="poly" id="edge26_Node000000_Node000002" title=" " alt="" coords="207,100,239,96,240,101,207,105"/>
+<area shape="rect" id="Node000003" href="$d5/d12/struct_f_weapon_modification_description_customization.html" title=" " alt="" coords="248,123,460,165"/>
+<area shape="poly" id="edge27_Node000000_Node000003" title=" " alt="" coords="207,124,248,129,247,134,207,130"/>
+<area shape="rect" id="Node000004" href="$db/d20/class_f_weapon_modificator_customization.html" title=" " alt="" coords="242,189,466,216"/>
+<area shape="poly" id="edge28_Node000000_Node000004" title=" " alt="" coords="141,133,188,155,241,175,281,186,280,191,239,180,186,159,139,138"/>
+</map>

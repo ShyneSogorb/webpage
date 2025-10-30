@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d7/dfa/_weapon_viewport_client_8cpp" kind="file" language="C++">
+    <compoundname>WeaponViewportClient.cpp</compoundname>
+    <includes refid="db/d8d/_weapon_viewport_client_8h" local="yes">Viewport/WeaponViewportClient.h</includes>
+    <includes refid="df/d7d/_weapon_preview_viewport_8h" local="yes">Viewport/WeaponPreviewViewport.h</includes>
+    <includes refid="df/de8/_weapon_preview_scene_8h" local="yes">Viewport/WeaponPreviewScene.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Viewport/WeaponViewportClient.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Viewport/WeaponPreviewViewport.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Viewport/WeaponPreviewScene.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="d7/de5/class_f_weapon_viewport_client_1a14d70beb3825234aade15a424cda5dbe" kindref="member">FWeaponViewportClient::FWeaponViewportClient</ref>(<ref refid="d5/d59/class_f_weapon_preview_scene" kindref="compound">FWeaponPreviewScene</ref>&amp;<sp/>InPreviewScene,</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSharedRef&lt;SWeaponPreviewViewport&gt;&amp;<sp/>InWeaponEditorViewport)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">:<sp/>FEditorViewportClient(nullptr,<sp/>&amp;InPreviewScene,<sp/>StaticCastSharedRef&lt;SEditorViewport&gt;(InWeaponEditorViewport))</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>PreviewScene(&amp;InPreviewScene)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>WeaponViewportPtr<sp/>=<sp/>InWeaponEditorViewport;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Setup<sp/>defaults<sp/>for<sp/>the<sp/>common<sp/>draw<sp/>helper.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>DrawHelper.bDrawPivot<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>DrawHelper.bDrawWorldBox<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>DrawHelper.bDrawKillZ<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>DrawHelper.bDrawGrid<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>DrawHelper.GridColorAxis<sp/>=<sp/>FColor(80,80,80);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>DrawHelper.GridColorMajor<sp/>=<sp/>FColor(72,72,72);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>DrawHelper.GridColorMinor<sp/>=<sp/>FColor(64,64,64);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>DrawHelper.PerspectiveGridSize<sp/>=<sp/>UE_OLD_HALF_WORLD_MAX1;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>ShowWidget(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>FEditorViewportClient::SetViewMode(VMI_Lit);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>EngineShowFlags.SetSnap(0);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>OverrideNearClipPlane(1.0f);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>bDrawAxesGame<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport/WeaponViewportClient.cpp"/>
+  </compounddef>
+</doxygen>

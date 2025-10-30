@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d5/d59/class_f_weapon_preview_scene" kind="class" language="C++" prot="public">
+    <compoundname>FWeaponPreviewScene</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FPreviewScene</basecompoundref>
+    <includes local="no">WeaponPreviewScene.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/d59/class_f_weapon_preview_scene_1acee29b18bc6d638ba787f09f6290b5d3" prot="private" static="no" mutable="no">
+        <type>class <ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref> *</type>
+        <definition>class UWeaponComponent* FWeaponPreviewScene::WeaponComponent</definition>
+        <argsstring></argsstring>
+        <name>WeaponComponent</name>
+        <qualifiedname>FWeaponPreviewScene::WeaponComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" line="15" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d59/class_f_weapon_preview_scene_1ad0672e67fc7fc8fccb5e9b73800ef602" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FWeaponPreviewScene::FWeaponPreviewScene</definition>
+        <argsstring>(ConstructionValues CVS=ConstructionValues(), class UWeaponAsset *InAsset=nullptr)</argsstring>
+        <name>FWeaponPreviewScene</name>
+        <qualifiedname>FWeaponPreviewScene::FWeaponPreviewScene</qualifiedname>
+        <param>
+          <type>ConstructionValues</type>
+          <declname>CVS</declname>
+          <defval>ConstructionValues()</defval>
+        </param>
+        <param>
+          <type>class <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+          <declname>InAsset</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" line="10" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport/WeaponPreviewScene.cpp" bodystart="9" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d59/class_f_weapon_preview_scene_1aeff4271ed6657bebaf23bdf00f9736ab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>class <ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref> *</type>
+        <definition>class UWeaponComponent * FWeaponPreviewScene::GetPreviewComponent</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPreviewComponent</name>
+        <qualifiedname>FWeaponPreviewScene::GetPreviewComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" line="12" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" bodystart="12" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FPreviewScene</label>
+      </node>
+      <node id="1">
+        <label>FWeaponPreviewScene</label>
+        <link refid="d5/d59/class_f_weapon_preview_scene"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FPreviewScene</label>
+      </node>
+      <node id="1">
+        <label>FWeaponPreviewScene</label>
+        <link refid="d5/d59/class_f_weapon_preview_scene"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" line="7" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" bodystart="8" bodyend="16"/>
+    <listofallmembers>
+      <member refid="d5/d59/class_f_weapon_preview_scene_1ad0672e67fc7fc8fccb5e9b73800ef602" prot="public" virt="non-virtual"><scope>FWeaponPreviewScene</scope><name>FWeaponPreviewScene</name></member>
+      <member refid="d5/d59/class_f_weapon_preview_scene_1aeff4271ed6657bebaf23bdf00f9736ab" prot="public" virt="non-virtual"><scope>FWeaponPreviewScene</scope><name>GetPreviewComponent</name></member>
+      <member refid="d5/d59/class_f_weapon_preview_scene_1acee29b18bc6d638ba787f09f6290b5d3" prot="private" virt="non-virtual"><scope>FWeaponPreviewScene</scope><name>WeaponComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_891d56bb8c98c3e0ce135bdb77f6fd85" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private</compoundname>
+    <innerdir refid="dir_4d8aec6c06486c0757c11f6697aa5035">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/BlueprintNodes</innerdir>
+    <innerdir refid="dir_8719200ccc101190678b6e6139a74e1c">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes</innerdir>
+    <innerdir refid="dir_f27cf4b3d65e157587b0b8b31ce803a8">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings</innerdir>
+    <innerdir refid="dir_3b893f599e3cc1b589f998123e7dac1c">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations</innerdir>
+    <innerdir refid="dir_2562b947cac3bcd9bd72a3b449cf88a2">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Schemas</innerdir>
+    <innerdir refid="dir_25273e8ac5b8489358ec31a8236e114f">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/TabsFactory</innerdir>
+    <innerdir refid="dir_1287378956faedada00d32ddff2cdbfd">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport</innerdir>
+    <innerdir refid="dir_48ff99f2c921529c72303cf9cdf02d0c">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponCharacteristics</innerdir>
+    <innerfile refid="d0/d7a/_w_a_s_editor_8cpp">WASEditor.cpp</innerfile>
+    <innerfile refid="de/dd3/_weapon_asset_action_8cpp">WeaponAssetAction.cpp</innerfile>
+    <innerfile refid="dc/de7/_weapon_asset_app_mode_8cpp">WeaponAssetAppMode.cpp</innerfile>
+    <innerfile refid="d5/d3b/_weapon_asset_editor_app_8cpp">WeaponAssetEditorApp.cpp</innerfile>
+    <innerfile refid="d5/de1/_weapon_asset_editor_commands_8cpp">WeaponAssetEditorCommands.cpp</innerfile>
+    <innerfile refid="d6/de1/_weapon_asset_factory_8cpp">WeaponAssetFactory.cpp</innerfile>
+    <innerfile refid="da/d42/_weapon_graph_editor_8cpp">WeaponGraphEditor.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/"/>
+  </compounddef>
+</doxygen>

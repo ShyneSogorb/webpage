@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="de/d16/_weapon_material_instance_dynamic_node_8h" kind="file" language="C++">
+    <compoundname>WeaponMaterialInstanceDynamicNode.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes refid="d6/de3/_weapon_runtime_node_8h" local="yes">WeaponRuntimeNode.h</includes>
+    <includes local="yes">Materials/MaterialInterface.h</includes>
+    <includes local="yes">WeaponMaterialInstanceDynamicNode.generated.h</includes>
+    <includedby refid="df/d23/_weapon_material_instance_dynamic_node_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/Materials/WeaponMaterialInstanceDynamicNode.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/Materials/WeaponMaterialInstanceDynamicNode.h</label>
+        <link refid="de/d16/_weapon_material_instance_dynamic_node_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="3">
+        <label>Materials/MaterialInterface.h</label>
+      </node>
+      <node id="4">
+        <label>WeaponMaterialInstanceDynamicNode.generated.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d3/d72/class_u_weapon_material_instance_dynamic_node" prot="public">UWeaponMaterialInstanceDynamicNode</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponRuntimeNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Materials/MaterialInterface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponMaterialInstanceDynamicNode.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">UCLASS(Category=</highlight><highlight class="stringliteral">&quot;Material&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="15" refid="d3/d72/class_u_weapon_material_instance_dynamic_node" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="d3/d72/class_u_weapon_material_instance_dynamic_node" kindref="compound">UWeaponMaterialInstanceDynamicNode</ref><sp/>:<sp/>public<sp/><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//The<sp/>base<sp/>material<sp/>to<sp/>instantiate<sp/>from</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Material&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>TSoftObjectPtr&lt;UMaterialInterface&gt;<sp/>BaseMaterial;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetPinValue(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UpdateCompatibility(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bForce)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DefaultPins(TArray&lt;FRuntimePin&gt;&amp;<sp/>Pins)</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{SimplePinning(Pins,<sp/>TEXT_OBJECT);}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FText<sp/>GetGraphNodeTitleBase(ENodeTitleType::Type<sp/>TitleType)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/Materials/WeaponMaterialInstanceDynamicNode.h"/>
+  </compounddef>
+</doxygen>
