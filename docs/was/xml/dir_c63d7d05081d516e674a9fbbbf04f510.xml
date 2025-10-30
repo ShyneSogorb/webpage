@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_c63d7d05081d516e674a9fbbbf04f510" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private</compoundname>
+    <innerdir refid="dir_55d1ac323ab2b4c89c39bef4d015e9be">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Actors</innerdir>
+    <innerdir refid="dir_4993aca7dec2fb8a5bcd9a078f5570d5">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Components</innerdir>
+    <innerdir refid="dir_dd61d3d02a0923b03ea6200f313d5504">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Miscellaneous</innerdir>
+    <innerdir refid="dir_991fb11fc79ffd7c2c2409c856a4c212">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes</innerdir>
+    <innerdir refid="dir_91606de2f1e3edf67cc733cfea3da13b">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Properties</innerdir>
+    <innerfile refid="df/db1/_w_a_s_runtime_8cpp">WASRuntime.cpp</innerfile>
+    <innerfile refid="d0/d2d/_weapon_asset_8cpp">WeaponAsset.cpp</innerfile>
+    <innerfile refid="d4/d2f/_weapon_runtime_node_8cpp">WeaponRuntimeNode.cpp</innerfile>
+    <innerfile refid="d2/d4e/_weapon_runtime_pin_8cpp">WeaponRuntimePin.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/"/>
+  </compounddef>
+</doxygen>

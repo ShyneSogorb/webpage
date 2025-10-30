@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d1/db3/class_u_weapon_runtime_graph" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponRuntimeGraph</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UObject</basecompoundref>
+    <includes local="no">WeaponRuntimeGraph.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/db3/class_u_weapon_runtime_graph_1aecb8029e8cca20c54b6237d1dc5f9768" prot="public" static="no" mutable="no">
+        <type>TArray&lt; <ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> * &gt;</type>
+        <definition>TArray&lt;UWeaponRuntimeNode*&gt; UWeaponRuntimeGraph::Nodes</definition>
+        <argsstring></argsstring>
+        <name>Nodes</name>
+        <qualifiedname>UWeaponRuntimeGraph::Nodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" line="60" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d1/db3/class_u_weapon_runtime_graph_1a4ca3e873594bd70cb5c3a549efa2d8db" prot="protected" static="no" mutable="no">
+        <type>TWeakObjectPtr&lt; UObject &gt;</type>
+        <definition>TWeakObjectPtr&lt;UObject&gt; UWeaponRuntimeGraph::WorldContext</definition>
+        <argsstring></argsstring>
+        <name>WorldContext</name>
+        <qualifiedname>UWeaponRuntimeGraph::WorldContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" line="66" column="16" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1ac48411005dd77cb0894bff2f8f93826d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponRuntimeGraph::ClearCache</definition>
+        <argsstring>() const</argsstring>
+        <name>ClearCache</name>
+        <qualifiedname>UWeaponRuntimeGraph::ClearCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" line="70" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" bodystart="95" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1a36289378d5296d462b24d19361502fa0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>TArray&lt; const <ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> * &gt;</type>
+        <definition>TArray&lt; const UWeaponRuntimeNode * &gt; UWeaponRuntimeGraph::GetConstantNodes</definition>
+        <argsstring>() const</argsstring>
+        <name>GetConstantNodes</name>
+        <qualifiedname>UWeaponRuntimeGraph::GetConstantNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" line="84" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1a4c9bda084a5107a1e2edbf8ae4ce453b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+        <definition>FORCEINLINE UWeaponAsset * UWeaponRuntimeGraph::GetWorkingAsset</definition>
+        <argsstring>()</argsstring>
+        <name>GetWorkingAsset</name>
+        <qualifiedname>UWeaponRuntimeGraph::GetWorkingAsset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" line="73" column="26" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1a0593aa636cc3ba19ae263a08935c6429" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+        <definition>FORCEINLINE const UWeaponAsset * UWeaponRuntimeGraph::GetWorkingAsset</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWorkingAsset</name>
+        <qualifiedname>UWeaponRuntimeGraph::GetWorkingAsset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" line="75" column="32" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1ad499596f47b78f4b00ed4611b3154dfe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE UObject *</type>
+        <definition>FORCEINLINE UObject * UWeaponRuntimeGraph::GetWorldContext</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWorldContext</name>
+        <qualifiedname>UWeaponRuntimeGraph::GetWorldContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" line="78" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1a5da7cadf7e69476718a1aacbb8536210" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>FORCEINLINE void UWeaponRuntimeGraph::SetWorldContext</definition>
+        <argsstring>(UObject *WorldContextObject)</argsstring>
+        <name>SetWorldContext</name>
+        <qualifiedname>UWeaponRuntimeGraph::SetWorldContext</qualifiedname>
+        <param>
+          <type>UObject *</type>
+          <declname>WorldContextObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" line="81" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" bodystart="81" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponRuntimeGraph</label>
+        <link refid="d1/db3/class_u_weapon_runtime_graph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponRuntimeGraph</label>
+        <link refid="d1/db3/class_u_weapon_runtime_graph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" line="54" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h" bodystart="55" bodyend="93"/>
+    <listofallmembers>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1ac48411005dd77cb0894bff2f8f93826d" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>ClearCache</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a36289378d5296d462b24d19361502fa0" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>GetConstantNodes</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a4c9bda084a5107a1e2edbf8ae4ce453b" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>GetWorkingAsset</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a0593aa636cc3ba19ae263a08935c6429" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>GetWorkingAsset</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1ad499596f47b78f4b00ed4611b3154dfe" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>GetWorldContext</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1aecb8029e8cca20c54b6237d1dc5f9768" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>Nodes</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a5da7cadf7e69476718a1aacbb8536210" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>SetWorldContext</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a4ca3e873594bd70cb5c3a549efa2d8db" prot="protected" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>WorldContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

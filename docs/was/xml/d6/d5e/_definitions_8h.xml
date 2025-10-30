@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d6/d5e/_definitions_8h" kind="file" language="C++">
+    <compoundname>Definitions.h</compoundname>
+    <includedby refid="d6/d5a/_weapon_graph_schema_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Schemas/WeaponGraphSchema.cpp</includedby>
+    <includedby refid="dd/d46/_weapon_graph_node_base_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNodeBase.h</includedby>
+    <includedby refid="d2/d4e/_weapon_runtime_pin_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/WeaponRuntimePin.cpp</includedby>
+    <includedby refid="d6/de3/_weapon_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeNode.h</includedby>
+    <includedby refid="de/d35/_weapon_runtime_pin_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimePin.h</includedby>
+    <innernamespace refid="db/ddc/namespace_e_nodes_actions">ENodesActions</innernamespace>
+    <innernamespace refid="d9/d03/namespace_e_pin_actions_operations">EPinActionsOperations</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="d6/d5e/_definitions_8h_1aeb6bb862752c24dd825948b2b091617c" prot="public" static="no">
+        <name>TEXT_BOOL</name>
+        <initializer>TEXT(&quot;Boolean&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Boolean text definition. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="10" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d6/d5e/_definitions_8h_1ae18783b15d7a7888707af5f42cc46257" prot="public" static="no">
+        <name>TEXT_COMPONENT</name>
+        <initializer>TEXT_OBJECT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Component text definition. Deprecated, use TEXT_OBJECT instead. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="15" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d6/d5e/_definitions_8h_1a795252dc4ff24eb2e8f67bd0c6ef5431" prot="public" static="no">
+        <name>TEXT_NUMERIC</name>
+        <initializer>TEXT(&quot;Numeric&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Numeric text definition. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="8" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d6/d5e/_definitions_8h_1a211e629403affef17a47f2992f5dd04d" prot="public" static="no">
+        <name>TEXT_OBJECT</name>
+        <initializer>TEXT(&quot;Object&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Object text definition. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="12" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d6/d5e/_definitions_8h_1a8d57b290678675cade2d3bfe083742f3" prot="public" static="no">
+        <name>TEXT_WILDCARD</name>
+        <initializer>TEXT(&quot;Wildcard&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Wildcard text definition. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="6" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d6/d5e/_definitions_8h_1a1bd18f047cd9aa62dbe54fa35b05159e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>EPinActions</name>
+        <enumvalue id="d6/d5e/_definitions_8h_1a1bd18f047cd9aa62dbe54fa35b05159ea733fcccb8629ed9d61785833bf4a9bcb" prot="public">
+          <name>ENone</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d5e/_definitions_8h_1a1bd18f047cd9aa62dbe54fa35b05159eaae77f50536f625024268b2f865e58e36" prot="public">
+          <name>EDelete</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d5e/_definitions_8h_1a1bd18f047cd9aa62dbe54fa35b05159eaa39e3a7065027d7efa5d6027886b78a4" prot="public">
+          <name>EMultiInput</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d5e/_definitions_8h_1a1bd18f047cd9aa62dbe54fa35b05159ea153be9c428815a0356c3b60d75eb1666" prot="public">
+          <name>EDynamicType</name>
+          <initializer>= 1 &lt;&lt; 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d5e/_definitions_8h_1a1bd18f047cd9aa62dbe54fa35b05159eab1d5eac4b1dca480c8056eaea7663b7a" prot="public">
+          <name>ALL</name>
+          <initializer>= EDelete | EMultiInput | EDynamicType</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="43" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="44" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEXT_WILDCARD<sp/>TEXT(&quot;Wildcard&quot;)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEXT_NUMERIC<sp/>TEXT(&quot;Numeric&quot;)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEXT_BOOL<sp/>TEXT(&quot;Boolean&quot;)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEXT_OBJECT<sp/>TEXT(&quot;Object&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEXT_COMPONENT<sp/>TEXT_OBJECT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//List<sp/>of<sp/>actions<sp/>that<sp/>can<sp/>be<sp/>used<sp/>on<sp/>a<sp/>right-click<sp/>node</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="db/ddc/namespace_e_nodes_actions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="db/ddc/namespace_e_nodes_actions" kindref="compound">ENodesActions</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea6313f5a0d3863c1ac3d09bc66ee5b4e9" kindref="member">EDelete</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8eafdbf6439cf3a7ddd8f5a6e950f1f324f" kindref="member">ERefresh</ref><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea753da4a6ee1e867169f30a53cf6b0632" kindref="member">EAddInput</ref><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea858fe668704c59a5f07b5cbfc4338172" kindref="member">EAddOutput</ref><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>4,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea076adf6e54f287b9477090b216ea0e66" kindref="member">ALL</ref><sp/>=<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea6313f5a0d3863c1ac3d09bc66ee5b4e9" kindref="member">EDelete</ref><sp/>|<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8eafdbf6439cf3a7ddd8f5a6e950f1f324f" kindref="member">ERefresh</ref><sp/>|<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea753da4a6ee1e867169f30a53cf6b0632" kindref="member">EAddInput</ref><sp/>|<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea858fe668704c59a5f07b5cbfc4338172" kindref="member">EAddOutput</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref>&amp;<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1a61376ebfe8bc56c1435fb2c6f58b17a8" kindref="member">operator&amp;=</ref>(<ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref>&amp;<sp/>lhs,<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref><sp/>rhs)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lhs<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref></highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(lhs)<sp/>&amp;<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(rhs));</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref>&amp;<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1a641ebf4183574ca30e0cf2e63e6d62ab" kindref="member">operator|=</ref>(<ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref>&amp;<sp/>lhs,<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref><sp/>rhs)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lhs<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref></highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(lhs)<sp/>|<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(rhs));</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//List<sp/>of<sp/>actions<sp/>that<sp/>can<sp/>be<sp/>used<sp/>on<sp/>a<sp/>right-click<sp/>node<sp/>pin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>EPinActions</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>ENone<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>EDelete<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>EMultiInput<sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>EDynamicType<sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>ALL<sp/>=<sp/>EDelete<sp/>|<sp/>EMultiInput<sp/>|<sp/>EDynamicType</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="d9/d03/namespace_e_pin_actions_operations" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/d03/namespace_e_pin_actions_operations" kindref="compound">EPinActionsOperations</ref></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>EPinActions&amp;<sp/><ref refid="d9/d03/namespace_e_pin_actions_operations_1accfb4cce1682ef45fee2c591d3dfaad5" kindref="member">operator&amp;=</ref>(EPinActions&amp;<sp/>lhs,<sp/>EPinActions<sp/>rhs)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lhs<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">EPinActions</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(lhs)<sp/>&amp;<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(rhs));</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>EPinActions&amp;<sp/><ref refid="d9/d03/namespace_e_pin_actions_operations_1ae002caa582fd998de66493f20963aee3" kindref="member">operator|=</ref>(EPinActions&amp;<sp/>lhs,<sp/>EPinActions<sp/>rhs)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lhs<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">EPinActions</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(lhs)<sp/>|<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(rhs));</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h"/>
+  </compounddef>
+</doxygen>

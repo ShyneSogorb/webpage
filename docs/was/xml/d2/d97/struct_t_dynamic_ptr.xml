@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d2/d97/struct_t_dynamic_ptr" kind="struct" language="C++" prot="public">
+    <compoundname>TDynamicPtr</compoundname>
+    <includes local="no">DynamicPointer.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/d97/struct_t_dynamic_ptr_1a8298987ea7b973bb52408474568819af" prot="private" static="no" mutable="no">
+        <type>uint8</type>
+        <definition>uint8 TDynamicPtr::bCanDeletePtr</definition>
+        <argsstring></argsstring>
+        <name>bCanDeletePtr</name>
+        <qualifiedname>TDynamicPtr::bCanDeletePtr</qualifiedname>
+        <bitfield>1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="16" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d97/struct_t_dynamic_ptr_1ae9530e08273b1329a3cd1f5251fbaffb" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* TDynamicPtr::Ptr</definition>
+        <argsstring></argsstring>
+        <name>Ptr</name>
+        <qualifiedname>TDynamicPtr::Ptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="14" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d97/struct_t_dynamic_ptr_1ab2a9d4824e2a4a86385395a2b14edd95" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t TDynamicPtr::Size</definition>
+        <argsstring></argsstring>
+        <name>Size</name>
+        <qualifiedname>TDynamicPtr::Size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="15" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1a04fa6dafbafa31f515f4a16721dc2118" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TDynamicPtr::TDynamicPtr</definition>
+        <argsstring>()</argsstring>
+        <name>TDynamicPtr</name>
+        <qualifiedname>TDynamicPtr::TDynamicPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="20" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1a6e1d35583836527e7101232075f44c5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TDynamicPtr::~TDynamicPtr</definition>
+        <argsstring>()</argsstring>
+        <name>~TDynamicPtr</name>
+        <qualifiedname>TDynamicPtr::~TDynamicPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destructor. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="22" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1a57bddb53936118535ced579f0aee2c1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TDynamicPtr::ClearPointer</definition>
+        <argsstring>()</argsstring>
+        <name>ClearPointer</name>
+        <qualifiedname>TDynamicPtr::ClearPointer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Clears the pointer. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="25" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="25" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1adc6456c7a4019030fcab70dfc61e2f9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void TDynamicPtr::CreateNewPointer</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNewPointer</name>
+        <qualifiedname>TDynamicPtr::CreateNewPointer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="69" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1a8b71c88e42e8fe007d9e3a58553d835c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void TDynamicPtr::CreateNewPointer</definition>
+        <argsstring>(const T &amp;Value)</argsstring>
+        <name>CreateNewPointer</name>
+        <qualifiedname>TDynamicPtr::CreateNewPointer</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new pointer with the given value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="59" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="59" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1ae0380a929a5575168e7643dcd0a30a34" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T TDynamicPtr::Get</definition>
+        <argsstring>() const</argsstring>
+        <name>Get</name>
+        <qualifiedname>TDynamicPtr::Get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="104" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="104" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1a2b23c32f2201cf83276909c16867a10b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void TDynamicPtr::Get</definition>
+        <argsstring>(T &amp;PtrValue) const</argsstring>
+        <name>Get</name>
+        <qualifiedname>TDynamicPtr::Get</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>PtrValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="94" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="94" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1ad20995b187b97e7f073e38a18ec1975b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const void *</type>
+        <definition>FORCEINLINE const void * TDynamicPtr::GetAddress</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAddress</name>
+        <qualifiedname>TDynamicPtr::GetAddress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the address of the pointer. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="77" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1a46fa2d203d93d801a5293ab950904bda" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE void *const *</type>
+        <definition>FORCEINLINE void *const  * TDynamicPtr::GetAddressPtr</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAddressPtr</name>
+        <qualifiedname>TDynamicPtr::GetAddressPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="80" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1a03fe891aadf5c3a6b84057b9996f83d8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>size_t</type>
+        <definition>size_t TDynamicPtr::GetMinSize</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMinSize</name>
+        <qualifiedname>TDynamicPtr::GetMinSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="90" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1af4bad7133b5b49a17545f76136403781" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE const T *</type>
+        <definition>FORCEINLINE const T * TDynamicPtr::GetPointer</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPointer</name>
+        <qualifiedname>TDynamicPtr::GetPointer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="84" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1a87f0d560c845778ab22dfc97eef20dda" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE size_t</type>
+        <definition>FORCEINLINE size_t TDynamicPtr::GetSize</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSize</name>
+        <qualifiedname>TDynamicPtr::GetSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="87" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1a165202234f6e38666c7198e4401870a6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TDynamicPtr::IsValid</definition>
+        <argsstring>() const</argsstring>
+        <name>IsValid</name>
+        <qualifiedname>TDynamicPtr::IsValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the pointer is valid. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="112" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1a3cb2ff9bf957657bf1c02fc1375dd0b2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TDynamicPtr::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>TDynamicPtr::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="114" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1aa6b7224af6cf4c8b0c9617c80f525b53" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>TDynamicPtr::operator T</definition>
+        <argsstring>() const</argsstring>
+        <name>operator T</name>
+        <qualifiedname>TDynamicPtr::operator T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="117" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1aa54fef7ddab2f3545fc7f35e700b2793" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto TDynamicPtr::operator&lt;=&gt;</definition>
+        <argsstring>(const T &amp;Other) const</argsstring>
+        <name>operator&lt;=&gt;</name>
+        <qualifiedname>TDynamicPtr::operator&lt;=&gt;</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="142" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="142" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1ac7e711ed712dd10d7ab3001720c4f160" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="d2/d97/struct_t_dynamic_ptr" kindref="compound">TDynamicPtr</ref> &amp;</type>
+        <definition>TDynamicPtr &amp; TDynamicPtr::operator=</definition>
+        <argsstring>(const T &amp;Other)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>TDynamicPtr::operator=</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overloaded assignment operator. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="121" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1ae01de1d4e9aeb4ead291aee1654c8f5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d2/d97/struct_t_dynamic_ptr" kindref="compound">TDynamicPtr</ref> &amp;</type>
+        <definition>TDynamicPtr &amp; TDynamicPtr::operator=</definition>
+        <argsstring>(const TDynamicPtr &amp;Other)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>TDynamicPtr::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="d2/d97/struct_t_dynamic_ptr" kindref="compound">TDynamicPtr</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="126" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="126" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1aaed910958db0868874a29c5043ead78a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TDynamicPtr::operator==</definition>
+        <argsstring>(const TDynamicPtr &amp;Other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>TDynamicPtr::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="d2/d97/struct_t_dynamic_ptr" kindref="compound">TDynamicPtr</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="136" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1a626366148f593726901a7fffff1abd64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void TDynamicPtr::SetPointer</definition>
+        <argsstring>(const T &amp;NewVariable)</argsstring>
+        <name>SetPointer</name>
+        <qualifiedname>TDynamicPtr::SetPointer</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>NewVariable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="52" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1a8071516785f1b5c1b702b4d063681e0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void TDynamicPtr::SetPointer</definition>
+        <argsstring>(T *PointerToVariable)</argsstring>
+        <name>SetPointer</name>
+        <qualifiedname>TDynamicPtr::SetPointer</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>PointerToVariable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the pointer to a variable. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="46" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1a26b34805fb25f6835e563a3ab589192d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TDynamicPtr::SetPointer</definition>
+        <argsstring>(void *PointerToVariable, size_t typeSize)</argsstring>
+        <name>SetPointer</name>
+        <qualifiedname>TDynamicPtr::SetPointer</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>PointerToVariable</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>typeSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the pointer to a variable. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="36" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="36" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d97/struct_t_dynamic_ptr_1ae964a7d345753c90d500c62d1f7d7930" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>std::strong_ordering</type>
+        <definition>std::strong_ordering TDynamicPtr::TypeSizeComparison</definition>
+        <argsstring>() const</argsstring>
+        <name>TypeSizeComparison</name>
+        <qualifiedname>TDynamicPtr::TypeSizeComparison</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="150" column="22" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="150" bodyend="153"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Struct to handle dynamic pointers. </para>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="11" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="12" bodyend="186"/>
+    <listofallmembers>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a8298987ea7b973bb52408474568819af" prot="private" virt="non-virtual"><scope>TDynamicPtr</scope><name>bCanDeletePtr</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a57bddb53936118535ced579f0aee2c1d" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>ClearPointer</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a8b71c88e42e8fe007d9e3a58553d835c" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>CreateNewPointer</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1adc6456c7a4019030fcab70dfc61e2f9b" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>CreateNewPointer</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a2b23c32f2201cf83276909c16867a10b" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>Get</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1ae0380a929a5575168e7643dcd0a30a34" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>Get</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1ad20995b187b97e7f073e38a18ec1975b" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>GetAddress</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a46fa2d203d93d801a5293ab950904bda" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>GetAddressPtr</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a03fe891aadf5c3a6b84057b9996f83d8" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>GetMinSize</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1af4bad7133b5b49a17545f76136403781" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>GetPointer</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a87f0d560c845778ab22dfc97eef20dda" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>GetSize</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a165202234f6e38666c7198e4401870a6" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>IsValid</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a3cb2ff9bf957657bf1c02fc1375dd0b2" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>operator bool</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1aa6b7224af6cf4c8b0c9617c80f525b53" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>operator T</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1aa54fef7ddab2f3545fc7f35e700b2793" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>operator&lt;=&gt;</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1ac7e711ed712dd10d7ab3001720c4f160" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>operator=</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1ae01de1d4e9aeb4ead291aee1654c8f5c" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>operator=</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1aaed910958db0868874a29c5043ead78a" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>operator==</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1ae9530e08273b1329a3cd1f5251fbaffb" prot="private" virt="non-virtual"><scope>TDynamicPtr</scope><name>Ptr</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a26b34805fb25f6835e563a3ab589192d" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>SetPointer</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a8071516785f1b5c1b702b4d063681e0d" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>SetPointer</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a626366148f593726901a7fffff1abd64" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>SetPointer</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1ab2a9d4824e2a4a86385395a2b14edd95" prot="private" virt="non-virtual"><scope>TDynamicPtr</scope><name>Size</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a04fa6dafbafa31f515f4a16721dc2118" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>TDynamicPtr</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1ae964a7d345753c90d500c62d1f7d7930" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>TypeSizeComparison</name></member>
+      <member refid="d2/d97/struct_t_dynamic_ptr_1a6e1d35583836527e7101232075f44c5c" prot="public" virt="non-virtual"><scope>TDynamicPtr</scope><name>~TDynamicPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

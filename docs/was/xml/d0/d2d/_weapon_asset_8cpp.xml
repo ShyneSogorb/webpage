@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d0/d2d/_weapon_asset_8cpp" kind="file" language="C++">
+    <compoundname>WeaponAsset.cpp</compoundname>
+    <includes refid="d4/dfe/_weapon_asset_8h" local="yes">WeaponAsset.h</includes>
+    <includes refid="df/da3/_w_a_s_runtime_8h" local="yes">WASRuntime.h</includes>
+    <includes refid="d0/d9e/_weapon_runtime_graph_8h" local="yes">WeaponRuntimeGraph.h</includes>
+    <includes refid="d6/de3/_weapon_runtime_node_8h" local="yes">WeaponRuntimeNode.h</includes>
+    <includes refid="da/d54/_weapon_architecture_8h" local="yes">WeaponArchitecture/WeaponArchitecture.h</includes>
+    <includes refid="d6/d10/_weapon_end_runtime_node_8h" local="yes">Nodes/EndNodes/WeaponEndRuntimeNode.h</includes>
+    <includes refid="dd/dba/_weapon_end_runtime_node_operator_8h" local="yes">Nodes/EndNodes/WeaponEndRuntimeNodeOperator.h</includes>
+    <includes refid="d4/d5b/_weapon_end_runtime_node_visuals_8h" local="yes">Nodes/EndNodes/WeaponEndRuntimeNodeVisuals.h</includes>
+    <includes refid="de/d35/_weapon_asset_characteristics_8h" local="yes">Properties/WeaponAssetCharacteristics.h</includes>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="d0/d2d/_weapon_asset_8cpp_1aef575f96913a55f0d9b10e3219ccc93d" prot="public" static="no">
+        <name>GET_MODS</name>
+        <param><defname>VarName</defname></param>
+        <initializer>TArray&lt;uint8&gt;&amp; VarName = GetModificationsApplied();</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/WeaponAsset.cpp" line="15" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/WeaponAsset.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponAsset.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WASRuntime.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponRuntimeGraph.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponRuntimeNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponArchitecture/WeaponArchitecture.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/EndNodes/WeaponEndRuntimeNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/EndNodes/WeaponEndRuntimeNodeOperator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/EndNodes/WeaponEndRuntimeNodeVisuals.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Properties/WeaponAssetCharacteristics.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//Makes<sp/>a<sp/>local<sp/>variable<sp/>with<sp/>@param<sp/>VarName<sp/>as<sp/>reference<sp/>to<sp/>GetModificationsApplied<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GET_MODS(VarName)<sp/>TArray&lt;uint8&gt;&amp;<sp/>VarName<sp/>=<sp/>GetModificationsApplied();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITORONLY_DATA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponAsset::PostEditChangeProperty(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>FPropertyChangedEvent&amp;<sp/>PropertyChangedEvent)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="df/d06/class_u_weapon_asset_1a8bfcfc861e1b44bb0708c2e6f8971a34" kindref="member">GetArchitecturePtr</ref>())</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>NSlots<sp/>=<sp/><ref refid="df/d06/class_u_weapon_asset_1a8bfcfc861e1b44bb0708c2e6f8971a34" kindref="member">GetArchitecturePtr</ref>()-&gt;<ref refid="d9/df8/class_u_weapon_architecture_1a3c4af5ff1a0a4e9b116b9a3985720fb8" kindref="member">Architecture</ref>.<ref refid="d0/d9f/struct_f_modification_architecture_1a3303e790f1d03857911891212036bdb2" kindref="member">EnumEntries</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TArray&lt;TObjectPtr&lt;UEnum&gt;&gt;&amp;<sp/>ModsPerSlot<sp/>=<sp/><ref refid="df/d06/class_u_weapon_asset_1a8bfcfc861e1b44bb0708c2e6f8971a34" kindref="member">GetArchitecturePtr</ref>()-&gt;<ref refid="d9/df8/class_u_weapon_architecture_1a3c4af5ff1a0a4e9b116b9a3985720fb8" kindref="member">Architecture</ref>.<ref refid="d0/d9f/struct_f_modification_architecture_1adca7b7903e7a283e6b312491f24ef1bb" kindref="member">SlotModifiers</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ModsPerSlot.SetNum(NSlots);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>It<sp/>=<sp/>ModsPerSlot.CreateIterator();<sp/>It;<sp/>++It)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8&amp;<sp/>mod<sp/>=<sp/><ref refid="df/d06/class_u_weapon_asset_1a2887312f0ace3c7a7c725d38f259959b" kindref="member">GetModOrAdd</ref>(It.GetIndex());</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(*It)mod<sp/>=<sp/>FMath::Clamp&lt;uint8&gt;(mod,<sp/>0,<sp/>(*It)-&gt;NumEnums()<sp/>-<sp/>2);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset_1a075747b69a53a712ac9a1ae5c905df08" kindref="member">GetModificationsApplied</ref>().SetNum(NSlots);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Warning,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[MissingArch]<sp/>Asset<sp/>%s<sp/>has<sp/>no<sp/>architecture<sp/>assigned<sp/>at<sp/>ModificationConfiguration-&gt;Architecture.<sp/>Add<sp/>it<sp/>for<sp/>better<sp/>accesibility&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetName()</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>(void)OnWeaponModified.ExecuteIfBound();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!!<ref refid="df/d06/class_u_weapon_asset_1a4bea45254e388cd89bdc2e335c604d2a" kindref="member">Characteristics</ref><sp/>!=<sp/>!!<ref refid="df/d06/class_u_weapon_asset_1ab7b2292ac52ffb253a5da8f5ec608640" kindref="member">CharacteristicsClass</ref></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/><ref refid="df/d06/class_u_weapon_asset_1a4bea45254e388cd89bdc2e335c604d2a" kindref="member">Characteristics</ref>-&gt;GetClass()<sp/>!=<sp/><ref refid="df/d06/class_u_weapon_asset_1ab7b2292ac52ffb253a5da8f5ec608640" kindref="member">CharacteristicsClass</ref></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref>*<sp/>PreviousCharacteristics<sp/>=<sp/><ref refid="df/d06/class_u_weapon_asset_1a4bea45254e388cd89bdc2e335c604d2a" kindref="member">Characteristics</ref>.Get();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="df/d06/class_u_weapon_asset_1ab7b2292ac52ffb253a5da8f5ec608640" kindref="member">CharacteristicsClass</ref>)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset_1a4bea45254e388cd89bdc2e335c604d2a" kindref="member">Characteristics</ref><sp/>=<sp/>NewObject&lt;UWeaponAssetCharacteristics&gt;(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/><ref refid="df/d06/class_u_weapon_asset_1ab7b2292ac52ffb253a5da8f5ec608640" kindref="member">CharacteristicsClass</ref>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset_1a4bea45254e388cd89bdc2e335c604d2a" kindref="member">Characteristics</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Changed<sp/>characteristics<sp/>class<sp/>from<sp/>%s<sp/>to<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GetNameSafe(PreviousCharacteristics),<sp/>*GetNameSafe(<ref refid="df/d06/class_u_weapon_asset_1a4bea45254e388cd89bdc2e335c604d2a" kindref="member">Characteristics</ref>.Get()))</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>UObject::PostEditChangeProperty(PropertyChangedEvent);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">uint8&amp;<sp/><ref refid="df/d06/class_u_weapon_asset_1a2887312f0ace3c7a7c725d38f259959b" kindref="member">UWeaponAsset::GetModOrAdd</ref>(uint8<sp/>Index)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>GET_MODS(Mods)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Mods.IsValidIndex(Index))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Mods[Index];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Display,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;ModificationConfiguration.SlotModifiers<sp/>Did<sp/>not<sp/>have<sp/>enough<sp/>elements<sp/>(%d)<sp/>to<sp/>get<sp/>the<sp/>index<sp/>%d.<sp/>Adding<sp/>%d<sp/>element(s)&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mods.Num(),<sp/>Index,<sp/>Index<sp/>-<sp/>Mods.Num()</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>Mods.SetNumZeroed(Index<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Mods[Index];</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset_1a637eb2e1e564c4537d1be05781bcbca8" kindref="member">UWeaponAsset::ClearCache</ref>()</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>*<sp/>Node<sp/>:<sp/><ref refid="df/d06/class_u_weapon_asset_1a0c90ed1d11cbbbc935eebe73818b5268" kindref="member">GetAllNodes</ref>())</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Node-&gt;ClearCache();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Verbose,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Cache<sp/>of<sp/>all<sp/>%i<sp/>nodes<sp/>of<sp/>%s<sp/>are<sp/>now<sp/>clean&quot;</highlight><highlight class="normal">),<sp/><ref refid="df/d06/class_u_weapon_asset_1a0c90ed1d11cbbbc935eebe73818b5268" kindref="member">GetAllNodes</ref>().Num(),<sp/>*GetName())</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;UWeaponRuntimeNode*&gt;&amp;<sp/><ref refid="df/d06/class_u_weapon_asset_1a0c90ed1d11cbbbc935eebe73818b5268" kindref="member">UWeaponAsset::GetAllNodes</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="90"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset_1a5c84a813f5383f055b1de067581888e3" kindref="member">Graph</ref>-&gt;<ref refid="d1/db3/class_u_weapon_runtime_graph_1aecb8029e8cca20c54b6237d1dc5f9768" kindref="member">Nodes</ref>;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset_1a6f2e55d6dbc39982b5ebc5944a798573" kindref="member">UWeaponAsset::RunEndNodes</ref>(UObject*<sp/>InContext,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bForcesCallDelegates)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="95"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset_1a39af89d30cd85225f5bfb9e16a45c550" kindref="member">RunBuildNodes</ref>(InContext);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset_1ac945962d6af8109d0d463b4999a6c7a9" kindref="member">RunOperationNodes</ref>(InContext,<sp/>bForcesCallDelegates);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset_1a39af89d30cd85225f5bfb9e16a45c550" kindref="member">UWeaponAsset::RunBuildNodes</ref>(UObject*<sp/>InContext)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="101"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;UWeaponEndRuntimeNodeVisuals*&gt;<sp/>Nodes;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset_1a5c84a813f5383f055b1de067581888e3" kindref="member">Graph</ref>-&gt;<ref refid="d1/db3/class_u_weapon_runtime_graph_1a5da7cadf7e69476718a1aacbb8536210" kindref="member">SetWorldContext</ref>(InContext);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset_1ac94df0e9b40ae9ae9f2c2d357e508fc4" kindref="member">GetNodesByType</ref>(Nodes);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;UPrimitiveComponent*&gt;<sp/>Components;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="da/d6a/class_u_weapon_end_runtime_node_visuals" kindref="compound">UWeaponEndRuntimeNodeVisuals</ref>*<sp/>Node<sp/>:<sp/>Nodes)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Components.Append(Node-&gt;RunExecution());</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Verbose,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%d<sp/>main<sp/>components<sp/>have<sp/>been<sp/>generated&quot;</highlight><highlight class="normal">),<sp/>Components.Num())</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset_1acdab1108a8401986d53b5a94f5436c67" kindref="member">OnComponentsCreated</ref>.Broadcast(Components);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>::<ref refid="df/d06/class_u_weapon_asset_1ac945962d6af8109d0d463b4999a6c7a9" kindref="member">RunOperationNodes</ref>(UObject*<sp/>InContext,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bForcesCallDelegates)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="118"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="df/d06/class_u_weapon_asset_1a9e67bc39aa923f6774578ed19d15a4c7" kindref="member">IsInstanced</ref>())</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Asset<sp/>%s<sp/>is<sp/>not<sp/>an<sp/>instance,<sp/>so<sp/>it<sp/>will<sp/>not<sp/>run<sp/>operation<sp/>nodes&quot;</highlight><highlight class="normal">),<sp/>*GetName())</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset_1acc78994c90d0a64a41df370cb4182760" kindref="member">bForceNotify</ref><sp/>|=<sp/>bForcesCallDelegates;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset_1a5c84a813f5383f055b1de067581888e3" kindref="member">Graph</ref>-&gt;SetWorldContext(InContext);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;UWeaponEndRuntimeNodeOperator*&gt;<sp/>Nodes;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset_1ac94df0e9b40ae9ae9f2c2d357e508fc4" kindref="member">GetNodesByType</ref>(Nodes);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>if(<ref refid="df/d06/class_u_weapon_asset_1acc78994c90d0a64a41df370cb4182760" kindref="member">bForceNotify</ref>)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Asset<sp/>%s<sp/>has<sp/>been<sp/>forced<sp/>to<sp/>notify<sp/>all<sp/>properties<sp/>reached&quot;</highlight><highlight class="normal">),<sp/>*GetName())</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(UWeaponEndRuntimeNodeOperator*<sp/>Node<sp/>:<sp/>Nodes)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Node-&gt;RunExecution();</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset_1acc78994c90d0a64a41df370cb4182760" kindref="member">bForceNotify</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset_1a7cd8e8e13e0422a788ce0fdd4cc339df" kindref="member">UWeaponAsset::HasModAtSlot</ref>(uint8<sp/>Slot,<sp/>uint8<sp/>Modification)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="147"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;uint8&gt;&amp;<sp/>Mods<sp/>=<sp/><ref refid="df/d06/class_u_weapon_asset_1a075747b69a53a712ac9a1ae5c905df08" kindref="member">GetModificationsApplied</ref>();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Mods.IsValidIndex(Slot)<sp/>?<sp/>Mods[Slot]<sp/>==<sp/>Modification<sp/>:<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset_1a6d53f48de67bf4b6c5977aaa71231f97" kindref="member">UWeaponAsset::SetModificationAtSlot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8<sp/>Slot,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8<sp/>Modification)</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8&amp;<sp/>Mod<sp/>=<sp/><ref refid="df/d06/class_u_weapon_asset_1a2887312f0ace3c7a7c725d38f259959b" kindref="member">GetModOrAdd</ref>(Slot);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Verbose,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Asset<sp/>%s<sp/>modification<sp/>at<sp/>slot<sp/>%i<sp/>has<sp/>changed<sp/>from<sp/>%i<sp/>to<sp/>%i&quot;</highlight><highlight class="normal">),<sp/>*GetNameSafe(</highlight><highlight class="keyword">this</highlight><highlight class="normal">)<sp/>,<sp/>Slot,<sp/>Mod,<sp/>Modification)</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Mod<sp/>==<sp/>Modification)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>No<sp/>change,<sp/>no<sp/>need<sp/>to<sp/>notify</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>Mod<sp/>=<sp/>Modification;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset_1ac59ead814effbd2cec0cdfedcf1268c4" kindref="member">UWeaponAsset::SetAllModifications</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;uint8&gt;&amp;<sp/>InModifications)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bChanged<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(int32<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>InModifications.Num();<sp/>++i)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bChanged<sp/>|=<sp/><ref refid="df/d06/class_u_weapon_asset_1a6d53f48de67bf4b6c5977aaa71231f97" kindref="member">SetModificationAtSlot</ref>(i,<sp/>InModifications[i]);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bChanged;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset_1acc31ecd8659a67fd636386b6224be350" kindref="member">UWeaponAsset::ResetModifiableProperties</ref>()</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="df/d06/class_u_weapon_asset_1ac432f50a1f0fcc62fe92592cd27fecf1" kindref="member">ParentAsset</ref><sp/>||<sp/><ref refid="df/d06/class_u_weapon_asset_1ac432f50a1f0fcc62fe92592cd27fecf1" kindref="member">ParentAsset</ref>-&gt;GetClass()<sp/>!=<sp/>GetClass())</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="df/d06/class_u_weapon_asset_1ac432f50a1f0fcc62fe92592cd27fecf1" kindref="member">ParentAsset</ref>)</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Warning,</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Tried<sp/>to<sp/>reset<sp/>modifiable<sp/>properties<sp/>to<sp/>their<sp/>default<sp/>values<sp/>but<sp/>asset<sp/>%s<sp/>is<sp/>not<sp/>a<sp/>runtime<sp/>instance&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetName()</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Warning,</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Tried<sp/>to<sp/>reset<sp/>modifiable<sp/>properties<sp/>to<sp/>their<sp/>default<sp/>values,<sp/>but<sp/>the<sp/>parent<sp/>%s&apos;s<sp/>class<sp/>%s<sp/>does<sp/>not<sp/>match<sp/>%s<sp/>one<sp/>%s&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetNameSafe(<ref refid="df/d06/class_u_weapon_asset_1ac432f50a1f0fcc62fe92592cd27fecf1" kindref="member">ParentAsset</ref>),</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetNameSafe(<ref refid="df/d06/class_u_weapon_asset_1ac432f50a1f0fcc62fe92592cd27fecf1" kindref="member">ParentAsset</ref>-&gt;GetClass()),</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetNameSafe(</highlight><highlight class="keyword">this</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetNameSafe(this-&gt;GetClass())</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(TFieldIterator&lt;FProperty&gt;Property(GetClass());<sp/>Property;<sp/>++Property)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>ParentValue{};</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Property-&gt;GetValue_InContainer(<ref refid="df/d06/class_u_weapon_asset_1ac432f50a1f0fcc62fe92592cd27fecf1" kindref="member">ParentAsset</ref>,<sp/>ParentValue);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Property-&gt;SetValue_InContainer(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>ParentValue);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Display,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Asset<sp/>%s<sp/>variables<sp/>have<sp/>been<sp/>reseted<sp/>to<sp/>default&quot;</highlight><highlight class="normal">),<sp/>*GetName())</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/WeaponAsset.cpp"/>
+  </compounddef>
+</doxygen>

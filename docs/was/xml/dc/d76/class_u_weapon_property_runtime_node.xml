@@ -1,0 +1,665 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dc/d76/class_u_weapon_property_runtime_node" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponPropertyRuntimeNode</compoundname>
+    <basecompoundref refid="de/dde/class_u_weapon_runtime_node" prot="public" virt="non-virtual">UWeaponRuntimeNode</basecompoundref>
+    <derivedcompoundref refid="dd/d1d/class_u_weapon_numeric_property_runtime_node" prot="public" virt="non-virtual">UWeaponNumericPropertyRuntimeNode</derivedcompoundref>
+    <includes local="no">WeaponPropertyRuntimeNode.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="dc/d76/class_u_weapon_property_runtime_node_1ab41ed9ba624703bee25442bae98150cf" prot="protected" static="no" mutable="yes">
+        <type>FMulticastDelegateProperty *</type>
+        <definition>FMulticastDelegateProperty* UWeaponPropertyRuntimeNode::DelegateCache</definition>
+        <argsstring></argsstring>
+        <name>DelegateCache</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::DelegateCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="66" column="36" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d76/class_u_weapon_property_runtime_node_1a2eb7dc9d365bbfab43db412957963faf" prot="protected" static="no" mutable="yes">
+        <type>FProperty *</type>
+        <definition>FProperty* UWeaponPropertyRuntimeNode::PropertyCache</definition>
+        <argsstring></argsstring>
+        <name>PropertyCache</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::PropertyCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="64" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d76/class_u_weapon_property_runtime_node_1add5032ad5ae4085e463169c86e66bdf2" prot="protected" static="no" mutable="no">
+        <type>FName</type>
+        <definition>FName UWeaponPropertyRuntimeNode::PropertyName</definition>
+        <argsstring></argsstring>
+        <name>PropertyName</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::PropertyName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="62" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a9dec07e33f52d9dff1b89f8b0d9c31c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponPropertyRuntimeNode::CallDelegate</definition>
+        <argsstring>(const FAnyNumeric &amp;NewValue, const FAnyNumeric &amp;NodeValue) const</argsstring>
+        <name>CallDelegate</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::CallDelegate</qualifiedname>
+        <param>
+          <type>const FAnyNumeric &amp;</type>
+          <declname>NewValue</declname>
+        </param>
+        <param>
+          <type>const FAnyNumeric &amp;</type>
+          <declname>NodeValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calls the delegate that notifies the modification of the property <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NewValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new value that will have the property if null will be ignored </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NodeValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>previous value of the property </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="22" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.cpp" bodystart="128" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a8285ef201d6e75b5030507d7dab79396" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE FMulticastDelegateProperty *</type>
+        <definition>FORCEINLINE FMulticastDelegateProperty * UWeaponPropertyRuntimeNode::GetDelegate</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDelegate</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::GetDelegate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="39" column="40" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a7842ab4b4b259150ede18d41a6ed5b8d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>FORCEINLINE FProperty *</type>
+        <definition>virtual FORCEINLINE FProperty * UWeaponPropertyRuntimeNode::GetProperty</definition>
+        <argsstring>() const</argsstring>
+        <name>GetProperty</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::GetProperty</qualifiedname>
+        <reimplementedby refid="d5/def/class_u_weapon_numeric_property_overrider_runtime_node_1ab903cac208c2df1e1311e1e6ed897fb8">GetProperty</reimplementedby>
+        <reimplementedby refid="dd/d1d/class_u_weapon_numeric_property_runtime_node_1a99796324af0c48d979fd188f089b9bc7">GetProperty</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="38" column="31" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1aa89e539b63cb1b4131f4e402151f0503" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const FName &amp;</type>
+        <definition>FORCEINLINE const FName &amp; UWeaponPropertyRuntimeNode::GetPropertyName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPropertyName</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::GetPropertyName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="37" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1ae6fb8de5da150ea44ae480c046e81936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponPropertyRuntimeNode::InitializeProperty</definition>
+        <argsstring>(const FName &amp;NewPropertyName)</argsstring>
+        <name>InitializeProperty</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::InitializeProperty</qualifiedname>
+        <param>
+          <type>const FName &amp;</type>
+          <declname>NewPropertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes the property with the name and loads the pointers <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NewPropertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the property that will point to. MUST BE THE EXACT SAME NAME </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="28" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.cpp" bodystart="9" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a54978e8d5b2a9efae66fc4b48ce252d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponPropertyRuntimeNode::InitializeProperty</definition>
+        <argsstring>(FProperty *PropertyPtr)</argsstring>
+        <name>InitializeProperty</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::InitializeProperty</qualifiedname>
+        <param>
+          <type>FProperty *</type>
+          <declname>PropertyPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="29" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.cpp" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a77f31125d6b8af88c643d3d5775c469a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponPropertyRuntimeNode::LoadDelegatePtr</definition>
+        <argsstring>() const</argsstring>
+        <name>LoadDelegatePtr</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::LoadDelegatePtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="43" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.cpp" bodystart="43" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a8cd63df041575804ed0b0e85d43594f8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponPropertyRuntimeNode::LoadPropertyPtr</definition>
+        <argsstring>() const</argsstring>
+        <name>LoadPropertyPtr</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::LoadPropertyPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="42" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.cpp" bodystart="23" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a44f2b8897ca7a8db79408fbc14ce17cf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>FORCEINLINE void UWeaponPropertyRuntimeNode::LoadPtrIfNull</definition>
+        <argsstring>() const</argsstring>
+        <name>LoadPtrIfNull</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::LoadPtrIfNull</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="40" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1aa9a2bf20fd6f9734001b6ab7b92073a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UWeaponPropertyRuntimeNode::OnPropertyChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnPropertyChanged</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::OnPropertyChanged</qualifiedname>
+        <reimplementedby refid="d5/def/class_u_weapon_numeric_property_overrider_runtime_node_1aca075ec70f9aa0a1d6cc8f7087e0f02b">OnPropertyChanged</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="46" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a0a7fcd864b7698b2e29f1a11973be1ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UWeaponPropertyRuntimeNode::OnPropertyPreChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnPropertyPreChanged</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::OnPropertyPreChanged</qualifiedname>
+        <reimplementedby refid="d5/def/class_u_weapon_numeric_property_overrider_runtime_node_1abf38c86d861798929fd4789921436dad">OnPropertyPreChanged</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="47" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a633afe92f54b29a1f6bcec798d8cde6f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void UWeaponPropertyRuntimeNode::SetParamValue</definition>
+        <argsstring>(const FAnyNumeric &amp;AssignValue, void *ParamToAssign, uint16 ParamSize) const</argsstring>
+        <name>SetParamValue</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::SetParamValue</qualifiedname>
+        <reimplementedby refid="dd/d1d/class_u_weapon_numeric_property_runtime_node_1a22587587959987d9ea745d785ce0aee7">SetParamValue</reimplementedby>
+        <param>
+          <type>const FAnyNumeric &amp;</type>
+          <declname>AssignValue</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>ParamToAssign</declname>
+        </param>
+        <param>
+          <type>uint16</type>
+          <declname>ParamSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns into a memory position the casted expected type of the delegate from the TVariant <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>AssignValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variant value that holds the value to copy into memory </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ParamToAssign</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Memory location to insert the value of the variant </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ParamSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Expected size of the delegate for the parameter to have </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="55" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a54e931d2966e83162b87e9a987dabca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponPropertyRuntimeNode::SetPinValue</definition>
+        <argsstring>(const UWeaponRuntimePin *Pin) override</argsstring>
+        <name>SetPinValue</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::SetPinValue</qualifiedname>
+        <reimplements refid="de/dde/class_u_weapon_runtime_node_1a7862a2fb74fc4bfe41edba34aaa9073f">SetPinValue</reimplements>
+        <reimplementedby refid="dd/d1d/class_u_weapon_numeric_property_runtime_node_1a3800f69c9f990d51b826515a79d734e1">SetPinValue</reimplementedby>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>Pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the value for the specified Pin. It should always be an output pin <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pin to set the cache value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="57" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a3a314ab3cea1c746ed60f006172b74f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>FORCEINLINE void UWeaponPropertyRuntimeNode::SetPropertyName</definition>
+        <argsstring>(const FName &amp;NewPropertyName)</argsstring>
+        <name>SetPropertyName</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::SetPropertyName</qualifiedname>
+        <param>
+          <type>const FName &amp;</type>
+          <declname>NewPropertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates the expected name of the property. THIS DOES NOT UPDATE THE POINTER <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NewPropertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new expected name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="35" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1af45401ce4af1c3a343588b0f4c002f17" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponPropertyRuntimeNode::ConvertNodeValue</definition>
+        <argsstring>(FAnyNumeric &amp;NewValue, const FAnyNumeric &amp;NodeValue) const</argsstring>
+        <name>ConvertNodeValue</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::ConvertNodeValue</qualifiedname>
+        <param>
+          <type>FAnyNumeric &amp;</type>
+          <declname>NewValue</declname>
+        </param>
+        <param>
+          <type>const FAnyNumeric &amp;</type>
+          <declname>NodeValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts the value of NodeValue to the type of NewValue if possible <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NewValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The variant to convert to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>NodeValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The variant to convert from </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="110" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.cpp" bodystart="72" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a223085d5a0f820876b35377962fbf8f0" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const void *</type>
+        <definition>virtual const void * UWeaponPropertyRuntimeNode::GetConstContainerPtr</definition>
+        <argsstring>(const void *From) const</argsstring>
+        <name>GetConstContainerPtr</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::GetConstContainerPtr</qualifiedname>
+        <reimplementedby refid="d5/def/class_u_weapon_numeric_property_overrider_runtime_node_1aab14602c7e7cca07b716acc5898ccf61">GetConstContainerPtr</reimplementedby>
+        <param>
+          <type>const void *</type>
+          <declname>From</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="68" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1ac6140883c6905f15d776d0270cc1c9f9" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * UWeaponPropertyRuntimeNode::GetContainerPtr</definition>
+        <argsstring>(void *From) const</argsstring>
+        <name>GetContainerPtr</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::GetContainerPtr</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>From</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="69" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a1723bf43c254d3eb391aeb148856f526" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>FAnyNumeric</type>
+        <definition>virtual FAnyNumeric UWeaponPropertyRuntimeNode::GetPropertyDefaultValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPropertyDefaultValue</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::GetPropertyDefaultValue</qualifiedname>
+        <reimplementedby refid="dd/d1d/class_u_weapon_numeric_property_runtime_node_1a66ccbf7b1e67fef3c7b3ec51dbceb81c">GetPropertyDefaultValue</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="88" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1ab7ff3dc728c207363628ad82878c6bdf" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>FAnyNumeric</type>
+        <definition>virtual FAnyNumeric UWeaponPropertyRuntimeNode::GetPropertyValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPropertyValue</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::GetPropertyValue</qualifiedname>
+        <reimplementedby refid="dd/d1d/class_u_weapon_numeric_property_runtime_node_1ad8df6e3b578989377647365808d92844">GetPropertyValue</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the value of the property from the characteristics <simplesect kind="return"><para>The value of the property </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="87" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a3f229623a18be33a815a4f9f3c1402a5" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>FAnyNumeric</type>
+        <definition>FAnyNumeric UWeaponPropertyRuntimeNode::GetPropertyValueImpl</definition>
+        <argsstring>(const void *ContainerPtr) const</argsstring>
+        <name>GetPropertyValueImpl</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::GetPropertyValueImpl</qualifiedname>
+        <param>
+          <type>const void *</type>
+          <declname>ContainerPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="72" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="116" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d76/class_u_weapon_property_runtime_node_1a1d72f981f044d0ffc03259cd94d0308a" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void UWeaponPropertyRuntimeNode::VisitSingle</definition>
+        <argsstring>(FAnyNumeric &amp;Variant, F &amp;&amp;Func) const</argsstring>
+        <name>VisitSingle</name>
+        <qualifiedname>UWeaponPropertyRuntimeNode::VisitSingle</qualifiedname>
+        <param>
+          <type>FAnyNumeric &amp;</type>
+          <declname>Variant</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>Func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Visits the variant if it is of type T and calls the function with the value <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Variant</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The variant to visit </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Func</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The function to call if the variant is of type T </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="97" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="97" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>UObject</label>
+      </node>
+      <node id="5">
+        <label>UWeaponNumericPropertyOverriderRuntimeNode</label>
+        <link refid="d5/def/class_u_weapon_numeric_property_overrider_runtime_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UWeaponNumericPropertyRuntimeNode</label>
+        <link refid="dd/d1d/class_u_weapon_numeric_property_runtime_node"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>UWeaponPropertyRuntimeNode</label>
+        <link refid="dc/d76/class_u_weapon_property_runtime_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponPropertyRuntimeNode</label>
+        <link refid="dc/d76/class_u_weapon_property_runtime_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>OutputPin</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UWeaponRuntimePin</label>
+        <link refid="dd/d5d/class_u_weapon_runtime_pin"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" line="12" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h" bodystart="13" bodyend="113"/>
+    <listofallmembers>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a9dec07e33f52d9dff1b89f8b0d9c31c9" prot="public" virt="virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>CallDelegate</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a097aad9c43b080b602ac91c362cde920" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>ClearCache</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1af45401ce4af1c3a343588b0f4c002f17" prot="protected" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>ConvertNodeValue</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1ab41ed9ba624703bee25442bae98150cf" prot="protected" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>DelegateCache</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a966058e4fc27de54fa895444d3e281ed" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetAllPins</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ae80914a1cbed5c244202b092e2ef28ec" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetCharacteristics</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a223085d5a0f820876b35377962fbf8f0" prot="protected" virt="virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetConstContainerPtr</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1ac6140883c6905f15d776d0270cc1c9f9" prot="protected" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetContainerPtr</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a8285ef201d6e75b5030507d7dab79396" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetDelegate</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aac61ae0f66550aa137e4a184faabf048" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetGraph</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ab0ed90456b663568fdb8c8eae8b45b0f" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetLastInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ad83305eea700b8aad7904e542f1fdd4b" prot="public" virt="virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetMainInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1abbe1c76ce8e8161ed6405e3bc3068ceb" prot="public" virt="virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetMainOutput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ac284948005ccd2699b30849031829bbd" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a44bbe10ae3aa2b5f628566022ddb6538" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a13bd56c9affe83d039eb35416f982317" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aa3651afaba4ab612835a5181011d65de" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a07ffea4a5c6b4ebaa0cc5ed45ba988f4" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetPinByName</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a936fcdfe272bd548e51cb3a23b1d89bb" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetPinConnection</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a53ac22a37bc5310a743f45d2e6061ac1" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetPinConnection</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0e86c0ec73005b8ea83f3061287ca3d4" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetPinConnections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0fe1f31d6c8fc4e93fd0e9bf02326bd5" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetPinConnections</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a7842ab4b4b259150ede18d41a6ed5b8d" prot="public" virt="virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetProperty</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a1723bf43c254d3eb391aeb148856f526" prot="protected" virt="virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetPropertyDefaultValue</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1aa89e539b63cb1b4131f4e402151f0503" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetPropertyName</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1ab7ff3dc728c207363628ad82878c6bdf" prot="protected" virt="virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetPropertyValue</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a3f229623a18be33a815a4f9f3c1402a5" prot="protected" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetPropertyValueImpl</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a920f1ec93a0815499ce44a23676bed52" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetSourceCharacteristics</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a80195a739443f3d36e8aa45d864d9b9c" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetSourceWorkingAsset</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a00b3a099fb897f3d84e577a5de79b611" prot="public" virt="virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetValidPin</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a52eb9f7d6605233445104c21c411f8b0" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetWorkingAsset</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aa0c2351d764b462aec9d95de918f9ccb" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>GetWorldContext</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1ae6fb8de5da150ea44ae480c046e81936" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>InitializeProperty</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a54978e8d5b2a9efae66fc4b48ce252d9" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>InitializeProperty</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a87b0a5686fa3ae650a539d8ae7e857e1" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>InputPins</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a77f31125d6b8af88c643d3d5775c469a" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>LoadDelegatePtr</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a8cd63df041575804ed0b0e85d43594f8" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>LoadPropertyPtr</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a44f2b8897ca7a8db79408fbc14ce17cf" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>LoadPtrIfNull</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1aa9a2bf20fd6f9734001b6ab7b92073a2" prot="public" virt="virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>OnPropertyChanged</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a0a7fcd864b7698b2e29f1a11973be1ba" prot="public" virt="virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>OnPropertyPreChanged</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a9f8a497d1a33609fcd7e05fed301991c" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>OutputPin</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a2eb7dc9d365bbfab43db412957963faf" prot="protected" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>PropertyCache</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1add5032ad5ae4085e463169c86e66bdf2" prot="protected" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>PropertyName</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a633afe92f54b29a1f6bcec798d8cde6f" prot="public" virt="virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>SetParamValue</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a54e931d2966e83162b87e9a987dabca1" prot="public" virt="virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>SetPinValue</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a3a314ab3cea1c746ed60f006172b74f6" prot="public" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>SetPropertyName</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a1d72f981f044d0ffc03259cd94d0308a" prot="protected" virt="non-virtual"><scope>UWeaponPropertyRuntimeNode</scope><name>VisitSingle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

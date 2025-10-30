@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_9384e65101255de5d76940758f01c5b4" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes</compoundname>
+    <innerfile refid="d6/de2/_weapon_custom_function_runtime_node_8h">WeaponCustomFunctionRuntimeNode.h</innerfile>
+    <innerfile refid="dd/d32/_weapon_mod_at_slot_runtime_node_8h">WeaponModAtSlotRuntimeNode.h</innerfile>
+    <innerfile refid="dc/d89/_weapon_numeric_property_overrider_runtime_node_8h">WeaponNumericPropertyOverriderRuntimeNode.h</innerfile>
+    <innerfile refid="d2/dc3/_weapon_numeric_property_runtime_node_8h">WeaponNumericPropertyRuntimeNode.h</innerfile>
+    <innerfile refid="d3/d31/_weapon_property_runtime_node_8h">WeaponPropertyRuntimeNode.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/"/>
+  </compounddef>
+</doxygen>

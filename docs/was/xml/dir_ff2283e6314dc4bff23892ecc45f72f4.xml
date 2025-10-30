@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_ff2283e6314dc4bff23892ecc45f72f4" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes</compoundname>
+    <innerfile refid="d7/d35/_weapon_attachment_runtime_node_8cpp">WeaponAttachmentRuntimeNode.cpp</innerfile>
+    <innerfile refid="de/d4b/_weapon_component_runtime_node_8cpp">WeaponComponentRuntimeNode.cpp</innerfile>
+    <innerfile refid="d3/d35/_weapon_component_tag_runtime_node_8cpp">WeaponComponentTagRuntimeNode.cpp</innerfile>
+    <innerfile refid="d9/d8e/_weapon_niagara_runtime_node_8cpp">WeaponNiagaraRuntimeNode.cpp</innerfile>
+    <innerfile refid="de/d1c/_weapon_set_material_node_8cpp">WeaponSetMaterialNode.cpp</innerfile>
+    <innerfile refid="df/d20/_weapon_skeletal_mesh_runtime_node_8cpp">WeaponSkeletalMeshRuntimeNode.cpp</innerfile>
+    <innerfile refid="df/dc5/_weapon_static_mesh_runtime_node_8cpp">WeaponStaticMeshRuntimeNode.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/"/>
+  </compounddef>
+</doxygen>

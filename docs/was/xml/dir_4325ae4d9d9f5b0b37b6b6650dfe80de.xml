@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_4325ae4d9d9f5b0b37b6b6650dfe80de" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public</compoundname>
+    <innerdir refid="dir_e7db5771100a637dcc571913c790e9a5">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors</innerdir>
+    <innerdir refid="dir_6044c82f53484ccf03294132a3b630ac">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Components</innerdir>
+    <innerdir refid="dir_adf771d12626659fde676c385e1e87b1">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous</innerdir>
+    <innerdir refid="dir_85e06c114997a422c7e7c5c5813e6b7f">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes</innerdir>
+    <innerdir refid="dir_8206265e91999c344009284cebc192b8">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties</innerdir>
+    <innerdir refid="dir_1a843a193dd0377e249f4c3bdb9683b5">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture</innerdir>
+    <innerfile refid="df/da3/_w_a_s_runtime_8h">WASRuntime.h</innerfile>
+    <innerfile refid="d4/dfe/_weapon_asset_8h">WeaponAsset.h</innerfile>
+    <innerfile refid="db/d71/_weapon_enumerators_8h">WeaponEnumerators.h</innerfile>
+    <innerfile refid="d0/d9e/_weapon_runtime_graph_8h">WeaponRuntimeGraph.h</innerfile>
+    <innerfile refid="d6/de3/_weapon_runtime_node_8h">WeaponRuntimeNode.h</innerfile>
+    <innerfile refid="de/d35/_weapon_runtime_pin_8h">WeaponRuntimePin.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/"/>
+  </compounddef>
+</doxygen>

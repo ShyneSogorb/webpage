@@ -1,0 +1,13 @@
+<map id="UWeaponNumericPropertyRuntimeNode" name="UWeaponNumericPropertyRuntimeNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,248,262,275"/>
+<area shape="rect" id="Node000002" href="$dc/d76/class_u_weapon_property_runtime_node.html" title=" " alt="" coords="30,172,237,199"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,214,136,248,131,248,131,214"/>
+<area shape="rect" id="Node000003" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="161,81,319,108"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="215,120,150,173,147,169,212,116"/>
+<area shape="rect" id="Node000005" href="$dd/d5d/class_u_weapon_runtime_pin.html" title=" " alt="" coords="262,172,408,199"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="231,123,230,136,234,147,247,160,263,169,261,174,244,164,229,149,225,136,226,123"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="283,5,352,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="295,45,255,83,251,79,292,41"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="332,45,348,85,360,132,360,149,348,173,343,170,355,147,355,132,343,86,327,46"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="308,163,294,150,251,110,255,107,297,146,312,159"/>
+</map>

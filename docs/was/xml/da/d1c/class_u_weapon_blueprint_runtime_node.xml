@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="da/d1c/class_u_weapon_blueprint_runtime_node" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponBlueprintRuntimeNode</compoundname>
+    <basecompoundref refid="de/dde/class_u_weapon_runtime_node" prot="public" virt="non-virtual">UWeaponRuntimeNode</basecompoundref>
+    <includes local="no">WeaponBlueprintRuntimeNode.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1aa77c497349f1ba9eba9cbada6075316b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d0/dc8/struct_f_node_value" kindref="compound">FNodeValue</ref></type>
+        <definition>FNodeValue UWeaponBlueprintRuntimeNode::CalculateNodeValue</definition>
+        <argsstring>() const</argsstring>
+        <name>CalculateNodeValue</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::CalculateNodeValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="98" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1aa9b194af12580c0cc6d8140c6bed146a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE FAnyNumeric</type>
+        <definition>FORCEINLINE FAnyNumeric UWeaponBlueprintRuntimeNode::GetNodeValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNodeValue</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::GetNodeValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="101" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1a83bd15455a9aafab5128a2fe44fa16ed" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool UWeaponBlueprintRuntimeNode::GetPinAsBool</definition>
+        <argsstring>(int32 index) const</argsstring>
+        <name>GetPinAsBool</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::GetPinAsBool</qualifiedname>
+        <param>
+          <type>int32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="76" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1a2da98411557df9e71fce6a7711f100cc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE uint8</type>
+        <definition>FORCEINLINE uint8 UWeaponBlueprintRuntimeNode::GetPinAsByte</definition>
+        <argsstring>(int32 index) const</argsstring>
+        <name>GetPinAsByte</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::GetPinAsByte</qualifiedname>
+        <param>
+          <type>int32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="73" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1a084f2f99e5955e708a24f71c9f30cace" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE double</type>
+        <definition>FORCEINLINE double UWeaponBlueprintRuntimeNode::GetPinAsDouble</definition>
+        <argsstring>(int32 index) const</argsstring>
+        <name>GetPinAsDouble</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::GetPinAsDouble</qualifiedname>
+        <param>
+          <type>int32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="70" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1af52fbeb33388465eccf5b6aadcab0d60" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE int32</type>
+        <definition>FORCEINLINE int32 UWeaponBlueprintRuntimeNode::GetPinAsInt</definition>
+        <argsstring>(int32 index) const</argsstring>
+        <name>GetPinAsInt</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::GetPinAsInt</qualifiedname>
+        <param>
+          <type>int32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="67" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1a80efea52de7499871afa9f25240e39b3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE int64</type>
+        <definition>FORCEINLINE int64 UWeaponBlueprintRuntimeNode::GetPinAsInt64</definition>
+        <argsstring>(int32 index) const</argsstring>
+        <name>GetPinAsInt64</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::GetPinAsInt64</qualifiedname>
+        <param>
+          <type>int32</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="64" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1a4aeb1e4ecfda313d9cca9f6a61c6acaf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponBlueprintRuntimeNode::GetPinComponents</definition>
+        <argsstring>(int32 index, TArray&lt; UObject * &gt; &amp;Components) const</argsstring>
+        <name>GetPinComponents</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::GetPinComponents</qualifiedname>
+        <param>
+          <type>int32</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>TArray&lt; UObject * &gt; &amp;</type>
+          <declname>Components</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="105" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponBlueprintRuntimeNode.cpp" bodystart="16" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1a6984f8c1aecf0ff9f3ab37202590c238" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>TArray&lt; UObject * &gt;</type>
+        <definition>TArray&lt; UObject * &gt; UWeaponBlueprintRuntimeNode::HandleComponents</definition>
+        <argsstring>() const</argsstring>
+        <name>HandleComponents</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::HandleComponents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="109" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1ab9589e720188b27dd81a3d6a0d55d9e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T UWeaponBlueprintRuntimeNode::ReturnValueAs</definition>
+        <argsstring>(int32 index) const</argsstring>
+        <name>ReturnValueAs</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::ReturnValueAs</qualifiedname>
+        <param>
+          <type>int32</type>
+          <declname>index</declname>
+        </param>
+    <requiresclause>std::is_arithmetic_v&lt;T&gt;    </requiresclause>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="61" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="148" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1abf0cf337fb728c92036656a4c09c18c6" prot="public" static="no" const="no" explicit="no" inline="no" final="yes" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponBlueprintRuntimeNode::SetPinValue</definition>
+        <argsstring>(const UWeaponRuntimePin *Pin) override final</argsstring>
+        <name>SetPinValue</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::SetPinValue</qualifiedname>
+        <reimplements refid="de/dde/class_u_weapon_runtime_node_1a7862a2fb74fc4bfe41edba34aaa9073f">SetPinValue</reimplements>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>Pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the value for the specified Pin. It should always be an output pin <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pin to set the cache value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="123" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponBlueprintRuntimeNode.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1a0f65454061f6c6c571a54f3f21fb1b51" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="d0/dc8/struct_f_node_value" kindref="compound">FNodeValue</ref></type>
+        <definition>FORCEINLINE FNodeValue UWeaponBlueprintRuntimeNode::SetValueAsBool</definition>
+        <argsstring>(bool Value) const</argsstring>
+        <name>SetValueAsBool</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::SetValueAsBool</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="94" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1a1011950e64def51b258201210adc27b6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="d0/dc8/struct_f_node_value" kindref="compound">FNodeValue</ref></type>
+        <definition>FORCEINLINE FNodeValue UWeaponBlueprintRuntimeNode::SetValueAsByte</definition>
+        <argsstring>(uint8 Value) const</argsstring>
+        <name>SetValueAsByte</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::SetValueAsByte</qualifiedname>
+        <param>
+          <type>uint8</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="91" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1abe340f6dc87a3bf8de5119fd920d33df" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="d0/dc8/struct_f_node_value" kindref="compound">FNodeValue</ref></type>
+        <definition>FORCEINLINE FNodeValue UWeaponBlueprintRuntimeNode::SetValueAsDouble</definition>
+        <argsstring>(double Value) const</argsstring>
+        <name>SetValueAsDouble</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::SetValueAsDouble</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="85" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1ac1eb229c9b2217ee207d0494fc422a56" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="d0/dc8/struct_f_node_value" kindref="compound">FNodeValue</ref></type>
+        <definition>FORCEINLINE FNodeValue UWeaponBlueprintRuntimeNode::SetValueAsFloat</definition>
+        <argsstring>(float Value) const</argsstring>
+        <name>SetValueAsFloat</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::SetValueAsFloat</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="88" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1add592d4c1e103243743ba53ac17e8846" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="d0/dc8/struct_f_node_value" kindref="compound">FNodeValue</ref></type>
+        <definition>FORCEINLINE FNodeValue UWeaponBlueprintRuntimeNode::SetValueAsInt</definition>
+        <argsstring>(int32 Value) const</argsstring>
+        <name>SetValueAsInt</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::SetValueAsInt</qualifiedname>
+        <param>
+          <type>int32</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="82" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_u_weapon_blueprint_runtime_node_1a1a651332f54ea7c10abccbe467850b53" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="d0/dc8/struct_f_node_value" kindref="compound">FNodeValue</ref></type>
+        <definition>FORCEINLINE FNodeValue UWeaponBlueprintRuntimeNode::SetValueAsInt64</definition>
+        <argsstring>(int64 Value) const</argsstring>
+        <name>SetValueAsInt64</name>
+        <qualifiedname>UWeaponBlueprintRuntimeNode::SetValueAsInt64</qualifiedname>
+        <param>
+          <type>int64</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="79" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="79" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponBlueprintRuntimeNode</label>
+        <link refid="da/d1c/class_u_weapon_blueprint_runtime_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponBlueprintRuntimeNode</label>
+        <link refid="da/d1c/class_u_weapon_blueprint_runtime_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>OutputPin</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UWeaponRuntimePin</label>
+        <link refid="dd/d5d/class_u_weapon_runtime_pin"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="54" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="55" bodyend="145"/>
+    <listofallmembers>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1aa77c497349f1ba9eba9cbada6075316b" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>CalculateNodeValue</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a097aad9c43b080b602ac91c362cde920" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>ClearCache</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a966058e4fc27de54fa895444d3e281ed" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetAllPins</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ae80914a1cbed5c244202b092e2ef28ec" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetCharacteristics</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aac61ae0f66550aa137e4a184faabf048" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetGraph</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ab0ed90456b663568fdb8c8eae8b45b0f" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetLastInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ad83305eea700b8aad7904e542f1fdd4b" prot="public" virt="virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetMainInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1abbe1c76ce8e8161ed6405e3bc3068ceb" prot="public" virt="virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetMainOutput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ac284948005ccd2699b30849031829bbd" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a44bbe10ae3aa2b5f628566022ddb6538" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a13bd56c9affe83d039eb35416f982317" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aa3651afaba4ab612835a5181011d65de" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1aa9b194af12580c0cc6d8140c6bed146a" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetNodeValue</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1a83bd15455a9aafab5128a2fe44fa16ed" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetPinAsBool</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1a2da98411557df9e71fce6a7711f100cc" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetPinAsByte</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1a084f2f99e5955e708a24f71c9f30cace" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetPinAsDouble</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1af52fbeb33388465eccf5b6aadcab0d60" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetPinAsInt</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1a80efea52de7499871afa9f25240e39b3" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetPinAsInt64</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a07ffea4a5c6b4ebaa0cc5ed45ba988f4" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetPinByName</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1a4aeb1e4ecfda313d9cca9f6a61c6acaf" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetPinComponents</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a936fcdfe272bd548e51cb3a23b1d89bb" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetPinConnection</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a53ac22a37bc5310a743f45d2e6061ac1" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetPinConnection</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0e86c0ec73005b8ea83f3061287ca3d4" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetPinConnections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0fe1f31d6c8fc4e93fd0e9bf02326bd5" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetPinConnections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a920f1ec93a0815499ce44a23676bed52" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetSourceCharacteristics</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a80195a739443f3d36e8aa45d864d9b9c" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetSourceWorkingAsset</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a00b3a099fb897f3d84e577a5de79b611" prot="public" virt="virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetValidPin</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a52eb9f7d6605233445104c21c411f8b0" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetWorkingAsset</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aa0c2351d764b462aec9d95de918f9ccb" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>GetWorldContext</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1a6984f8c1aecf0ff9f3ab37202590c238" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>HandleComponents</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a87b0a5686fa3ae650a539d8ae7e857e1" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>InputPins</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a9f8a497d1a33609fcd7e05fed301991c" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>OutputPin</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1ab9589e720188b27dd81a3d6a0d55d9e7" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>ReturnValueAs</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1abf0cf337fb728c92036656a4c09c18c6" prot="public" virt="virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>SetPinValue</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1a0f65454061f6c6c571a54f3f21fb1b51" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>SetValueAsBool</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1a1011950e64def51b258201210adc27b6" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>SetValueAsByte</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1abe340f6dc87a3bf8de5119fd920d33df" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>SetValueAsDouble</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1ac1eb229c9b2217ee207d0494fc422a56" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>SetValueAsFloat</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1add592d4c1e103243743ba53ac17e8846" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>SetValueAsInt</name></member>
+      <member refid="da/d1c/class_u_weapon_blueprint_runtime_node_1a1a651332f54ea7c10abccbe467850b53" prot="public" virt="non-virtual"><scope>UWeaponBlueprintRuntimeNode</scope><name>SetValueAsInt64</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_1287378956faedada00d32ddff2cdbfd" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport</compoundname>
+    <innerfile refid="d5/d85/_weapon_preview_scene_8cpp">WeaponPreviewScene.cpp</innerfile>
+    <innerfile refid="d8/ddf/_weapon_preview_viewport_8cpp">WeaponPreviewViewport.cpp</innerfile>
+    <innerfile refid="d7/dfa/_weapon_viewport_client_8cpp">WeaponViewportClient.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport/"/>
+  </compounddef>
+</doxygen>

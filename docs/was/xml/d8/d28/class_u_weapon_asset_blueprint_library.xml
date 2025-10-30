@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d8/d28/class_u_weapon_asset_blueprint_library" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponAssetBlueprintLibrary</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UBlueprintFunctionLibrary</basecompoundref>
+    <includes local="no">WeaponAssetBlueprintLibrary.h</includes>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d8/d28/class_u_weapon_asset_blueprint_library_1aa901e44d81883fe44fb0c2b8e0c7a9c6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+        <definition>static FORCEINLINE UWeaponAsset * UWeaponAssetBlueprintLibrary::CreateWeaponInstance</definition>
+        <argsstring>(UWeaponAsset *Parent, UObject *Outer)</argsstring>
+        <name>CreateWeaponInstance</name>
+        <qualifiedname>UWeaponAssetBlueprintLibrary::CreateWeaponInstance</qualifiedname>
+        <param>
+          <type><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+          <declname>Parent</declname>
+        </param>
+        <param>
+          <type>UObject *</type>
+          <declname>Outer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponAssetBlueprintLibrary.h" line="24" column="33" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponAssetBlueprintLibrary.h" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d28/class_u_weapon_asset_blueprint_library_1afc2471bcaae1439ec7b3b9e0fc32d21b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref> *</type>
+        <definition>static UWeaponAssetCharacteristics * UWeaponAssetBlueprintLibrary::GetCharacteristics</definition>
+        <argsstring>(const UWeaponAsset *WeaponAsset)</argsstring>
+        <name>GetCharacteristics</name>
+        <qualifiedname>UWeaponAssetBlueprintLibrary::GetCharacteristics</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+          <declname>WeaponAsset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponAssetBlueprintLibrary.h" line="50" column="36" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponAssetBlueprintLibrary.h" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d28/class_u_weapon_asset_blueprint_library_1ac062c7f6a495cc346a4197ccac149e2b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref> *</type>
+        <definition>static FORCEINLINE UWeaponAssetCharacteristics * UWeaponAssetBlueprintLibrary::GetCharacteristicsAsClass</definition>
+        <argsstring>(const UWeaponAsset *WeaponAsset, TSubclassOf&lt; UWeaponAssetCharacteristics &gt; CharacteristicsClass)</argsstring>
+        <name>GetCharacteristicsAsClass</name>
+        <qualifiedname>UWeaponAssetBlueprintLibrary::GetCharacteristicsAsClass</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+          <declname>WeaponAsset</declname>
+        </param>
+        <param>
+          <type>TSubclassOf&lt; <ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref> &gt;</type>
+          <declname>CharacteristicsClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponAssetBlueprintLibrary.h" line="57" column="48" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponAssetBlueprintLibrary.h" bodystart="57" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d28/class_u_weapon_asset_blueprint_library_1a186e474061cbc24d9eaf66d0858e918d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UWeaponAssetBlueprintLibrary::IsDerivedFrom</definition>
+        <argsstring>(const UWeaponAsset *WeaponAsset, const UWeaponAsset *ParentAsset)</argsstring>
+        <name>IsDerivedFrom</name>
+        <qualifiedname>UWeaponAssetBlueprintLibrary::IsDerivedFrom</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+          <declname>WeaponAsset</declname>
+        </param>
+        <param>
+          <type>const <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+          <declname>ParentAsset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponAssetBlueprintLibrary.h" line="43" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponAssetBlueprintLibrary.h" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d28/class_u_weapon_asset_blueprint_library_1ad095abe1989f987675d0037ccd69f286" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UWeaponAssetBlueprintLibrary::IsInstanced</definition>
+        <argsstring>(const UWeaponAsset *WeaponAsset)</argsstring>
+        <name>IsInstanced</name>
+        <qualifiedname>UWeaponAssetBlueprintLibrary::IsInstanced</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+          <declname>WeaponAsset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponAssetBlueprintLibrary.h" line="36" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponAssetBlueprintLibrary.h" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d28/class_u_weapon_asset_blueprint_library_1a018e445b85c993b0be921e770df90029" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponAssetBlueprintLibrary::RunBuild</definition>
+        <argsstring>(UWeaponAsset *WeaponAsset, UObject *InContext=nullptr, bool bForcesCallDelegates=false)</argsstring>
+        <name>RunBuild</name>
+        <qualifiedname>UWeaponAssetBlueprintLibrary::RunBuild</qualifiedname>
+        <param>
+          <type><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+          <declname>WeaponAsset</declname>
+        </param>
+        <param>
+          <type>UObject *</type>
+          <declname>InContext</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bForcesCallDelegates</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponAssetBlueprintLibrary.h" line="32" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Miscellaneous/WeaponAssetBlueprintLibrary.cpp" bodystart="11" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Blueprint function library for weapon asset operations. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UBlueprintFunctionLibrary</label>
+      </node>
+      <node id="1">
+        <label>UWeaponAssetBlueprintLibrary</label>
+        <link refid="d8/d28/class_u_weapon_asset_blueprint_library"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UBlueprintFunctionLibrary</label>
+      </node>
+      <node id="1">
+        <label>UWeaponAssetBlueprintLibrary</label>
+        <link refid="d8/d28/class_u_weapon_asset_blueprint_library"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponAssetBlueprintLibrary.h" line="18" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponAssetBlueprintLibrary.h" bodystart="19" bodyend="72"/>
+    <listofallmembers>
+      <member refid="d8/d28/class_u_weapon_asset_blueprint_library_1aa901e44d81883fe44fb0c2b8e0c7a9c6" prot="private" virt="non-virtual"><scope>UWeaponAssetBlueprintLibrary</scope><name>CreateWeaponInstance</name></member>
+      <member refid="d8/d28/class_u_weapon_asset_blueprint_library_1afc2471bcaae1439ec7b3b9e0fc32d21b" prot="private" virt="non-virtual"><scope>UWeaponAssetBlueprintLibrary</scope><name>GetCharacteristics</name></member>
+      <member refid="d8/d28/class_u_weapon_asset_blueprint_library_1ac062c7f6a495cc346a4197ccac149e2b" prot="private" virt="non-virtual"><scope>UWeaponAssetBlueprintLibrary</scope><name>GetCharacteristicsAsClass</name></member>
+      <member refid="d8/d28/class_u_weapon_asset_blueprint_library_1a186e474061cbc24d9eaf66d0858e918d" prot="private" virt="non-virtual"><scope>UWeaponAssetBlueprintLibrary</scope><name>IsDerivedFrom</name></member>
+      <member refid="d8/d28/class_u_weapon_asset_blueprint_library_1ad095abe1989f987675d0037ccd69f286" prot="private" virt="non-virtual"><scope>UWeaponAssetBlueprintLibrary</scope><name>IsInstanced</name></member>
+      <member refid="d8/d28/class_u_weapon_asset_blueprint_library_1a018e445b85c993b0be921e770df90029" prot="private" virt="non-virtual"><scope>UWeaponAssetBlueprintLibrary</scope><name>RunBuild</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

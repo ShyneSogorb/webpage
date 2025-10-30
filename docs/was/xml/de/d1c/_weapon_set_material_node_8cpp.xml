@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="de/d1c/_weapon_set_material_node_8cpp" kind="file" language="C++">
+    <compoundname>WeaponSetMaterialNode.cpp</compoundname>
+    <includes refid="d0/d59/_weapon_set_material_node_8h" local="yes">Nodes/ComponentsNodes/WeaponSetMaterialNode.h</includes>
+    <includes local="yes">Components/PrimitiveComponent.h</includes>
+    <includes local="yes">Materials/MaterialInterface.h</includes>
+    <includes refid="de/d35/_weapon_runtime_pin_8h" local="yes">WeaponRuntimePin.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponSetMaterialNode.cpp</label>
+        <link refid="de/d1c/_weapon_set_material_node_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Components/PrimitiveComponent.h</label>
+      </node>
+      <node id="3">
+        <label>Materials/MaterialInterface.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/ComponentsNodes/WeaponSetMaterialNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Components/PrimitiveComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Materials/MaterialInterface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponRuntimePin.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/de0/class_u_weapon_set_material_node_1a19e28589730880b569b14149eae5684c" kindref="member">UWeaponSetMaterialNode::SetPinValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;UWeaponRuntimePin*&gt;<sp/>Pins<sp/>=<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a0e86c0ec73005b8ea83f3061287ca3d4" kindref="member">GetPinConnections</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>TPersistantArray&lt;UPrimitiveComponent&gt;<sp/>Components;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>InputPin<sp/>:<sp/>Pins)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Components.Append(InputPin-&gt;GetObjectValueAs&lt;UPrimitiveComponent&gt;());</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(UMaterialInterface*<sp/>MaterialPtr<sp/>=<sp/><ref refid="d7/de0/class_u_weapon_set_material_node_1aa6bcb02a391364b27a3cb8eae346dc7b" kindref="member">Material</ref>.LoadSynchronous())</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>It<sp/>=<sp/>Components.CreateIterator();<sp/>It;<sp/>++It)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!*It)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*It)-&gt;SetMaterialByName(<ref refid="d7/de0/class_u_weapon_set_material_node_1a9d9f367eda2e6a298253383a4517e997" kindref="member">MaterialSlotName</ref>,<sp/>MaterialPtr);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1a2b381fdf52c6fcaa702ba8dce10a706f" kindref="member">SetCacheObjectValueAs</ref>(MoveTemp(Components));</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponSetMaterialNode::UpdateCompatibility(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bForce)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bForce<sp/>||<sp/>!<ref refid="de/dde/class_u_weapon_runtime_node_1a9f8a497d1a33609fcd7e05fed301991c" kindref="member">OutputPin</ref>-&gt;Compatibility)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a9f8a497d1a33609fcd7e05fed301991c" kindref="member">OutputPin</ref>-&gt;Compatibility<sp/>=<sp/>MakeShared&lt;FNodePinObject&gt;(UPrimitiveComponent::StaticClass());</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1ad83305eea700b8aad7904e542f1fdd4b" kindref="member">GetMainInput</ref>()-&gt;Compatibility<sp/>=<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a9f8a497d1a33609fcd7e05fed301991c" kindref="member">OutputPin</ref>-&gt;Compatibility;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">FText<sp/>UWeaponSetMaterialNode::GetGraphNodeTitleBase(ENodeTitleType::Type<sp/>TitleType)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="45"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d7/de0/class_u_weapon_set_material_node_1aa6bcb02a391364b27a3cb8eae346dc7b" kindref="member">Material</ref>.IsValid())</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FText::FromString(FString::Printf(TEXT(</highlight><highlight class="stringliteral">&quot;Set<sp/>Material:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*<ref refid="d7/de0/class_u_weapon_set_material_node_1aa6bcb02a391364b27a3cb8eae346dc7b" kindref="member">Material</ref>.GetAssetName()));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FText::FromString(TEXT(</highlight><highlight class="stringliteral">&quot;Set<sp/>Material&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponSetMaterialNode.cpp"/>
+  </compounddef>
+</doxygen>

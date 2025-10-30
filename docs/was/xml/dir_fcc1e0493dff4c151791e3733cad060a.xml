@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_fcc1e0493dff4c151791e3733cad060a" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/FlowNodes</compoundname>
+    <innerfile refid="d6/d18/_weapon_if_runtime_node_8h">WeaponIfRuntimeNode.h</innerfile>
+    <innerfile refid="dd/d86/_weapon_select_enum_runtime_node_8h">WeaponSelectEnumRuntimeNode.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/FlowNodes/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d3/de2/class_i_weapon_default_characteristics_interface" kind="class" language="C++" prot="public">
+    <compoundname>IWeaponDefaultCharacteristicsInterface</compoundname>
+    <derivedcompoundref refid="da/db7/class_u_weapon_asset_default_characteristics" prot="public" virt="non-virtual">UWeaponAssetDefaultCharacteristics</derivedcompoundref>
+    <includes local="no">WeaponDefaultCharacteristicsInterface.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1a4d6b44626a59d605d17d18927c0bf66e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE int32</type>
+        <definition>FORCEINLINE int32 IWeaponDefaultCharacteristicsInterface::IGetAmmoLoosePerTrigger</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetAmmoLoosePerTrigger</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetAmmoLoosePerTrigger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IGets the ammo loose per trigger. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="60" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1a40e0557546c9a394c4d02a72673a2cee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE EAmmoType</type>
+        <definition>FORCEINLINE EAmmoType IWeaponDefaultCharacteristicsInterface::IGetAmmoType</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetAmmoType</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetAmmoType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IGets the ammo type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="88" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1ab2e2feb89e6753426a0cc580ccc6f316" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE uint8</type>
+        <definition>FORCEINLINE uint8 IWeaponDefaultCharacteristicsInterface::IGetBurstTriggers</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetBurstTriggers</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetBurstTriggers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IGets the burst triggers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="37" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1a136cc4e4a4950ad74d4ae7ccdf80efd7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool IWeaponDefaultCharacteristicsInterface::IGetCustomReloadExecutionTiming</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetCustomReloadExecutionTiming</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetCustomReloadExecutionTiming</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the weapon has custom reload execution timing. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="72" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1a27924abbfd437ff793340e4aadb87749" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool IWeaponDefaultCharacteristicsInterface::IGetCustomTriggerExecutionTiming</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetCustomTriggerExecutionTiming</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetCustomTriggerExecutionTiming</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the weapon has custom trigger execution timing. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="68" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1afab315bfd8da7cfd8ba1eda3eeed1eae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool IWeaponDefaultCharacteristicsInterface::IGetCustomUnjamExecutionTiming</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetCustomUnjamExecutionTiming</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetCustomUnjamExecutionTiming</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the weapon has custom unjam execution timing. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="80" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1aedd85e58b8587e3e660fad971f7a76b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE uint8</type>
+        <definition>FORCEINLINE uint8 IWeaponDefaultCharacteristicsInterface::IGetIterationReloadStepAmount</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetIterationReloadStepAmount</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetIterationReloadStepAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IGets the iteration reload step amount. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="56" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1a001a8b2786d7fb984eae0be4a6f1ccb3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE float</type>
+        <definition>FORCEINLINE float IWeaponDefaultCharacteristicsInterface::IGetJamProbability</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetJamProbability</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetJamProbability</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IGets the jam probability. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="45" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1aa22121361f9110cc27706a7d0d314378" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool IWeaponDefaultCharacteristicsInterface::IGetLooseExtraAmmoOnReload</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetLooseExtraAmmoOnReload</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetLooseExtraAmmoOnReload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the weapon loses extra ammo on reload. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="76" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1a492855241ed1407e366f15ec805d039f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE int32</type>
+        <definition>FORCEINLINE int32 IWeaponDefaultCharacteristicsInterface::IGetMagazineCapability</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetMagazineCapability</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetMagazineCapability</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IGets the magazine capability. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="41" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1a818b57567e17570a057d47e5be5fd599" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool IWeaponDefaultCharacteristicsInterface::IGetReloadByMagazine</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetReloadByMagazine</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetReloadByMagazine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the weapon reloads by magazine. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="84" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1a6e7682351bc30b2fcaafe2e83a3d1a3f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool IWeaponDefaultCharacteristicsInterface::IGetTriggerIfAmmoLessThanRequired</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetTriggerIfAmmoLessThanRequired</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetTriggerIfAmmoLessThanRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the weapon can trigger if ammo is less than required. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="64" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1ac38c16096ef34b8628ee2d32fca6eab5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE ETriggerMode</type>
+        <definition>FORCEINLINE ETriggerMode IWeaponDefaultCharacteristicsInterface::IGetTriggerMode</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetTriggerMode</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetTriggerMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="29" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1acd7d62b1979ffec1c7c1cc1c3a1cb099" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE float</type>
+        <definition>FORCEINLINE float IWeaponDefaultCharacteristicsInterface::IGetTriggerRate</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetTriggerRate</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetTriggerRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IGets the trigger rate. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="33" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1ad5266ede9094ea08507df85090737309" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool IWeaponDefaultCharacteristicsInterface::IGetUsesAmmo</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetUsesAmmo</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetUsesAmmo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the weapon uses ammo. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="49" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de2/class_i_weapon_default_characteristics_interface_1a21526c5f533ca82e73de94fdeecdef49" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool IWeaponDefaultCharacteristicsInterface::IGetUsesMagazine</definition>
+        <argsstring>() const</argsstring>
+        <name>IGetUsesMagazine</name>
+        <qualifiedname>IWeaponDefaultCharacteristicsInterface::IGetUsesMagazine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="52" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IWeaponDefaultCharacteristicsInterface</label>
+        <link refid="d3/de2/class_i_weapon_default_characteristics_interface"/>
+      </node>
+      <node id="2">
+        <label>UWeaponAssetDefaultCharacteristics</label>
+        <link refid="da/db7/class_u_weapon_asset_default_characteristics"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" line="21" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Properties/WeaponDefaultCharacteristicsInterface.h" bodystart="22" bodyend="90"/>
+    <listofallmembers>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1a4d6b44626a59d605d17d18927c0bf66e" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetAmmoLoosePerTrigger</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1a40e0557546c9a394c4d02a72673a2cee" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetAmmoType</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1ab2e2feb89e6753426a0cc580ccc6f316" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetBurstTriggers</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1a136cc4e4a4950ad74d4ae7ccdf80efd7" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetCustomReloadExecutionTiming</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1a27924abbfd437ff793340e4aadb87749" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetCustomTriggerExecutionTiming</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1afab315bfd8da7cfd8ba1eda3eeed1eae" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetCustomUnjamExecutionTiming</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1aedd85e58b8587e3e660fad971f7a76b1" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetIterationReloadStepAmount</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1a001a8b2786d7fb984eae0be4a6f1ccb3" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetJamProbability</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1aa22121361f9110cc27706a7d0d314378" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetLooseExtraAmmoOnReload</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1a492855241ed1407e366f15ec805d039f" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetMagazineCapability</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1a818b57567e17570a057d47e5be5fd599" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetReloadByMagazine</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1a6e7682351bc30b2fcaafe2e83a3d1a3f" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetTriggerIfAmmoLessThanRequired</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1ac38c16096ef34b8628ee2d32fca6eab5" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetTriggerMode</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1acd7d62b1979ffec1c7c1cc1c3a1cb099" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetTriggerRate</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1ad5266ede9094ea08507df85090737309" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetUsesAmmo</name></member>
+      <member refid="d3/de2/class_i_weapon_default_characteristics_interface_1a21526c5f533ca82e73de94fdeecdef49" prot="public" virt="non-virtual"><scope>IWeaponDefaultCharacteristicsInterface</scope><name>IGetUsesMagazine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d1/d79/struct_f_attribute_double_operator" kind="struct" language="C++" prot="public">
+    <compoundname>FAttributeDoubleOperator</compoundname>
+    <basecompoundref refid="d5/d4a/struct_f_attribute_operator" prot="public" virt="non-virtual">FAttributeOperator</basecompoundref>
+    <includes local="no">AttributesOperators.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/d79/struct_f_attribute_double_operator_1aa69337688b60b0012d00153a77c15f40" prot="public" static="no" mutable="no">
+        <type>EOperator</type>
+        <definition>EOperator FAttributeDoubleOperator::OperatorExpression</definition>
+        <argsstring></argsstring>
+        <name>OperatorExpression</name>
+        <qualifiedname>FAttributeDoubleOperator::OperatorExpression</qualifiedname>
+        <initializer>= EOperator::Ignore</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/AttributesOperators.h" line="42" column="11" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/AttributesOperators.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d79/struct_f_attribute_double_operator_1ae178639c27175830eb3fa5b43ac4999d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double FAttributeDoubleOperator::OperatorValue</definition>
+        <argsstring></argsstring>
+        <name>OperatorValue</name>
+        <qualifiedname>FAttributeDoubleOperator::OperatorValue</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/AttributesOperators.h" line="39" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/AttributesOperators.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>ONLY USED IN OPERATOR NODE. DO NOT USE DIRECTLY. WILL BE DEPRECATED SOON. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FAttributeDoubleOperator</label>
+        <link refid="d1/d79/struct_f_attribute_double_operator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FAttributeOperator</label>
+        <link refid="d5/d4a/struct_f_attribute_operator"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FAttributeDoubleOperator</label>
+        <link refid="d1/d79/struct_f_attribute_double_operator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FAttributeOperator</label>
+        <link refid="d5/d4a/struct_f_attribute_operator"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/AttributesOperators.h" line="32" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/AttributesOperators.h" bodystart="33" bodyend="48"/>
+    <listofallmembers>
+      <member refid="d1/d79/struct_f_attribute_double_operator_1aa69337688b60b0012d00153a77c15f40" prot="public" virt="non-virtual"><scope>FAttributeDoubleOperator</scope><name>OperatorExpression</name></member>
+      <member refid="d1/d79/struct_f_attribute_double_operator_1ae178639c27175830eb3fa5b43ac4999d" prot="public" virt="non-virtual"><scope>FAttributeDoubleOperator</scope><name>OperatorValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

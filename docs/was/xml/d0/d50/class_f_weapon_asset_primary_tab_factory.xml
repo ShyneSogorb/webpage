@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d0/d50/class_f_weapon_asset_primary_tab_factory" kind="class" language="C++" prot="public">
+    <compoundname>FWeaponAssetPrimaryTabFactory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FWorkflowTabFactory</basecompoundref>
+    <includes local="no">WeaponAssetPrimaryTabFactory.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d0/d50/class_f_weapon_asset_primary_tab_factory_1aa4bd82397adf79738337c717c86aaaca" prot="private" static="no" mutable="no">
+        <type>TWeakPtr&lt; class <ref refid="da/d5f/class_f_weapon_asset_editor_app" kindref="compound">FWeaponAssetEditorApp</ref> &gt;</type>
+        <definition>TWeakPtr&lt;class FWeaponAssetEditorApp&gt; FWeaponAssetPrimaryTabFactory::App</definition>
+        <argsstring></argsstring>
+        <name>App</name>
+        <qualifiedname>FWeaponAssetPrimaryTabFactory::App</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/TabsFactory/WeaponAssetPrimaryTabFactory.h" line="17" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/TabsFactory/WeaponAssetPrimaryTabFactory.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d50/class_f_weapon_asset_primary_tab_factory_1aee649a2ee40f9c01535fea504649215c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FWeaponAssetPrimaryTabFactory::FWeaponAssetPrimaryTabFactory</definition>
+        <argsstring>(TSharedPtr&lt; class FWeaponAssetEditorApp &gt; InApp)</argsstring>
+        <name>FWeaponAssetPrimaryTabFactory</name>
+        <qualifiedname>FWeaponAssetPrimaryTabFactory::FWeaponAssetPrimaryTabFactory</qualifiedname>
+        <param>
+          <type>TSharedPtr&lt; class <ref refid="da/d5f/class_f_weapon_asset_editor_app" kindref="compound">FWeaponAssetEditorApp</ref> &gt;</type>
+          <declname>InApp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/TabsFactory/WeaponAssetPrimaryTabFactory.h" line="11" column="5" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/TabsFactory/WeaponAssetPrimaryTabFactory.cpp" bodystart="12" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d50/class_f_weapon_asset_primary_tab_factory_1acbefd433bf0df80be13a345ae91210cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>TSharedRef&lt; SWidget &gt;</type>
+        <definition>TSharedRef&lt; SWidget &gt; FWeaponAssetPrimaryTabFactory::CreateTabBody</definition>
+        <argsstring>(const FWorkflowTabSpawnInfo &amp;Info) const override</argsstring>
+        <name>CreateTabBody</name>
+        <qualifiedname>FWeaponAssetPrimaryTabFactory::CreateTabBody</qualifiedname>
+        <param>
+          <type>const FWorkflowTabSpawnInfo &amp;</type>
+          <declname>Info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/TabsFactory/WeaponAssetPrimaryTabFactory.h" line="13" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/TabsFactory/WeaponAssetPrimaryTabFactory.cpp" bodystart="19" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d50/class_f_weapon_asset_primary_tab_factory_1a9584b02f809de6981501e6c85cc1f2af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>FText</type>
+        <definition>FText FWeaponAssetPrimaryTabFactory::GetTabToolTipText</definition>
+        <argsstring>(const FWorkflowTabSpawnInfo &amp;Info) const override</argsstring>
+        <name>GetTabToolTipText</name>
+        <qualifiedname>FWeaponAssetPrimaryTabFactory::GetTabToolTipText</qualifiedname>
+        <param>
+          <type>const FWorkflowTabSpawnInfo &amp;</type>
+          <declname>Info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/TabsFactory/WeaponAssetPrimaryTabFactory.h" line="14" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/TabsFactory/WeaponAssetPrimaryTabFactory.cpp" bodystart="43" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FWeaponAssetPrimaryTabFactory</label>
+        <link refid="d0/d50/class_f_weapon_asset_primary_tab_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FWorkflowTabFactory</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FWeaponAssetPrimaryTabFactory</label>
+        <link refid="d0/d50/class_f_weapon_asset_primary_tab_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FWorkflowTabFactory</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/TabsFactory/WeaponAssetPrimaryTabFactory.h" line="9" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/TabsFactory/WeaponAssetPrimaryTabFactory.h" bodystart="9" bodyend="19"/>
+    <listofallmembers>
+      <member refid="d0/d50/class_f_weapon_asset_primary_tab_factory_1aa4bd82397adf79738337c717c86aaaca" prot="private" virt="non-virtual"><scope>FWeaponAssetPrimaryTabFactory</scope><name>App</name></member>
+      <member refid="d0/d50/class_f_weapon_asset_primary_tab_factory_1acbefd433bf0df80be13a345ae91210cc" prot="public" virt="virtual"><scope>FWeaponAssetPrimaryTabFactory</scope><name>CreateTabBody</name></member>
+      <member refid="d0/d50/class_f_weapon_asset_primary_tab_factory_1aee649a2ee40f9c01535fea504649215c" prot="public" virt="non-virtual"><scope>FWeaponAssetPrimaryTabFactory</scope><name>FWeaponAssetPrimaryTabFactory</name></member>
+      <member refid="d0/d50/class_f_weapon_asset_primary_tab_factory_1a9584b02f809de6981501e6c85cc1f2af" prot="public" virt="virtual"><scope>FWeaponAssetPrimaryTabFactory</scope><name>GetTabToolTipText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

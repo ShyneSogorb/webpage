@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d2/d1f/class_a_weapon_asset_actor" kind="class" language="C++" prot="public">
+    <compoundname>AWeaponAssetActor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AActor</basecompoundref>
+    <includes local="no">WeaponAssetActor.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d2/d1f/class_a_weapon_asset_actor_1a64c7cd5dde4e411d233fc234d698cbc9" prot="protected" static="no" mutable="no">
+        <type>TObjectPtr&lt; class <ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref> &gt;</type>
+        <definition>TObjectPtr&lt;class UWeaponComponent&gt; AWeaponAssetActor::WeaponAssetComponent</definition>
+        <argsstring></argsstring>
+        <name>WeaponAssetComponent</name>
+        <qualifiedname>AWeaponAssetActor::WeaponAssetComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="22" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d1f/class_a_weapon_asset_actor_1acad087389680e92107c06304c4adacb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AWeaponAssetActor::AWeaponAssetActor</definition>
+        <argsstring>()</argsstring>
+        <name>AWeaponAssetActor</name>
+        <qualifiedname>AWeaponAssetActor::AWeaponAssetActor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="18" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Actors/WeaponAssetActor.cpp" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1f/class_a_weapon_asset_actor_1a9cf738b921280f70c5faf8acb6879dc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AWeaponAssetActor::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <qualifiedname>AWeaponAssetActor::Clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="34" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Actors/WeaponAssetActor.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1f/class_a_weapon_asset_actor_1a75ee64c55818ad5e44033b5c59d30c9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AWeaponAssetActor::EndPlay</definition>
+        <argsstring>(const EEndPlayReason::Type EndPlayReason) override</argsstring>
+        <name>EndPlay</name>
+        <qualifiedname>AWeaponAssetActor::EndPlay</qualifiedname>
+        <param>
+          <type>const EEndPlayReason::Type</type>
+          <declname>EndPlayReason</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="36" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Actors/WeaponAssetActor.cpp" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1f/class_a_weapon_asset_actor_1a35bbaeb0152eb48786605945cd3633f0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE TObjectPtr&lt; class <ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref> &gt;</type>
+        <definition>FORCEINLINE TObjectPtr&lt; class UWeaponComponent &gt; AWeaponAssetActor::GetWeaponAssetComponent</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWeaponAssetComponent</name>
+        <qualifiedname>AWeaponAssetActor::GetWeaponAssetComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="28" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1f/class_a_weapon_asset_actor_1a99cc04655cbe9771060804f489bed59d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AWeaponAssetActor::Refresh</definition>
+        <argsstring>()</argsstring>
+        <name>Refresh</name>
+        <qualifiedname>AWeaponAssetActor::Refresh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="31" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Actors/WeaponAssetActor.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d2/d1f/class_a_weapon_asset_actor_1a459b74ab844a40f52e34000d0498de27" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AWeaponAssetActor::OnConstruction</definition>
+        <argsstring>(const FTransform &amp;Transform) override</argsstring>
+        <name>OnConstruction</name>
+        <qualifiedname>AWeaponAssetActor::OnConstruction</qualifiedname>
+        <param>
+          <type>const FTransform &amp;</type>
+          <declname>Transform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="59" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Actors/WeaponAssetActor.cpp" bodystart="75" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1f/class_a_weapon_asset_actor_1a2985396c6a4e2a443ac22adb62a8c006" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AWeaponAssetActor::Tick</definition>
+        <argsstring>(float DeltaSeconds) override</argsstring>
+        <name>Tick</name>
+        <qualifiedname>AWeaponAssetActor::Tick</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>DeltaSeconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="24" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Actors/WeaponAssetActor.cpp" bodystart="14" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AActor</label>
+      </node>
+      <node id="1">
+        <label>AWeaponAssetActor</label>
+        <link refid="d2/d1f/class_a_weapon_asset_actor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AActor</label>
+      </node>
+      <node id="1">
+        <label>AWeaponAssetActor</label>
+        <link refid="d2/d1f/class_a_weapon_asset_actor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="13" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" bodystart="14" bodyend="65"/>
+    <listofallmembers>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1acad087389680e92107c06304c4adacb0" prot="public" virt="non-virtual"><scope>AWeaponAssetActor</scope><name>AWeaponAssetActor</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a9cf738b921280f70c5faf8acb6879dc4" prot="public" virt="non-virtual"><scope>AWeaponAssetActor</scope><name>Clear</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a75ee64c55818ad5e44033b5c59d30c9b" prot="public" virt="virtual"><scope>AWeaponAssetActor</scope><name>EndPlay</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a35bbaeb0152eb48786605945cd3633f0" prot="public" virt="non-virtual"><scope>AWeaponAssetActor</scope><name>GetWeaponAssetComponent</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a459b74ab844a40f52e34000d0498de27" prot="protected" virt="virtual"><scope>AWeaponAssetActor</scope><name>OnConstruction</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a99cc04655cbe9771060804f489bed59d" prot="public" virt="non-virtual"><scope>AWeaponAssetActor</scope><name>Refresh</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a2985396c6a4e2a443ac22adb62a8c006" prot="protected" virt="virtual"><scope>AWeaponAssetActor</scope><name>Tick</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a64c7cd5dde4e411d233fc234d698cbc9" prot="protected" virt="non-virtual"><scope>AWeaponAssetActor</scope><name>WeaponAssetComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

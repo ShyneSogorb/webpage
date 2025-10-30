@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d1/d72/_weapon_preview_scene_tab_factory_8cpp" kind="file" language="C++">
+    <compoundname>WeaponPreviewSceneTabFactory.cpp</compoundname>
+    <includes refid="d3/d22/_weapon_preview_scene_tab_factory_8h" local="yes">TabsFactory/WeaponPreviewSceneTabFactory.h</includes>
+    <includes local="yes">SEditorViewport.h</includes>
+    <includes refid="db/d51/_weapon_asset_editor_app_8h" local="yes">WeaponAssetEditorApp.h</includes>
+    <includes refid="df/d7d/_weapon_preview_viewport_8h" local="yes">Viewport/WeaponPreviewViewport.h</includes>
+    <includes refid="df/de8/_weapon_preview_scene_8h" local="yes">Viewport/WeaponPreviewScene.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/TabsFactory/WeaponPreviewSceneTabFactory.cpp</label>
+        <link refid="d1/d72/_weapon_preview_scene_tab_factory_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SEditorViewport.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TabsFactory/WeaponPreviewSceneTabFactory.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;SEditorViewport.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponAssetEditorApp.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Viewport/WeaponPreviewViewport.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Viewport/WeaponPreviewScene.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="d3/dbf/class_f_weapon_preview_scene_tab_factory_1a4cef0167c5fbb1929a93483c0b750b32" kindref="member">FWeaponPreviewSceneTabFactory::FWeaponPreviewSceneTabFactory</ref>(TSharedPtr&lt;class<sp/>FWeaponAssetEditorApp&gt;<sp/>InApp,<sp/>TSharedPtr&lt;FWeaponPreviewScene&gt;<sp/>InPreviewScene)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>FWorkflowTabFactory(FName(</highlight><highlight class="stringliteral">&quot;WeaponAssetPreviewTab&quot;</highlight><highlight class="normal">),<sp/>InApp)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>App<sp/>=<sp/>InApp;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>PreviewScene<sp/>=<sp/>InPreviewScene;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>InApp-&gt;SetPreviewComponent(PreviewScene-&gt;GetPreviewComponent());</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>TabLabel<sp/>=<sp/>FText::FromString(TEXT(</highlight><highlight class="stringliteral">&quot;Weapon<sp/>Preview&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>ViewMenuDescription<sp/>=<sp/>FText::FromString(TEXT(</highlight><highlight class="stringliteral">&quot;Displays<sp/>a<sp/>preview<sp/>of<sp/>the<sp/>weapon&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>ViewMenuTooltip<sp/>=<sp/>FText::FromString(TEXT(</highlight><highlight class="stringliteral">&quot;Show<sp/>the<sp/>weapon<sp/>preview&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">TSharedRef&lt;SWidget&gt;<sp/><ref refid="d3/dbf/class_f_weapon_preview_scene_tab_factory_1acb9ccfa44d029ae3a392ac64b760bfaf" kindref="member">FWeaponPreviewSceneTabFactory::CreateTabBody</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FWorkflowTabSpawnInfo&amp;<sp/>Info)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="23"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;FWeaponAssetEditorApp&gt;<sp/>app<sp/>=<sp/>App.Pin();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>SNew(<ref refid="da/dce/class_s_weapon_preview_viewport" kindref="compound">SWeaponPreviewViewport</ref>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.PreviewScene(PreviewScene)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.App(App.Pin());</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">FText<sp/><ref refid="d3/dbf/class_f_weapon_preview_scene_tab_factory_1ae5de918cd0f60bfb411e952b4d869f3d" kindref="member">FWeaponPreviewSceneTabFactory::GetTabToolTipText</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FWorkflowTabSpawnInfo&amp;<sp/>Info)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="33"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FText::FromString(TEXT(</highlight><highlight class="stringliteral">&quot;A<sp/>3D<sp/>preview<sp/>of<sp/>the<sp/>weapon&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/TabsFactory/WeaponPreviewSceneTabFactory.cpp"/>
+  </compounddef>
+</doxygen>

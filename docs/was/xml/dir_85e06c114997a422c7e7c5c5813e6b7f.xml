@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_85e06c114997a422c7e7c5c5813e6b7f" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes</compoundname>
+    <innerdir refid="dir_186b3ef108502e81f78f99c8dfabeaa0">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ComponentsNodes</innerdir>
+    <innerdir refid="dir_0a18311bee5000fde2a6344d300fbcfe">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/EndNodes</innerdir>
+    <innerdir refid="dir_fcc1e0493dff4c151791e3733cad060a">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/FlowNodes</innerdir>
+    <innerdir refid="dir_dbbf9f247edeb7d2918793fe538d29d1">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/Materials</innerdir>
+    <innerdir refid="dir_e7e22362de47ee5aedc037d495d20885">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/MathNodes</innerdir>
+    <innerdir refid="dir_aa44780fab335e5515711a78d9cac2e8">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/Objects</innerdir>
+    <innerdir refid="dir_9384e65101255de5d76940758f01c5b4">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes</innerdir>
+    <innerfile refid="d6/d53/_weapon_blueprint_runtime_node_8h">WeaponBlueprintRuntimeNode.h</innerfile>
+    <innerfile refid="d6/dfd/_weapon_subgraph_runtime_node_8h">WeaponSubgraphRuntimeNode.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/"/>
+  </compounddef>
+</doxygen>

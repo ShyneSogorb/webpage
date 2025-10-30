@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="df/dcb/struct_f_modification_applied" kind="struct" language="C++" prot="public">
+    <compoundname>FModificationApplied</compoundname>
+    <includes local="no">ModificationApplied.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="df/dcb/struct_f_modification_applied_1ae0e062c100030815cfd8d01c415a32b9" prot="public" static="no" mutable="no">
+        <type>TObjectPtr&lt; <ref refid="d9/df8/class_u_weapon_architecture" kindref="compound">UWeaponArchitecture</ref> &gt;</type>
+        <definition>TObjectPtr&lt;UWeaponArchitecture&gt; FModificationApplied::Architecture</definition>
+        <argsstring></argsstring>
+        <name>Architecture</name>
+        <qualifiedname>FModificationApplied::Architecture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="21" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dcb/struct_f_modification_applied_1acbfeda430c4cb4a48aaedadac60379fa" prot="public" static="no" mutable="no">
+        <type>TArray&lt; uint8 &gt;</type>
+        <definition>TArray&lt;uint8&gt; FModificationApplied::SlotModifiers</definition>
+        <argsstring></argsstring>
+        <name>SlotModifiers</name>
+        <qualifiedname>FModificationApplied::SlotModifiers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="25" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/dcb/struct_f_modification_applied_1ad8a5b431599f6170421ce42689588d0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="d0/d9f/struct_f_modification_architecture" kindref="compound">FModificationArchitecture</ref> &amp;</type>
+        <definition>FORCEINLINE FModificationArchitecture &amp; FModificationApplied::GetArchitecture</definition>
+        <argsstring>()</argsstring>
+        <name>GetArchitecture</name>
+        <qualifiedname>FModificationApplied::GetArchitecture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="27" column="39" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dcb/struct_f_modification_applied_1a50b477ba9d9ca7ac7849bcfa12f971f0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const <ref refid="d0/d9f/struct_f_modification_architecture" kindref="compound">FModificationArchitecture</ref> &amp;</type>
+        <definition>FORCEINLINE const FModificationArchitecture &amp; FModificationApplied::GetArchitecture</definition>
+        <argsstring>() const</argsstring>
+        <name>GetArchitecture</name>
+        <qualifiedname>FModificationApplied::GetArchitecture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="28" column="45" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dcb/struct_f_modification_applied_1ace9cadfd56757068a97fc1ef8e93a425" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE TObjectPtr&lt; UEnum &gt; &amp;</type>
+        <definition>FORCEINLINE TObjectPtr&lt; UEnum &gt; &amp; FModificationApplied::GetModificationsEnum</definition>
+        <argsstring>()</argsstring>
+        <name>GetModificationsEnum</name>
+        <qualifiedname>FModificationApplied::GetModificationsEnum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="30" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dcb/struct_f_modification_applied_1ad57202511347f4dd558fad2ab747982b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const TObjectPtr&lt; UEnum &gt; &amp;</type>
+        <definition>FORCEINLINE const TObjectPtr&lt; UEnum &gt; &amp; FModificationApplied::GetModificationsEnum</definition>
+        <argsstring>() const</argsstring>
+        <name>GetModificationsEnum</name>
+        <qualifiedname>FModificationApplied::GetModificationsEnum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="31" column="30" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dcb/struct_f_modification_applied_1a46eed7d986002df55ebb7b76069d9b27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE TArray&lt; uint8 &gt; &amp;</type>
+        <definition>FORCEINLINE TArray&lt; uint8 &gt; &amp; FModificationApplied::GetSlotModifiers</definition>
+        <argsstring>()</argsstring>
+        <name>GetSlotModifiers</name>
+        <qualifiedname>FModificationApplied::GetSlotModifiers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="36" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dcb/struct_f_modification_applied_1ab9bc882ce3cadda3da9fc2447cb8d93a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const TArray&lt; uint8 &gt; &amp;</type>
+        <definition>FORCEINLINE const TArray&lt; uint8 &gt; &amp; FModificationApplied::GetSlotModifiers</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSlotModifiers</name>
+        <qualifiedname>FModificationApplied::GetSlotModifiers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="37" column="26" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dcb/struct_f_modification_applied_1a8832a6b406e0c2035fcc64928a04f210" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE TArray&lt; TObjectPtr&lt; UEnum &gt; &gt; &amp;</type>
+        <definition>FORCEINLINE TArray&lt; TObjectPtr&lt; UEnum &gt; &gt; &amp; FModificationApplied::GetSlotModifiersEnum</definition>
+        <argsstring>()</argsstring>
+        <name>GetSlotModifiersEnum</name>
+        <qualifiedname>FModificationApplied::GetSlotModifiersEnum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="33" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dcb/struct_f_modification_applied_1a3cd51923048829bfbf4d97416b751cb4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const TArray&lt; TObjectPtr&lt; UEnum &gt; &gt; &amp;</type>
+        <definition>FORCEINLINE const TArray&lt; TObjectPtr&lt; UEnum &gt; &gt; &amp; FModificationApplied::GetSlotModifiersEnum</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSlotModifiersEnum</name>
+        <qualifiedname>FModificationApplied::GetSlotModifiersEnum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="34" column="26" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="df/dcb/struct_f_modification_applied_1ae59a7c641c6c0a82eb85ec8ef949f002" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE auto &amp;</type>
+        <definition>static FORCEINLINE auto &amp; FModificationApplied::GetArchitectureImpl</definition>
+        <argsstring>(T &amp;Obj)</argsstring>
+        <name>GetArchitectureImpl</name>
+        <qualifiedname>FModificationApplied::GetArchitectureImpl</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>Obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="43" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dcb/struct_f_modification_applied_1a05d044576e0024dcddc18e92daad0423" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE auto &amp;</type>
+        <definition>static FORCEINLINE auto &amp; FModificationApplied::GetModificationsEnumImpl</definition>
+        <argsstring>(T &amp;Obj)</argsstring>
+        <name>GetModificationsEnumImpl</name>
+        <qualifiedname>FModificationApplied::GetModificationsEnumImpl</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>Obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="49" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dcb/struct_f_modification_applied_1a55a2377e36cb70163e59f1d43116b542" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE auto &amp;</type>
+        <definition>static FORCEINLINE auto &amp; FModificationApplied::GetSlotModsEnumImpl</definition>
+        <argsstring>(T &amp;Obj)</argsstring>
+        <name>GetSlotModsEnumImpl</name>
+        <qualifiedname>FModificationApplied::GetSlotModsEnumImpl</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>Obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="55" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dcb/struct_f_modification_applied_1aa9edbcd3c4014388b8751c1c9d606600" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE auto &amp;</type>
+        <definition>static FORCEINLINE auto &amp; FModificationApplied::GetSlotModsImpl</definition>
+        <argsstring>(T &amp;Obj)</argsstring>
+        <name>GetSlotModsImpl</name>
+        <qualifiedname>FModificationApplied::GetSlotModsImpl</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>Obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="61" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="61" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Struct that holds the applied modifications to a weapon based on its architecture </para>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" line="13" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/ModificationApplied.h" bodystart="14" bodyend="66"/>
+    <listofallmembers>
+      <member refid="df/dcb/struct_f_modification_applied_1ae0e062c100030815cfd8d01c415a32b9" prot="public" virt="non-virtual"><scope>FModificationApplied</scope><name>Architecture</name></member>
+      <member refid="df/dcb/struct_f_modification_applied_1ad8a5b431599f6170421ce42689588d0b" prot="public" virt="non-virtual"><scope>FModificationApplied</scope><name>GetArchitecture</name></member>
+      <member refid="df/dcb/struct_f_modification_applied_1a50b477ba9d9ca7ac7849bcfa12f971f0" prot="public" virt="non-virtual"><scope>FModificationApplied</scope><name>GetArchitecture</name></member>
+      <member refid="df/dcb/struct_f_modification_applied_1ae59a7c641c6c0a82eb85ec8ef949f002" prot="private" virt="non-virtual"><scope>FModificationApplied</scope><name>GetArchitectureImpl</name></member>
+      <member refid="df/dcb/struct_f_modification_applied_1ace9cadfd56757068a97fc1ef8e93a425" prot="public" virt="non-virtual"><scope>FModificationApplied</scope><name>GetModificationsEnum</name></member>
+      <member refid="df/dcb/struct_f_modification_applied_1ad57202511347f4dd558fad2ab747982b" prot="public" virt="non-virtual"><scope>FModificationApplied</scope><name>GetModificationsEnum</name></member>
+      <member refid="df/dcb/struct_f_modification_applied_1a05d044576e0024dcddc18e92daad0423" prot="private" virt="non-virtual"><scope>FModificationApplied</scope><name>GetModificationsEnumImpl</name></member>
+      <member refid="df/dcb/struct_f_modification_applied_1a46eed7d986002df55ebb7b76069d9b27" prot="public" virt="non-virtual"><scope>FModificationApplied</scope><name>GetSlotModifiers</name></member>
+      <member refid="df/dcb/struct_f_modification_applied_1ab9bc882ce3cadda3da9fc2447cb8d93a" prot="public" virt="non-virtual"><scope>FModificationApplied</scope><name>GetSlotModifiers</name></member>
+      <member refid="df/dcb/struct_f_modification_applied_1a8832a6b406e0c2035fcc64928a04f210" prot="public" virt="non-virtual"><scope>FModificationApplied</scope><name>GetSlotModifiersEnum</name></member>
+      <member refid="df/dcb/struct_f_modification_applied_1a3cd51923048829bfbf4d97416b751cb4" prot="public" virt="non-virtual"><scope>FModificationApplied</scope><name>GetSlotModifiersEnum</name></member>
+      <member refid="df/dcb/struct_f_modification_applied_1a55a2377e36cb70163e59f1d43116b542" prot="private" virt="non-virtual"><scope>FModificationApplied</scope><name>GetSlotModsEnumImpl</name></member>
+      <member refid="df/dcb/struct_f_modification_applied_1aa9edbcd3c4014388b8751c1c9d606600" prot="private" virt="non-virtual"><scope>FModificationApplied</scope><name>GetSlotModsImpl</name></member>
+      <member refid="df/dcb/struct_f_modification_applied_1acbfeda430c4cb4a48aaedadac60379fa" prot="public" virt="non-virtual"><scope>FModificationApplied</scope><name>SlotModifiers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

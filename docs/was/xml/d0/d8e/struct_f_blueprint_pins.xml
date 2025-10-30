@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d0/d8e/struct_f_blueprint_pins" kind="struct" language="C++" prot="public">
+    <compoundname>FBlueprintPins</compoundname>
+    <includes local="no">WeaponBlueprintRuntimeNode.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d8e/struct_f_blueprint_pins_1a80a9b20d24657c3dc370fd23bc5ab0a0" prot="public" static="no" mutable="no">
+        <type>FName</type>
+        <definition>FName FBlueprintPins::Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>FBlueprintPins::Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="27" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d8e/struct_f_blueprint_pins_1a2765cfe113dd67ffea0c21e6a3a2f51f" prot="public" static="no" mutable="no">
+        <type>TEnumAsByte&lt; EPinType &gt;</type>
+        <definition>TEnumAsByte&lt;EPinType&gt; FBlueprintPins::PinType</definition>
+        <argsstring></argsstring>
+        <name>PinType</name>
+        <qualifiedname>FBlueprintPins::PinType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="30" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d8e/struct_f_blueprint_pins_1a01cc29a9c5406619ee3553c31a314b1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FBlueprintPins::FBlueprintPins</definition>
+        <argsstring>()</argsstring>
+        <name>FBlueprintPins</name>
+        <qualifiedname>FBlueprintPins::FBlueprintPins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="33" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d8e/struct_f_blueprint_pins_1a6137cc603e7e0beec4b694db5a56701b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FBlueprintPins::FBlueprintPins</definition>
+        <argsstring>(const FName &amp;InName, EPinType InType)</argsstring>
+        <name>FBlueprintPins</name>
+        <qualifiedname>FBlueprintPins::FBlueprintPins</qualifiedname>
+        <param>
+          <type>const FName &amp;</type>
+          <declname>InName</declname>
+        </param>
+        <param>
+          <type>EPinType</type>
+          <declname>InType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="32" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" line="20" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h" bodystart="21" bodyend="35"/>
+    <listofallmembers>
+      <member refid="d0/d8e/struct_f_blueprint_pins_1a6137cc603e7e0beec4b694db5a56701b" prot="public" virt="non-virtual"><scope>FBlueprintPins</scope><name>FBlueprintPins</name></member>
+      <member refid="d0/d8e/struct_f_blueprint_pins_1a01cc29a9c5406619ee3553c31a314b1e" prot="public" virt="non-virtual"><scope>FBlueprintPins</scope><name>FBlueprintPins</name></member>
+      <member refid="d0/d8e/struct_f_blueprint_pins_1a80a9b20d24657c3dc370fd23bc5ab0a0" prot="public" virt="non-virtual"><scope>FBlueprintPins</scope><name>Name</name></member>
+      <member refid="d0/d8e/struct_f_blueprint_pins_1a2765cfe113dd67ffea0c21e6a3a2f51f" prot="public" virt="non-virtual"><scope>FBlueprintPins</scope><name>PinType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

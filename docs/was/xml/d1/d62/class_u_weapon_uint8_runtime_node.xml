@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d1/d62/class_u_weapon_uint8_runtime_node" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponUint8RuntimeNode</compoundname>
+    <basecompoundref refid="d2/d51/class_u_weapon_value_runtime_node" prot="public" virt="non-virtual">UWeaponValueRuntimeNode</basecompoundref>
+    <includes local="no">WeaponValueNode.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/d62/class_u_weapon_uint8_runtime_node_1aad6bd0bb173d8c55cf4c1890387bc69d" prot="public" static="no" mutable="no">
+        <type>uint8</type>
+        <definition>uint8 UWeaponUint8RuntimeNode::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>UWeaponUint8RuntimeNode::Value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/MathNodes/WeaponValueNode.h" line="178" column="11" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/MathNodes/WeaponValueNode.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d62/class_u_weapon_uint8_runtime_node_1a6675b518534a9d54865ab63291da36ca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>FAnyNumeric</type>
+        <definition>virtual FAnyNumeric UWeaponUint8RuntimeNode::GetValue</definition>
+        <argsstring>() const override</argsstring>
+        <name>GetValue</name>
+        <qualifiedname>UWeaponUint8RuntimeNode::GetValue</qualifiedname>
+        <reimplements refid="d2/d51/class_u_weapon_value_runtime_node_1a9a6406a8258c7bffb4bc22fb0b31c240">GetValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/MathNodes/WeaponValueNode.h" line="183" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/MathNodes/WeaponValueNode.h" bodystart="183" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d62/class_u_weapon_uint8_runtime_node_1a0dc387caee52ad36bf2d48ebdd601898" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UWeaponUint8RuntimeNode::operator uint8</definition>
+        <argsstring>() const</argsstring>
+        <name>operator uint8</name>
+        <qualifiedname>UWeaponUint8RuntimeNode::operator uint8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/MathNodes/WeaponValueNode.h" line="181" column="5" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/MathNodes/WeaponValueNode.h" bodystart="181" bodyend="181"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>UObject</label>
+      </node>
+      <node id="3">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>UWeaponUint8RuntimeNode</label>
+        <link refid="d1/d62/class_u_weapon_uint8_runtime_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UWeaponValueRuntimeNode</label>
+        <link refid="d2/d51/class_u_weapon_value_runtime_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>UObject</label>
+      </node>
+      <node id="3">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>OutputPin</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>UWeaponRuntimePin</label>
+        <link refid="dd/d5d/class_u_weapon_runtime_pin"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>UWeaponUint8RuntimeNode</label>
+        <link refid="d1/d62/class_u_weapon_uint8_runtime_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UWeaponValueRuntimeNode</label>
+        <link refid="d2/d51/class_u_weapon_value_runtime_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/MathNodes/WeaponValueNode.h" line="172" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/MathNodes/WeaponValueNode.h" bodystart="173" bodyend="199"/>
+    <listofallmembers>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a097aad9c43b080b602ac91c362cde920" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>ClearCache</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a966058e4fc27de54fa895444d3e281ed" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetAllPins</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ae80914a1cbed5c244202b092e2ef28ec" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetCharacteristics</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aac61ae0f66550aa137e4a184faabf048" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetGraph</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ab0ed90456b663568fdb8c8eae8b45b0f" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetLastInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ad83305eea700b8aad7904e542f1fdd4b" prot="public" virt="virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetMainInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1abbe1c76ce8e8161ed6405e3bc3068ceb" prot="public" virt="virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetMainOutput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ac284948005ccd2699b30849031829bbd" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a44bbe10ae3aa2b5f628566022ddb6538" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a13bd56c9affe83d039eb35416f982317" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aa3651afaba4ab612835a5181011d65de" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a07ffea4a5c6b4ebaa0cc5ed45ba988f4" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetPinByName</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a936fcdfe272bd548e51cb3a23b1d89bb" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetPinConnection</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a53ac22a37bc5310a743f45d2e6061ac1" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetPinConnection</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0e86c0ec73005b8ea83f3061287ca3d4" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetPinConnections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0fe1f31d6c8fc4e93fd0e9bf02326bd5" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetPinConnections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a920f1ec93a0815499ce44a23676bed52" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetSourceCharacteristics</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a80195a739443f3d36e8aa45d864d9b9c" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetSourceWorkingAsset</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a00b3a099fb897f3d84e577a5de79b611" prot="public" virt="virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetValidPin</name></member>
+      <member refid="d1/d62/class_u_weapon_uint8_runtime_node_1a6675b518534a9d54865ab63291da36ca" prot="public" virt="virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetValue</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a52eb9f7d6605233445104c21c411f8b0" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetWorkingAsset</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aa0c2351d764b462aec9d95de918f9ccb" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>GetWorldContext</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a87b0a5686fa3ae650a539d8ae7e857e1" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>InputPins</name></member>
+      <member refid="d1/d62/class_u_weapon_uint8_runtime_node_1a0dc387caee52ad36bf2d48ebdd601898" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>operator uint8</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a9f8a497d1a33609fcd7e05fed301991c" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>OutputPin</name></member>
+      <member refid="d2/d51/class_u_weapon_value_runtime_node_1aba19e71fbb2f87b681119c7aead82e02" prot="public" virt="virtual"><scope>UWeaponUint8RuntimeNode</scope><name>SetPinValue</name></member>
+      <member refid="d1/d62/class_u_weapon_uint8_runtime_node_1aad6bd0bb173d8c55cf4c1890387bc69d" prot="public" virt="non-virtual"><scope>UWeaponUint8RuntimeNode</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

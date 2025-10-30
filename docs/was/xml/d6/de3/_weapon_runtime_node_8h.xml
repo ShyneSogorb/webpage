@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d6/de3/_weapon_runtime_node_8h" kind="file" language="C++">
+    <compoundname>WeaponRuntimeNode.h</compoundname>
+    <includes refid="d6/d5e/_definitions_8h" local="yes">Miscellaneous/Definitions.h</includes>
+    <includes refid="d2/db8/_type_definition_8h" local="yes">Miscellaneous/TypeDefinition.h</includes>
+    <includes local="yes">WeaponRuntimeNode.generated.h</includes>
+    <includedby refid="dd/d46/_weapon_graph_node_base_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNodeBase.h</includedby>
+    <includedby refid="d0/d2d/_weapon_asset_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/WeaponAsset.cpp</includedby>
+    <includedby refid="d4/d2f/_weapon_runtime_node_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/WeaponRuntimeNode.cpp</includedby>
+    <includedby refid="d2/d4e/_weapon_runtime_pin_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/WeaponRuntimePin.cpp</includedby>
+    <includedby refid="d8/d39/_weapon_component_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ComponentsNodes/WeaponComponentRuntimeNode.h</includedby>
+    <includedby refid="d1/d64/_weapon_component_tag_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ComponentsNodes/WeaponComponentTagRuntimeNode.h</includedby>
+    <includedby refid="d0/d59/_weapon_set_material_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ComponentsNodes/WeaponSetMaterialNode.h</includedby>
+    <includedby refid="d6/d10/_weapon_end_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/EndNodes/WeaponEndRuntimeNode.h</includedby>
+    <includedby refid="d6/d18/_weapon_if_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/FlowNodes/WeaponIfRuntimeNode.h</includedby>
+    <includedby refid="dd/d86/_weapon_select_enum_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/FlowNodes/WeaponSelectEnumRuntimeNode.h</includedby>
+    <includedby refid="de/d16/_weapon_material_instance_dynamic_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/Materials/WeaponMaterialInstanceDynamicNode.h</includedby>
+    <includedby refid="d3/dd7/_weapon_math_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/MathNodes/WeaponMathRuntimeNode.h</includedby>
+    <includedby refid="d0/da6/_weapon_operator_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/MathNodes/WeaponOperatorRuntimeNode.h</includedby>
+    <includedby refid="db/dad/_weapon_value_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/MathNodes/WeaponValueNode.h</includedby>
+    <includedby refid="dd/d32/_weapon_mod_at_slot_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponModAtSlotRuntimeNode.h</includedby>
+    <includedby refid="d3/d31/_weapon_property_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponPropertyRuntimeNode.h</includedby>
+    <includedby refid="d6/d53/_weapon_blueprint_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponBlueprintRuntimeNode.h</includedby>
+    <includedby refid="d6/dfd/_weapon_subgraph_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponSubgraphRuntimeNode.h</includedby>
+    <includedby refid="d0/d9e/_weapon_runtime_graph_8h" local="yes">C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeGraph.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeNode.h</label>
+        <link refid="d6/de3/_weapon_runtime_node_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WeaponRuntimeNode.generated.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="de/dde/class_u_weapon_runtime_node" prot="public">UWeaponRuntimeNode</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="d6/de3/_weapon_runtime_node_8h_1a815fbd047baf005c08e3f8a2ab53a298" prot="public" static="no">
+        <name>SET_DISPLAY</name>
+        <param><defname>Text</defname></param>
+        <initializer>FORCEINLINE virtual FText GetDisplayName() const override {return FText::FromString(Text);}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeNode.h" line="250" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeNode.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d6/de3/_weapon_runtime_node_8h_1aad29a78cb5dace17c671946ed19d6762" prot="public" static="no">
+        <name>SET_TITLE</name>
+        <param><defname>Text</defname></param>
+        <initializer>FORCEINLINE virtual FText GetGraphNodeTitleBase(ENodeTitleType::Type TitleType) const {return FText::FromString(Text);}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeNode.h" line="251" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeNode.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d6/de3/_weapon_runtime_node_8h_1a90d2ab35ade51184969d814d64057471" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_LOG_CATEGORY_EXTERN</definition>
+        <argsstring>(WeaponSystemNodes, Log, All)</argsstring>
+        <name>DECLARE_LOG_CATEGORY_EXTERN</name>
+        <param>
+          <type>WeaponSystemNodes</type>
+        </param>
+        <param>
+          <type>Log</type>
+        </param>
+        <param>
+          <type>All</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeNode.h" line="14" column="1" declfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeNode.h" declline="14" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/Definitions.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/TypeDefinition.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponRuntimeNode.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UWeaponNodeInfo_Base;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">DECLARE_LOG_CATEGORY_EXTERN(WeaponSystemNodes,<sp/>Log,<sp/>All);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITORONLY_DATA<sp/>&amp;&amp;<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//Runtime<sp/>version<sp/>of<sp/>a<sp/>pin<sp/>that<sp/>helps<sp/>with<sp/>the<sp/>representation<sp/>of<sp/>a<sp/>editor<sp/>pin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">FRuntimePin</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Name<sp/>that<sp/>will<sp/>be<sp/>displayed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/>Name;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Pin<sp/>type<sp/>that<sp/>defines<sp/>style<sp/>and<sp/>compatibility</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/>SubCategory;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Direction<sp/>of<sp/>the<sp/>pin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>EEdGraphPinDirection<sp/>Direction;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Actions<sp/>that<sp/>can<sp/>be<sp/>performed<sp/>by<sp/>the<sp/>pin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8<sp/>PinActions;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>FRuntimePin(EEdGraphPinDirection<sp/>InDirection,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FName&amp;<sp/>InName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FName&amp;<sp/>InSubCategory,<sp/>uint8<sp/>InActions<sp/>=<sp/>(uint8)EPinActions())<sp/>:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>Name(InName),<sp/>SubCategory(InSubCategory),<sp/>Direction(InDirection),<sp/>PinActions(InActions)<sp/>{}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>FRuntimePin()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FRuntimePin&amp;)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//Base<sp/>class<sp/>of<sp/>a<sp/>runtime<sp/>version<sp/>of<sp/>a<sp/>node<sp/>that<sp/>will<sp/>be<sp/>able<sp/>to<sp/>perform<sp/>actions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">UCLASS(Category=</highlight><highlight class="stringliteral">&quot;Node&quot;</highlight><highlight class="normal">,<sp/>Abstract)</highlight></codeline>
+<codeline lineno="47" refid="de/dde/class_u_weapon_runtime_node" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref><sp/>:<sp/>public<sp/>UObject</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PostEditChangeProperty(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>FPropertyChangedEvent&amp;<sp/>PropertyChangedEvent)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UpdateCompatibility(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bForce<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//virtual<sp/>void<sp/>UpdateCompatibility();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>GetPinByName(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FName&amp;<sp/>PinName)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY()</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;UWeaponRuntimePin*&gt;<sp/>InputPins;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY()</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>OutputPin;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TArray&lt;UWeaponRuntimePin*&gt;<sp/>OutputPins;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITORONLY_DATA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//There&apos;s<sp/>no<sp/>need<sp/>to<sp/>keep<sp/>the<sp/>location<sp/>in<sp/>editor<sp/>of<sp/>the<sp/>node<sp/>when<sp/>building<sp/>the<sp/>project</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY()</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector2D<sp/>Location;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(Transient)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/db3/class_u_weapon_runtime_graph" kindref="compound">UWeaponRuntimeGraph</ref>*<sp/>RuntimeGraph;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetPinsSubcategoryAuto(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pins);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetPinValue(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin)<sp/>{};</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1ac48411005dd77cb0894bff2f8f93826d" kindref="member">ClearCache</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>main<sp/>input<sp/>of<sp/>the<sp/>node<sp/>if<sp/>there&apos;s<sp/>some.<sp/>Usually<sp/>will<sp/>be<sp/>the<sp/>first</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>GetMainInput()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>InputPins.IsEmpty()<sp/>?<sp/>nullptr<sp/>:<sp/>InputPins[0];}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>main<sp/>output<sp/>of<sp/>the<sp/>node.<sp/>Usually<sp/>will<sp/>be<sp/>the<sp/>first</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>GetMainOutput()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>OutputPin;}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>last<sp/>input<sp/>of<sp/>the<sp/>node</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>GetLastInput()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>InputPins.Last();}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>GetPinConnection(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin,<sp/>int32<sp/>ConnectionIndex<sp/>=<sp/>0)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>GetPinConnection(int32<sp/>Pin,<sp/>int32<sp/>ConnectionIndex<sp/>=<sp/>0)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="126"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetPinConnection(InputPins.IsValidIndex(Pin)<sp/>?<sp/>InputPins[Pin]<sp/>:<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>ConnectionIndex);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;UWeaponRuntimePin*&gt;&amp;<sp/>GetPinConnections(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;UWeaponRuntimePin*&gt;&amp;<sp/>GetPinConnections(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>Pin<sp/>=<sp/>0)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="142"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetPinConnections(InputPins.IsValidIndex(Pin)<sp/>?<sp/>InputPins[Pin]<sp/>:<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Gets<sp/>all<sp/>pins<sp/>of<sp/>the<sp/>node<sp/>Input<sp/>+<sp/>Output</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;UWeaponRuntimePin*&gt;<sp/>GetAllPins()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="148"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TArray&lt;UWeaponRuntimePin*&gt;<sp/>AllPins<sp/>=<sp/>InputPins;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(OutputPin)<sp/>AllPins.Add(OutputPin);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>AllPins;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Returns<sp/>the<sp/>node<sp/>of<sp/>the<sp/>first<sp/>pin<sp/>connected<sp/>with<sp/>the<sp/>pin<sp/>param</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>*<sp/>GetNodeFromInput(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>FromPin)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>*<sp/>GetNodeFromInput(int32<sp/>InputIndex)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{check(InputPins.IsValidIndex(InputIndex))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetNodeFromInput(InputPins[InputIndex]);}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GetNodeFromInput(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>FromPin,<sp/>TArray&lt;UWeaponRuntimeNode*&gt;&amp;<sp/>ConnectedNodes)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GetNodeFromInput(int32<sp/>InputIndex,<sp/>TArray&lt;UWeaponRuntimeNode*&gt;&amp;<sp/>ConnectedNodes)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{GetNodeFromInput(InputPins[InputIndex],<sp/>ConnectedNodes);}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>valid<sp/>pin<sp/>that<sp/>should<sp/>be<sp/>used<sp/>to<sp/>get<sp/>the<sp/>value<sp/>of<sp/>the<sp/>node.<sp/>By<sp/>default<sp/>it<sp/>will<sp/>be<sp/>the<sp/>main<sp/>input</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Should<sp/>be<sp/>overriden<sp/>by<sp/>control<sp/>flow<sp/>nodes<sp/>such<sp/>as<sp/>switches<sp/>and<sp/>ifs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>TArray&lt;UWeaponRuntimePin*&gt;<sp/>GetValidPin()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{GetMainInput()};}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>graph<sp/>owning<sp/>the<sp/>node</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/db3/class_u_weapon_runtime_graph" kindref="compound">UWeaponRuntimeGraph</ref>*<sp/>GetGraph()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>weapon<sp/>asset<sp/>containing<sp/>this<sp/>node</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1a4c9bda084a5107a1e2edbf8ae4ce453b" kindref="member">GetWorkingAsset</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>characteristics<sp/>used<sp/>by<sp/>the<sp/>WeaponAsset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref>*<sp/>GetCharacteristics()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>characteristics<sp/>used<sp/>by<sp/>the<sp/>WeaponAsset<sp/>source.<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref>*<sp/>GetSourceCharacteristics()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>original<sp/>weapon<sp/>asset<sp/>in<sp/>case<sp/>current<sp/>one<sp/>is<sp/>a<sp/>instance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/>GetSourceWorkingAsset()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>world<sp/>context<sp/>from<sp/>the<sp/>graph</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Context&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>UObject*<sp/><ref refid="d4/d10/class_u_weapon_asset_characteristics_1a058e82e91a3080ae03a9342aa146b7e2" kindref="member">GetWorldContext</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//OVERRIDE<sp/>FOR<sp/>EACH<sp/>CHILD<sp/>CLASS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>name<sp/>that<sp/>will<sp/>be<sp/>shown<sp/>in<sp/>the<sp/>editor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FText<sp/>GetGraphNodeTitleBase(ENodeTitleType::Type<sp/>TitleType)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FText::FromString(</highlight><highlight class="stringliteral">&quot;Untitled<sp/>node&quot;</highlight><highlight class="normal">);}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>name<sp/>that<sp/>will<sp/>be<sp/>shown<sp/>in<sp/>the<sp/>editor<sp/>with<sp/>addittions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>FText<sp/>GetGraphNodeTitle(ENodeTitleType::Type<sp/>TitleType)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="200"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FText::FromString(GetGraphNodeTitleBase(TitleType).ToString()<sp/>+<sp/>GetClassExtraData());</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>FString<sp/>GetClassExtraData()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="205"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FString<sp/>Extras[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Beta&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Experimental&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Deprecated&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>Extra<sp/>:<sp/>Extras)</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(GetClass()-&gt;HasMetaData(*Extra))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="stringliteral">&quot;<sp/>(&quot;</highlight><highlight class="normal"><sp/>+<sp/>Extra<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FString();</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>color<sp/>that<sp/>will<sp/>be<sp/>displayed<sp/>on<sp/>the<sp/>node</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FLinearColor<sp/>GetGraphNodeTitleColor()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FLinearColor::Green;}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TODO<sp/>get<sp/>valid<sp/>context<sp/>from<sp/>the<sp/>node<sp/>itself</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//virtual<sp/>void<sp/>GetNodeContextMenuActions(class<sp/>UToolMenu*<sp/>Menu,<sp/>class<sp/>UGraphNodeContextMenuContext*<sp/>Context)<sp/>const;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Generates<sp/>the<sp/>default<sp/>pins<sp/>that<sp/>should<sp/>have<sp/>this<sp/>node</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DefaultPins(TArray&lt;FRuntimePin&gt;&amp;<sp/>Pins)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SimplePinning(TArray&lt;FRuntimePin&gt;&amp;<sp/>Pins,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FName&amp;<sp/>DefaultSubcategory,<sp/>EPinActions<sp/>Actions<sp/>=<sp/>EPinActions())<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Gets<sp/>the<sp/>actions<sp/>avaible<sp/>with<sp/>this<sp/>node</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">ENodesActions::Type</ref><sp/>GetNodeActions()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">ENodesActions::Type</ref></highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea6313f5a0d3863c1ac3d09bc66ee5b4e9" kindref="member">ENodesActions::EDelete</ref><sp/>|<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8eafdbf6439cf3a7ddd8f5a6e950f1f324f" kindref="member">ENodesActions::ERefresh</ref>);}<sp/></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//returns<sp/>the<sp/>name<sp/>that<sp/>will<sp/>be<sp/>shown<sp/>in<sp/>the<sp/>context<sp/>menu</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FText<sp/>GetDisplayName()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FText<sp/>GetTooltipText()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FText::FromString(TEXT(</highlight><highlight class="stringliteral">&quot;Tooltip<sp/>goes<sp/>here&quot;</highlight><highlight class="normal">));}</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="247"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight><highlight class="comment">//Shortcut<sp/>to<sp/>overrides<sp/>the<sp/>display<sp/>text</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SET_DISPLAY(Text)<sp/>FORCEINLINE<sp/>virtual<sp/>FText<sp/>GetDisplayName()<sp/>const<sp/>override<sp/>{return<sp/>FText::FromString(Text);}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SET_TITLE(Text)<sp/>FORCEINLINE<sp/>virtual<sp/>FText<sp/>GetGraphNodeTitleBase(ENodeTitleType::Type<sp/>TitleType)<sp/>const<sp/>{return<sp/>FText::FromString(Text);}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponRuntimeNode.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d7/dcd/struct_f_any_numeric_wrapper" kind="struct" language="C++" prot="public">
+    <compoundname>FAnyNumericWrapper</compoundname>
+    <includes local="no">TypeDefinition.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/dcd/struct_f_any_numeric_wrapper_1ac4b6c2e340e80d11d877e1e48032a534" prot="public" static="no" mutable="no">
+        <type>FAnyNumeric</type>
+        <definition>FAnyNumeric FAnyNumericWrapper::Variant</definition>
+        <argsstring></argsstring>
+        <name>Variant</name>
+        <qualifiedname>FAnyNumericWrapper::Variant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="18" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dcd/struct_f_any_numeric_wrapper_1a1c72b5445dc823393a62897463405308" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FAnyNumericWrapper::FAnyNumericWrapper</definition>
+        <argsstring>()</argsstring>
+        <name>FAnyNumericWrapper</name>
+        <qualifiedname>FAnyNumericWrapper::FAnyNumericWrapper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="26" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dcd/struct_f_any_numeric_wrapper_1a3277427c8ba860d27caca1b123ab02b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FAnyNumericWrapper::FAnyNumericWrapper</definition>
+        <argsstring>(const FAnyNumeric &amp;Value)</argsstring>
+        <name>FAnyNumericWrapper</name>
+        <qualifiedname>FAnyNumericWrapper::FAnyNumericWrapper</qualifiedname>
+        <param>
+          <type>const FAnyNumeric &amp;</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="24" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dcd/struct_f_any_numeric_wrapper_1af283b5b217225f1549ff0ed9be13b664" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FAnyNumericWrapper::FAnyNumericWrapper</definition>
+        <argsstring>(FAnyNumeric &amp;&amp;Value)</argsstring>
+        <name>FAnyNumericWrapper</name>
+        <qualifiedname>FAnyNumericWrapper::FAnyNumericWrapper</qualifiedname>
+        <param>
+          <type>FAnyNumeric &amp;&amp;</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="23" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dcd/struct_f_any_numeric_wrapper_1ab29d27028cbbea63862c0ecec1306b8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>FAnyNumericWrapper::FAnyNumericWrapper</definition>
+        <argsstring>(T Value)</argsstring>
+        <name>FAnyNumericWrapper</name>
+        <qualifiedname>FAnyNumericWrapper::FAnyNumericWrapper</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="21" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dcd/struct_f_any_numeric_wrapper_1ab8e5b956b029dcf3beae1be8fe312513" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FAnyNumericWrapper::operator const FAnyNumeric &amp;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator const FAnyNumeric &amp;</name>
+        <qualifiedname>FAnyNumericWrapper::operator const FAnyNumeric &amp;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="29" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dcd/struct_f_any_numeric_wrapper_1ac70ee02bd978e7c01540a34c95e15638" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FAnyNumericWrapper::operator FAnyNumeric &amp;</definition>
+        <argsstring>()</argsstring>
+        <name>operator FAnyNumeric &amp;</name>
+        <qualifiedname>FAnyNumericWrapper::operator FAnyNumeric &amp;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="28" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Wrapper struct for FAnyNumeric to facilitate construction and conversion. </para>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="15" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="16" bodyend="31"/>
+    <listofallmembers>
+      <member refid="d7/dcd/struct_f_any_numeric_wrapper_1ab29d27028cbbea63862c0ecec1306b8e" prot="public" virt="non-virtual"><scope>FAnyNumericWrapper</scope><name>FAnyNumericWrapper</name></member>
+      <member refid="d7/dcd/struct_f_any_numeric_wrapper_1af283b5b217225f1549ff0ed9be13b664" prot="public" virt="non-virtual"><scope>FAnyNumericWrapper</scope><name>FAnyNumericWrapper</name></member>
+      <member refid="d7/dcd/struct_f_any_numeric_wrapper_1a3277427c8ba860d27caca1b123ab02b0" prot="public" virt="non-virtual"><scope>FAnyNumericWrapper</scope><name>FAnyNumericWrapper</name></member>
+      <member refid="d7/dcd/struct_f_any_numeric_wrapper_1a1c72b5445dc823393a62897463405308" prot="public" virt="non-virtual"><scope>FAnyNumericWrapper</scope><name>FAnyNumericWrapper</name></member>
+      <member refid="d7/dcd/struct_f_any_numeric_wrapper_1ab8e5b956b029dcf3beae1be8fe312513" prot="public" virt="non-virtual"><scope>FAnyNumericWrapper</scope><name>operator const FAnyNumeric &amp;</name></member>
+      <member refid="d7/dcd/struct_f_any_numeric_wrapper_1ac70ee02bd978e7c01540a34c95e15638" prot="public" virt="non-virtual"><scope>FAnyNumericWrapper</scope><name>operator FAnyNumeric &amp;</name></member>
+      <member refid="d7/dcd/struct_f_any_numeric_wrapper_1ac4b6c2e340e80d11d877e1e48032a534" prot="public" virt="non-virtual"><scope>FAnyNumericWrapper</scope><name>Variant</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

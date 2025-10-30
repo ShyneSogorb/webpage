@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d5/d4a/struct_f_attribute_operator" kind="struct" language="C++" prot="public">
+    <compoundname>FAttributeOperator</compoundname>
+    <derivedcompoundref refid="d1/d79/struct_f_attribute_double_operator" prot="public" virt="non-virtual">FAttributeDoubleOperator</derivedcompoundref>
+    <derivedcompoundref refid="df/dcc/struct_t_attribute_operator" prot="public" virt="non-virtual">TAttributeOperator&lt; T &gt;</derivedcompoundref>
+    <includes local="no">Operations.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FAttributeDoubleOperator</label>
+        <link refid="d1/d79/struct_f_attribute_double_operator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>FAttributeOperator</label>
+        <link refid="d5/d4a/struct_f_attribute_operator"/>
+      </node>
+      <node id="3">
+        <label>TAttributeOperator&lt; T &gt;</label>
+        <link refid="df/dcc/struct_t_attribute_operator"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Operations.h" line="50" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Operations.h" bodystart="51" bodyend="54"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

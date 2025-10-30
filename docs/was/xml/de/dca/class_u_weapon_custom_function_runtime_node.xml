@@ -1,0 +1,733 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="de/dca/class_u_weapon_custom_function_runtime_node" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponCustomFunctionRuntimeNode</compoundname>
+    <basecompoundref refid="de/dde/class_u_weapon_runtime_node" prot="public" virt="non-virtual">UWeaponRuntimeNode</basecompoundref>
+    <derivedcompoundref refid="d8/d0d/class_u_weapon_object_function_node" prot="public" virt="non-virtual">UWeaponObjectFunctionNode</derivedcompoundref>
+    <includes local="no">WeaponCustomFunctionRuntimeNode.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="de/dca/class_u_weapon_custom_function_runtime_node_1a97080f7abcd2d70d7f2e54dc4e965d31" prot="public" static="no" mutable="no">
+        <type>FName</type>
+        <definition>FName UWeaponCustomFunctionRuntimeNode::FunctionName</definition>
+        <argsstring></argsstring>
+        <name>FunctionName</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::FunctionName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="53" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="de/dca/class_u_weapon_custom_function_runtime_node_1aef580be6ebe8b1821eeaba292f26cb09" prot="protected" static="no" mutable="no">
+        <type>UClass *</type>
+        <definition>UClass* UWeaponCustomFunctionRuntimeNode::FunctorClass</definition>
+        <argsstring></argsstring>
+        <name>FunctorClass</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::FunctorClass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="131" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="de/dca/class_u_weapon_custom_function_runtime_node_1a5c98331cbb3a1a2f80a7e4209e7e6108" prot="private" static="no" mutable="yes">
+        <type>UFunction *</type>
+        <definition>UFunction* UWeaponCustomFunctionRuntimeNode::FunctionCache</definition>
+        <argsstring></argsstring>
+        <name>FunctionCache</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::FunctionCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="135" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/dca/class_u_weapon_custom_function_runtime_node_1a329d08c75ad43ebd63da7df0b57eef30" prot="private" static="no" mutable="yes">
+        <type>TMap&lt; FName, FProperty * &gt;</type>
+        <definition>TMap&lt;FName, FProperty*&gt; UWeaponCustomFunctionRuntimeNode::InputParams</definition>
+        <argsstring></argsstring>
+        <name>InputParams</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::InputParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="136" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/dca/class_u_weapon_custom_function_runtime_node_1aca55f293fbb8cad1c62fb564370b928b" prot="private" static="no" mutable="yes">
+        <type>TMap&lt; FName, FProperty * &gt;</type>
+        <definition>TMap&lt;FName, FProperty*&gt; UWeaponCustomFunctionRuntimeNode::OutputParams</definition>
+        <argsstring></argsstring>
+        <name>OutputParams</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::OutputParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="137" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1a57ede71452e28dade3e5fb89eff63cc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::EnsureClassIsKnown</definition>
+        <argsstring>()</argsstring>
+        <name>EnsureClassIsKnown</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::EnsureClassIsKnown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="58" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1aaecbbb1b1fe35f21a7a8bb678cc07e24" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>UFunction *</type>
+        <definition>UFunction * UWeaponCustomFunctionRuntimeNode::GetFunction</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFunction</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::GetFunction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the a pointer to the function. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="21" column="11" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1adacccbfef8b5352f7a5a11a507bb061b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>FORCEINLINE UObject *</type>
+        <definition>virtual FORCEINLINE UObject * UWeaponCustomFunctionRuntimeNode::GetFunctionExecutor</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFunctionExecutor</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::GetFunctionExecutor</qualifiedname>
+        <reimplementedby refid="d8/d0d/class_u_weapon_object_function_node_1aaa4f4c5e23276a3def9a1624843cdb0f">GetFunctionExecutor</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="71" column="29" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1af785b44f5ae9235b13b25f0b1f8ecb6b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>FORCEINLINE UClass *</type>
+        <definition>virtual FORCEINLINE UClass * UWeaponCustomFunctionRuntimeNode::GetFunctionExecutorClass</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFunctionExecutorClass</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::GetFunctionExecutorClass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="74" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1a309663f6784ce28061c4e99f46c66eca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FProperty *</type>
+        <definition>FProperty * UWeaponCustomFunctionRuntimeNode::GetMatchingProperty</definition>
+        <argsstring>(const UWeaponRuntimePin *Pin) const</argsstring>
+        <name>GetMatchingProperty</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::GetMatchingProperty</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>Pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the property represented by the pin <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pin that represents the parameter </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the property of the parameter represented or null if not found </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="68" column="11" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="233" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1abe7d28be68062a509e4f82bbca0bdb3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::InitializeFunction</definition>
+        <argsstring>(const FName &amp;NewPropertyName)</argsstring>
+        <name>InitializeFunction</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::InitializeFunction</qualifiedname>
+        <param>
+          <type>const FName &amp;</type>
+          <declname>NewPropertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes the property with the name and loads the pointers <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NewPropertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the property that will point to. MUST BE THE EXACT SAME NAME </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="36" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="94" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1ab1d986cc933ceac5fc847215654303c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::InitializeFunction</definition>
+        <argsstring>(UFunction *FunctionPtr, UClass *ObjectClass)</argsstring>
+        <name>InitializeFunction</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::InitializeFunction</qualifiedname>
+        <param>
+          <type>UFunction *</type>
+          <declname>FunctionPtr</declname>
+        </param>
+        <param>
+          <type>UClass *</type>
+          <declname>ObjectClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets all information to save and load the function in the future with serialization <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>FunctionPtr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the function that should be executed </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ObjectClass</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Class that holds the function </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="43" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="101" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1a854fb9942e06e8be531d59e2a92ed89a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::LoadFunction</definition>
+        <argsstring>() const</argsstring>
+        <name>LoadFunction</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::LoadFunction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="24" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="18" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1a1d3577eb97dfbb165dc5c3aec02db2a3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::LoadIfNotLoaded</definition>
+        <argsstring>() const</argsstring>
+        <name>LoadIfNotLoaded</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::LoadIfNotLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="30" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1a41e00d89d39c31f46c2eee2b0ade737f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::LoadParams</definition>
+        <argsstring>(const UFunction *Function) const</argsstring>
+        <name>LoadParams</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::LoadParams</qualifiedname>
+        <param>
+          <type>const UFunction *</type>
+          <declname>Function</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="27" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="69" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1ac7ede144f78e332bfdea019dc6d7030a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::SetArrayFromParam</definition>
+        <argsstring>(const UWeaponRuntimePin *PinData, void *Params, FArrayProperty *Property)</argsstring>
+        <name>SetArrayFromParam</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::SetArrayFromParam</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>PinData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>Params</declname>
+        </param>
+        <param>
+          <type>FArrayProperty *</type>
+          <declname>Property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="93" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="314" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1a0f645532e1fab49b6948447d198f4ccb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::SetArrayToParam</definition>
+        <argsstring>(const UWeaponRuntimePin *PinData, void *Params, FArrayProperty *Property)</argsstring>
+        <name>SetArrayToParam</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::SetArrayToParam</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>PinData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>Params</declname>
+        </param>
+        <param>
+          <type>FArrayProperty *</type>
+          <declname>Property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="92" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="287" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1adacb9c164ff6962fd208f28ccea9dbd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>FORCEINLINE void UWeaponCustomFunctionRuntimeNode::SetFunctionName</definition>
+        <argsstring>(const FName &amp;NewFunctionName)</argsstring>
+        <name>SetFunctionName</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::SetFunctionName</qualifiedname>
+        <param>
+          <type>const FName &amp;</type>
+          <declname>NewFunctionName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates the expected name of the property. THIS DOES NOT UPDATE THE POINTER <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NewFunctionName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new expected name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="49" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1a0e6b7dbd8eee35ba4b090ee32e1da86e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::SetNumericFromParam</definition>
+        <argsstring>(const UWeaponRuntimePin *PinData, void *Params, FNumericProperty *Property)</argsstring>
+        <name>SetNumericFromParam</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::SetNumericFromParam</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>PinData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>Params</declname>
+        </param>
+        <param>
+          <type>FNumericProperty *</type>
+          <declname>Property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="99" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="378" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1ac6ab1164a335ff23a8119c727126c94f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::SetNumericToParam</definition>
+        <argsstring>(const UWeaponRuntimePin *PinData, void *Params, FNumericProperty *Property)</argsstring>
+        <name>SetNumericToParam</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::SetNumericToParam</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>PinData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>Params</declname>
+        </param>
+        <param>
+          <type>FNumericProperty *</type>
+          <declname>Property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="98" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="354" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1a7ba258647015c0752fd745a971e1267c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::SetObjectFromParam</definition>
+        <argsstring>(const UWeaponRuntimePin *PinData, void *Params, FObjectProperty *Property)</argsstring>
+        <name>SetObjectFromParam</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::SetObjectFromParam</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>PinData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>Params</declname>
+        </param>
+        <param>
+          <type>FObjectProperty *</type>
+          <declname>Property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="96" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="347" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1a44d1f91f8b86c17d38ca5f588fdd809d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::SetObjectToParam</definition>
+        <argsstring>(const UWeaponRuntimePin *PinData, void *Params, FObjectProperty *Property)</argsstring>
+        <name>SetObjectToParam</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::SetObjectToParam</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>PinData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>Params</declname>
+        </param>
+        <param>
+          <type>FObjectProperty *</type>
+          <declname>Property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="95" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="340" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1af38f2581f4fec0c6db040c705660053c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::SetPinCacheDataType</definition>
+        <argsstring>(const UWeaponRuntimePin *Pin) const</argsstring>
+        <name>SetPinCacheDataType</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::SetPinCacheDataType</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>Pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="61" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="214" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1a3a732046d7dc0c0ee5c273dc775e5da3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::SetPinValue</definition>
+        <argsstring>(const UWeaponRuntimePin *Pin) override</argsstring>
+        <name>SetPinValue</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::SetPinValue</qualifiedname>
+        <reimplements refid="de/dde/class_u_weapon_runtime_node_1a7862a2fb74fc4bfe41edba34aaa9073f">SetPinValue</reimplements>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>Pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the value for the specified Pin. It should always be an output pin <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Pin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pin to set the cache value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="55" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="109" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1a098f62a1aaffdc73f33e618de4b5c2db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::SetValueFromParam</definition>
+        <argsstring>(const UWeaponRuntimePin *PinData, void *Params, FProperty *Property)</argsstring>
+        <name>SetValueFromParam</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::SetValueFromParam</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>PinData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>Params</declname>
+        </param>
+        <param>
+          <type>FProperty *</type>
+          <declname>Property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the value of the Pin from the Params according to the type of property <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>PinData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pin that will receive the data of the out parameter of the function </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Struct that holds the parameters of the function </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Property of the function parameter </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="90" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="268" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dca/class_u_weapon_custom_function_runtime_node_1ae0f2c5bef9f45b549d4dcda4b961a176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponCustomFunctionRuntimeNode::SetValueToParam</definition>
+        <argsstring>(const UWeaponRuntimePin *PinData, void *Params, FProperty *Property)</argsstring>
+        <name>SetValueToParam</name>
+        <qualifiedname>UWeaponCustomFunctionRuntimeNode::SetValueToParam</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>PinData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>Params</declname>
+        </param>
+        <param>
+          <type>FProperty *</type>
+          <declname>Property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copies the value of the Pin into the Params according to the type of property <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>PinData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pin that holds the data to copy </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Memory location of the parameters struct </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Property of the function parameter </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="82" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.cpp" bodystart="250" bodyend="266"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Calls an event from the Characteristics class </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponCustomFunctionRuntimeNode</label>
+        <link refid="de/dca/class_u_weapon_custom_function_runtime_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UWeaponObjectFunctionNode</label>
+        <link refid="d8/d0d/class_u_weapon_object_function_node"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponCustomFunctionRuntimeNode</label>
+        <link refid="de/dca/class_u_weapon_custom_function_runtime_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>OutputPin</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UWeaponRuntimePin</label>
+        <link refid="dd/d5d/class_u_weapon_runtime_pin"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" line="14" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/AdvCombatEcosystem/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/PropertyNodes/WeaponCustomFunctionRuntimeNode.h" bodystart="15" bodyend="139"/>
+    <listofallmembers>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a097aad9c43b080b602ac91c362cde920" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>ClearCache</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a57ede71452e28dade3e5fb89eff63cc4" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>EnsureClassIsKnown</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a5c98331cbb3a1a2f80a7e4209e7e6108" prot="private" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>FunctionCache</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a97080f7abcd2d70d7f2e54dc4e965d31" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>FunctionName</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1aef580be6ebe8b1821eeaba292f26cb09" prot="protected" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>FunctorClass</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a966058e4fc27de54fa895444d3e281ed" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetAllPins</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ae80914a1cbed5c244202b092e2ef28ec" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetCharacteristics</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1aaecbbb1b1fe35f21a7a8bb678cc07e24" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetFunction</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1adacccbfef8b5352f7a5a11a507bb061b" prot="public" virt="virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetFunctionExecutor</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1af785b44f5ae9235b13b25f0b1f8ecb6b" prot="public" virt="virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetFunctionExecutorClass</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aac61ae0f66550aa137e4a184faabf048" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetGraph</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ab0ed90456b663568fdb8c8eae8b45b0f" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetLastInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ad83305eea700b8aad7904e542f1fdd4b" prot="public" virt="virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetMainInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1abbe1c76ce8e8161ed6405e3bc3068ceb" prot="public" virt="virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetMainOutput</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a309663f6784ce28061c4e99f46c66eca" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetMatchingProperty</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ac284948005ccd2699b30849031829bbd" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a44bbe10ae3aa2b5f628566022ddb6538" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a13bd56c9affe83d039eb35416f982317" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aa3651afaba4ab612835a5181011d65de" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a07ffea4a5c6b4ebaa0cc5ed45ba988f4" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetPinByName</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a936fcdfe272bd548e51cb3a23b1d89bb" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetPinConnection</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a53ac22a37bc5310a743f45d2e6061ac1" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetPinConnection</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0e86c0ec73005b8ea83f3061287ca3d4" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetPinConnections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0fe1f31d6c8fc4e93fd0e9bf02326bd5" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetPinConnections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a920f1ec93a0815499ce44a23676bed52" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetSourceCharacteristics</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a80195a739443f3d36e8aa45d864d9b9c" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetSourceWorkingAsset</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a00b3a099fb897f3d84e577a5de79b611" prot="public" virt="virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetValidPin</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a52eb9f7d6605233445104c21c411f8b0" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetWorkingAsset</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aa0c2351d764b462aec9d95de918f9ccb" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>GetWorldContext</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1abe7d28be68062a509e4f82bbca0bdb3f" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>InitializeFunction</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1ab1d986cc933ceac5fc847215654303c7" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>InitializeFunction</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a329d08c75ad43ebd63da7df0b57eef30" prot="private" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>InputParams</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a87b0a5686fa3ae650a539d8ae7e857e1" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>InputPins</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a854fb9942e06e8be531d59e2a92ed89a" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>LoadFunction</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a1d3577eb97dfbb165dc5c3aec02db2a3" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>LoadIfNotLoaded</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a41e00d89d39c31f46c2eee2b0ade737f" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>LoadParams</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1aca55f293fbb8cad1c62fb564370b928b" prot="private" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>OutputParams</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a9f8a497d1a33609fcd7e05fed301991c" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>OutputPin</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1ac7ede144f78e332bfdea019dc6d7030a" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>SetArrayFromParam</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a0f645532e1fab49b6948447d198f4ccb" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>SetArrayToParam</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1adacb9c164ff6962fd208f28ccea9dbd2" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>SetFunctionName</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a0e6b7dbd8eee35ba4b090ee32e1da86e" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>SetNumericFromParam</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1ac6ab1164a335ff23a8119c727126c94f" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>SetNumericToParam</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a7ba258647015c0752fd745a971e1267c" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>SetObjectFromParam</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a44d1f91f8b86c17d38ca5f588fdd809d" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>SetObjectToParam</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1af38f2581f4fec0c6db040c705660053c" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>SetPinCacheDataType</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a3a732046d7dc0c0ee5c273dc775e5da3" prot="public" virt="virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>SetPinValue</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1a098f62a1aaffdc73f33e618de4b5c2db" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>SetValueFromParam</name></member>
+      <member refid="de/dca/class_u_weapon_custom_function_runtime_node_1ae0f2c5bef9f45b549d4dcda4b961a176" prot="public" virt="non-virtual"><scope>UWeaponCustomFunctionRuntimeNode</scope><name>SetValueToParam</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
