@@ -1,0 +1,22 @@
+<map id="C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" name="C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="68,5,349,96"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,251,111,277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,98,41,119,19,145,12,168,16,192,26,216,40,237,35,240,21,218,11,194,7,168,14,143,38,115,66,94"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="29,152,196,179"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,98,135,142,131,139,169,95"/>
+<area shape="rect" id="Node000004" href="$d2/d80/_modification_struct_data_8h.html" title=" " alt="" coords="220,144,389,187"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="249,95,280,131,275,134,245,98"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="414,152,619,179"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="332,94,469,144,467,149,330,99"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="253,190,105,247,103,242,251,185"/>
+<area shape="rect" id="Node000005" href="$d5/d8d/_modification_description_data_asset_8h.html" title=" " alt="" coords="168,235,372,293"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="300,188,288,221,283,219,295,186"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="396,251,622,277"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="350,185,469,241,467,246,347,190"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="26,349,164,376"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="219,296,133,344,130,339,217,292"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="188,349,352,376"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="273,294,273,334,267,334,267,294"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="376,341,561,384"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="330,291,414,332,411,337,328,296"/>
+</map>

@@ -1,11 +1,7 @@
 <map id="UWeaponComponentTagRuntimeNode" name="UWeaponComponentTagRuntimeNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,172,252,199"/>
-<area shape="rect" id="Node000002" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="175,81,333,108"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,119,148,174,145,169,222,115"/>
-<area shape="rect" id="Node000004" href="$dd/d5d/class_u_weapon_runtime_pin.html" title=" " alt="" coords="275,172,422,199"/>
-<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="245,123,244,136,247,147,260,160,277,169,274,174,257,164,243,149,238,136,239,123"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="296,5,366,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="309,45,269,83,265,79,305,41"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="346,45,361,85,374,132,374,149,361,173,356,170,369,147,369,132,356,86,341,46"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="322,163,307,150,265,110,269,107,311,146,325,159"/>
+<area shape="rect" id="Node000001" title="Node that applies a tag to a component object." alt="" coords="5,155,252,181"/>
+<area shape="rect" id="Node000002" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="49,80,208,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,122,131,154,126,154,126,122"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="94,5,163,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="131,48,131,80,126,80,126,48"/>
 </map>

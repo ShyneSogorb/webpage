@@ -100,192 +100,143 @@ $(function(){initNavTree('de/dde/class_u_weapon_runtime_node.html','../../'); in
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d6/d71/class_u_weapon_runtime_node-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">UWeaponRuntimeNode Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;WeaponRuntimeNode.h&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d6/de3/_weapon_runtime_node_8h_source.html">WeaponRuntimeNode.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for UWeaponRuntimeNode:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../de/dda/class_u_weapon_runtime_node__inherit__graph.png" border="0" usemap="#a_u_weapon_runtime_node_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_u_weapon_runtime_node_inherit__map" id="a_u_weapon_runtime_node_inherit__map">
-<area shape="rect" title=" " alt="" coords="123,360,281,387"/>
-<area shape="rect" href="../../d4/dae/class_u_weapon_attachment_runtime_node.html" title=" " alt="" coords="345,5,570,32"/>
-<area shape="poly" title=" " alt="" coords="203,344,211,281,232,199,248,156,269,114,295,75,327,42,345,30,348,35,331,46,299,79,273,117,253,158,237,200,217,282,208,345"/>
-<area shape="rect" href="../../da/d1c/class_u_weapon_blueprint_runtime_node.html" title=" " alt="" coords="353,56,562,83"/>
-<area shape="poly" title=" " alt="" coords="205,344,217,290,239,221,255,186,275,151,299,120,327,93,351,79,354,83,331,97,303,123,279,154,260,188,244,223,222,291,210,345"/>
-<area shape="rect" href="../../df/d3f/class_u_weapon_component_runtime_node.html" title=" " alt="" coords="345,107,570,133"/>
-<area shape="poly" title=" " alt="" coords="208,345,222,300,247,245,281,189,303,165,327,143,348,132,350,136,331,148,306,168,285,193,251,247,227,302,213,346"/>
-<area shape="rect" href="../../d1/d4c/class_u_weapon_component_tag_runtime_node.html" title=" " alt="" coords="334,157,581,184"/>
-<area shape="poly" title=" " alt="" coords="212,344,230,309,255,268,288,228,328,194,350,182,353,187,330,198,292,231,259,271,235,312,217,347"/>
-<area shape="rect" href="../../de/dca/class_u_weapon_custom_function_runtime_node.html" title=" " alt="" coords="330,208,585,235"/>
-<area shape="poly" title=" " alt="" coords="219,346,264,294,294,267,328,244,355,233,357,238,330,249,297,271,268,297,223,349"/>
-<area shape="rect" href="../../d5/d71/class_u_weapon_end_runtime_node.html" title=" " alt="" coords="367,259,548,285"/>
-<area shape="poly" title=" " alt="" coords="232,349,276,320,328,295,366,283,367,288,330,300,279,325,235,353"/>
-<area shape="rect" href="../../da/dcc/class_u_weapon_if_runtime_node.html" title=" " alt="" coords="374,309,541,336"/>
-<area shape="poly" title=" " alt="" coords="287,354,328,345,385,334,386,339,330,351,288,359"/>
-<area shape="rect" href="../../d3/d72/class_u_weapon_material_instance_dynamic_node.html" title=" " alt="" coords="329,360,586,387"/>
-<area shape="poly" title=" " alt="" coords="297,371,329,371,329,376,297,376"/>
-<area shape="rect" href="../../d1/df1/class_u_weapon_math_runtime_node.html" title=" " alt="" coords="364,411,551,437"/>
-<area shape="poly" title=" " alt="" coords="288,388,330,396,386,407,385,413,328,401,287,393"/>
-<area shape="rect" href="../../dd/dbd/class_u_weapon_mod_at_slot_runtime_node.html" title=" " alt="" coords="348,461,567,488"/>
-<area shape="poly" title=" " alt="" coords="235,394,279,422,330,447,367,458,365,463,328,452,276,426,232,398"/>
-<area shape="rect" href="../../dc/d76/class_u_weapon_property_runtime_node.html" title=" " alt="" coords="354,512,561,539"/>
-<area shape="poly" title=" " alt="" coords="223,397,268,449,297,476,330,498,357,509,355,514,328,502,294,480,264,453,219,401"/>
-<area shape="rect" href="../../db/da1/class_u_weapon_select_enum_runtime_node.html" title=" " alt="" coords="343,563,572,589"/>
-<area shape="poly" title=" " alt="" coords="217,400,235,435,259,475,292,515,330,548,353,560,350,564,328,553,288,519,255,479,230,437,212,402"/>
-<area shape="rect" href="../../d7/de0/class_u_weapon_set_material_node.html" title=" " alt="" coords="370,613,545,640"/>
-<area shape="poly" title=" " alt="" coords="213,400,227,445,251,499,285,554,306,578,331,599,350,610,371,618,369,623,347,615,327,604,303,582,281,557,247,502,222,447,208,402"/>
-<area shape="rect" href="../../d5/da1/class_u_weapon_subgraph_runtime_node.html" title=" " alt="" coords="351,664,564,691"/>
-<area shape="poly" title=" " alt="" coords="210,401,222,455,244,523,260,558,279,592,303,623,331,650,352,663,349,667,327,654,299,627,275,595,255,561,239,525,217,457,205,403"/>
-<area shape="rect" href="../../d2/d51/class_u_weapon_value_runtime_node.html" title=" " alt="" coords="362,715,553,741"/>
-<area shape="poly" title=" " alt="" coords="208,402,217,465,237,546,253,589,273,630,299,668,331,701,364,718,361,723,327,705,295,671,269,633,248,591,232,548,211,466,203,403"/>
-<area shape="rect" title=" " alt="" coords="5,360,75,387"/>
-<area shape="poly" title=" " alt="" coords="90,371,122,371,122,376,90,376"/>
-<area shape="rect" href="../../da/dfb/class_u_weapon_niagara_runtime_node.html" title=" " alt="" coords="661,56,864,83"/>
-<area shape="poly" title=" " alt="" coords="557,101,678,81,679,86,557,106"/>
-<area shape="rect" href="../../d2/db5/class_u_weapon_skeletal_mesh_runtime_node.html" title=" " alt="" coords="644,107,881,133"/>
-<area shape="poly" title=" " alt="" coords="586,117,643,117,643,123,586,123"/>
-<area shape="rect" href="../../dc/d16/class_u_weapon_static_mesh_runtime_node.html" title=" " alt="" coords="650,157,875,184"/>
-<area shape="poly" title=" " alt="" coords="557,134,679,154,678,159,557,139"/>
-<area shape="rect" href="../../d8/d0d/class_u_weapon_object_function_node.html" title=" " alt="" coords="664,208,861,235"/>
-<area shape="poly" title=" " alt="" coords="601,219,663,219,663,224,601,224"/>
-<area shape="rect" href="../../da/d6a/class_u_weapon_end_runtime_node_visuals.html" title=" " alt="" coords="650,259,875,285"/>
-<area shape="poly" title=" " alt="" coords="564,269,650,269,650,275,564,275"/>
-<area shape="rect" href="../../d2/d0a/class_u_weapon_add_node.html" title=" " alt="" coords="696,309,829,336"/>
-<area shape="poly" title=" " alt="" coords="565,405,585,396,600,385,608,372,617,358,633,346,664,333,695,325,697,330,665,338,636,350,621,362,613,375,603,388,588,401,567,410"/>
-<area shape="rect" href="../../d7/d1d/class_u_weapon_divide_node.html" title=" " alt="" coords="689,360,836,387"/>
-<area shape="poly" title=" " alt="" coords="557,405,688,383,689,388,558,410"/>
-<area shape="rect" href="../../dd/dd4/class_u_weapon_multiply_node.html" title=" " alt="" coords="685,411,840,437"/>
-<area shape="poly" title=" " alt="" coords="567,421,685,421,685,427,567,427"/>
-<area shape="rect" href="../../da/d5d/class_u_weapon_subtract_node.html" title=" " alt="" coords="683,461,842,488"/>
-<area shape="poly" title=" " alt="" coords="558,438,683,459,682,464,557,443"/>
-<area shape="rect" href="../../dd/d1d/class_u_weapon_numeric_property_runtime_node.html" title=" " alt="" coords="634,512,891,539"/>
-<area shape="poly" title=" " alt="" coords="577,523,634,523,634,528,577,528"/>
-<area shape="rect" href="../../d5/def/class_u_weapon_numeric_property_overrider_runtime_node.html" title=" " alt="" coords="939,504,1168,547"/>
-<area shape="poly" title=" " alt="" coords="906,523,938,523,938,528,906,528"/>
-<area shape="rect" href="../../df/d8a/class_u_weapon_bool_runtime_node.html" title=" " alt="" coords="670,588,855,615"/>
-<area shape="poly" title=" " alt="" coords="566,711,585,701,601,683,608,664,615,644,633,625,669,608,671,613,636,629,620,646,613,666,605,686,588,705,568,715"/>
-<area shape="rect" href="../../db/d2a/class_u_weapon_double_runtime_node.html" title=" " alt="" coords="663,639,862,665"/>
-<area shape="poly" title=" " alt="" coords="560,708,585,700,609,688,633,675,673,663,675,669,635,680,612,692,587,705,562,713"/>
-<area shape="rect" href="../../d2/d09/class_u_weapon_float_runtime_node.html" title=" " alt="" coords="669,689,856,716"/>
-<area shape="poly" title=" " alt="" coords="568,716,668,708,669,713,568,721"/>
-<area shape="rect" href="../../d3/d17/class_u_weapon_int64_runtime_node.html" title=" " alt="" coords="669,740,856,767"/>
-<area shape="poly" title=" " alt="" coords="568,735,669,743,668,748,568,740"/>
-<area shape="rect" href="../../d8/de5/class_u_weapon_int_runtime_node.html" title=" " alt="" coords="676,791,849,817"/>
-<area shape="poly" title=" " alt="" coords="518,744,635,776,686,787,685,793,634,781,517,749"/>
-<area shape="rect" href="../../d1/d62/class_u_weapon_uint8_runtime_node.html" title=" " alt="" coords="668,841,857,868"/>
-<area shape="poly" title=" " alt="" coords="492,748,556,789,635,827,673,838,671,843,633,832,554,793,489,753"/>
-</map>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/dda/class_u_weapon_runtime_node__inherit__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for UWeaponRuntimeNode:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="../../d9/d87/class_u_weapon_runtime_node__coll__graph.png" border="0" usemap="#a_u_weapon_runtime_node_coll__map" alt="Collaboration graph"/></div>
-<map name="a_u_weapon_runtime_node_coll__map" id="a_u_weapon_runtime_node_coll__map">
-<area shape="rect" title=" " alt="" coords="5,81,164,108"/>
-<area shape="rect" href="../../dd/d5d/class_u_weapon_runtime_pin.html" title=" " alt="" coords="45,172,191,199"/>
-<area shape="poly" title=" " alt="" coords="59,120,51,134,53,147,64,160,79,169,77,174,61,164,48,149,46,133,54,118"/>
-<area shape="rect" title=" " alt="" coords="107,5,176,32"/>
-<area shape="poly" title=" " alt="" coords="125,46,96,83,92,79,121,42"/>
-<area shape="poly" title=" " alt="" coords="162,44,178,81,184,116,182,132,173,149,162,163,147,174,144,169,158,159,169,147,177,130,179,116,173,82,157,46"/>
-<area shape="poly" title=" " alt="" coords="105,158,87,110,92,108,110,156"/>
-</map>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d87/class_u_weapon_runtime_node__coll__graph.svg" width="170" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a097aad9c43b080b602ac91c362cde920" id="r_a097aad9c43b080b602ac91c362cde920"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a097aad9c43b080b602ac91c362cde920">ClearCache</a> () const</td></tr>
+<tr class="memitem:a682006234c51db491300bd9c57f038e9" id="r_a682006234c51db491300bd9c57f038e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a682006234c51db491300bd9c57f038e9">GetPinByName</a> (const FName &amp;PinName, const TOptional&lt; bool &gt; &amp;OptionalInputOnly) const</td></tr>
+<tr class="separator:a682006234c51db491300bd9c57f038e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88ef5d2e2ba3a4a36694c0b193409ea3" id="r_a88ef5d2e2ba3a4a36694c0b193409ea3"><td class="memItemLeft" align="right" valign="top">FORCEINLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88ef5d2e2ba3a4a36694c0b193409ea3">Execute</a> ()</td></tr>
+<tr class="separator:a88ef5d2e2ba3a4a36694c0b193409ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae62d6dc1344811d094ad6e743feda8f3" id="r_ae62d6dc1344811d094ad6e743feda8f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae62d6dc1344811d094ad6e743feda8f3">Init</a> ()</td></tr>
+<tr class="separator:ae62d6dc1344811d094ad6e743feda8f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a097aad9c43b080b602ac91c362cde920" id="r_a097aad9c43b080b602ac91c362cde920"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a097aad9c43b080b602ac91c362cde920">ClearCache</a> () const</td></tr>
 <tr class="separator:a097aad9c43b080b602ac91c362cde920"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a966058e4fc27de54fa895444d3e281ed" id="r_a966058e4fc27de54fa895444d3e281ed"><td class="memItemLeft" align="right" valign="top">TArray&lt; <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a966058e4fc27de54fa895444d3e281ed">GetAllPins</a> () const</td></tr>
-<tr class="separator:a966058e4fc27de54fa895444d3e281ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae80914a1cbed5c244202b092e2ef28ec" id="r_ae80914a1cbed5c244202b092e2ef28ec"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../d4/d10/class_u_weapon_asset_characteristics.html">UWeaponAssetCharacteristics</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae80914a1cbed5c244202b092e2ef28ec">GetCharacteristics</a> () const</td></tr>
-<tr class="separator:ae80914a1cbed5c244202b092e2ef28ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac61ae0f66550aa137e4a184faabf048" id="r_aac61ae0f66550aa137e4a184faabf048"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../d1/db3/class_u_weapon_runtime_graph.html">UWeaponRuntimeGraph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac61ae0f66550aa137e4a184faabf048">GetGraph</a> () const</td></tr>
-<tr class="separator:aac61ae0f66550aa137e4a184faabf048"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0ed90456b663568fdb8c8eae8b45b0f" id="r_ab0ed90456b663568fdb8c8eae8b45b0f"><td class="memItemLeft" align="right" valign="top">FORCEINLINE <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0ed90456b663568fdb8c8eae8b45b0f">GetLastInput</a> () const</td></tr>
-<tr class="separator:ab0ed90456b663568fdb8c8eae8b45b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a324d234b56cb804537a91bd1c04099ad" id="r_a324d234b56cb804537a91bd1c04099ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a324d234b56cb804537a91bd1c04099ad">Reset</a> ()</td></tr>
+<tr class="separator:a324d234b56cb804537a91bd1c04099ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad83305eea700b8aad7904e542f1fdd4b" id="r_ad83305eea700b8aad7904e542f1fdd4b"><td class="memItemLeft" align="right" valign="top">virtual FORCEINLINE <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad83305eea700b8aad7904e542f1fdd4b">GetMainInput</a> () const</td></tr>
 <tr class="separator:ad83305eea700b8aad7904e542f1fdd4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adabcaf20d45c695c870c24d1822b1460" id="r_adabcaf20d45c695c870c24d1822b1460"><td class="memItemLeft" align="right" valign="top">virtual FORCEINLINE <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adabcaf20d45c695c870c24d1822b1460">GetInput</a> (int32 Index=0) const</td></tr>
+<tr class="separator:adabcaf20d45c695c870c24d1822b1460"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbe1c76ce8e8161ed6405e3bc3068ceb" id="r_abbe1c76ce8e8161ed6405e3bc3068ceb"><td class="memItemLeft" align="right" valign="top">virtual FORCEINLINE <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbe1c76ce8e8161ed6405e3bc3068ceb">GetMainOutput</a> () const</td></tr>
 <tr class="separator:abbe1c76ce8e8161ed6405e3bc3068ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44bbe10ae3aa2b5f628566022ddb6538" id="r_a44bbe10ae3aa2b5f628566022ddb6538"><td class="memItemLeft" align="right" valign="top">FORCEINLINE <a class="el" href="../../de/dde/class_u_weapon_runtime_node.html">UWeaponRuntimeNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44bbe10ae3aa2b5f628566022ddb6538">GetNodeFromInput</a> (int32 InputIndex) const</td></tr>
-<tr class="separator:a44bbe10ae3aa2b5f628566022ddb6538"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3651afaba4ab612835a5181011d65de" id="r_aa3651afaba4ab612835a5181011d65de"><td class="memItemLeft" align="right" valign="top">FORCEINLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3651afaba4ab612835a5181011d65de">GetNodeFromInput</a> (int32 InputIndex, TArray&lt; <a class="el" href="../../de/dde/class_u_weapon_runtime_node.html">UWeaponRuntimeNode</a> * &gt; &amp;ConnectedNodes) const</td></tr>
-<tr class="separator:aa3651afaba4ab612835a5181011d65de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac284948005ccd2699b30849031829bbd" id="r_ac284948005ccd2699b30849031829bbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dde/class_u_weapon_runtime_node.html">UWeaponRuntimeNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac284948005ccd2699b30849031829bbd">GetNodeFromInput</a> (<a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *FromPin) const</td></tr>
-<tr class="separator:ac284948005ccd2699b30849031829bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13bd56c9affe83d039eb35416f982317" id="r_a13bd56c9affe83d039eb35416f982317"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13bd56c9affe83d039eb35416f982317">GetNodeFromInput</a> (<a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *FromPin, TArray&lt; <a class="el" href="../../de/dde/class_u_weapon_runtime_node.html">UWeaponRuntimeNode</a> * &gt; &amp;ConnectedNodes) const</td></tr>
-<tr class="separator:a13bd56c9affe83d039eb35416f982317"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07ffea4a5c6b4ebaa0cc5ed45ba988f4" id="r_a07ffea4a5c6b4ebaa0cc5ed45ba988f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07ffea4a5c6b4ebaa0cc5ed45ba988f4">GetPinByName</a> (const FName &amp;PinName) const</td></tr>
-<tr class="separator:a07ffea4a5c6b4ebaa0cc5ed45ba988f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:added18f27b0bf53fd8951fd83c383b97" id="r_added18f27b0bf53fd8951fd83c383b97"><td class="memItemLeft" align="right" valign="top">virtual FORCEINLINE <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#added18f27b0bf53fd8951fd83c383b97">GetOutput</a> (int32 Index=0) const</td></tr>
+<tr class="separator:added18f27b0bf53fd8951fd83c383b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0ed90456b663568fdb8c8eae8b45b0f" id="r_ab0ed90456b663568fdb8c8eae8b45b0f"><td class="memItemLeft" align="right" valign="top">FORCEINLINE <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0ed90456b663568fdb8c8eae8b45b0f">GetLastInput</a> () const</td></tr>
+<tr class="separator:ab0ed90456b663568fdb8c8eae8b45b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a936fcdfe272bd548e51cb3a23b1d89bb" id="r_a936fcdfe272bd548e51cb3a23b1d89bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a936fcdfe272bd548e51cb3a23b1d89bb">GetPinConnection</a> (const <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *Pin, int32 ConnectionIndex=0) const</td></tr>
 <tr class="separator:a936fcdfe272bd548e51cb3a23b1d89bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53ac22a37bc5310a743f45d2e6061ac1" id="r_a53ac22a37bc5310a743f45d2e6061ac1"><td class="memItemLeft" align="right" valign="top">FORCEINLINE <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53ac22a37bc5310a743f45d2e6061ac1">GetPinConnection</a> (int32 Pin, int32 ConnectionIndex=0) const</td></tr>
 <tr class="separator:a53ac22a37bc5310a743f45d2e6061ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fe1f31d6c8fc4e93fd0e9bf02326bd5" id="r_a0fe1f31d6c8fc4e93fd0e9bf02326bd5"><td class="memItemLeft" align="right" valign="top">FORCEINLINE const TArray&lt; <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fe1f31d6c8fc4e93fd0e9bf02326bd5">GetPinConnections</a> (const int32 Pin=0) const</td></tr>
-<tr class="separator:a0fe1f31d6c8fc4e93fd0e9bf02326bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e86c0ec73005b8ea83f3061287ca3d4" id="r_a0e86c0ec73005b8ea83f3061287ca3d4"><td class="memItemLeft" align="right" valign="top">const TArray&lt; <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e86c0ec73005b8ea83f3061287ca3d4">GetPinConnections</a> (const <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *Pin) const</td></tr>
 <tr class="separator:a0e86c0ec73005b8ea83f3061287ca3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a920f1ec93a0815499ce44a23676bed52" id="r_a920f1ec93a0815499ce44a23676bed52"><td class="memItemLeft" align="right" valign="top">const class <a class="el" href="../../d4/d10/class_u_weapon_asset_characteristics.html">UWeaponAssetCharacteristics</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a920f1ec93a0815499ce44a23676bed52">GetSourceCharacteristics</a> () const</td></tr>
-<tr class="separator:a920f1ec93a0815499ce44a23676bed52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80195a739443f3d36e8aa45d864d9b9c" id="r_a80195a739443f3d36e8aa45d864d9b9c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d06/class_u_weapon_asset.html">UWeaponAsset</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80195a739443f3d36e8aa45d864d9b9c">GetSourceWorkingAsset</a> () const</td></tr>
-<tr class="separator:a80195a739443f3d36e8aa45d864d9b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe1f31d6c8fc4e93fd0e9bf02326bd5" id="r_a0fe1f31d6c8fc4e93fd0e9bf02326bd5"><td class="memItemLeft" align="right" valign="top">FORCEINLINE const TArray&lt; <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fe1f31d6c8fc4e93fd0e9bf02326bd5">GetPinConnections</a> (const int32 Pin=0) const</td></tr>
+<tr class="separator:a0fe1f31d6c8fc4e93fd0e9bf02326bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a81c151acd26c1901a22efce8bb6a19" id="r_a3a81c151acd26c1901a22efce8bb6a19"><td class="memItemLeft" align="right" valign="top">FORCEINLINE_DEBUGGABLE TArray&lt; <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a81c151acd26c1901a22efce8bb6a19">GetAllPins</a> () const</td></tr>
+<tr class="separator:a3a81c151acd26c1901a22efce8bb6a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac284948005ccd2699b30849031829bbd" id="r_ac284948005ccd2699b30849031829bbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dde/class_u_weapon_runtime_node.html">UWeaponRuntimeNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac284948005ccd2699b30849031829bbd">GetNodeFromInput</a> (<a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *FromPin) const</td></tr>
+<tr class="separator:ac284948005ccd2699b30849031829bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44bbe10ae3aa2b5f628566022ddb6538" id="r_a44bbe10ae3aa2b5f628566022ddb6538"><td class="memItemLeft" align="right" valign="top">FORCEINLINE <a class="el" href="../../de/dde/class_u_weapon_runtime_node.html">UWeaponRuntimeNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44bbe10ae3aa2b5f628566022ddb6538">GetNodeFromInput</a> (int32 InputIndex) const</td></tr>
+<tr class="separator:a44bbe10ae3aa2b5f628566022ddb6538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13bd56c9affe83d039eb35416f982317" id="r_a13bd56c9affe83d039eb35416f982317"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13bd56c9affe83d039eb35416f982317">GetNodeFromInput</a> (<a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *FromPin, TArray&lt; <a class="el" href="../../de/dde/class_u_weapon_runtime_node.html">UWeaponRuntimeNode</a> * &gt; &amp;ConnectedNodes) const</td></tr>
+<tr class="separator:a13bd56c9affe83d039eb35416f982317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3651afaba4ab612835a5181011d65de" id="r_aa3651afaba4ab612835a5181011d65de"><td class="memItemLeft" align="right" valign="top">FORCEINLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3651afaba4ab612835a5181011d65de">GetNodeFromInput</a> (int32 InputIndex, TArray&lt; <a class="el" href="../../de/dde/class_u_weapon_runtime_node.html">UWeaponRuntimeNode</a> * &gt; &amp;ConnectedNodes) const</td></tr>
+<tr class="separator:aa3651afaba4ab612835a5181011d65de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00b3a099fb897f3d84e577a5de79b611" id="r_a00b3a099fb897f3d84e577a5de79b611"><td class="memItemLeft" align="right" valign="top">virtual TArray&lt; <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00b3a099fb897f3d84e577a5de79b611">GetValidPin</a> ()</td></tr>
 <tr class="separator:a00b3a099fb897f3d84e577a5de79b611"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52eb9f7d6605233445104c21c411f8b0" id="r_a52eb9f7d6605233445104c21c411f8b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d06/class_u_weapon_asset.html">UWeaponAsset</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52eb9f7d6605233445104c21c411f8b0">GetWorkingAsset</a> () const</td></tr>
-<tr class="separator:a52eb9f7d6605233445104c21c411f8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac61ae0f66550aa137e4a184faabf048" id="r_aac61ae0f66550aa137e4a184faabf048"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../d1/db3/class_u_weapon_runtime_graph.html">UWeaponRuntimeGraph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac61ae0f66550aa137e4a184faabf048">GetGraph</a> () const</td></tr>
+<tr class="separator:aac61ae0f66550aa137e4a184faabf048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e3a0fc8f08a800e379d9f599747eaee" id="r_a2e3a0fc8f08a800e379d9f599747eaee"><td class="memItemLeft" align="right" valign="top">const struct <a class="el" href="../../df/dfa/struct_f_weapon_execution_context.html">FWeaponExecutionContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e3a0fc8f08a800e379d9f599747eaee">GetExecutionContext</a> () const</td></tr>
+<tr class="separator:a2e3a0fc8f08a800e379d9f599747eaee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e06f43998bb8ce34259e7a8e8c0dd63" id="r_a0e06f43998bb8ce34259e7a8e8c0dd63"><td class="memItemLeft" align="right" valign="top">const struct <a class="el" href="../../df/dfa/struct_f_weapon_execution_context.html">FWeaponExecutionContext</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e06f43998bb8ce34259e7a8e8c0dd63">GetDefaultExecutionContext</a> () const</td></tr>
+<tr class="separator:a0e06f43998bb8ce34259e7a8e8c0dd63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae80914a1cbed5c244202b092e2ef28ec" id="r_ae80914a1cbed5c244202b092e2ef28ec"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="../../d4/d10/class_u_weapon_asset_characteristics.html">UWeaponAssetCharacteristics</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae80914a1cbed5c244202b092e2ef28ec">GetCharacteristics</a> () const</td></tr>
+<tr class="separator:ae80914a1cbed5c244202b092e2ef28ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb907691503dfaa932260f6f435b8507" id="r_abb907691503dfaa932260f6f435b8507"><td class="memItemLeft" align="right" valign="top">const class <a class="el" href="../../d4/d10/class_u_weapon_asset_characteristics.html">UWeaponAssetCharacteristics</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb907691503dfaa932260f6f435b8507">GetDefaultCharacteristics</a> () const</td></tr>
+<tr class="separator:abb907691503dfaa932260f6f435b8507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef3d877ebe533c11c0d4708e0a59ab69" id="r_aef3d877ebe533c11c0d4708e0a59ab69"><td class="memItemLeft" align="right" valign="top">TSubclassOf&lt; <a class="el" href="../../d4/d10/class_u_weapon_asset_characteristics.html">UWeaponAssetCharacteristics</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef3d877ebe533c11c0d4708e0a59ab69">GetDefaultCharacteristicsClass</a> () const</td></tr>
+<tr class="separator:aef3d877ebe533c11c0d4708e0a59ab69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d23cc8247b2869f34967baa9dc82084" id="r_a7d23cc8247b2869f34967baa9dc82084"><td class="memItemLeft" align="right" valign="top">const class <a class="el" href="../../d4/d10/class_u_weapon_asset_characteristics.html">UWeaponAssetCharacteristics</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d23cc8247b2869f34967baa9dc82084">GetCharacteristicsCDO</a> () const</td></tr>
+<tr class="separator:a7d23cc8247b2869f34967baa9dc82084"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0c2351d764b462aec9d95de918f9ccb" id="r_aa0c2351d764b462aec9d95de918f9ccb"><td class="memItemLeft" align="right" valign="top">UObject *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0c2351d764b462aec9d95de918f9ccb">GetWorldContext</a> () const</td></tr>
 <tr class="separator:aa0c2351d764b462aec9d95de918f9ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7862a2fb74fc4bfe41edba34aaa9073f" id="r_a7862a2fb74fc4bfe41edba34aaa9073f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7862a2fb74fc4bfe41edba34aaa9073f">SetPinValue</a> (const <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *Pin)</td></tr>
-<tr class="separator:a7862a2fb74fc4bfe41edba34aaa9073f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b02d257beb3602d90bc3648402c56fb" id="r_a8b02d257beb3602d90bc3648402c56fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b02d257beb3602d90bc3648402c56fb">IsAborting</a> () const</td></tr>
+<tr class="separator:a8b02d257beb3602d90bc3648402c56fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a6f0658cff37983c31f96150036330c" id="r_a9a6f0658cff37983c31f96150036330c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a6f0658cff37983c31f96150036330c">AbortExecution</a> (FString &amp;&amp;Reason=&quot;&quot;) const</td></tr>
+<tr class="separator:a9a6f0658cff37983c31f96150036330c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a4b5342d06d48fa98eb3a4dceccba64" id="r_a8a4b5342d06d48fa98eb3a4dceccba64"><td class="memTemplParams" colspan="2">template&lt;typename Fmt , typename ... Args&gt; </td></tr>
+<tr class="memitem:a8a4b5342d06d48fa98eb3a4dceccba64"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a8a4b5342d06d48fa98eb3a4dceccba64">AbortExecution</a> (Fmt &amp;&amp;Format, Args &amp;&amp;... args) const</td></tr>
+<tr class="separator:a8a4b5342d06d48fa98eb3a4dceccba64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a87b0a5686fa3ae650a539d8ae7e857e1" id="r_a87b0a5686fa3ae650a539d8ae7e857e1"><td class="memItemLeft" align="right" valign="top">TArray&lt; <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87b0a5686fa3ae650a539d8ae7e857e1">InputPins</a></td></tr>
 <tr class="separator:a87b0a5686fa3ae650a539d8ae7e857e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f8a497d1a33609fcd7e05fed301991c" id="r_a9f8a497d1a33609fcd7e05fed301991c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f8a497d1a33609fcd7e05fed301991c">OutputPin</a></td></tr>
-<tr class="separator:a9f8a497d1a33609fcd7e05fed301991c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9382e9942f86a6f125815cf12e28a394" id="r_a9382e9942f86a6f125815cf12e28a394"><td class="memItemLeft" align="right" valign="top">TArray&lt; <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9382e9942f86a6f125815cf12e28a394">OutputPins</a></td></tr>
+<tr class="separator:a9382e9942f86a6f125815cf12e28a394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:af568529f6969f90377c23b72f0adf203" id="r_af568529f6969f90377c23b72f0adf203"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af568529f6969f90377c23b72f0adf203">ExecuteNode</a> ()</td></tr>
+<tr class="separator:af568529f6969f90377c23b72f0adf203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fc374839e2e0e2d269069a225eaf07c" id="r_a4fc374839e2e0e2d269069a225eaf07c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fc374839e2e0e2d269069a225eaf07c">PreExecuteNode</a> ()</td></tr>
+<tr class="separator:a4fc374839e2e0e2d269069a225eaf07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d0227f100d4c07f3f2aeda00e35d467" id="r_a0d0227f100d4c07f3f2aeda00e35d467"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d0227f100d4c07f3f2aeda00e35d467">PostExecuteNode</a> ()</td></tr>
+<tr class="separator:a0d0227f100d4c07f3f2aeda00e35d467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac796930a6646e7fe5ce8aee4521f7911" id="r_ac796930a6646e7fe5ce8aee4521f7911"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac796930a6646e7fe5ce8aee4521f7911">FixInvalidPinsConnections</a> ()</td></tr>
+<tr class="separator:ac796930a6646e7fe5ce8aee4521f7911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf72b3e1f4a12a2767c79efbf65b92a6" id="r_aaf72b3e1f4a12a2767c79efbf65b92a6"><td class="memItemLeft" align="right" valign="top">virtual TArray&lt; FString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf72b3e1f4a12a2767c79efbf65b92a6">GetNodeDebugString</a> () const</td></tr>
+<tr class="separator:aaf72b3e1f4a12a2767c79efbf65b92a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b779b5faae2e23bb5ab0081d290e117" id="r_a5b779b5faae2e23bb5ab0081d290e117"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b779b5faae2e23bb5ab0081d290e117">UpdateNodeFlowDebugString</a> ()</td></tr>
+<tr class="separator:a5b779b5faae2e23bb5ab0081d290e117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a7252e50ac97fa71d3163cad0ccb4e636" id="r_a7252e50ac97fa71d3163cad0ccb4e636"><td class="memItemLeft" align="right" valign="top">FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7252e50ac97fa71d3163cad0ccb4e636">NodeFlowDebugString</a></td></tr>
+<tr class="separator:a7252e50ac97fa71d3163cad0ccb4e636"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a097aad9c43b080b602ac91c362cde920" name="a097aad9c43b080b602ac91c362cde920"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a097aad9c43b080b602ac91c362cde920">&#9670;&#160;</a></span>ClearCache()</h2>
+<a id="a8a4b5342d06d48fa98eb3a4dceccba64" name="a8a4b5342d06d48fa98eb3a4dceccba64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a4b5342d06d48fa98eb3a4dceccba64">&#9670;&#160;</a></span>AbortExecution() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void UWeaponRuntimeNode::ClearCache </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Clears the cache data of all pins in the node </p>
-
-</div>
-</div>
-<a id="a966058e4fc27de54fa895444d3e281ed" name="a966058e4fc27de54fa895444d3e281ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a966058e4fc27de54fa895444d3e281ed">&#9670;&#160;</a></span>GetAllPins()</h2>
-
-<div class="memitem">
-<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Fmt , typename ... Args&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TArray&lt; <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> * &gt; UWeaponRuntimeNode::GetAllPins </td>
+          <td class="memname">void UWeaponRuntimeNode::AbortExecution </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">Fmt &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>Format</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>args</em></span>&#160;) const</td>
         </tr>
       </table>
   </td>
@@ -297,6 +248,153 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9a6f0658cff37983c31f96150036330c" name="a9a6f0658cff37983c31f96150036330c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a6f0658cff37983c31f96150036330c">&#9670;&#160;</a></span>AbortExecution() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UWeaponRuntimeNode::AbortExecution </td>
+          <td>(</td>
+          <td class="paramtype">FString &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>Reason</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;&quot;</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a097aad9c43b080b602ac91c362cde920" name="a097aad9c43b080b602ac91c362cde920"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a097aad9c43b080b602ac91c362cde920">&#9670;&#160;</a></span>ClearCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UWeaponRuntimeNode::ClearCache </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../de/dca/class_u_weapon_custom_function_runtime_node.html#a8f6e90e1e1409099bc5fe5df5e0bb2aa">UWeaponCustomFunctionRuntimeNode</a>, and <a class="el" href="../../dc/d76/class_u_weapon_property_runtime_node.html#a592504f3292d25e806a3429e22dda509">UWeaponPropertyRuntimeNode</a>.</p>
+
+</div>
+</div>
+<a id="a88ef5d2e2ba3a4a36694c0b193409ea3" name="a88ef5d2e2ba3a4a36694c0b193409ea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88ef5d2e2ba3a4a36694c0b193409ea3">&#9670;&#160;</a></span>Execute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE void UWeaponRuntimeNode::Execute </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af568529f6969f90377c23b72f0adf203" name="af568529f6969f90377c23b72f0adf203"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af568529f6969f90377c23b72f0adf203">&#9670;&#160;</a></span>ExecuteNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void UWeaponRuntimeNode::ExecuteNode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../d4/dae/class_u_weapon_attachment_runtime_node.html#a53e09a1b6a6c83e55e9ff1adc0facffd">UWeaponAttachmentRuntimeNode</a>, <a class="el" href="../../df/d8a/class_u_weapon_bool_runtime_node.html#af58d72d7a288fce209bef49022633205">UWeaponBoolRuntimeNode</a>, <a class="el" href="../../df/d3f/class_u_weapon_component_runtime_node.html#a1db6dd44520fc05ed2b00ddd1f0e3842">UWeaponComponentRuntimeNode</a>, <a class="el" href="../../d1/d4c/class_u_weapon_component_tag_runtime_node.html#a3e6c02858c6c16284c516d760eaf2815">UWeaponComponentTagRuntimeNode</a>, <a class="el" href="../../de/dca/class_u_weapon_custom_function_runtime_node.html#a51ee79919268d66706bd340fb67c33a6">UWeaponCustomFunctionRuntimeNode</a>, <a class="el" href="../../db/d2a/class_u_weapon_double_runtime_node.html#a52d9b66ddbb2561456f10eeb7c09d1f4">UWeaponDoubleRuntimeNode</a>, <a class="el" href="../../da/d6a/class_u_weapon_end_runtime_node_visuals.html#ac01ac791db374ba94e3b4e4960b63c6b">UWeaponEndRuntimeNodeVisuals</a>, <a class="el" href="../../d2/d09/class_u_weapon_float_runtime_node.html#ad120d63f8064d1938d830f3e409e6468">UWeaponFloatRuntimeNode</a>, <a class="el" href="../../da/dcc/class_u_weapon_if_runtime_node.html#a95487aad98da099b97f69295328f0097">UWeaponIfRuntimeNode</a>, <a class="el" href="../../d3/d17/class_u_weapon_int64_runtime_node.html#a65863a967ee822ba019b6fb3d4e6c2e8">UWeaponInt64RuntimeNode</a>, <a class="el" href="../../d8/de5/class_u_weapon_int_runtime_node.html#a5ecc396186749d9a02f1a58a252c21ec">UWeaponIntRuntimeNode</a>, <a class="el" href="../../d1/df1/class_u_weapon_math_runtime_node.html#a625140626610b5f5619bb03fb37d8a4d">UWeaponMathRuntimeNode</a>, <a class="el" href="../../dd/dbd/class_u_weapon_mod_at_slot_runtime_node.html#ae2c8d743d647edff705948b218748b44">UWeaponModAtSlotRuntimeNode</a>, <a class="el" href="../../da/d31/class_u_weapon_not_node.html#a7057c21b302725a942af8e740dadaf34">UWeaponNotNode</a>, <a class="el" href="../../dc/d76/class_u_weapon_property_runtime_node.html#aec0b4aef213d86236fdf650d55d37ae2">UWeaponPropertyRuntimeNode</a>, <a class="el" href="../../d2/df1/class_u_weapon_select_bool_by_mod.html#a736d2b7ea31511fe98285387fa0c7a83">UWeaponSelectBoolByMod</a>, <a class="el" href="../../de/dd0/class_u_weapon_select_class_by_mod.html#ab1e53925ed4902322fcf2a5d35fbf4af">UWeaponSelectClassByMod</a>, <a class="el" href="../../d8/d8e/class_u_weapon_select_double_by_mod.html#a16f2de95f4a3fed67f499285727220c5">UWeaponSelectDoubleByMod</a>, <a class="el" href="../../db/da1/class_u_weapon_select_enum_runtime_node.html#a6130ae04e6eed9b2aac3530478d77599">UWeaponSelectEnumRuntimeNode</a>, <a class="el" href="../../d1/d74/class_u_weapon_select_int_by_mod.html#aae6009720f82cdad1f419d35b4a069c6">UWeaponSelectIntByMod</a>, <a class="el" href="../../db/d0a/class_u_weapon_select_object_by_mod.html#a1a8c4f542a36554f7b409bf9a6a7312c">UWeaponSelectObjectByMod</a>, <a class="el" href="../../d7/de0/class_u_weapon_set_material_node.html#a819456ff0c43fefb1bde116e8aaa01b2">UWeaponSetMaterialNode</a>, and <a class="el" href="../../d1/d62/class_u_weapon_uint8_runtime_node.html#a0180e35d7088a65a92d3cd1fd6489f14">UWeaponUint8RuntimeNode</a>.</p>
+
+</div>
+</div>
+<a id="ac796930a6646e7fe5ce8aee4521f7911" name="ac796930a6646e7fe5ce8aee4521f7911"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac796930a6646e7fe5ce8aee4521f7911">&#9670;&#160;</a></span>FixInvalidPinsConnections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UWeaponRuntimeNode::FixInvalidPinsConnections </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a81c151acd26c1901a22efce8bb6a19" name="a3a81c151acd26c1901a22efce8bb6a19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a81c151acd26c1901a22efce8bb6a19">&#9670;&#160;</a></span>GetAllPins()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE_DEBUGGABLE TArray&lt; <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> * &gt; UWeaponRuntimeNode::GetAllPins </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns all input and output pins. </p>
+
+</div>
+</div>
 <a id="ae80914a1cbed5c244202b092e2ef28ec" name="ae80914a1cbed5c244202b092e2ef28ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae80914a1cbed5c244202b092e2ef28ec">&#9670;&#160;</a></span>GetCharacteristics()</h2>
 
@@ -305,6 +403,91 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d4/d10/class_u_weapon_asset_characteristics.html">UWeaponAssetCharacteristics</a> * UWeaponRuntimeNode::GetCharacteristics </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d23cc8247b2869f34967baa9dc82084" name="a7d23cc8247b2869f34967baa9dc82084"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d23cc8247b2869f34967baa9dc82084">&#9670;&#160;</a></span>GetCharacteristicsCDO()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/d10/class_u_weapon_asset_characteristics.html">UWeaponAssetCharacteristics</a> * UWeaponRuntimeNode::GetCharacteristicsCDO </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb907691503dfaa932260f6f435b8507" name="abb907691503dfaa932260f6f435b8507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb907691503dfaa932260f6f435b8507">&#9670;&#160;</a></span>GetDefaultCharacteristics()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/d10/class_u_weapon_asset_characteristics.html">UWeaponAssetCharacteristics</a> * UWeaponRuntimeNode::GetDefaultCharacteristics </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef3d877ebe533c11c0d4708e0a59ab69" name="aef3d877ebe533c11c0d4708e0a59ab69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef3d877ebe533c11c0d4708e0a59ab69">&#9670;&#160;</a></span>GetDefaultCharacteristicsClass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TSubclassOf&lt; <a class="el" href="../../d4/d10/class_u_weapon_asset_characteristics.html">UWeaponAssetCharacteristics</a> &gt; UWeaponRuntimeNode::GetDefaultCharacteristicsClass </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e06f43998bb8ce34259e7a8e8c0dd63" name="a0e06f43998bb8ce34259e7a8e8c0dd63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e06f43998bb8ce34259e7a8e8c0dd63">&#9670;&#160;</a></span>GetDefaultExecutionContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const struct <a class="el" href="../../df/dfa/struct_f_weapon_execution_context.html">FWeaponExecutionContext</a> &amp; UWeaponRuntimeNode::GetDefaultExecutionContext </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e3a0fc8f08a800e379d9f599747eaee" name="a2e3a0fc8f08a800e379d9f599747eaee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e3a0fc8f08a800e379d9f599747eaee">&#9670;&#160;</a></span>GetExecutionContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../df/dfa/struct_f_weapon_execution_context.html">FWeaponExecutionContext</a> &amp; UWeaponRuntimeNode::GetExecutionContext </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -327,6 +510,31 @@ Public Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adabcaf20d45c695c870c24d1822b1460" name="adabcaf20d45c695c870c24d1822b1460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adabcaf20d45c695c870c24d1822b1460">&#9670;&#160;</a></span>GetInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual FORCEINLINE <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> * UWeaponRuntimeNode::GetInput </td>
+          <td>(</td>
+          <td class="paramtype">int32</td>          <td class="paramname"><span class="paramname"><em>Index</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -400,6 +608,31 @@ Public Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf72b3e1f4a12a2767c79efbf65b92a6" name="aaf72b3e1f4a12a2767c79efbf65b92a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf72b3e1f4a12a2767c79efbf65b92a6">&#9670;&#160;</a></span>GetNodeDebugString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TArray&lt; FString &gt; UWeaponRuntimeNode::GetNodeDebugString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -495,18 +728,36 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Gets all nodes linked with the specified pin </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">FromPin</td><td>Pin that we want to know what connections have </td></tr>
-    <tr><td class="paramname">ConnectedNodes</td><td>list of nodes that are connected with this one </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
-<a id="a07ffea4a5c6b4ebaa0cc5ed45ba988f4" name="a07ffea4a5c6b4ebaa0cc5ed45ba988f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07ffea4a5c6b4ebaa0cc5ed45ba988f4">&#9670;&#160;</a></span>GetPinByName()</h2>
+<a id="added18f27b0bf53fd8951fd83c383b97" name="added18f27b0bf53fd8951fd83c383b97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#added18f27b0bf53fd8951fd83c383b97">&#9670;&#160;</a></span>GetOutput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual FORCEINLINE <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> * UWeaponRuntimeNode::GetOutput </td>
+          <td>(</td>
+          <td class="paramtype">int32</td>          <td class="paramname"><span class="paramname"><em>Index</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a682006234c51db491300bd9c57f038e9" name="a682006234c51db491300bd9c57f038e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a682006234c51db491300bd9c57f038e9">&#9670;&#160;</a></span>GetPinByName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -514,18 +765,16 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> * UWeaponRuntimeNode::GetPinByName </td>
           <td>(</td>
-          <td class="paramtype">const FName &amp;</td>          <td class="paramname"><span class="paramname"><em>PinName</em></span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const FName &amp;</td>          <td class="paramname"><span class="paramname"><em>PinName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TOptional&lt; bool &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>OptionalInputOnly</em></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Tries to return the pin with the same name </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">PinName</td><td>Name of the pin to look for </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The pin with the matching name. Nullptr if not found </dd></dl>
+<p>Finds a pin by name and optional input/output filter. </p>
 
 </div>
 </div>
@@ -547,14 +796,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Gets the pin that is connected to the Pin parameter </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Pin</td><td>Pin to look the connection from </td></tr>
-    <tr><td class="paramname">ConnectionIndex</td><td>Index of the connection </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The pin connected with the other pin at the index position </dd></dl>
+<p>Returns the pin connected to the specified pin at the given index. </p>
 
 </div>
 </div>
@@ -584,7 +826,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Same as GetPinConnection but using the index (of input pins) of the pin instead of the pointer </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a936fcdfe272bd548e51cb3a23b1d89bb">GetPinConnection</a>(const UWeaponRuntimePin* Pin, int32 ConnectionIndex = 0) const </dd></dl>
+<p>Returns the connected pin for the specified input index. </p><dl class="section see"><dt>See also</dt><dd>GetPinConnection(const UWeaponRuntimePin*, int32) for more details and connection index usage. </dd></dl>
 
 </div>
 </div>
@@ -610,7 +852,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Same as GetPinConnections but using the index (of input pins) of the pin instead of the pointer </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a0e86c0ec73005b8ea83f3061287ca3d4">GetPinConnections(const UWeaponRuntimePin* Pin) const </a> </dd></dl>
+<p>Returns all connections for the specified input index. </p>
 
 </div>
 </div>
@@ -628,47 +870,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Gets all pins connected to the Pin parameter </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Pin</td><td>Pin to get the connections with </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>An array of all pins connected to the parameter </dd></dl>
-
-</div>
-</div>
-<a id="a920f1ec93a0815499ce44a23676bed52" name="a920f1ec93a0815499ce44a23676bed52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a920f1ec93a0815499ce44a23676bed52">&#9670;&#160;</a></span>GetSourceCharacteristics()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../d4/d10/class_u_weapon_asset_characteristics.html">UWeaponAssetCharacteristics</a> * UWeaponRuntimeNode::GetSourceCharacteristics </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a80195a739443f3d36e8aa45d864d9b9c" name="a80195a739443f3d36e8aa45d864d9b9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80195a739443f3d36e8aa45d864d9b9c">&#9670;&#160;</a></span>GetSourceWorkingAsset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../df/d06/class_u_weapon_asset.html">UWeaponAsset</a> * UWeaponRuntimeNode::GetSourceWorkingAsset </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Returns all pins connected to the specified pin. </p>
 
 </div>
 </div>
@@ -694,25 +896,9 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Returns pins used for value retrieval. Override for control flow nodes. </p>
 
 <p>Reimplemented in <a class="el" href="../../da/dcc/class_u_weapon_if_runtime_node.html#a054a171c6b5b8bd7c4f0bed9dd9e473a">UWeaponIfRuntimeNode</a>, and <a class="el" href="../../db/da1/class_u_weapon_select_enum_runtime_node.html#a3d04060c1bb259af4ab5584a5b988d5b">UWeaponSelectEnumRuntimeNode</a>.</p>
-
-</div>
-</div>
-<a id="a52eb9f7d6605233445104c21c411f8b0" name="a52eb9f7d6605233445104c21c411f8b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52eb9f7d6605233445104c21c411f8b0">&#9670;&#160;</a></span>GetWorkingAsset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d06/class_u_weapon_asset.html">UWeaponAsset</a> * UWeaponRuntimeNode::GetWorkingAsset </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -733,8 +919,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7862a2fb74fc4bfe41edba34aaa9073f" name="a7862a2fb74fc4bfe41edba34aaa9073f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7862a2fb74fc4bfe41edba34aaa9073f">&#9670;&#160;</a></span>SetPinValue()</h2>
+<a id="ae62d6dc1344811d094ad6e743feda8f3" name="ae62d6dc1344811d094ad6e743feda8f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae62d6dc1344811d094ad6e743feda8f3">&#9670;&#160;</a></span>Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -743,9 +929,9 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void UWeaponRuntimeNode::SetPinValue </td>
+          <td class="memname">virtual void UWeaponRuntimeNode::Init </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a> *</td>          <td class="paramname"><span class="paramname"><em>Pin</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -755,14 +941,127 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Sets the value for the specified Pin. It should always be an output pin </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Pin</td><td>Pin to set the cache value </td></tr>
-  </table>
-  </dd>
-</dl>
 
-<p>Reimplemented in <a class="el" href="../../d4/dae/class_u_weapon_attachment_runtime_node.html#adeff6a6d20934e1334e9a5400c88ccde">UWeaponAttachmentRuntimeNode</a>, <a class="el" href="../../da/d1c/class_u_weapon_blueprint_runtime_node.html#abf0cf337fb728c92036656a4c09c18c6">UWeaponBlueprintRuntimeNode</a>, <a class="el" href="../../df/d3f/class_u_weapon_component_runtime_node.html#a9758b356d5fa358cecfee6db7f8766e1">UWeaponComponentRuntimeNode</a>, <a class="el" href="../../d1/d4c/class_u_weapon_component_tag_runtime_node.html#a048f750e8387d7f059211abd3e3a1054">UWeaponComponentTagRuntimeNode</a>, <a class="el" href="../../de/dca/class_u_weapon_custom_function_runtime_node.html#a3a732046d7dc0c0ee5c273dc775e5da3">UWeaponCustomFunctionRuntimeNode</a>, <a class="el" href="../../da/d6a/class_u_weapon_end_runtime_node_visuals.html#afc6d21018616d1cae2a46f57b107d2f0">UWeaponEndRuntimeNodeVisuals</a>, <a class="el" href="../../da/dcc/class_u_weapon_if_runtime_node.html#a01cc50c410df12d44fe521cc5549da37">UWeaponIfRuntimeNode</a>, <a class="el" href="../../d1/df1/class_u_weapon_math_runtime_node.html#aebf52238e58e1ee4879fdf26ebfb64a4">UWeaponMathRuntimeNode</a>, <a class="el" href="../../dd/dbd/class_u_weapon_mod_at_slot_runtime_node.html#aca06998c439ee36ede1adcfcd9f3e526">UWeaponModAtSlotRuntimeNode</a>, <a class="el" href="../../dc/d76/class_u_weapon_property_runtime_node.html#a54e931d2966e83162b87e9a987dabca1">UWeaponPropertyRuntimeNode</a>, <a class="el" href="../../db/da1/class_u_weapon_select_enum_runtime_node.html#a515b954508dddbb52a43f1331c8b5a70">UWeaponSelectEnumRuntimeNode</a>, <a class="el" href="../../d7/de0/class_u_weapon_set_material_node.html#a19e28589730880b569b14149eae5684c">UWeaponSetMaterialNode</a>, and <a class="el" href="../../d2/d51/class_u_weapon_value_runtime_node.html#aba19e71fbb2f87b681119c7aead82e02">UWeaponValueRuntimeNode</a>.</p>
+<p>Reimplemented in <a class="el" href="../../de/dca/class_u_weapon_custom_function_runtime_node.html#a4caca24fd4cde0b29f9d2845930cb597">UWeaponCustomFunctionRuntimeNode</a>.</p>
+
+</div>
+</div>
+<a id="a8b02d257beb3602d90bc3648402c56fb" name="a8b02d257beb3602d90bc3648402c56fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b02d257beb3602d90bc3648402c56fb">&#9670;&#160;</a></span>IsAborting()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UWeaponRuntimeNode::IsAborting </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d0227f100d4c07f3f2aeda00e35d467" name="a0d0227f100d4c07f3f2aeda00e35d467"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d0227f100d4c07f3f2aeda00e35d467">&#9670;&#160;</a></span>PostExecuteNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void UWeaponRuntimeNode::PostExecuteNode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4fc374839e2e0e2d269069a225eaf07c" name="a4fc374839e2e0e2d269069a225eaf07c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fc374839e2e0e2d269069a225eaf07c">&#9670;&#160;</a></span>PreExecuteNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UWeaponRuntimeNode::PreExecuteNode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../de/dca/class_u_weapon_custom_function_runtime_node.html#afa618b0707dcd8da5acf11b9abf11bc5">UWeaponCustomFunctionRuntimeNode</a>, and <a class="el" href="../../dc/d76/class_u_weapon_property_runtime_node.html#a8fc935867983f51d08ea870121c0ecac">UWeaponPropertyRuntimeNode</a>.</p>
+
+</div>
+</div>
+<a id="a324d234b56cb804537a91bd1c04099ad" name="a324d234b56cb804537a91bd1c04099ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a324d234b56cb804537a91bd1c04099ad">&#9670;&#160;</a></span>Reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UWeaponRuntimeNode::Reset </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b779b5faae2e23bb5ab0081d290e117" name="a5b779b5faae2e23bb5ab0081d290e117"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b779b5faae2e23bb5ab0081d290e117">&#9670;&#160;</a></span>UpdateNodeFlowDebugString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UWeaponRuntimeNode::UpdateNodeFlowDebugString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -781,20 +1080,46 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9f8a497d1a33609fcd7e05fed301991c" name="a9f8a497d1a33609fcd7e05fed301991c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f8a497d1a33609fcd7e05fed301991c">&#9670;&#160;</a></span>OutputPin</h2>
+<a id="a7252e50ac97fa71d3163cad0ccb4e636" name="a7252e50ac97fa71d3163cad0ccb4e636"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7252e50ac97fa71d3163cad0ccb4e636">&#9670;&#160;</a></span>NodeFlowDebugString</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FString UWeaponRuntimeNode::NodeFlowDebugString</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9382e9942f86a6f125815cf12e28a394" name="a9382e9942f86a6f125815cf12e28a394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9382e9942f86a6f125815cf12e28a394">&#9670;&#160;</a></span>OutputPins</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a>* UWeaponRuntimeNode::OutputPin</td>
+          <td class="memname">TArray&lt;<a class="el" href="../../dd/d5d/class_u_weapon_runtime_pin.html">UWeaponRuntimePin</a>*&gt; UWeaponRuntimeNode::OutputPins</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/<a class="el" href="../../d6/de3/_weapon_runtime_node_8h_source.html">WeaponRuntimeNode.h</a></li>
+<li>C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/<a class="el" href="../../d4/d2f/_weapon_runtime_node_8cpp.html">WeaponRuntimeNode.cpp</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

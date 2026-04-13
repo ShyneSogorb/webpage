@@ -1,11 +1,7 @@
 <map id="UWeaponMathRuntimeNode" name="UWeaponMathRuntimeNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,172,193,199"/>
-<area shape="rect" id="Node000002" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="120,81,278,108"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,121,115,173,112,169,171,117"/>
-<area shape="rect" id="Node000004" href="$dd/d5d/class_u_weapon_runtime_pin.html" title=" " alt="" coords="216,172,363,199"/>
-<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="189,122,188,135,191,147,204,160,221,169,218,174,201,164,187,149,182,136,184,122"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="242,5,311,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="254,45,214,83,210,79,251,41"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="291,45,307,85,319,132,319,149,304,173,299,170,314,147,314,132,301,86,286,46"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="264,163,210,111,214,107,268,159"/>
+<area shape="rect" id="Node000001" title="Base class for binary arithmetic operations on numeric values." alt="" coords="5,155,193,181"/>
+<area shape="rect" id="Node000002" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="20,80,178,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,122,102,154,96,154,96,122"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="64,5,134,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="102,48,102,80,96,80,96,48"/>
 </map>

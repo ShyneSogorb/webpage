@@ -1,10 +1,15 @@
 var struct_t_property_overrider =
 [
+    [ "TOperator", "d8/d88/struct_t_property_overrider_1_1_t_operator.html", "d8/d88/struct_t_property_overrider_1_1_t_operator" ],
     [ "TConstSmall", "dd/d8f/struct_t_property_overrider.html#aa000019c9882bf64c3a44a5873853dab", null ],
     [ "TSmall", "dd/d8f/struct_t_property_overrider.html#aeca66e9a63b3d524e4479b5d7ec093d6", null ],
     [ "ClearDirty", "dd/d8f/struct_t_property_overrider.html#a3e8618f8090c9b0a73686e178b5bfcab", null ],
+    [ "GetBaseValue", "dd/d8f/struct_t_property_overrider.html#a11ae2901fd394a79f0d97318172c6bc4", null ],
+    [ "GetOperatorExpression", "dd/d8f/struct_t_property_overrider.html#a6997bd8a6d35050ce09034d44a3d3546", null ],
+    [ "GetOperatorValue", "dd/d8f/struct_t_property_overrider.html#a98af7b9900581ad9d29bedc10038d8f4", null ],
     [ "GetOriginalValue", "dd/d8f/struct_t_property_overrider.html#a84794dbe52095bf244068f86018a90b7", null ],
     [ "GetValue", "dd/d8f/struct_t_property_overrider.html#a193839bc0745a8d848649be0d445b8b9", null ],
+    [ "IsDirty", "dd/d8f/struct_t_property_overrider.html#a57a6f571a5d62a9778d5776ce50e21f1", null ],
     [ "MarkDirty", "dd/d8f/struct_t_property_overrider.html#a87366fc2fb7e2d9348208b8167d7bc8c", null ],
     [ "operator TConstSmall", "dd/d8f/struct_t_property_overrider.html#a0dbd8a58ea623f640a1fdef1cb904e4b", null ],
     [ "operator%=", "dd/d8f/struct_t_property_overrider.html#a81fec2d6b57b92471b066590d90714d3", null ],
@@ -14,9 +19,11 @@ var struct_t_property_overrider =
     [ "operator-=", "dd/d8f/struct_t_property_overrider.html#ad68574dc8cbc9448947958d9a19b405c", null ],
     [ "operator/=", "dd/d8f/struct_t_property_overrider.html#a06f6f4a28d014df906ba4d98ccb41a41", null ],
     [ "operator=", "dd/d8f/struct_t_property_overrider.html#a86de5c1c6804bce9ade435ad5022d043", null ],
+    [ "SetBaseValue", "dd/d8f/struct_t_property_overrider.html#ab8297ce0567df120dd7bf9ac2248b1d8", null ],
+    [ "SetOperatorExpression", "dd/d8f/struct_t_property_overrider.html#a094aac0314bd829176707096344b0eea", null ],
+    [ "SetOperatorValue", "dd/d8f/struct_t_property_overrider.html#a94c66ec6126db208820974084ebcb0d0", null ],
     [ "BaseValue", "dd/d8f/struct_t_property_overrider.html#a098dc1a2416c7821e21f1c44e138b4d0", null ],
-    [ "bIsDirty", "dd/d8f/struct_t_property_overrider.html#a00577ca05e362b0c5d8c6a1de1d14320", null ],
     [ "CachedValue", "dd/d8f/struct_t_property_overrider.html#af667ff9c1b8e5f5cad6bb3c9709c1eb1", null ],
-    [ "OperatorExpression", "dd/d8f/struct_t_property_overrider.html#ade8917d75dedd7e2e69ac13443e84693", null ],
+    [ "OperatorExpression", "dd/d8f/struct_t_property_overrider.html#a155242dc9b17388ee716e95e7be0c7da", null ],
     [ "OperatorValue", "dd/d8f/struct_t_property_overrider.html#a717ba267115e4758e7d79feb235a989d", null ]
 ];

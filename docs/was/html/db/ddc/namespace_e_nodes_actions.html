@@ -106,14 +106,10 @@ $(function(){initNavTree('db/ddc/namespace_e_nodes_actions.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aaaba138c30340bcdfe1b80e5b05a9d8e" id="r_aaaba138c30340bcdfe1b80e5b05a9d8e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaba138c30340bcdfe1b80e5b05a9d8e">Type</a> { <br />
-&#160;&#160;<a class="el" href="#aaaba138c30340bcdfe1b80e5b05a9d8ea6313f5a0d3863c1ac3d09bc66ee5b4e9">EDelete</a> = 1 &lt;&lt; 1
+<tr class="memitem:aaaba138c30340bcdfe1b80e5b05a9d8e" id="r_aaaba138c30340bcdfe1b80e5b05a9d8e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaba138c30340bcdfe1b80e5b05a9d8e">Type</a> { <a class="el" href="#aaaba138c30340bcdfe1b80e5b05a9d8ea6313f5a0d3863c1ac3d09bc66ee5b4e9">EDelete</a> = 1 &lt;&lt; 1
 , <a class="el" href="#aaaba138c30340bcdfe1b80e5b05a9d8eafdbf6439cf3a7ddd8f5a6e950f1f324f">ERefresh</a> = 1 &lt;&lt; 2
-, <a class="el" href="#aaaba138c30340bcdfe1b80e5b05a9d8ea753da4a6ee1e867169f30a53cf6b0632">EAddInput</a> = 1 &lt;&lt; 3
-, <a class="el" href="#aaaba138c30340bcdfe1b80e5b05a9d8ea858fe668704c59a5f07b5cbfc4338172">EAddOutput</a> = 1 &lt;&lt; 4
-, <br />
-&#160;&#160;<a class="el" href="#aaaba138c30340bcdfe1b80e5b05a9d8ea076adf6e54f287b9477090b216ea0e66">ALL</a> = EDelete | ERefresh | EAddInput | EAddOutput
-<br />
+, <a class="el" href="#aaaba138c30340bcdfe1b80e5b05a9d8ea3546115a89f1ac22484417f8c2017082">EGoToDefinition</a> = 1 &lt;&lt; 3
+, <a class="el" href="#aaaba138c30340bcdfe1b80e5b05a9d8ea076adf6e54f287b9477090b216ea0e66">ALL</a> = EDelete | ERefresh | EGoToDefinition
  }</td></tr>
 <tr class="separator:aaaba138c30340bcdfe1b80e5b05a9d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -124,7 +120,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a641ebf4183574ca30e0cf2e63e6d62ab" id="r_a641ebf4183574ca30e0cf2e63e6d62ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aaaba138c30340bcdfe1b80e5b05a9d8e">Type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a641ebf4183574ca30e0cf2e63e6d62ab">operator|=</a> (<a class="el" href="#aaaba138c30340bcdfe1b80e5b05a9d8e">Type</a> &amp;lhs, <a class="el" href="#aaaba138c30340bcdfe1b80e5b05a9d8e">Type</a> rhs)</td></tr>
 <tr class="separator:a641ebf4183574ca30e0cf2e63e6d62ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Node context menu actions. </p>
+</div><h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="aaaba138c30340bcdfe1b80e5b05a9d8e" name="aaaba138c30340bcdfe1b80e5b05a9d8e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaaba138c30340bcdfe1b80e5b05a9d8e">&#9670;&#160;</a></span>Type</h2>
 
@@ -139,8 +137,7 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aaaba138c30340bcdfe1b80e5b05a9d8ea6313f5a0d3863c1ac3d09bc66ee5b4e9" name="aaaba138c30340bcdfe1b80e5b05a9d8ea6313f5a0d3863c1ac3d09bc66ee5b4e9"></a>EDelete&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aaaba138c30340bcdfe1b80e5b05a9d8eafdbf6439cf3a7ddd8f5a6e950f1f324f" name="aaaba138c30340bcdfe1b80e5b05a9d8eafdbf6439cf3a7ddd8f5a6e950f1f324f"></a>ERefresh&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaaba138c30340bcdfe1b80e5b05a9d8ea753da4a6ee1e867169f30a53cf6b0632" name="aaaba138c30340bcdfe1b80e5b05a9d8ea753da4a6ee1e867169f30a53cf6b0632"></a>EAddInput&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aaaba138c30340bcdfe1b80e5b05a9d8ea858fe668704c59a5f07b5cbfc4338172" name="aaaba138c30340bcdfe1b80e5b05a9d8ea858fe668704c59a5f07b5cbfc4338172"></a>EAddOutput&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaaba138c30340bcdfe1b80e5b05a9d8ea3546115a89f1ac22484417f8c2017082" name="aaaba138c30340bcdfe1b80e5b05a9d8ea3546115a89f1ac22484417f8c2017082"></a>EGoToDefinition&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aaaba138c30340bcdfe1b80e5b05a9d8ea076adf6e54f287b9477090b216ea0e66" name="aaaba138c30340bcdfe1b80e5b05a9d8ea076adf6e54f287b9477090b216ea0e66"></a>ALL&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -173,6 +170,7 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Bitwise AND assignment. </p>
 
 </div>
 </div>
@@ -202,6 +200,7 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Bitwise OR assignment. </p>
 
 </div>
 </div>

@@ -1,0 +1,24 @@
+<map id="C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport/WeaponPreviewViewport.cpp" name="C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport/WeaponPreviewViewport.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="348,5,643,96"/>
+<area shape="rect" id="Node000002" href="$df/d7d/_weapon_preview_viewport_8h.html" title=" " alt="" coords="163,144,396,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="404,99,320,139,318,134,402,94"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="420,144,571,171"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="498,96,498,128,493,128,493,96"/>
+<area shape="rect" id="Node000011" href="$db/d8d/_weapon_viewport_client_8h.html" title=" " alt="" coords="595,144,814,171"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="586,94,667,135,665,139,584,99"/>
+<area shape="rect" id="Node000003" href="$db/d51/_weapon_asset_editor_app_8h.html" title=" " alt="" coords="109,219,279,245"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="266,173,222,211,218,207,263,169"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="303,219,429,245"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="296,169,341,207,338,211,293,173"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,384,111,411"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="124,248,84,266,67,279,54,295,46,312,44,331,50,369,45,370,39,331,41,311,49,292,64,275,82,261,121,244"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="63,301,173,328"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="184,248,142,292,138,288,180,244"/>
+<area shape="rect" id="Node000006" href="$db/da8/_weapon_graph_editor_8h.html" title=" " alt="" coords="197,301,346,328"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="208,244,251,289,247,292,204,248"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="369,293,566,336"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="237,243,383,286,381,291,236,248"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="239,331,106,381,105,376,237,326"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="167,384,376,411"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="274,328,274,369,269,369,269,328"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/AccessorsDefinitions.h" name="C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/AccessorsDefinitions.h">
+<area shape="rect" id="Node000001" title="Macro utilities for generating getter/setter accessor functions." alt="" coords="741,5,1028,96"/>
+<area shape="rect" id="Node000002" href="$d4/d86/_attributes_operators_8h.html" title=" " alt="" coords="419,144,700,235"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="765,105,667,146,665,141,763,100"/>
+<area shape="rect" id="Node000007" href="$d0/dfa/_property_overrider_8h.html" title=" " alt="" coords="1075,144,1356,235"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1008,100,1108,141,1106,146,1006,105"/>
+<area shape="rect" id="Node000008" href="$dc/de5/_property_overrider_blueprints_8h.html" title=" " alt="" coords="723,144,1046,235"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="887,112,887,143,882,143,882,112"/>
+<area shape="rect" id="Node000003" href="$d0/da6/_weapon_operator_runtime_node_8h.html" title=" " alt="" coords="12,291,384,381"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="434,243,311,293,309,288,432,238"/>
+<area shape="rect" id="Node000005" href="$d0/d93/_weapon_numeric_property_overrider_runtime_node_8cpp.html" title=" " alt="" coords="1043,283,1401,389"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="715,233,804,248,875,257,945,265,1032,280,1043,282,1042,288,1031,285,944,270,874,262,804,254,714,238"/>
+<area shape="rect" id="Node000006" href="$d4/d95/_properties_overrider_helper_library_8h.html" title=" " alt="" coords="408,283,710,389"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="562,250,562,282,557,282,557,250"/>
+<area shape="rect" id="Node000004" href="$d2/dc0/_weapon_operator_runtime_node_8cpp.html" title=" " alt="" coords="5,437,391,528"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="201,397,201,437,195,437,195,397"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="1221,250,1222,282,1217,282,1215,250"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="1004,239,1100,280,1098,285,1002,244"/>
+<area shape="poly" id="edge11_Node000008_Node000006" title=" " alt="" coords="771,244,679,285,677,280,769,239"/>
+<area shape="rect" id="Node000009" href="$d6/d5a/_weapon_graph_schema_8cpp.html" title=" " alt="" coords="734,291,1019,381"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="884,250,882,290,876,290,879,250"/>
+</map>

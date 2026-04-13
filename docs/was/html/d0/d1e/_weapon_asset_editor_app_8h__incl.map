@@ -1,0 +1,14 @@
+<map id="C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" name="C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="61,5,327,96"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,235,111,261"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,99,73,120,54,145,47,163,46,182,51,219,46,220,40,183,42,162,49,143,69,116,94,95"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="63,152,173,179"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="166,98,137,141,133,138,162,95"/>
+<area shape="rect" id="Node000004" href="$db/da8/_weapon_graph_editor_8h.html" title=" " alt="" coords="197,152,346,179"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="227,95,257,138,252,141,222,98"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="369,144,566,187"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="304,94,404,135,402,140,302,99"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="239,182,106,231,105,226,237,177"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="167,235,376,261"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="274,179,274,219,269,219,269,179"/>
+</map>

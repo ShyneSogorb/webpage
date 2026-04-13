@@ -5,7 +5,6 @@ var hierarchy =
     ] ],
     [ "FAmmoTypeListItem", "d4/d32/class_f_ammo_type_list_item.html", null ],
     [ "FAmmoTypeName", "d0/d4d/struct_f_ammo_type_name.html", null ],
-    [ "FAnyNumericWrapper", "d7/dcd/struct_f_any_numeric_wrapper.html", null ],
     [ "FApplicationMode", null, [
       [ "FWeaponAssetAppMode", "d7/d31/class_f_weapon_asset_app_mode.html", null ]
     ] ],
@@ -16,7 +15,6 @@ var hierarchy =
       [ "FAttributeDoubleOperator", "d1/d79/struct_f_attribute_double_operator.html", null ],
       [ "TAttributeOperator< T >", "df/dcc/struct_t_attribute_operator.html", null ]
     ] ],
-    [ "FBlueprintPins", "d0/d8e/struct_f_blueprint_pins.html", null ],
     [ "FEdGraphSchemaAction", null, [
       [ "FNewNodeAction", "d5/ded/struct_f_new_node_action.html", null ]
     ] ],
@@ -29,14 +27,17 @@ var hierarchy =
     [ "FGraphPanelPinFactory", null, [
       [ "FWeaponPinFactory", "dd/d06/struct_f_weapon_pin_factory.html", null ]
     ] ],
+    [ "FIntegerPtr", "d7/db5/struct_f_integer_ptr.html", null ],
     [ "FModificationApplied", "df/dcb/struct_f_modification_applied.html", null ],
     [ "FModificationArchitecture", "d0/d9f/struct_f_modification_architecture.html", null ],
+    [ "FModificationDescription", "da/d58/struct_f_modification_description.html", null ],
     [ "FModificationDescriptionSimple", "d4/de4/struct_f_modification_description_simple.html", null ],
     [ "FNameDescription", "d3/d99/struct_f_name_description.html", null ],
-    [ "FNodeValue", "d0/dc8/struct_f_node_value.html", null ],
     [ "FNotifyHook", null, [
       [ "FWeaponAssetEditorApp", "da/d5f/class_f_weapon_asset_editor_app.html", null ]
     ] ],
+    [ "FNumericHolder", "d3/d76/struct_f_numeric_holder.html", null ],
+    [ "FPinValue", "d2/d3b/struct_f_pin_value.html", null ],
     [ "FPreviewScene", null, [
       [ "FWeaponPreviewScene", "d5/d59/class_f_weapon_preview_scene.html", null ]
     ] ],
@@ -44,7 +45,20 @@ var hierarchy =
       [ "FPropertyOverriderDouble", "d4/d11/struct_f_property_overrider_double.html", null ],
       [ "FPropertyOverriderInt", "d5/d9c/struct_f_property_overrider_int.html", null ]
     ] ],
+    [ "FSetValueParms", "d2/d9d/struct_f_set_value_parms.html", null ],
+    [ "FWeaponExecutionContext", "df/dfa/struct_f_weapon_execution_context.html", null ],
     [ "FWeaponInitializationData", "d2/d93/struct_f_weapon_initialization_data.html", null ],
+    [ "FWeaponRuntimeNodeKernel< Derived >", "d9/dcd/class_f_weapon_runtime_node_kernel.html", null ],
+    [ "FWeaponRuntimeNodeKernel< UWeaponNiagaraRuntimeNode >", "d9/dcd/class_f_weapon_runtime_node_kernel.html", [
+      [ "UWeaponNiagaraRuntimeNode", "da/dfb/class_u_weapon_niagara_runtime_node.html", null ]
+    ] ],
+    [ "FWeaponRuntimeNodeKernel< UWeaponSkeletalMeshRuntimeNode >", "d9/dcd/class_f_weapon_runtime_node_kernel.html", [
+      [ "UWeaponSkeletalMeshRuntimeNode", "d2/db5/class_u_weapon_skeletal_mesh_runtime_node.html", null ]
+    ] ],
+    [ "FWeaponRuntimeNodeKernel< UWeaponStaticMeshRuntimeNode >", "d9/dcd/class_f_weapon_runtime_node_kernel.html", [
+      [ "UWeaponStaticMeshRuntimeNode", "dc/d16/class_u_weapon_static_mesh_runtime_node.html", null ]
+    ] ],
+    [ "FWeaponSettingsDescription", "d9/d1e/struct_f_weapon_settings_description.html", null ],
     [ "FWorkflowCentricApplication", null, [
       [ "FWeaponAssetEditorApp", "da/d5f/class_f_weapon_asset_editor_app.html", null ]
     ] ],
@@ -54,6 +68,8 @@ var hierarchy =
       [ "FWeaponPreviewSceneTabFactory", "d3/dbf/class_f_weapon_preview_scene_tab_factory.html", null ]
     ] ],
     [ "IDetailCustomization", null, [
+      [ "FFunctionNodePropertyCustomization", "d7/d46/class_f_function_node_property_customization.html", null ],
+      [ "FSelectByModCustomization", "de/d6f/class_f_select_by_mod_customization.html", null ],
       [ "FWeaponCharacteristicsDetails", "d9/dd8/class_f_weapon_characteristics_details.html", null ],
       [ "FWeaponSystemSettingsDetails", "d8/dff/class_f_weapon_system_settings_details.html", null ]
     ] ],
@@ -62,7 +78,8 @@ var hierarchy =
     ] ],
     [ "IModuleInterface", null, [
       [ "FWASEditorModule", "d1/dcd/class_f_w_a_s_editor_module.html", null ],
-      [ "FWASRuntimeModule", "d8/def/class_f_w_a_s_runtime_module.html", null ]
+      [ "FWASRuntimeModule", "d8/def/class_f_w_a_s_runtime_module.html", null ],
+      [ "FWASUncookedModule", "d5/d22/class_f_w_a_s_uncooked_module.html", null ]
     ] ],
     [ "IPropertyTypeCustomization", null, [
       [ "FModificationDescriptionCustomization", "de/d03/class_f_modification_description_customization.html", null ],
@@ -70,12 +87,12 @@ var hierarchy =
       [ "FWeaponModificationDescriptionCustomization", "d5/d12/struct_f_weapon_modification_description_customization.html", null ],
       [ "FWeaponModificatorCustomization", "db/d20/class_f_weapon_modificator_customization.html", null ]
     ] ],
-    [ "IWeaponDefaultCharacteristicsInterface", "d3/de2/class_i_weapon_default_characteristics_interface.html", [
-      [ "UWeaponAssetDefaultCharacteristics", "da/db7/class_u_weapon_asset_default_characteristics.html", null ]
-    ] ],
+    [ "larger", "dc/d69/structlarger.html", null ],
+    [ "largerAlign", "d2/da4/structlarger_align.html", null ],
     [ "ModuleRules", null, [
       [ "WASEditor", "d1/d82/class_w_a_s_editor.html", null ],
-      [ "WASRuntime", "d2/d68/class_w_a_s_runtime.html", null ]
+      [ "WASRuntime", "d2/d68/class_w_a_s_runtime.html", null ],
+      [ "WASUncooked", "d8/d3f/class_w_a_s_uncooked.html", null ]
     ] ],
     [ "SCompoundWidget", null, [
       [ "SAmmoTypeEditBox", "d2/dd5/class_s_ammo_type_edit_box.html", null ]
@@ -84,21 +101,34 @@ var hierarchy =
       [ "SWeaponPreviewViewport", "da/dce/class_s_weapon_preview_viewport.html", null ]
     ] ],
     [ "SGraphPin", null, [
-      [ "SWeaponGraphNumericPin", "dd/d91/class_s_weapon_graph_numeric_pin.html", null ]
+      [ "SWeaponGraphBooleanPin", "d2/d9b/class_s_weapon_graph_boolean_pin.html", null ],
+      [ "SWeaponGraphClassPin", "d2/dba/class_s_weapon_graph_class_pin.html", null ],
+      [ "SWeaponGraphNumericPin", "dd/d91/class_s_weapon_graph_numeric_pin.html", null ],
+      [ "SWeaponGraphObjectPin", "d6/def/class_s_weapon_graph_object_pin.html", null ],
+      [ "SWeaponGraphStructPin", "d2/d5c/class_s_weapon_graph_struct_pin.html", null ],
+      [ "SWeaponGraphWildcardPin", "dd/d1f/class_s_weapon_graph_wildcard_pin.html", null ]
     ] ],
     [ "SListView< ItemClass >", "df/d1e/class_s_list_view.html", null ],
+    [ "smaller", "d5/d17/structsmaller.html", null ],
+    [ "smallerMinRequirement< Min >", "db/d41/structsmaller_min_requirement.html", null ],
+    [ "SmallestOption< RequiredBits, TupleOptions >", "d6/d96/struct_smallest_option.html", null ],
+    [ "SmallOptImpl< RequiredBits, TupleOptions, I, Done >", "d3/d56/struct_small_opt_impl.html", null ],
+    [ "SmallOptImpl< RequiredBits, TupleOptions, I, false >", "d7/df3/struct_small_opt_impl_3_01_required_bits_00_01_tuple_options_00_01_i_00_01false_01_4.html", null ],
+    [ "SmallOptImpl< RequiredBits, TupleOptions, I, true >", "dd/d91/struct_small_opt_impl_3_01_required_bits_00_01_tuple_options_00_01_i_00_01true_01_4.html", null ],
     [ "TCommands", null, [
       [ "FWeaponAssetEditorCommands", "d8/d1c/class_f_weapon_asset_editor_commands.html", null ]
     ] ],
-    [ "TDynamicPtr", "d2/d97/struct_t_dynamic_ptr.html", null ],
+    [ "TPropertyOverrider< T >::TOperator", "d8/d88/struct_t_property_overrider_1_1_t_operator.html", null ],
     [ "TPropertyOverrider< T >", "dd/d8f/struct_t_property_overrider.html", null ],
     [ "TSharedFromThis", null, [
       [ "FAmmoTypeList", "d7/dcb/class_f_ammo_type_list.html", null ],
       [ "FWeaponViewportClient", "d7/de5/class_f_weapon_viewport_client.html", null ]
     ] ],
+    [ "type_identity< T >", "d5/d46/structtype__identity.html", null ],
+    [ "TypeList< Ts >", "d8/ddd/struct_type_list.html", null ],
     [ "UBlueprintFunctionLibrary", null, [
       [ "UOperatorsHelperLibrary", "dc/daa/class_u_operators_helper_library.html", null ],
-      [ "UWeaponAssetBlueprintLibrary", "d8/d28/class_u_weapon_asset_blueprint_library.html", null ],
+      [ "UWeaponAssetLibrary", "dc/d5e/class_u_weapon_asset_library.html", null ],
       [ "UWeaponSettingsDescriptionFunctionLibrary", "d7/d3a/class_u_weapon_settings_description_function_library.html", null ]
     ] ],
     [ "UDeveloperSettings", null, [
@@ -108,7 +138,7 @@ var hierarchy =
       [ "UWeaponGraphEditor", "da/d6a/class_u_weapon_graph_editor.html", null ]
     ] ],
     [ "UEdGraphNode", null, [
-      [ "UWeaponGraphNodeBase", "d8/d9a/class_u_weapon_graph_node_base.html", null ]
+      [ "UWeaponGraphNode", "d6/d84/class_u_weapon_graph_node.html", null ]
     ] ],
     [ "UEdGraphSchema", null, [
       [ "UWeaponGraphSchema", "d3/d2a/class_u_weapon_graph_schema.html", null ]
@@ -117,11 +147,9 @@ var hierarchy =
       [ "UWeaponAssetCharacteristicsFactory", "d5/d9b/class_u_weapon_asset_characteristics_factory.html", null ],
       [ "UWeaponAssetFactory", "d0/db5/class_u_weapon_asset_factory.html", null ]
     ] ],
-    [ "UInterface", null, [
-      [ "UWeaponDefaultCharacteristicsInterface", "d9/d4d/class_u_weapon_default_characteristics_interface.html", null ]
-    ] ],
     [ "UK2Node", null, [
-      [ "UK2Node_IsWeaponModificatorActive", "d2/d39/class_u_k2_node___is_weapon_modificator_active.html", null ]
+      [ "UK2Node_IsCharacteristicsModificatorActive", "d0/d18/class_u_k2_node___is_characteristics_modificator_active.html", null ],
+      [ "UK2Node_SetCharacteristicsModificatorActive", "d6/d13/class_u_k2_node___set_characteristics_modificator_active.html", null ]
     ] ],
     [ "UObject", null, [
       [ "UWeaponAsset", "df/d06/class_u_weapon_asset.html", null ],
@@ -131,20 +159,19 @@ var hierarchy =
       [ "UWeaponRuntimeGraph", "d1/db3/class_u_weapon_runtime_graph.html", null ],
       [ "UWeaponRuntimeNode", "de/dde/class_u_weapon_runtime_node.html", [
         [ "UWeaponAttachmentRuntimeNode", "d4/dae/class_u_weapon_attachment_runtime_node.html", null ],
-        [ "UWeaponBlueprintRuntimeNode", "da/d1c/class_u_weapon_blueprint_runtime_node.html", null ],
         [ "UWeaponComponentRuntimeNode", "df/d3f/class_u_weapon_component_runtime_node.html", [
           [ "UWeaponNiagaraRuntimeNode", "da/dfb/class_u_weapon_niagara_runtime_node.html", null ],
           [ "UWeaponSkeletalMeshRuntimeNode", "d2/db5/class_u_weapon_skeletal_mesh_runtime_node.html", null ],
           [ "UWeaponStaticMeshRuntimeNode", "dc/d16/class_u_weapon_static_mesh_runtime_node.html", null ]
         ] ],
         [ "UWeaponComponentTagRuntimeNode", "d1/d4c/class_u_weapon_component_tag_runtime_node.html", null ],
-        [ "UWeaponCustomFunctionRuntimeNode", "de/dca/class_u_weapon_custom_function_runtime_node.html", [
-          [ "UWeaponObjectFunctionNode", "d8/d0d/class_u_weapon_object_function_node.html", null ]
-        ] ],
         [ "UWeaponEndRuntimeNode", "d5/d71/class_u_weapon_end_runtime_node.html", [
+          [ "UWeaponEndRuntimeNodeOperator", "d2/d3a/class_u_weapon_end_runtime_node_operator.html", null ],
           [ "UWeaponEndRuntimeNodeVisuals", "da/d6a/class_u_weapon_end_runtime_node_visuals.html", null ]
         ] ],
         [ "UWeaponIfRuntimeNode", "da/dcc/class_u_weapon_if_runtime_node.html", null ],
+        [ "UWeaponLiteralClassNode", "db/d8e/class_u_weapon_literal_class_node.html", null ],
+        [ "UWeaponLiteralObjectNode", "da/deb/class_u_weapon_literal_object_node.html", null ],
         [ "UWeaponMaterialInstanceDynamicNode", "d3/d72/class_u_weapon_material_instance_dynamic_node.html", null ],
         [ "UWeaponMathRuntimeNode", "d1/df1/class_u_weapon_math_runtime_node.html", [
           [ "UWeaponAddNode", "d2/d0a/class_u_weapon_add_node.html", null ],
@@ -152,15 +179,29 @@ var hierarchy =
           [ "UWeaponMultiplyNode", "dd/dd4/class_u_weapon_multiply_node.html", null ],
           [ "UWeaponSubtractNode", "da/d5d/class_u_weapon_subtract_node.html", null ]
         ] ],
-        [ "UWeaponModAtSlotRuntimeNode", "dd/dbd/class_u_weapon_mod_at_slot_runtime_node.html", null ],
-        [ "UWeaponPropertyRuntimeNode", "dc/d76/class_u_weapon_property_runtime_node.html", [
-          [ "UWeaponNumericPropertyRuntimeNode", "dd/d1d/class_u_weapon_numeric_property_runtime_node.html", [
-            [ "UWeaponNumericPropertyOverriderRuntimeNode", "d5/def/class_u_weapon_numeric_property_overrider_runtime_node.html", null ]
+        [ "UWeaponMemberNode", "dd/d75/class_u_weapon_member_node.html", [
+          [ "UWeaponCustomFunctionRuntimeNode", "de/dca/class_u_weapon_custom_function_runtime_node.html", [
+            [ "UWeaponObjectFunctionNode", "d8/d0d/class_u_weapon_object_function_node.html", null ]
+          ] ],
+          [ "UWeaponPropertyRuntimeNode", "dc/d76/class_u_weapon_property_runtime_node.html", [
+            [ "UWeaponNumericPropertyRuntimeNode", "dd/d1d/class_u_weapon_numeric_property_runtime_node.html", [
+              [ "UWeaponNumericPropertyOverriderRuntimeNode", "d5/def/class_u_weapon_numeric_property_overrider_runtime_node.html", null ]
+            ] ],
+            [ "UWeaponObjectPropertyNode", "d4/d91/class_u_weapon_object_property_node.html", null ],
+            [ "UWeaponStructPropertyNode", "d8/d24/class_u_weapon_struct_property_node.html", null ]
           ] ]
+        ] ],
+        [ "UWeaponModAtSlotRuntimeNode", "dd/dbd/class_u_weapon_mod_at_slot_runtime_node.html", null ],
+        [ "UWeaponNotNode", "da/d31/class_u_weapon_not_node.html", null ],
+        [ "UWeaponSelectByMod", "d7/d9f/class_u_weapon_select_by_mod.html", [
+          [ "UWeaponSelectBoolByMod", "d2/df1/class_u_weapon_select_bool_by_mod.html", null ],
+          [ "UWeaponSelectClassByMod", "de/dd0/class_u_weapon_select_class_by_mod.html", null ],
+          [ "UWeaponSelectDoubleByMod", "d8/d8e/class_u_weapon_select_double_by_mod.html", null ],
+          [ "UWeaponSelectIntByMod", "d1/d74/class_u_weapon_select_int_by_mod.html", null ],
+          [ "UWeaponSelectObjectByMod", "db/d0a/class_u_weapon_select_object_by_mod.html", null ]
         ] ],
         [ "UWeaponSelectEnumRuntimeNode", "db/da1/class_u_weapon_select_enum_runtime_node.html", null ],
         [ "UWeaponSetMaterialNode", "d7/de0/class_u_weapon_set_material_node.html", null ],
-        [ "UWeaponSubgraphRuntimeNode", "d5/da1/class_u_weapon_subgraph_runtime_node.html", null ],
         [ "UWeaponValueRuntimeNode", "d2/d51/class_u_weapon_value_runtime_node.html", [
           [ "UWeaponBoolRuntimeNode", "df/d8a/class_u_weapon_bool_runtime_node.html", null ],
           [ "UWeaponDoubleRuntimeNode", "db/d2a/class_u_weapon_double_runtime_node.html", null ],

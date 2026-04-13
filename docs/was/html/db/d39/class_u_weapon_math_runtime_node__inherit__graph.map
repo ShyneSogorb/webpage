@@ -1,5 +1,5 @@
 <map id="UWeaponMathRuntimeNode" name="UWeaponMathRuntimeNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="228,155,416,181"/>
+<area shape="rect" id="Node000001" title="Base class for binary arithmetic operations on numeric values." alt="" coords="228,155,416,181"/>
 <area shape="rect" id="Node000004" href="$d2/d0a/class_u_weapon_add_node.html" title=" " alt="" coords="5,229,138,256"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="265,189,116,231,115,226,263,184"/>
 <area shape="rect" id="Node000005" href="$d7/d1d/class_u_weapon_divide_node.html" title=" " alt="" coords="162,229,309,256"/>

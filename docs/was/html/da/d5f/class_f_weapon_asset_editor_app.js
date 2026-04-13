@@ -1,12 +1,11 @@
 var class_f_weapon_asset_editor_app =
 [
-    [ "CopyRuntimeNodeFromGraphNode", "da/d5f/class_f_weapon_asset_editor_app.html#ac9428bfb0de858ae73ae6009b40709ec", null ],
-    [ "CopyRuntimePinFromGraphPin", "da/d5f/class_f_weapon_asset_editor_app.html#a7ba5c821b1459d0434af30c1a5f5762f", null ],
     [ "GetBaseToolkitName", "da/d5f/class_f_weapon_asset_editor_app.html#a56f32b968a404e401f38c0be8c56515c", null ],
     [ "GetDocumentationLink", "da/d5f/class_f_weapon_asset_editor_app.html#a34e15bd469f50be35b308ce5d7207eb9", null ],
     [ "GetNodeDetailsView", "da/d5f/class_f_weapon_asset_editor_app.html#a2fb38c1db21afe7374d2959a69d457c4", null ],
-    [ "GetPreviewComponent", "da/d5f/class_f_weapon_asset_editor_app.html#a1e8e7ecd51384f9a9fff44ddf8f8e4e2", null ],
-    [ "GetSelectedNodes", "da/d5f/class_f_weapon_asset_editor_app.html#a70b57a5e30f41ff092fae81b8e5d3dcb", null ],
+    [ "GetPreviewComponent", "da/d5f/class_f_weapon_asset_editor_app.html#ad8bb250ff716c5f3e9874cc3a6d7c30e", null ],
+    [ "GetPreviewScene", "da/d5f/class_f_weapon_asset_editor_app.html#a8595f8ba63c77abc14fdead8a9edcfb2", null ],
+    [ "GetSelectedNodes", "da/d5f/class_f_weapon_asset_editor_app.html#a0785f74bed73a668ef76d37a12630434", null ],
     [ "GetToolkitFName", "da/d5f/class_f_weapon_asset_editor_app.html#a3befcaa1cb47bc1353ad706124cf122d", null ],
     [ "GetWorkingAsset", "da/d5f/class_f_weapon_asset_editor_app.html#a36d861eb5440e8a7225761a8f8f2f02f", null ],
     [ "GetWorkingGraph", "da/d5f/class_f_weapon_asset_editor_app.html#ab29344e8844449807cbd7c8713615880", null ],
@@ -14,6 +13,10 @@ var class_f_weapon_asset_editor_app =
     [ "GetWorldCentricTabColorScale", "da/d5f/class_f_weapon_asset_editor_app.html#a4370342e1a9205aae5e2bff90e13b880", null ],
     [ "GetWorldCentricTabPrefix", "da/d5f/class_f_weapon_asset_editor_app.html#acbd7363bec3df129141df0577a47cacb", null ],
     [ "InitEditor", "da/d5f/class_f_weapon_asset_editor_app.html#a48bb201908d1984aa20e2dfb9dc05746", null ],
+    [ "LoadAssetToGraph", "da/d5f/class_f_weapon_asset_editor_app.html#ae845afd52222b40a5bb93822801e46a5", null ],
+    [ "NotifyPostChange", "da/d5f/class_f_weapon_asset_editor_app.html#ae0cef03eedb76d95cfe96d12efd4ee5d", null ],
+    [ "NotifyPostChange", "da/d5f/class_f_weapon_asset_editor_app.html#ae644c28120176022688a5eb7668d96ac", null ],
+    [ "OnAssetsSaved", "da/d5f/class_f_weapon_asset_editor_app.html#ac979307a86b262a5f038a9f175eed8cc", null ],
     [ "OnClose", "da/d5f/class_f_weapon_asset_editor_app.html#a5c47497565776f2e8519a5c5ecd121e2", null ],
     [ "OnGraphChanged", "da/d5f/class_f_weapon_asset_editor_app.html#a1b1899dae717a7efd303bdf475823aa3", null ],
     [ "OnGraphSelectionChanged", "da/d5f/class_f_weapon_asset_editor_app.html#acda82c76918dd5cb21c4592abdd92559", null ],
@@ -23,9 +26,10 @@ var class_f_weapon_asset_editor_app =
     [ "OnToolkitHostingStarted", "da/d5f/class_f_weapon_asset_editor_app.html#a67a1bedc4592f063d37579b475c9206e", null ],
     [ "RegisterTabSpawners", "da/d5f/class_f_weapon_asset_editor_app.html#a1b5215b7a5155f1524a863b414836e92", null ],
     [ "SaveAsset_Execute", "da/d5f/class_f_weapon_asset_editor_app.html#ad5cbe1d9042d505c7bfa48333c9d2bbe", null ],
-    [ "SetPreviewComponent", "da/d5f/class_f_weapon_asset_editor_app.html#a09de646e46cb2c0c3bf71f169ad0a49e", null ],
+    [ "SaveGraphToAsset", "da/d5f/class_f_weapon_asset_editor_app.html#aeaab25564740452f54ac5f0d2b303025", null ],
+    [ "SetPreviewComponent", "da/d5f/class_f_weapon_asset_editor_app.html#a0b0a283db7009a8e7a0654dffd7e7a7a", null ],
+    [ "SetPreviewScene", "da/d5f/class_f_weapon_asset_editor_app.html#a996383ad5f0449b035d28d4824564aa0", null ],
     [ "SetSelectedNodeDetailView", "da/d5f/class_f_weapon_asset_editor_app.html#a990ba2a026b5cce473790840cc43d78a", null ],
     [ "SetWorkingGraphUi", "da/d5f/class_f_weapon_asset_editor_app.html#a81fe5850ef36c8a2716ed96c129c3f53", null ],
-    [ "UpdateEditorGraphFromWorkingAsset", "da/d5f/class_f_weapon_asset_editor_app.html#a2768f3b4d77cc88a4ca188a8b7d49cda", null ],
-    [ "UpdateWorkingAssetFromEditorGraph", "da/d5f/class_f_weapon_asset_editor_app.html#a0812cfbe9f8fb719fa8c4c72a5a828a6", null ]
+    [ "UpdatePreview", "da/d5f/class_f_weapon_asset_editor_app.html#a6dc09f41571f97e58fd4c644e4f8fdb9", null ]
 ];

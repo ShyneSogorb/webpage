@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jamprobability_0',['JamProbability',['../da/db7/class_u_weapon_asset_default_characteristics.html#ab00548547182c7a7109538bcde32717d',1,'UWeaponAssetDefaultCharacteristics']]]
+  ['jumptodefinition_0',['JumpToDefinition',['../d6/d84/class_u_weapon_graph_node.html#afc1773e4cebed0f1c98cf4984841de62',1,'UWeaponGraphNode']]]
 ];

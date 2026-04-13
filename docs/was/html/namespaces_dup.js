@@ -11,8 +11,7 @@ var namespaces_dup =
       [ "Type", "db/ddc/namespace_e_nodes_actions.html#aaaba138c30340bcdfe1b80e5b05a9d8e", [
         [ "EDelete", "db/ddc/namespace_e_nodes_actions.html#aaaba138c30340bcdfe1b80e5b05a9d8ea6313f5a0d3863c1ac3d09bc66ee5b4e9", null ],
         [ "ERefresh", "db/ddc/namespace_e_nodes_actions.html#aaaba138c30340bcdfe1b80e5b05a9d8eafdbf6439cf3a7ddd8f5a6e950f1f324f", null ],
-        [ "EAddInput", "db/ddc/namespace_e_nodes_actions.html#aaaba138c30340bcdfe1b80e5b05a9d8ea753da4a6ee1e867169f30a53cf6b0632", null ],
-        [ "EAddOutput", "db/ddc/namespace_e_nodes_actions.html#aaaba138c30340bcdfe1b80e5b05a9d8ea858fe668704c59a5f07b5cbfc4338172", null ],
+        [ "EGoToDefinition", "db/ddc/namespace_e_nodes_actions.html#aaaba138c30340bcdfe1b80e5b05a9d8ea3546115a89f1ac22484417f8c2017082", null ],
         [ "ALL", "db/ddc/namespace_e_nodes_actions.html#aaaba138c30340bcdfe1b80e5b05a9d8ea076adf6e54f287b9477090b216ea0e66", null ]
       ] ],
       [ "operator&=", "db/ddc/namespace_e_nodes_actions.html#a61376ebfe8bc56c1435fb2c6f58b17a8", null ],
@@ -26,5 +25,7 @@ var namespaces_dup =
       [ "SetPropertyValueIfDefault", "d4/da6/namespace_f_modificator_customization_utils.html#a28c58e9595e70961e1fa31476820cf0e", null ],
       [ "TryDeduceName", "d4/da6/namespace_f_modificator_customization_utils.html#ae7b9d0c3648f21661d69b2ba0586097c", null ],
       [ "TrySetDefaultDescriptionValue", "d4/da6/namespace_f_modificator_customization_utils.html#a9f495c0935fc44bbddfc0caff33512c8", null ]
-    ] ]
+    ] ],
+    [ "LiteralObjectNodeUtils", "d9/d54/namespace_literal_object_node_utils.html", null ],
+    [ "WASUtils", "d9/d91/namespace_w_a_s_utils.html", null ]
 ];

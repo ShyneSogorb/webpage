@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Weaponry Assembly System", "index.html", [
+    [ "Deprecated List", "da/d58/deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -43,7 +44,22 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
-        [ "Typedefs", "functions_type.html", null ]
+        [ "Typedefs", "functions_type.html", null ],
+        [ "Enumerations", "functions_enum.html", null ],
+        [ "Enumerator", "functions_eval.html", null ],
+        [ "Related Symbols", "functions_rela.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -52,9 +68,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d5/d97/class_u_weapon_component.html#a08d114e1e566324f3caf7660d4b5d640",
-"d9/df8/class_u_weapon_architecture.html#a352bc0b78c12252dbbee28b35e31863d",
-"dd/d8f/struct_t_property_overrider.html#a3e8618f8090c9b0a73686e178b5bfcab"
+"d2/db8/_type_definition_8h.html#adf09d936e783289da29b6d6fd6d246a2",
+"d5/d97/class_u_weapon_component.html#a1e70e0c9f036ef12492f7f696eae2009",
+"d6/d84/class_u_weapon_graph_node.html#ae23557126cb8ba41be20703135fcecd8",
+"d6/d91/_enumerators_8h.html#af3d6e4ba65c689cc4806e65bd5f613cfa5fd3d6f02c1dc582f80e2af875af4561",
+"d9/df8/class_u_weapon_architecture.html#a3c4af5ff1a0a4e9b116b9a3985720fb8",
+"dc/de5/_property_overrider_blueprints_8h.html#aec09865a435df4615f8d9f17f144c3ed",
+"df/d06/class_u_weapon_asset.html#ac59ead814effbd2cec0cdfedcf1268c4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

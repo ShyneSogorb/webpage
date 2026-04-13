@@ -6,6 +6,8 @@ var class_a_weapon_asset_actor =
     [ "GetWeaponAssetComponent", "d2/d1f/class_a_weapon_asset_actor.html#a35bbaeb0152eb48786605945cd3633f0", null ],
     [ "OnConstruction", "d2/d1f/class_a_weapon_asset_actor.html#a459b74ab844a40f52e34000d0498de27", null ],
     [ "Refresh", "d2/d1f/class_a_weapon_asset_actor.html#a99cc04655cbe9771060804f489bed59d", null ],
-    [ "Tick", "d2/d1f/class_a_weapon_asset_actor.html#a2985396c6a4e2a443ac22adb62a8c006", null ],
+    [ "bShowcase", "d2/d1f/class_a_weapon_asset_actor.html#aa6eac0d9ba21797d64bb905e99adf409", null ],
+    [ "ModificationArchitecture", "d2/d1f/class_a_weapon_asset_actor.html#aac8b95c4c80d7e8eedff2eebad7886ba", null ],
+    [ "TimeSpacing", "d2/d1f/class_a_weapon_asset_actor.html#a80fa174e7f080624958323b92cf59726", null ],
     [ "WeaponAssetComponent", "d2/d1f/class_a_weapon_asset_actor.html#a64c7cd5dde4e411d233fc234d698cbc9", null ]
 ];

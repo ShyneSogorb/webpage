@@ -1,0 +1,40 @@
+<map id="C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" name="C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="696,5,977,96"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="592,491,697,517"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="839,97,839,239,839,324,835,353,824,380,807,404,787,426,739,461,692,486,689,482,736,457,783,422,803,401,819,377,830,352,834,324,834,239,834,97"/>
+<area shape="rect" id="Node000003" href="$de/d35/_weapon_asset_characteristics_8h.html" title=" " alt="" coords="397,144,630,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="699,99,568,141,567,136,697,94"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="874,144,1119,171"/>
+<area shape="poly" id="edge21_Node000001_Node000017" title=" " alt="" coords="906,94,966,133,963,138,903,99"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="620,169,706,187,740,201,763,217,780,251,784,288,776,325,760,363,739,398,715,431,670,482,666,478,711,427,735,395,756,360,771,324,778,287,775,253,758,220,738,205,705,193,619,174"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="207,227,330,253"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="476,174,322,224,320,219,475,169"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="354,227,463,253"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="499,173,438,219,435,215,496,169"/>
+<area shape="rect" id="Node000006" href="$d9/d6d/_modification_applied_8h.html" title=" " alt="" coords="34,219,183,261"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="443,174,199,221,198,215,442,169"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="487,227,749,253"/>
+<area shape="poly" id="edge20_Node000003_Node000016" title=" " alt="" coords="532,169,592,215,588,219,528,173"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="184,256,196,259,278,270,344,274,409,282,488,307,551,335,576,354,601,382,616,405,627,429,642,475,637,476,622,431,611,407,597,386,572,358,549,340,486,312,408,288,343,279,278,275,195,264,183,262"/>
+<area shape="rect" id="Node000007" href="$da/d54/_weapon_architecture_8h.html" title=" " alt="" coords="326,309,475,336"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="184,259,340,302,339,307,183,265"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="5,309,212,336"/>
+<area shape="poly" id="edge19_Node000006_Node000015" title=" " alt="" coords="111,262,111,293,106,293,106,262"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="460,334,513,353,563,382,586,403,606,428,635,475,630,478,602,431,583,407,560,386,510,357,458,339"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="474,589,612,616"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="450,334,488,353,505,366,520,382,533,406,543,431,553,484,554,534,550,574,545,574,548,534,547,484,538,433,528,408,516,386,502,370,485,357,447,339"/>
+<area shape="rect" id="Node000009" href="$d2/d80/_modification_struct_data_8h.html" title=" " alt="" coords="102,384,272,427"/>
+<area shape="poly" id="edge11_Node000007_Node000009" title=" " alt="" coords="368,339,258,380,256,375,366,334"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="295,392,506,419"/>
+<area shape="poly" id="edge18_Node000007_Node000014" title=" " alt="" coords="403,336,403,377,398,377,398,336"/>
+<area shape="poly" id="edge12_Node000009_Node000002" title=" " alt="" coords="273,422,577,486,576,491,272,427"/>
+<area shape="rect" id="Node000010" href="$d5/d8d/_modification_description_data_asset_8h.html" title=" " alt="" coords="267,475,470,533"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="227,425,302,465,300,469,225,430"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="17,491,243,517"/>
+<area shape="poly" id="edge17_Node000009_Node000013" title=" " alt="" coords="177,428,147,479,143,476,173,426"/>
+<area shape="poly" id="edge14_Node000010_Node000008" title=" " alt="" coords="422,532,508,579,506,584,419,536"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="287,589,450,616"/>
+<area shape="poly" id="edge15_Node000010_Node000011" title=" " alt="" coords="371,534,371,574,366,574,366,534"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="77,581,262,624"/>
+<area shape="poly" id="edge16_Node000010_Node000012" title=" " alt="" coords="311,536,227,577,225,572,308,531"/>
+</map>

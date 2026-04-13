@@ -1,9 +1,11 @@
 <map id="UWeaponStaticMeshRuntimeNode" name="UWeaponStaticMeshRuntimeNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="6,229,230,256"/>
-<area shape="rect" id="Node000002" href="$df/d3f/class_u_weapon_component_runtime_node.html" title=" " alt="" coords="5,155,231,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,197,121,229,115,229,115,197"/>
-<area shape="rect" id="Node000003" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="39,80,197,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,122,121,154,115,154,115,122"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="83,5,153,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="121,48,121,80,115,80,115,48"/>
+<area shape="rect" id="Node000001" title="Generates a static mesh component from a static mesh asset." alt="" coords="625,35,850,61"/>
+<area shape="rect" id="Node000002" href="$df/d3f/class_u_weapon_component_runtime_node.html" title=" " alt="" coords="340,5,566,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="582,29,625,34,625,39,581,35"/>
+<area shape="rect" id="Node000003" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="123,5,281,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="297,16,340,16,340,21,297,21"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,75,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="90,16,122,16,122,21,90,21"/>
+<area shape="rect" id="Node000005" href="$d9/dcd/class_f_weapon_runtime_node_kernel.html" title=" " alt="" coords="329,56,577,99"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="593,60,625,57,625,62,593,66"/>
 </map>

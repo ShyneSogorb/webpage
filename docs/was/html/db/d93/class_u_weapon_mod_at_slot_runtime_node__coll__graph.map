@@ -1,11 +1,7 @@
 <map id="UWeaponModAtSlotRuntimeNode" name="UWeaponModAtSlotRuntimeNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,172,225,199"/>
-<area shape="rect" id="Node000002" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="148,81,306,108"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,120,133,174,129,169,198,116"/>
-<area shape="rect" id="Node000004" href="$dd/d5d/class_u_weapon_runtime_pin.html" title=" " alt="" coords="248,172,395,199"/>
-<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="218,123,217,136,221,147,234,160,250,169,248,174,230,164,216,149,211,136,213,123"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="270,5,339,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="282,45,242,83,238,79,279,41"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="319,45,335,85,347,132,347,149,334,173,330,170,342,147,342,132,329,86,314,46"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="295,163,281,150,238,110,242,107,284,146,298,159"/>
+<area shape="rect" id="Node000001" title="Reads modification index at specific architecture slot." alt="" coords="5,155,225,181"/>
+<area shape="rect" id="Node000002" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="36,80,194,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,122,118,154,112,154,112,122"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="80,5,150,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,48,118,80,112,80,112,48"/>
 </map>

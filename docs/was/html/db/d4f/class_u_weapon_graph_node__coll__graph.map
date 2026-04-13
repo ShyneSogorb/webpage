@@ -1,0 +1,9 @@
+<map id="UWeaponGraphNode" name="UWeaponGraphNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="11,172,156,199"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,119,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,123,83,171,78,172,66,124"/>
+<area shape="rect" id="Node000003" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="143,81,301,108"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,119,105,174,102,169,188,115"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="187,5,257,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="225,47,225,81,219,81,219,47"/>
+</map>

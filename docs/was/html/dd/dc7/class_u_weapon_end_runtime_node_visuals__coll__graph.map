@@ -1,13 +1,9 @@
 <map id="UWeaponEndRuntimeNodeVisuals" name="UWeaponEndRuntimeNodeVisuals">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,248,230,275"/>
-<area shape="rect" id="Node000002" href="$d5/d71/class_u_weapon_end_runtime_node.html" title=" " alt="" coords="27,172,208,199"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,214,120,248,115,248,115,214"/>
-<area shape="rect" id="Node000003" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="154,81,313,108"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="206,120,136,174,132,169,203,116"/>
-<area shape="rect" id="Node000005" href="$dd/d5d/class_u_weapon_runtime_pin.html" title=" " alt="" coords="232,172,379,199"/>
-<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="218,122,215,135,218,147,230,160,247,169,244,174,227,164,213,149,209,135,213,121"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="276,5,346,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="289,45,248,83,245,79,285,41"/>
-<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="329,45,340,67,348,93,351,122,345,149,337,163,326,173,322,170,333,159,340,147,346,121,343,95,335,69,324,47"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="284,162,242,110,246,107,288,158"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,230,256"/>
+<area shape="rect" id="Node000002" href="$d5/d71/class_u_weapon_end_runtime_node.html" title="Base class for end&#45;of&#45;chain execution nodes." alt="" coords="27,155,208,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,197,120,229,115,229,115,197"/>
+<area shape="rect" id="Node000003" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="38,80,197,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,122,120,154,115,154,115,122"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="83,5,152,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="120,48,120,80,115,80,115,48"/>
 </map>

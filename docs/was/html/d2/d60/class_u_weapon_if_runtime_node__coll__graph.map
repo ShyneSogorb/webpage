@@ -1,11 +1,7 @@
 <map id="UWeaponIfRuntimeNode" name="UWeaponIfRuntimeNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,172,172,199"/>
-<area shape="rect" id="Node000002" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="104,81,262,108"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,121,104,173,100,169,157,117"/>
-<area shape="rect" id="Node000004" href="$dd/d5d/class_u_weapon_runtime_pin.html" title=" " alt="" coords="195,172,342,199"/>
-<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="171,123,169,135,173,147,186,160,202,169,200,174,182,164,168,149,164,136,166,122"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="226,5,295,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="238,45,198,83,194,79,235,41"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="275,45,291,85,303,132,303,149,286,173,281,170,298,147,298,132,286,86,270,46"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="244,163,193,110,197,107,248,159"/>
+<area shape="rect" id="Node000001" title="Conditional branch node selecting between two execution paths based on boolean condition." alt="" coords="5,155,172,181"/>
+<area shape="rect" id="Node000002" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="9,80,168,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,122,91,154,86,154,86,122"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="54,5,123,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,48,91,80,86,80,86,48"/>
 </map>

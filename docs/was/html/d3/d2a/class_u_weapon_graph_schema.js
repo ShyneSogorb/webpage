@@ -10,5 +10,9 @@ var class_u_weapon_graph_schema =
     [ "CreateAutomaticConversionNodeAndConnections", "d3/d2a/class_u_weapon_graph_schema.html#a569c4a41caacb825603f7dbc5bea3201", null ],
     [ "GetFieldCategory", "d3/d2a/class_u_weapon_graph_schema.html#aeb52b078a1de86b651467f7cb1d64de1", null ],
     [ "GetGraphContextActions", "d3/d2a/class_u_weapon_graph_schema.html#abbbe3e0a147fe570c3d3a20479139e37", null ],
-    [ "IsValidFunctionParam", "d3/d2a/class_u_weapon_graph_schema.html#ab8718335f7addc5d37ff195a8e4df89e", null ]
+    [ "IsValidFunctionParam", "d3/d2a/class_u_weapon_graph_schema.html#ab8718335f7addc5d37ff195a8e4df89e", null ],
+    [ "TryAppendMemberAsNumeric", "d3/d2a/class_u_weapon_graph_schema.html#a818f4d7b576d296148d797d89d906097", null ],
+    [ "TryAppendMemberAsObject", "d3/d2a/class_u_weapon_graph_schema.html#a395ee71541c420ba54da5c437cf621c7", null ],
+    [ "TryAppendMemberAsOverridableNumeric", "d3/d2a/class_u_weapon_graph_schema.html#a5126b970d1ac5e1b25af0f391a35a112", null ],
+    [ "TryAppendMemberAsStruct", "d3/d2a/class_u_weapon_graph_schema.html#a400bd6b2c0cfe4f5bc6eadaaf78f7469", null ]
 ];

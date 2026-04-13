@@ -1,0 +1,21 @@
+<map id="C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" name="C:/Users/user/Documents/UnrealProjects/FacilityBreach/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="28,5,342,96"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="71,251,176,277"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,97,153,145,131,236,126,234,148,143,164,96"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,349,144,376"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,98,99,160,78,197,62,235,58,261,58,287,68,334,62,335,53,287,53,260,57,234,73,195,94,157,141,95"/>
+<area shape="rect" id="Node000004" href="$d2/d80/_modification_struct_data_8h.html" title=" " alt="" coords="162,144,331,187"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="212,95,230,129,226,132,207,98"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="355,152,565,179"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="296,94,416,143,414,148,294,99"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="222,189,153,243,150,239,219,185"/>
+<area shape="rect" id="Node000005" href="$d5/d8d/_modification_description_data_asset_8h.html" title=" " alt="" coords="201,235,404,293"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="261,186,281,220,276,223,256,188"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="428,251,654,277"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="311,185,489,243,488,248,309,190"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="236,296,119,345,117,341,234,291"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="398,349,562,376"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="356,292,444,339,442,344,354,296"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="188,341,374,384"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="299,294,292,327,286,326,294,293"/>
+</map>
