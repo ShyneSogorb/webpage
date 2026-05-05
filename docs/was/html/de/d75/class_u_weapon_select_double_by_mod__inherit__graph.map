@@ -1,9 +1,0 @@
-<map id="UWeaponSelectDoubleByMod" name="UWeaponSelectDoubleByMod">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,229,203,256"/>
-<area shape="rect" id="Node000002" href="$d7/d9f/class_u_weapon_select_by_mod.html" title=" " alt="" coords="26,155,182,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,197,107,229,101,229,101,197"/>
-<area shape="rect" id="Node000003" href="$de/dde/class_u_weapon_runtime_node.html" title=" " alt="" coords="25,80,183,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,122,107,154,101,154,101,122"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="69,5,139,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="107,48,107,80,101,80,101,48"/>
-</map>

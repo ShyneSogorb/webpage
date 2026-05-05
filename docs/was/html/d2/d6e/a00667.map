@@ -1,0 +1,11 @@
+<map id="UWeaponSkeletalMeshRuntimeNode" name="UWeaponSkeletalMeshRuntimeNode">
+<area shape="rect" id="Node000001" title="Generates a skeletal mesh component from a loaded skeletal mesh." alt="" coords="638,35,876,61"/>
+<area shape="rect" id="Node000002" href="$df/d37/a00652.html" title=" " alt="" coords="347,5,572,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="588,29,638,34,638,39,588,34"/>
+<area shape="rect" id="Node000003" href="$db/d20/a00980.html" title=" " alt="" coords="123,5,281,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="297,16,346,16,346,21,297,21"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,75,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="90,16,122,16,122,21,90,21"/>
+<area shape="rect" id="Node000005" href="$dd/d1f/a00648.html" title=" " alt="" coords="329,56,590,99"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="606,60,638,57,638,62,606,66"/>
+</map>

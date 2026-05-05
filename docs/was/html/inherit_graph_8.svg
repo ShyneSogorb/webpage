@@ -20,7 +20,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="d7/de5/class_f_weapon_viewport_client.html" target="_top" xlink:title=" ">
+<g id="a_Node000001"><a xlink:href="d1/d8c/a00600.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="289.25,-77 168.25,-77 168.25,-57 289.25,-57 289.25,-77"/>
 <text xml:space="preserve" text-anchor="middle" x="228.75" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">FWeaponViewportClient</text>
 </a>
@@ -47,7 +47,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="d7/dcb/class_f_ammo_type_list.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="d4/ddf/a00488.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="272,-30 185.5,-30 185.5,-10 272,-10 272,-30"/>
 <text xml:space="preserve" text-anchor="middle" x="228.75" y="-16.5" font-family="Helvetica,sans-Serif" font-size="10.00">FAmmoTypeList</text>
 </a>

@@ -1,9 +1,9 @@
 var concepts =
 [
-    [ "AnyNumeric", "dd/de0/concept_any_numeric.html", null ],
-    [ "AnyObjectType", "d5/d94/concept_any_object_type.html", null ],
-    [ "TAnyInt", "da/dbd/concept_t_any_int.html", null ],
-    [ "TInt", "d5/d50/concept_t_int.html", null ],
-    [ "TSInt", "dc/d9d/concept_t_s_int.html", null ],
-    [ "TUInt", "d8/db9/concept_t_u_int.html", null ]
+    [ "AnyNumeric", "de/d41/a01030.html", null ],
+    [ "AnyObjectType", "d0/daa/a01029.html", null ],
+    [ "TAnyInt", "db/d23/a01025.html", null ],
+    [ "TInt", "de/d02/a01026.html", null ],
+    [ "TSInt", "db/d08/a01028.html", null ],
+    [ "TUInt", "dd/dfd/a01027.html", null ]
 ];

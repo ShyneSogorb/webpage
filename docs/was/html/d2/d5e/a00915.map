@@ -1,0 +1,17 @@
+<map id="UWeaponSelectByMod" name="UWeaponSelectByMod">
+<area shape="rect" id="Node000001" title=" " alt="" coords="329,107,485,133"/>
+<area shape="rect" id="Node000004" href="$dc/d2b/a00936.html" title=" " alt="" coords="541,5,723,32"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="438,95,482,67,532,42,566,30,567,35,534,46,484,72,441,100"/>
+<area shape="rect" id="Node000005" href="$de/d62/a00924.html" title=" " alt="" coords="537,56,727,83"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="484,100,569,81,570,86,485,105"/>
+<area shape="rect" id="Node000006" href="$d8/dbb/a00932.html" title=" " alt="" coords="533,107,731,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="501,117,533,117,533,123,501,123"/>
+<area shape="rect" id="Node000007" href="$dd/d38/a00928.html" title=" " alt="" coords="546,157,718,184"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="485,135,570,154,569,159,484,140"/>
+<area shape="rect" id="Node000008" href="$d6/d82/a00920.html" title=" " alt="" coords="535,208,729,235"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="441,140,484,168,534,194,567,205,566,210,532,198,482,173,438,145"/>
+<area shape="rect" id="Node000002" href="$db/d20/a00980.html" title=" " alt="" coords="123,107,281,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="297,117,328,117,328,123,297,123"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,107,75,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,117,122,117,122,123,90,123"/>
+</map>

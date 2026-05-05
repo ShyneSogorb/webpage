@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "Weaponry Assembly System", "index.html", [
-    [ "Deprecated List", "da/d58/deprecated.html", null ],
+    [ "Deprecated List", "d9/d34/a00476.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -49,18 +49,6 @@ var NAVTREE =
         [ "Enumerator", "functions_eval.html", null ],
         [ "Related Symbols", "functions_rela.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
     ] ]
   ] ]
 ];
@@ -68,13 +56,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d2/db8/_type_definition_8h.html#adf09d936e783289da29b6d6fd6d246a2",
-"d5/d97/class_u_weapon_component.html#a1e70e0c9f036ef12492f7f696eae2009",
-"d6/d84/class_u_weapon_graph_node.html#ae23557126cb8ba41be20703135fcecd8",
-"d6/d91/_enumerators_8h.html#af3d6e4ba65c689cc4806e65bd5f613cfa5fd3d6f02c1dc582f80e2af875af4561",
-"d9/df8/class_u_weapon_architecture.html#a3c4af5ff1a0a4e9b116b9a3985720fb8",
-"dc/de5/_property_overrider_blueprints_8h.html#aec09865a435df4615f8d9f17f144c3ed",
-"df/d06/class_u_weapon_asset.html#ac59ead814effbd2cec0cdfedcf1268c4"
+"d2/d5e/a00860.html#a6570bda0d145802fd4051299969ff9c0",
+"d7/d76/a00992.html#a483acd4295865c94773ec95a82ad5fa7",
+"da/dd6/a00896.html#a11332f4bbb7a05fa377c253f244063c3",
+"de/d42/a00780.html#a6a5e90cb235604086c1b501adb79351e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
