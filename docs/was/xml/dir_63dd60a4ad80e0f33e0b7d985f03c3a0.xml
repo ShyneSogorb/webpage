@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_63dd60a4ad80e0f33e0b7d985f03c3a0" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas</compoundname>
+    <innerfile refid="d3/d0b/_weapon_graph_schema_8h">WeaponGraphSchema.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Schemas/"/>
+  </compounddef>
+</doxygen>

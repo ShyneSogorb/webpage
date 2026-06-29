@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d9/dcd/class_f_weapon_runtime_node_kernel" kind="class" language="C++" prot="public">
+    <compoundname>FWeaponRuntimeNodeKernel</compoundname>
+    <includes local="no">WeaponComponentRuntimeNode.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Derived</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d9/dcd/class_f_weapon_runtime_node_kernel_1a4f389efb19ed3b9a3705a61bda29b5a6" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponRuntimeNodeKernel&lt; Derived &gt;::ExecuteInternal</definition>
+        <argsstring>() const</argsstring>
+        <name>ExecuteInternal</name>
+        <qualifiedname>FWeaponRuntimeNodeKernel::ExecuteInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponComponentRuntimeNode.h" line="21" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponComponentRuntimeNode.h" bodystart="21" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Helper kernel for component node execution with static derived dispatch. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponComponentRuntimeNode.h" line="18" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponComponentRuntimeNode.h" bodystart="19" bodyend="29"/>
+    <listofallmembers>
+      <member refid="d9/dcd/class_f_weapon_runtime_node_kernel_1a4f389efb19ed3b9a3705a61bda29b5a6" prot="protected" virt="non-virtual"><scope>FWeaponRuntimeNodeKernel</scope><name>ExecuteInternal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

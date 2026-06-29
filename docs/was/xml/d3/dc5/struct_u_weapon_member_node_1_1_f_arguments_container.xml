@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d3/dc5/struct_u_weapon_member_node_1_1_f_arguments_container" kind="struct" language="C++" prot="protected">
+    <compoundname>UWeaponMemberNode::FArgumentsContainer</compoundname>
+    <includes local="no">WeaponMemberNode.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d3/dc5/struct_u_weapon_member_node_1_1_f_arguments_container_1a19934e5deec9cc5324b7c725a1eeea26" prot="protected" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* UWeaponMemberNode::FArgumentsContainer::Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <qualifiedname>UWeaponMemberNode::FArgumentsContainer::Data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/WeaponMemberNode.h" line="60" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/WeaponMemberNode.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/dc5/struct_u_weapon_member_node_1_1_f_arguments_container_1a43fcaaad17b7b8e7be60f88921cd30a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UWeaponMemberNode::FArgumentsContainer::FArgumentsContainer</definition>
+        <argsstring>(size_t Size, uint32 Alignment)</argsstring>
+        <name>FArgumentsContainer</name>
+        <qualifiedname>UWeaponMemberNode::FArgumentsContainer::FArgumentsContainer</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>Size</declname>
+        </param>
+        <param>
+          <type>uint32</type>
+          <declname>Alignment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/WeaponMemberNode.h" line="49" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/WeaponMemberNode.h" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/dc5/struct_u_weapon_member_node_1_1_f_arguments_container_1a3dcf66b7ee7f3d89de25d1c9047a241d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UWeaponMemberNode::FArgumentsContainer::~FArgumentsContainer</definition>
+        <argsstring>()</argsstring>
+        <name>~FArgumentsContainer</name>
+        <qualifiedname>UWeaponMemberNode::FArgumentsContainer::~FArgumentsContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/WeaponMemberNode.h" line="55" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/WeaponMemberNode.h" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/dc5/struct_u_weapon_member_node_1_1_f_arguments_container_1ad226a9ac52e1fe5a635de1a56a9a700f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * UWeaponMemberNode::FArgumentsContainer::GetParams</definition>
+        <argsstring>() const</argsstring>
+        <name>GetParams</name>
+        <qualifiedname>UWeaponMemberNode::FArgumentsContainer::GetParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/WeaponMemberNode.h" line="53" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/WeaponMemberNode.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/WeaponMemberNode.h" line="47" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/WeaponMemberNode.h" bodystart="48" bodyend="61"/>
+    <listofallmembers>
+      <member refid="d3/dc5/struct_u_weapon_member_node_1_1_f_arguments_container_1a19934e5deec9cc5324b7c725a1eeea26" prot="protected" virt="non-virtual"><scope>UWeaponMemberNode::FArgumentsContainer</scope><name>Data</name></member>
+      <member refid="d3/dc5/struct_u_weapon_member_node_1_1_f_arguments_container_1a43fcaaad17b7b8e7be60f88921cd30a0" prot="public" virt="non-virtual"><scope>UWeaponMemberNode::FArgumentsContainer</scope><name>FArgumentsContainer</name></member>
+      <member refid="d3/dc5/struct_u_weapon_member_node_1_1_f_arguments_container_1ad226a9ac52e1fe5a635de1a56a9a700f" prot="public" virt="non-virtual"><scope>UWeaponMemberNode::FArgumentsContainer</scope><name>GetParams</name></member>
+      <member refid="d3/dc5/struct_u_weapon_member_node_1_1_f_arguments_container_1a3dcf66b7ee7f3d89de25d1c9047a241d" prot="public" virt="non-virtual"><scope>UWeaponMemberNode::FArgumentsContainer</scope><name>~FArgumentsContainer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

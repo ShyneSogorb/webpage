@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_6152d4da528c9c5421a234dbcfb34d5e" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors</compoundname>
+    <innerfile refid="d6/d90/_weapon_asset_actor_8h">WeaponAssetActor.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,911 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d2/d3b/struct_f_pin_value" kind="struct" language="C++" prot="public">
+    <compoundname>FPinValue</compoundname>
+    <includes local="no">TypeDefinition.h</includes>
+    <sectiondef kind="private-type">
+      <memberdef kind="enum" id="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409cce" prot="private" static="no" strong="no">
+        <type>uint64</type>
+        <name>EPointerElementType</name>
+        <qualifiedname>FPinValue::EPointerElementType</qualifiedname>
+        <enumvalue id="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea45fb84e54cdd1e3fa061b95607dcb7ef" prot="private">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea2c21edb8a814b4f67f2e4a3ffd100d11" prot="private">
+          <name>Other</name>
+          <initializer>=	BitAtPositionLeftStart&lt;0&gt;()</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea1f1703a8f4687b1f199835db2ca6d1d3" prot="private">
+          <name>Double</name>
+          <initializer>=	BitAtPositionLeftStart&lt;1&gt;()</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea43bd97531266fc1dfa13714e61437489" prot="private">
+          <name>Int64</name>
+          <initializer>=	BitAtPositionLeftStart&lt;2&gt;()</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea4f0ecd586960c4e9ad0d681461ed9514" prot="private">
+          <name>UInt64</name>
+          <initializer>=	BitAtPositionLeftStart&lt;3&gt;()</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409cceaab06ea7cc8b8dfa7ab94db71abdda049" prot="private">
+          <name>TypeMask</name>
+          <initializer>= Other | Double | Int64 | UInt64</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409cceab79c7eb663d09666b4e095e895b4a346" prot="private">
+          <name>Array</name>
+          <initializer>=		BitAtPositionRightStart&lt;1&gt;()</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409cceaf061db869c902f2e7d7f839ba127a7c3" prot="private">
+          <name>Set</name>
+          <initializer>=		BitAtPositionRightStart&lt;2&gt;()</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea41ca40919a3aea63b32122bac53f51cb" prot="private">
+          <name>Map</name>
+          <initializer>=		BitAtPositionRightStart&lt;3&gt;()</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea5e0b42ca121caac868ab2925c1bd6c9a" prot="private">
+          <name>SpecialCase</name>
+          <initializer>= Array | Set | Map</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea44404172d6dd27f5ebca2732b1d24d3a" prot="private">
+          <name>PropertyDeleter</name>
+          <initializer>= BitAtPositionRightStart&lt;4&gt;()</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea2f194a8a35def02ff8d42fe46a17d1f2" prot="private">
+          <name>Pointer</name>
+          <initializer>= Other</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="378" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="379" bodyend="396"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/d3b/struct_f_pin_value_1aa5c536e8071fdcec11d89964bf647fb1" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* FPinValue::Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <qualifiedname>FPinValue::Data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="370" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d3b/struct_f_pin_value_1a384d6fdbc75a7576aa4f42a384474a47" prot="private" static="no" mutable="no">
+        <type>union <ref refid="d2/d3b/struct_f_pin_value" kindref="compound">FPinValue</ref></type>
+        <definition>union FPinValue FPinValue::Deleter</definition>
+        <argsstring></argsstring>
+        <name>Deleter</name>
+        <qualifiedname>FPinValue::Deleter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="374" column="9"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d3b/struct_f_pin_value_1ac2e2ea309b1f492af459d1f4fcdb10ec" prot="private" static="no" mutable="no">
+        <type>uint64</type>
+        <definition>uint64 FPinValue::Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <qualifiedname>FPinValue::Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="376" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="376" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d2/d3b/struct_f_pin_value_1accf82d934fad6820022022924c19152b" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* FPinValue::Lambda) (void *)</definition>
+        <argsstring>)(void *)</argsstring>
+        <name>Lambda</name>
+        <qualifiedname>FPinValue::Lambda</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="372" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d3b/struct_f_pin_value_1af0cc7b3fac1f26eed82d91b43c2dedeb" prot="public" static="no" mutable="no">
+        <type>FProperty *</type>
+        <definition>FProperty* FPinValue::Property</definition>
+        <argsstring></argsstring>
+        <name>Property</name>
+        <qualifiedname>FPinValue::Property</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="373" column="11" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="373" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1ac128c02bba92d0f0fed4c8f1b658c779" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FPinValue::FPinValue</definition>
+        <argsstring>()</argsstring>
+        <name>FPinValue</name>
+        <qualifiedname>FPinValue::FPinValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="96" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1aefc70f575c01a6d264e17d718cbf6f20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPinValue::FPinValue</definition>
+        <argsstring>(const FPinValue &amp;Other)=delete</argsstring>
+        <name>FPinValue</name>
+        <qualifiedname>FPinValue::FPinValue</qualifiedname>
+        <param>
+          <type>const <ref refid="d2/d3b/struct_f_pin_value" kindref="compound">FPinValue</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a1f63189009293202bf7e10941528939d" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>FPinValue::FPinValue</definition>
+        <argsstring>(FPinValue &amp;&amp;Other) noexcept</argsstring>
+        <name>FPinValue</name>
+        <qualifiedname>FPinValue::FPinValue</qualifiedname>
+        <param>
+          <type><ref refid="d2/d3b/struct_f_pin_value" kindref="compound">FPinValue</ref> &amp;&amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="108" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="108" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a1fb100cf73d716251275c0363bcb70a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>FPinValue::FPinValue</definition>
+        <argsstring>(T &amp;&amp;Value)</argsstring>
+        <name>FPinValue</name>
+        <qualifiedname>FPinValue::FPinValue</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="91" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1aade6232847a2116eb3f7bc48efa620e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FPinValue::~FPinValue</definition>
+        <argsstring>()</argsstring>
+        <name>~FPinValue</name>
+        <qualifiedname>FPinValue::~FPinValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="100" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a28177fcb5113810a31edb5f9caab622d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void FPinValue::Emplace</definition>
+        <argsstring>(T &amp;&amp;Value)</argsstring>
+        <name>Emplace</name>
+        <qualifiedname>FPinValue::Emplace</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="182" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="182" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1abe091cd21fa058c9360ed4a071c257c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FPinValue::EmplaceFromProperty</definition>
+        <argsstring>(FProperty *InProperty, const void *InData)</argsstring>
+        <name>EmplaceFromProperty</name>
+        <qualifiedname>FPinValue::EmplaceFromProperty</qualifiedname>
+        <param>
+          <type>FProperty *</type>
+          <declname>InProperty</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>InData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copies data as a valid type for the property <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>InProperty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Property pointer </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>InData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value of the data to copy in this struct </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="121" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="121" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1ad4379c054aedf4458c53982d5f7e1dff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCENOINLINE T *</type>
+        <definition>FORCENOINLINE T * FPinValue::Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <qualifiedname>FPinValue::Get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="130" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a9cd833beb0054f600720e8907163acee" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCENOINLINE const T *</type>
+        <definition>FORCENOINLINE const T * FPinValue::Get</definition>
+        <argsstring>() const</argsstring>
+        <name>Get</name>
+        <qualifiedname>FPinValue::Get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="129" column="34" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1af4df2b6aef615f6a9e09632213a7db3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCENOINLINE T *</type>
+        <definition>FORCENOINLINE T * FPinValue::GetChecked</definition>
+        <argsstring>()</argsstring>
+        <name>GetChecked</name>
+        <qualifiedname>FPinValue::GetChecked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="133" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="133" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a05cb5b0f72f9982266b0db1c36e586ad" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCENOINLINE const T *</type>
+        <definition>FORCENOINLINE const T * FPinValue::GetChecked</definition>
+        <argsstring>() const</argsstring>
+        <name>GetChecked</name>
+        <qualifiedname>FPinValue::GetChecked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="132" column="34" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1acc75c5bbd8bace89f57ee4c773ee9972" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCENOINLINE T</type>
+        <definition>FORCENOINLINE T FPinValue::GetCopy</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCopy</name>
+        <qualifiedname>FPinValue::GetCopy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="138" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1aa8d3d930927ea0b5cbea526b768a5b36" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * FPinValue::GetData</definition>
+        <argsstring>() const</argsstring>
+        <name>GetData</name>
+        <qualifiedname>FPinValue::GetData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="193" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="193" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a2ca10add5c730146455baedc9213d013" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T FPinValue::GetNumeric</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNumeric</name>
+        <qualifiedname>FPinValue::GetNumeric</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="164" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="164" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a628062b941d8cc83af553631a24567d1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ENumericType</type>
+        <definition>ENumericType FPinValue::GetNumericType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNumericType</name>
+        <qualifiedname>FPinValue::GetNumericType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="152" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="152" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a48a0ce8e0fabccd306dde1c11eb28716" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCENOINLINE T &amp;</type>
+        <definition>FORCENOINLINE T &amp; FPinValue::GetRef</definition>
+        <argsstring>()</argsstring>
+        <name>GetRef</name>
+        <qualifiedname>FPinValue::GetRef</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="136" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a03c0a2f045934b9eda583f3fe41d97d3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCENOINLINE const T &amp;</type>
+        <definition>FORCENOINLINE const T &amp; FPinValue::GetRef</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRef</name>
+        <qualifiedname>FPinValue::GetRef</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="135" column="34" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1af1699ed12d9200c198a498aca7ea16d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T FPinValue::GetTemp</definition>
+        <argsstring>()</argsstring>
+        <name>GetTemp</name>
+        <qualifiedname>FPinValue::GetTemp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="141" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="141" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a00d5d6e11039e817291f148afccbcf24" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FPinValue::IsArray</definition>
+        <argsstring>() const</argsstring>
+        <name>IsArray</name>
+        <qualifiedname>FPinValue::IsArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="222" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="222" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a46aad29ce0e70b63099d52404e98453c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FPinValue::IsLambdaDeleted</definition>
+        <argsstring>() const</argsstring>
+        <name>IsLambdaDeleted</name>
+        <qualifiedname>FPinValue::IsLambdaDeleted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="217" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="217" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a35b2f60ebb417c315449fb2a446020d7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FPinValue::IsNumeric</definition>
+        <argsstring>() const</argsstring>
+        <name>IsNumeric</name>
+        <qualifiedname>FPinValue::IsNumeric</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check if the stored type is numeric. This includes numeric arrays and numeric property-backed values. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="207" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="207" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1ab7ba5944530eaad4217921150a61cba1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FPinValue::IsPropertyDeleted</definition>
+        <argsstring>() const</argsstring>
+        <name>IsPropertyDeleted</name>
+        <qualifiedname>FPinValue::IsPropertyDeleted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="212" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="212" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a426c31482402d72cdb65c62eb4d66cf5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FPinValue::IsSingleValue</definition>
+        <argsstring>() const</argsstring>
+        <name>IsSingleValue</name>
+        <qualifiedname>FPinValue::IsSingleValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="227" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="227" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a348e2b2b741ea5077d04ad549566bbdc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FPinValue::IsSpecialCase</definition>
+        <argsstring>() const</argsstring>
+        <name>IsSpecialCase</name>
+        <qualifiedname>FPinValue::IsSpecialCase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="232" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="232" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1ae8b9d8006c0d75b0a89de82803c63842" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FPinValue::IsValid</definition>
+        <argsstring>() const</argsstring>
+        <name>IsValid</name>
+        <qualifiedname>FPinValue::IsValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="198" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="198" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a6361e5b928b58dab56e52b5dc2708e78" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FPinValue::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>FPinValue::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="188" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="188" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1aa43584d70b3e679d58a11da081a0dbf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d2/d3b/struct_f_pin_value" kindref="compound">FPinValue</ref> &amp;</type>
+        <definition>FPinValue &amp; FPinValue::operator=</definition>
+        <argsstring>(const FPinValue &amp;Other)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>FPinValue::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="d2/d3b/struct_f_pin_value" kindref="compound">FPinValue</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="106" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1ab57a0769e6dc2817c415a9d555a88baa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void FPinValue::Construct</definition>
+        <argsstring>(T &amp;&amp;Value)</argsstring>
+        <name>Construct</name>
+        <qualifiedname>FPinValue::Construct</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="240" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="240" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a8f7f01b037575ded1e366620384d7531" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void FPinValue::Construct_Impl</definition>
+        <argsstring>(T &amp;&amp;Value)</argsstring>
+        <name>Construct_Impl</name>
+        <qualifiedname>FPinValue::Construct_Impl</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="276" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="276" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a9004482336a312764025c6b0bfff7413" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FPinValue::ConstructFromProperty</definition>
+        <argsstring>(const void *InData)</argsstring>
+        <name>ConstructFromProperty</name>
+        <qualifiedname>FPinValue::ConstructFromProperty</qualifiedname>
+        <param>
+          <type>const void *</type>
+          <declname>InData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="335" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="335" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a8186df7bde2a5ff4d3b219f4dad14cc3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FPinValue::Destruct</definition>
+        <argsstring>()</argsstring>
+        <name>Destruct</name>
+        <qualifiedname>FPinValue::Destruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="286" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="286" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a3ae3b4863c303d11fe0c7e7003304dea" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FPinValue::RemoveOwnership</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveOwnership</name>
+        <qualifiedname>FPinValue::RemoveOwnership</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="309" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="309" bodyend="314"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1adfc3b6e798fb97a0638c4678279e4e69" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename ThisType</type>
+          </param>
+          <param>
+            <type>bool</type>
+            <declname>NumericTarget</declname>
+            <defname>NumericTarget</defname>
+            <defval>false</defval>
+          </param>
+        </templateparamlist>
+        <type>FORCENOINLINE T *</type>
+        <definition>static FORCENOINLINE T * FPinValue::Get_Impl</definition>
+        <argsstring>(ThisType &amp;&amp;Self)</argsstring>
+        <name>Get_Impl</name>
+        <qualifiedname>FPinValue::Get_Impl</qualifiedname>
+        <param>
+          <type>ThisType &amp;&amp;</type>
+          <declname>Self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="344" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="344" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1a21bd575e2f06b2a467b0e243206da81d" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename ThisType</type>
+          </param>
+          <param>
+            <type>bool</type>
+            <declname>NumericTarget</declname>
+            <defname>NumericTarget</defname>
+            <defval>false</defval>
+          </param>
+        </templateparamlist>
+        <type>FORCENOINLINE auto</type>
+        <definition>static FORCENOINLINE auto FPinValue::GetChecked_Impl</definition>
+        <argsstring>(ThisType &amp;&amp;Self) -&gt; decltype(Get_Impl&lt; T, ThisType, NumericTarget &gt;(Forward&lt; ThisType &gt;(Self)))</argsstring>
+        <name>GetChecked_Impl</name>
+        <qualifiedname>FPinValue::GetChecked_Impl</qualifiedname>
+        <param>
+          <type>ThisType &amp;&amp;</type>
+          <declname>Self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="361" column="27" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="361" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d3b/struct_f_pin_value_1aeb417e42fcefda807aa36435c66eae07" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8</type>
+        <definition>static uint8 FPinValue::GetTypeFromProperty</definition>
+        <argsstring>(FProperty *Property)</argsstring>
+        <name>GetTypeFromProperty</name>
+        <qualifiedname>FPinValue::GetTypeFromProperty</qualifiedname>
+        <param>
+          <type>FProperty *</type>
+          <declname>Property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="317" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="317" bodyend="333"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="87" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" bodystart="88" bodyend="399"/>
+    <listofallmembers>
+      <member refid="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409cceab79c7eb663d09666b4e095e895b4a346" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>Array</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1ab57a0769e6dc2817c415a9d555a88baa" prot="protected" virt="non-virtual"><scope>FPinValue</scope><name>Construct</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a8f7f01b037575ded1e366620384d7531" prot="protected" virt="non-virtual"><scope>FPinValue</scope><name>Construct_Impl</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a9004482336a312764025c6b0bfff7413" prot="protected" virt="non-virtual"><scope>FPinValue</scope><name>ConstructFromProperty</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1aa5c536e8071fdcec11d89964bf647fb1" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>Data</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a384d6fdbc75a7576aa4f42a384474a47" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>Deleter</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a8186df7bde2a5ff4d3b219f4dad14cc3" prot="protected" virt="non-virtual"><scope>FPinValue</scope><name>Destruct</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea1f1703a8f4687b1f199835db2ca6d1d3" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>Double</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a28177fcb5113810a31edb5f9caab622d" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>Emplace</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1abe091cd21fa058c9360ed4a071c257c3" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>EmplaceFromProperty</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409cce" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>EPointerElementType</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a1fb100cf73d716251275c0363bcb70a3" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>FPinValue</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1ac128c02bba92d0f0fed4c8f1b658c779" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>FPinValue</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1aefc70f575c01a6d264e17d718cbf6f20" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>FPinValue</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a1f63189009293202bf7e10941528939d" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>FPinValue</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a9cd833beb0054f600720e8907163acee" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>Get</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1ad4379c054aedf4458c53982d5f7e1dff" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>Get</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1adfc3b6e798fb97a0638c4678279e4e69" prot="protected" virt="non-virtual"><scope>FPinValue</scope><name>Get_Impl</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a05cb5b0f72f9982266b0db1c36e586ad" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>GetChecked</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1af4df2b6aef615f6a9e09632213a7db3c" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>GetChecked</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a21bd575e2f06b2a467b0e243206da81d" prot="protected" virt="non-virtual"><scope>FPinValue</scope><name>GetChecked_Impl</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1acc75c5bbd8bace89f57ee4c773ee9972" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>GetCopy</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1aa8d3d930927ea0b5cbea526b768a5b36" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>GetData</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a2ca10add5c730146455baedc9213d013" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>GetNumeric</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a628062b941d8cc83af553631a24567d1" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>GetNumericType</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a03c0a2f045934b9eda583f3fe41d97d3" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>GetRef</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a48a0ce8e0fabccd306dde1c11eb28716" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>GetRef</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1af1699ed12d9200c198a498aca7ea16d3" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>GetTemp</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1aeb417e42fcefda807aa36435c66eae07" prot="protected" virt="non-virtual"><scope>FPinValue</scope><name>GetTypeFromProperty</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea43bd97531266fc1dfa13714e61437489" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>Int64</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a00d5d6e11039e817291f148afccbcf24" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>IsArray</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a46aad29ce0e70b63099d52404e98453c" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>IsLambdaDeleted</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a35b2f60ebb417c315449fb2a446020d7" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>IsNumeric</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1ab7ba5944530eaad4217921150a61cba1" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>IsPropertyDeleted</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a426c31482402d72cdb65c62eb4d66cf5" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>IsSingleValue</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a348e2b2b741ea5077d04ad549566bbdc" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>IsSpecialCase</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1ae8b9d8006c0d75b0a89de82803c63842" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>IsValid</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1accf82d934fad6820022022924c19152b" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>Lambda</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea41ca40919a3aea63b32122bac53f51cb" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>Map</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea45fb84e54cdd1e3fa061b95607dcb7ef" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>None</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a6361e5b928b58dab56e52b5dc2708e78" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>operator bool</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1aa43584d70b3e679d58a11da081a0dbf8" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>operator=</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea2c21edb8a814b4f67f2e4a3ffd100d11" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>Other</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea2f194a8a35def02ff8d42fe46a17d1f2" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>Pointer</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1af0cc7b3fac1f26eed82d91b43c2dedeb" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>Property</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea44404172d6dd27f5ebca2732b1d24d3a" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>PropertyDeleter</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a3ae3b4863c303d11fe0c7e7003304dea" prot="protected" virt="non-virtual"><scope>FPinValue</scope><name>RemoveOwnership</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409cceaf061db869c902f2e7d7f839ba127a7c3" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>Set</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea5e0b42ca121caac868ab2925c1bd6c9a" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>SpecialCase</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1ac2e2ea309b1f492af459d1f4fcdb10ec" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>Type</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409cceaab06ea7cc8b8dfa7ab94db71abdda049" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>TypeMask</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1a383214cf15c5fc752f6999d6f7409ccea4f0ecd586960c4e9ad0d681461ed9514" prot="private" virt="non-virtual"><scope>FPinValue</scope><name>UInt64</name></member>
+      <member refid="d2/d3b/struct_f_pin_value_1aade6232847a2116eb3f7bc48efa620e5" prot="public" virt="non-virtual"><scope>FPinValue</scope><name>~FPinValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

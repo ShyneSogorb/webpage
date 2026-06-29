@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dc/d5e/class_u_weapon_asset_library" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponAssetLibrary</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UBlueprintFunctionLibrary</basecompoundref>
+    <includes local="no">WeaponAssetLibrary.h</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/d5e/class_u_weapon_asset_library_1a94bcd2202de8bf28b7a1fcd4b57c366b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponAssetLibrary::ConstructWeaponFromCharacteristics</definition>
+        <argsstring>(const UWeaponAsset *WeaponAsset, USceneComponent *RootComponent, UWeaponAssetCharacteristics *Characteristics, bool RunVariables)</argsstring>
+        <name>ConstructWeaponFromCharacteristics</name>
+        <qualifiedname>UWeaponAssetLibrary::ConstructWeaponFromCharacteristics</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+          <declname>WeaponAsset</declname>
+        </param>
+        <param>
+          <type>USceneComponent *</type>
+          <declname>RootComponent</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref> *</type>
+          <declname>Characteristics</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>RunVariables</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs weapon from explicit characteristics instance. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>WeaponAsset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Asset template to construct from. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RootComponent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Component to attach assembled weapon to. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Characteristics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Override characteristics (uses default if null). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RunVariables</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Execute variable initialization graph nodes if true. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponAssetLibrary.h" line="31" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/WeaponAssetLibrary.cpp" bodystart="10" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d5e/class_u_weapon_asset_library_1a5e9a4e7e5441383cfa8c8a68c9b55c9f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponAssetLibrary::ConstructWeaponFromContext</definition>
+        <argsstring>(const UWeaponAsset *WeaponAsset, USceneComponent *RootComponent, const struct FWeaponExecutionContext &amp;Context, bool RunVariables)</argsstring>
+        <name>ConstructWeaponFromContext</name>
+        <qualifiedname>UWeaponAssetLibrary::ConstructWeaponFromContext</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+          <declname>WeaponAsset</declname>
+        </param>
+        <param>
+          <type>USceneComponent *</type>
+          <declname>RootComponent</declname>
+        </param>
+        <param>
+          <type>const struct <ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref> &amp;</type>
+          <declname>Context</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>RunVariables</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs weapon from execution context. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>WeaponAsset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Asset template to construct from. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RootComponent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Component to attach assembled weapon to. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Context</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Execution context with characteristics and modifications. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RunVariables</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Execute variable initialization graph nodes if true. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponAssetLibrary.h" line="51" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/WeaponAssetLibrary.cpp" bodystart="83" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d5e/class_u_weapon_asset_library_1a67bf5728b17e0db88f590fb6385abd28" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponAssetLibrary::ConstructWeaponFromModifications</definition>
+        <argsstring>(const UWeaponAsset *WeaponAsset, USceneComponent *RootComponent, const FWeaponModifications &amp;Modifications, bool RunVariables)</argsstring>
+        <name>ConstructWeaponFromModifications</name>
+        <qualifiedname>UWeaponAssetLibrary::ConstructWeaponFromModifications</qualifiedname>
+        <param>
+          <type>const <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+          <declname>WeaponAsset</declname>
+        </param>
+        <param>
+          <type>USceneComponent *</type>
+          <declname>RootComponent</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+          <declname>Modifications</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>RunVariables</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs weapon from modification slot selection. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>WeaponAsset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Asset template to construct from. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RootComponent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Component to attach assembled weapon to. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Modifications</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of mod slot selections (index per modification slot). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RunVariables</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Execute variable initialization graph nodes if true. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponAssetLibrary.h" line="41" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/WeaponAssetLibrary.cpp" bodystart="49" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Blueprint function library for weapon construction and assembly. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UBlueprintFunctionLibrary</label>
+      </node>
+      <node id="1">
+        <label>UWeaponAssetLibrary</label>
+        <link refid="dc/d5e/class_u_weapon_asset_library"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UBlueprintFunctionLibrary</label>
+      </node>
+      <node id="1">
+        <label>UWeaponAssetLibrary</label>
+        <link refid="dc/d5e/class_u_weapon_asset_library"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponAssetLibrary.h" line="17" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponAssetLibrary.h" bodystart="18" bodyend="53"/>
+    <listofallmembers>
+      <member refid="dc/d5e/class_u_weapon_asset_library_1a94bcd2202de8bf28b7a1fcd4b57c366b" prot="public" virt="non-virtual"><scope>UWeaponAssetLibrary</scope><name>ConstructWeaponFromCharacteristics</name></member>
+      <member refid="dc/d5e/class_u_weapon_asset_library_1a5e9a4e7e5441383cfa8c8a68c9b55c9f" prot="public" virt="non-virtual"><scope>UWeaponAssetLibrary</scope><name>ConstructWeaponFromContext</name></member>
+      <member refid="dc/d5e/class_u_weapon_asset_library_1a67bf5728b17e0db88f590fb6385abd28" prot="public" virt="non-virtual"><scope>UWeaponAssetLibrary</scope><name>ConstructWeaponFromModifications</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

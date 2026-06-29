@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="db/d41/structsmaller_min_requirement" kind="struct" language="C++" prot="public">
+    <compoundname>smallerMinRequirement</compoundname>
+    <includes local="no">DynamicPointer.h</includes>
+    <templateparamlist>
+      <param>
+        <type>size_t</type>
+        <declname>Min</declname>
+        <defname>Min</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d41/structsmaller_min_requirement_1aad25d5ce267677d9e18c2a45fd001b03" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A</type>
+          </param>
+          <param>
+            <type>typename B</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool smallerMinRequirement&lt; Min &gt;::operator()</definition>
+        <argsstring>() const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>smallerMinRequirement::operator()</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="111" column="16" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="111" bodyend="113"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="109" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="109" bodyend="114"/>
+    <listofallmembers>
+      <member refid="db/d41/structsmaller_min_requirement_1aad25d5ce267677d9e18c2a45fd001b03" prot="public" virt="non-virtual"><scope>smallerMinRequirement</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

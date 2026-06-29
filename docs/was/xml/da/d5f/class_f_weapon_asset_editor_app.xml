@@ -1,0 +1,1032 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="da/d5f/class_f_weapon_asset_editor_app" kind="class" language="C++" prot="public">
+    <compoundname>FWeaponAssetEditorApp</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FWorkflowCentricApplication</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">FEditorUndoClient</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">FNotifyHook</basecompoundref>
+    <includes local="no">WeaponAssetEditorApp.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="da/d5f/class_f_weapon_asset_editor_app_1a9cb1aea3069883b68948774ef5cce934" prot="private" static="no" mutable="no">
+        <type>TArray&lt; UEdGraphNode * &gt;</type>
+        <definition>TArray&lt;UEdGraphNode*&gt; FWeaponAssetEditorApp::NodesSelected</definition>
+        <argsstring></argsstring>
+        <name>NodesSelected</name>
+        <qualifiedname>FWeaponAssetEditorApp::NodesSelected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="113" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d5f/class_f_weapon_asset_editor_app_1a37a52176c0833acf74803c36a0df869d" prot="private" static="no" mutable="no">
+        <type>FDelegateHandle</type>
+        <definition>FDelegateHandle FWeaponAssetEditorApp::OnGraphChangedDelegate</definition>
+        <argsstring></argsstring>
+        <name>OnGraphChangedDelegate</name>
+        <qualifiedname>FWeaponAssetEditorApp::OnGraphChangedDelegate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="107" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d5f/class_f_weapon_asset_editor_app_1afcd3d9a4913892980f0a886c412a6a3d" prot="private" static="no" mutable="no">
+        <type>class USceneComponent *</type>
+        <definition>class USceneComponent* FWeaponAssetEditorApp::PreviewAssetComponent</definition>
+        <argsstring></argsstring>
+        <name>PreviewAssetComponent</name>
+        <qualifiedname>FWeaponAssetEditorApp::PreviewAssetComponent</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="103" column="27" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d5f/class_f_weapon_asset_editor_app_1ad08b34aa39a018537ef6217868ddb71a" prot="private" static="no" mutable="no">
+        <type>TWeakPtr&lt; class <ref refid="d5/d59/class_f_weapon_preview_scene" kindref="compound">FWeaponPreviewScene</ref> &gt;</type>
+        <definition>TWeakPtr&lt;class FWeaponPreviewScene&gt; FWeaponAssetEditorApp::PreviewScene</definition>
+        <argsstring></argsstring>
+        <name>PreviewScene</name>
+        <qualifiedname>FWeaponAssetEditorApp::PreviewScene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="105" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d5f/class_f_weapon_asset_editor_app_1a9bb5f3d44da1978c12d8fc18adcb9447" prot="private" static="no" mutable="no">
+        <type>TSharedPtr&lt; class IDetailsView &gt;</type>
+        <definition>TSharedPtr&lt;class IDetailsView&gt; FWeaponAssetEditorApp::SelectedNodeDetailsView</definition>
+        <argsstring></argsstring>
+        <name>SelectedNodeDetailsView</name>
+        <qualifiedname>FWeaponAssetEditorApp::SelectedNodeDetailsView</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="112" column="16" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d5f/class_f_weapon_asset_editor_app_1a1f2fa074977c15bf5de331078a2c94e9" prot="private" static="no" mutable="no">
+        <type>TSharedPtr&lt; class SWeaponViewportTabBody &gt;</type>
+        <definition>TSharedPtr&lt;class SWeaponViewportTabBody&gt; FWeaponAssetEditorApp::TabBody</definition>
+        <argsstring></argsstring>
+        <name>TabBody</name>
+        <qualifiedname>FWeaponAssetEditorApp::TabBody</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="115" column="16" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d5f/class_f_weapon_asset_editor_app_1af66973337315640ee6728f812466fe49" prot="private" static="no" mutable="no">
+        <type>class <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+        <definition>class UWeaponAsset* FWeaponAssetEditorApp::WorkingAsset</definition>
+        <argsstring></argsstring>
+        <name>WorkingAsset</name>
+        <qualifiedname>FWeaponAssetEditorApp::WorkingAsset</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="99" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d5f/class_f_weapon_asset_editor_app_1a1d6f67a99c4096fc6fdeb078d252753b" prot="private" static="no" mutable="no">
+        <type>class <ref refid="da/d6a/class_u_weapon_graph_editor" kindref="compound">UWeaponGraphEditor</ref> *</type>
+        <definition>class UWeaponGraphEditor* FWeaponAssetEditorApp::WorkingGraph</definition>
+        <argsstring></argsstring>
+        <name>WorkingGraph</name>
+        <qualifiedname>FWeaponAssetEditorApp::WorkingGraph</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="101" column="30" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d5f/class_f_weapon_asset_editor_app_1a132998ec7ab272c8b8893c3dfe1be529" prot="private" static="no" mutable="no">
+        <type>TSharedPtr&lt; SGraphEditor &gt;</type>
+        <definition>TSharedPtr&lt;SGraphEditor&gt; FWeaponAssetEditorApp::WorkingGraphUi</definition>
+        <argsstring></argsstring>
+        <name>WorkingGraphUi</name>
+        <qualifiedname>FWeaponAssetEditorApp::WorkingGraphUi</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="110" column="16" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a56f32b968a404e401f38c0be8c56515c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>FText</type>
+        <definition>virtual FText FWeaponAssetEditorApp::GetBaseToolkitName</definition>
+        <argsstring>() const override</argsstring>
+        <name>GetBaseToolkitName</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetBaseToolkitName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="45" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a34e15bd469f50be35b308ce5d7207eb9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>FString</type>
+        <definition>virtual FString FWeaponAssetEditorApp::GetDocumentationLink</definition>
+        <argsstring>() const override</argsstring>
+        <name>GetDocumentationLink</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetDocumentationLink</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="48" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a2fb38c1db21afe7374d2959a69d457c4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>TSharedPtr&lt; IDetailsView &gt;</type>
+        <definition>TSharedPtr&lt; IDetailsView &gt; FWeaponAssetEditorApp::GetNodeDetailsView</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNodeDetailsView</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetNodeDetailsView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="125" column="16" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1ad8bb250ff716c5f3e9874cc3a6d7c30e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>class USceneComponent *</type>
+        <definition>class USceneComponent * FWeaponAssetEditorApp::GetPreviewComponent</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPreviewComponent</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetPreviewComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="30" column="27" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a8595f8ba63c77abc14fdead8a9edcfb2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>TWeakPtr&lt; class <ref refid="d5/d59/class_f_weapon_preview_scene" kindref="compound">FWeaponPreviewScene</ref> &gt;</type>
+        <definition>TWeakPtr&lt; class FWeaponPreviewScene &gt; FWeaponAssetEditorApp::GetPreviewScene</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPreviewScene</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetPreviewScene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="31" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a0785f74bed73a668ef76d37a12630434" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>TArray&lt; <ref refid="d6/d84/class_u_weapon_graph_node" kindref="compound">UWeaponGraphNode</ref> * &gt;</type>
+        <definition>TArray&lt; UWeaponGraphNode * &gt; FWeaponAssetEditorApp::GetSelectedNodes</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSelectedNodes</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetSelectedNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="61" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="217" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a3befcaa1cb47bc1353ad706124cf122d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>FName</type>
+        <definition>virtual FName FWeaponAssetEditorApp::GetToolkitFName</definition>
+        <argsstring>() const override</argsstring>
+        <name>GetToolkitFName</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetToolkitFName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="44" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a407f3f3528b1f86bddc5003dd92e153e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>class <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+        <definition>class UWeaponAsset * FWeaponAssetEditorApp::GetWorkingAsset</definition>
+        <argsstring>()</argsstring>
+        <name>GetWorkingAsset</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetWorkingAsset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="24" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1af568c4f4c7942f296f324d2395583467" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const class <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+        <definition>const class UWeaponAsset * FWeaponAssetEditorApp::GetWorkingAsset</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWorkingAsset</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetWorkingAsset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="25" column="30" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a0386108a0d3e0239246e3a1db3e0e98a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>class UEdGraph *</type>
+        <definition>class UEdGraph * FWeaponAssetEditorApp::GetWorkingGraph</definition>
+        <argsstring>()</argsstring>
+        <name>GetWorkingGraph</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetWorkingGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="27" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1ab4d9d6bb683b47b05e70a517b2321d53" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const class UEdGraph *</type>
+        <definition>const class UEdGraph * FWeaponAssetEditorApp::GetWorkingGraph</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWorkingGraph</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetWorkingGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="28" column="26" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a660242388b750a452bf3b10c25cb70c6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>class SGraphEditor *</type>
+        <definition>class SGraphEditor * FWeaponAssetEditorApp::GetWorkingGraphUi</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWorkingGraphUi</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetWorkingGraphUi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="32" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a4370342e1a9205aae5e2bff90e13b880" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>FLinearColor</type>
+        <definition>virtual FLinearColor FWeaponAssetEditorApp::GetWorldCentricTabColorScale</definition>
+        <argsstring>() const override</argsstring>
+        <name>GetWorldCentricTabColorScale</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetWorldCentricTabColorScale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="47" column="26" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1acbd7363bec3df129141df0577a47cacb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>FString</type>
+        <definition>virtual FString FWeaponAssetEditorApp::GetWorldCentricTabPrefix</definition>
+        <argsstring>() const override</argsstring>
+        <name>GetWorldCentricTabPrefix</name>
+        <qualifiedname>FWeaponAssetEditorApp::GetWorldCentricTabPrefix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="46" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a48bb201908d1984aa20e2dfb9dc05746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::InitEditor</definition>
+        <argsstring>(const EToolkitMode::Type Mode, const TSharedPtr&lt; class IToolkitHost &gt; &amp;InitToolkitHost, UObject *InObject)</argsstring>
+        <name>InitEditor</name>
+        <qualifiedname>FWeaponAssetEditorApp::InitEditor</qualifiedname>
+        <param>
+          <type>const EToolkitMode::Type</type>
+          <declname>Mode</declname>
+        </param>
+        <param>
+          <type>const TSharedPtr&lt; class IToolkitHost &gt; &amp;</type>
+          <declname>InitToolkitHost</declname>
+        </param>
+        <param>
+          <type>UObject *</type>
+          <declname>InObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="22" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="41" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1ae0cef03eedb76d95cfe96d12efd4ee5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::NotifyPostChange</definition>
+        <argsstring>(const FPropertyChangedEvent &amp;PropertyChangedEvent, class FEditPropertyChain *PropertyThatChanged) override</argsstring>
+        <name>NotifyPostChange</name>
+        <qualifiedname>FWeaponAssetEditorApp::NotifyPostChange</qualifiedname>
+        <param>
+          <type>const FPropertyChangedEvent &amp;</type>
+          <declname>PropertyChangedEvent</declname>
+        </param>
+        <param>
+          <type>class FEditPropertyChain *</type>
+          <declname>PropertyThatChanged</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="83" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="480" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1ae644c28120176022688a5eb7668d96ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::NotifyPostChange</definition>
+        <argsstring>(const FPropertyChangedEvent &amp;PropertyChangedEvent, FProperty *PropertyThatChanged) override</argsstring>
+        <name>NotifyPostChange</name>
+        <qualifiedname>FWeaponAssetEditorApp::NotifyPostChange</qualifiedname>
+        <param>
+          <type>const FPropertyChangedEvent &amp;</type>
+          <declname>PropertyChangedEvent</declname>
+        </param>
+        <param>
+          <type>FProperty *</type>
+          <declname>PropertyThatChanged</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="82" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="474" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1ac979307a86b262a5f038a9f175eed8cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::OnAssetsSaved</definition>
+        <argsstring>(const TArray&lt; UObject * &gt; &amp;SavedObjects) override</argsstring>
+        <name>OnAssetsSaved</name>
+        <qualifiedname>FWeaponAssetEditorApp::OnAssetsSaved</qualifiedname>
+        <param>
+          <type>const TArray&lt; UObject * &gt; &amp;</type>
+          <declname>SavedObjects</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="52" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="158" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a5c47497565776f2e8519a5c5ecd121e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::OnClose</definition>
+        <argsstring>() override</argsstring>
+        <name>OnClose</name>
+        <qualifiedname>FWeaponAssetEditorApp::OnClose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="53" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="164" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a1b1899dae717a7efd303bdf475823aa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::OnGraphChanged</definition>
+        <argsstring>(const FEdGraphEditAction &amp;EditAction)</argsstring>
+        <name>OnGraphChanged</name>
+        <qualifiedname>FWeaponAssetEditorApp::OnGraphChanged</qualifiedname>
+        <param>
+          <type>const FEdGraphEditAction &amp;</type>
+          <declname>EditAction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="55" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="184" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1acda82c76918dd5cb21c4592abdd92559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::OnGraphSelectionChanged</definition>
+        <argsstring>(const FGraphPanelSelectionSet &amp;Selection)</argsstring>
+        <name>OnGraphSelectionChanged</name>
+        <qualifiedname>FWeaponAssetEditorApp::OnGraphSelectionChanged</qualifiedname>
+        <param>
+          <type>const FGraphPanelSelectionSet &amp;</type>
+          <declname>Selection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="38" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="120" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a2cebfd0cde22c315c2f769c45e7a601a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::OnNodeDetailViewPropertiesUpdated</definition>
+        <argsstring>(const FPropertyChangedEvent &amp;event)</argsstring>
+        <name>OnNodeDetailViewPropertiesUpdated</name>
+        <qualifiedname>FWeaponAssetEditorApp::OnNodeDetailViewPropertiesUpdated</qualifiedname>
+        <param>
+          <type>const FPropertyChangedEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="54" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="173" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a1702002f2461ce857120ea45918c2982" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::OnPropertyUpdated</definition>
+        <argsstring>()</argsstring>
+        <name>OnPropertyUpdated</name>
+        <qualifiedname>FWeaponAssetEditorApp::OnPropertyUpdated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="40" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="151" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1ae669f417ce536525cb69ed7afeb4d254" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FWeaponAssetEditorApp::OnToolkitHostingFinished</definition>
+        <argsstring>(const TSharedRef&lt; class IToolkit &gt; &amp;toolkit) override</argsstring>
+        <name>OnToolkitHostingFinished</name>
+        <qualifiedname>FWeaponAssetEditorApp::OnToolkitHostingFinished</qualifiedname>
+        <param>
+          <type>const TSharedRef&lt; class IToolkit &gt; &amp;</type>
+          <declname>toolkit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="50" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a67a1bedc4592f063d37579b475c9206e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FWeaponAssetEditorApp::OnToolkitHostingStarted</definition>
+        <argsstring>(const TSharedRef&lt; class IToolkit &gt; &amp;toolkit) override</argsstring>
+        <name>OnToolkitHostingStarted</name>
+        <qualifiedname>FWeaponAssetEditorApp::OnToolkitHostingStarted</qualifiedname>
+        <param>
+          <type>const TSharedRef&lt; class IToolkit &gt; &amp;</type>
+          <declname>toolkit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="49" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a1b5215b7a5155f1524a863b414836e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::RegisterTabSpawners</definition>
+        <argsstring>(const TSharedRef&lt; class FTabManager &gt; &amp;TabManager) override</argsstring>
+        <name>RegisterTabSpawners</name>
+        <qualifiedname>FWeaponAssetEditorApp::RegisterTabSpawners</qualifiedname>
+        <param>
+          <type>const TSharedRef&lt; class FTabManager &gt; &amp;</type>
+          <declname>TabManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="20" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1ad5cbe1d9042d505c7bfa48333c9d2bbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::SaveAsset_Execute</definition>
+        <argsstring>() override</argsstring>
+        <name>SaveAsset_Execute</name>
+        <qualifiedname>FWeaponAssetEditorApp::SaveAsset_Execute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="57" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="210" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a0b0a283db7009a8e7a0654dffd7e7a7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::SetPreviewComponent</definition>
+        <argsstring>(USceneComponent *PreviewAsset)</argsstring>
+        <name>SetPreviewComponent</name>
+        <qualifiedname>FWeaponAssetEditorApp::SetPreviewComponent</qualifiedname>
+        <param>
+          <type>USceneComponent *</type>
+          <declname>PreviewAsset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="35" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a996383ad5f0449b035d28d4824564aa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::SetPreviewScene</definition>
+        <argsstring>(TSharedPtr&lt; class FWeaponPreviewScene &gt; InPreviewScene)</argsstring>
+        <name>SetPreviewScene</name>
+        <qualifiedname>FWeaponAssetEditorApp::SetPreviewScene</qualifiedname>
+        <param>
+          <type>TSharedPtr&lt; class <ref refid="d5/d59/class_f_weapon_preview_scene" kindref="compound">FWeaponPreviewScene</ref> &gt;</type>
+          <declname>InPreviewScene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="36" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a990ba2a026b5cce473790840cc43d78a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::SetSelectedNodeDetailView</definition>
+        <argsstring>(TSharedPtr&lt; class IDetailsView &gt; DetailsView)</argsstring>
+        <name>SetSelectedNodeDetailView</name>
+        <qualifiedname>FWeaponAssetEditorApp::SetSelectedNodeDetailView</qualifiedname>
+        <param>
+          <type>TSharedPtr&lt; class IDetailsView &gt;</type>
+          <declname>DetailsView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="37" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="114" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a81fe5850ef36c8a2716ed96c129c3f53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::SetWorkingGraphUi</definition>
+        <argsstring>(TSharedPtr&lt; SGraphEditor &gt; InWorkingGraphUi)</argsstring>
+        <name>SetWorkingGraphUi</name>
+        <qualifiedname>FWeaponAssetEditorApp::SetWorkingGraphUi</qualifiedname>
+        <param>
+          <type>TSharedPtr&lt; SGraphEditor &gt;</type>
+          <declname>InWorkingGraphUi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="34" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a6dc09f41571f97e58fd4c644e4f8fdb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::UpdatePreview</definition>
+        <argsstring>()</argsstring>
+        <name>UpdatePreview</name>
+        <qualifiedname>FWeaponAssetEditorApp::UpdatePreview</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="85" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="486" bodyend="505"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a881538e719af5ec13c079ad0e77eb41e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> *</type>
+        <definition>UWeaponRuntimeNode * FWeaponAssetEditorApp::CopyRuntimeNodeFromGraphNode</definition>
+        <argsstring>(UWeaponGraphNode *EditorNode, class UWeaponRuntimeGraph *Outer, TArray&lt; std::pair&lt; FGuid, FGuid &gt; &gt; &amp;Connections, TMap&lt; FGuid, class UWeaponRuntimePin * &gt; &amp;IdToPinMap)</argsstring>
+        <name>CopyRuntimeNodeFromGraphNode</name>
+        <qualifiedname>FWeaponAssetEditorApp::CopyRuntimeNodeFromGraphNode</qualifiedname>
+        <param>
+          <type><ref refid="d6/d84/class_u_weapon_graph_node" kindref="compound">UWeaponGraphNode</ref> *</type>
+          <declname>EditorNode</declname>
+        </param>
+        <param>
+          <type>class <ref refid="d1/db3/class_u_weapon_runtime_graph" kindref="compound">UWeaponRuntimeGraph</ref> *</type>
+          <declname>Outer</declname>
+        </param>
+        <param>
+          <type>TArray&lt; std::pair&lt; FGuid, FGuid &gt; &gt; &amp;</type>
+          <declname>Connections</declname>
+        </param>
+        <param>
+          <type>TMap&lt; FGuid, class <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> * &gt; &amp;</type>
+          <declname>IdToPinMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copies a runtime node from a graph node, including its pins and connections. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>EditorNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Node to copy from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Outer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new outer for the runtime node </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Connections</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A list of connections to be made after all nodes are copied </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IdToPinMap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A map of graph pin IDs to runtime pins for connection purposes </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="71" column="31" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="420" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1aa2c07a14068266a3f54f81f969cfa24a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+        <definition>UWeaponRuntimePin * FWeaponAssetEditorApp::CopyRuntimePinFromGraphPin</definition>
+        <argsstring>(UEdGraphPin *GraphPin, UWeaponRuntimeNode *RuntimeNode, UWeaponGraphNode *EditorNode)</argsstring>
+        <name>CopyRuntimePinFromGraphPin</name>
+        <qualifiedname>FWeaponAssetEditorApp::CopyRuntimePinFromGraphPin</qualifiedname>
+        <param>
+          <type>UEdGraphPin *</type>
+          <declname>GraphPin</declname>
+        </param>
+        <param>
+          <type><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> *</type>
+          <declname>RuntimeNode</declname>
+        </param>
+        <param>
+          <type><ref refid="d6/d84/class_u_weapon_graph_node" kindref="compound">UWeaponGraphNode</ref> *</type>
+          <declname>EditorNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copies a runtime pin from a graph pin. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>GraphPin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pin to copy from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RuntimeNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The runtime node to attach the pin to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>EditorNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The editor node the pin belongs to (for getting pin actions) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new runtime pin </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="80" column="30" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="456" bodyend="472"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1ae845afd52222b40a5bb93822801e46a5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::LoadAssetToGraph</definition>
+        <argsstring>()</argsstring>
+        <name>LoadAssetToGraph</name>
+        <qualifiedname>FWeaponAssetEditorApp::LoadAssetToGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="93" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="287" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1aeaab25564740452f54ac5f0d2b303025" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::SaveGraphToAsset</definition>
+        <argsstring>()</argsstring>
+        <name>SaveGraphToAsset</name>
+        <qualifiedname>FWeaponAssetEditorApp::SaveGraphToAsset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="90" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="228" bodyend="235"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a4d3390bbb2a2612bef9954f9f721a10f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::SaveGraphToAsset_Impl</definition>
+        <argsstring>(UWeaponAsset &amp;AssetToLoadInto, class UWeaponGraphEditor &amp;GraphToLoadFrom)</argsstring>
+        <name>SaveGraphToAsset_Impl</name>
+        <qualifiedname>FWeaponAssetEditorApp::SaveGraphToAsset_Impl</qualifiedname>
+        <param>
+          <type><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> &amp;</type>
+          <declname>AssetToLoadInto</declname>
+        </param>
+        <param>
+          <type>class <ref refid="da/d6a/class_u_weapon_graph_editor" kindref="compound">UWeaponGraphEditor</ref> &amp;</type>
+          <declname>GraphToLoadFrom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="97" column="17" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="238" bodyend="285"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a8078fd107c56419afc33334c6d3a1296" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::CommentSelectedNodes</definition>
+        <argsstring>()</argsstring>
+        <name>CommentSelectedNodes</name>
+        <qualifiedname>FWeaponAssetEditorApp::CommentSelectedNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="121" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="622" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a966203f877e520ba15219e80e08d3b07" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::CopySelectedNodes</definition>
+        <argsstring>()</argsstring>
+        <name>CopySelectedNodes</name>
+        <qualifiedname>FWeaponAssetEditorApp::CopySelectedNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="119" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="584" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a4e70391ee663dece44ad733511c67fa9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::DeleteSelectedNodes</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteSelectedNodes</name>
+        <qualifiedname>FWeaponAssetEditorApp::DeleteSelectedNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="117" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="507" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1a410f2fa8d2db2e026a9fb1d43c05a299" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d6/d84/class_u_weapon_graph_node" kindref="compound">UWeaponGraphNode</ref> *</type>
+        <definition>UWeaponGraphNode * FWeaponAssetEditorApp::DuplicateNode</definition>
+        <argsstring>(UWeaponGraphNode *NodeToDuplicate)</argsstring>
+        <name>DuplicateNode</name>
+        <qualifiedname>FWeaponAssetEditorApp::DuplicateNode</qualifiedname>
+        <param>
+          <type><ref refid="d6/d84/class_u_weapon_graph_node" kindref="compound">UWeaponGraphNode</ref> *</type>
+          <declname>NodeToDuplicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="122" column="22" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="641" bodyend="655"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1ad025adfcec28a579c54088d0b6711ac5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::DuplicateSelectedNodes</definition>
+        <argsstring>()</argsstring>
+        <name>DuplicateSelectedNodes</name>
+        <qualifiedname>FWeaponAssetEditorApp::DuplicateSelectedNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="118" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="518" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d5f/class_f_weapon_asset_editor_app_1ac5283c75ef136870342bf91e10011b5d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetEditorApp::PasteSelectedNodes</definition>
+        <argsstring>()</argsstring>
+        <name>PasteSelectedNodes</name>
+        <qualifiedname>FWeaponAssetEditorApp::PasteSelectedNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="120" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp" bodystart="596" bodyend="620"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>FEditorUndoClient</label>
+      </node>
+      <node id="4">
+        <label>FNotifyHook</label>
+      </node>
+      <node id="1">
+        <label>FWeaponAssetEditorApp</label>
+        <link refid="da/d5f/class_f_weapon_asset_editor_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FWorkflowCentricApplication</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>FEditorUndoClient</label>
+      </node>
+      <node id="4">
+        <label>FNotifyHook</label>
+      </node>
+      <node id="1">
+        <label>FWeaponAssetEditorApp</label>
+        <link refid="da/d5f/class_f_weapon_asset_editor_app"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FWorkflowCentricApplication</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="18" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="18" bodyend="127"/>
+    <listofallmembers>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a8078fd107c56419afc33334c6d3a1296" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>CommentSelectedNodes</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a881538e719af5ec13c079ad0e77eb41e" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>CopyRuntimeNodeFromGraphNode</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1aa2c07a14068266a3f54f81f969cfa24a" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>CopyRuntimePinFromGraphPin</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a966203f877e520ba15219e80e08d3b07" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>CopySelectedNodes</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a4e70391ee663dece44ad733511c67fa9" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>DeleteSelectedNodes</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a410f2fa8d2db2e026a9fb1d43c05a299" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>DuplicateNode</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1ad025adfcec28a579c54088d0b6711ac5" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>DuplicateSelectedNodes</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a56f32b968a404e401f38c0be8c56515c" prot="public" virt="virtual"><scope>FWeaponAssetEditorApp</scope><name>GetBaseToolkitName</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a34e15bd469f50be35b308ce5d7207eb9" prot="public" virt="virtual"><scope>FWeaponAssetEditorApp</scope><name>GetDocumentationLink</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a2fb38c1db21afe7374d2959a69d457c4" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>GetNodeDetailsView</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1ad8bb250ff716c5f3e9874cc3a6d7c30e" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>GetPreviewComponent</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a8595f8ba63c77abc14fdead8a9edcfb2" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>GetPreviewScene</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a0785f74bed73a668ef76d37a12630434" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>GetSelectedNodes</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a3befcaa1cb47bc1353ad706124cf122d" prot="public" virt="virtual"><scope>FWeaponAssetEditorApp</scope><name>GetToolkitFName</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a407f3f3528b1f86bddc5003dd92e153e" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>GetWorkingAsset</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1af568c4f4c7942f296f324d2395583467" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>GetWorkingAsset</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a0386108a0d3e0239246e3a1db3e0e98a" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>GetWorkingGraph</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1ab4d9d6bb683b47b05e70a517b2321d53" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>GetWorkingGraph</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a660242388b750a452bf3b10c25cb70c6" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>GetWorkingGraphUi</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a4370342e1a9205aae5e2bff90e13b880" prot="public" virt="virtual"><scope>FWeaponAssetEditorApp</scope><name>GetWorldCentricTabColorScale</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1acbd7363bec3df129141df0577a47cacb" prot="public" virt="virtual"><scope>FWeaponAssetEditorApp</scope><name>GetWorldCentricTabPrefix</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a48bb201908d1984aa20e2dfb9dc05746" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>InitEditor</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1ae845afd52222b40a5bb93822801e46a5" prot="protected" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>LoadAssetToGraph</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a9cb1aea3069883b68948774ef5cce934" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>NodesSelected</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1ae644c28120176022688a5eb7668d96ac" prot="public" virt="virtual"><scope>FWeaponAssetEditorApp</scope><name>NotifyPostChange</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1ae0cef03eedb76d95cfe96d12efd4ee5d" prot="public" virt="virtual"><scope>FWeaponAssetEditorApp</scope><name>NotifyPostChange</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1ac979307a86b262a5f038a9f175eed8cc" prot="public" virt="virtual"><scope>FWeaponAssetEditorApp</scope><name>OnAssetsSaved</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a5c47497565776f2e8519a5c5ecd121e2" prot="public" virt="virtual"><scope>FWeaponAssetEditorApp</scope><name>OnClose</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a1b1899dae717a7efd303bdf475823aa3" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>OnGraphChanged</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a37a52176c0833acf74803c36a0df869d" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>OnGraphChangedDelegate</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1acda82c76918dd5cb21c4592abdd92559" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>OnGraphSelectionChanged</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a2cebfd0cde22c315c2f769c45e7a601a" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>OnNodeDetailViewPropertiesUpdated</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a1702002f2461ce857120ea45918c2982" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>OnPropertyUpdated</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1ae669f417ce536525cb69ed7afeb4d254" prot="public" virt="virtual"><scope>FWeaponAssetEditorApp</scope><name>OnToolkitHostingFinished</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a67a1bedc4592f063d37579b475c9206e" prot="public" virt="virtual"><scope>FWeaponAssetEditorApp</scope><name>OnToolkitHostingStarted</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1ac5283c75ef136870342bf91e10011b5d" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>PasteSelectedNodes</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1afcd3d9a4913892980f0a886c412a6a3d" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>PreviewAssetComponent</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1ad08b34aa39a018537ef6217868ddb71a" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>PreviewScene</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a1b5215b7a5155f1524a863b414836e92" prot="public" virt="virtual"><scope>FWeaponAssetEditorApp</scope><name>RegisterTabSpawners</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1ad5cbe1d9042d505c7bfa48333c9d2bbe" prot="public" virt="virtual"><scope>FWeaponAssetEditorApp</scope><name>SaveAsset_Execute</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1aeaab25564740452f54ac5f0d2b303025" prot="protected" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>SaveGraphToAsset</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a4d3390bbb2a2612bef9954f9f721a10f" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>SaveGraphToAsset_Impl</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a9bb5f3d44da1978c12d8fc18adcb9447" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>SelectedNodeDetailsView</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a0b0a283db7009a8e7a0654dffd7e7a7a" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>SetPreviewComponent</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a996383ad5f0449b035d28d4824564aa0" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>SetPreviewScene</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a990ba2a026b5cce473790840cc43d78a" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>SetSelectedNodeDetailView</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a81fe5850ef36c8a2716ed96c129c3f53" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>SetWorkingGraphUi</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a1f2fa074977c15bf5de331078a2c94e9" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>TabBody</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a6dc09f41571f97e58fd4c644e4f8fdb9" prot="public" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>UpdatePreview</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1af66973337315640ee6728f812466fe49" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>WorkingAsset</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a1d6f67a99c4096fc6fdeb078d252753b" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>WorkingGraph</name></member>
+      <member refid="da/d5f/class_f_weapon_asset_editor_app_1a132998ec7ab272c8b8893c3dfe1be529" prot="private" virt="non-virtual"><scope>FWeaponAssetEditorApp</scope><name>WorkingGraphUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

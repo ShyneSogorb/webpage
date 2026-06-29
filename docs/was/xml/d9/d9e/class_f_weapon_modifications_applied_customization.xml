@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d9/d9e/class_f_weapon_modifications_applied_customization" kind="class" language="C++" prot="public">
+    <compoundname>FWeaponModificationsAppliedCustomization</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IPropertyTypeCustomization</basecompoundref>
+    <includes local="no">WeaponModificationsAppliedCustomization.h</includes>
+    <sectiondef kind="protected-type">
+      <memberdef kind="typedef" id="d9/d9e/class_f_weapon_modifications_applied_customization_1a2b5ba1448dafca76a023aa4238a87601" prot="protected" static="no">
+        <type>TArray&lt; TSharedPtr&lt; struct FGameplayTag &gt; &gt;</type>
+        <definition>using FWeaponModificationsAppliedCustomization::FSlotModifications =  TArray&lt;TSharedPtr&lt;struct FGameplayTag&gt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>FSlotModifications</name>
+        <qualifiedname>FWeaponModificationsAppliedCustomization::FSlotModifications</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificationsAppliedCustomization.h" line="29" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificationsAppliedCustomization.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d9/d9e/class_f_weapon_modifications_applied_customization_1a8ce1694c48cbb84c74f0f8604077fc27" prot="protected" static="no" mutable="no">
+        <type>TArray&lt; <ref refid="d9/d9e/class_f_weapon_modifications_applied_customization_1a2b5ba1448dafca76a023aa4238a87601" kindref="member">FSlotModifications</ref> &gt;</type>
+        <definition>TArray&lt;FSlotModifications&gt; FWeaponModificationsAppliedCustomization::TagsOptions</definition>
+        <argsstring></argsstring>
+        <name>TagsOptions</name>
+        <qualifiedname>FWeaponModificationsAppliedCustomization::TagsOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificationsAppliedCustomization.h" line="30" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificationsAppliedCustomization.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d9/d9e/class_f_weapon_modifications_applied_customization_1a06f956cdae1c67c6bf49b4d17a04024b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE TSharedRef&lt; IPropertyTypeCustomization &gt;</type>
+        <definition>static FORCEINLINE TSharedRef&lt; IPropertyTypeCustomization &gt; FWeaponModificationsAppliedCustomization::MakeInstance</definition>
+        <argsstring>()</argsstring>
+        <name>MakeInstance</name>
+        <qualifiedname>FWeaponModificationsAppliedCustomization::MakeInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificationsAppliedCustomization.h" line="14" column="31" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificationsAppliedCustomization.h" bodystart="14" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d9e/class_f_weapon_modifications_applied_customization_1ade487e4fce6fc3825cd6e9b5ca0daeb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWeaponModificationsAppliedCustomization::CustomizeChildren</definition>
+        <argsstring>(TSharedRef&lt; IPropertyHandle &gt; PropertyHandle, IDetailChildrenBuilder &amp;ChildBuilder, IPropertyTypeCustomizationUtils &amp;CustomizationUtils) override</argsstring>
+        <name>CustomizeChildren</name>
+        <qualifiedname>FWeaponModificationsAppliedCustomization::CustomizeChildren</qualifiedname>
+        <param>
+          <type>TSharedRef&lt; IPropertyHandle &gt;</type>
+          <declname>PropertyHandle</declname>
+        </param>
+        <param>
+          <type>IDetailChildrenBuilder &amp;</type>
+          <declname>ChildBuilder</declname>
+        </param>
+        <param>
+          <type>IPropertyTypeCustomizationUtils &amp;</type>
+          <declname>CustomizationUtils</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificationsAppliedCustomization.h" line="23" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/WeaponModificationsAppliedCustomization.cpp" bodystart="38" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d9e/class_f_weapon_modifications_applied_customization_1ac5ca5bdd0bdb0403e94f3e71bbc55378" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWeaponModificationsAppliedCustomization::CustomizeHeader</definition>
+        <argsstring>(TSharedRef&lt; IPropertyHandle &gt; PropertyHandle, FDetailWidgetRow &amp;HeaderRow, IPropertyTypeCustomizationUtils &amp;CustomizationUtils) override</argsstring>
+        <name>CustomizeHeader</name>
+        <qualifiedname>FWeaponModificationsAppliedCustomization::CustomizeHeader</qualifiedname>
+        <param>
+          <type>TSharedRef&lt; IPropertyHandle &gt;</type>
+          <declname>PropertyHandle</declname>
+        </param>
+        <param>
+          <type>FDetailWidgetRow &amp;</type>
+          <declname>HeaderRow</declname>
+        </param>
+        <param>
+          <type>IPropertyTypeCustomizationUtils &amp;</type>
+          <declname>CustomizationUtils</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificationsAppliedCustomization.h" line="19" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/WeaponModificationsAppliedCustomization.cpp" bodystart="20" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FWeaponModificationsAppliedCustomization</label>
+        <link refid="d9/d9e/class_f_weapon_modifications_applied_customization"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPropertyTypeCustomization</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FWeaponModificationsAppliedCustomization</label>
+        <link refid="d9/d9e/class_f_weapon_modifications_applied_customization"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPropertyTypeCustomization</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificationsAppliedCustomization.h" line="11" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/WeaponModificationsAppliedCustomization.h" bodystart="12" bodyend="32"/>
+    <listofallmembers>
+      <member refid="d9/d9e/class_f_weapon_modifications_applied_customization_1ade487e4fce6fc3825cd6e9b5ca0daeb8" prot="public" virt="virtual"><scope>FWeaponModificationsAppliedCustomization</scope><name>CustomizeChildren</name></member>
+      <member refid="d9/d9e/class_f_weapon_modifications_applied_customization_1ac5ca5bdd0bdb0403e94f3e71bbc55378" prot="public" virt="virtual"><scope>FWeaponModificationsAppliedCustomization</scope><name>CustomizeHeader</name></member>
+      <member refid="d9/d9e/class_f_weapon_modifications_applied_customization_1a2b5ba1448dafca76a023aa4238a87601" prot="protected" virt="non-virtual"><scope>FWeaponModificationsAppliedCustomization</scope><name>FSlotModifications</name></member>
+      <member refid="d9/d9e/class_f_weapon_modifications_applied_customization_1a06f956cdae1c67c6bf49b4d17a04024b" prot="public" virt="non-virtual"><scope>FWeaponModificationsAppliedCustomization</scope><name>MakeInstance</name></member>
+      <member refid="d9/d9e/class_f_weapon_modifications_applied_customization_1a8ce1694c48cbb84c74f0f8604077fc27" prot="protected" virt="non-virtual"><scope>FWeaponModificationsAppliedCustomization</scope><name>TagsOptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

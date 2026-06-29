@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d3/d7b/_weapon_asset_library_8h" kind="file" language="C++">
+    <compoundname>WeaponAssetLibrary.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes local="yes">Kismet/BlueprintFunctionLibrary.h</includes>
+    <includes local="yes">WeaponAssetLibrary.generated.h</includes>
+    <includedby refid="d5/d3b/_weapon_asset_editor_app_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp</includedby>
+    <includedby refid="d4/d68/_weapon_component_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Components/WeaponComponent.cpp</includedby>
+    <includedby refid="db/dc9/_weapon_asset_library_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/WeaponAssetLibrary.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponAssetLibrary.h</label>
+        <link refid="d3/d7b/_weapon_asset_library_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="3">
+        <label>Kismet/BlueprintFunctionLibrary.h</label>
+      </node>
+      <node id="4">
+        <label>WeaponAssetLibrary.generated.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="dc/d5e/class_u_weapon_asset_library" prot="public">UWeaponAssetLibrary</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Kismet/BlueprintFunctionLibrary.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponAssetLibrary.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">UCLASS()</highlight></codeline>
+<codeline lineno="17" refid="dc/d5e/class_u_weapon_asset_library" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="dc/d5e/class_u_weapon_asset_library" kindref="compound">UWeaponAssetLibrary</ref><sp/>:<sp/>public<sp/>UBlueprintFunctionLibrary</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Weapon&quot;</highlight><highlight class="normal">,<sp/>meta=(AdvancedDisplay=</highlight><highlight class="stringliteral">&quot;Characteristics&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ConstructWeaponFromCharacteristics(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/>WeaponAsset,<sp/>USceneComponent*<sp/>RootComponent,<sp/><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref>*<sp/>Characteristics,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>RunVariables);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Weapon&quot;</highlight><highlight class="normal">,<sp/>meta=(AdvancedDisplay=</highlight><highlight class="stringliteral">&quot;Characteristics&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ConstructWeaponFromModifications(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/>WeaponAsset,<sp/>USceneComponent*<sp/>RootComponent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref>&amp;<sp/>Modifications,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>RunVariables);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Weapon&quot;</highlight><highlight class="normal">,<sp/>meta=(AdvancedDisplay=</highlight><highlight class="stringliteral">&quot;Characteristics&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ConstructWeaponFromContext(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/>WeaponAsset,<sp/>USceneComponent*<sp/>RootComponent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref>&amp;<sp/>Context,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>RunVariables);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponAssetLibrary.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d2/da4/structlarger_align" kind="struct" language="C++" prot="public">
+    <compoundname>largerAlign</compoundname>
+    <includes local="no">DynamicPointer.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/da4/structlarger_align_1ace9b9950ebe14d10e6f9d13064e16c5a" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A</type>
+          </param>
+          <param>
+            <type>typename B</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool largerAlign::operator()</definition>
+        <argsstring>() const</argsstring>
+        <name>operator()</name>
+        <qualifiedname>largerAlign::operator()</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="96" column="16" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="96" bodyend="98"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="94" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="94" bodyend="99"/>
+    <listofallmembers>
+      <member refid="d2/da4/structlarger_align_1ace9b9950ebe14d10e6f9d13064e16c5a" prot="public" virt="non-virtual"><scope>largerAlign</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

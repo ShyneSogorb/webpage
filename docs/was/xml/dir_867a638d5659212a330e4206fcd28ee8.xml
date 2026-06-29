@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_867a638d5659212a330e4206fcd28ee8" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Miscellaneous</compoundname>
+    <innerfile refid="d7/dc5/_node_pin_compatibility_8cpp">NodePinCompatibility.cpp</innerfile>
+    <innerfile refid="dd/d0c/_weapon_initialization_data_8cpp">WeaponInitializationData.cpp</innerfile>
+    <innerfile refid="db/d40/_weapon_settings_description_funtion_library_8cpp">WeaponSettingsDescriptionFuntionLibrary.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Miscellaneous/"/>
+  </compounddef>
+</doxygen>

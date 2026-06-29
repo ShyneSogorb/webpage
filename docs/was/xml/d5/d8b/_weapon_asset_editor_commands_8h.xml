@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d5/d8b/_weapon_asset_editor_commands_8h" kind="file" language="C++">
+    <compoundname>WeaponAssetEditorCommands.h</compoundname>
+    <includes local="yes">Framework/Commands/Commands.h</includes>
+    <includes local="yes">Styling/AppStyle.h</includes>
+    <includedby refid="d0/d7a/_w_a_s_editor_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WASEditor.cpp</includedby>
+    <includedby refid="d5/d3b/_weapon_asset_editor_app_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp</includedby>
+    <includedby refid="d5/de1/_weapon_asset_editor_commands_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorCommands.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorCommands.h</label>
+        <link refid="d5/d8b/_weapon_asset_editor_commands_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Framework/Commands/Commands.h</label>
+      </node>
+      <node id="3">
+        <label>Styling/AppStyle.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d8/d1c/class_f_weapon_asset_editor_commands" prot="public">FWeaponAssetEditorCommands</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="d5/d8b/_weapon_asset_editor_commands_8h_1a0de3ae51f3a629a8e5d113f1b9390da7" prot="public" static="no">
+        <name>LOCTEXT_NAMESPACE</name>
+        <initializer>&quot;WeaponEditorCommands&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorCommands.h" line="8" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorCommands.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Framework/Commands/Commands.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Styling/AppStyle.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOCTEXT_NAMESPACE<sp/>&quot;WeaponEditorCommands&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="10" refid="d8/d1c/class_f_weapon_asset_editor_commands" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/d1c/class_f_weapon_asset_editor_commands" kindref="compound">FWeaponAssetEditorCommands</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>TCommands&lt;FWeaponAssetEditorCommands&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d1c/class_f_weapon_asset_editor_commands_1ab4780424109a1ad478cc4ceabbe445c0" kindref="member">FWeaponAssetEditorCommands</ref>()<sp/>:<sp/>TCommands&lt;FWeaponAssetEditorCommands&gt;(</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;WeaponAssetEditor&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LOCTEXT(</highlight><highlight class="stringliteral">&quot;WeaponAssetEditor&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Weapon<sp/>Asset<sp/>Editor&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NAME_None,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FAppStyle::GetAppStyleSetName()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>){}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;FUICommandInfo&gt;<sp/><ref refid="d8/d1c/class_f_weapon_asset_editor_commands_1a39d198a5a6a4be16c47038351f6de0ba" kindref="member">DeleteSelectedNodes</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;FUICommandInfo&gt;<sp/><ref refid="d8/d1c/class_f_weapon_asset_editor_commands_1a40f78008356b0b540b984d801f2dcf88" kindref="member">DuplicateSelectedNodes</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;FUICommandInfo&gt;<sp/><ref refid="d8/d1c/class_f_weapon_asset_editor_commands_1a995fc2cab2233e25a81776e5abac49f6" kindref="member">CopySelectedNodes</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;FUICommandInfo&gt;<sp/><ref refid="d8/d1c/class_f_weapon_asset_editor_commands_1a909c468a8113d55248f638e8873791ec" kindref="member">PasteSelectedNodes</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;FUICommandInfo&gt;<sp/><ref refid="d8/d1c/class_f_weapon_asset_editor_commands_1a1e667744e82e7a0ccde033903c0887d6" kindref="member">CommentSelectedNodes</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d8/d1c/class_f_weapon_asset_editor_commands_1ae7f60c4ddb36a0be4ad1cc01168c05fb" kindref="member">RegisterCommands</ref>()</highlight><highlight class="keyword"><sp/>override</highlight></codeline>
+<codeline lineno="28"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UI_COMMAND(<ref refid="d8/d1c/class_f_weapon_asset_editor_commands_1a39d198a5a6a4be16c47038351f6de0ba" kindref="member">DeleteSelectedNodes</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Delete&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Deletes<sp/>selected<sp/>nodes&quot;</highlight><highlight class="normal">,<sp/>EUserInterfaceActionType::Button,<sp/>FInputChord(EKeys::Delete));</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UI_COMMAND(<ref refid="d8/d1c/class_f_weapon_asset_editor_commands_1a40f78008356b0b540b984d801f2dcf88" kindref="member">DuplicateSelectedNodes</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Duplicate&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Duplicates<sp/>selected<sp/>nodes&quot;</highlight><highlight class="normal">,<sp/>EUserInterfaceActionType::Button,<sp/>FInputChord(EKeys::D,<sp/>EModifierKey::Control));</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UI_COMMAND(<ref refid="d8/d1c/class_f_weapon_asset_editor_commands_1a995fc2cab2233e25a81776e5abac49f6" kindref="member">CopySelectedNodes</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Copy&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Copies<sp/>selected<sp/>nodes&quot;</highlight><highlight class="normal">,<sp/>EUserInterfaceActionType::Button,<sp/>FInputChord(EKeys::C,<sp/>EModifierKey::Control));</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UI_COMMAND(<ref refid="d8/d1c/class_f_weapon_asset_editor_commands_1a909c468a8113d55248f638e8873791ec" kindref="member">PasteSelectedNodes</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Paste&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Pastes<sp/>selected<sp/>nodes&quot;</highlight><highlight class="normal">,<sp/>EUserInterfaceActionType::Button,<sp/>FInputChord(EKeys::V,<sp/>EModifierKey::Control));</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UI_COMMAND(<ref refid="d8/d1c/class_f_weapon_asset_editor_commands_1a1e667744e82e7a0ccde033903c0887d6" kindref="member">CommentSelectedNodes</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Comment&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Adds<sp/>a<sp/>comment<sp/>node&quot;</highlight><highlight class="normal">,<sp/>EUserInterfaceActionType::Button,<sp/>FInputChord(EKeys::C));</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>LOCTEXT_NAMESPACE</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorCommands.h"/>
+  </compounddef>
+</doxygen>

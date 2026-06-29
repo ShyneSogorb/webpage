@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d0/d4d/struct_f_ammo_type_name" kind="struct" language="C++" prot="public">
+    <compoundname>FAmmoTypeName</compoundname>
+    <includes local="no">WeaponSystemSettings.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d4d/struct_f_ammo_type_name_1a657dd47343ccbee08e5cfc63536ce59e" prot="public" static="no" mutable="no">
+        <type>FName</type>
+        <definition>FName FAmmoTypeName::Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>FAmmoTypeName::Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" line="22" column="11" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d4d/struct_f_ammo_type_name_1af3d01b91d8429c830578d28d16aecae8" prot="public" static="no" mutable="no">
+        <type>TEnumAsByte&lt; EAmmoType &gt;</type>
+        <definition>TEnumAsByte&lt;EAmmoType&gt; FAmmoTypeName::Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <qualifiedname>FAmmoTypeName::Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" line="18" column="17" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d4d/struct_f_ammo_type_name_1a3089a225b074d4c76ace296f67cb6294" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FAmmoTypeName::FAmmoTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>FAmmoTypeName</name>
+        <qualifiedname>FAmmoTypeName::FAmmoTypeName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" line="24" column="5" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d4d/struct_f_ammo_type_name_1aad842363e0ec706c432938d4b6a476c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FAmmoTypeName::FAmmoTypeName</definition>
+        <argsstring>(EAmmoType InType, const FName &amp;InName)</argsstring>
+        <name>FAmmoTypeName</name>
+        <qualifiedname>FAmmoTypeName::FAmmoTypeName</qualifiedname>
+        <param>
+          <type>EAmmoType</type>
+          <declname>InType</declname>
+        </param>
+        <param>
+          <type>const FName &amp;</type>
+          <declname>InName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" line="26" column="5" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" line="12" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" bodystart="13" bodyend="28"/>
+    <listofallmembers>
+      <member refid="d0/d4d/struct_f_ammo_type_name_1a3089a225b074d4c76ace296f67cb6294" prot="public" virt="non-virtual"><scope>FAmmoTypeName</scope><name>FAmmoTypeName</name></member>
+      <member refid="d0/d4d/struct_f_ammo_type_name_1aad842363e0ec706c432938d4b6a476c4" prot="public" virt="non-virtual"><scope>FAmmoTypeName</scope><name>FAmmoTypeName</name></member>
+      <member refid="d0/d4d/struct_f_ammo_type_name_1a657dd47343ccbee08e5cfc63536ce59e" prot="public" virt="non-virtual"><scope>FAmmoTypeName</scope><name>Name</name></member>
+      <member refid="d0/d4d/struct_f_ammo_type_name_1af3d01b91d8429c830578d28d16aecae8" prot="public" virt="non-virtual"><scope>FAmmoTypeName</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

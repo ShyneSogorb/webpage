@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="db/d8d/_weapon_viewport_client_8h" kind="file" language="C++">
+    <compoundname>WeaponViewportClient.h</compoundname>
+    <includes local="yes">EditorViewportClient.h</includes>
+    <includedby refid="d8/ddf/_weapon_preview_viewport_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport/WeaponPreviewViewport.cpp</includedby>
+    <includedby refid="d7/dfa/_weapon_viewport_client_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport/WeaponViewportClient.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponViewportClient.h</label>
+        <link refid="db/d8d/_weapon_viewport_client_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EditorViewportClient.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d7/de5/class_f_weapon_viewport_client" prot="public">FWeaponViewportClient</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;EditorViewportClient.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="d7/de5/class_f_weapon_viewport_client" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/de5/class_f_weapon_viewport_client" kindref="compound">FWeaponViewportClient</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>FEditorViewportClient,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>TSharedFromThis&lt;FWeaponViewportClient&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/de5/class_f_weapon_viewport_client_1a14d70beb3825234aade15a424cda5dbe" kindref="member">FWeaponViewportClient</ref>(</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/><ref refid="d5/d59/class_f_weapon_preview_scene" kindref="compound">FWeaponPreviewScene</ref>&amp;<sp/>InPreviewScene,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSharedRef&lt;class<sp/>SWeaponPreviewViewport&gt;&amp;<sp/>InWeaponEditorViewport);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d59/class_f_weapon_preview_scene" kindref="compound">FWeaponPreviewScene</ref>*<sp/><ref refid="d7/de5/class_f_weapon_viewport_client_1a861c5d28bd5efa4feb3f90a34e36f48c" kindref="member">PreviewScene</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>TWeakPtr&lt;SWeaponPreviewViewport&gt;<sp/><ref refid="d7/de5/class_f_weapon_viewport_client_1a15bf6d0da2d510ece1ef10c3cecd864b" kindref="member">WeaponViewportPtr</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponViewportClient.h"/>
+  </compounddef>
+</doxygen>

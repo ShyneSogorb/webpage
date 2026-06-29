@@ -1,0 +1,9 @@
+<map id="FWeaponAssetEditorApp" name="FWeaponAssetEditorApp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="199,80,366,107"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,195,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,36,252,77,250,82,145,41"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="218,5,347,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="285,48,285,80,280,80,280,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="371,5,466,32"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="383,42,308,82,305,77,380,37"/>
+</map>

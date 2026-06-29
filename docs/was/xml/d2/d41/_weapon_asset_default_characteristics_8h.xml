@@ -1,0 +1,698 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d2/d41/_weapon_asset_default_characteristics_8h" kind="file" language="C++">
+    <compoundname>WeaponAssetDefaultCharacteristics.h</compoundname>
+    <includes refid="de/d35/_weapon_asset_characteristics_8h" local="yes">WeaponAssetCharacteristics.h</includes>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes refid="d6/d91/_enumerators_8h" local="yes">Miscellaneous/Enumerators.h</includes>
+    <includes local="yes">WeaponAssetDefaultCharacteristics.generated.h</includes>
+    <includedby refid="d9/dfb/_weapon_component_8h" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Components/WeaponComponent.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h</label>
+        <link refid="d2/d41/_weapon_asset_default_characteristics_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="3">
+        <label>WeaponAssetDefaultCharacteristics.generated.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="da/db7/class_u_weapon_asset_default_characteristics" prot="public">UWeaponAssetDefaultCharacteristics</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d2/d41/_weapon_asset_default_characteristics_8h_1a5a0d37f0cdd74b8053b5b43affefcf93" prot="public" static="no" strong="yes">
+        <type>uint8</type>
+        <name>ETriggerMode</name>
+        <enumvalue id="d2/d41/_weapon_asset_default_characteristics_8h_1a5a0d37f0cdd74b8053b5b43affefcf93a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>No firing. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d41/_weapon_asset_default_characteristics_8h_1a5a0d37f0cdd74b8053b5b43affefcf93a66ba162102bbf6ae31b522aec561735e" prot="public">
+          <name>Single</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Single shot per trigger pull. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d41/_weapon_asset_default_characteristics_8h_1a5a0d37f0cdd74b8053b5b43affefcf93ac134fae30efdd1105b52a457a4bddac2" prot="public">
+          <name>Burst</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Fixed burst count with delay between shots. </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d2/d41/_weapon_asset_default_characteristics_8h_1a5a0d37f0cdd74b8053b5b43affefcf93a086247a9b57fde6eefee2a0c4752242d" prot="public">
+          <name>Automatic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Continuous fire until trigger release. </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Weapon trigger firing behavior mode. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="13" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="14" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1a83998b9a9104c9820cad9ea19d7d9fa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FAmmoLoosePerTriggerChanged, int32, Previous, int32, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FAmmoLoosePerTriggerChanged</type>
+        </param>
+        <param>
+          <type>int32</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>int32</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="30" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="30" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1a5f0296afff3336d8c64cf33a7a151830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FAmmoTypeChanged, TEnumAsByte&lt; EAmmoType &gt;, Previous, TEnumAsByte&lt; EAmmoType &gt;, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FAmmoTypeChanged</type>
+        </param>
+        <param>
+          <type>TEnumAsByte&lt; EAmmoType &gt;</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>TEnumAsByte&lt; EAmmoType &gt;</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="37" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="37" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1a543dd8950edeb3cc857febde8a38b33f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FBurstTriggersChanged, uint8, Previous, uint8, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FBurstTriggersChanged</type>
+        </param>
+        <param>
+          <type>uint8</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>uint8</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="24" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="24" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1a2086e5c623e10effd3562602df14651d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FCustomReloadExecutionTimingChanged, bool, Previous, bool, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FCustomReloadExecutionTimingChanged</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="32" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="32" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1a6c86ee9c1c37b2781878c34aecefc3b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FCustomTriggerExecutionTimingChanged, bool, Previous, bool, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FCustomTriggerExecutionTimingChanged</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="31" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="31" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1ae9f8d175f3fa780dd7b9004a2f2d4547" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FCustomUnjamExecutionTimingChanged, bool, Previous, bool, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FCustomUnjamExecutionTimingChanged</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="35" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="35" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1ae93febf6994cb82f2112794a7d0aba24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FIterationReloadStepAmountChanged, uint8, Previous, uint8, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FIterationReloadStepAmountChanged</type>
+        </param>
+        <param>
+          <type>uint8</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>uint8</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="34" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="34" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1a446f0f15e9a84e1f0759403040101295" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FJamProbabilityChanged, float, Previous, float, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FJamProbabilityChanged</type>
+        </param>
+        <param>
+          <type>float</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>float</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="26" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="26" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1a45a4658ddd0e80aedf5570fcab013eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FLooseExtraAmmoOnReloadChanged, bool, Previous, bool, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FLooseExtraAmmoOnReloadChanged</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="33" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="33" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1a67b02d34fefb1384643334f62d6258f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FMagazineCapabilityChanged, int32, Previous, int32, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FMagazineCapabilityChanged</type>
+        </param>
+        <param>
+          <type>int32</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>int32</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="25" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="25" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1a3f1605ef05e1c8ac5ded22fea5f1e80f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FReloadByMagazineChanged, bool, Previous, bool, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FReloadByMagazineChanged</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="36" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="36" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1ae7b0b6dc86f8dbb3f093034bb7648e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FTriggerIfAmmoLessThanRequiredChanged, bool, Previous, bool, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FTriggerIfAmmoLessThanRequiredChanged</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="29" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="29" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1af05b8070d98cba3549b66fe634f78de8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FTriggerModeChanged, ETriggerMode, Previous, ETriggerMode, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FTriggerModeChanged</type>
+        </param>
+        <param>
+          <type>ETriggerMode</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>ETriggerMode</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="22" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="22" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1a710a1c0e6fe749c79a24c96fd809a2a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FTriggerRateChanged, float, Previous, float, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FTriggerRateChanged</type>
+        </param>
+        <param>
+          <type>float</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>float</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="23" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="23" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1ae6d66fd4e547ad694f80f24d014ac4bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FUsesAmmoChanged, bool, Previous, bool, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FUsesAmmoChanged</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="27" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="27" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d41/_weapon_asset_default_characteristics_8h_1a2b4bfd3414bdc6da077f4354eefb4414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
+        <argsstring>(FUsesMagazineChanged, bool, Previous, bool, Current)</argsstring>
+        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
+        <param>
+          <type>FUsesMagazineChanged</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Previous</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>Current</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="28" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" declline="28" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponAssetCharacteristics.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/Enumerators.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponAssetDefaultCharacteristics.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">UENUM(BlueprintType)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>ETriggerMode<sp/>:<sp/>uint8</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>None,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>Single,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>Burst,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>Automatic<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>AutogeneratedDelegatesDeclarations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FTriggerModeChanged,<sp/>ETriggerMode,<sp/>Previous,<sp/>ETriggerMode,<sp/>Current);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FTriggerRateChanged,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">,<sp/>Previous,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">,<sp/>Current);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FBurstTriggersChanged,<sp/>uint8,<sp/>Previous,<sp/>uint8,<sp/>Current);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FMagazineCapabilityChanged,<sp/>int32,<sp/>Previous,<sp/>int32,<sp/>Current);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FJamProbabilityChanged,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">,<sp/>Previous,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">,<sp/>Current);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FUsesAmmoChanged,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Previous,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Current);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FUsesMagazineChanged,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Previous,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Current);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FTriggerIfAmmoLessThanRequiredChanged,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Previous,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Current);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FAmmoLoosePerTriggerChanged,<sp/>int32,<sp/>Previous,<sp/>int32,<sp/>Current);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FCustomTriggerExecutionTimingChanged,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Previous,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Current);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FCustomReloadExecutionTimingChanged,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Previous,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Current);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FLooseExtraAmmoOnReloadChanged,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Previous,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Current);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FIterationReloadStepAmountChanged,<sp/>uint8,<sp/>Previous,<sp/>uint8,<sp/>Current);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FCustomUnjamExecutionTimingChanged,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Previous,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Current);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FReloadByMagazineChanged,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Previous,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,<sp/>Current);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FAmmoTypeChanged,<sp/>TEnumAsByte&lt;EAmmoType&gt;,<sp/>Previous,<sp/>TEnumAsByte&lt;EAmmoType&gt;,<sp/>Current);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion<sp/>AutogeneratedDelegatesDeclarations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">UCLASS(Blueprintable,<sp/>Const,<sp/>ClassGroup=Weapon,<sp/>DisplayName=</highlight><highlight class="stringliteral">&quot;Weapon<sp/>Default<sp/>Characteristics&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="45" refid="da/db7/class_u_weapon_asset_default_characteristics" refkind="compound"><highlight class="normal">class<sp/><ref refid="da/db7/class_u_weapon_asset_default_characteristics" kindref="compound">UWeaponAssetDefaultCharacteristics</ref><sp/>:<sp/>public<sp/><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>Getters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Trigger&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>ETriggerMode<sp/>GetTriggerMode()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ETriggerMode<sp/>GetTriggerMode_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ETriggerMode::Single;<sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Trigger&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>GetTriggerRate()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>GetTriggerRate_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1.f;<sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Trigger&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8<sp/>GetBurstTriggers()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>uint8<sp/>GetBurstTriggers_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>3;<sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>GetMagazineCapability()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32<sp/>GetMagazineCapability_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>30;<sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Jamm&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>GetJamProbability()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>GetJamProbability_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.f;<sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetUsesAmmo()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetUsesAmmo_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetUsesMagazine()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetUsesMagazine_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetTriggerIfAmmoLessThanRequired()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetTriggerIfAmmoLessThanRequired_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>GetAmmoLoosePerTrigger()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32<sp/>GetAmmoLoosePerTrigger_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;<sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Trigger&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetCustomTriggerExecutionTiming()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetCustomTriggerExecutionTiming_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetCustomReloadExecutionTiming()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetCustomReloadExecutionTiming_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetLooseExtraAmmoOnReload()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetLooseExtraAmmoOnReload_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8<sp/>GetIterationReloadStepAmount()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>uint8<sp/>GetIterationReloadStepAmount_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;<sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Jamm&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetCustomUnjamExecutionTiming()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetCustomUnjamExecutionTiming_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetReloadByMagazine()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetReloadByMagazine_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>BlueprintPure,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>EAmmoType<sp/>GetAmmoType()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>EAmmoType<sp/>GetAmmoType_Implementation()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>EAmmoType::AmmoType_Default;<sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion<sp/>Getters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>Delegates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Trigger&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>FTriggerModeChanged<sp/>OnTriggerModeChanged;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Trigger&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>FTriggerRateChanged<sp/>OnTriggerRateChanged;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Trigger&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>FBurstTriggersChanged<sp/>OnBurstTriggersChanged;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>FMagazineCapabilityChanged<sp/>OnMagazineCapabilityChanged;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Jamm&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>FJamProbabilityChanged<sp/>OnJamProbabilityChanged;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>FUsesAmmoChanged<sp/>OnUsesAmmoChanged;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>FUsesMagazineChanged<sp/>OnUsesMagazineChanged;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>FTriggerIfAmmoLessThanRequiredChanged<sp/>OnTriggerIfAmmoLessThanRequiredChanged;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>FAmmoLoosePerTriggerChanged<sp/>OnAmmoLoosePerTriggerChanged;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Trigger&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>FCustomTriggerExecutionTimingChanged<sp/>OnCustomTriggerExecutionTimingChanged;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>FCustomReloadExecutionTimingChanged<sp/>OnCustomReloadExecutionTimingChanged;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>FLooseExtraAmmoOnReloadChanged<sp/>OnLooseExtraAmmoOnReloadChanged;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>FIterationReloadStepAmountChanged<sp/>OnIterationReloadStepAmountChanged;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Jamm&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>FCustomUnjamExecutionTimingChanged<sp/>OnCustomUnjamExecutionTimingChanged;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>FReloadByMagazineChanged<sp/>OnReloadByMagazineChanged;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>FAmmoTypeChanged<sp/>OnAmmoTypeChanged;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion<sp/>Delegates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h"/>
+  </compounddef>
+</doxygen>

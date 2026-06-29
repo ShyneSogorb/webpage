@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="db/d33/struct_f_call_index" kind="struct" language="C++" prot="public">
+    <compoundname>FCallIndex</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="db/d33/struct_f_call_index_1a5ab96a821dc169d544d4752bbb34db72" prot="public" static="yes" mutable="no">
+        <type>uint64</type>
+        <definition>uint64 FCallIndex::CallIndex</definition>
+        <argsstring></argsstring>
+        <name>CallIndex</name>
+        <qualifiedname>FCallIndex::CallIndex</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/WeaponModificationDescriptionCustomization.cpp" line="27" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/WeaponModificationDescriptionCustomization.cpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/WeaponModificationDescriptionCustomization.cpp" line="25" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/WeaponModificationDescriptionCustomization.cpp" bodystart="26" bodyend="28"/>
+    <listofallmembers>
+      <member refid="db/d33/struct_f_call_index_1a5ab96a821dc169d544d4752bbb34db72" prot="public" virt="non-virtual"><scope>FCallIndex</scope><name>CallIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

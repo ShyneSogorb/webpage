@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_3a5ff8a33a0ab46a97cba6467bd82526" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private</compoundname>
+    <innerdir refid="dir_1d60b1ed3de5ba2343776e6e97fb6969">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes</innerdir>
+    <innerdir refid="dir_fd400500a23d95cd183831513ada026b">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings</innerdir>
+    <innerdir refid="dir_6b5ce69876487a0d5ea9a8f29aa9b65e">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations</innerdir>
+    <innerdir refid="dir_d9f752714f6100a0fae0eeb4c9cdcce7">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Schemas</innerdir>
+    <innerdir refid="dir_eacfc63e6e9d150554a947bb8e948ba5">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Tabs</innerdir>
+    <innerdir refid="dir_350925975f84af23b23bd763baf08ae4">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport</innerdir>
+    <innerdir refid="dir_ca924dd3b0e6c31a8d798970434ae7ed">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponCharacteristics</innerdir>
+    <innerfile refid="d1/d61/_editor_utils_8cpp">EditorUtils.cpp</innerfile>
+    <innerfile refid="d0/d7a/_w_a_s_editor_8cpp">WASEditor.cpp</innerfile>
+    <innerfile refid="de/dd3/_weapon_asset_action_8cpp">WeaponAssetAction.cpp</innerfile>
+    <innerfile refid="dc/de7/_weapon_asset_app_mode_8cpp">WeaponAssetAppMode.cpp</innerfile>
+    <innerfile refid="d5/d3b/_weapon_asset_editor_app_8cpp">WeaponAssetEditorApp.cpp</innerfile>
+    <innerfile refid="d5/de1/_weapon_asset_editor_commands_8cpp">WeaponAssetEditorCommands.cpp</innerfile>
+    <innerfile refid="d6/de1/_weapon_asset_factory_8cpp">WeaponAssetFactory.cpp</innerfile>
+    <innerfile refid="da/d42/_weapon_graph_editor_8cpp">WeaponGraphEditor.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/"/>
+  </compounddef>
+</doxygen>

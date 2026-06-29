@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d7/d35/_weapon_attachment_runtime_node_8cpp" kind="file" language="C++">
+    <compoundname>WeaponAttachmentRuntimeNode.cpp</compoundname>
+    <includes refid="df/d10/_weapon_attachment_runtime_node_8h" local="yes">Nodes/ComponentsNodes/WeaponAttachmentRuntimeNode.h</includes>
+    <includes refid="df/da3/_w_a_s_runtime_8h" local="yes">WASRuntime.h</includes>
+    <includes refid="de/d35/_weapon_runtime_pin_8h" local="yes">Nodes/WeaponRuntimePin.h</includes>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="d7/d35/_weapon_attachment_runtime_node_8cpp_1a5d512d3043210419fe0fdfdbfb11e780" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>auto</type>
+        <definition>auto ValidOnly</definition>
+        <argsstring></argsstring>
+        <name>ValidOnly</name>
+        <initializer>= [](auto Ptr){ return Ptr != nullptr; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponAttachmentRuntimeNode.cpp" line="8" column="16" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponAttachmentRuntimeNode.cpp" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/ComponentsNodes/WeaponAttachmentRuntimeNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WASRuntime.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/WeaponRuntimePin.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ValidOnly<sp/>=<sp/>[](</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>Ptr){<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Ptr<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/>};</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d4/dae/class_u_weapon_attachment_runtime_node_1a53e09a1b6a6c83e55e9ff1adc0facffd" kindref="member">UWeaponAttachmentRuntimeNode::ExecuteNode</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>ParentPin<sp/>=<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a936fcdfe272bd548e51cb3a23b1d89bb" kindref="member">GetPinConnection</ref>(<ref refid="d4/dae/class_u_weapon_attachment_runtime_node_1a9fd3426c531f83d41a9838939dd62cc7" kindref="member">GetAttachParentPin</ref>());<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!ParentPin)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;WeaponAttachmentRuntimeNode:<sp/>No<sp/>valid<sp/>parent<sp/>pin<sp/>connected.<sp/>Node:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GetName());</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1abbe1c76ce8e8161ed6405e3bc3068ceb" kindref="member">GetMainOutput</ref>()-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1ad8b6d038fbf7b9ba552372d2a09b67bd" kindref="member">SetCacheObjectArray</ref>&lt;UObject&gt;({});</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>USceneComponent*<sp/>ParentComponent<sp/>=<sp/>ParentPin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1a5f8adbf859fbf91ab5a165192baddc01" kindref="member">GetSingleObjectValue</ref>&lt;USceneComponent&gt;();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ParentComponent)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;UWeaponRuntimePin*&gt;&amp;<sp/>ChildrenPins<sp/>=<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a0e86c0ec73005b8ea83f3061287ca3d4" kindref="member">GetPinConnections</ref>(<ref refid="d4/dae/class_u_weapon_attachment_runtime_node_1a6c15f18af37cde99f5044efade67e0fa" kindref="member">GetChildrenAttachPin</ref>());</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>ChildPin<sp/>:<sp/>ChildrenPins)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!ChildPin)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//If<sp/>this<sp/>node<sp/>has<sp/>no<sp/>valid<sp/>node<sp/>skip<sp/>(eg,<sp/>the<sp/>node<sp/>is<sp/>a<sp/>select<sp/>node<sp/>with<sp/>no<sp/>in<sp/>connections)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ChildPin-&gt;ConvertDataTypeToArrayType&lt;USceneComponent&gt;();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CREATE_STACK_ELEMENT(TPersistantArray&lt;USceneComponent&gt;,<sp/>ChildrenComponents,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ChildPin-&gt;GetObjectArray&lt;USceneComponent&gt;().FilterByPredicate(ValidOnly));</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ChildComp<sp/>:<sp/>ChildrenComponents)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ChildComp-&gt;AttachToComponent(ParentComponent,<sp/>FAttachmentTransformRules::SnapToTargetIncludingScale,<sp/><ref refid="d4/dae/class_u_weapon_attachment_runtime_node_1a9e5846847e898e564104d25b8dd95c1b" kindref="member">AttachmentName</ref>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1abbe1c76ce8e8161ed6405e3bc3068ceb" kindref="member">GetMainOutput</ref>()-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1ae4f0a099815166ad38fa5f3cd763f987" kindref="member">SetCacheObjectValue</ref>(ParentComponent);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponAttachmentRuntimeNode::DefaultPins(TArray&lt;FRuntimePin&gt;&amp;<sp/>Pins)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="45"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>Pins.Add(FRuntimePin(EGPD_Input,<sp/></highlight><highlight class="stringliteral">&quot;Parent&quot;</highlight><highlight class="normal">,<sp/>ObjectSubcategory));</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>Pins.Add(FRuntimePin(EGPD_Input,<sp/></highlight><highlight class="stringliteral">&quot;Children&quot;</highlight><highlight class="normal">,<sp/>ObjectSubcategory,<sp/>EPinActions::EMultiInput));</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>Pins.Add(FRuntimePin(EGPD_Output,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Result&quot;</highlight><highlight class="normal">),<sp/>ObjectSubcategory));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponAttachmentRuntimeNode::UpdateCompatibility(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bForce)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>Class<sp/>=<sp/>USceneComponent::StaticClass();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d4/dae/class_u_weapon_attachment_runtime_node_1a9fd3426c531f83d41a9838939dd62cc7" kindref="member">GetAttachParentPin</ref>())<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dae/class_u_weapon_attachment_runtime_node_1a9fd3426c531f83d41a9838939dd62cc7" kindref="member">GetAttachParentPin</ref>()-&gt;Compatibility<sp/>=<sp/>MakeShared&lt;FNodePinObject&gt;(Class);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d4/dae/class_u_weapon_attachment_runtime_node_1a6c15f18af37cde99f5044efade67e0fa" kindref="member">GetChildrenAttachPin</ref>())<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dae/class_u_weapon_attachment_runtime_node_1a6c15f18af37cde99f5044efade67e0fa" kindref="member">GetChildrenAttachPin</ref>()-&gt;Compatibility<sp/>=<sp/>MakeShared&lt;FNodePinObject&gt;(Class);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="de/dde/class_u_weapon_runtime_node_1abbe1c76ce8e8161ed6405e3bc3068ceb" kindref="member">GetMainOutput</ref>())<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1abbe1c76ce8e8161ed6405e3bc3068ceb" kindref="member">GetMainOutput</ref>()-&gt;Compatibility<sp/>=<sp/>MakeShared&lt;FNodePinObject&gt;(Class);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/WeaponAttachmentRuntimeNode.cpp"/>
+  </compounddef>
+</doxygen>

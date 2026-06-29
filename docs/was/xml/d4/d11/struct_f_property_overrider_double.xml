@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d4/d11/struct_f_property_overrider_double" kind="struct" language="C++" prot="public">
+    <compoundname>FPropertyOverriderDouble</compoundname>
+    <basecompoundref refid="d1/d3d/struct_f_property_overrider_base" prot="public" virt="non-virtual">FPropertyOverriderBase</basecompoundref>
+    <includes local="no">PropertyOverriderBlueprints.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d4/d11/struct_f_property_overrider_double_1a1a63f7c181e9dd4192e8054d55e3f1dd" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::BaseValue</definition>
+        <argsstring></argsstring>
+        <name>BaseValue</name>
+        <qualifiedname>FPropertyOverriderDouble::BaseValue</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The unmodified base value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="131" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d11/struct_f_property_overrider_double_1af820f8d6a46af6fdd4a01c47f8484e49" prot="protected" static="no" mutable="yes">
+        <type>bool</type>
+        <definition>bool FPropertyOverriderDouble::bIsDirty</definition>
+        <argsstring></argsstring>
+        <name>bIsDirty</name>
+        <qualifiedname>FPropertyOverriderDouble::bIsDirty</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>True if cache is stale. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="146" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d11/struct_f_property_overrider_double_1a5fda6eaf879cea1690f6d2b1e61bdedd" prot="protected" static="no" mutable="yes">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::CachedValue</definition>
+        <argsstring></argsstring>
+        <name>CachedValue</name>
+        <qualifiedname>FPropertyOverriderDouble::CachedValue</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cached result of applying operator to base value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="139" column="16" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d11/struct_f_property_overrider_double_1a7973baf9cddb9d44f4336930e9b643e0" prot="protected" static="no" mutable="no">
+        <type>EOperator</type>
+        <definition>EOperator FPropertyOverriderDouble::OperatorExpression</definition>
+        <argsstring></argsstring>
+        <name>OperatorExpression</name>
+        <qualifiedname>FPropertyOverriderDouble::OperatorExpression</qualifiedname>
+        <initializer>= EOperator::Ignore</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Current operator to apply. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="143" column="11" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d11/struct_f_property_overrider_double_1ac20927252ea7fcb0e3f2241e972a6de1" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double FPropertyOverriderDouble::OperatorValue</definition>
+        <argsstring></argsstring>
+        <name>OperatorValue</name>
+        <qualifiedname>FPropertyOverriderDouble::OperatorValue</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The operand for the operator. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="135" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Blueprintable double property override with lazy evaluation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Applies an arithmetic operator to a base value with cached result. Enables property modification without conflicting with runtime weapon system changes. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FPropertyOverriderBase</label>
+        <link refid="d1/d3d/struct_f_property_overrider_base"/>
+      </node>
+      <node id="1">
+        <label>FPropertyOverriderDouble</label>
+        <link refid="d4/d11/struct_f_property_overrider_double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FPropertyOverriderBase</label>
+        <link refid="d1/d3d/struct_f_property_overrider_base"/>
+      </node>
+      <node id="1">
+        <label>FPropertyOverriderDouble</label>
+        <link refid="d4/d11/struct_f_property_overrider_double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="124" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="125" bodyend="151"/>
+    <listofallmembers>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a1a63f7c181e9dd4192e8054d55e3f1dd" prot="protected" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>BaseValue</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1af820f8d6a46af6fdd4a01c47f8484e49" prot="protected" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>bIsDirty</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a5fda6eaf879cea1690f6d2b1e61bdedd" prot="protected" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>CachedValue</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1a7973baf9cddb9d44f4336930e9b643e0" prot="protected" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>OperatorExpression</name></member>
+      <member refid="d4/d11/struct_f_property_overrider_double_1ac20927252ea7fcb0e3f2241e972a6de1" prot="protected" virt="non-virtual"><scope>FPropertyOverriderDouble</scope><name>OperatorValue</name></member>
+      <member refid="d1/d3d/struct_f_property_overrider_base_1ad2603771e763d2938bf8bfb6ff8ceaad" prot="public" virt="virtual"><scope>FPropertyOverriderDouble</scope><name>~FPropertyOverriderBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

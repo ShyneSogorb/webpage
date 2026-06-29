@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="de/d7f/_weapon_modifications_applied_customization_8cpp" kind="file" language="C++">
+    <compoundname>WeaponModificationsAppliedCustomization.cpp</compoundname>
+    <includes refid="da/d1a/_weapon_modifications_applied_customization_8h" local="yes">PropertyCustomizations/WeaponModificationsAppliedCustomization.h</includes>
+    <includes local="yes">DetailLayoutBuilder.h</includes>
+    <includes local="yes">DetailWidgetRow.h</includes>
+    <includes local="yes">IDetailChildrenBuilder.h</includes>
+    <includes local="yes">IPropertyUtilities.h</includes>
+    <includes local="yes">PropertyCustomizationHelpers.h</includes>
+    <includes refid="d3/d94/_w_a_s_editor_8h" local="yes">WASEditor.h</includes>
+    <includes local="yes">Widgets/DeclarativeSyntaxSupport.h</includes>
+    <includes local="yes">Widgets/Text/STextBlock.h</includes>
+    <includes local="yes">Widgets/Input/SComboBox.h</includes>
+    <includes refid="de/dcd/_weapon_modifications_8h" local="yes">Core/WeaponModifications.h</includes>
+    <includes refid="d9/dd5/_runtime_utils_8h" local="yes">Miscellaneous/RuntimeUtils.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/WeaponModificationsAppliedCustomization.cpp</label>
+        <link refid="de/d7f/_weapon_modifications_applied_customization_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DetailLayoutBuilder.h</label>
+      </node>
+      <node id="3">
+        <label>DetailWidgetRow.h</label>
+      </node>
+      <node id="4">
+        <label>IDetailChildrenBuilder.h</label>
+      </node>
+      <node id="5">
+        <label>IPropertyUtilities.h</label>
+      </node>
+      <node id="6">
+        <label>PropertyCustomizationHelpers.h</label>
+      </node>
+      <node id="7">
+        <label>Widgets/DeclarativeSyntaxSupport.h</label>
+      </node>
+      <node id="9">
+        <label>Widgets/Input/SComboBox.h</label>
+      </node>
+      <node id="8">
+        <label>Widgets/Text/STextBlock.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;PropertyCustomizations/WeaponModificationsAppliedCustomization.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DetailLayoutBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DetailWidgetRow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;IDetailChildrenBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;IPropertyUtilities.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;PropertyCustomizationHelpers.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WASEditor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Widgets/DeclarativeSyntaxSupport.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Widgets/Text/STextBlock.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DetailWidgetRow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Widgets/Input/SComboBox.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Core/WeaponModifications.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/RuntimeUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/d9e/class_f_weapon_modifications_applied_customization_1ac5ca5bdd0bdb0403e94f3e71bbc55378" kindref="member">FWeaponModificationsAppliedCustomization::CustomizeHeader</ref>(TSharedRef&lt;IPropertyHandle&gt;<sp/>PropertyHandle,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FDetailWidgetRow&amp;<sp/>HeaderRow,<sp/>IPropertyTypeCustomizationUtils&amp;<sp/>CustomizationUtils)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;IPropertyHandle&gt;<sp/>RootProp<sp/>=<sp/>PropertyHandle-&gt;GetChildHandle(GET_MEMBER_NAME_CHECKED(<ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref>,<sp/>WeaponRoot));</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>RootTagPtr;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>RootProp-&gt;GetValueData(RootTagPtr);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGameplayTag&amp;<sp/>RootTag<sp/>=<sp/>*</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">FGameplayTag*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(RootTagPtr);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>HeaderRow</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>.NameContent()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>.HAlign(HAlign_Center)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SNew(STextBlock)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.Text(FText::FromString(TEXT(</highlight><highlight class="stringliteral">&quot;Weapon<sp/>Root<sp/>Tag<sp/>&quot;</highlight><highlight class="normal">)<sp/>+<sp/><ref refid="d1/d18/namespace_w_a_s_runtime_utils_1adb8e4fd534bd88d12a4bce5efca709c1" kindref="member">WASRuntimeUtils::GetTagLeafName</ref>(RootTag).ToString()))</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/d9e/class_f_weapon_modifications_applied_customization_1ade487e4fce6fc3825cd6e9b5ca0daeb8" kindref="member">FWeaponModificationsAppliedCustomization::CustomizeChildren</ref>(TSharedRef&lt;IPropertyHandle&gt;<sp/>PropertyHandle,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>IDetailChildrenBuilder&amp;<sp/>ChildBuilder,<sp/>IPropertyTypeCustomizationUtils&amp;<sp/>CustomizationUtils)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>SelfPtr;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>PropertyHandle-&gt;GetValueData(SelfPtr);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref>*<sp/>Self<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(SelfPtr);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;IPropertyHandle&gt;<sp/>RootProp<sp/>=<sp/>PropertyHandle-&gt;GetChildHandle(GET_MEMBER_NAME_CHECKED(<ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref>,<sp/>WeaponRoot));</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;IPropertyHandle&gt;<sp/>ContainerProp<sp/>=<sp/>PropertyHandle-&gt;GetChildHandle(GET_MEMBER_NAME_CHECKED(<ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref>,<sp/>Container));</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>ChildBuilder.AddProperty(RootProp.ToSharedRef());</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>RootTagPtr;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>RootProp-&gt;GetValueData(RootTagPtr);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGameplayTag&amp;<sp/>RootTag<sp/>=<sp/>*</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">FGameplayTag*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(RootTagPtr);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;FGameplayTag&gt;<sp/>Slots<sp/>=<sp/><ref refid="d1/d18/namespace_w_a_s_runtime_utils_1a525cc35d5e011a49cac2d279a84b5a39" kindref="member">WASRuntimeUtils::GetDirectChildrenGameplayTag</ref>(RootTag);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d9e/class_f_weapon_modifications_applied_customization_1a8ce1694c48cbb84c74f0f8604077fc27" kindref="member">TagsOptions</ref>.Reserve(Slots.Num());</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGameplayTag&amp;<sp/>SlotTag<sp/>:<sp/>Slots)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TArray&lt;FGameplayTag&gt;<sp/>Mods<sp/>=<sp/><ref refid="d1/d18/namespace_w_a_s_runtime_utils_1a525cc35d5e011a49cac2d279a84b5a39" kindref="member">WASRuntimeUtils::GetDirectChildrenGameplayTag</ref>(SlotTag);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d9e/class_f_weapon_modifications_applied_customization_1a2b5ba1448dafca76a023aa4238a87601" kindref="member">FSlotModifications</ref>&amp;<sp/>ModOptions<sp/>=<sp/><ref refid="d9/d9e/class_f_weapon_modifications_applied_customization_1a8ce1694c48cbb84c74f0f8604077fc27" kindref="member">TagsOptions</ref>.Add_GetRef({});</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!Self-&gt;<ref refid="d7/dc9/struct_f_weapon_modifications_1ac18722faf7639cfa21d3f8ba83f4791e" kindref="member">GetModificationAtSlot</ref>(SlotTag).IsValid())</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Self-&gt;<ref refid="d7/dc9/struct_f_weapon_modifications_1a719aa0a4742d993185100c7b17e5e6f5" kindref="member">SetModification</ref>(Mods[0]);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ModOptions.Reserve(Mods.Num());</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGameplayTag&amp;<sp/>Mod<sp/>:<sp/>Mods)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ModOptions.Emplace(MakeShared&lt;FGameplayTag&gt;(Mod));</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TSharedPtr&lt;STextBlock&gt;<sp/>SelectedBox;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ChildBuilder</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.AddCustomRow(FText::FromName(<ref refid="d1/d18/namespace_w_a_s_runtime_utils_1adb8e4fd534bd88d12a4bce5efca709c1" kindref="member">WASRuntimeUtils::GetTagLeafName</ref>(SlotTag)))</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.NameContent()</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SNew(STextBlock)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.Text(FText::FromName(<ref refid="d1/d18/namespace_w_a_s_runtime_utils_1adb8e4fd534bd88d12a4bce5efca709c1" kindref="member">WASRuntimeUtils::GetTagLeafName</ref>(SlotTag)))</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.ValueContent()</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SNew(SComboBox&lt;TSharedPtr&lt;FGameplayTag&gt;&gt;)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.OptionsSource(&amp;ModOptions)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.OnGenerateWidget_Lambda([](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSharedPtr&lt;FGameplayTag&gt;&amp;<sp/>Tag)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>SNew(STextBlock)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.Text(FText::FromName(<ref refid="d1/d18/namespace_w_a_s_runtime_utils_1adb8e4fd534bd88d12a4bce5efca709c1" kindref="member">WASRuntimeUtils::GetTagLeafName</ref>(*Tag)));</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>})</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SAssignNew(SelectedBox,<sp/>STextBlock)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.Text(FText::FromName(<ref refid="d1/d18/namespace_w_a_s_runtime_utils_1adb8e4fd534bd88d12a4bce5efca709c1" kindref="member">WASRuntimeUtils::GetTagLeafName</ref>(Self-&gt;<ref refid="d7/dc9/struct_f_weapon_modifications_1ac18722faf7639cfa21d3f8ba83f4791e" kindref="member">GetModificationAtSlot</ref>(SlotTag))))</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.OnSelectionChanged_Lambda([Self,<sp/>SelectedBox](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSharedPtr&lt;FGameplayTag&gt;&amp;<sp/>Tag,<sp/>ESelectInfo::Type<sp/>SelectType)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Self-&gt;<ref refid="d7/dc9/struct_f_weapon_modifications_1a719aa0a4742d993185100c7b17e5e6f5" kindref="member">SetModification</ref>(*Tag);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SelectedBox-&gt;SetText(FText::FromName(<ref refid="d1/d18/namespace_w_a_s_runtime_utils_1adb8e4fd534bd88d12a4bce5efca709c1" kindref="member">WASRuntimeUtils::GetTagLeafName</ref>(*Tag)));</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>})</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>ChildBuilder.AddProperty(ContainerProp.ToSharedRef());</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/WeaponModificationsAppliedCustomization.cpp"/>
+  </compounddef>
+</doxygen>

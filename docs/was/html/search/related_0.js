@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['uweaponassetlibrary_0',['UWeaponAssetLibrary',['../d9/d00/a00784.html#ae90cab6c503d8a50c06f2594112279a4',1,'UWeaponAsset']]]
+  ['fweaponmodificationsappliedcustomization_0',['FWeaponModificationsAppliedCustomization',['../d7/dc9/struct_f_weapon_modifications.html#a0bf3f5559600474a5ffe3810190b72cd',1,'FWeaponModifications']]]
 ];

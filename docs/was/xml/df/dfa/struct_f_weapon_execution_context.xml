@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="df/dfa/struct_f_weapon_execution_context" kind="struct" language="C++" prot="public">
+    <compoundname>FWeaponExecutionContext</compoundname>
+    <includes local="no">WeaponExecutionContext.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="df/dfa/struct_f_weapon_execution_context_1a583cedcabfe15229c1b10d22865801f2" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FWeaponExecutionContext::bForceNotify</definition>
+        <argsstring></argsstring>
+        <name>bForceNotify</name>
+        <qualifiedname>FWeaponExecutionContext::bForceNotify</qualifiedname>
+        <initializer>{false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Force broadcast notifications during graph execution (used during build phase). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="83" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dfa/struct_f_weapon_execution_context_1aab3918aba84ec8ee43a4325c45a02b0b" prot="protected" static="no" mutable="no">
+        <type>TObjectPtr&lt; class <ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref> &gt;</type>
+        <definition>TObjectPtr&lt;class UWeaponAssetCharacteristics&gt; FWeaponExecutionContext::Characteristics</definition>
+        <argsstring></argsstring>
+        <name>Characteristics</name>
+        <qualifiedname>FWeaponExecutionContext::Characteristics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Runtime instance of weapon characteristics. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="75" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dfa/struct_f_weapon_execution_context_1ac858f77a4471e9455af2923f8751aed1" prot="protected" static="no" mutable="no">
+        <type>TWeakObjectPtr&lt; UObject &gt;</type>
+        <definition>TWeakObjectPtr&lt;UObject&gt; FWeaponExecutionContext::WorldContext</definition>
+        <argsstring></argsstring>
+        <name>WorldContext</name>
+        <qualifiedname>FWeaponExecutionContext::WorldContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>World context for weapon execution and spawning. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="79" column="16" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1a55c94b66feb9832fd1b94678a7e9f17a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval><ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref></defval>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE decltype(auto)</type>
+        <definition>static FORCEINLINE decltype(auto) FWeaponExecutionContext::GetCharacteristicsImpl</definition>
+        <argsstring>(T &amp;&amp;Obj)</argsstring>
+        <name>GetCharacteristicsImpl</name>
+        <qualifiedname>FWeaponExecutionContext::GetCharacteristicsImpl</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper to access characteristics with proper forwarding. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="21" column="29" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1ad60694d9be68e9e9668c05a487a99c5e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval><ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref></defval>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE decltype(auto)</type>
+        <definition>static FORCEINLINE decltype(auto) FWeaponExecutionContext::GetModConfigImpl</definition>
+        <argsstring>(T &amp;&amp;Obj)</argsstring>
+        <name>GetModConfigImpl</name>
+        <qualifiedname>FWeaponExecutionContext::GetModConfigImpl</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper to access modification configuration from characteristics. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="28" column="29" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1a2ccb690f3e24a7aaf172cb4128c086f5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+            <defval><ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref></defval>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE decltype(auto)</type>
+        <definition>static FORCEINLINE decltype(auto) FWeaponExecutionContext::GetModificationsAppliedImpl</definition>
+        <argsstring>(T &amp;&amp;Obj)</argsstring>
+        <name>GetModificationsAppliedImpl</name>
+        <qualifiedname>FWeaponExecutionContext::GetModificationsAppliedImpl</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper to access slot modifiers array from modification config. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="37" column="29" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="37" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1a495798c82cee729397e7a8492a2814de" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FWeaponExecutionContext::FWeaponExecutionContext</definition>
+        <argsstring>()=default</argsstring>
+        <name>FWeaponExecutionContext</name>
+        <qualifiedname>FWeaponExecutionContext::FWeaponExecutionContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="44" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1a7514a74b2701427edecdeb63c8ff420a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FWeaponExecutionContext::FWeaponExecutionContext</definition>
+        <argsstring>(UWeaponAssetCharacteristics *InCharacteristics, UObject *InWorldContext=nullptr, bool InForceNotify=false)</argsstring>
+        <name>FWeaponExecutionContext</name>
+        <qualifiedname>FWeaponExecutionContext::FWeaponExecutionContext</qualifiedname>
+        <param>
+          <type><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref> *</type>
+          <declname>InCharacteristics</declname>
+        </param>
+        <param>
+          <type>UObject *</type>
+          <declname>InWorldContext</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>InForceNotify</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="45" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="45" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1aafbd357919cdeec963ae2f7fb11c80e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TObjectPtr&lt; class <ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref> &gt; &amp;</type>
+        <definition>TObjectPtr&lt; class UWeaponAssetCharacteristics &gt; &amp; FWeaponExecutionContext::GetCharacteristics</definition>
+        <argsstring>()</argsstring>
+        <name>GetCharacteristics</name>
+        <qualifiedname>FWeaponExecutionContext::GetCharacteristics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="55" column="11" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1aa3882013fb6e73ca5041bcd73d2ff360" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const TObjectPtr&lt; class <ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref> &gt; &amp;</type>
+        <definition>const TObjectPtr&lt; class UWeaponAssetCharacteristics &gt; &amp; FWeaponExecutionContext::GetCharacteristics</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCharacteristics</name>
+        <qualifiedname>FWeaponExecutionContext::GetCharacteristics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="54" column="17" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1a662481d49bd16d403f9af88974aba4f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+        <definition>FWeaponModifications &amp; FWeaponExecutionContext::GetModConfig</definition>
+        <argsstring>()</argsstring>
+        <name>GetModConfig</name>
+        <qualifiedname>FWeaponExecutionContext::GetModConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="52" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1a038be74d46d5c3cdbf5508e9e545529b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+        <definition>const FWeaponModifications &amp; FWeaponExecutionContext::GetModConfig</definition>
+        <argsstring>() const</argsstring>
+        <name>GetModConfig</name>
+        <qualifiedname>FWeaponExecutionContext::GetModConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="51" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1a5443506d6263776e1892156bb166655d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+        <definition>FWeaponModifications &amp; FWeaponExecutionContext::GetModificationsApplied</definition>
+        <argsstring>()</argsstring>
+        <name>GetModificationsApplied</name>
+        <qualifiedname>FWeaponExecutionContext::GetModificationsApplied</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="49" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1ae236889d23cca0f6f1fa1807341b9e51" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+        <definition>const FWeaponModifications &amp; FWeaponExecutionContext::GetModificationsApplied</definition>
+        <argsstring>() const</argsstring>
+        <name>GetModificationsApplied</name>
+        <qualifiedname>FWeaponExecutionContext::GetModificationsApplied</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="48" column="27" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1a0d6713a6c404adf6f70bb15f0d11adf3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>decltype(auto)</type>
+        <definition>decltype(auto) FWeaponExecutionContext::GetWorldContext</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWorldContext</name>
+        <qualifiedname>FWeaponExecutionContext::GetWorldContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="57" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1a5595eb9274cdf841da0b34391a91a1d6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FWeaponExecutionContext::IsForcingNotify</definition>
+        <argsstring>() const</argsstring>
+        <name>IsForcingNotify</name>
+        <qualifiedname>FWeaponExecutionContext::IsForcingNotify</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if notifications should be forced during execution. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="60" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1a0f0ca66d2b98491c02975a1b13652d55" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FWeaponExecutionContext::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>FWeaponExecutionContext::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if context is valid (has world and characteristics). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="66" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dfa/struct_f_weapon_execution_context_1a56696312a6e031ea73218a5b1862900a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponExecutionContext::SetIsForcingNotify</definition>
+        <argsstring>(bool bInForceNotify)</argsstring>
+        <name>SetIsForcingNotify</name>
+        <qualifiedname>FWeaponExecutionContext::SetIsForcingNotify</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>bInForceNotify</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets whether to force notifications during graph execution. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="63" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" line="13" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponExecutionContext.h" bodystart="14" bodyend="85"/>
+    <listofallmembers>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1a583cedcabfe15229c1b10d22865801f2" prot="protected" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>bForceNotify</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1aab3918aba84ec8ee43a4325c45a02b0b" prot="protected" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>Characteristics</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1a495798c82cee729397e7a8492a2814de" prot="public" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>FWeaponExecutionContext</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1a7514a74b2701427edecdeb63c8ff420a" prot="public" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>FWeaponExecutionContext</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1aa3882013fb6e73ca5041bcd73d2ff360" prot="public" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>GetCharacteristics</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1aafbd357919cdeec963ae2f7fb11c80e8" prot="public" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>GetCharacteristics</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1a55c94b66feb9832fd1b94678a7e9f17a" prot="private" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>GetCharacteristicsImpl</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1a038be74d46d5c3cdbf5508e9e545529b" prot="public" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>GetModConfig</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1a662481d49bd16d403f9af88974aba4f0" prot="public" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>GetModConfig</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1ad60694d9be68e9e9668c05a487a99c5e" prot="private" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>GetModConfigImpl</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1ae236889d23cca0f6f1fa1807341b9e51" prot="public" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>GetModificationsApplied</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1a5443506d6263776e1892156bb166655d" prot="public" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>GetModificationsApplied</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1a2ccb690f3e24a7aaf172cb4128c086f5" prot="private" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>GetModificationsAppliedImpl</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1a0d6713a6c404adf6f70bb15f0d11adf3" prot="public" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>GetWorldContext</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1a5595eb9274cdf841da0b34391a91a1d6" prot="public" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>IsForcingNotify</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1a0f0ca66d2b98491c02975a1b13652d55" prot="public" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>operator bool</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1a56696312a6e031ea73218a5b1862900a" prot="public" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>SetIsForcingNotify</name></member>
+      <member refid="df/dfa/struct_f_weapon_execution_context_1ac858f77a4471e9455af2923f8751aed1" prot="protected" virt="non-virtual"><scope>FWeaponExecutionContext</scope><name>WorldContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

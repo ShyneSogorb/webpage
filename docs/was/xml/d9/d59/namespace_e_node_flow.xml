@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d9/d59/namespace_e_node_flow" kind="namespace" language="C++">
+    <compoundname>ENodeFlow</compoundname>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d9/d59/namespace_e_node_flow_1ace6412fad06b7d580460602bd5a84b55" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Type</name>
+        <qualifiedname>ENodeFlow::Type</qualifiedname>
+        <enumvalue id="d9/d59/namespace_e_node_flow_1ace6412fad06b7d580460602bd5a84b55aea69aa4f91ee5cfb7aecfbae2b3b2f62" prot="public">
+          <name>StartNode</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d59/namespace_e_node_flow_1ace6412fad06b7d580460602bd5a84b55ab459baa3eca782af2a1ffd9b0eb2e17d" prot="public">
+          <name>MiddleNode</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d59/namespace_e_node_flow_1ace6412fad06b7d580460602bd5a84b55a3a9e3a1fd1ec09ff56993e08a6575daa" prot="public">
+          <name>EndNode</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="13" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="14" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="11" column="1"/>
+  </compounddef>
+</doxygen>

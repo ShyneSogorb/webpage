@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d7/d3a/class_u_weapon_settings_description_function_library" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponSettingsDescriptionFunctionLibrary</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UBlueprintFunctionLibrary</basecompoundref>
+    <includes local="no">WeaponSettingsDescriptionFuntionLibrary.h</includes>
+    <briefdescription>
+<para>Blueprint function library for weapon settings and modification descriptions. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Provides utilities for breaking down and constructing weapon configuration structs. Most functions are currently commented out pending implementation. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UBlueprintFunctionLibrary</label>
+      </node>
+      <node id="1">
+        <label>UWeaponSettingsDescriptionFunctionLibrary</label>
+        <link refid="d7/d3a/class_u_weapon_settings_description_function_library"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UBlueprintFunctionLibrary</label>
+      </node>
+      <node id="1">
+        <label>UWeaponSettingsDescriptionFunctionLibrary</label>
+        <link refid="d7/d3a/class_u_weapon_settings_description_function_library"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponSettingsDescriptionFuntionLibrary.h" line="24" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponSettingsDescriptionFuntionLibrary.h" bodystart="25" bodyend="34"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

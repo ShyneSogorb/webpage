@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d0/d93/_weapon_numeric_property_overrider_runtime_node_8cpp" kind="file" language="C++">
+    <compoundname>WeaponNumericPropertyOverriderRuntimeNode.cpp</compoundname>
+    <includes refid="dc/d89/_weapon_numeric_property_overrider_runtime_node_8h" local="yes">Nodes/ReflectionNodes/WeaponNumericPropertyOverriderRuntimeNode.h</includes>
+    <includes refid="d4/dfe/_weapon_asset_8h" local="yes">Core/WeaponAsset.h</includes>
+    <includes refid="de/d35/_weapon_runtime_pin_8h" local="yes">Nodes/WeaponRuntimePin.h</includes>
+    <includes refid="d4/d86/_attributes_operators_8h" local="yes">Miscellaneous/AttributesOperators.h</includes>
+    <includes refid="d0/dfa/_property_overrider_8h" local="yes">Miscellaneous/PropertyOverrider.h</includes>
+    <includes refid="dc/de5/_property_overrider_blueprints_8h" local="yes">Miscellaneous/PropertyOverriderBlueprints.h</includes>
+    <includes refid="de/d35/_weapon_asset_characteristics_8h" local="yes">Core/WeaponAssetCharacteristics.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/ReflectionNodes/WeaponNumericPropertyOverriderRuntimeNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Core/WeaponAsset.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/WeaponRuntimePin.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/AttributesOperators.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/PropertyOverrider.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/PropertyOverriderBlueprints.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Core/WeaponAssetCharacteristics.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>UWeaponNumericPropertyOverriderRuntimeNode::GetValuePtr(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>From)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="15"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//GetProperty()-&gt;ContainerPtrToValuePtr&lt;void&gt;(From)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>StructPtr<sp/>=<sp/>GetPropertyStruct()-&gt;ContainerPtrToValuePtr&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">&gt;(From);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>GetProperty()-&gt;ContainerPtrToValuePtr&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">&gt;(StructPtr);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponNumericPropertyOverriderRuntimeNode::OnPropertyChanged()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d3d/struct_f_property_overrider_base" kindref="compound">FPropertyOverriderBase</ref>*<sp/>Overrider<sp/>=<sp/>GetPropertyStruct()-&gt;ContainerPtrToValuePtr&lt;<ref refid="d1/d3d/struct_f_property_overrider_base" kindref="compound">FPropertyOverriderBase</ref>&gt;(<ref refid="de/dde/class_u_weapon_runtime_node_1ae80914a1cbed5c244202b092e2ef28ec" kindref="member">GetCharacteristics</ref>());</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>Overrider-&gt;MarkDirty();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponNumericPropertyOverriderRuntimeNode::OnPropertyPreChanged()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d3d/struct_f_property_overrider_base" kindref="compound">FPropertyOverriderBase</ref>*<sp/>Overrider<sp/>=<sp/>GetPropertyStruct()-&gt;ContainerPtrToValuePtr&lt;<ref refid="d1/d3d/struct_f_property_overrider_base" kindref="compound">FPropertyOverriderBase</ref>&gt;(<ref refid="de/dde/class_u_weapon_runtime_node_1ae80914a1cbed5c244202b092e2ef28ec" kindref="member">GetCharacteristics</ref>());</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>Overrider-&gt;MarkDirty();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ReflectionNodes/WeaponNumericPropertyOverriderRuntimeNode.cpp"/>
+  </compounddef>
+</doxygen>

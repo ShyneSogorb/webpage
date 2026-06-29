@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d7/dcb/class_f_ammo_type_list" kind="class" language="C++" prot="public">
+    <compoundname>FAmmoTypeList</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDetailCustomNodeBuilder</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">TSharedFromThis&lt; FAmmoTypeList &gt;</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/dcb/class_f_ammo_type_list_1a6816d8095f2c3cd77ddc62e31e74a72b" prot="private" static="no" mutable="no">
+        <type>UEnum *</type>
+        <definition>UEnum* FAmmoTypeList::AmmoTypeEnum</definition>
+        <argsstring></argsstring>
+        <name>AmmoTypeEnum</name>
+        <qualifiedname>FAmmoTypeList::AmmoTypeEnum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="260" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dcb/class_f_ammo_type_list_1a44233f62d70f0aa126b5dee671df65d8" prot="private" static="no" mutable="no">
+        <type>TArray&lt; TSharedPtr&lt; <ref refid="d4/d32/class_f_ammo_type_list_item" kindref="compound">FAmmoTypeListItem</ref> &gt; &gt;</type>
+        <definition>TArray&lt;TSharedPtr&lt;FAmmoTypeListItem&gt; &gt; FAmmoTypeList::AmmoTypeList</definition>
+        <argsstring></argsstring>
+        <name>AmmoTypeList</name>
+        <qualifiedname>FAmmoTypeList::AmmoTypeList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="258" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dcb/class_f_ammo_type_list_1a8660ddd637416ef5154755ba5485f33b" prot="private" static="no" mutable="no">
+        <type>TSharedPtr&lt; IPropertyHandle &gt;</type>
+        <definition>TSharedPtr&lt;IPropertyHandle&gt; FAmmoTypeList::AmmoTypesProperty</definition>
+        <argsstring></argsstring>
+        <name>AmmoTypesProperty</name>
+        <qualifiedname>FAmmoTypeList::AmmoTypesProperty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="261" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dcb/class_f_ammo_type_list_1a9955593019e72db0d8056a39abc128ce" prot="private" static="no" mutable="no">
+        <type>FSimpleDelegate</type>
+        <definition>FSimpleDelegate FAmmoTypeList::RegenerateChildren</definition>
+        <argsstring></argsstring>
+        <name>RegenerateChildren</name>
+        <qualifiedname>FAmmoTypeList::RegenerateChildren</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="257" column="17" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dcb/class_f_ammo_type_list_1a24464bc997cbb8137559630e31358089" prot="private" static="no" mutable="no">
+        <type><ref refid="d3/dc6/class_u_weapon_system_settings" kindref="compound">UWeaponSystemSettings</ref> *</type>
+        <definition>UWeaponSystemSettings* FAmmoTypeList::Settings</definition>
+        <argsstring></argsstring>
+        <name>Settings</name>
+        <qualifiedname>FAmmoTypeList::Settings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="259" column="23" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="259" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dcb/class_f_ammo_type_list_1a2d9c6ae26e1cd2745bb9f1d48b31dc17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FAmmoTypeList::FAmmoTypeList</definition>
+        <argsstring>(UWeaponSystemSettings *InSettings, UEnum *InAmmoEnum, TSharedPtr&lt; IPropertyHandle &gt; &amp;InAmmoTypesProperty)</argsstring>
+        <name>FAmmoTypeList</name>
+        <qualifiedname>FAmmoTypeList::FAmmoTypeList</qualifiedname>
+        <param>
+          <type><ref refid="d3/dc6/class_u_weapon_system_settings" kindref="compound">UWeaponSystemSettings</ref> *</type>
+          <declname>InSettings</declname>
+        </param>
+        <param>
+          <type>UEnum *</type>
+          <declname>InAmmoEnum</declname>
+        </param>
+        <param>
+          <type>TSharedPtr&lt; IPropertyHandle &gt; &amp;</type>
+          <declname>InAmmoTypesProperty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="91" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dcb/class_f_ammo_type_list_1a85aba47244c6c1635afe7c69c84371b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FAmmoTypeList::GenerateChildContent</definition>
+        <argsstring>(IDetailChildrenBuilder &amp;ChildrenBuilder) override</argsstring>
+        <name>GenerateChildContent</name>
+        <qualifiedname>FAmmoTypeList::GenerateChildContent</qualifiedname>
+        <param>
+          <type>IDetailChildrenBuilder &amp;</type>
+          <declname>ChildrenBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="174" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="174" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dcb/class_f_ammo_type_list_1ab15aae47edcfe2b96470201327e75c0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FAmmoTypeList::GenerateHeaderRowContent</definition>
+        <argsstring>(FDetailWidgetRow &amp;NodeRow) override</argsstring>
+        <name>GenerateHeaderRowContent</name>
+        <qualifiedname>FAmmoTypeList::GenerateHeaderRowContent</qualifiedname>
+        <param>
+          <type>FDetailWidgetRow &amp;</type>
+          <declname>NodeRow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="169" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="169" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dcb/class_f_ammo_type_list_1ac1d6ed7a993a90dcf45113b6bb458c40" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>FName</type>
+        <definition>virtual FName FAmmoTypeList::GetName</definition>
+        <argsstring>() const override</argsstring>
+        <name>GetName</name>
+        <qualifiedname>FAmmoTypeList::GetName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="203" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="203" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dcb/class_f_ammo_type_list_1a9d03d2cf98995ebfc433f28a2838ec2e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool FAmmoTypeList::InitiallyCollapsed</definition>
+        <argsstring>() const override</argsstring>
+        <name>InitiallyCollapsed</name>
+        <qualifiedname>FAmmoTypeList::InitiallyCollapsed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="202" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="202" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dcb/class_f_ammo_type_list_1a19189a31deb95cd846fb3a4cd05ae592" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FAmmoTypeList::RefreshAmmoTypeList</definition>
+        <argsstring>()</argsstring>
+        <name>RefreshAmmoTypeList</name>
+        <qualifiedname>FAmmoTypeList::RefreshAmmoTypeList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="96" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="96" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dcb/class_f_ammo_type_list_1a848342c34d936d9e5b7fc42ca1b9db0d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool FAmmoTypeList::RequiresTick</definition>
+        <argsstring>() const override</argsstring>
+        <name>RequiresTick</name>
+        <qualifiedname>FAmmoTypeList::RequiresTick</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="201" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="201" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dcb/class_f_ammo_type_list_1a62cd8916c1d7debdfdabe4d2419e8945" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FAmmoTypeList::SetOnRebuildChildren</definition>
+        <argsstring>(FSimpleDelegate InOnRegenerateChildren) override</argsstring>
+        <name>SetOnRebuildChildren</name>
+        <qualifiedname>FAmmoTypeList::SetOnRebuildChildren</qualifiedname>
+        <param>
+          <type>FSimpleDelegate</type>
+          <declname>InOnRegenerateChildren</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="164" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="164" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dcb/class_f_ammo_type_list_1a7b863e5c13e5cb64c3315fdfc735453d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FAmmoTypeList::Tick</definition>
+        <argsstring>(float DeltaTime) override</argsstring>
+        <name>Tick</name>
+        <qualifiedname>FAmmoTypeList::Tick</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>DeltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="200" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="200" bodyend="200"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d7/dcb/class_f_ammo_type_list_1a306ed6b5e04fe235466bc4788fb0d583" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FAmmoTypeList::OnCommitChange</definition>
+        <argsstring>()</argsstring>
+        <name>OnCommitChange</name>
+        <qualifiedname>FAmmoTypeList::OnCommitChange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="211" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="211" bodyend="253"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FAmmoTypeList</label>
+        <link refid="d7/dcb/class_f_ammo_type_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDetailCustomNodeBuilder</label>
+      </node>
+      <node id="3">
+        <label>TSharedFromThis&lt; FAmmoTypeList &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FAmmoTypeList</label>
+        <link refid="d7/dcb/class_f_ammo_type_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDetailCustomNodeBuilder</label>
+      </node>
+      <node id="3">
+        <label>TSharedFromThis&lt; FAmmoTypeList &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" line="86" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="87" bodyend="264"/>
+    <listofallmembers>
+      <member refid="d7/dcb/class_f_ammo_type_list_1a6816d8095f2c3cd77ddc62e31e74a72b" prot="private" virt="non-virtual"><scope>FAmmoTypeList</scope><name>AmmoTypeEnum</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1a44233f62d70f0aa126b5dee671df65d8" prot="private" virt="non-virtual"><scope>FAmmoTypeList</scope><name>AmmoTypeList</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1a8660ddd637416ef5154755ba5485f33b" prot="private" virt="non-virtual"><scope>FAmmoTypeList</scope><name>AmmoTypesProperty</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1a2d9c6ae26e1cd2745bb9f1d48b31dc17" prot="public" virt="non-virtual"><scope>FAmmoTypeList</scope><name>FAmmoTypeList</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1a85aba47244c6c1635afe7c69c84371b4" prot="public" virt="virtual"><scope>FAmmoTypeList</scope><name>GenerateChildContent</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1ab15aae47edcfe2b96470201327e75c0e" prot="public" virt="virtual"><scope>FAmmoTypeList</scope><name>GenerateHeaderRowContent</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1ac1d6ed7a993a90dcf45113b6bb458c40" prot="public" virt="virtual"><scope>FAmmoTypeList</scope><name>GetName</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1a9d03d2cf98995ebfc433f28a2838ec2e" prot="public" virt="virtual"><scope>FAmmoTypeList</scope><name>InitiallyCollapsed</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1a306ed6b5e04fe235466bc4788fb0d583" prot="private" virt="non-virtual"><scope>FAmmoTypeList</scope><name>OnCommitChange</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1a19189a31deb95cd846fb3a4cd05ae592" prot="public" virt="non-virtual"><scope>FAmmoTypeList</scope><name>RefreshAmmoTypeList</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1a9955593019e72db0d8056a39abc128ce" prot="private" virt="non-virtual"><scope>FAmmoTypeList</scope><name>RegenerateChildren</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1a848342c34d936d9e5b7fc42ca1b9db0d" prot="public" virt="virtual"><scope>FAmmoTypeList</scope><name>RequiresTick</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1a62cd8916c1d7debdfdabe4d2419e8945" prot="public" virt="virtual"><scope>FAmmoTypeList</scope><name>SetOnRebuildChildren</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1a24464bc997cbb8137559630e31358089" prot="private" virt="non-virtual"><scope>FAmmoTypeList</scope><name>Settings</name></member>
+      <member refid="d7/dcb/class_f_ammo_type_list_1a7b863e5c13e5cb64c3315fdfc735453d" prot="public" virt="virtual"><scope>FAmmoTypeList</scope><name>Tick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

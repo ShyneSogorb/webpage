@@ -25,7 +25,6 @@
 var NAVTREE =
 [
   [ "Weaponry Assembly System", "index.html", [
-    [ "Deprecated List", "d9/d34/a00476.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -46,7 +45,6 @@ var NAVTREE =
         [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
-        [ "Enumerator", "functions_eval.html", null ],
         [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ]
@@ -56,10 +54,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d2/d5e/a00860.html#a6570bda0d145802fd4051299969ff9c0",
-"d7/d76/a00992.html#a483acd4295865c94773ec95a82ad5fa7",
-"da/dd6/a00896.html#a11332f4bbb7a05fa377c253f244063c3",
-"de/d42/a00780.html#a6a5e90cb235604086c1b501adb79351e"
+"d4/d11/struct_f_property_overrider_double.html#a5fda6eaf879cea1690f6d2b1e61bdedd",
+"d6/d84/class_u_weapon_graph_node.html#a3f9dd6c49535b1eaa2411f38d2fbaee1",
+"da/d5f/class_f_weapon_asset_editor_app.html#aa2c07a14068266a3f54f81f969cfa24a",
+"dd/d8f/struct_t_property_overrider.html#aeca66e9a63b3d524e4479b5d7ec093d6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

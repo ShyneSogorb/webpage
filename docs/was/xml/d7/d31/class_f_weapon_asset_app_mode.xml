@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d7/d31/class_f_weapon_asset_app_mode" kind="class" language="C++" prot="public">
+    <compoundname>FWeaponAssetAppMode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FApplicationMode</basecompoundref>
+    <includes local="no">WeaponAssetAppMode.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/d31/class_f_weapon_asset_app_mode_1aceffbec8a0d913b5dfffdadf5a3910f9" prot="private" static="no" mutable="no">
+        <type>TWeakPtr&lt; class <ref refid="da/d5f/class_f_weapon_asset_editor_app" kindref="compound">FWeaponAssetEditorApp</ref> &gt;</type>
+        <definition>TWeakPtr&lt;class FWeaponAssetEditorApp&gt; FWeaponAssetAppMode::App</definition>
+        <argsstring></argsstring>
+        <name>App</name>
+        <qualifiedname>FWeaponAssetAppMode::App</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetAppMode.h" line="18" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetAppMode.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d31/class_f_weapon_asset_app_mode_1a8aae366a4f919256ba794c5c280b8f6e" prot="private" static="no" mutable="no">
+        <type>FWorkflowAllowedTabSet</type>
+        <definition>FWorkflowAllowedTabSet FWeaponAssetAppMode::Tabs</definition>
+        <argsstring></argsstring>
+        <name>Tabs</name>
+        <qualifiedname>FWeaponAssetAppMode::Tabs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetAppMode.h" line="19" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetAppMode.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d31/class_f_weapon_asset_app_mode_1ac166e84bb6c7e94f17d0470e0a3a0579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FWeaponAssetAppMode::FWeaponAssetAppMode</definition>
+        <argsstring>(TSharedPtr&lt; class FWeaponAssetEditorApp &gt; app)</argsstring>
+        <name>FWeaponAssetAppMode</name>
+        <qualifiedname>FWeaponAssetAppMode::FWeaponAssetAppMode</qualifiedname>
+        <param>
+          <type>TSharedPtr&lt; class <ref refid="da/d5f/class_f_weapon_asset_editor_app" kindref="compound">FWeaponAssetEditorApp</ref> &gt;</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetAppMode.h" line="11" column="5" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetAppMode.cpp" bodystart="11" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d31/class_f_weapon_asset_app_mode_1ac373607c142d89a8edd540b843386bc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetAppMode::PostActivateMode</definition>
+        <argsstring>() override</argsstring>
+        <name>PostActivateMode</name>
+        <qualifiedname>FWeaponAssetAppMode::PostActivateMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetAppMode.h" line="15" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetAppMode.cpp" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d31/class_f_weapon_asset_app_mode_1a9d809ecc2573088a8e875efcc782e08b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetAppMode::PreDeactivateMode</definition>
+        <argsstring>() override</argsstring>
+        <name>PreDeactivateMode</name>
+        <qualifiedname>FWeaponAssetAppMode::PreDeactivateMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetAppMode.h" line="14" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetAppMode.cpp" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d31/class_f_weapon_asset_app_mode_1a24f59580785f944d3686ea0644c6a2d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWeaponAssetAppMode::RegisterTabFactories</definition>
+        <argsstring>(TSharedPtr&lt; class FTabManager &gt; InTabManager) override</argsstring>
+        <name>RegisterTabFactories</name>
+        <qualifiedname>FWeaponAssetAppMode::RegisterTabFactories</qualifiedname>
+        <param>
+          <type>TSharedPtr&lt; class FTabManager &gt;</type>
+          <declname>InTabManager</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetAppMode.h" line="13" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetAppMode.cpp" bodystart="49" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FApplicationMode</label>
+      </node>
+      <node id="1">
+        <label>FWeaponAssetAppMode</label>
+        <link refid="d7/d31/class_f_weapon_asset_app_mode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FApplicationMode</label>
+      </node>
+      <node id="1">
+        <label>FWeaponAssetAppMode</label>
+        <link refid="d7/d31/class_f_weapon_asset_app_mode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetAppMode.h" line="9" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetAppMode.h" bodystart="9" bodyend="20"/>
+    <listofallmembers>
+      <member refid="d7/d31/class_f_weapon_asset_app_mode_1aceffbec8a0d913b5dfffdadf5a3910f9" prot="private" virt="non-virtual"><scope>FWeaponAssetAppMode</scope><name>App</name></member>
+      <member refid="d7/d31/class_f_weapon_asset_app_mode_1ac166e84bb6c7e94f17d0470e0a3a0579" prot="public" virt="non-virtual"><scope>FWeaponAssetAppMode</scope><name>FWeaponAssetAppMode</name></member>
+      <member refid="d7/d31/class_f_weapon_asset_app_mode_1ac373607c142d89a8edd540b843386bc7" prot="public" virt="virtual"><scope>FWeaponAssetAppMode</scope><name>PostActivateMode</name></member>
+      <member refid="d7/d31/class_f_weapon_asset_app_mode_1a9d809ecc2573088a8e875efcc782e08b" prot="public" virt="virtual"><scope>FWeaponAssetAppMode</scope><name>PreDeactivateMode</name></member>
+      <member refid="d7/d31/class_f_weapon_asset_app_mode_1a24f59580785f944d3686ea0644c6a2d1" prot="public" virt="virtual"><scope>FWeaponAssetAppMode</scope><name>RegisterTabFactories</name></member>
+      <member refid="d7/d31/class_f_weapon_asset_app_mode_1a8aae366a4f919256ba794c5c280b8f6e" prot="private" virt="non-virtual"><scope>FWeaponAssetAppMode</scope><name>Tabs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

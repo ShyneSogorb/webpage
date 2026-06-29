@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d4/d68/_weapon_component_8cpp" kind="file" language="C++">
+    <compoundname>WeaponComponent.cpp</compoundname>
+    <includes refid="d9/dfb/_weapon_component_8h" local="yes">Components/WeaponComponent.h</includes>
+    <includes refid="d0/dce/_weapon_initialization_data_8h" local="yes">Miscellaneous/WeaponInitializationData.h</includes>
+    <includes refid="d4/dfe/_weapon_asset_8h" local="yes">Core/WeaponAsset.h</includes>
+    <includes local="yes">TimerManager.h</includes>
+    <includes refid="d3/d7b/_weapon_asset_library_8h" local="yes">WeaponAssetLibrary.h</includes>
+    <includes refid="d9/dd5/_runtime_utils_8h" local="yes">Miscellaneous/RuntimeUtils.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Components/WeaponComponent.cpp</label>
+        <link refid="d4/d68/_weapon_component_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TimerManager.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d4/d68/_weapon_component_8cpp_1a2e0d8dcd73a48ae1ab3f71eabbada9ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_FUNCTION</definition>
+        <argsstring>(UWeaponComponent::execSetAmmoSource)</argsstring>
+        <name>DEFINE_FUNCTION</name>
+        <param>
+          <type>UWeaponComponent::execSetAmmoSource</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Components/WeaponComponent.cpp" line="626" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Components/WeaponComponent.cpp" bodystart="626" bodyend="658"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d68/_weapon_component_8cpp_1a1fb8ac3c8dd6c887d491f7bd831f7d4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_FUNCTION</definition>
+        <argsstring>(UWeaponComponent::execSetAmmoSourceFromMap)</argsstring>
+        <name>DEFINE_FUNCTION</name>
+        <param>
+          <type>UWeaponComponent::execSetAmmoSourceFromMap</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Components/WeaponComponent.cpp" line="660" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Components/WeaponComponent.cpp" bodystart="660" bodyend="723"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d68/_weapon_component_8cpp_1a347cd2a30e5da6673c2c07bbba2d9e47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DEFINE_LOG_CATEGORY_STATIC</definition>
+        <argsstring>(WeaponComponentLog, Log, All)</argsstring>
+        <name>DEFINE_LOG_CATEGORY_STATIC</name>
+        <param>
+          <type>WeaponComponentLog</type>
+        </param>
+        <param>
+          <type>Log</type>
+        </param>
+        <param>
+          <type>All</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Components/WeaponComponent.cpp" line="11" column="1" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Components/WeaponComponent.cpp" declline="11" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Components/WeaponComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/WeaponInitializationData.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Core/WeaponAsset.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TimerManager.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponAssetLibrary.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/RuntimeUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">DEFINE_LOG_CATEGORY_STATIC(WeaponComponentLog,<sp/>Log,<sp/>All);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a821cc8397804b46e639d540240874577" kindref="member">UWeaponComponent::OnRegister</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::OnRegister();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>BindOnModified();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1ad018ece1d9d4490ab478f65dcb155825" kindref="member">UWeaponComponent::EndPlay</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EEndPlayReason::Type<sp/>EndPlayReason)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1acaaa0f34fc70464918561bb5d4cc024c" kindref="member">Clean</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::EndPlay(EndPlayReason);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">USceneComponent*<sp/><ref refid="d5/d97/class_u_weapon_component_1a7e4f80d06693c78704c097cf1788a847" kindref="member">UWeaponComponent::FindSocket</ref>(FName<sp/>Socket)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="30"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(USceneComponent*<sp/>Cached<sp/>=<sp/><ref refid="d5/d97/class_u_weapon_component_1a98774001c3bf0d1f98d1bef27472d16c" kindref="member">FindCachedSocket</ref>(Socket))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Cached;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;USceneComponent*&gt;<sp/>Children;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>GetChildrenComponents(</highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>Children);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>Element<sp/>:<sp/>Children)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Element-&gt;DoesSocketExist(Socket))</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1ae12feca1e543ec059b9848cbb2c636b2" kindref="member">CachedSockets</ref>.Add(Socket,<sp/>Element);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Element;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">USceneComponent*<sp/><ref refid="d5/d97/class_u_weapon_component_1ad539503620206316fd5ec09093fb7ce1" kindref="member">UWeaponComponent::GetTaggedComponent</ref>(FName<sp/>Tag)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="47"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(USceneComponent*<sp/>Component<sp/>=<sp/><ref refid="d5/d97/class_u_weapon_component_1a6043184d12cba7f9af0c179877e42a3f" kindref="member">GetCachedTaggedComponent</ref>(Tag))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Component;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;USceneComponent*&gt;<sp/>Children;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>GetChildrenComponents(</highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>Children);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>Element<sp/>:<sp/>Children)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Element-&gt;ComponentHasTag(Tag))</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a2ae9713677afba01fcb47fe041d56f29" kindref="member">CachedTags</ref>.Add(Tag,<sp/>Element);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Element;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">USceneComponent*<sp/><ref refid="d5/d97/class_u_weapon_component_1a98774001c3bf0d1f98d1bef27472d16c" kindref="member">UWeaponComponent::FindCachedSocket</ref>(FName<sp/>Socket)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="64"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>TSoftObjectPtr&lt;USceneComponent&gt;*<sp/>CompPtr<sp/>=<sp/><ref refid="d5/d97/class_u_weapon_component_1ae12feca1e543ec059b9848cbb2c636b2" kindref="member">CachedSockets</ref>.Find(Socket);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(CompPtr<sp/>&amp;&amp;<sp/>CompPtr-&gt;IsValid())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CompPtr-&gt;Get();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">USceneComponent*<sp/><ref refid="d5/d97/class_u_weapon_component_1a6043184d12cba7f9af0c179877e42a3f" kindref="member">UWeaponComponent::GetCachedTaggedComponent</ref>(FName<sp/>Tag)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="71"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(TSoftObjectPtr&lt;USceneComponent&gt;*<sp/>Component<sp/>=<sp/><ref refid="d5/d97/class_u_weapon_component_1a2ae9713677afba01fcb47fe041d56f29" kindref="member">CachedTags</ref>.Find(Tag))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Component-&gt;Get();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref><sp/><ref refid="d5/d97/class_u_weapon_component_1a767fd2b8ec5420474149919d7aa26b50" kindref="member">UWeaponComponent::GetWeaponDefaultModifications</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="77"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>()-&gt;<ref refid="df/d06/class_u_weapon_asset_1ad162c79401f59d9e097a91fe62e47940" kindref="member">GetModificationsApplied</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref>&amp;<sp/><ref refid="d5/d97/class_u_weapon_component_1a91c1b01aa1f3704d95000cdba1e87b9d" kindref="member">UWeaponComponent::GetWeaponModifications</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="82"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>()-&gt;<ref refid="d4/d10/class_u_weapon_asset_characteristics_1a1a6ce50c3727a92032891b43dc8dc805" kindref="member">AppliedModifications</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a41737d8238a3598fad4c5a25c63ca1ce" kindref="member">UWeaponComponent::Trigger</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isFirst)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>DO_CHECK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>check(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>());</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>check(<ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>());</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!ensureAlways(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>()<sp/>&amp;&amp;<sp/><ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>()))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(isFirst<sp/>&amp;&amp;<sp/>!<ref refid="d5/d97/class_u_weapon_component_1adc632c8f9a5144a9cc17961906c4107d" kindref="member">IsCoolingDown</ref>())<sp/><ref refid="d5/d97/class_u_weapon_component_1a5da4c6dd4e011258717faec6950a0914" kindref="member">BurstIndex</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d5/d97/class_u_weapon_component_1a1398ed0a195446e64d220e325744c758" kindref="member">IsJammed</ref>())<sp/><ref refid="d5/d97/class_u_weapon_component_1a942af28a79cd3514b46c2b7ee35f13e9" kindref="member">TryJamWeapon</ref>();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d5/d97/class_u_weapon_component_1a0cc98c0ccd0f6d91d316972db6dfc1ce" kindref="member">CanTrigger</ref>())</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CallOnTriggerFailed();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//All<sp/>first<sp/>shots<sp/>are<sp/>allowed.<sp/>First<sp/>shots<sp/>cant<sp/>be<sp/>during<sp/>cooling</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1ad70b9eb8d602f6e5e5e5d3e32fad9abc" kindref="member">TriggerModeAllowNextTrigger</ref>()<sp/>&amp;&amp;<sp/>isFirst<sp/>!=<sp/><ref refid="d5/d97/class_u_weapon_component_1adc632c8f9a5144a9cc17961906c4107d" kindref="member">IsCoolingDown</ref>())</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1a0d839c757a844c7871192b2a6dd5f60d" kindref="member">IsValid</ref>())</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32<sp/>diff<sp/>=FMath::Min(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">int32</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>),<sp/><ref refid="d5/d97/class_u_weapon_component_1aa1aa15c8d6a4aa2706e83cf9ee1bd176" kindref="member">GetAmmoLoosePerTrigger</ref>());</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>-=diff;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a5da4c6dd4e011258717faec6950a0914" kindref="member">BurstIndex</ref>++;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CallOnTriggered();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FTimerDelegate<sp/>TimerDelegate;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TimerDelegate.BindUObject(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="d5/d97/class_u_weapon_component_1a41737d8238a3598fad4c5a25c63ca1ce" kindref="member">UWeaponComponent::Trigger</ref>,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetWorld()-&gt;GetTimerManager().SetTimer(</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a478cc7cca0aa36c2220ba2d729e4ba7c" kindref="member">TriggerCooldown</ref>,<sp/>TimerDelegate,<sp/><ref refid="d5/d97/class_u_weapon_component_1a041ea21e0703e94af15fb89856c20746" kindref="member">GetTriggerRateSec</ref>(),</highlight><highlight class="keyword">false</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d5/d97/class_u_weapon_component_1ad70b9eb8d602f6e5e5e5d3e32fad9abc" kindref="member">TriggerModeAllowNextTrigger</ref>()<sp/>&amp;&amp;<sp/>!<ref refid="d5/d97/class_u_weapon_component_1adc632c8f9a5144a9cc17961906c4107d" kindref="member">IsCoolingDown</ref>())</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1ae51226362ffe05711d9f865d5249fdcf" kindref="member">SetCooldown</ref>();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Display,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Cooldown<sp/>remaining<sp/>time<sp/>is<sp/>%f&quot;</highlight><highlight class="normal">),<sp/>GetWorld()-&gt;GetTimerManager().GetTimerRemaining(<ref refid="d5/d97/class_u_weapon_component_1a478cc7cca0aa36c2220ba2d729e4ba7c" kindref="member">TriggerCooldown</ref>))</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a2680ff413a49cf73808f92bf95e5d8e8" kindref="member">UWeaponComponent::EnterTrigger</ref>()</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a5aae43f93332a8d79ac8da9a5452a4be" kindref="member">bIsTriggering</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a41737d8238a3598fad4c5a25c63ca1ce" kindref="member">Trigger</ref>();</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a7c426732bf2240182a61735956939204" kindref="member">UWeaponComponent::ExitTrigger</ref>()</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>GetWorld()-&gt;GetTimerManager().ClearTimer(<ref refid="d5/d97/class_u_weapon_component_1a44bf5ffb156ffea1660ce435c9b465b8" kindref="member">TriggerTimer</ref>);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a5aae43f93332a8d79ac8da9a5452a4be" kindref="member">bIsTriggering</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SetCooldown();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1ab81b58f4fcbfb057677eb3d99395e78a" kindref="member">UWeaponComponent::CanTrigger_Implementation</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="147"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a76ce4637407a4f35811cff337b81ed53" kindref="member">HasEnoughAmmoToTrigger</ref>()<sp/>&amp;&amp;<sp/>!<ref refid="d5/d97/class_u_weapon_component_1a1398ed0a195446e64d220e325744c758" kindref="member">IsJammed</ref>();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1ad70b9eb8d602f6e5e5e5d3e32fad9abc" kindref="member">UWeaponComponent::TriggerModeAllowNextTrigger</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="152"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(<ref refid="d5/d97/class_u_weapon_component_1aa3190de71722ea4906fe8c0a220bd96c" kindref="member">GetTriggerMode</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ETriggerMode::Burst:</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a5da4c6dd4e011258717faec6950a0914" kindref="member">BurstIndex</ref><sp/>&lt;<sp/><ref refid="d5/d97/class_u_weapon_component_1a43f6556c1e589b12de8dbbf604498248" kindref="member">GetBurstTriggers</ref>();</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ETriggerMode::Automatic:</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a5aae43f93332a8d79ac8da9a5452a4be" kindref="member">bIsTriggering</ref>==</highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>||<sp/>!<ref refid="d5/d97/class_u_weapon_component_1a5da4c6dd4e011258717faec6950a0914" kindref="member">BurstIndex</ref>;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ETriggerMode::Single:<sp/></highlight><highlight class="comment">//this<sp/>line<sp/>can<sp/>be<sp/>removed<sp/>but<sp/>helps<sp/>to<sp/>clarify</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!<ref refid="d5/d97/class_u_weapon_component_1a5da4c6dd4e011258717faec6950a0914" kindref="member">BurstIndex</ref>;<sp/></highlight><highlight class="comment">//only<sp/>if<sp/>this<sp/>index<sp/>is<sp/>0<sp/>(first)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a76ce4637407a4f35811cff337b81ed53" kindref="member">UWeaponComponent::HasEnoughAmmoToTrigger</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="167"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>no<sp/>use<sp/>ammo<sp/><sp/><sp/><sp/><sp/>OR<sp/><sp/>ammo<sp/>not<sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WHEN<sp/><sp/><sp/><sp/>Can<sp/>trigger<sp/>with<sp/>less<sp/>ammo<sp/>than<sp/>required<sp/><sp/><sp/><sp/>OR<sp/><sp/>Has<sp/>enough<sp/>ammo<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><sp/>!<ref refid="d5/d97/class_u_weapon_component_1ae28a83f9b331f24f46bb7ad29de313be" kindref="member">RequiresAmmoToTrigger</ref>()<sp/><sp/><sp/><sp/>||<sp/><sp/>(<sp/></highlight><highlight class="comment">//true<sp/>if<sp/>no<sp/>ammo<sp/>required<sp/>used<sp/>OR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="d5/d97/class_u_weapon_component_1a5e7c2f3e55a28a1d504244dacbd3376a" kindref="member">HasAmmo</ref>()<sp/><sp/>&amp;&amp;<sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a54d6664942ff2339edd42d46861791b4" kindref="member">GetTriggerIfAmmoLessThanRequired</ref>())<sp/>||<sp/></highlight><highlight class="comment">//<sp/>when<sp/>has<sp/>ammo<sp/>even<sp/>if<sp/>less<sp/>than<sp/>required<sp/>OR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="d5/d97/class_u_weapon_component_1a97cc0faecf5719939548800c8eba65e3" kindref="member">GetAmmoInUse</ref>()<sp/>&gt;=<sp/><ref refid="d5/d97/class_u_weapon_component_1aa1aa15c8d6a4aa2706e83cf9ee1bd176" kindref="member">GetAmmoLoosePerTrigger</ref>())<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>when<sp/>ammo<sp/>is<sp/>greater<sp/>than<sp/>required</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1ae51226362ffe05711d9f865d5249fdcf" kindref="member">UWeaponComponent::SetCooldown</ref>()</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a98c826034506933caac2053d4291e333" kindref="member">SetCustomCooldown</ref>(<ref refid="d5/d97/class_u_weapon_component_1a041ea21e0703e94af15fb89856c20746" kindref="member">GetTriggerRateSec</ref>());</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a5da4c6dd4e011258717faec6950a0914" kindref="member">BurstIndex</ref>=0;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a98c826034506933caac2053d4291e333" kindref="member">UWeaponComponent::SetCustomCooldown</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Cooldown)</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>FTimerDelegate<sp/>Del;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>Del.BindUObject(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;UWeaponComponent::CallOnCooledDown);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>GetWorld()-&gt;GetTimerManager().SetTimer(<ref refid="d5/d97/class_u_weapon_component_1a478cc7cca0aa36c2220ba2d729e4ba7c" kindref="member">TriggerCooldown</ref>,<sp/>Del,<sp/>Cooldown,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>Node<sp/>part</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1ab3abef4efea01de52164678174998e99" kindref="member">UWeaponComponent::Init</ref>()</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!ensureMsgf(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>(),<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Trying<sp/>to<sp/>initialize<sp/>%s<sp/>without<sp/>a<sp/>weapon<sp/>asset<sp/>assigned.<sp/>Please<sp/>assign<sp/>a<sp/>weapon<sp/>asset<sp/>to<sp/>this<sp/>component<sp/>in<sp/>order<sp/>to<sp/>initialize<sp/>it.&quot;</highlight><highlight class="normal">),<sp/>*GetName()))</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a6d2d39350da2b935cf4a3c214fe259ad" kindref="member">SetCharacteristics</ref>(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>()-&gt;CreateCharacteristicsChecked&lt;UWeaponProperties&gt;(</highlight><highlight class="keyword">this</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!ensureAlways(<ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>()))</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;There<sp/>is<sp/>no<sp/>characteristics<sp/>at<sp/>%s<sp/>(%s)&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/>*StaticClass()-&gt;GetName())</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1acaaa0f34fc70464918561bb5d4cc024c" kindref="member">Clean</ref>();</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Warning,<sp/>TEXT(&quot;The<sp/>current<sp/>world<sp/>type<sp/>is<sp/>%i&quot;),<sp/>GetWorld()-&gt;WorldType.GetIntValue())</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>if(!ensure(</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>()-&gt;IsValidCharacteristics(<ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>())<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>()-&gt;IsA&lt;UWeaponProperties&gt;())<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>()-&gt;IsValidLowLevel()</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>)<sp/></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Component<sp/>%s<sp/>has<sp/>an<sp/>invalid<sp/>Weapon<sp/>Asset<sp/>(%s)<sp/>with<sp/>%s<sp/>characteristics&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/>*<ref refid="d5/d97/class_u_weapon_component_1a9886b41a30f79fc90387b2420f601f27" kindref="member">GetWeaponAssetName</ref>(),<sp/>*GetNameSafe(<ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>()))</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1ae349f83095c71c93bd48747407d73a8b" kindref="member">SetWeaponAsset</ref>(</highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a4b5c5f153be06e50dbfabdae12b2869b" kindref="member">OnFinishReload</ref>.AddUniqueDynamic(this,<sp/>&amp;<ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref>::<ref refid="d5/d97/class_u_weapon_component_1a1d474562ed82d06add81cca8e65a2d77" kindref="member">EndReload</ref>);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>UWeaponProperties*<sp/>Properties<sp/>=<sp/>Cast&lt;UWeaponProperties&gt;(<ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>());</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>check(Properties)</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>Properties-&gt;OnMagazineCapabilityChanged.AddUniqueDynamic(this,<sp/>&amp;<ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref>::<ref refid="d5/d97/class_u_weapon_component_1af1dd296d283c456a32fc2931d093c5d8" kindref="member">SolveMagazineResize</ref>);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>Properties-&gt;OnUsesAmmoChanged.AddUniqueDynamic(this,<sp/>&amp;<ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref>::<ref refid="d5/d97/class_u_weapon_component_1a86e79c247fba7515de0bfc6084c516a9" kindref="member">OnUseAmmoUpdated</ref>);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>Properties-&gt;OnUsesMagazineChanged.AddUniqueDynamic(this,<sp/>&amp;<ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref>::<ref refid="d5/d97/class_u_weapon_component_1a91c193268afea99ed8711476dee8b0d3" kindref="member">OnUseMagazineUpdated</ref>);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Remember<sp/>that<sp/>they<sp/>may<sp/>point<sp/>to<sp/>the<sp/>same<sp/>object.<sp/>Make<sp/>new<sp/>instance<sp/>to<sp/>ensure<sp/>are<sp/>different</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a778c475c2291628bd3d9e0de7444303f" kindref="member">UpdateMesh</ref>();</highlight></codeline>
+<codeline lineno="234"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref>::<ref refid="d5/d97/class_u_weapon_component_1ae9f96953ef37d00bda0435381dc2144b" kindref="member">ResolveAmmoHandling</ref>()</highlight></codeline>
+<codeline lineno="237"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Order<sp/>matters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a86e79c247fba7515de0bfc6084c516a9" kindref="member">OnUseAmmoUpdated</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/><ref refid="d5/d97/class_u_weapon_component_1a6e9b1f3369f5128d50f71f3d6471e232" kindref="member">GetUsesAmmo</ref>());</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a91c193268afea99ed8711476dee8b0d3" kindref="member">OnUseMagazineUpdated</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/><ref refid="d5/d97/class_u_weapon_component_1a1e70e0c9f036ef12492f7f696eae2009" kindref="member">GetUsesMagazine</ref>());</highlight></codeline>
+<codeline lineno="241"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1ac1ab8ac9654880ae308644888a082de2" kindref="member">UWeaponComponent::SetWeaponModifications</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref>&amp;<sp/>NewModifications,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bForceUpdate)</highlight></codeline>
+<codeline lineno="244"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Modified<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FGameplayTag&gt;&amp;<sp/>CurrentMods<sp/>=<sp/>NewModifications.<ref refid="d7/dc9/struct_f_weapon_modifications_1a5b66fde498892c8c5d9e6a77a8c3bfeb" kindref="member">GetModsAsArray</ref>();</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGameplayTag&amp;<sp/>Tag<sp/>:<sp/>CurrentMods)</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Modified<sp/>|=<sp/><ref refid="d5/d97/class_u_weapon_component_1a1894a77965ec587d1aed2be53ce03f76" kindref="member">SetSingleModification</ref>(Tag,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Modified<sp/>||<sp/>bForceUpdate)<sp/><ref refid="d5/d97/class_u_weapon_component_1a778c475c2291628bd3d9e0de7444303f" kindref="member">UpdateMesh</ref>();</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Modified;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1ae349f83095c71c93bd48747407d73a8b" kindref="member">UWeaponComponent::SetWeaponAsset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/>NewAsset)</highlight></codeline>
+<codeline lineno="261"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NewAsset<sp/>&amp;&amp;<sp/>NewAsset-&gt;<ref refid="df/d06/class_u_weapon_asset_1ac7ad624d2e5c99a782f8bdae97424074" kindref="member">GetCharacteristics</ref>()<sp/>&amp;&amp;<sp/>NewAsset-&gt;<ref refid="df/d06/class_u_weapon_asset_1ac7ad624d2e5c99a782f8bdae97424074" kindref="member">GetCharacteristics</ref>()-&gt;IsA&lt;UWeaponProperties&gt;())</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1a6f2b0270eadb47b66b740189cce0e8e0" kindref="member">WeaponAsset</ref><sp/>==<sp/>NewAsset)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Unreal<sp/>does<sp/>not<sp/>seem<sp/>to<sp/>allow<sp/>const<sp/>object<sp/>reflection<sp/>so<sp/>have<sp/>to<sp/>const_cast</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a6f2b0270eadb47b66b740189cce0e8e0" kindref="member">WeaponAsset</ref><sp/>=<sp/>NewAsset;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(WeaponComponentLog,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Trying<sp/>to<sp/>apply<sp/>%s<sp/>to<sp/>%s<sp/>which<sp/>is<sp/>the<sp/>built-in<sp/>plugin&apos;s<sp/>weapon<sp/>component<sp/>which<sp/>only<sp/>allows<sp/>classes<sp/>deriving<sp/>from<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GetNameSafe(NewAsset),<sp/>*GetName(),<sp/>*UWeaponProperties::StaticClass()-&gt;GetName())</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a6f2b0270eadb47b66b740189cce0e8e0" kindref="member">WeaponAsset</ref><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1ab3abef4efea01de52164678174998e99" kindref="member">Init</ref>();</highlight></codeline>
+<codeline lineno="275"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref>::<ref refid="d5/d97/class_u_weapon_component_1a86e79c247fba7515de0bfc6084c516a9" kindref="member">OnUseAmmoUpdated</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>previous,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>current)</highlight></codeline>
+<codeline lineno="278"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(current)<sp/></highlight><highlight class="comment">//this<sp/>means<sp/>we<sp/>didnt<sp/>use<sp/>ammo,<sp/>but<sp/>now<sp/>we<sp/>do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1a0d839c757a844c7871192b2a6dd5f60d" kindref="member">IsValid</ref>())<sp/><ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1ac2add28d13da305d38f6e9d4bdeccd88" kindref="member">Initialize</ref>&lt;int32&gt;();</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1ad26664a9f420e1c9f5145dfadec6b287" kindref="member">SetActive</ref>();</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d5/d97/class_u_weapon_component_1a1e70e0c9f036ef12492f7f696eae2009" kindref="member">GetUsesMagazine</ref>())</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1a8fa2843e58827b29bb8e57a4f47b3505" kindref="member">ShareFromOther</ref>(<ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref>);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//this<sp/>means<sp/>we<sp/>used<sp/>to<sp/>use<sp/>ammo<sp/>from<sp/>source<sp/>but<sp/>not<sp/>anymore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1a620ee2406626c03c55634cb51db462ce" kindref="member">Deactivate</ref>();</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d5/d97/class_u_weapon_component_1a1e70e0c9f036ef12492f7f696eae2009" kindref="member">GetUsesMagazine</ref>())</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1aeadbf756201df5ba311ad03f8848d7e3" kindref="member">Reset</ref>();</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="297"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a91c193268afea99ed8711476dee8b0d3" kindref="member">UWeaponComponent::OnUseMagazineUpdated</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>previous,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>current)</highlight></codeline>
+<codeline lineno="300"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//this<sp/>means<sp/>we<sp/>did<sp/>not<sp/>use<sp/>magazine<sp/>previously,<sp/>but<sp/>now<sp/>we<sp/>do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(current)</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//If<sp/>invalid<sp/>or<sp/>sharing<sp/>with<sp/>source,<sp/>reset<sp/>to<sp/>new<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1a0d839c757a844c7871192b2a6dd5f60d" kindref="member">IsValid</ref>()<sp/>||<sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1ae7366e7c205a6d0ad3880ad852c347ba" kindref="member">SharesPointer</ref>(<ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref>))</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1a4a674b47aa5c69a5fe20502b187fcca3" kindref="member">AllocateNewValue</ref>&lt;int32&gt;();</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//This<sp/>means<sp/>we<sp/>dont<sp/>use<sp/>magazine,<sp/>so<sp/>should<sp/>point<sp/>to<sp/>directly<sp/>to<sp/>source</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1a09e6361a5cf430def0d02eefc6922eea" kindref="member">IsActive</ref>()){</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1a8fa2843e58827b29bb8e57a4f47b3505" kindref="member">ShareFromOther</ref>(<ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref>);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1aeadbf756201df5ba311ad03f8848d7e3" kindref="member">Reset</ref>();</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="317"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="da/db7/class_u_weapon_asset_default_characteristics" kindref="compound">UWeaponAssetDefaultCharacteristics</ref>*<sp/><ref refid="d5/d97/class_u_weapon_component_1ae984c82ecba34088aacb61d85d2cdef3" kindref="member">UWeaponComponent::GetDefaultCharacteristics</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="320"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>check(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>())</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>CastChecked&lt;UWeaponProperties&gt;(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>()-&gt;DefaultExecutionContext.<ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>().Get());</highlight></codeline>
+<codeline lineno="323"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref>::<ref refid="d5/d97/class_u_weapon_component_1a92db9ef09011867d171a685be7ce79b7" kindref="member">Reload</ref>()</highlight></codeline>
+<codeline lineno="326"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a31034724aa5d8707379137dc4606e829" kindref="member">bReloading</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/>CallOnBeginReload();</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d5/d97/class_u_weapon_component_1ac4113c847420853b2fa8f6ff0c73f86c" kindref="member">GetCustomReloadExecutionTiming</ref>())</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a910ac46ffdaf9e37976bf94b4784fc61" kindref="member">ReloadLogic</ref>();</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="333"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a910ac46ffdaf9e37976bf94b4784fc61" kindref="member">UWeaponComponent::ReloadLogic</ref>()</highlight></codeline>
+<codeline lineno="336"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(UNLIKELY(!<ref refid="d5/d97/class_u_weapon_component_1a1e70e0c9f036ef12492f7f696eae2009" kindref="member">GetUsesMagazine</ref>()))</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Cant<sp/>reload<sp/>if<sp/>does<sp/>not<sp/>use<sp/>magazine</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CallOnReloadFailed();</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>SourceAmmoCache<sp/>=<sp/><ref refid="d5/d97/class_u_weapon_component_1a2b257e8f6b1e93baa0665e7575a4a910" kindref="member">GetAmmoSource</ref>(<ref refid="d5/d97/class_u_weapon_component_1a6c80c2bb6c8ac707bf945c171106fab1" kindref="member">GetMagazineCapability</ref>());</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1a0d21fe29d34b0e760165294bee989780" kindref="member">bCancelReload</ref><sp/>||<sp/>SourceAmmoCache<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CallOnFinishReload();</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>ensureMsgf(<ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1a0d839c757a844c7871192b2a6dd5f60d" kindref="member">IsValid</ref>(),<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Ammo<sp/>in<sp/>magazine<sp/>is<sp/>invalid.<sp/>Can&apos;t<sp/>add<sp/>ammo<sp/>if<sp/>no<sp/>pointer<sp/>is<sp/>avaible&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1adc98526425bb5f6e5a831dec066b1b58" kindref="member">GetReloadByMagazine</ref>())</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1ab5419ccee1a9378055b1114816e0e3d3" kindref="member">ReloadLogicManual</ref>(</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/>FMath::Min(</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Min<sp/>between<sp/>ammo<sp/>required<sp/>and<sp/>avaible</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a6577da8b657f441bc1b579bba09444fb" kindref="member">GetLooseExtraAmmoOnReload</ref>()<sp/>?<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>loose<sp/>ammo<sp/>remaining</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a6c80c2bb6c8ac707bf945c171106fab1" kindref="member">GetMagazineCapability</ref>()<sp/>:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//use<sp/>max<sp/>capability<sp/>always</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a20ab3217f87006a39b22d025e10e1bd1" kindref="member">GetMagazineRemainingCapability</ref>()<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//otherwise<sp/>add<sp/>only<sp/>remaining</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,SourceAmmoCache)</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1ab5419ccee1a9378055b1114816e0e3d3" kindref="member">ReloadLogicManual</ref>(FMath::Min&lt;int32&gt;({</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a20ab3217f87006a39b22d025e10e1bd1" kindref="member">GetMagazineRemainingCapability</ref>(),</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a6e2b4eb17130540a8e4b2cfd94f9c5c2" kindref="member">GetIterationReloadStepAmount</ref>(),</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SourceAmmoCache</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}));</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="374"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1ab5419ccee1a9378055b1114816e0e3d3" kindref="member">UWeaponComponent::ReloadLogicManual</ref>(int32<sp/>AddAmmo)</highlight></codeline>
+<codeline lineno="377"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//If<sp/>it<sp/>does<sp/>not<sp/>use<sp/>ammo<sp/>use<sp/>the<sp/>max<sp/>capability</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1a2b257e8f6b1e93baa0665e7575a4a910" kindref="member">GetAmmoSource</ref>(<ref refid="d5/d97/class_u_weapon_component_1a6c80c2bb6c8ac707bf945c171106fab1" kindref="member">GetMagazineCapability</ref>())<sp/>-<sp/>AddAmmo<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CallOnReloadFailed();</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1adb8cda9e86ca771c3388e13b044d1592" kindref="member">GetAmmoInMagazine</ref>()<sp/>&gt;=<sp/><ref refid="d5/d97/class_u_weapon_component_1a6c80c2bb6c8ac707bf945c171106fab1" kindref="member">GetMagazineCapability</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CallOnFinishReload();</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//This<sp/>gives<sp/>troubles<sp/>with<sp/>loose<sp/>remaining<sp/>ammo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//AddAmmo<sp/>=<sp/>FMath::Min(AddAmmo,<sp/>GetMagazineCapability()<sp/>-<sp/>GetAmmoInMagazine());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1a6e9b1f3369f5128d50f71f3d6471e232" kindref="member">GetUsesAmmo</ref>())<sp/><ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref><sp/>-=<sp/>AddAmmo;</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(WeaponComponentLog,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Adding<sp/>%i<sp/>ammo&quot;</highlight><highlight class="normal">),<sp/>AddAmmo)</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1a6577da8b657f441bc1b579bba09444fb" kindref="member">GetLooseExtraAmmoOnReload</ref>()<sp/>&amp;&amp;<sp/><ref refid="d5/d97/class_u_weapon_component_1adc98526425bb5f6e5a831dec066b1b58" kindref="member">GetReloadByMagazine</ref>())<sp/>{<sp/></highlight><highlight class="comment">//<sp/>only<sp/>can<sp/>lose<sp/>ammo<sp/>if<sp/>changing<sp/>the<sp/>magazine<sp/>completely</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref><sp/>=<sp/>AddAmmo;</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref><sp/>+=<sp/>AddAmmo;</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/><sp/>CallOnReload();</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="404"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"></highlight></codeline>
+<codeline lineno="406"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a8f90a09245b2c034f18c6ada54691241" kindref="member">UWeaponComponent::BeginPlay</ref>()</highlight></codeline>
+<codeline lineno="407"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::BeginPlay();</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1ab3abef4efea01de52164678174998e99" kindref="member">Init</ref>();</highlight></codeline>
+<codeline lineno="410"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"></highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a1894a77965ec587d1aed2be53ce03f76" kindref="member">UWeaponComponent::SetSingleModification</ref>(FGameplayTag<sp/>Modification,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bForceUpdate)</highlight></codeline>
+<codeline lineno="413"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"></highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Modified<sp/>=<sp/><ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>()-&gt;<ref refid="d4/d10/class_u_weapon_asset_characteristics_1a4741aee61344ff5a4143d05ce2a9d9fa" kindref="member">SetModificationAtSlot</ref>(Modification);</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Modified<sp/>||<sp/>bForceUpdate)</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a778c475c2291628bd3d9e0de7444303f" kindref="member">UpdateMesh</ref>();<sp/></highlight><highlight class="comment">//update<sp/>if<sp/>there<sp/>was<sp/>a<sp/>change<sp/>or<sp/>is<sp/>forced</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="420"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Modified;</highlight></codeline>
+<codeline lineno="422"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="423"><highlight class="normal"></highlight></codeline>
+<codeline lineno="424"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a942af28a79cd3514b46c2b7ee35f13e9" kindref="member">UWeaponComponent::TryJamWeapon</ref>()</highlight></codeline>
+<codeline lineno="425"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="426"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d5/d97/class_u_weapon_component_1aeae185188dbb2dfab897c848c57d0d30" kindref="member">bJammed</ref>)<sp/></highlight><highlight class="comment">//only<sp/>called<sp/>when<sp/>is<sp/>not<sp/>jammed<sp/>so<sp/>won&apos;t<sp/>unjamm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="427"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a6b4488a1911f5e7cbac2aacdd4c18713" kindref="member">SetWeaponJammed</ref>(FMath::SRand()<sp/>&lt;<sp/><ref refid="d5/d97/class_u_weapon_component_1abde1c8d36f01894ebf63e41698a2b0d5" kindref="member">GetJamProbability</ref>());</highlight></codeline>
+<codeline lineno="428"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="429"><highlight class="normal"></highlight></codeline>
+<codeline lineno="430"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a6b4488a1911f5e7cbac2aacdd4c18713" kindref="member">UWeaponComponent::SetWeaponJammed</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Jammed)</highlight></codeline>
+<codeline lineno="431"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1aeae185188dbb2dfab897c848c57d0d30" kindref="member">bJammed</ref><sp/>==<sp/>Jammed)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1aeae185188dbb2dfab897c848c57d0d30" kindref="member">bJammed</ref><sp/>=<sp/>Jammed;</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d5/d97/class_u_weapon_component_1aeae185188dbb2dfab897c848c57d0d30" kindref="member">bJammed</ref>)</highlight></codeline>
+<codeline lineno="435"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CallOnJam();</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="440"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CallOnUnJam();</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="442"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"></highlight></codeline>
+<codeline lineno="444"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a4861d5a71b7d9aca9b10ebda5db5c43f" kindref="member">UWeaponComponent::EnsureHasCharacteristics</ref>()</highlight></codeline>
+<codeline lineno="445"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="446"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="447"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="448"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d5/d97/class_u_weapon_component_1aabc89fa6c62c53009cd4e11785489054" kindref="member">Characteristics</ref><sp/>||<sp/>!<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>()-&gt;IsValidCharacteristics(<ref refid="d5/d97/class_u_weapon_component_1aabc89fa6c62c53009cd4e11785489054" kindref="member">Characteristics</ref>))</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a6d2d39350da2b935cf4a3c214fe259ad" kindref="member">SetCharacteristics</ref>(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>()-&gt;CreateCharacteristicsChecked&lt;UWeaponProperties&gt;(</highlight><highlight class="keyword">this</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="451"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="452"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"></highlight></codeline>
+<codeline lineno="454"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a778c475c2291628bd3d9e0de7444303f" kindref="member">UWeaponComponent::UpdateMesh</ref>()</highlight></codeline>
+<codeline lineno="455"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1a65166fc5e76185db13406ae2e818a683" kindref="member">isGenerating</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="457"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="458"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Time<sp/>=<sp/>FPlatformTime::Seconds();</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a65166fc5e76185db13406ae2e818a683" kindref="member">isGenerating</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"></highlight></codeline>
+<codeline lineno="461"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1acaaa0f34fc70464918561bb5d4cc024c" kindref="member">Clean</ref>();</highlight></codeline>
+<codeline lineno="462"><highlight class="normal"></highlight></codeline>
+<codeline lineno="463"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Improve<sp/>for<sp/>better<sp/>limited<sp/>access</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="464"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a95bf44f952178d7699783e2fba350bed" kindref="member">BuildAsset</ref>(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>());</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"></highlight></codeline>
+<codeline lineno="466"><highlight class="normal"><sp/><sp/><sp/><sp/>Time<sp/>=<sp/>FPlatformTime::Seconds()<sp/>-<sp/>Time;</highlight></codeline>
+<codeline lineno="467"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(WeaponComponentLog,<sp/>Display,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Mesh<sp/>build<sp/>time:<sp/>%f<sp/>seconds&quot;</highlight><highlight class="normal">),<sp/>Time);</highlight></codeline>
+<codeline lineno="468"><highlight class="normal"></highlight></codeline>
+<codeline lineno="469"><highlight class="normal"><sp/><sp/><sp/><sp/>CallOnWeaponBuild();</highlight></codeline>
+<codeline lineno="470"><highlight class="normal"></highlight></codeline>
+<codeline lineno="471"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="472"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="473"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a65166fc5e76185db13406ae2e818a683" kindref="member">isGenerating</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="474"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="475"><highlight class="normal"><sp/><sp/><sp/><sp/>GetWorld()-&gt;GetTimerManager().SetTimerForNextTick([</highlight><highlight class="keyword">this</highlight><highlight class="normal">]()</highlight></codeline>
+<codeline lineno="476"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="477"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a65166fc5e76185db13406ae2e818a683" kindref="member">isGenerating</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="478"><highlight class="normal"><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="479"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="480"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="481"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="482"><highlight class="normal"></highlight></codeline>
+<codeline lineno="483"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a95bf44f952178d7699783e2fba350bed" kindref="member">UWeaponComponent::BuildAsset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/>Asset)</highlight></codeline>
+<codeline lineno="484"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="485"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="486"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d5e/class_u_weapon_asset_library_1a94bcd2202de8bf28b7a1fcd4b57c366b" kindref="member">UWeaponAssetLibrary::ConstructWeaponFromCharacteristics</ref>(</highlight></codeline>
+<codeline lineno="487"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Asset,</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="489"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>(),</highlight></codeline>
+<codeline lineno="490"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="491"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="492"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Asset-&gt;RunOperationNodes(GetWeaponAsset()-&gt;DefaultExecutionContext);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="493"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="494"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="495"><highlight class="normal"></highlight></codeline>
+<codeline lineno="496"><highlight class="normal"><ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref><sp/><ref refid="d5/d97/class_u_weapon_component_1af476f0912c59193689f98ea3cafa1a75" kindref="member">UWeaponComponent::GetExecutionContext</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ForceNotify)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="497"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="498"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref>(</highlight></codeline>
+<codeline lineno="499"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>(),</highlight></codeline>
+<codeline lineno="500"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetWorld(),</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ForceNotify</highlight></codeline>
+<codeline lineno="502"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="503"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="504"><highlight class="normal"></highlight></codeline>
+<codeline lineno="505"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1acaaa0f34fc70464918561bb5d4cc024c" kindref="member">UWeaponComponent::Clean</ref>()</highlight></codeline>
+<codeline lineno="506"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="507"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1adc6c82b7c8dc9e820ef279b20f834ebd" kindref="member">ClearCache</ref>();</highlight></codeline>
+<codeline lineno="508"><highlight class="normal"></highlight></codeline>
+<codeline lineno="509"><highlight class="normal"><sp/><sp/><sp/><sp/>USceneComponent*<sp/>Child<sp/>=<sp/>GetChildComponent(0);</highlight></codeline>
+<codeline lineno="510"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(Child)</highlight></codeline>
+<codeline lineno="511"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="512"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Child-&gt;DestroyComponent(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="513"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Child<sp/>=<sp/>GetChildComponent(0);</highlight></codeline>
+<codeline lineno="514"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="515"><highlight class="normal"></highlight></codeline>
+<codeline lineno="516"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="517"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>())</highlight></codeline>
+<codeline lineno="518"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="519"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Trying<sp/>to<sp/>get<sp/>clean<sp/>the<sp/>WeaponAssetCache<sp/>but<sp/>there<sp/>is<sp/>no<sp/>weapon<sp/>asset&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="520"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return;</highlight></codeline>
+<codeline lineno="521"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="522"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="523"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="524"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>())</highlight></codeline>
+<codeline lineno="525"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>()-&gt;<ref refid="df/d06/class_u_weapon_asset_1ae53c0bf614fb309ef896ba09c300ad83" kindref="member">ClearCache</ref>();</highlight></codeline>
+<codeline lineno="526"><highlight class="normal"></highlight></codeline>
+<codeline lineno="527"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"></highlight></codeline>
+<codeline lineno="529"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a6763d305bc35c61c2483a13484d03803" kindref="member">UWeaponComponent::RebuildAsset</ref>()</highlight></codeline>
+<codeline lineno="530"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="531"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>())</highlight></codeline>
+<codeline lineno="532"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="533"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a95bf44f952178d7699783e2fba350bed" kindref="member">BuildAsset</ref>(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>());</highlight></codeline>
+<codeline lineno="534"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="535"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="536"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="537"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(WeaponComponentLog,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;RebuildAsset<sp/>called<sp/>without<sp/>a<sp/>valid<sp/>WeaponAsset!&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="538"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="539"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="540"><highlight class="normal"></highlight></codeline>
+<codeline lineno="541"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITORONLY_DATA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="542"><highlight class="normal"></highlight></codeline>
+<codeline lineno="543"><highlight class="normal"></highlight></codeline>
+<codeline lineno="544"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>UWeaponComponent::TrySetComponentsToDefault()</highlight></codeline>
+<codeline lineno="545"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="546"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>())</highlight></codeline>
+<codeline lineno="547"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="548"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1ac1ab8ac9654880ae308644888a082de2" kindref="member">SetWeaponModifications</ref>(<ref refid="d5/d97/class_u_weapon_component_1ae984c82ecba34088aacb61d85d2cdef3" kindref="member">GetDefaultCharacteristics</ref>()-&gt;<ref refid="d5/d97/class_u_weapon_component_1a91c1b01aa1f3704d95000cdba1e87b9d" kindref="member">GetWeaponModifications</ref>(),</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="549"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="550"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="551"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="552"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="553"><highlight class="normal"></highlight></codeline>
+<codeline lineno="554"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponComponent::BindOnModified()</highlight></codeline>
+<codeline lineno="555"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="556"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>())</highlight></codeline>
+<codeline lineno="557"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="558"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>()-&gt;OnWeaponModified.CreateUObject(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="d5/d97/class_u_weapon_component_1a778c475c2291628bd3d9e0de7444303f" kindref="member">UWeaponComponent::UpdateMesh</ref>);</highlight></codeline>
+<codeline lineno="559"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>())<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>()-&gt;OnWeaponModified.CreateUObject(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="d5/d97/class_u_weapon_component_1a778c475c2291628bd3d9e0de7444303f" kindref="member">UWeaponComponent::UpdateMesh</ref>);</highlight></codeline>
+<codeline lineno="560"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="561"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="562"><highlight class="normal"></highlight></codeline>
+<codeline lineno="563"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponComponent::PostEditChangeProperty(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>FPropertyChangedEvent&amp;<sp/>PropertyChangedEvent)</highlight></codeline>
+<codeline lineno="564"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="565"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::PostEditChangeProperty(PropertyChangedEvent);</highlight></codeline>
+<codeline lineno="566"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1a4861d5a71b7d9aca9b10ebda5db5c43f" kindref="member">EnsureHasCharacteristics</ref>();</highlight></codeline>
+<codeline lineno="567"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="568"><highlight class="normal"></highlight></codeline>
+<codeline lineno="569"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="570"><highlight class="normal"></highlight></codeline>
+<codeline lineno="571"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a4e6d83c8069f90f5152e3070ee1b5fb0" kindref="member">UWeaponComponent::AttachCreatedComponents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;USceneComponent*&gt;&amp;<sp/>PrimitiveComponents)</highlight></codeline>
+<codeline lineno="572"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="573"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>PrimitiveComponent<sp/>:<sp/>PrimitiveComponents)</highlight></codeline>
+<codeline lineno="574"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="575"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PrimitiveComponent<sp/>&amp;&amp;<sp/>PrimitiveComponent-&gt;IsValidLowLevel())</highlight></codeline>
+<codeline lineno="576"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PrimitiveComponent-&gt;AttachToComponent(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>FAttachmentTransformRules::SnapToTargetIncludingScale);</highlight></codeline>
+<codeline lineno="577"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="578"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="579"><highlight class="normal"></highlight></codeline>
+<codeline lineno="580"><highlight class="normal"></highlight></codeline>
+<codeline lineno="581"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponComponent::InitializeWeapon_Implementation(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d2/d93/struct_f_weapon_initialization_data" kindref="compound">FWeaponInitializationData</ref>&amp;<sp/>Data,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bRecallDelegates,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>MoveValues)</highlight></codeline>
+<codeline lineno="582"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="583"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1addd655c90e26a7f083fb1959d3af7c08" kindref="member">GetCharacteristics</ref>()-&gt;<ref refid="d4/d10/class_u_weapon_asset_characteristics_1a36f544695e0db0885be94df00aa3a754" kindref="member">SetWeaponModifications</ref>(Data.<ref refid="d2/d93/struct_f_weapon_initialization_data_1acfbd0d6ac1e8a4cd031e417c2d24f30f" kindref="member">Components</ref>);</highlight></codeline>
+<codeline lineno="584"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="585"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref><sp/>=<sp/>Data.<ref refid="d2/d93/struct_f_weapon_initialization_data_1ac5bb6f428db878c16e0e6864bcea7d8d" kindref="member">AmmoInMagazine</ref>;</highlight></codeline>
+<codeline lineno="586"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1aeae185188dbb2dfab897c848c57d0d30" kindref="member">bJammed</ref><sp/>=<sp/>Data.<ref refid="d2/d93/struct_f_weapon_initialization_data_1aa147a332f52f60ea596e43679e4ca93d" kindref="member">bJammed</ref>;</highlight></codeline>
+<codeline lineno="587"><highlight class="normal"></highlight></codeline>
+<codeline lineno="588"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d5e/class_u_weapon_asset_library_1a5e9a4e7e5441383cfa8c8a68c9b55c9f" kindref="member">UWeaponAssetLibrary::ConstructWeaponFromContext</ref>(</highlight></codeline>
+<codeline lineno="589"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1aa5060b2a381ec92ecc15cba04f9d6913" kindref="member">GetWeaponAsset</ref>(),</highlight></codeline>
+<codeline lineno="590"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="591"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1af476f0912c59193689f98ea3cafa1a75" kindref="member">GetExecutionContext</ref>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="592"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="593"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="594"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="595"><highlight class="normal"></highlight></codeline>
+<codeline lineno="596"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponComponent::GenerateInitializationData_Implementation(<ref refid="d2/d93/struct_f_weapon_initialization_data" kindref="compound">FWeaponInitializationData</ref>&amp;<sp/>Data)</highlight></codeline>
+<codeline lineno="597"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="598"><highlight class="normal"><sp/><sp/><sp/><sp/>Data<sp/>=<sp/><ref refid="d2/d93/struct_f_weapon_initialization_data" kindref="compound">FWeaponInitializationData</ref>(<ref refid="d5/d97/class_u_weapon_component_1a91c1b01aa1f3704d95000cdba1e87b9d" kindref="member">GetWeaponModifications</ref>(),<sp/><ref refid="d5/d97/class_u_weapon_component_1adb8cda9e86ca771c3388e13b044d1592" kindref="member">GetAmmoInMagazine</ref>(),<sp/><ref refid="d5/d97/class_u_weapon_component_1a1398ed0a195446e64d220e325744c758" kindref="member">IsJammed</ref>());</highlight></codeline>
+<codeline lineno="599"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="600"><highlight class="normal"></highlight></codeline>
+<codeline lineno="601"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="602"><highlight class="normal"></highlight></codeline>
+<codeline lineno="603"><highlight class="normal"></highlight></codeline>
+<codeline lineno="604"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1a386121442cf44f41cf541af3ce5c1881" kindref="member">UWeaponComponent::SetAmmoSourceRaw</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>Source,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>typeSize,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bSigned,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bReturnRemaining)</highlight></codeline>
+<codeline lineno="605"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="606"><highlight class="normal"></highlight></codeline>
+<codeline lineno="607"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Source<sp/>==<sp/><ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1acf1a9a55165b2addf4c65fef5d592b34" kindref="member">GetPtr</ref>())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="608"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="609"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight></codeline>
+<codeline lineno="610"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1a09e6361a5cf430def0d02eefc6922eea" kindref="member">IsActive</ref>()</highlight></codeline>
+<codeline lineno="611"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/><ref refid="d5/d97/class_u_weapon_component_1a6e9b1f3369f5128d50f71f3d6471e232" kindref="member">GetUsesAmmo</ref>()</highlight></codeline>
+<codeline lineno="612"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>bReturnRemaining</highlight></codeline>
+<codeline lineno="613"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="614"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="615"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref><sp/>+=<sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1ad5431a3a3fd8b90fad5c7784ecbace7b" kindref="member">Get</ref>&lt;uint64&gt;();</highlight></codeline>
+<codeline lineno="616"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="617"><highlight class="normal"></highlight></codeline>
+<codeline lineno="618"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1a0d839c757a844c7871192b2a6dd5f60d" kindref="member">IsValid</ref>())<sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="619"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="620"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1a6570bda0d145802fd4051299969ff9c0" kindref="member">SetExternalPointer</ref>(Source,<sp/>typeSize,<sp/>bSigned);<sp/></highlight><highlight class="comment">//<sp/>Create<sp/>the<sp/>new<sp/>pointer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="621"><highlight class="normal"></highlight></codeline>
+<codeline lineno="622"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1ae9f96953ef37d00bda0435381dc2144b" kindref="member">ResolveAmmoHandling</ref>();</highlight></codeline>
+<codeline lineno="623"><highlight class="normal"></highlight></codeline>
+<codeline lineno="624"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="625"><highlight class="normal"></highlight></codeline>
+<codeline lineno="626"><highlight class="normal">DEFINE_FUNCTION(UWeaponComponent::execSetAmmoSource)</highlight></codeline>
+<codeline lineno="627"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="628"><highlight class="normal"><sp/><sp/><sp/><sp/>Stack.MostRecentProperty<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="629"><highlight class="normal"><sp/><sp/><sp/><sp/>Stack.StepCompiledIn&lt;FNumericProperty&gt;(</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="630"><highlight class="normal"><sp/><sp/><sp/><sp/>FNumericProperty*<sp/>NumericProperty<sp/>=<sp/>CastField&lt;FNumericProperty&gt;(Stack.MostRecentProperty);</highlight></codeline>
+<codeline lineno="631"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!NumericProperty)</highlight></codeline>
+<codeline lineno="632"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="633"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(WeaponComponentLog,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Attempted<sp/>to<sp/>feed<sp/>a<sp/>non-numeric<sp/>variable<sp/>as<sp/>ammo<sp/>source&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="634"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Stack.bAbortingExecution<sp/>=<sp/>true;</highlight></codeline>
+<codeline lineno="635"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return;</highlight></codeline>
+<codeline lineno="636"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="637"><highlight class="normal"><sp/><sp/><sp/><sp/>if(!NumericProperty-&gt;IsInteger())</highlight></codeline>
+<codeline lineno="638"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="639"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(WeaponComponentLog,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Attempted<sp/>to<sp/>feed<sp/>a<sp/>floating<sp/>point<sp/>variable<sp/>as<sp/>ammo<sp/>source&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="640"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Stack.bAbortingExecution<sp/>=<sp/>true;</highlight></codeline>
+<codeline lineno="641"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return;</highlight></codeline>
+<codeline lineno="642"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="643"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>ValuePtr<sp/>=<sp/>NumericProperty-&gt;ContainerPtrToValuePtr&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*&gt;(Stack.MostRecentPropertyContainer);</highlight></codeline>
+<codeline lineno="644"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>VariableSize<sp/>=<sp/>NumericProperty-&gt;GetSize();</highlight></codeline>
+<codeline lineno="645"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsSigned<sp/>=<sp/><ref refid="d1/d18/namespace_w_a_s_runtime_utils" kindref="compound">WASRuntimeUtils</ref>::IsSigned(NumericProperty);</highlight></codeline>
+<codeline lineno="646"><highlight class="normal"></highlight></codeline>
+<codeline lineno="647"><highlight class="normal"><sp/><sp/><sp/><sp/>PARAM_PASSED_BY_VAL(bReturnRemaining,<sp/>FBoolProperty,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="648"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="649"><highlight class="normal"><sp/><sp/><sp/><sp/>P_FINISH</highlight></codeline>
+<codeline lineno="650"><highlight class="normal"></highlight></codeline>
+<codeline lineno="651"><highlight class="normal"><sp/><sp/><sp/><sp/>P_NATIVE_BEGIN</highlight></codeline>
+<codeline lineno="652"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="653"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref>*<sp/>Component<sp/>=<sp/>static_cast&lt;<ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref>*&gt;(Context);</highlight></codeline>
+<codeline lineno="654"><highlight class="normal"></highlight></codeline>
+<codeline lineno="655"><highlight class="normal"><sp/><sp/><sp/><sp/>Component-&gt;<ref refid="d5/d97/class_u_weapon_component_1a386121442cf44f41cf541af3ce5c1881" kindref="member">SetAmmoSourceRaw</ref>(ValuePtr,<sp/>VariableSize,<sp/>IsSigned,<sp/>bReturnRemaining);</highlight></codeline>
+<codeline lineno="656"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="657"><highlight class="normal"><sp/><sp/><sp/><sp/>P_NATIVE_END</highlight></codeline>
+<codeline lineno="658"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="659"><highlight class="normal"></highlight></codeline>
+<codeline lineno="660"><highlight class="normal">DEFINE_FUNCTION(<ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref>::execSetAmmoSourceFromMap)</highlight></codeline>
+<codeline lineno="661"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="662"><highlight class="normal"></highlight></codeline>
+<codeline lineno="663"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Obtener<sp/>la<sp/>propiedad<sp/>del<sp/>mapa<sp/>desde<sp/>el<sp/>stack</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="664"><highlight class="normal"><sp/><sp/><sp/><sp/>Stack.MostRecentProperty<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="665"><highlight class="normal"><sp/><sp/><sp/><sp/>Stack.StepCompiledIn&lt;FMapProperty&gt;(</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="666"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>MapAddr<sp/>=<sp/>Stack.MostRecentPropertyAddress;</highlight></codeline>
+<codeline lineno="667"><highlight class="normal"><sp/><sp/><sp/><sp/>FMapProperty*<sp/>MapProperty<sp/>=<sp/>CastField&lt;FMapProperty&gt;(Stack.MostRecentProperty);</highlight></codeline>
+<codeline lineno="668"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="669"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>ValuePropSize<sp/>=<sp/>MapProperty-&gt;ValueProp-&gt;GetSize();</highlight></codeline>
+<codeline lineno="670"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>PropIsSigned;</highlight></codeline>
+<codeline lineno="671"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="672"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!MapProperty)</highlight></codeline>
+<codeline lineno="673"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="674"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Stack.bArrayContextFailed<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="675"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="676"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="677"><highlight class="normal"></highlight></codeline>
+<codeline lineno="678"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Procesar<sp/>la<sp/>clave</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="679"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FProperty*<sp/>CurrKeyProp<sp/>=<sp/>MapProperty-&gt;KeyProp;</highlight></codeline>
+<codeline lineno="680"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>KeyPropertySize<sp/>=<sp/>CurrKeyProp-&gt;GetSize();</highlight></codeline>
+<codeline lineno="681"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>KeyStorageSpace<sp/>=<sp/>FMemory_Alloca(KeyPropertySize);</highlight></codeline>
+<codeline lineno="682"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrKeyProp-&gt;InitializeValue(KeyStorageSpace);</highlight></codeline>
+<codeline lineno="683"><highlight class="normal"></highlight></codeline>
+<codeline lineno="684"><highlight class="normal"><sp/><sp/><sp/><sp/>Stack.MostRecentPropertyAddress<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="685"><highlight class="normal"><sp/><sp/><sp/><sp/>Stack.StepCompiledIn&lt;FProperty&gt;(KeyStorageSpace);</highlight></codeline>
+<codeline lineno="686"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="687"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Obtener<sp/>puntero<sp/>directo<sp/>al<sp/>valor<sp/>del<sp/>mapa</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="688"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>FoundValuePtr<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="689"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="690"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Iterar<sp/>sobre<sp/>el<sp/>mapa<sp/>para<sp/>encontrar<sp/>el<sp/>puntero<sp/>al<sp/>valor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="691"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FScriptMapHelper<sp/>MapHelper(MapProperty,<sp/>MapAddr);</highlight></codeline>
+<codeline lineno="692"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="693"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PropIsSigned<sp/>=<sp/><ref refid="d1/d18/namespace_w_a_s_runtime_utils_1adea6f971ae588fba0a92a04463e063a7" kindref="member">WASRuntimeUtils::IsSigned</ref>(MapHelper.ValueProp);</highlight></codeline>
+<codeline lineno="694"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(int32<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>MapHelper.Num();<sp/>++i)</highlight></codeline>
+<codeline lineno="695"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="696"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(MapHelper.IsValidIndex(i))</highlight></codeline>
+<codeline lineno="697"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="698"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>KeyPtr<sp/>=<sp/>MapHelper.GetKeyPtr(i);</highlight></codeline>
+<codeline lineno="699"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CurrKeyProp-&gt;Identical(KeyStorageSpace,<sp/>KeyPtr))</highlight></codeline>
+<codeline lineno="700"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="701"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FoundValuePtr<sp/>=<sp/>MapHelper.GetValuePtr(i);</highlight></codeline>
+<codeline lineno="702"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="703"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="704"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="705"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="706"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="707"><highlight class="normal"></highlight></codeline>
+<codeline lineno="708"><highlight class="normal"><sp/><sp/><sp/><sp/>PARAM_PASSED_BY_VAL(bReturnRemaining,<sp/>FBoolProperty,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="709"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="710"><highlight class="normal"><sp/><sp/><sp/><sp/>P_FINISH</highlight></codeline>
+<codeline lineno="711"><highlight class="normal"></highlight></codeline>
+<codeline lineno="712"><highlight class="normal"><sp/><sp/><sp/><sp/>P_NATIVE_BEGIN</highlight></codeline>
+<codeline lineno="713"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="714"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref>*<sp/>Component<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(Context);</highlight></codeline>
+<codeline lineno="715"><highlight class="normal"></highlight></codeline>
+<codeline lineno="716"><highlight class="normal"><sp/><sp/><sp/><sp/>Component-&gt;<ref refid="d5/d97/class_u_weapon_component_1a386121442cf44f41cf541af3ce5c1881" kindref="member">SetAmmoSourceRaw</ref>(FoundValuePtr,<sp/>ValuePropSize,<sp/>PropIsSigned,<sp/>bReturnRemaining);</highlight></codeline>
+<codeline lineno="717"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="718"><highlight class="normal"><sp/><sp/><sp/><sp/>P_NATIVE_END</highlight></codeline>
+<codeline lineno="719"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="720"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Limpiar<sp/>la<sp/>clave</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="721"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrKeyProp-&gt;DestroyValue(KeyStorageSpace);</highlight></codeline>
+<codeline lineno="722"><highlight class="normal"></highlight></codeline>
+<codeline lineno="723"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="724"><highlight class="normal"></highlight></codeline>
+<codeline lineno="725"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d97/class_u_weapon_component_1af1dd296d283c456a32fc2931d093c5d8" kindref="member">UWeaponComponent::SolveMagazineResize</ref>(int32<sp/>From,<sp/>int32<sp/>To)</highlight></codeline>
+<codeline lineno="726"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="727"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d5/d97/class_u_weapon_component_1a1e70e0c9f036ef12492f7f696eae2009" kindref="member">GetUsesMagazine</ref>()<sp/>||<sp/>!<ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1a0d839c757a844c7871192b2a6dd5f60d" kindref="member">IsValid</ref>())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="728"><highlight class="normal"></highlight></codeline>
+<codeline lineno="729"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>currentAmmo<sp/>=<sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1ad5431a3a3fd8b90fad5c7784ecbace7b" kindref="member">Get</ref>&lt;int32&gt;();</highlight></codeline>
+<codeline lineno="730"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>overflow<sp/>=<sp/>currentAmmo<sp/>-<sp/>To;</highlight></codeline>
+<codeline lineno="731"><highlight class="normal"></highlight></codeline>
+<codeline lineno="732"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(WeaponComponentLog,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Magazine<sp/>resized<sp/>from<sp/>%i<sp/>to<sp/>%i.<sp/>Removing<sp/>%i<sp/>ammo<sp/>from<sp/>magazine&quot;</highlight><highlight class="normal">),<sp/>From,<sp/>To,<sp/>overflow)</highlight></codeline>
+<codeline lineno="733"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(WeaponComponentLog,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Ammo<sp/>in<sp/>magazine<sp/>after<sp/>resize:<sp/>%i.<sp/>Ammo<sp/>source<sp/>after<sp/>resize:<sp/>%i&quot;</highlight><highlight class="normal">),<sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1ad5431a3a3fd8b90fad5c7784ecbace7b" kindref="member">Get</ref>&lt;int32&gt;(),<sp/><ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref>.<ref refid="d7/db5/struct_f_integer_ptr_1ad5431a3a3fd8b90fad5c7784ecbace7b" kindref="member">Get</ref>&lt;int32&gt;())</highlight></codeline>
+<codeline lineno="734"><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(overflow<sp/>&lt;=<sp/>0)</highlight></codeline>
+<codeline lineno="735"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="736"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="737"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="738"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1acc1ebca407ec2c1a3528fb22ae837b32" kindref="member">AmmoInMagazine</ref><sp/><sp/>-=<sp/>overflow;</highlight></codeline>
+<codeline lineno="739"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d97/class_u_weapon_component_1af9b8b1b6cfe64c6a0d16141f51d70a8d" kindref="member">AmmoSource</ref><sp/><sp/><sp/><sp/><sp/><sp/>+=<sp/>overflow;</highlight></codeline>
+<codeline lineno="740"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Components/WeaponComponent.cpp"/>
+  </compounddef>
+</doxygen>

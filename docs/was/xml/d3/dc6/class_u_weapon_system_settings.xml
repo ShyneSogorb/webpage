@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d3/dc6/class_u_weapon_system_settings" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponSystemSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UDeveloperSettings</basecompoundref>
+    <includes local="no">WeaponSystemSettings.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/dc6/class_u_weapon_system_settings_1a736681d32c62f2d45fc5ef26276c96e5" prot="public" static="no" mutable="no">
+        <type>TArray&lt; <ref refid="d0/d4d/struct_f_ammo_type_name" kindref="compound">FAmmoTypeName</ref> &gt;</type>
+        <definition>TArray&lt;FAmmoTypeName&gt; UWeaponSystemSettings::AmmoTypes</definition>
+        <argsstring></argsstring>
+        <name>AmmoTypes</name>
+        <qualifiedname>UWeaponSystemSettings::AmmoTypes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" line="39" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d3/dc6/class_u_weapon_system_settings_1a1867b6a87a1f9af46772b50acccc6e62" prot="private" static="yes" mutable="no">
+        <type><ref refid="d3/dc6/class_u_weapon_system_settings" kindref="compound">UWeaponSystemSettings</ref> *</type>
+        <definition>UWeaponSystemSettings * UWeaponSystemSettings::DefaultSettings</definition>
+        <argsstring></argsstring>
+        <name>DefaultSettings</name>
+        <qualifiedname>UWeaponSystemSettings::DefaultSettings</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" line="52" column="34" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d3/dc6/class_u_weapon_system_settings_1a5fd79bd8940c328dce57a1fca2a76e5b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d3/dc6/class_u_weapon_system_settings" kindref="compound">UWeaponSystemSettings</ref> *</type>
+        <definition>static UWeaponSystemSettings * UWeaponSystemSettings::Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <qualifiedname>UWeaponSystemSettings::Get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" line="41" column="34" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/dc6/class_u_weapon_system_settings_1a45d9dae6a7aba1aa3c0da4948a1ba93a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponSystemSettings::LoadAmmoType</definition>
+        <argsstring>()</argsstring>
+        <name>LoadAmmoType</name>
+        <qualifiedname>UWeaponSystemSettings::LoadAmmoType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" line="45" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettings.cpp" bodystart="22" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/dc6/class_u_weapon_system_settings_1af3fecad0279cb0ad10b66301ef7411fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponSystemSettings::PostInitProperties</definition>
+        <argsstring>() override</argsstring>
+        <name>PostInitProperties</name>
+        <qualifiedname>UWeaponSystemSettings::PostInitProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" line="43" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettings.cpp" bodystart="9" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="d3/dc6/class_u_weapon_system_settings_1a5cb2f3f99ae8075c92780d10a703f656" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>static FORCEINLINE void UWeaponSystemSettings::SetDefaultSettings</definition>
+        <argsstring>(UWeaponSystemSettings *InSettings)</argsstring>
+        <name>SetDefaultSettings</name>
+        <qualifiedname>UWeaponSystemSettings::SetDefaultSettings</qualifiedname>
+        <param>
+          <type><ref refid="d3/dc6/class_u_weapon_system_settings" kindref="compound">UWeaponSystemSettings</ref> *</type>
+          <declname>InSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" line="48" column="29" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UDeveloperSettings</label>
+      </node>
+      <node id="1">
+        <label>UWeaponSystemSettings</label>
+        <link refid="d3/dc6/class_u_weapon_system_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UDeveloperSettings</label>
+      </node>
+      <node id="1">
+        <label>UWeaponSystemSettings</label>
+        <link refid="d3/dc6/class_u_weapon_system_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" line="31" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettings.h" bodystart="32" bodyend="54"/>
+    <listofallmembers>
+      <member refid="d3/dc6/class_u_weapon_system_settings_1a736681d32c62f2d45fc5ef26276c96e5" prot="public" virt="non-virtual"><scope>UWeaponSystemSettings</scope><name>AmmoTypes</name></member>
+      <member refid="d3/dc6/class_u_weapon_system_settings_1a1867b6a87a1f9af46772b50acccc6e62" prot="private" virt="non-virtual"><scope>UWeaponSystemSettings</scope><name>DefaultSettings</name></member>
+      <member refid="d3/dc6/class_u_weapon_system_settings_1a5fd79bd8940c328dce57a1fca2a76e5b" prot="public" virt="non-virtual"><scope>UWeaponSystemSettings</scope><name>Get</name></member>
+      <member refid="d3/dc6/class_u_weapon_system_settings_1a45d9dae6a7aba1aa3c0da4948a1ba93a" prot="public" virt="non-virtual"><scope>UWeaponSystemSettings</scope><name>LoadAmmoType</name></member>
+      <member refid="d3/dc6/class_u_weapon_system_settings_1af3fecad0279cb0ad10b66301ef7411fc" prot="public" virt="virtual"><scope>UWeaponSystemSettings</scope><name>PostInitProperties</name></member>
+      <member refid="d3/dc6/class_u_weapon_system_settings_1a5cb2f3f99ae8075c92780d10a703f656" prot="protected" virt="non-virtual"><scope>UWeaponSystemSettings</scope><name>SetDefaultSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="db/dad/_weapon_value_node_8h" kind="file" language="C++">
+    <compoundname>WeaponValueNode.h</compoundname>
+    <includes refid="d6/de3/_weapon_runtime_node_8h" local="yes">Nodes/WeaponRuntimeNode.h</includes>
+    <includes refid="de/d35/_weapon_runtime_pin_8h" local="yes">Nodes/WeaponRuntimePin.h</includes>
+    <includes local="yes">WeaponValueNode.generated.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponValueNode.h</label>
+        <link refid="db/dad/_weapon_value_node_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WeaponValueNode.generated.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="df/d8a/class_u_weapon_bool_runtime_node" prot="public">UWeaponBoolRuntimeNode</innerclass>
+    <innerclass refid="db/d2a/class_u_weapon_double_runtime_node" prot="public">UWeaponDoubleRuntimeNode</innerclass>
+    <innerclass refid="d2/d09/class_u_weapon_float_runtime_node" prot="public">UWeaponFloatRuntimeNode</innerclass>
+    <innerclass refid="d3/d17/class_u_weapon_int64_runtime_node" prot="public">UWeaponInt64RuntimeNode</innerclass>
+    <innerclass refid="d8/de5/class_u_weapon_int_runtime_node" prot="public">UWeaponIntRuntimeNode</innerclass>
+    <innerclass refid="d1/d62/class_u_weapon_uint8_runtime_node" prot="public">UWeaponUint8RuntimeNode</innerclass>
+    <innerclass refid="d2/d51/class_u_weapon_value_runtime_node" prot="public">UWeaponValueRuntimeNode</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="db/dad/_weapon_value_node_8h_1a0ff2142a714d7c504dd10e1b4a63dd7a" prot="public" static="no">
+        <name>EXECUTE_NODE</name>
+        <initializer>    virtual void ExecuteNode() override                                         \
+    {                                                                           \
+        if (auto Pin = GetPinConnection(GetMainInput()))                        \
+            Pin-&gt;GetNumericValue(Value);                          \
+        GetMainOutput()-&gt;SetCacheNumericValue(Value);                           \
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Macro that implements ExecuteNode to read input and output numeric value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponValueNode.h" line="20" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponValueNode.h" bodystart="20" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/WeaponRuntimeNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/WeaponRuntimePin.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponValueNode.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">UCLASS(Abstract)</highlight></codeline>
+<codeline lineno="13" refid="d2/d51/class_u_weapon_value_runtime_node" refkind="compound"><highlight class="normal">class<sp/><ref refid="d2/d51/class_u_weapon_value_runtime_node" kindref="compound">UWeaponValueRuntimeNode</ref><sp/>:<sp/>public<sp/><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>EXECUTE_NODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>virtual<sp/>void<sp/>ExecuteNode()<sp/>override<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(auto<sp/>Pin<sp/>=<sp/>GetPinConnection(GetMainInput()))<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Pin-&gt;GetNumericValue(Value);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetMainOutput()-&gt;SetCacheNumericValue(Value);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DefaultPins(TArray&lt;FRuntimePin&gt;&amp;<sp/>Pins)</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{SimplePinning(Pins,<sp/>NumericSubcategory);}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>FTextFormat<sp/>GetFormatText(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FString&amp;<sp/>InType)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FTextFormat::FromString(FString::Printf(TEXT(</highlight><highlight class="stringliteral">&quot;Literal<sp/>%s:<sp/>{0}&quot;</highlight><highlight class="normal">),<sp/>*InType));</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">UCLASS(Category=</highlight><highlight class="stringliteral">&quot;Literal&quot;</highlight><highlight class="normal">,<sp/>meta=(ToolTip=</highlight><highlight class="stringliteral">&quot;Makes<sp/>a<sp/>literal<sp/>float&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="49" refid="d2/d09/class_u_weapon_float_runtime_node" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="d2/d09/class_u_weapon_float_runtime_node" kindref="compound">UWeaponFloatRuntimeNode</ref><sp/>:<sp/>public<sp/><ref refid="d2/d51/class_u_weapon_value_runtime_node" kindref="compound">UWeaponValueRuntimeNode</ref></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>EditAnywhere,<sp/>Category=</highlight><highlight class="stringliteral">&quot;NodeData&quot;</highlight><highlight class="normal">)<sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Value;<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>EXECUTE_NODE</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FText<sp/>GetGraphNodeTitleBase(ENodeTitleType::Type<sp/>TitleType)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">UCLASS(Category=</highlight><highlight class="stringliteral">&quot;Literal&quot;</highlight><highlight class="normal">,<sp/>meta=(ToolTip=</highlight><highlight class="stringliteral">&quot;Makes<sp/>a<sp/>literal<sp/>double&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="73" refid="db/d2a/class_u_weapon_double_runtime_node" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="db/d2a/class_u_weapon_double_runtime_node" kindref="compound">UWeaponDoubleRuntimeNode</ref><sp/>:<sp/>public<sp/><ref refid="d2/d51/class_u_weapon_value_runtime_node" kindref="compound">UWeaponValueRuntimeNode</ref></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>EditAnywhere,<sp/>Category=</highlight><highlight class="stringliteral">&quot;NodeData&quot;</highlight><highlight class="normal">)<sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Value;<sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>EXECUTE_NODE</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FText<sp/>GetGraphNodeTitleBase(ENodeTitleType::Type<sp/>TitleType)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">UCLASS(Category=</highlight><highlight class="stringliteral">&quot;Literal&quot;</highlight><highlight class="normal">,<sp/>meta=(ToolTip=</highlight><highlight class="stringliteral">&quot;Makes<sp/>a<sp/>literal<sp/>int32&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="97" refid="d8/de5/class_u_weapon_int_runtime_node" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="d8/de5/class_u_weapon_int_runtime_node" kindref="compound">UWeaponIntRuntimeNode</ref><sp/>:<sp/>public<sp/><ref refid="d2/d51/class_u_weapon_value_runtime_node" kindref="compound">UWeaponValueRuntimeNode</ref></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>EditAnywhere,<sp/>Category=</highlight><highlight class="stringliteral">&quot;NodeData&quot;</highlight><highlight class="normal">)<sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>Value;<sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>EXECUTE_NODE</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FText<sp/>GetGraphNodeTitleBase(ENodeTitleType::Type<sp/>TitleType)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">UCLASS(Category=</highlight><highlight class="stringliteral">&quot;Literal&quot;</highlight><highlight class="normal">,<sp/>meta=(ToolTip=</highlight><highlight class="stringliteral">&quot;Makes<sp/>a<sp/>literal<sp/>int64&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="121" refid="d3/d17/class_u_weapon_int64_runtime_node" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="d3/d17/class_u_weapon_int64_runtime_node" kindref="compound">UWeaponInt64RuntimeNode</ref><sp/>:<sp/>public<sp/><ref refid="d2/d51/class_u_weapon_value_runtime_node" kindref="compound">UWeaponValueRuntimeNode</ref></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>EditAnywhere,<sp/>Category=</highlight><highlight class="stringliteral">&quot;NodeData&quot;</highlight><highlight class="normal">)<sp/></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>int64<sp/>Value;<sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>EXECUTE_NODE</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FText<sp/>GetGraphNodeTitleBase(ENodeTitleType::Type<sp/>TitleType)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">UCLASS(Category=</highlight><highlight class="stringliteral">&quot;Literal&quot;</highlight><highlight class="normal">,<sp/>meta=(ToolTip=</highlight><highlight class="stringliteral">&quot;Makes<sp/>a<sp/>literal<sp/>uint8&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="145" refid="d1/d62/class_u_weapon_uint8_runtime_node" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="d1/d62/class_u_weapon_uint8_runtime_node" kindref="compound">UWeaponUint8RuntimeNode</ref><sp/>:<sp/>public<sp/><ref refid="d2/d51/class_u_weapon_value_runtime_node" kindref="compound">UWeaponValueRuntimeNode</ref></highlight></codeline>
+<codeline lineno="146"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>EditAnywhere,<sp/>Category=</highlight><highlight class="stringliteral">&quot;NodeData&quot;</highlight><highlight class="normal">)<sp/></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8<sp/>Value;<sp/></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>EXECUTE_NODE</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FText<sp/>GetGraphNodeTitleBase(ENodeTitleType::Type<sp/>TitleType)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="162"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">UCLASS(Category=</highlight><highlight class="stringliteral">&quot;Literal&quot;</highlight><highlight class="normal">,<sp/>meta=(ToolTip=</highlight><highlight class="stringliteral">&quot;Makes<sp/>a<sp/>literal<sp/>bool&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="168" refid="df/d8a/class_u_weapon_bool_runtime_node" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="df/d8a/class_u_weapon_bool_runtime_node" kindref="compound">UWeaponBoolRuntimeNode</ref><sp/>:<sp/>public<sp/><ref refid="d2/d51/class_u_weapon_value_runtime_node" kindref="compound">UWeaponValueRuntimeNode</ref></highlight></codeline>
+<codeline lineno="169"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>EditAnywhere,<sp/>Category=</highlight><highlight class="stringliteral">&quot;NodeData&quot;</highlight><highlight class="normal">)<sp/></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Value;<sp/></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>EXECUTE_NODE</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DefaultPins(TArray&lt;FRuntimePin&gt;&amp;<sp/>Pins)</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{SimplePinning(Pins,<sp/>BoolSubcategory);}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FText<sp/>GetGraphNodeTitleBase(ENodeTitleType::Type<sp/>TitleType)<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="187"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEFINE_TITLE_NAMED(Class,<sp/>Name)<sp/>inline<sp/>FText<sp/>UWeapon##Class##RuntimeNode::GetGraphNodeTitleBase(ENodeTitleType::Type<sp/>TitleType)<sp/>const<sp/>\</highlight></codeline>
+<codeline lineno="193"><highlight class="preprocessor">{<sp/>return<sp/>FText::Format(GetFormatText(#Name),<sp/>Value);<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEFINE_TITLE(Class)<sp/>DEFINE_TITLE_NAMED(Class,<sp/>Class)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal">DEFINE_TITLE_NAMED(Uint8,<sp/>Byte)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">DEFINE_TITLE(Bool)</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">DEFINE_TITLE(Int64)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal">DEFINE_TITLE(Int)</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">DEFINE_TITLE(Double)</highlight></codeline>
+<codeline lineno="202"><highlight class="normal">DEFINE_TITLE(Float)</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>DEFINE_TITLE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>DEFINE_TITLE_NAMED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>EXECUTE_NODE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponValueNode.h"/>
+  </compounddef>
+</doxygen>

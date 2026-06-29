@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d2/d33/_weapon_literal_object_node_8cpp" kind="file" language="C++">
+    <compoundname>WeaponLiteralObjectNode.cpp</compoundname>
+    <includes refid="d5/d9c/_weapon_literal_object_node_8h" local="yes">Nodes/LiteralNodes/WeaponLiteralObjectNode.h</includes>
+    <includes refid="de/d35/_weapon_runtime_pin_8h" local="yes">Nodes/WeaponRuntimePin.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/LiteralNodes/WeaponLiteralObjectNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/WeaponRuntimePin.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponLiteralObjectNode::ExecuteNode()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d54/namespace_literal_object_node_utils_1a6d1e31180338ea5922f18162e3a038eb" kindref="member">LiteralObjectNodeUtils::ExecuteNode_Impl</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>ObjectPath,<sp/>&amp;FSoftObjectPath::TryLoad,<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponLiteralClassNode::ExecuteNode()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d54/namespace_literal_object_node_utils_1a6d1e31180338ea5922f18162e3a038eb" kindref="member">LiteralObjectNodeUtils::ExecuteNode_Impl</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>ClassPath,<sp/>&amp;FSoftClassPath::TryLoad,<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/LiteralNodes/WeaponLiteralObjectNode.cpp"/>
+  </compounddef>
+</doxygen>

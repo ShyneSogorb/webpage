@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d2/d1f/class_a_weapon_asset_actor" kind="class" language="C++" prot="public">
+    <compoundname>AWeaponAssetActor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AActor</basecompoundref>
+    <includes local="no">WeaponAssetActor.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d2/d1f/class_a_weapon_asset_actor_1aa6eac0d9ba21797d64bb905e99adf409" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AWeaponAssetActor::bShowcase</definition>
+        <argsstring></argsstring>
+        <name>bShowcase</name>
+        <qualifiedname>AWeaponAssetActor::bShowcase</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="66" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d1f/class_a_weapon_asset_actor_1aac8b95c4c80d7e8eedff2eebad7886ba" prot="protected" static="no" mutable="no">
+        <type><ref refid="d0/d9f/struct_f_modification_architecture" kindref="compound">FModificationArchitecture</ref></type>
+        <definition>FModificationArchitecture AWeaponAssetActor::ModificationArchitecture</definition>
+        <argsstring></argsstring>
+        <name>ModificationArchitecture</name>
+        <qualifiedname>AWeaponAssetActor::ModificationArchitecture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="60" column="27" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d1f/class_a_weapon_asset_actor_1a80fa174e7f080624958323b92cf59726" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double AWeaponAssetActor::TimeSpacing</definition>
+        <argsstring></argsstring>
+        <name>TimeSpacing</name>
+        <qualifiedname>AWeaponAssetActor::TimeSpacing</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="63" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d1f/class_a_weapon_asset_actor_1a64c7cd5dde4e411d233fc234d698cbc9" prot="protected" static="no" mutable="no">
+        <type>TObjectPtr&lt; class <ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref> &gt;</type>
+        <definition>TObjectPtr&lt;class UWeaponComponent&gt; AWeaponAssetActor::WeaponAssetComponent</definition>
+        <argsstring></argsstring>
+        <name>WeaponAssetComponent</name>
+        <qualifiedname>AWeaponAssetActor::WeaponAssetComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="57" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d1f/class_a_weapon_asset_actor_1acad087389680e92107c06304c4adacb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AWeaponAssetActor::AWeaponAssetActor</definition>
+        <argsstring>()</argsstring>
+        <name>AWeaponAssetActor</name>
+        <qualifiedname>AWeaponAssetActor::AWeaponAssetActor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="20" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Actors/WeaponAssetActor.cpp" bodystart="9" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1f/class_a_weapon_asset_actor_1a9cf738b921280f70c5faf8acb6879dc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AWeaponAssetActor::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <qualifiedname>AWeaponAssetActor::Clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="28" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Actors/WeaponAssetActor.cpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1f/class_a_weapon_asset_actor_1a35bbaeb0152eb48786605945cd3633f0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE TObjectPtr&lt; class <ref refid="d5/d97/class_u_weapon_component" kindref="compound">UWeaponComponent</ref> &gt;</type>
+        <definition>FORCEINLINE TObjectPtr&lt; class UWeaponComponent &gt; AWeaponAssetActor::GetWeaponAssetComponent</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWeaponAssetComponent</name>
+        <qualifiedname>AWeaponAssetActor::GetWeaponAssetComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="22" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1f/class_a_weapon_asset_actor_1a99cc04655cbe9771060804f489bed59d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AWeaponAssetActor::Refresh</definition>
+        <argsstring>()</argsstring>
+        <name>Refresh</name>
+        <qualifiedname>AWeaponAssetActor::Refresh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="25" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Actors/WeaponAssetActor.cpp" bodystart="16" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d2/d1f/class_a_weapon_asset_actor_1a75ee64c55818ad5e44033b5c59d30c9b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AWeaponAssetActor::EndPlay</definition>
+        <argsstring>(const EEndPlayReason::Type EndPlayReason) override</argsstring>
+        <name>EndPlay</name>
+        <qualifiedname>AWeaponAssetActor::EndPlay</qualifiedname>
+        <param>
+          <type>const EEndPlayReason::Type</type>
+          <declname>EndPlayReason</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="32" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Actors/WeaponAssetActor.cpp" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1f/class_a_weapon_asset_actor_1a459b74ab844a40f52e34000d0498de27" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AWeaponAssetActor::OnConstruction</definition>
+        <argsstring>(const FTransform &amp;Transform) override</argsstring>
+        <name>OnConstruction</name>
+        <qualifiedname>AWeaponAssetActor::OnConstruction</qualifiedname>
+        <param>
+          <type>const FTransform &amp;</type>
+          <declname>Transform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="34" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Actors/WeaponAssetActor.cpp" bodystart="80" bodyend="106"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AActor</label>
+      </node>
+      <node id="1">
+        <label>AWeaponAssetActor</label>
+        <link refid="d2/d1f/class_a_weapon_asset_actor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AActor</label>
+      </node>
+      <node id="1">
+        <label>AWeaponAssetActor</label>
+        <link refid="d2/d1f/class_a_weapon_asset_actor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ModificationArchitecture</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FModificationArchitecture</label>
+        <link refid="d0/d9f/struct_f_modification_architecture"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" line="15" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors/WeaponAssetActor.h" bodystart="16" bodyend="68"/>
+    <listofallmembers>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1acad087389680e92107c06304c4adacb0" prot="public" virt="non-virtual"><scope>AWeaponAssetActor</scope><name>AWeaponAssetActor</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1aa6eac0d9ba21797d64bb905e99adf409" prot="protected" virt="non-virtual"><scope>AWeaponAssetActor</scope><name>bShowcase</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a9cf738b921280f70c5faf8acb6879dc4" prot="public" virt="non-virtual"><scope>AWeaponAssetActor</scope><name>Clear</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a75ee64c55818ad5e44033b5c59d30c9b" prot="protected" virt="virtual"><scope>AWeaponAssetActor</scope><name>EndPlay</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a35bbaeb0152eb48786605945cd3633f0" prot="public" virt="non-virtual"><scope>AWeaponAssetActor</scope><name>GetWeaponAssetComponent</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1aac8b95c4c80d7e8eedff2eebad7886ba" prot="protected" virt="non-virtual"><scope>AWeaponAssetActor</scope><name>ModificationArchitecture</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a459b74ab844a40f52e34000d0498de27" prot="protected" virt="virtual"><scope>AWeaponAssetActor</scope><name>OnConstruction</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a99cc04655cbe9771060804f489bed59d" prot="public" virt="non-virtual"><scope>AWeaponAssetActor</scope><name>Refresh</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a80fa174e7f080624958323b92cf59726" prot="protected" virt="non-virtual"><scope>AWeaponAssetActor</scope><name>TimeSpacing</name></member>
+      <member refid="d2/d1f/class_a_weapon_asset_actor_1a64c7cd5dde4e411d233fc234d698cbc9" prot="protected" virt="non-virtual"><scope>AWeaponAssetActor</scope><name>WeaponAssetComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

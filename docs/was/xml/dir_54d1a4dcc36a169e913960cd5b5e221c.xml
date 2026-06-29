@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_54d1a4dcc36a169e913960cd5b5e221c" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes</compoundname>
+    <innerdir refid="dir_36bbb3a71f4f9cedb52462cc7b8c8e67">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/FlowNodes</innerdir>
+    <innerdir refid="dir_9531d6bd9de037d04314c068e8afcc7a">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes</innerdir>
+    <innerfile refid="db/d38/_weapon_node_stack_8h">WeaponNodeStack.h</innerfile>
+    <innerfile refid="d0/d9e/_weapon_runtime_graph_8h">WeaponRuntimeGraph.h</innerfile>
+    <innerfile refid="d6/de3/_weapon_runtime_node_8h">WeaponRuntimeNode.h</innerfile>
+    <innerfile refid="de/d35/_weapon_runtime_pin_8h">WeaponRuntimePin.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/"/>
+  </compounddef>
+</doxygen>

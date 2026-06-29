@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d9/d1e/struct_f_weapon_settings_description" kind="struct" language="C++" prot="public">
+    <compoundname>FWeaponSettingsDescription</compoundname>
+    <includes local="no">ModificationDescriptionDataAsset.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d9/d1e/struct_f_weapon_settings_description_1aff9f782161fa80bd267c21713ff116c1" prot="public" static="no" mutable="no">
+        <type>TMap&lt; FGameplayTag, <ref refid="da/d58/struct_f_modification_description" kindref="compound">FModificationDescription</ref> &gt;</type>
+        <definition>TMap&lt;FGameplayTag, FModificationDescription&gt; FWeaponSettingsDescription::Descriptions</definition>
+        <argsstring></argsstring>
+        <name>Descriptions</name>
+        <qualifiedname>FWeaponSettingsDescription::Descriptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" line="49" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d1e/struct_f_weapon_settings_description_1a6d8715f9c5343a4fe0e914a4117836e0" prot="public" static="no" mutable="no">
+        <type>FGameplayTag</type>
+        <definition>FGameplayTag FWeaponSettingsDescription::RootTag</definition>
+        <argsstring></argsstring>
+        <name>RootTag</name>
+        <qualifiedname>FWeaponSettingsDescription::RootTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" line="46" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d1e/struct_f_weapon_settings_description_1a92244b037f4b3de61c68866e6a695e34" prot="public" static="no" mutable="no">
+        <type>TObjectPtr&lt; UDataAsset &gt;</type>
+        <definition>TObjectPtr&lt;UDataAsset&gt; FWeaponSettingsDescription::ThisDescription</definition>
+        <argsstring></argsstring>
+        <name>ThisDescription</name>
+        <qualifiedname>FWeaponSettingsDescription::ThisDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" line="43" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Weapon settings with per-slot modifications using data assets. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" line="36" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" bodystart="37" bodyend="52"/>
+    <listofallmembers>
+      <member refid="d9/d1e/struct_f_weapon_settings_description_1aff9f782161fa80bd267c21713ff116c1" prot="public" virt="non-virtual"><scope>FWeaponSettingsDescription</scope><name>Descriptions</name></member>
+      <member refid="d9/d1e/struct_f_weapon_settings_description_1a6d8715f9c5343a4fe0e914a4117836e0" prot="public" virt="non-virtual"><scope>FWeaponSettingsDescription</scope><name>RootTag</name></member>
+      <member refid="d9/d1e/struct_f_weapon_settings_description_1a92244b037f4b3de61c68866e6a695e34" prot="public" virt="non-virtual"><scope>FWeaponSettingsDescription</scope><name>ThisDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

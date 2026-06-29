@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d6/d96/struct_smallest_option" kind="struct" language="C++" prot="public">
+    <compoundname>SmallestOption</compoundname>
+    <includes local="no">DynamicPointer.h</includes>
+    <templateparamlist>
+      <param>
+        <type>size_t</type>
+        <declname>RequiredBits</declname>
+        <defname>RequiredBits</defname>
+      </param>
+      <param>
+        <type>typename TupleOptions</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="d6/d96/struct_smallest_option_1ac49000120491179643a58407c88f480e" prot="public" static="no">
+        <type>typename <ref refid="d3/d56/struct_small_opt_impl" kindref="compound">SmallOptImpl</ref>&lt; RequiredBits, TupleOptions, 0, FirstMatches &gt;::Type</type>
+        <definition>using SmallestOption&lt; RequiredBits, TupleOptions &gt;::Type =  typename SmallOptImpl&lt;
+		RequiredBits,
+		TupleOptions,
+		0,
+		FirstMatches
+	&gt;::Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <qualifiedname>SmallestOption::Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="79" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d6/d96/struct_smallest_option_1a40f0bed5467134c3126ce3edefb41663" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool SmallestOption&lt; RequiredBits, TupleOptions &gt;::FirstMatches</definition>
+        <argsstring></argsstring>
+        <name>FirstMatches</name>
+        <qualifiedname>SmallestOption::FirstMatches</qualifiedname>
+        <initializer>=
+		(sizeof(std::tuple_element_t&lt;0, TupleOptions&gt;) * 8 &gt;= RequiredBits)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="75" column="23" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="72" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="73" bodyend="85"/>
+    <listofallmembers>
+      <member refid="d6/d96/struct_smallest_option_1a40f0bed5467134c3126ce3edefb41663" prot="private" virt="non-virtual"><scope>SmallestOption</scope><name>FirstMatches</name></member>
+      <member refid="d6/d96/struct_smallest_option_1ac49000120491179643a58407c88f480e" prot="public" virt="non-virtual"><scope>SmallestOption</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

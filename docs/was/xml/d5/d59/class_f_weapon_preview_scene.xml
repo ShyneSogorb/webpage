@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d5/d59/class_f_weapon_preview_scene" kind="class" language="C++" prot="public">
+    <compoundname>FWeaponPreviewScene</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FPreviewScene</basecompoundref>
+    <includes local="no">WeaponPreviewScene.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/d59/class_f_weapon_preview_scene_1aa06eabcc948f82a8e0bd30e887f32c0f" prot="private" static="no" mutable="no">
+        <type>class USceneComponent *</type>
+        <definition>class USceneComponent* FWeaponPreviewScene::PreviewComponent</definition>
+        <argsstring></argsstring>
+        <name>PreviewComponent</name>
+        <qualifiedname>FWeaponPreviewScene::PreviewComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" line="16" column="23" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d59/class_f_weapon_preview_scene_1accddd4a29f55d12dd026068c19b88320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FWeaponPreviewScene::FWeaponPreviewScene</definition>
+        <argsstring>(ConstructionValues CVS=ConstructionValues(), const class UWeaponAsset *InAsset=nullptr)</argsstring>
+        <name>FWeaponPreviewScene</name>
+        <qualifiedname>FWeaponPreviewScene::FWeaponPreviewScene</qualifiedname>
+        <param>
+          <type>ConstructionValues</type>
+          <declname>CVS</declname>
+          <defval>ConstructionValues()</defval>
+        </param>
+        <param>
+          <type>const class <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+          <declname>InAsset</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" line="11" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport/WeaponPreviewScene.cpp" bodystart="15" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d59/class_f_weapon_preview_scene_1a66dfbf70b03fdf0cd3358114e9dd8849" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>class USceneComponent *</type>
+        <definition>class USceneComponent * FWeaponPreviewScene::GetPreviewComponent</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPreviewComponent</name>
+        <qualifiedname>FWeaponPreviewScene::GetPreviewComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" line="13" column="23" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" bodystart="13" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>FPreviewScene</label>
+      </node>
+      <node id="1">
+        <label>FWeaponPreviewScene</label>
+        <link refid="d5/d59/class_f_weapon_preview_scene"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>FPreviewScene</label>
+      </node>
+      <node id="1">
+        <label>FWeaponPreviewScene</label>
+        <link refid="d5/d59/class_f_weapon_preview_scene"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" line="8" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewScene.h" bodystart="9" bodyend="17"/>
+    <listofallmembers>
+      <member refid="d5/d59/class_f_weapon_preview_scene_1accddd4a29f55d12dd026068c19b88320" prot="public" virt="non-virtual"><scope>FWeaponPreviewScene</scope><name>FWeaponPreviewScene</name></member>
+      <member refid="d5/d59/class_f_weapon_preview_scene_1a66dfbf70b03fdf0cd3358114e9dd8849" prot="public" virt="non-virtual"><scope>FWeaponPreviewScene</scope><name>GetPreviewComponent</name></member>
+      <member refid="d5/d59/class_f_weapon_preview_scene_1aa06eabcc948f82a8e0bd30e887f32c0f" prot="private" virt="non-virtual"><scope>FWeaponPreviewScene</scope><name>PreviewComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d2/d9d/struct_f_set_value_parms" kind="struct" language="C++" prot="public">
+    <compoundname>FSetValueParms</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d2/d9d/struct_f_set_value_parms_1a63060bf750dbad6d85d91c3f99adebe6" prot="public" static="no" mutable="no">
+        <type><ref refid="d1/df1/class_u_weapon_math_runtime_node" kindref="compound">UWeaponMathRuntimeNode</ref> *</type>
+        <definition>UWeaponMathRuntimeNode* FSetValueParms::Node</definition>
+        <argsstring></argsstring>
+        <name>Node</name>
+        <qualifiedname>FSetValueParms::Node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.cpp" line="9" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.cpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d9d/struct_f_set_value_parms_1a3251842d34601d879f0aa7651ef6a76a" prot="public" static="no" mutable="no">
+        <type>int32</type>
+        <definition>int32 FSetValueParms::NumPins</definition>
+        <argsstring></argsstring>
+        <name>NumPins</name>
+        <qualifiedname>FSetValueParms::NumPins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.cpp" line="11" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.cpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d9d/struct_f_set_value_parms_1a497c2541f2119f674a3f68f5493eed06" prot="public" static="no" mutable="no">
+        <type><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+        <definition>UWeaponRuntimePin* FSetValueParms::Out</definition>
+        <argsstring></argsstring>
+        <name>Out</name>
+        <qualifiedname>FSetValueParms::Out</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.cpp" line="12" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.cpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d9d/struct_f_set_value_parms_1ad493aa10f889636169d90cedb4389232" prot="public" static="no" mutable="no">
+        <type><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *const  *</type>
+        <definition>UWeaponRuntimePin* const* FSetValueParms::Pins</definition>
+        <argsstring></argsstring>
+        <name>Pins</name>
+        <qualifiedname>FSetValueParms::Pins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.cpp" line="10" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.cpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>FSetValueParms</label>
+        <link refid="d2/d9d/struct_f_set_value_parms"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Node</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Out</edgelabel>
+          <edgelabel>Pins</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UObject</label>
+      </node>
+      <node id="2">
+        <label>UWeaponMathRuntimeNode</label>
+        <link refid="d1/df1/class_u_weapon_math_runtime_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>UWeaponRuntimePin</label>
+        <link refid="dd/d5d/class_u_weapon_runtime_pin"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.cpp" line="7" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.cpp" bodystart="8" bodyend="13"/>
+    <listofallmembers>
+      <member refid="d2/d9d/struct_f_set_value_parms_1a63060bf750dbad6d85d91c3f99adebe6" prot="public" virt="non-virtual"><scope>FSetValueParms</scope><name>Node</name></member>
+      <member refid="d2/d9d/struct_f_set_value_parms_1a3251842d34601d879f0aa7651ef6a76a" prot="public" virt="non-virtual"><scope>FSetValueParms</scope><name>NumPins</name></member>
+      <member refid="d2/d9d/struct_f_set_value_parms_1a497c2541f2119f674a3f68f5493eed06" prot="public" virt="non-virtual"><scope>FSetValueParms</scope><name>Out</name></member>
+      <member refid="d2/d9d/struct_f_set_value_parms_1ad493aa10f889636169d90cedb4389232" prot="public" virt="non-virtual"><scope>FSetValueParms</scope><name>Pins</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

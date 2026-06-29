@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_838b6530bbf51a19e5ebc223caec1e74" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes</compoundname>
+    <innerfile refid="d7/d35/_weapon_attachment_runtime_node_8cpp">WeaponAttachmentRuntimeNode.cpp</innerfile>
+    <innerfile refid="df/d10/_weapon_attachment_runtime_node_8h">WeaponAttachmentRuntimeNode.h</innerfile>
+    <innerfile refid="de/d4b/_weapon_component_runtime_node_8cpp">WeaponComponentRuntimeNode.cpp</innerfile>
+    <innerfile refid="d8/d39/_weapon_component_runtime_node_8h">WeaponComponentRuntimeNode.h</innerfile>
+    <innerfile refid="d3/d35/_weapon_component_tag_runtime_node_8cpp">WeaponComponentTagRuntimeNode.cpp</innerfile>
+    <innerfile refid="d1/d64/_weapon_component_tag_runtime_node_8h">WeaponComponentTagRuntimeNode.h</innerfile>
+    <innerfile refid="d9/d8e/_weapon_niagara_runtime_node_8cpp">WeaponNiagaraRuntimeNode.cpp</innerfile>
+    <innerfile refid="d4/d39/_weapon_niagara_runtime_node_8h">WeaponNiagaraRuntimeNode.h</innerfile>
+    <innerfile refid="de/d1c/_weapon_set_material_node_8cpp">WeaponSetMaterialNode.cpp</innerfile>
+    <innerfile refid="d0/d59/_weapon_set_material_node_8h">WeaponSetMaterialNode.h</innerfile>
+    <innerfile refid="df/d20/_weapon_skeletal_mesh_runtime_node_8cpp">WeaponSkeletalMeshRuntimeNode.cpp</innerfile>
+    <innerfile refid="d1/d98/_weapon_skeletal_mesh_runtime_node_8h">WeaponSkeletalMeshRuntimeNode.h</innerfile>
+    <innerfile refid="df/dc5/_weapon_static_mesh_runtime_node_8cpp">WeaponStaticMeshRuntimeNode.cpp</innerfile>
+    <innerfile refid="d9/d16/_weapon_static_mesh_runtime_node_8h">WeaponStaticMeshRuntimeNode.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes/"/>
+  </compounddef>
+</doxygen>

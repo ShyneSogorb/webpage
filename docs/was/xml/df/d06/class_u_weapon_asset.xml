@@ -1,0 +1,1026 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="df/d06/class_u_weapon_asset" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponAsset</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UObject</basecompoundref>
+    <includes local="no">WeaponAsset.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="df/d06/class_u_weapon_asset_1ae90cab6c503d8a50c06f2594112279a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class UWeaponAssetLibrary</definition>
+        <argsstring></argsstring>
+        <name>UWeaponAssetLibrary</name>
+        <qualifiedname>UWeaponAsset::UWeaponAssetLibrary</qualifiedname>
+        <param>
+          <type><ref refid="dc/d5e/class_u_weapon_asset_library" kindref="compound">UWeaponAssetLibrary</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="56" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="df/d06/class_u_weapon_asset_1a3b8a422562e1b262b72677be38b64d97" prot="public" static="no" mutable="no">
+        <type><ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref></type>
+        <definition>FWeaponExecutionContext UWeaponAsset::DefaultExecutionContext</definition>
+        <argsstring></argsstring>
+        <name>DefaultExecutionContext</name>
+        <qualifiedname>UWeaponAsset::DefaultExecutionContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="61" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d06/class_u_weapon_asset_1a5c84a813f5383f055b1de067581888e3" prot="public" static="no" mutable="no">
+        <type><ref refid="d1/db3/class_u_weapon_runtime_graph" kindref="compound">UWeaponRuntimeGraph</ref> *</type>
+        <definition>UWeaponRuntimeGraph* UWeaponAsset::Graph</definition>
+        <argsstring></argsstring>
+        <name>Graph</name>
+        <qualifiedname>UWeaponAsset::Graph</qualifiedname>
+        <initializer>{nullptr}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="168" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="168" bodyend="168"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a26506a4e166d86f738873749811391aa" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE decltype(auto)</type>
+        <definition>static FORCEINLINE decltype(auto) UWeaponAsset::GetCharacteristicsImpl</definition>
+        <argsstring>(T &amp;&amp;Obj)</argsstring>
+        <name>GetCharacteristicsImpl</name>
+        <qualifiedname>UWeaponAsset::GetCharacteristicsImpl</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="45" column="29" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a6d3901df928be5fafae2e261501b9bbc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE decltype(auto)</type>
+        <definition>static FORCEINLINE decltype(auto) UWeaponAsset::GetModConfigImpl</definition>
+        <argsstring>(T &amp;&amp;Obj)</argsstring>
+        <name>GetModConfigImpl</name>
+        <qualifiedname>UWeaponAsset::GetModConfigImpl</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="32" column="29" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a278c4732c12e8700de71d0ebb1e39961" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE decltype(auto)</type>
+        <definition>static FORCEINLINE decltype(auto) UWeaponAsset::GetModificationsAppliedImpl</definition>
+        <argsstring>(T &amp;&amp;Obj)</argsstring>
+        <name>GetModificationsAppliedImpl</name>
+        <qualifiedname>UWeaponAsset::GetModificationsAppliedImpl</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="39" column="29" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="39" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a3f80d934df027835909223b205fee40d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UWeaponAsset::UWeaponAsset</definition>
+        <argsstring>(const FObjectInitializer &amp;Initializer)</argsstring>
+        <name>UWeaponAsset</name>
+        <qualifiedname>UWeaponAsset::UWeaponAsset</qualifiedname>
+        <param>
+          <type>const FObjectInitializer &amp;</type>
+          <declname>Initializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="58" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="195" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1ae53c0bf614fb309ef896ba09c300ad83" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponAsset::ClearCache</definition>
+        <argsstring>() const</argsstring>
+        <name>ClearCache</name>
+        <qualifiedname>UWeaponAsset::ClearCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="120" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="79" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a015027f6b6783e2b7dfd9a8d81232be3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponAsset::ClearContext</definition>
+        <argsstring>() const</argsstring>
+        <name>ClearContext</name>
+        <qualifiedname>UWeaponAsset::ClearContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="135" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="136" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1ab7909871d5f6cf45bd1525a02aadd19d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref> *</type>
+        <definition>UWeaponAssetCharacteristics * UWeaponAsset::CreateCharacteristics</definition>
+        <argsstring>(UObject *Outer, FName Name=NAME_None) const</argsstring>
+        <name>CreateCharacteristics</name>
+        <qualifiedname>UWeaponAsset::CreateCharacteristics</qualifiedname>
+        <param>
+          <type>UObject *</type>
+          <declname>Outer</declname>
+        </param>
+        <param>
+          <type>FName</type>
+          <declname>Name</declname>
+          <defval>NAME_None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="72" column="29" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="204" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a2579cf69800c6c66edde971f79e6307f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T *</type>
+        <definition>T * UWeaponAsset::CreateCharacteristics</definition>
+        <argsstring>(UObject *Outer, FName Name=NAME_None) const</argsstring>
+        <name>CreateCharacteristics</name>
+        <qualifiedname>UWeaponAsset::CreateCharacteristics</qualifiedname>
+        <param>
+          <type>UObject *</type>
+          <declname>Outer</declname>
+        </param>
+        <param>
+          <type>FName</type>
+          <declname>Name</declname>
+          <defval>NAME_None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="82" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="293" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a79018cfb9d19be44c1dda799e70bbd24" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T *</type>
+        <definition>T * UWeaponAsset::CreateCharacteristicsChecked</definition>
+        <argsstring>(UObject *Outer, FName Name=NAME_None) const</argsstring>
+        <name>CreateCharacteristicsChecked</name>
+        <qualifiedname>UWeaponAsset::CreateCharacteristicsChecked</qualifiedname>
+        <param>
+          <type>UObject *</type>
+          <declname>Outer</declname>
+        </param>
+        <param>
+          <type>FName</type>
+          <declname>Name</declname>
+          <defval>NAME_None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="85" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="299" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1aa4fc027d57216177d57975153dddab20" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref> *</type>
+        <definition>UWeaponAssetCharacteristics * UWeaponAsset::CreateTransientCharacteristics</definition>
+        <argsstring>(UObject *Outer, const FWeaponModifications &amp;InitialMods, FName Name=NAME_None) const</argsstring>
+        <name>CreateTransientCharacteristics</name>
+        <qualifiedname>UWeaponAsset::CreateTransientCharacteristics</qualifiedname>
+        <param>
+          <type>UObject *</type>
+          <declname>Outer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+          <declname>InitialMods</declname>
+        </param>
+        <param>
+          <type>FName</type>
+          <declname>Name</declname>
+          <defval>NAME_None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="76" column="29" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="210" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a07b68d342032abf052925b88ede2eaa3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T *</type>
+        <definition>T * UWeaponAsset::CreateTransientCharacteristics</definition>
+        <argsstring>(UObject *Outer, const FWeaponModifications &amp;InitialMods, FName Name=NAME_None) const</argsstring>
+        <name>CreateTransientCharacteristics</name>
+        <qualifiedname>UWeaponAsset::CreateTransientCharacteristics</qualifiedname>
+        <param>
+          <type>UObject *</type>
+          <declname>Outer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+          <declname>InitialMods</declname>
+        </param>
+        <param>
+          <type>FName</type>
+          <declname>Name</declname>
+          <defval>NAME_None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="88" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="305" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1ae8b4a79c8828c7c3d5893a86fbe49c34" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T *</type>
+        <definition>T * UWeaponAsset::CreateTransientCharacteristicsChecked</definition>
+        <argsstring>(UObject *Outer, const FWeaponModifications &amp;InitialMods, FName Name=NAME_None) const</argsstring>
+        <name>CreateTransientCharacteristicsChecked</name>
+        <qualifiedname>UWeaponAsset::CreateTransientCharacteristicsChecked</qualifiedname>
+        <param>
+          <type>UObject *</type>
+          <declname>Outer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+          <declname>InitialMods</declname>
+        </param>
+        <param>
+          <type>FName</type>
+          <declname>Name</declname>
+          <defval>NAME_None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="91" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="311" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1ad5af6f2d6906858b9facc1c2cffbc478" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponAsset::EnsureHasCharacteristics</definition>
+        <argsstring>()</argsstring>
+        <name>EnsureHasCharacteristics</name>
+        <qualifiedname>UWeaponAsset::EnsureHasCharacteristics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="205" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="226" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a870ca547acec2967168a3f1d088d7159" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void UWeaponAsset::ExecuteFunctionOnNodes</definition>
+        <argsstring>(const TArray&lt; T * &gt; &amp;Nodes, const TFunction&lt; void(UWeaponRuntimeNode *)&gt; &amp;InFunct, const TFunction&lt; bool(const UWeaponRuntimeNode *)&gt; &amp;Condition=[](auto){return true;}) const</argsstring>
+        <name>ExecuteFunctionOnNodes</name>
+        <qualifiedname>UWeaponAsset::ExecuteFunctionOnNodes</qualifiedname>
+        <param>
+          <type>const TArray&lt; T * &gt; &amp;</type>
+          <declname>Nodes</declname>
+        </param>
+        <param>
+          <type>const TFunction&lt; void(<ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> *)&gt; &amp;</type>
+          <declname>InFunct</declname>
+        </param>
+        <param>
+          <type>const TFunction&lt; bool(const <ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> *)&gt; &amp;</type>
+          <declname>Condition</declname>
+          <defval>[](auto){return true;}</defval>
+        </param>
+    <requiresclause>std::is_base_of_v&lt;<ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>, T&gt;    </requiresclause>
+        <briefdescription>
+<para>Executes a function on nodes of a specific type with optional condition. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The node type to process. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Nodes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of nodes to process. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>InFunct</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function to execute on matching nodes. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Condition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional predicate to filter nodes; defaults to accepting all. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="262" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="262" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a0c90ed1d11cbbbc935eebe73818b5268" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const TArray&lt; <ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> * &gt; &amp;</type>
+        <definition>const TArray&lt; UWeaponRuntimeNode * &gt; &amp; UWeaponAsset::GetAllNodes</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAllNodes</name>
+        <qualifiedname>UWeaponAsset::GetAllNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="123" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a739a512afb3a6db3496f4ac7bf2887e9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="d0/d9f/struct_f_modification_architecture" kindref="compound">FModificationArchitecture</ref> &amp;</type>
+        <definition>const FModificationArchitecture &amp; UWeaponAsset::GetArchitecture</definition>
+        <argsstring>() const</argsstring>
+        <name>GetArchitecture</name>
+        <qualifiedname>UWeaponAsset::GetArchitecture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="182" column="33" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="182" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a8bfcfc861e1b44bb0708c2e6f8971a34" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d9/df8/class_u_weapon_architecture" kindref="compound">UWeaponArchitecture</ref> *</type>
+        <definition>UWeaponArchitecture * UWeaponAsset::GetArchitecturePtr</definition>
+        <argsstring>() const</argsstring>
+        <name>GetArchitecturePtr</name>
+        <qualifiedname>UWeaponAsset::GetArchitecturePtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="178" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="178" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1aa2c3d3e807e1baa9985b1c13f939881d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>decltype(auto)</type>
+        <definition>decltype(auto) UWeaponAsset::GetCharacteristics</definition>
+        <argsstring>()</argsstring>
+        <name>GetCharacteristics</name>
+        <qualifiedname>UWeaponAsset::GetCharacteristics</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="164" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="164" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1ac7ad624d2e5c99a782f8bdae97424074" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>decltype(auto)</type>
+        <definition>decltype(auto) UWeaponAsset::GetCharacteristics</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCharacteristics</name>
+        <qualifiedname>UWeaponAsset::GetCharacteristics</qualifiedname>
+        <briefdescription>
+<para>Checks if a modification is applied at the specified slot (template version). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>SlotEnum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enum or integral type for the slot index. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ModificationEnum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enum or integral type for the modification value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="163" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="163" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1ad2d27aa91b0c6810f1e66eb23b7f4514" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>UClass *</type>
+        <definition>UClass * UWeaponAsset::GetCharacteristicsClass</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCharacteristicsClass</name>
+        <qualifiedname>UWeaponAsset::GetCharacteristicsClass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="79" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="218" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a3c95ae52e3a7d1a651406e656c4717b7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/db3/class_u_weapon_runtime_graph" kindref="compound">UWeaponRuntimeGraph</ref> *</type>
+        <definition>UWeaponRuntimeGraph * UWeaponAsset::GetGraph</definition>
+        <argsstring>() const</argsstring>
+        <name>GetGraph</name>
+        <qualifiedname>UWeaponAsset::GetGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="226" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="226" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a365f160f6ccc8542f5ccd201fce333bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+        <definition>FORCEINLINE FWeaponModifications &amp; UWeaponAsset::GetModConfig</definition>
+        <argsstring>()</argsstring>
+        <name>GetModConfig</name>
+        <qualifiedname>UWeaponAsset::GetModConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="94" column="34" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1ac89b7926474651a732188fc301db5a6c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+        <definition>FORCEINLINE const FWeaponModifications &amp; UWeaponAsset::GetModConfig</definition>
+        <argsstring>() const</argsstring>
+        <name>GetModConfig</name>
+        <qualifiedname>UWeaponAsset::GetModConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="96" column="40" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1ad823a9f70de0e28f41765f28f028f049" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+        <definition>FORCEINLINE FWeaponModifications &amp; UWeaponAsset::GetModificationsApplied</definition>
+        <argsstring>()</argsstring>
+        <name>GetModificationsApplied</name>
+        <qualifiedname>UWeaponAsset::GetModificationsApplied</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="102" column="34" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1ad162c79401f59d9e097a91fe62e47940" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+        <definition>FORCEINLINE const FWeaponModifications &amp; UWeaponAsset::GetModificationsApplied</definition>
+        <argsstring>() const</argsstring>
+        <name>GetModificationsApplied</name>
+        <qualifiedname>UWeaponAsset::GetModificationsApplied</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="99" column="40" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a89118f6086641abfb5803d04bb9f32ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>FORCEINLINE void UWeaponAsset::GetModificationsApplied</definition>
+        <argsstring>(FWeaponModifications &amp;Mods)</argsstring>
+        <name>GetModificationsApplied</name>
+        <qualifiedname>UWeaponAsset::GetModificationsApplied</qualifiedname>
+        <param>
+          <type><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+          <declname>Mods</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="201" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="201" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1ac94df0e9b40ae9ae9f2c2d357e508fc4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void UWeaponAsset::GetNodesByType</definition>
+        <argsstring>(TArray&lt; T * &gt; &amp;Arr) const</argsstring>
+        <name>GetNodesByType</name>
+        <qualifiedname>UWeaponAsset::GetNodesByType</qualifiedname>
+        <param>
+          <type>TArray&lt; T * &gt; &amp;</type>
+          <declname>Arr</declname>
+        </param>
+        <briefdescription>
+<para>Populates an array with all nodes of the specified type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The node type to search for. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Arr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Output array of matching nodes. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="275" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="275" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a39da0b5914928957678e25c913b742ea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAsset::HasModAtSlot</definition>
+        <argsstring>(FGameplayTag Modification) const</argsstring>
+        <name>HasModAtSlot</name>
+        <qualifiedname>UWeaponAsset::HasModAtSlot</qualifiedname>
+        <param>
+          <type>FGameplayTag</type>
+          <declname>Modification</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="145" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a0ca5e68a5e39f99f4795b316d1f6f2ac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAsset::IsValidCharacteristics</definition>
+        <argsstring>(UWeaponAssetCharacteristics *Other) const</argsstring>
+        <name>IsValidCharacteristics</name>
+        <qualifiedname>UWeaponAsset::IsValidCharacteristics</qualifiedname>
+        <param>
+          <type><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref> *</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="142" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a0acc7a261848af86628258a2458d2b8e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>TArray&lt; USceneComponent * &gt;</type>
+        <definition>TArray&lt; USceneComponent * &gt; UWeaponAsset::RunBuildNodes</definition>
+        <argsstring>(const FWeaponExecutionContext &amp;InContext, bool bCleanRun=true) const</argsstring>
+        <name>RunBuildNodes</name>
+        <qualifiedname>UWeaponAsset::RunBuildNodes</qualifiedname>
+        <param>
+          <type>const <ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref> &amp;</type>
+          <declname>InContext</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bCleanRun</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Builds visual components by running build nodes in the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>InContext</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Execution context for the graph. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bCleanRun</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If true, clears the cache before execution. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Array of built scene components. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="133" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="100" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a26671577ee64eb86a550a3bac86e74d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponAsset::RunEndNodes</definition>
+        <argsstring>(const FWeaponExecutionContext &amp;InContext) const</argsstring>
+        <name>RunEndNodes</name>
+        <qualifiedname>UWeaponAsset::RunEndNodes</qualifiedname>
+        <param>
+          <type>const <ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref> &amp;</type>
+          <declname>InContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="126" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="94" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1aca9a67a9a6902904aa82662e2e997951" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponAsset::RunOperationNodes</definition>
+        <argsstring>(const FWeaponExecutionContext &amp;InContext) const</argsstring>
+        <name>RunOperationNodes</name>
+        <qualifiedname>UWeaponAsset::RunOperationNodes</qualifiedname>
+        <param>
+          <type>const <ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref> &amp;</type>
+          <declname>InContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="138" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="142" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a254f075381edee0a000c8e34075778ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAsset::SetAllModifications</definition>
+        <argsstring>(const FWeaponModifications &amp;InModifications)</argsstring>
+        <name>SetAllModifications</name>
+        <qualifiedname>UWeaponAsset::SetAllModifications</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+          <declname>InModifications</declname>
+        </param>
+        <briefdescription>
+<para>Applies all modifications at once, filling missing slots with 0. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>InModifications</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of modification values. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if any modification changed; false if all remained the same. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="214" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="238" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1adb0f3f7c5e4bca7a909ab1d9f5a5ba8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponAsset::SetGraph</definition>
+        <argsstring>(UWeaponRuntimeGraph *InGraph)</argsstring>
+        <name>SetGraph</name>
+        <qualifiedname>UWeaponAsset::SetGraph</qualifiedname>
+        <param>
+          <type><ref refid="d1/db3/class_u_weapon_runtime_graph" kindref="compound">UWeaponRuntimeGraph</ref> *</type>
+          <declname>InGraph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="227" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="249" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1a4eeef04f3c7a7e098315180e13f118d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAsset::SetSingleModification</definition>
+        <argsstring>(FGameplayTag Modification)</argsstring>
+        <name>SetSingleModification</name>
+        <qualifiedname>UWeaponAsset::SetSingleModification</qualifiedname>
+        <param>
+          <type>FGameplayTag</type>
+          <declname>Modification</declname>
+        </param>
+        <briefdescription>
+<para>Changes the modifier at the specified slot and triggers update. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Slot</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index of the modification slot. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Modification</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New modification value. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the modification changed; false if it was already the same value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="197" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAsset.cpp" bodystart="177" bodyend="183"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="df/d06/class_u_weapon_asset_1ac90f912860a8ea43f8630d320ed9bc9c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T *</type>
+        <definition>static T * UWeaponAsset::CreateWeaponInstance</definition>
+        <argsstring>(T *Parent, UObject *Outer)</argsstring>
+        <name>CreateWeaponInstance</name>
+        <qualifiedname>UWeaponAsset::CreateWeaponInstance</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>Parent</declname>
+        </param>
+        <param>
+          <type>UObject *</type>
+          <declname>Outer</declname>
+        </param>
+    <requiresclause>std::is_base_of_v&lt;<ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>, T&gt;    </requiresclause>
+        <briefdescription>
+<para>Creates an instanced copy of a weapon asset. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Weapon asset subclass type. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parent asset to instantiate from. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Outer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The owner object for the instance. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The created instance, or nullptr if parent is null or already instanced. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="238" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="238" bodyend="253"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Delegate to notify when the weapon asset is modified <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> represents a weapon with runtime graph execution, modification slots, and characteristics. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponAsset</label>
+        <link refid="df/d06/class_u_weapon_asset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>FDestructionStack</label>
+        <link refid="d4/df7/struct_f_destruction_stack"/>
+      </node>
+      <node id="3">
+        <label>FWeaponExecutionContext</label>
+        <link refid="df/dfa/struct_f_weapon_execution_context"/>
+      </node>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponAsset</label>
+        <link refid="df/d06/class_u_weapon_asset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>DefaultExecutionContext</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>Graph</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UWeaponRuntimeGraph</label>
+        <link refid="d1/db3/class_u_weapon_runtime_graph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ExecutionContext</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>DestructionStack</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>WeaponAsset</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" line="24" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAsset.h" bodystart="25" bodyend="290"/>
+    <listofallmembers>
+      <member refid="df/d06/class_u_weapon_asset_1ae53c0bf614fb309ef896ba09c300ad83" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>ClearCache</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a015027f6b6783e2b7dfd9a8d81232be3" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>ClearContext</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1ab7909871d5f6cf45bd1525a02aadd19d" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>CreateCharacteristics</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a2579cf69800c6c66edde971f79e6307f" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>CreateCharacteristics</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a79018cfb9d19be44c1dda799e70bbd24" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>CreateCharacteristicsChecked</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1aa4fc027d57216177d57975153dddab20" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>CreateTransientCharacteristics</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a07b68d342032abf052925b88ede2eaa3" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>CreateTransientCharacteristics</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1ae8b4a79c8828c7c3d5893a86fbe49c34" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>CreateTransientCharacteristicsChecked</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1ac90f912860a8ea43f8630d320ed9bc9c" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>CreateWeaponInstance</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a3b8a422562e1b262b72677be38b64d97" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>DefaultExecutionContext</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1ad5af6f2d6906858b9facc1c2cffbc478" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>EnsureHasCharacteristics</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a870ca547acec2967168a3f1d088d7159" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>ExecuteFunctionOnNodes</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a0c90ed1d11cbbbc935eebe73818b5268" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetAllNodes</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a739a512afb3a6db3496f4ac7bf2887e9" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetArchitecture</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a8bfcfc861e1b44bb0708c2e6f8971a34" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetArchitecturePtr</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1ac7ad624d2e5c99a782f8bdae97424074" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetCharacteristics</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1aa2c3d3e807e1baa9985b1c13f939881d" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetCharacteristics</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1ad2d27aa91b0c6810f1e66eb23b7f4514" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetCharacteristicsClass</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a26506a4e166d86f738873749811391aa" prot="private" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetCharacteristicsImpl</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a3c95ae52e3a7d1a651406e656c4717b7" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetGraph</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a365f160f6ccc8542f5ccd201fce333bc" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetModConfig</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1ac89b7926474651a732188fc301db5a6c" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetModConfig</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a6d3901df928be5fafae2e261501b9bbc" prot="private" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetModConfigImpl</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1ad162c79401f59d9e097a91fe62e47940" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetModificationsApplied</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1ad823a9f70de0e28f41765f28f028f049" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetModificationsApplied</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a89118f6086641abfb5803d04bb9f32ee" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetModificationsApplied</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a278c4732c12e8700de71d0ebb1e39961" prot="private" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetModificationsAppliedImpl</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1ac94df0e9b40ae9ae9f2c2d357e508fc4" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>GetNodesByType</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a5c84a813f5383f055b1de067581888e3" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>Graph</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a39da0b5914928957678e25c913b742ea" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>HasModAtSlot</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a0ca5e68a5e39f99f4795b316d1f6f2ac" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>IsValidCharacteristics</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a0acc7a261848af86628258a2458d2b8e" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>RunBuildNodes</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a26671577ee64eb86a550a3bac86e74d8" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>RunEndNodes</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1aca9a67a9a6902904aa82662e2e997951" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>RunOperationNodes</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a254f075381edee0a000c8e34075778ac" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>SetAllModifications</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1adb0f3f7c5e4bca7a909ab1d9f5a5ba8c" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>SetGraph</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a4eeef04f3c7a7e098315180e13f118d5" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>SetSingleModification</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1a3f80d934df027835909223b205fee40d" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>UWeaponAsset</name></member>
+      <member refid="df/d06/class_u_weapon_asset_1ae90cab6c503d8a50c06f2594112279a4" prot="public" virt="non-virtual"><scope>UWeaponAsset</scope><name>UWeaponAssetLibrary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

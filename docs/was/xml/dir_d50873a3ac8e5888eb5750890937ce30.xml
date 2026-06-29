@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_d50873a3ac8e5888eb5750890937ce30" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/EndNodes</compoundname>
+    <innerfile refid="d6/d10/_weapon_end_runtime_node_8h">WeaponEndRuntimeNode.h</innerfile>
+    <innerfile refid="db/d6b/_weapon_end_runtime_node_operator_8cpp">WeaponEndRuntimeNodeOperator.cpp</innerfile>
+    <innerfile refid="dd/dba/_weapon_end_runtime_node_operator_8h">WeaponEndRuntimeNodeOperator.h</innerfile>
+    <innerfile refid="d5/d67/_weapon_end_runtime_node_visuals_8cpp">WeaponEndRuntimeNodeVisuals.cpp</innerfile>
+    <innerfile refid="d4/d5b/_weapon_end_runtime_node_visuals_8h">WeaponEndRuntimeNodeVisuals.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/EndNodes/"/>
+  </compounddef>
+</doxygen>

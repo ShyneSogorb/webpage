@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d2/d5d/struct_f_gameplay_tag_node___dev_comment___tag" kind="struct" language="C++" prot="public">
+    <compoundname>FGameplayTagNode_DevComment_Tag</compoundname>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="d2/d5d/struct_f_gameplay_tag_node___dev_comment___tag_1a0acc68de1a573d7db75034f92bb73f9f" prot="public" static="no">
+        <type>FString FGameplayTagNode::*</type>
+        <definition>using FGameplayTagNode_DevComment_Tag::type =  FString FGameplayTagNode::*</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>FGameplayTagNode_DevComment_Tag::type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/EditorUtils.cpp" line="12" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/EditorUtils.cpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="d2/d5d/struct_f_gameplay_tag_node___dev_comment___tag_1a49d2198d8b48b7418fb5b523d0d51532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d2/d5d/struct_f_gameplay_tag_node___dev_comment___tag_1a0acc68de1a573d7db75034f92bb73f9f" kindref="member">type</ref></type>
+        <definition>type get</definition>
+        <argsstring>(FGameplayTagNode_DevComment_Tag)</argsstring>
+        <name>get</name>
+        <qualifiedname>FGameplayTagNode_DevComment_Tag::get</qualifiedname>
+        <param>
+          <type><ref refid="d2/d5d/struct_f_gameplay_tag_node___dev_comment___tag" kindref="compound">FGameplayTagNode_DevComment_Tag</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/EditorUtils.cpp" line="13" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/EditorUtils.cpp" line="10" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/EditorUtils.cpp" bodystart="11" bodyend="14"/>
+    <listofallmembers>
+      <member refid="d2/d5d/struct_f_gameplay_tag_node___dev_comment___tag_1a49d2198d8b48b7418fb5b523d0d51532" prot="public" virt="non-virtual"><scope>FGameplayTagNode_DevComment_Tag</scope><name>get</name></member>
+      <member refid="d2/d5d/struct_f_gameplay_tag_node___dev_comment___tag_1a0acc68de1a573d7db75034f92bb73f9f" prot="public" virt="non-virtual"><scope>FGameplayTagNode_DevComment_Tag</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

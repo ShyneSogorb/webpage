@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d2/dd5/class_s_ammo_type_edit_box" kind="class" language="C++" prot="public">
+    <compoundname>SAmmoTypeEditBox</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SCompoundWidget</basecompoundref>
+    <includes local="no">WeaponSystemSettingsDetails.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d2/dd5/class_s_ammo_type_edit_box_1abfbf7646c3ea62e6fcc2c54304867190" prot="private" static="no" mutable="no">
+        <type>TSharedPtr&lt; <ref refid="d0/d4d/struct_f_ammo_type_name" kindref="compound">FAmmoTypeName</ref> &gt;</type>
+        <definition>TSharedPtr&lt;FAmmoTypeName&gt; SAmmoTypeEditBox::AmmoType</definition>
+        <argsstring></argsstring>
+        <name>AmmoType</name>
+        <qualifiedname>SAmmoTypeEditBox::AmmoType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" line="59" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dd5/class_s_ammo_type_edit_box_1a9959e92ef0f5228526acd707edc36a6e" prot="private" static="no" mutable="no">
+        <type>UEnum *</type>
+        <definition>UEnum* SAmmoTypeEditBox::AmmoTypeEnum</definition>
+        <argsstring></argsstring>
+        <name>AmmoTypeEnum</name>
+        <qualifiedname>SAmmoTypeEditBox::AmmoTypeEnum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" line="60" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dd5/class_s_ammo_type_edit_box_1a6f4fc3245043567124c1ee1e75fce454" prot="private" static="no" mutable="no">
+        <type>TSharedPtr&lt; SEditableTextBox &gt;</type>
+        <definition>TSharedPtr&lt;SEditableTextBox&gt; SAmmoTypeEditBox::NameEditBox</definition>
+        <argsstring></argsstring>
+        <name>NameEditBox</name>
+        <qualifiedname>SAmmoTypeEditBox::NameEditBox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" line="62" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dd5/class_s_ammo_type_edit_box_1a97c644cb65284d1eaca5c8d4191760db" prot="private" static="no" mutable="no">
+        <type>FOnCommitChange</type>
+        <definition>FOnCommitChange SAmmoTypeEditBox::OnCommitChange</definition>
+        <argsstring></argsstring>
+        <name>OnCommitChange</name>
+        <qualifiedname>SAmmoTypeEditBox::OnCommitChange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" line="61" column="17" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/dd5/class_s_ammo_type_edit_box_1a37217b23914c6c9bf06387be776ea65b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SAmmoTypeEditBox::Construct</definition>
+        <argsstring>(const FArguments &amp;InArgs)</argsstring>
+        <name>Construct</name>
+        <qualifiedname>SAmmoTypeEditBox::Construct</qualifiedname>
+        <param>
+          <type>const FArguments &amp;</type>
+          <declname>InArgs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" line="49" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="23" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dd5/class_s_ammo_type_edit_box_1a0e92c021879104776e96a22c9cecacb3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE FText</type>
+        <definition>FORCEINLINE FText SAmmoTypeEditBox::GetName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetName</name>
+        <qualifiedname>SAmmoTypeEditBox::GetName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" line="53" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dd5/class_s_ammo_type_edit_box_1aec6d865104b1f956b3471d89177b1e4c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FString</type>
+        <definition>FString SAmmoTypeEditBox::GetTypeString</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTypeString</name>
+        <qualifiedname>SAmmoTypeEditBox::GetTypeString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" line="51" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dd5/class_s_ammo_type_edit_box_1aa3981889547619d4b2a1d68052f7483f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SAmmoTypeEditBox::NewNameEntered</definition>
+        <argsstring>(const FText &amp;NewText, ETextCommit::Type CommitInfo)</argsstring>
+        <name>NewNameEntered</name>
+        <qualifiedname>SAmmoTypeEditBox::NewNameEntered</qualifiedname>
+        <param>
+          <type>const FText &amp;</type>
+          <declname>NewText</declname>
+        </param>
+        <param>
+          <type>ETextCommit::Type</type>
+          <declname>CommitInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" line="55" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="43" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dd5/class_s_ammo_type_edit_box_1ab2b61a3620435ababf8b189eb239c994" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SAmmoTypeEditBox::OnTextChanged</definition>
+        <argsstring>(const FText &amp;NewText)</argsstring>
+        <name>OnTextChanged</name>
+        <qualifiedname>SAmmoTypeEditBox::OnTextChanged</qualifiedname>
+        <param>
+          <type>const FText &amp;</type>
+          <declname>NewText</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" line="56" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/ProjectSettings/WeaponSystemSettingsDetails.cpp" bodystart="72" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dd5/class_s_ammo_type_edit_box_1ae5acd40af84b8620f900ee291c4f4ab3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SAmmoTypeEditBox::SLATE_BEGIN_ARGS</definition>
+        <argsstring>(SAmmoTypeEditBox)</argsstring>
+        <name>SLATE_BEGIN_ARGS</name>
+        <qualifiedname>SAmmoTypeEditBox::SLATE_BEGIN_ARGS</qualifiedname>
+        <param>
+          <type><ref refid="d2/dd5/class_s_ammo_type_edit_box" kindref="compound">SAmmoTypeEditBox</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" line="43" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Friend list </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SAmmoTypeEditBox</label>
+        <link refid="d2/dd5/class_s_ammo_type_edit_box"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SCompoundWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>SAmmoTypeEditBox</label>
+        <link refid="d2/dd5/class_s_ammo_type_edit_box"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SCompoundWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" line="39" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/ProjectSettings/WeaponSystemSettingsDetails.h" bodystart="40" bodyend="64"/>
+    <listofallmembers>
+      <member refid="d2/dd5/class_s_ammo_type_edit_box_1abfbf7646c3ea62e6fcc2c54304867190" prot="private" virt="non-virtual"><scope>SAmmoTypeEditBox</scope><name>AmmoType</name></member>
+      <member refid="d2/dd5/class_s_ammo_type_edit_box_1a9959e92ef0f5228526acd707edc36a6e" prot="private" virt="non-virtual"><scope>SAmmoTypeEditBox</scope><name>AmmoTypeEnum</name></member>
+      <member refid="d2/dd5/class_s_ammo_type_edit_box_1a37217b23914c6c9bf06387be776ea65b" prot="public" virt="non-virtual"><scope>SAmmoTypeEditBox</scope><name>Construct</name></member>
+      <member refid="d2/dd5/class_s_ammo_type_edit_box_1a0e92c021879104776e96a22c9cecacb3" prot="public" virt="non-virtual"><scope>SAmmoTypeEditBox</scope><name>GetName</name></member>
+      <member refid="d2/dd5/class_s_ammo_type_edit_box_1aec6d865104b1f956b3471d89177b1e4c" prot="public" virt="non-virtual"><scope>SAmmoTypeEditBox</scope><name>GetTypeString</name></member>
+      <member refid="d2/dd5/class_s_ammo_type_edit_box_1a6f4fc3245043567124c1ee1e75fce454" prot="private" virt="non-virtual"><scope>SAmmoTypeEditBox</scope><name>NameEditBox</name></member>
+      <member refid="d2/dd5/class_s_ammo_type_edit_box_1aa3981889547619d4b2a1d68052f7483f" prot="public" virt="non-virtual"><scope>SAmmoTypeEditBox</scope><name>NewNameEntered</name></member>
+      <member refid="d2/dd5/class_s_ammo_type_edit_box_1a97c644cb65284d1eaca5c8d4191760db" prot="private" virt="non-virtual"><scope>SAmmoTypeEditBox</scope><name>OnCommitChange</name></member>
+      <member refid="d2/dd5/class_s_ammo_type_edit_box_1ab2b61a3620435ababf8b189eb239c994" prot="public" virt="non-virtual"><scope>SAmmoTypeEditBox</scope><name>OnTextChanged</name></member>
+      <member refid="d2/dd5/class_s_ammo_type_edit_box_1ae5acd40af84b8620f900ee291c4f4ab3" prot="public" virt="non-virtual"><scope>SAmmoTypeEditBox</scope><name>SLATE_BEGIN_ARGS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

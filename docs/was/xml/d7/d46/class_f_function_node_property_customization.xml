@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d7/d46/class_f_function_node_property_customization" kind="class" language="C++" prot="public">
+    <compoundname>FFunctionNodePropertyCustomization</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDetailCustomization</basecompoundref>
+    <includes local="no">FunctionNodePropertyCustomization.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/d46/class_f_function_node_property_customization_1ab160b8149d7ded3f634bf53d104befb2" prot="private" static="no" mutable="no">
+        <type>TWeakObjectPtr&lt; <ref refid="de/dca/class_u_weapon_custom_function_runtime_node" kindref="compound">UWeaponCustomFunctionRuntimeNode</ref> &gt;</type>
+        <definition>TWeakObjectPtr&lt;UWeaponCustomFunctionRuntimeNode&gt; FFunctionNodePropertyCustomization::FunctionNodeWeakPtr</definition>
+        <argsstring></argsstring>
+        <name>FunctionNodeWeakPtr</name>
+        <qualifiedname>FFunctionNodePropertyCustomization::FunctionNodeWeakPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/FunctionNodePropertyCustomization.h" line="31" column="16" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/FunctionNodePropertyCustomization.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d46/class_f_function_node_property_customization_1a6923319aeb76ba20a0a10338f94c4a74" prot="private" static="no" mutable="no">
+        <type>TSharedPtr&lt; FStructOnScope &gt;</type>
+        <definition>TSharedPtr&lt;FStructOnScope&gt; FFunctionNodePropertyCustomization::StructUsed</definition>
+        <argsstring></argsstring>
+        <name>StructUsed</name>
+        <qualifiedname>FFunctionNodePropertyCustomization::StructUsed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/FunctionNodePropertyCustomization.h" line="30" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/FunctionNodePropertyCustomization.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/d46/class_f_function_node_property_customization_1aac957ef8514411791dc66bdc44a77f81" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE TSharedRef&lt; IDetailCustomization &gt;</type>
+        <definition>static FORCEINLINE TSharedRef&lt; IDetailCustomization &gt; FFunctionNodePropertyCustomization::MakeInstance</definition>
+        <argsstring>()</argsstring>
+        <name>MakeInstance</name>
+        <qualifiedname>FFunctionNodePropertyCustomization::MakeInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/FunctionNodePropertyCustomization.h" line="17" column="31" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/FunctionNodePropertyCustomization.h" bodystart="17" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d46/class_f_function_node_property_customization_1ac551275d6b70a2bc2b1d47f11c009b48" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FFunctionNodePropertyCustomization::CustomizeDetails</definition>
+        <argsstring>(IDetailLayoutBuilder &amp;DetailBuilder) override</argsstring>
+        <name>CustomizeDetails</name>
+        <qualifiedname>FFunctionNodePropertyCustomization::CustomizeDetails</qualifiedname>
+        <param>
+          <type>IDetailLayoutBuilder &amp;</type>
+          <declname>DetailBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/FunctionNodePropertyCustomization.h" line="22" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/FunctionNodePropertyCustomization.cpp" bodystart="60" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d46/class_f_function_node_property_customization_1acf8996b5c239f92ec18d228de03d4613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FFunctionNodePropertyCustomization::NotifyStructChanged</definition>
+        <argsstring>()</argsstring>
+        <name>NotifyStructChanged</name>
+        <qualifiedname>FFunctionNodePropertyCustomization::NotifyStructChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/FunctionNodePropertyCustomization.h" line="26" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/FunctionNodePropertyCustomization.cpp" bodystart="159" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d46/class_f_function_node_property_customization_1a8abec1cd7aa395d83c1b74c59248b114" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FFunctionNodePropertyCustomization::PendingDelete</definition>
+        <argsstring>() override</argsstring>
+        <name>PendingDelete</name>
+        <qualifiedname>FFunctionNodePropertyCustomization::PendingDelete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/FunctionNodePropertyCustomization.h" line="24" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/FunctionNodePropertyCustomization.cpp" bodystart="153" bodyend="157"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FFunctionNodePropertyCustomization</label>
+        <link refid="d7/d46/class_f_function_node_property_customization"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDetailCustomization</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FFunctionNodePropertyCustomization</label>
+        <link refid="d7/d46/class_f_function_node_property_customization"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDetailCustomization</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/FunctionNodePropertyCustomization.h" line="12" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/FunctionNodePropertyCustomization.h" bodystart="13" bodyend="32"/>
+    <listofallmembers>
+      <member refid="d7/d46/class_f_function_node_property_customization_1ac551275d6b70a2bc2b1d47f11c009b48" prot="public" virt="virtual"><scope>FFunctionNodePropertyCustomization</scope><name>CustomizeDetails</name></member>
+      <member refid="d7/d46/class_f_function_node_property_customization_1ab160b8149d7ded3f634bf53d104befb2" prot="private" virt="non-virtual"><scope>FFunctionNodePropertyCustomization</scope><name>FunctionNodeWeakPtr</name></member>
+      <member refid="d7/d46/class_f_function_node_property_customization_1aac957ef8514411791dc66bdc44a77f81" prot="public" virt="non-virtual"><scope>FFunctionNodePropertyCustomization</scope><name>MakeInstance</name></member>
+      <member refid="d7/d46/class_f_function_node_property_customization_1acf8996b5c239f92ec18d228de03d4613" prot="public" virt="non-virtual"><scope>FFunctionNodePropertyCustomization</scope><name>NotifyStructChanged</name></member>
+      <member refid="d7/d46/class_f_function_node_property_customization_1a8abec1cd7aa395d83c1b74c59248b114" prot="public" virt="virtual"><scope>FFunctionNodePropertyCustomization</scope><name>PendingDelete</name></member>
+      <member refid="d7/d46/class_f_function_node_property_customization_1a6923319aeb76ba20a0a10338f94c4a74" prot="private" virt="non-virtual"><scope>FFunctionNodePropertyCustomization</scope><name>StructUsed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

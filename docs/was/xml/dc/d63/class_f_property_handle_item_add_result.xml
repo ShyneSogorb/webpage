@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dc/d63/class_f_property_handle_item_add_result" kind="class" language="C++" prot="public">
+    <compoundname>FPropertyHandleItemAddResult</compoundname>
+    <includes local="no">EditorUtils.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dc/d63/class_f_property_handle_item_add_result_1a2749864e6f00e8905c93cd28872a127a" prot="private" static="no" mutable="no">
+        <type>int32</type>
+        <definition>int32 FPropertyHandleItemAddResult::Index</definition>
+        <argsstring></argsstring>
+        <name>Index</name>
+        <qualifiedname>FPropertyHandleItemAddResult::Index</qualifiedname>
+        <initializer>= INDEX_NONE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" line="29" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d63/class_f_property_handle_item_add_result_1a135cb8d92f65ad360986dc6708da313b" prot="private" static="no" mutable="no">
+        <type>FPropertyAccess::Result</type>
+        <definition>FPropertyAccess::Result FPropertyHandleItemAddResult::PropertyAccessResult</definition>
+        <argsstring></argsstring>
+        <name>PropertyAccessResult</name>
+        <qualifiedname>FPropertyHandleItemAddResult::PropertyAccessResult</qualifiedname>
+        <initializer>= FPropertyAccess::Fail</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" line="30" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d63/class_f_property_handle_item_add_result_1a00c22091c12809c3a43fa705e6f369a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FPropertyHandleItemAddResult::FPropertyHandleItemAddResult</definition>
+        <argsstring>()=default</argsstring>
+        <name>FPropertyHandleItemAddResult</name>
+        <qualifiedname>FPropertyHandleItemAddResult::FPropertyHandleItemAddResult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d63/class_f_property_handle_item_add_result_1ab92dd2e8142a07d8b30eaf3581e94b42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FPropertyHandleItemAddResult::FPropertyHandleItemAddResult</definition>
+        <argsstring>(int32 InIndex, FPropertyAccess::Result InResult)</argsstring>
+        <name>FPropertyHandleItemAddResult</name>
+        <qualifiedname>FPropertyHandleItemAddResult::FPropertyHandleItemAddResult</qualifiedname>
+        <param>
+          <type>int32</type>
+          <declname>InIndex</declname>
+        </param>
+        <param>
+          <type>FPropertyAccess::Result</type>
+          <declname>InResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" line="18" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d63/class_f_property_handle_item_add_result_1aff3b5d939fb02baa9cad328188e443d3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FPropertyAccess::Result</type>
+        <definition>FPropertyAccess::Result FPropertyHandleItemAddResult::GetAccessResult</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAccessResult</name>
+        <qualifiedname>FPropertyHandleItemAddResult::GetAccessResult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" line="24" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d63/class_f_property_handle_item_add_result_1ae8753830ed7b23b1042dc007cbfb85c6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int32</type>
+        <definition>int32 FPropertyHandleItemAddResult::GetIndex</definition>
+        <argsstring>() const</argsstring>
+        <name>GetIndex</name>
+        <qualifiedname>FPropertyHandleItemAddResult::GetIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" line="23" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d63/class_f_property_handle_item_add_result_1a832ba564785e679370ad12b7d4c949d1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FPropertyHandleItemAddResult::operator FPropertyAccess::Result</definition>
+        <argsstring>() const</argsstring>
+        <name>operator FPropertyAccess::Result</name>
+        <qualifiedname>FPropertyHandleItemAddResult::Result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" line="26" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" line="14" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" bodystart="15" bodyend="31"/>
+    <listofallmembers>
+      <member refid="dc/d63/class_f_property_handle_item_add_result_1a00c22091c12809c3a43fa705e6f369a6" prot="public" virt="non-virtual"><scope>FPropertyHandleItemAddResult</scope><name>FPropertyHandleItemAddResult</name></member>
+      <member refid="dc/d63/class_f_property_handle_item_add_result_1ab92dd2e8142a07d8b30eaf3581e94b42" prot="public" virt="non-virtual"><scope>FPropertyHandleItemAddResult</scope><name>FPropertyHandleItemAddResult</name></member>
+      <member refid="dc/d63/class_f_property_handle_item_add_result_1aff3b5d939fb02baa9cad328188e443d3" prot="public" virt="non-virtual"><scope>FPropertyHandleItemAddResult</scope><name>GetAccessResult</name></member>
+      <member refid="dc/d63/class_f_property_handle_item_add_result_1ae8753830ed7b23b1042dc007cbfb85c6" prot="public" virt="non-virtual"><scope>FPropertyHandleItemAddResult</scope><name>GetIndex</name></member>
+      <member refid="dc/d63/class_f_property_handle_item_add_result_1a2749864e6f00e8905c93cd28872a127a" prot="private" virt="non-virtual"><scope>FPropertyHandleItemAddResult</scope><name>Index</name></member>
+      <member refid="dc/d63/class_f_property_handle_item_add_result_1a832ba564785e679370ad12b7d4c949d1" prot="public" virt="non-virtual"><scope>FPropertyHandleItemAddResult</scope><name>operator FPropertyAccess::Result</name></member>
+      <member refid="dc/d63/class_f_property_handle_item_add_result_1a135cb8d92f65ad360986dc6708da313b" prot="private" virt="non-virtual"><scope>FPropertyHandleItemAddResult</scope><name>PropertyAccessResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

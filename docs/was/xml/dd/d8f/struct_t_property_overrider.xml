@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dd/d8f/struct_t_property_overrider" kind="struct" language="C++" prot="public">
+    <compoundname>TPropertyOverrider</compoundname>
+    <includes local="no">PropertyOverrider.h</includes>
+    <innerclass refid="d8/d88/struct_t_property_overrider_1_1_t_operator" prot="protected">TPropertyOverrider::TOperator</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-type">
+      <memberdef kind="typedef" id="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" prot="protected" static="no">
+        <type>std::conditional_t&lt; sizeof(T)&lt;=2 *sizeof(void *) &amp;&amp;std::is_trivially_copy_constructible_v&lt; T &gt;, T, const T &amp; &gt;</type>
+        <definition>using TPropertyOverrider&lt; T &gt;::TConstSmall =  std::conditional_t&lt;sizeof(T) &lt;= 2*sizeof(void*) &amp;&amp; std::is_trivially_copy_constructible_v&lt;T&gt;,
+    	T,
+    	const T&amp;
+    &gt;</definition>
+        <argsstring></argsstring>
+        <name>TConstSmall</name>
+        <qualifiedname>TPropertyOverrider::TConstSmall</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="27" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="dd/d8f/struct_t_property_overrider_1aeca66e9a63b3d524e4479b5d7ec093d6" prot="protected" static="no">
+        <type>std::conditional_t&lt; sizeof(T)&lt;=2 *sizeof(void *) &amp;&amp;std::is_trivially_copy_constructible_v&lt; T &gt;, T, T &amp; &gt;</type>
+        <definition>using TPropertyOverrider&lt; T &gt;::TSmall =  std::conditional_t&lt;sizeof(T) &lt;= 2*sizeof(void*) &amp;&amp; std::is_trivially_copy_constructible_v&lt;T&gt;,
+		T,
+		T&amp;
+	&gt;</definition>
+        <argsstring></argsstring>
+        <name>TSmall</name>
+        <qualifiedname>TPropertyOverrider::TSmall</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="22" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="dd/d8f/struct_t_property_overrider_1a098dc1a2416c7821e21f1c44e138b4d0" prot="protected" static="no" mutable="no">
+        <type>T</type>
+        <definition>T TPropertyOverrider&lt; T &gt;::BaseValue</definition>
+        <argsstring></argsstring>
+        <name>BaseValue</name>
+        <qualifiedname>TPropertyOverrider::BaseValue</qualifiedname>
+        <initializer>= T()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The original unmodified value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="81" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d8f/struct_t_property_overrider_1af667ff9c1b8e5f5cad6bb3c9709c1eb1" prot="protected" static="no" mutable="yes">
+        <type>T</type>
+        <definition>T TPropertyOverrider&lt; T &gt;::CachedValue</definition>
+        <argsstring></argsstring>
+        <name>CachedValue</name>
+        <qualifiedname>TPropertyOverrider::CachedValue</qualifiedname>
+        <initializer>= T()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cached result of applying the operator. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="87" column="11" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d8f/struct_t_property_overrider_1a155242dc9b17388ee716e95e7be0c7da" prot="protected" static="no" mutable="no">
+        <type><ref refid="d8/d88/struct_t_property_overrider_1_1_t_operator" kindref="compound">TOperator</ref></type>
+        <definition>TOperator TPropertyOverrider&lt; T &gt;::OperatorExpression</definition>
+        <argsstring></argsstring>
+        <name>OperatorExpression</name>
+        <qualifiedname>TPropertyOverrider::OperatorExpression</qualifiedname>
+        <initializer>= EOperator::Ignore</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Current operator with dirty flag in highest bit. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="90" column="11" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d8f/struct_t_property_overrider_1a717ba267115e4758e7d79feb235a989d" prot="protected" static="no" mutable="no">
+        <type>T</type>
+        <definition>T TPropertyOverrider&lt; T &gt;::OperatorValue</definition>
+        <argsstring></argsstring>
+        <name>OperatorValue</name>
+        <qualifiedname>TPropertyOverrider::OperatorValue</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The operand for the operator expression. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="84" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a3ef98d0ad56636262b232712dd90bb5c" prot="protected" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8</type>
+        <definition>static constexpr uint8 TPropertyOverrider&lt; T &gt;::FirstBitActive</definition>
+        <argsstring>()</argsstring>
+        <name>FirstBitActive</name>
+        <qualifiedname>TPropertyOverrider::FirstBitActive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bit mask with dirty flag set. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="38" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a40729ea213d255089c6932354e2b1aa2" prot="protected" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8</type>
+        <definition>static constexpr uint8 TPropertyOverrider&lt; T &gt;::FirstBitInactive</definition>
+        <argsstring>()</argsstring>
+        <name>FirstBitInactive</name>
+        <qualifiedname>TPropertyOverrider::FirstBitInactive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bit mask with all bits except dirty flag. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="43" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a4a6ab885a8ee117644c929a62d663434" prot="protected" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8</type>
+        <definition>static constexpr uint8 TPropertyOverrider&lt; T &gt;::GetFirstBitOffset</definition>
+        <argsstring>()</argsstring>
+        <name>GetFirstBitOffset</name>
+        <qualifiedname>TPropertyOverrider::GetFirstBitOffset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Highest bit used as dirty flag in <ref refid="d8/d88/struct_t_property_overrider_1_1_t_operator" kindref="compound">TOperator</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="33" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="33" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a3e8618f8090c9b0a73686e178b5bfcab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TPropertyOverrider&lt; T &gt;::ClearDirty</definition>
+        <argsstring>() const</argsstring>
+        <name>ClearDirty</name>
+        <qualifiedname>TPropertyOverrider::ClearDirty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Recalculate cached value from operator expression. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="101" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="101" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a6997bd8a6d35050ce09034d44a3d3546" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE EOperator</type>
+        <definition>FORCEINLINE EOperator TPropertyOverrider&lt; T &gt;::GetOperatorExpression</definition>
+        <argsstring>() const</argsstring>
+        <name>GetOperatorExpression</name>
+        <qualifiedname>TPropertyOverrider::GetOperatorExpression</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns current operator type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="194" column="23" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="194" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a98af7b9900581ad9d29bedc10038d8f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE <ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+        <definition>FORCEINLINE TConstSmall TPropertyOverrider&lt; T &gt;::GetOperatorValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetOperatorValue</name>
+        <qualifiedname>TPropertyOverrider::GetOperatorValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the operand for the operator. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="207" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="207" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a84794dbe52095bf244068f86018a90b7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T TPropertyOverrider&lt; T &gt;::GetOriginalValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetOriginalValue</name>
+        <qualifiedname>TPropertyOverrider::GetOriginalValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the base value without operator applied. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="124" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="124" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a193839bc0745a8d848649be0d445b8b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+        <definition>TConstSmall TPropertyOverrider&lt; T &gt;::GetValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetValue</name>
+        <qualifiedname>TPropertyOverrider::GetValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns computed result (base value with operator applied). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="114" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="114" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a57a6f571a5d62a9778d5776ce50e21f1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TPropertyOverrider&lt; T &gt;::IsDirty</definition>
+        <argsstring>() const</argsstring>
+        <name>IsDirty</name>
+        <qualifiedname>TPropertyOverrider::IsDirty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if cached value needs recalculation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="108" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a87366fc2fb7e2d9348208b8167d7bc8c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TPropertyOverrider&lt; T &gt;::MarkDirty</definition>
+        <argsstring>() const</argsstring>
+        <name>MarkDirty</name>
+        <qualifiedname>TPropertyOverrider::MarkDirty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mark cached value as stale requiring recalculation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="95" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a0dbd8a58ea623f640a1fdef1cb904e4b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TPropertyOverrider&lt; T &gt;::operator TConstSmall</definition>
+        <argsstring>() const</argsstring>
+        <name>operator TConstSmall</name>
+        <qualifiedname>TPropertyOverrider::operator TConstSmall</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="186" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="186" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a81fec2d6b57b92471b066590d90714d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+        <definition>TConstSmall TPropertyOverrider&lt; T &gt;::operator%=</definition>
+        <argsstring>(TConstSmall InValue)</argsstring>
+        <name>operator%=</name>
+        <qualifiedname>TPropertyOverrider::operator%=</qualifiedname>
+        <param>
+          <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="169" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="169" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1ac4dff2ce93fb8a80bf76b3508dcd982e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+        <definition>TConstSmall TPropertyOverrider&lt; T &gt;::operator*</definition>
+        <argsstring>()</argsstring>
+        <name>operator*</name>
+        <qualifiedname>TPropertyOverrider::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="188" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="188" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1ac5696e928c879833c1e4e0e6b11172e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+        <definition>TConstSmall TPropertyOverrider&lt; T &gt;::operator*=</definition>
+        <argsstring>(TConstSmall InValue)</argsstring>
+        <name>operator*=</name>
+        <qualifiedname>TPropertyOverrider::operator*=</qualifiedname>
+        <param>
+          <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="153" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="153" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1acfd67f6864874aafc2a4b0a24d0d8e76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+        <definition>TConstSmall TPropertyOverrider&lt; T &gt;::operator+=</definition>
+        <argsstring>(TConstSmall InValue)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>TPropertyOverrider::operator+=</qualifiedname>
+        <param>
+          <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="137" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="137" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1ad68574dc8cbc9448947958d9a19b405c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+        <definition>TConstSmall TPropertyOverrider&lt; T &gt;::operator-=</definition>
+        <argsstring>(TConstSmall InValue)</argsstring>
+        <name>operator-=</name>
+        <qualifiedname>TPropertyOverrider::operator-=</qualifiedname>
+        <param>
+          <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="145" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="145" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a06f6f4a28d014df906ba4d98ccb41a41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+        <definition>TConstSmall TPropertyOverrider&lt; T &gt;::operator/=</definition>
+        <argsstring>(TConstSmall InValue)</argsstring>
+        <name>operator/=</name>
+        <qualifiedname>TPropertyOverrider::operator/=</qualifiedname>
+        <param>
+          <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="161" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="161" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a86de5c1c6804bce9ade435ad5022d043" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+        <definition>TConstSmall TPropertyOverrider&lt; T &gt;::operator=</definition>
+        <argsstring>(TConstSmall InValue)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>TPropertyOverrider::operator=</qualifiedname>
+        <param>
+          <type><ref refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" kindref="member">TConstSmall</ref></type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="129" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="129" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d8f/struct_t_property_overrider_1a094aac0314bd829176707096344b0eea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TPropertyOverrider&lt; T &gt;::SetOperatorExpression</definition>
+        <argsstring>(EOperator NewOperatorExpression)</argsstring>
+        <name>SetOperatorExpression</name>
+        <qualifiedname>TPropertyOverrider::SetOperatorExpression</qualifiedname>
+        <param>
+          <type>EOperator</type>
+          <declname>NewOperatorExpression</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets operator and marks cached value as stale. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="197" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="197" bodyend="204"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Templated property override with lazy-evaluated arithmetic operations. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Stores a base value and applies an operator (Add, Subtract, Multiply, Divide, Modulo, Power, Set) lazily. The result is cached and only recalculated when the base value, operator, or operator value changes. This allows modifying properties without conflicting with the weaponry assembly system. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>TPropertyOverrider&lt; T &gt;::TOperator</label>
+        <link refid="d8/d88/struct_t_property_overrider_1_1_t_operator"/>
+      </node>
+      <node id="1">
+        <label>TPropertyOverrider&lt; T &gt;</label>
+        <link refid="dd/d8f/struct_t_property_overrider"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>OperatorExpression</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" line="17" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverrider.h" bodystart="18" bodyend="213"/>
+    <listofallmembers>
+      <member refid="dd/d8f/struct_t_property_overrider_1a098dc1a2416c7821e21f1c44e138b4d0" prot="protected" virt="non-virtual"><scope>TPropertyOverrider</scope><name>BaseValue</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1af667ff9c1b8e5f5cad6bb3c9709c1eb1" prot="protected" virt="non-virtual"><scope>TPropertyOverrider</scope><name>CachedValue</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a3e8618f8090c9b0a73686e178b5bfcab" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>ClearDirty</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a3ef98d0ad56636262b232712dd90bb5c" prot="protected" virt="non-virtual"><scope>TPropertyOverrider</scope><name>FirstBitActive</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a40729ea213d255089c6932354e2b1aa2" prot="protected" virt="non-virtual"><scope>TPropertyOverrider</scope><name>FirstBitInactive</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a4a6ab885a8ee117644c929a62d663434" prot="protected" virt="non-virtual"><scope>TPropertyOverrider</scope><name>GetFirstBitOffset</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a6997bd8a6d35050ce09034d44a3d3546" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>GetOperatorExpression</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a98af7b9900581ad9d29bedc10038d8f4" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>GetOperatorValue</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a84794dbe52095bf244068f86018a90b7" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>GetOriginalValue</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a193839bc0745a8d848649be0d445b8b9" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>GetValue</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a57a6f571a5d62a9778d5776ce50e21f1" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>IsDirty</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a87366fc2fb7e2d9348208b8167d7bc8c" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>MarkDirty</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a0dbd8a58ea623f640a1fdef1cb904e4b" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>operator TConstSmall</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a81fec2d6b57b92471b066590d90714d3" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>operator%=</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1ac4dff2ce93fb8a80bf76b3508dcd982e" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>operator*</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1ac5696e928c879833c1e4e0e6b11172e6" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>operator*=</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1acfd67f6864874aafc2a4b0a24d0d8e76" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>operator+=</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1ad68574dc8cbc9448947958d9a19b405c" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>operator-=</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a06f6f4a28d014df906ba4d98ccb41a41" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>operator/=</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a86de5c1c6804bce9ade435ad5022d043" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>operator=</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a155242dc9b17388ee716e95e7be0c7da" prot="protected" virt="non-virtual"><scope>TPropertyOverrider</scope><name>OperatorExpression</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a717ba267115e4758e7d79feb235a989d" prot="protected" virt="non-virtual"><scope>TPropertyOverrider</scope><name>OperatorValue</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1a094aac0314bd829176707096344b0eea" prot="public" virt="non-virtual"><scope>TPropertyOverrider</scope><name>SetOperatorExpression</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1aa000019c9882bf64c3a44a5873853dab" prot="protected" virt="non-virtual"><scope>TPropertyOverrider</scope><name>TConstSmall</name></member>
+      <member refid="dd/d8f/struct_t_property_overrider_1aeca66e9a63b3d524e4479b5d7ec093d6" prot="protected" virt="non-virtual"><scope>TPropertyOverrider</scope><name>TSmall</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d8/d24/class_u_weapon_struct_property_node" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponStructPropertyNode</compoundname>
+    <basecompoundref refid="dc/d76/class_u_weapon_property_runtime_node" prot="public" virt="non-virtual">UWeaponPropertyRuntimeNode</basecompoundref>
+    <includes local="no">WeaponStructPropertyNode.h</includes>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d8/d24/class_u_weapon_struct_property_node_1aa2fbb7ba71552812190ae9194d598cd9" prot="private" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>FStructProperty *</type>
+        <definition>FStructProperty * UWeaponStructPropertyNode::GetProperty</definition>
+        <argsstring>() const override</argsstring>
+        <name>GetProperty</name>
+        <qualifiedname>UWeaponStructPropertyNode::GetProperty</qualifiedname>
+        <reimplements refid="dc/d76/class_u_weapon_property_runtime_node_1a7842ab4b4b259150ede18d41a6ed5b8d">GetProperty</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the struct property. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/WeaponStructPropertyNode.h" line="18" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ReflectionNodes/WeaponStructPropertyNode.cpp" bodystart="35" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Runtime node for accessing struct properties. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>UObject</label>
+      </node>
+      <node id="3">
+        <label>UWeaponMemberNode</label>
+        <link refid="dd/d75/class_u_weapon_member_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UWeaponPropertyRuntimeNode</label>
+        <link refid="dc/d76/class_u_weapon_property_runtime_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>UWeaponStructPropertyNode</label>
+        <link refid="d8/d24/class_u_weapon_struct_property_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>UObject</label>
+      </node>
+      <node id="3">
+        <label>UWeaponMemberNode</label>
+        <link refid="dd/d75/class_u_weapon_member_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UWeaponPropertyRuntimeNode</label>
+        <link refid="dc/d76/class_u_weapon_property_runtime_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>UWeaponStructPropertyNode</label>
+        <link refid="d8/d24/class_u_weapon_struct_property_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/WeaponStructPropertyNode.h" line="13" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/WeaponStructPropertyNode.h" bodystart="14" bodyend="26"/>
+    <listofallmembers>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a9a6f0658cff37983c31f96150036330c" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>AbortExecution</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a8a4b5342d06d48fa98eb3a4dceccba64" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>AbortExecution</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1ae5b5612ec9987b89ca1b9619db21be79" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>CallDelegate</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a592504f3292d25e806a3429e22dda509" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>ClearCache</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a38a08d0a839de307539fcf024f0f4a76" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>DeduceDelegateName</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a60d6b46e66b35b9cc230e53dd6995146" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>DelegateCacheOpt</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a0feb8aa5fc48250764a5486a704e470f" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>DelegateMember</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1ae7e3d15d10ee7ac5c5ea6c1d3d2a5a7d" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>DelegateName</name></member>
+      <member refid="dd/d75/class_u_weapon_member_node_1ae1b397d7ae517bc9c2ca824ca2145a00" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>ELoadMember</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a88ef5d2e2ba3a4a36694c0b193409ea3" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>Execute</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1aec0b4aef213d86236fdf650d55d37ae2" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>ExecuteNode</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a69e5f026529b38ee3a79a859dc70c7a1" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>FAnyNumeric</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ac796930a6646e7fe5ce8aee4521f7911" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>FixInvalidPinsConnections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a3a81c151acd26c1901a22efce8bb6a19" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetAllPins</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ae80914a1cbed5c244202b092e2ef28ec" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetCharacteristics</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a7d23cc8247b2869f34967baa9dc82084" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetCharacteristicsCDO</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1abb907691503dfaa932260f6f435b8507" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetDefaultCharacteristics</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aef3d877ebe533c11c0d4708e0a59ab69" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetDefaultCharacteristicsClass</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0e06f43998bb8ce34259e7a8e8c0dd63" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetDefaultExecutionContext</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a8285ef201d6e75b5030507d7dab79396" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetDelegate</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a2e3a0fc8f08a800e379d9f599747eaee" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetExecutionContext</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aac61ae0f66550aa137e4a184faabf048" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetGraph</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ab6393f301bda4e8d04d4221f3f0bb0f1" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetGraphAnyContext</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1adabcaf20d45c695c870c24d1822b1460" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>GetInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ab0ed90456b663568fdb8c8eae8b45b0f" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetLastInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ad83305eea700b8aad7904e542f1fdd4b" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>GetMainInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1abbe1c76ce8e8161ed6405e3bc3068ceb" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>GetMainOutput</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a02bea5645bc13ebbfd8e6794513a93b4" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetMutableValuePtr</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a98485396e2cdb40bd1fc2936ed350e95" prot="protected" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>GetNodeDebugString</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ac284948005ccd2699b30849031829bbd" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a44bbe10ae3aa2b5f628566022ddb6538" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a13bd56c9affe83d039eb35416f982317" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aa3651afaba4ab612835a5181011d65de" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1added18f27b0bf53fd8951fd83c383b97" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>GetOutput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a682006234c51db491300bd9c57f038e9" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetPinByName</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a936fcdfe272bd548e51cb3a23b1d89bb" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetPinConnection</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a53ac22a37bc5310a743f45d2e6061ac1" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetPinConnection</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0e86c0ec73005b8ea83f3061287ca3d4" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetPinConnections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0fe1f31d6c8fc4e93fd0e9bf02326bd5" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetPinConnections</name></member>
+      <member refid="d8/d24/class_u_weapon_struct_property_node_1aa2fbb7ba71552812190ae9194d598cd9" prot="private" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>GetProperty</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1aa89e539b63cb1b4131f4e402151f0503" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetPropertyName</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a4c367aa06c86611d018803b796415b2c" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetRawProperty</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a2f809a9a3404afd492998a16ad3a26cc" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>GetValidPin</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a03bc2dae3ede0d21fcbe6749ab2f8547" prot="protected" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>GetValuePtr</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aa0c2351d764b462aec9d95de918f9ccb" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>GetWorldContext</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ae9f7fdfd9a2c22c099623934aec9bd3c" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>HasInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ae0d83dd1242a32b1b0456e6e9339be03" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>HasOutput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ae62d6dc1344811d094ad6e743feda8f3" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>Init</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a87b0a5686fa3ae650a539d8ae7e857e1" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>InputPins</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a8b02d257beb3602d90bc3648402c56fb" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>IsAborting</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a77f31125d6b8af88c643d3d5775c469a" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>LoadDelegatePtr</name></member>
+      <member refid="dd/d75/class_u_weapon_member_node_1aadcad4c1e50166e536a3aa1b430f0919" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>LoadMember</name></member>
+      <member refid="dd/d75/class_u_weapon_member_node_1a3a9dccc04e690c7303f93fadba967946" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>LoadMemberChecked</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a8cd63df041575804ed0b0e85d43594f8" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>LoadPropertyPtr</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a44f2b8897ca7a8db79408fbc14ce17cf" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>LoadPtrIfNull</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a7252e50ac97fa71d3163cad0ccb4e636" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>NodeFlowDebugString</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1aa9a2bf20fd6f9734001b6ab7b92073a2" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>OnPropertyChanged</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a0a7fcd864b7698b2e29f1a11973be1ba" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>OnPropertyPreChanged</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a9382e9942f86a6f125815cf12e28a394" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>OutputPins</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0d0227f100d4c07f3f2aeda00e35d467" prot="protected" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>PostExecuteNode</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a8fc935867983f51d08ea870121c0ecac" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>PreExecuteNode</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a2eb7dc9d365bbfab43db412957963faf" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>PropertyCache</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1af240379dd188a181fa241f0aed57bd0f" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>PropertyMember</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1add5032ad5ae4085e463169c86e66bdf2" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>PropertyName</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a7ab13c3d20716d1b3e40d6b8f5835a9b" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>ReadNewValue</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a38092b83d1b72b205de9df38aef30283" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>RemoveDuplicatedConections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a324d234b56cb804537a91bd1c04099ad" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>Reset</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a8b10fa2b4cc945386190b0754d0fe890" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>ReturnToDefaultValue</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a633afe92f54b29a1f6bcec798d8cde6f" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>SetParamValue</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a3a314ab3cea1c746ed60f006172b74f6" prot="public" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>SetPropertyName</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1a3d69224258612356a8fb40cd385062e7" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>SetValueToPinFromProperty</name></member>
+      <member refid="dc/d76/class_u_weapon_property_runtime_node_1af0c81b49c4badb38fddb1856bab99c26" prot="public" virt="virtual"><scope>UWeaponStructPropertyNode</scope><name>SetValueToPropertyFromPin</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a5b779b5faae2e23bb5ab0081d290e117" prot="protected" virt="non-virtual"><scope>UWeaponStructPropertyNode</scope><name>UpdateNodeFlowDebugString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

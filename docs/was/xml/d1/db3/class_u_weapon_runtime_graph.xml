@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d1/db3/class_u_weapon_runtime_graph" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponRuntimeGraph</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UObject</basecompoundref>
+    <includes local="no">WeaponRuntimeGraph.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/db3/class_u_weapon_runtime_graph_1aecb8029e8cca20c54b6237d1dc5f9768" prot="public" static="no" mutable="no">
+        <type>TArray&lt; <ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> * &gt;</type>
+        <definition>TArray&lt;UWeaponRuntimeNode*&gt; UWeaponRuntimeGraph::Nodes</definition>
+        <argsstring></argsstring>
+        <name>Nodes</name>
+        <qualifiedname>UWeaponRuntimeGraph::Nodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All runtime nodes in the graph. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="67" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/db3/class_u_weapon_runtime_graph_1a29dfc7ff13b1a7a82e887d996559e944" prot="public" static="no" mutable="no">
+        <type>const <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+        <definition>const UWeaponAsset* UWeaponRuntimeGraph::WeaponAsset</definition>
+        <argsstring></argsstring>
+        <name>WeaponAsset</name>
+        <qualifiedname>UWeaponRuntimeGraph::WeaponAsset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reference to owning weapon asset. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="143" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d1/db3/class_u_weapon_runtime_graph_1a95dee43035ead20733b3095cba6b9998" prot="protected" static="no" mutable="no">
+        <type>FString</type>
+        <definition>FString UWeaponRuntimeGraph::AbortReason</definition>
+        <argsstring></argsstring>
+        <name>AbortReason</name>
+        <qualifiedname>UWeaponRuntimeGraph::AbortReason</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Description of why execution was aborted. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="78" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/db3/class_u_weapon_runtime_graph_1a8b3a8cda5e56932c183e9161e59ec698" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UWeaponRuntimeGraph::bAbortExecution</definition>
+        <argsstring></argsstring>
+        <name>bAbortExecution</name>
+        <qualifiedname>UWeaponRuntimeGraph::bAbortExecution</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Indicates graph has encountered a fatal error. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="75" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/db3/class_u_weapon_runtime_graph_1aaf91e0f62e213a6a5a00fbd68f0ba32c" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/df7/struct_f_destruction_stack" kindref="compound">FDestructionStack</ref></type>
+        <definition>FDestructionStack UWeaponRuntimeGraph::DestructionStack</definition>
+        <argsstring></argsstring>
+        <name>DestructionStack</name>
+        <qualifiedname>UWeaponRuntimeGraph::DestructionStack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="81" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/db3/class_u_weapon_runtime_graph_1a44bee8877df63731c608f7e05bbdde71" prot="protected" static="no" mutable="no">
+        <type><ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref></type>
+        <definition>FWeaponExecutionContext UWeaponRuntimeGraph::ExecutionContext</definition>
+        <argsstring></argsstring>
+        <name>ExecutionContext</name>
+        <qualifiedname>UWeaponRuntimeGraph::ExecutionContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Runtime execution context with characteristics and modifications. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="72" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/db3/class_u_weapon_runtime_graph_1a7c2da4503fc04f8f0ee156254f7c7c87" prot="protected" static="no" mutable="no">
+        <type>std::jmp_buf *</type>
+        <definition>std::jmp_buf* UWeaponRuntimeGraph::StackCheckPoint</definition>
+        <argsstring></argsstring>
+        <name>StackCheckPoint</name>
+        <qualifiedname>UWeaponRuntimeGraph::StackCheckPoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="80" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1ab49333396781d58c8c75252931989ef2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void UWeaponRuntimeGraph::AbortExecution</definition>
+        <argsstring>(auto &amp;&amp;Format, Args &amp;&amp;... args) const</argsstring>
+        <name>AbortExecution</name>
+        <qualifiedname>UWeaponRuntimeGraph::AbortExecution</qualifiedname>
+        <param>
+          <type>auto &amp;&amp;</type>
+          <declname>Format</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Aborts execution with formatted reason (printf-style). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="95" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1a8bea9faff85f5e7e5a8033cdd768b96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponRuntimeGraph::AbortExecution</definition>
+        <argsstring>(FString &amp;&amp;Reason=FString(TEXT(&quot;No reason specified&quot;)))</argsstring>
+        <name>AbortExecution</name>
+        <qualifiedname>UWeaponRuntimeGraph::AbortExecution</qualifiedname>
+        <param>
+          <type>FString &amp;&amp;</type>
+          <declname>Reason</declname>
+          <defval>FString(TEXT(&quot;No reason specified&quot;))</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets abort flag and preserves original abort reason. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="101" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponRuntimeGraph.cpp" bodystart="45" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1ad592e377141f4e9a727f0dc7fa646388" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>FORCEINLINE void UWeaponRuntimeGraph::ClearContext</definition>
+        <argsstring>()</argsstring>
+        <name>ClearContext</name>
+        <qualifiedname>UWeaponRuntimeGraph::ClearContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Clears execution context to default. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="133" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1a2e32888f8e8ebeeccbea45a4360b8678" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="da/d10/struct_f_destruction_stack_1_1_t_element" kindref="compound">TStackElement</ref>&lt; T &gt;</type>
+        <definition>TStackElement&lt; T &gt; UWeaponRuntimeGraph::CreateStackElement</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>CreateStackElement</name>
+        <qualifiedname>UWeaponRuntimeGraph::CreateStackElement</qualifiedname>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="104" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1abb81bd51e3806ecf0f59d33d66dba058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponRuntimeGraph::FinishExecution</definition>
+        <argsstring>()</argsstring>
+        <name>FinishExecution</name>
+        <qualifiedname>UWeaponRuntimeGraph::FinishExecution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="89" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponRuntimeGraph.cpp" bodystart="17" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1a36289378d5296d462b24d19361502fa0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>TArray&lt; const <ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> * &gt;</type>
+        <definition>TArray&lt; const UWeaponRuntimeNode * &gt; UWeaponRuntimeGraph::GetConstantNodes</definition>
+        <argsstring>() const</argsstring>
+        <name>GetConstantNodes</name>
+        <qualifiedname>UWeaponRuntimeGraph::GetConstantNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns const array of all graph nodes. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="139" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponRuntimeGraph.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1a5ff4c3c2a4362017a38e2f852902739b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const <ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref> &amp;</type>
+        <definition>FORCEINLINE const FWeaponExecutionContext &amp; UWeaponRuntimeGraph::GetDefaultExecutionContext</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDefaultExecutionContext</name>
+        <qualifiedname>UWeaponRuntimeGraph::GetDefaultExecutionContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns default execution context from weapon asset. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="119" column="43" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1ab9ac45f99810f042f460fdf2963bb4ad" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const <ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref> &amp;</type>
+        <definition>FORCEINLINE const FWeaponExecutionContext &amp; UWeaponRuntimeGraph::GetExecutionContext</definition>
+        <argsstring>() const</argsstring>
+        <name>GetExecutionContext</name>
+        <qualifiedname>UWeaponRuntimeGraph::GetExecutionContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns current execution context. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="116" column="43" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1a0ec8c68d78ffad244f95c05999b7c719" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+        <definition>FORCEINLINE const UWeaponAsset * UWeaponRuntimeGraph::GetWeaponAsset</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWeaponAsset</name>
+        <qualifiedname>UWeaponRuntimeGraph::GetWeaponAsset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the owning weapon asset. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="122" column="32" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1ad499596f47b78f4b00ed4611b3154dfe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE UObject *</type>
+        <definition>FORCEINLINE UObject * UWeaponRuntimeGraph::GetWorldContext</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWorldContext</name>
+        <qualifiedname>UWeaponRuntimeGraph::GetWorldContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns world context from execution context. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="128" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1a1fd684b6d32f99fc0f7a7ebe2236a3c3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponRuntimeGraph::IsAborting</definition>
+        <argsstring>() const</argsstring>
+        <name>IsAborting</name>
+        <qualifiedname>UWeaponRuntimeGraph::IsAborting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if graph is aborting. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="110" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1a7759f47db09ceb8ef6e6cc8bdd02e171" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponRuntimeGraph::IsExecuting</definition>
+        <argsstring>() const</argsstring>
+        <name>IsExecuting</name>
+        <qualifiedname>UWeaponRuntimeGraph::IsExecuting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="130" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1ab6a04b43f8213a11c3b9bf63e6537f9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponRuntimeGraph::PrepareExecution</definition>
+        <argsstring>(const FWeaponExecutionContext &amp;Context, std::jmp_buf &amp;AbortCheckpoint)</argsstring>
+        <name>PrepareExecution</name>
+        <qualifiedname>UWeaponRuntimeGraph::PrepareExecution</qualifiedname>
+        <param>
+          <type>const <ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref> &amp;</type>
+          <declname>Context</declname>
+        </param>
+        <param>
+          <type>std::jmp_buf &amp;</type>
+          <declname>AbortCheckpoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="88" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponRuntimeGraph.cpp" bodystart="9" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db3/class_u_weapon_runtime_graph_1aaafe0dc89dbc3aeabd6f86cfbb8da923" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponRuntimeGraph::Reset</definition>
+        <argsstring>() const</argsstring>
+        <name>Reset</name>
+        <qualifiedname>UWeaponRuntimeGraph::Reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets graph node state. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="113" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponRuntimeGraph.cpp" bodystart="59" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Runtime graph container for weapon node execution. Manages execution context, node collection, and abort state. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponRuntimeGraph</label>
+        <link refid="d1/db3/class_u_weapon_runtime_graph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>FDestructionStack</label>
+        <link refid="d4/df7/struct_f_destruction_stack"/>
+      </node>
+      <node id="3">
+        <label>FWeaponExecutionContext</label>
+        <link refid="df/dfa/struct_f_weapon_execution_context"/>
+      </node>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+      <node id="5">
+        <label>UWeaponAsset</label>
+        <link refid="df/d06/class_u_weapon_asset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>DefaultExecutionContext</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>Graph</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>UWeaponRuntimeGraph</label>
+        <link refid="d1/db3/class_u_weapon_runtime_graph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ExecutionContext</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>DestructionStack</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>WeaponAsset</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" line="60" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeGraph.h" bodystart="61" bodyend="152"/>
+    <listofallmembers>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1ab49333396781d58c8c75252931989ef2" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>AbortExecution</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a8bea9faff85f5e7e5a8033cdd768b96a" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>AbortExecution</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a95dee43035ead20733b3095cba6b9998" prot="protected" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>AbortReason</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a8b3a8cda5e56932c183e9161e59ec698" prot="protected" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>bAbortExecution</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1ad592e377141f4e9a727f0dc7fa646388" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>ClearContext</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a2e32888f8e8ebeeccbea45a4360b8678" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>CreateStackElement</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1aaf91e0f62e213a6a5a00fbd68f0ba32c" prot="protected" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>DestructionStack</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a44bee8877df63731c608f7e05bbdde71" prot="protected" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>ExecutionContext</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1abb81bd51e3806ecf0f59d33d66dba058" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>FinishExecution</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a36289378d5296d462b24d19361502fa0" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>GetConstantNodes</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a5ff4c3c2a4362017a38e2f852902739b" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>GetDefaultExecutionContext</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1ab9ac45f99810f042f460fdf2963bb4ad" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>GetExecutionContext</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a0ec8c68d78ffad244f95c05999b7c719" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>GetWeaponAsset</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1ad499596f47b78f4b00ed4611b3154dfe" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>GetWorldContext</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a1fd684b6d32f99fc0f7a7ebe2236a3c3" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>IsAborting</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a7759f47db09ceb8ef6e6cc8bdd02e171" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>IsExecuting</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1aecb8029e8cca20c54b6237d1dc5f9768" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>Nodes</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1ab6a04b43f8213a11c3b9bf63e6537f9b" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>PrepareExecution</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1aaafe0dc89dbc3aeabd6f86cfbb8da923" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>Reset</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a7c2da4503fc04f8f0ee156254f7c7c87" prot="protected" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>StackCheckPoint</name></member>
+      <member refid="d1/db3/class_u_weapon_runtime_graph_1a29dfc7ff13b1a7a82e887d996559e944" prot="public" virt="non-virtual"><scope>UWeaponRuntimeGraph</scope><name>WeaponAsset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

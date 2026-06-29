@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d0/d18/class_u_k2_node___is_characteristics_modificator_active" kind="class" language="C++" prot="public">
+    <compoundname>UK2Node_IsCharacteristicsModificatorActive</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UK2Node</basecompoundref>
+    <includes local="no">UK2Node_IsCharacteristicsModificatorActive.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a0959822707a4f990104b29d2e4022346" prot="private" static="no" mutable="no">
+        <type>TObjectPtr&lt; class <ref refid="d9/df8/class_u_weapon_architecture" kindref="compound">UWeaponArchitecture</ref> &gt;</type>
+        <definition>TObjectPtr&lt;class UWeaponArchitecture&gt; UK2Node_IsCharacteristicsModificatorActive::Architecture</definition>
+        <argsstring></argsstring>
+        <name>Architecture</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::Architecture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="18" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a9f128f231da229a8836abe218e094c9f" prot="private" static="no" mutable="no">
+        <type>uint8</type>
+        <definition>uint8 UK2Node_IsCharacteristicsModificatorActive::PrecalculatedSlotIndex</definition>
+        <argsstring></argsstring>
+        <name>PrecalculatedSlotIndex</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::PrecalculatedSlotIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="24" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1ad5addcf2b6ee784d76bd76899aeb4612" prot="private" static="no" mutable="no">
+        <type>TObjectPtr&lt; UEnum &gt;</type>
+        <definition>TObjectPtr&lt;UEnum&gt; UK2Node_IsCharacteristicsModificatorActive::SlotEnum</definition>
+        <argsstring></argsstring>
+        <name>SlotEnum</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::SlotEnum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="21" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a06f628dd9dea3a2454964774e37e2001" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UK2Node_IsCharacteristicsModificatorActive::AllocateDefaultPins</definition>
+        <argsstring>() override</argsstring>
+        <name>AllocateDefaultPins</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::AllocateDefaultPins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="31" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.cpp" bodystart="31" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1aeb688ff26038733ff9477f2c211dbe85" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UK2Node_IsCharacteristicsModificatorActive::ExpandNode</definition>
+        <argsstring>(FKismetCompilerContext &amp;CompilerContext, UEdGraph *SourceGraph) override</argsstring>
+        <name>ExpandNode</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::ExpandNode</qualifiedname>
+        <param>
+          <type>FKismetCompilerContext &amp;</type>
+          <declname>CompilerContext</declname>
+        </param>
+        <param>
+          <type>UEdGraph *</type>
+          <declname>SourceGraph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="40" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.cpp" bodystart="53" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a403219edce14213dccb04e448351def4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UK2Node_IsCharacteristicsModificatorActive::GetMenuActions</definition>
+        <argsstring>(FBlueprintActionDatabaseRegistrar &amp;ActionRegistrar) const override</argsstring>
+        <name>GetMenuActions</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::GetMenuActions</qualifiedname>
+        <param>
+          <type>FBlueprintActionDatabaseRegistrar &amp;</type>
+          <declname>ActionRegistrar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="41" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.cpp" bodystart="116" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a555715546977484ab9b573c7090d5ffd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>FText</type>
+        <definition>FText UK2Node_IsCharacteristicsModificatorActive::GetMenuCategory</definition>
+        <argsstring>() const override</argsstring>
+        <name>GetMenuCategory</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::GetMenuCategory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="42" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.cpp" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1af4da7ccdcbee25f002d96b48d0467d0b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>FText</type>
+        <definition>FText UK2Node_IsCharacteristicsModificatorActive::GetNodeTitle</definition>
+        <argsstring>(ENodeTitleType::Type TitleType) const override</argsstring>
+        <name>GetNodeTitle</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::GetNodeTitle</qualifiedname>
+        <param>
+          <type>ENodeTitleType::Type</type>
+          <declname>TitleType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="33" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.cpp" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a015af175c3df0cf7e8f4c40610b01dfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool UK2Node_IsCharacteristicsModificatorActive::IsActionFilteredOut</definition>
+        <argsstring>(class FBlueprintActionFilter const &amp;Filter) override</argsstring>
+        <name>IsActionFilteredOut</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::IsActionFilteredOut</qualifiedname>
+        <param>
+          <type>class FBlueprintActionFilter const &amp;</type>
+          <declname>Filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="37" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a37d3ed18096b2dd9376bfe6568eb155a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool UK2Node_IsCharacteristicsModificatorActive::IsNodePure</definition>
+        <argsstring>() const override</argsstring>
+        <name>IsNodePure</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::IsNodePure</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="38" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1ad23dff1ed529958b8877c5d6fc8cc726" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UK2Node_IsCharacteristicsModificatorActive::PostEditChangeProperty</definition>
+        <argsstring>(struct FPropertyChangedEvent &amp;PropertyChangedEvent) override</argsstring>
+        <name>PostEditChangeProperty</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::PostEditChangeProperty</qualifiedname>
+        <param>
+          <type>struct FPropertyChangedEvent &amp;</type>
+          <declname>PropertyChangedEvent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="28" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.cpp" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1ae7d4ab93c5316fa63b3be87eaf84b0b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UK2Node_IsCharacteristicsModificatorActive::ReconstructNode</definition>
+        <argsstring>() override</argsstring>
+        <name>ReconstructNode</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::ReconstructNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="32" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.cpp" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a4b7e88c5d70443f446a510900b2dbe18" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool UK2Node_IsCharacteristicsModificatorActive::ShouldShowNodeProperties</definition>
+        <argsstring>() const override</argsstring>
+        <name>ShouldShowNodeProperties</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::ShouldShowNodeProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="39" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a0f5efaefb0002f5687def1ea853acf9a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const FName &amp;</type>
+        <definition>const FName &amp; UK2Node_IsCharacteristicsModificatorActive::GetAssetInputPinName</definition>
+        <argsstring>()</argsstring>
+        <name>GetAssetInputPinName</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::GetAssetInputPinName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="46" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.cpp" bodystart="139" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a45c518cd37b7e3afd6f848a260c5f255" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const FName &amp;</type>
+        <definition>const FName &amp; UK2Node_IsCharacteristicsModificatorActive::GetModificatorInputPinName</definition>
+        <argsstring>()</argsstring>
+        <name>GetModificatorInputPinName</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::GetModificatorInputPinName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="45" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.cpp" bodystart="133" bodyend="137"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1aaee28c5350af164d08c85642924c8b4f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UK2Node_IsCharacteristicsModificatorActive::AssignSlotIndex</definition>
+        <argsstring>()</argsstring>
+        <name>AssignSlotIndex</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::AssignSlotIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="52" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.cpp" bodystart="154" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1ac457bb6faacbe115ecd91476bc29ce7f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UK2Node_IsCharacteristicsModificatorActive::ValidateSlotEnumType</definition>
+        <argsstring>()</argsstring>
+        <name>ValidateSlotEnumType</name>
+        <qualifiedname>UK2Node_IsCharacteristicsModificatorActive::ValidateSlotEnumType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Internal helper method used to validate the current enum type </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="50" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.cpp" bodystart="145" bodyend="152"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UK2Node</label>
+      </node>
+      <node id="1">
+        <label>UK2Node_IsCharacteristicsModificatorActive</label>
+        <link refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UK2Node</label>
+      </node>
+      <node id="1">
+        <label>UK2Node_IsCharacteristicsModificatorActive</label>
+        <link refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" line="13" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/BlueprintNodes/UK2Node_IsCharacteristicsModificatorActive.h" bodystart="14" bodyend="53"/>
+    <listofallmembers>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a06f628dd9dea3a2454964774e37e2001" prot="public" virt="virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>AllocateDefaultPins</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a0959822707a4f990104b29d2e4022346" prot="private" virt="non-virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>Architecture</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1aaee28c5350af164d08c85642924c8b4f" prot="protected" virt="non-virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>AssignSlotIndex</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1aeb688ff26038733ff9477f2c211dbe85" prot="public" virt="virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>ExpandNode</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a0f5efaefb0002f5687def1ea853acf9a" prot="public" virt="non-virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>GetAssetInputPinName</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a403219edce14213dccb04e448351def4" prot="public" virt="virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>GetMenuActions</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a555715546977484ab9b573c7090d5ffd" prot="public" virt="virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>GetMenuCategory</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a45c518cd37b7e3afd6f848a260c5f255" prot="public" virt="non-virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>GetModificatorInputPinName</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1af4da7ccdcbee25f002d96b48d0467d0b" prot="public" virt="virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>GetNodeTitle</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a015af175c3df0cf7e8f4c40610b01dfd" prot="public" virt="virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>IsActionFilteredOut</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a37d3ed18096b2dd9376bfe6568eb155a" prot="public" virt="virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>IsNodePure</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1ad23dff1ed529958b8877c5d6fc8cc726" prot="public" virt="virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>PostEditChangeProperty</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a9f128f231da229a8836abe218e094c9f" prot="private" virt="non-virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>PrecalculatedSlotIndex</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1ae7d4ab93c5316fa63b3be87eaf84b0b5" prot="public" virt="virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>ReconstructNode</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1a4b7e88c5d70443f446a510900b2dbe18" prot="public" virt="virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>ShouldShowNodeProperties</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1ad5addcf2b6ee784d76bd76899aeb4612" prot="private" virt="non-virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>SlotEnum</name></member>
+      <member refid="d0/d18/class_u_k2_node___is_characteristics_modificator_active_1ac457bb6faacbe115ecd91476bc29ce7f" prot="protected" virt="non-virtual"><scope>UK2Node_IsCharacteristicsModificatorActive</scope><name>ValidateSlotEnumType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d8/db9/concept_t_u_int" kind="concept">
+    <compoundname>TUInt</compoundname>
+    <includes local="no">TypeDefinition.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <initializer>template&lt;typename T&gt;
+concept <ref refid="d8/db9/concept_t_u_int" kindref="compound">TUInt</ref> =  std::is_integral_v&lt;T&gt; &amp;&amp; std::is_unsigned_v&lt;T&gt;    </initializer>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/TypeDefinition.h" line="22" column="1"/>
+  </compounddef>
+</doxygen>

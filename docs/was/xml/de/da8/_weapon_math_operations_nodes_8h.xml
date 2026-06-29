@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="de/da8/_weapon_math_operations_nodes_8h" kind="file" language="C++">
+    <compoundname>WeaponMathOperationsNodes.h</compoundname>
+    <includes refid="d3/dd7/_weapon_math_runtime_node_8h" local="yes">WeaponMathRuntimeNode.h</includes>
+    <includes local="yes">WeaponMathOperationsNodes.generated.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathOperationsNodes.h</label>
+        <link refid="de/da8/_weapon_math_operations_nodes_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WeaponMathOperationsNodes.generated.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d2/d0a/class_u_weapon_add_node" prot="public">UWeaponAddNode</innerclass>
+    <innerclass refid="d7/d1d/class_u_weapon_divide_node" prot="public">UWeaponDivideNode</innerclass>
+    <innerclass refid="dd/dd4/class_u_weapon_multiply_node" prot="public">UWeaponMultiplyNode</innerclass>
+    <innerclass refid="da/d5d/class_u_weapon_subtract_node" prot="public">UWeaponSubtractNode</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="de/da8/_weapon_math_operations_nodes_8h_1a5329846d4ec0017892aadb2a9c2e2918" prot="public" static="no">
+        <name>OPERATE_DECL</name>
+        <initializer>FORCEINLINE virtual <ref refid="d3/d76/struct_f_numeric_holder" kindref="compound">FNumericHolder</ref> Operate(const <ref refid="d3/d76/struct_f_numeric_holder" kindref="compound">FNumericHolder</ref>&amp; A, const <ref refid="d3/d76/struct_f_numeric_holder" kindref="compound">FNumericHolder</ref>&amp; B) const override final</initializer>
+        <briefdescription>
+<para>Builds the declaration for the math operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathOperationsNodes.h" line="11" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathOperationsNodes.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="de/da8/_weapon_math_operations_nodes_8h_1ae34ed24ffd69dc69d9d69cf78a3d898c" prot="public" static="no">
+        <name>OPERATE_FUNCTION</name>
+        <param><defname>Expr</defname></param>
+        <initializer>OPERATE_FUNCTION_CUSTOM(return Expr)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathOperationsNodes.h" line="13" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathOperationsNodes.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="de/da8/_weapon_math_operations_nodes_8h_1a0b02c5e19f126e5e9fd50c128989b3e5" prot="public" static="no">
+        <name>OPERATE_FUNCTION_CUSTOM</name>
+        <param><defname>Body</defname></param>
+        <initializer>OPERATE_DECL { Body; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathOperationsNodes.h" line="12" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathOperationsNodes.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponMathRuntimeNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponMathOperationsNodes.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OPERATE_DECL<sp/>FORCEINLINE<sp/>virtual<sp/>FNumericHolder<sp/>Operate(const<sp/>FNumericHolder&amp;<sp/>A,<sp/>const<sp/>FNumericHolder&amp;<sp/>B)<sp/>const<sp/>override<sp/>final</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OPERATE_FUNCTION_CUSTOM(Body)<sp/>OPERATE_DECL<sp/>{<sp/>Body;<sp/>}<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OPERATE_FUNCTION(Expr)<sp/>OPERATE_FUNCTION_CUSTOM(return<sp/>Expr)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">UCLASS(Category=</highlight><highlight class="stringliteral">&quot;Math&quot;</highlight><highlight class="normal">,<sp/>meta=(ToolTip=</highlight><highlight class="stringliteral">&quot;Operates<sp/>with<sp/>any<sp/>numeric&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="19" refid="d2/d0a/class_u_weapon_add_node" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="d2/d0a/class_u_weapon_add_node" kindref="compound">UWeaponAddNode</ref><sp/>final<sp/>:<sp/>public<sp/><ref refid="d1/df1/class_u_weapon_math_runtime_node" kindref="compound">UWeaponMathRuntimeNode</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>OPERATE_FUNCTION(A<sp/>+<sp/>B)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>SET_DISPLAY(</highlight><highlight class="stringliteral">&quot;Add&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>SET_TITLE(</highlight><highlight class="stringliteral">&quot;Add&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">UCLASS(Category=</highlight><highlight class="stringliteral">&quot;Math&quot;</highlight><highlight class="normal">,<sp/>meta=(ToolTip=</highlight><highlight class="stringliteral">&quot;Operates<sp/>with<sp/>any<sp/>numeric&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="41" refid="da/d5d/class_u_weapon_subtract_node" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="da/d5d/class_u_weapon_subtract_node" kindref="compound">UWeaponSubtractNode</ref><sp/>final<sp/>:<sp/>public<sp/><ref refid="d1/df1/class_u_weapon_math_runtime_node" kindref="compound">UWeaponMathRuntimeNode</ref></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>OPERATE_FUNCTION(A<sp/>-<sp/>B)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>SET_DISPLAY(</highlight><highlight class="stringliteral">&quot;Subtract&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>SET_TITLE(</highlight><highlight class="stringliteral">&quot;Subtract&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">UCLASS(Category=</highlight><highlight class="stringliteral">&quot;Math&quot;</highlight><highlight class="normal">,<sp/>meta=(ToolTip=</highlight><highlight class="stringliteral">&quot;Operates<sp/>with<sp/>any<sp/>numeric&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="64" refid="dd/dd4/class_u_weapon_multiply_node" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="dd/dd4/class_u_weapon_multiply_node" kindref="compound">UWeaponMultiplyNode</ref><sp/>final<sp/>:<sp/>public<sp/><ref refid="d1/df1/class_u_weapon_math_runtime_node" kindref="compound">UWeaponMathRuntimeNode</ref></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>OPERATE_FUNCTION(A<sp/>*<sp/>B)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>SET_DISPLAY(</highlight><highlight class="stringliteral">&quot;Multiply&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>SET_TITLE(</highlight><highlight class="stringliteral">&quot;Multiply&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">UCLASS(Category=</highlight><highlight class="stringliteral">&quot;Math&quot;</highlight><highlight class="normal">,<sp/>meta=(ToolTip=</highlight><highlight class="stringliteral">&quot;Operates<sp/>with<sp/>any<sp/>numeric&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="87" refid="d7/d1d/class_u_weapon_divide_node" refkind="compound"><highlight class="normal">class<sp/>WASRUNTIME_API<sp/><ref refid="d7/d1d/class_u_weapon_divide_node" kindref="compound">UWeaponDivideNode</ref><sp/>final<sp/>:<sp/>public<sp/><ref refid="d1/df1/class_u_weapon_math_runtime_node" kindref="compound">UWeaponMathRuntimeNode</ref></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>OPERATE_FUNCTION_CUSTOM(</highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ensureAlways(B!=0))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>A<sp/>/<sp/>B;<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">#</highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>WITH_EDITOR</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>SET_DISPLAY(</highlight><highlight class="stringliteral">&quot;Divide&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>SET_TITLE(</highlight><highlight class="stringliteral">&quot;Divide&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="comment">//<sp/>UCLASS(Category=&quot;Math&quot;,<sp/>meta=(ToolTip=&quot;Operates<sp/>with<sp/>any<sp/>numeric&quot;))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">//<sp/>class<sp/>WASRUNTIME_API<sp/>UWeaponModuloNode<sp/>:<sp/>public<sp/>UWeaponMathRuntimeNode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>GENERATED_BODY()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">//<sp/>private:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>OPERATE_DECL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>OPERATE_DEF_CUSTOM(if(ensureAlways(B!=0))<sp/>return<sp/>A<sp/>%<sp/>B;<sp/>else<sp/>return<sp/>FAnyNumeric();)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">//<sp/>public:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SET_DISPLAY(&quot;Modulo&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>SET_TITLE(&quot;Modulo&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="comment">//<sp/>};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>OPERATE_DECL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>OPERATE_FUNCTION_CUSTOM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>OPERATE_FUNCTION</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathOperationsNodes.h"/>
+  </compounddef>
+</doxygen>

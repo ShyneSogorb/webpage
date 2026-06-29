@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_6b5ce69876487a0d5ea9a8f29aa9b65e" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations</compoundname>
+    <innerfile refid="d4/dc6/_function_node_property_customization_8cpp">FunctionNodePropertyCustomization.cpp</innerfile>
+    <innerfile refid="db/dde/_modificator_customization_utils_8cpp">ModificatorCustomizationUtils.cpp</innerfile>
+    <innerfile refid="d6/d88/_modificator_customization_utils_8h">ModificatorCustomizationUtils.h</innerfile>
+    <innerfile refid="dd/d4f/_select_by_mod_customization_8cpp">SelectByModCustomization.cpp</innerfile>
+    <innerfile refid="d4/d4a/_slot_modification_description_customization_8cpp">SlotModificationDescriptionCustomization.cpp</innerfile>
+    <innerfile refid="de/d4e/_weapon_mod_applied_customization_8cpp">WeaponModAppliedCustomization.cpp</innerfile>
+    <innerfile refid="d4/d52/_weapon_modification_description_customization_8cpp">WeaponModificationDescriptionCustomization.cpp</innerfile>
+    <innerfile refid="de/d7f/_weapon_modifications_applied_customization_8cpp">WeaponModificationsAppliedCustomization.cpp</innerfile>
+    <innerfile refid="dd/d8f/_weapon_modificator_customization_8cpp">WeaponModificatorCustomization.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/"/>
+  </compounddef>
+</doxygen>

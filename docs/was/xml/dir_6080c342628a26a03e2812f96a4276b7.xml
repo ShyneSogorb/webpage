@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_6080c342628a26a03e2812f96a4276b7" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core</compoundname>
+    <innerfile refid="de/d4c/_misc_8h">Misc.h</innerfile>
+    <innerfile refid="d4/dfe/_weapon_asset_8h">WeaponAsset.h</innerfile>
+    <innerfile refid="de/d35/_weapon_asset_characteristics_8h">WeaponAssetCharacteristics.h</innerfile>
+    <innerfile refid="d2/d41/_weapon_asset_default_characteristics_8h">WeaponAssetDefaultCharacteristics.h</innerfile>
+    <innerfile refid="d5/dc8/_weapon_execution_context_8h">WeaponExecutionContext.h</innerfile>
+    <innerfile refid="de/dcd/_weapon_modifications_8h">WeaponModifications.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/"/>
+  </compounddef>
+</doxygen>

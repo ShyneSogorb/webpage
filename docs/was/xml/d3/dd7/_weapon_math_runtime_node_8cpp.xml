@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d3/dd7/_weapon_math_runtime_node_8cpp" kind="file" language="C++">
+    <compoundname>WeaponMathRuntimeNode.cpp</compoundname>
+    <includes refid="d3/dd7/_weapon_math_runtime_node_8h" local="yes">Nodes/MathNodes/WeaponMathRuntimeNode.h</includes>
+    <includes refid="de/d35/_weapon_runtime_pin_8h" local="yes">Nodes/WeaponRuntimePin.h</includes>
+    <innerclass refid="d2/d9d/struct_f_set_value_parms" prot="public">FSetValueParms</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d3/dd7/_weapon_math_runtime_node_8cpp_1a5960236d36aea97bfe8d213569985876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void SetPinValue_Impl</definition>
+        <argsstring>(const FSetValueParms &amp;Params)</argsstring>
+        <name>SetPinValue_Impl</name>
+        <param>
+          <type>const <ref refid="d2/d9d/struct_f_set_value_parms" kindref="compound">FSetValueParms</ref> &amp;</type>
+          <declname>Params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.cpp" line="16" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.cpp" bodystart="16" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/MathNodes/WeaponMathRuntimeNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/WeaponRuntimePin.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="d2/d9d/struct_f_set_value_parms" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d2/d9d/struct_f_set_value_parms" kindref="compound">FSetValueParms</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/df1/class_u_weapon_math_runtime_node" kindref="compound">UWeaponMathRuntimeNode</ref>*<sp/><ref refid="d2/d9d/struct_f_set_value_parms_1a63060bf750dbad6d85d91c3f99adebe6" kindref="member">Node</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">*<sp/><ref refid="d2/d9d/struct_f_set_value_parms_1ad493aa10f889636169d90cedb4389232" kindref="member">Pins</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/><ref refid="d2/d9d/struct_f_set_value_parms_1a3251842d34601d879f0aa7651ef6a76a" kindref="member">NumPins</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/><ref refid="d2/d9d/struct_f_set_value_parms_1a497c2541f2119f674a3f68f5493eed06" kindref="member">Out</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetPinValue_Impl(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d2/d9d/struct_f_set_value_parms" kindref="compound">FSetValueParms</ref>&amp;<sp/>Params)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Start<sp/>with<sp/>the<sp/>first<sp/>pin&apos;s<sp/>value,<sp/>since<sp/>a<sp/>default<sp/>value<sp/>is<sp/>not<sp/>suitable<sp/>for<sp/>all<sp/>operations<sp/>(e.g.<sp/>default<sp/>0<sp/>works<sp/>for<sp/>addition,<sp/>not<sp/>for<sp/>multiplication)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/d76/struct_f_numeric_holder" kindref="compound">FNumericHolder</ref><sp/>Result<sp/>=<sp/>Params.<ref refid="d2/d9d/struct_f_set_value_parms_1ad493aa10f889636169d90cedb4389232" kindref="member">Pins</ref>[0]-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1a4aafe4e585bddd2d923aebd89dd9002d" kindref="member">GetNumericValue</ref>&lt;T&gt;();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(int32<sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;<sp/>Params.<ref refid="d2/d9d/struct_f_set_value_parms_1a3251842d34601d879f0aa7651ef6a76a" kindref="member">NumPins</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Result<sp/>=<sp/>Params.<ref refid="d2/d9d/struct_f_set_value_parms_1a63060bf750dbad6d85d91c3f99adebe6" kindref="member">Node</ref>-&gt;<ref refid="d1/df1/class_u_weapon_math_runtime_node_1a4b6dba17877d39d0f2a5231e26be807a" kindref="member">Operate</ref>(Result,<sp/>Params.<ref refid="d2/d9d/struct_f_set_value_parms_1ad493aa10f889636169d90cedb4389232" kindref="member">Pins</ref>[i]-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1a4aafe4e585bddd2d923aebd89dd9002d" kindref="member">GetNumericValue</ref>&lt;T&gt;());</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>Params.<ref refid="d2/d9d/struct_f_set_value_parms_1a497c2541f2119f674a3f68f5493eed06" kindref="member">Out</ref>-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1a55190ba15ecd5388dfc3cb32fd898e10" kindref="member">SetCacheNumericValue</ref>&lt;T&gt;(Result.<ref refid="d3/d76/struct_f_numeric_holder_1a18fdc23ce164ead6d4b25f121ce83945" kindref="member">Get</ref>&lt;T&gt;());</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/df1/class_u_weapon_math_runtime_node_1ab9cfd25999c03719669b29e46b28348a" kindref="member">UWeaponMathRuntimeNode::ExecuteNode</ref>()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="de/dde/class_u_weapon_runtime_node_1a0e86c0ec73005b8ea83f3061287ca3d4" kindref="member">GetPinConnections</ref>(0).IsEmpty())<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1ad83305eea700b8aad7904e542f1fdd4b" kindref="member">GetMainInput</ref>()-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1a55190ba15ecd5388dfc3cb32fd898e10" kindref="member">SetCacheNumericValue</ref>(0);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>Connections<sp/>=<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a0e86c0ec73005b8ea83f3061287ca3d4" kindref="member">GetPinConnections</ref>(0);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>ENumericType<sp/>NumericType<sp/>=<sp/>Connections[0]-&gt;GetNumericType();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d9d/struct_f_set_value_parms" kindref="compound">FSetValueParms</ref><sp/>Params{</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>Connections.GetData(),<sp/>Connections.Num(),<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1abbe1c76ce8e8161ed6405e3bc3068ceb" kindref="member">GetMainOutput</ref>()};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(NumericType)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ENumericType::Float:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetPinValue_Impl&lt;double&gt;(Params);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ENumericType::Int:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetPinValue_Impl&lt;int64&gt;(Params);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ENumericType::UInt:</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetPinValue_Impl&lt;uint64&gt;(Params);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:<sp/>CHECK_ABORT(0,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Invalid<sp/>numeric<sp/>type<sp/>%d&quot;</highlight><highlight class="normal">),<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)NumericType);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.cpp"/>
+  </compounddef>
+</doxygen>

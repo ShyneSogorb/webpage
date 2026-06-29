@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d1/d3d/struct_f_property_overrider_base" kind="struct" language="C++" prot="public">
+    <compoundname>FPropertyOverriderBase</compoundname>
+    <derivedcompoundref refid="d4/d11/struct_f_property_overrider_double" prot="public" virt="non-virtual">FPropertyOverriderDouble</derivedcompoundref>
+    <derivedcompoundref refid="d5/d9c/struct_f_property_overrider_int" prot="public" virt="non-virtual">FPropertyOverriderInt</derivedcompoundref>
+    <includes local="no">PropertyOverriderBlueprints.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d3d/struct_f_property_overrider_base_1ad2603771e763d2938bf8bfb6ff8ceaad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void virtual MarkDirty() const PURE_VIRTUAL(<ref refid="d1/d3d/struct_f_property_overrider_base" kindref="compound">FPropertyOverriderBase</ref></type>
+        <definition>virtual void virtual MarkDirty() const PURE_VIRTUAL(FPropertyOverriderBase FPropertyOverriderBase::~FPropertyOverriderBase</definition>
+        <argsstring>()=default</argsstring>
+        <name>~FPropertyOverriderBase</name>
+        <qualifiedname>FPropertyOverriderBase::~FPropertyOverriderBase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mark cached value as stale. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="114" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Base interface for property override implementations. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FPropertyOverriderBase</label>
+        <link refid="d1/d3d/struct_f_property_overrider_base"/>
+      </node>
+      <node id="2">
+        <label>FPropertyOverriderDouble</label>
+        <link refid="d4/d11/struct_f_property_overrider_double"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>FPropertyOverriderInt</label>
+        <link refid="d5/d9c/struct_f_property_overrider_int"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" line="107" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertyOverriderBlueprints.h" bodystart="108" bodyend="115"/>
+    <listofallmembers>
+      <member refid="d1/d3d/struct_f_property_overrider_base_1ad2603771e763d2938bf8bfb6ff8ceaad" prot="public" virt="virtual"><scope>FPropertyOverriderBase</scope><name>~FPropertyOverriderBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

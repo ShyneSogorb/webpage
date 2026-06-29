@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d8/ddd/struct_type_list" kind="struct" language="C++" prot="public">
+    <compoundname>TypeList</compoundname>
+    <includes local="no">DynamicPointer.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename ...</type>
+        <declname>Ts</declname>
+        <defname>Ts</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="d8/ddd/struct_type_list_1a6914d4076af32c1f86439a34ac4004cc" prot="public" static="no">
+        <type>std::tuple&lt; Ts... &gt;</type>
+        <definition>using TypeList&lt; Ts &gt;::AsTuple =  std::tuple&lt;Ts...&gt;</definition>
+        <argsstring></argsstring>
+        <name>AsTuple</name>
+        <qualifiedname>TypeList::AsTuple</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="43" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d8/ddd/struct_type_list_1a4b1cd7a33317171bdb1510f20fe92393" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>Index</declname>
+            <defname>Index</defname>
+          </param>
+        </templateparamlist>
+        <type>std::tuple_element_t&lt; Index, std::tuple&lt; Ts... &gt; &gt;</type>
+        <definition>using TypeList&lt; Ts &gt;::ElementAt =  std::tuple_element_t&lt;Index, std::tuple&lt;Ts...&gt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>ElementAt</name>
+        <qualifiedname>TypeList::ElementAt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="41" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d8/ddd/struct_type_list_1a471c5931737bf16d4ae128fa13eb369d" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename Pred</type>
+          </param>
+        </templateparamlist>
+        <type>reduce_types_t&lt; Pred, Ts... &gt;</type>
+        <definition>using TypeList&lt; Ts &gt;::Reduce =  reduce_types_t&lt;Pred, Ts...&gt;</definition>
+        <argsstring></argsstring>
+        <name>Reduce</name>
+        <qualifiedname>TypeList::Reduce</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="46" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d8/ddd/struct_type_list_1a84788328ef166862e6a47aeaa8bb80fe" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>size_t</type>
+        <definition>size_t TypeList&lt; Ts &gt;::ListSize</definition>
+        <argsstring></argsstring>
+        <name>ListSize</name>
+        <qualifiedname>TypeList::ListSize</qualifiedname>
+        <initializer>= sizeof...(Ts)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="38" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="36" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="37" bodyend="48"/>
+    <listofallmembers>
+      <member refid="d8/ddd/struct_type_list_1a6914d4076af32c1f86439a34ac4004cc" prot="public" virt="non-virtual"><scope>TypeList</scope><name>AsTuple</name></member>
+      <member refid="d8/ddd/struct_type_list_1a4b1cd7a33317171bdb1510f20fe92393" prot="public" virt="non-virtual"><scope>TypeList</scope><name>ElementAt</name></member>
+      <member refid="d8/ddd/struct_type_list_1a84788328ef166862e6a47aeaa8bb80fe" prot="public" virt="non-virtual"><scope>TypeList</scope><name>ListSize</name></member>
+      <member refid="d8/ddd/struct_type_list_1a471c5931737bf16d4ae128fa13eb369d" prot="public" virt="non-virtual"><scope>TypeList</scope><name>Reduce</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

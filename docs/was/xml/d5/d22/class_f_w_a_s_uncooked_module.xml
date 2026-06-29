@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d5/d22/class_f_w_a_s_uncooked_module" kind="class" language="C++" prot="public">
+    <compoundname>FWASUncookedModule</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IModuleInterface</basecompoundref>
+    <includes local="no">WASUncooked.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d22/class_f_w_a_s_uncooked_module_1a4515be12b97457ea98122858e2d07ba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWASUncookedModule::ShutdownModule</definition>
+        <argsstring>() override</argsstring>
+        <name>ShutdownModule</name>
+        <qualifiedname>FWASUncookedModule::ShutdownModule</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/WASUncooked.h" line="10" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/WASUncooked.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d22/class_f_w_a_s_uncooked_module_1a442473bf1d4818c6f6f7e3e72fd01df8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWASUncookedModule::StartupModule</definition>
+        <argsstring>() override</argsstring>
+        <name>StartupModule</name>
+        <qualifiedname>FWASUncookedModule::StartupModule</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/WASUncooked.h" line="9" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/WASUncooked.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FWASUncookedModule</label>
+        <link refid="d5/d22/class_f_w_a_s_uncooked_module"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IModuleInterface</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FWASUncookedModule</label>
+        <link refid="d5/d22/class_f_w_a_s_uncooked_module"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IModuleInterface</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/WASUncooked.h" line="6" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Public/WASUncooked.h" bodystart="7" bodyend="11"/>
+    <listofallmembers>
+      <member refid="d5/d22/class_f_w_a_s_uncooked_module_1a4515be12b97457ea98122858e2d07ba8" prot="public" virt="virtual"><scope>FWASUncookedModule</scope><name>ShutdownModule</name></member>
+      <member refid="d5/d22/class_f_w_a_s_uncooked_module_1a442473bf1d4818c6f6f7e3e72fd01df8" prot="public" virt="virtual"><scope>FWASUncookedModule</scope><name>StartupModule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

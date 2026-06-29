@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dd/d91/struct_small_opt_impl_3_01_required_bits_00_01_tuple_options_00_01_i_00_01true_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>SmallOptImpl&lt; RequiredBits, TupleOptions, I, true &gt;</compoundname>
+    <includes local="no">DynamicPointer.h</includes>
+    <templateparamlist>
+      <param>
+        <type>size_t</type>
+        <declname>RequiredBits</declname>
+        <defname>RequiredBits</defname>
+      </param>
+      <param>
+        <type>typename TupleOptions</type>
+      </param>
+      <param>
+        <type>size_t</type>
+        <declname>I</declname>
+        <defname>I</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="dd/d91/struct_small_opt_impl_3_01_required_bits_00_01_tuple_options_00_01_i_00_01true_01_4_1a733b9aeabd0ad4e60129ac14c09e65c1" prot="public" static="no">
+        <type>std::tuple_element_t&lt; I, TupleOptions &gt;</type>
+        <definition>using SmallOptImpl&lt; RequiredBits, TupleOptions, I, true &gt;::Type =  std::tuple_element_t&lt;I, TupleOptions&gt;</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <qualifiedname>SmallOptImpl&lt; RequiredBits, TupleOptions, I, true &gt;::Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="56" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="54" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="55" bodyend="57"/>
+    <listofallmembers>
+      <member refid="dd/d91/struct_small_opt_impl_3_01_required_bits_00_01_tuple_options_00_01_i_00_01true_01_4_1a733b9aeabd0ad4e60129ac14c09e65c1" prot="public" virt="non-virtual"><scope>SmallOptImpl&lt; RequiredBits, TupleOptions, I, true &gt;</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

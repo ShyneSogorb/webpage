@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d9/d54/namespace_literal_object_node_utils" kind="namespace" language="C++">
+    <compoundname>LiteralObjectNodeUtils</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d9/d54/namespace_literal_object_node_utils_1a6d1e31180338ea5922f18162e3a038eb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ThisClass</type>
+          </param>
+          <param>
+            <type>typename PathType</type>
+          </param>
+          <param>
+            <type>typename FunctionCall</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void LiteralObjectNodeUtils::ExecuteNode_Impl</definition>
+        <argsstring>(ThisClass &amp;&amp;Self, PathType &amp;&amp;Path, FunctionCall &amp;&amp;Callable, Args &amp;&amp;... args)</argsstring>
+        <name>ExecuteNode_Impl</name>
+        <qualifiedname>LiteralObjectNodeUtils::ExecuteNode_Impl</qualifiedname>
+        <param>
+          <type>ThisClass &amp;&amp;</type>
+          <declname>Self</declname>
+        </param>
+        <param>
+          <type>PathType &amp;&amp;</type>
+          <declname>Path</declname>
+        </param>
+        <param>
+          <type>FunctionCall &amp;&amp;</type>
+          <declname>Callable</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/Utils/LiteralNodesUtils.h" line="51" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/Utils/LiteralNodesUtils.h" bodystart="51" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Utility helpers for literal object and class nodes. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/Utils/LiteralNodesUtils.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>

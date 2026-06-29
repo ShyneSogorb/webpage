@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d4/df7/struct_f_destruction_stack" kind="struct" language="C++" prot="public">
+    <compoundname>FDestructionStack</compoundname>
+    <includes local="no">WeaponNodeStack.h</includes>
+    <innerclass refid="da/d10/struct_f_destruction_stack_1_1_t_element" prot="public">FDestructionStack::TElement</innerclass>
+    <innerclass refid="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4" prot="public">FDestructionStack::TElement&lt; T, true &gt;</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="d4/df7/struct_f_destruction_stack_1a21d3e0b7f0bb310e03697ef28e4cfb36" prot="public" static="no">
+        <type>TFunction&lt; void()&gt;</type>
+        <definition>using FDestructionStack::FLambdaDestructor =  TFunction&lt;void()&gt;</definition>
+        <argsstring></argsstring>
+        <name>FLambdaDestructor</name>
+        <qualifiedname>FDestructionStack::FLambdaDestructor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="11" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/df7/struct_f_destruction_stack_1a302caaa2beac4127a8fcf6c91d3bde2d" prot="private" static="no" mutable="no">
+        <type>TList&lt; <ref refid="d4/df7/struct_f_destruction_stack_1a21d3e0b7f0bb310e03697ef28e4cfb36" kindref="member">FLambdaDestructor</ref> &gt; *</type>
+        <definition>TList&lt;FLambdaDestructor&gt;* FDestructionStack::Stack</definition>
+        <argsstring></argsstring>
+        <name>Stack</name>
+        <qualifiedname>FDestructionStack::Stack</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="41" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/df7/struct_f_destruction_stack_1a505c15abc2a06c6b4a150e03b3f21d4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FDestructionStack::Add</definition>
+        <argsstring>(FLambdaDestructor &amp;&amp;Destructor)</argsstring>
+        <name>Add</name>
+        <qualifiedname>FDestructionStack::Add</qualifiedname>
+        <param>
+          <type><ref refid="d4/df7/struct_f_destruction_stack_1a21d3e0b7f0bb310e03697ef28e4cfb36" kindref="member">FLambdaDestructor</ref> &amp;&amp;</type>
+          <declname>Destructor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="13" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/df7/struct_f_destruction_stack_1a156a829b5c15473c3ea38ff3546fe220" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FDestructionStack::Flush</definition>
+        <argsstring>()</argsstring>
+        <name>Flush</name>
+        <qualifiedname>FDestructionStack::Flush</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="28" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="28" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/df7/struct_f_destruction_stack_1adac5b2f2ae365bcc699e953cceaab17b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FDestructionStack::IsEmpty</definition>
+        <argsstring>() const</argsstring>
+        <name>IsEmpty</name>
+        <qualifiedname>FDestructionStack::IsEmpty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="37" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/df7/struct_f_destruction_stack_1a8dab146fdc205385037f7ba6edda6047" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FDestructionStack::Pop</definition>
+        <argsstring>()</argsstring>
+        <name>Pop</name>
+        <qualifiedname>FDestructionStack::Pop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="19" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="19" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="8" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="9" bodyend="126"/>
+    <listofallmembers>
+      <member refid="d4/df7/struct_f_destruction_stack_1a505c15abc2a06c6b4a150e03b3f21d4d" prot="public" virt="non-virtual"><scope>FDestructionStack</scope><name>Add</name></member>
+      <member refid="d4/df7/struct_f_destruction_stack_1a21d3e0b7f0bb310e03697ef28e4cfb36" prot="public" virt="non-virtual"><scope>FDestructionStack</scope><name>FLambdaDestructor</name></member>
+      <member refid="d4/df7/struct_f_destruction_stack_1a156a829b5c15473c3ea38ff3546fe220" prot="public" virt="non-virtual"><scope>FDestructionStack</scope><name>Flush</name></member>
+      <member refid="d4/df7/struct_f_destruction_stack_1adac5b2f2ae365bcc699e953cceaab17b" prot="public" virt="non-virtual"><scope>FDestructionStack</scope><name>IsEmpty</name></member>
+      <member refid="d4/df7/struct_f_destruction_stack_1a8dab146fdc205385037f7ba6edda6047" prot="public" virt="non-virtual"><scope>FDestructionStack</scope><name>Pop</name></member>
+      <member refid="d4/df7/struct_f_destruction_stack_1a302caaa2beac4127a8fcf6c91d3bde2d" prot="private" virt="non-virtual"><scope>FDestructionStack</scope><name>Stack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

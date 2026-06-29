@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d6/d5e/_definitions_8h" kind="file" language="C++">
+    <compoundname>Definitions.h</compoundname>
+    <includedby refid="d6/d5a/_weapon_graph_schema_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Schemas/WeaponGraphSchema.cpp</includedby>
+    <includedby refid="d0/d9f/_weapon_graph_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h</includedby>
+    <includedby refid="d2/d4e/_weapon_runtime_pin_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponRuntimePin.cpp</includedby>
+    <includedby refid="d0/df9/_node_pin_compatibility_8h" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/NodePinCompatibility.h</includedby>
+    <includedby refid="d6/de3/_weapon_runtime_node_8h" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimeNode.h</includedby>
+    <includedby refid="de/d35/_weapon_runtime_pin_8h" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h</includedby>
+    <innernamespace refid="db/ddc/namespace_e_nodes_actions">ENodesActions</innernamespace>
+    <innernamespace refid="d9/d03/namespace_e_pin_actions_operations">EPinActionsOperations</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d6/d5e/_definitions_8h_1a1bd18f047cd9aa62dbe54fa35b05159e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>EPinActions</name>
+        <enumvalue id="d6/d5e/_definitions_8h_1a1bd18f047cd9aa62dbe54fa35b05159ea733fcccb8629ed9d61785833bf4a9bcb" prot="public">
+          <name>ENone</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d5e/_definitions_8h_1a1bd18f047cd9aa62dbe54fa35b05159eaae77f50536f625024268b2f865e58e36" prot="public">
+          <name>EDelete</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d5e/_definitions_8h_1a1bd18f047cd9aa62dbe54fa35b05159eaa39e3a7065027d7efa5d6027886b78a4" prot="public">
+          <name>EMultiInput</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d5e/_definitions_8h_1a1bd18f047cd9aa62dbe54fa35b05159ea153be9c428815a0356c3b60d75eb1666" prot="public">
+          <name>EDynamicType</name>
+          <initializer>= 1 &lt;&lt; 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d5e/_definitions_8h_1a1bd18f047cd9aa62dbe54fa35b05159eab1d5eac4b1dca480c8056eaea7663b7a" prot="public">
+          <name>ALL</name>
+          <initializer>= EDelete | EMultiInput | EDynamicType</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pin context menu actions. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="39" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="40" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="d6/d5e/_definitions_8h_1aef9beb3131941a0f3af0c0f5fbd92bae" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>TCHAR</type>
+        <definition>TCHAR BoolSubcategory[]</definition>
+        <argsstring>[]</argsstring>
+        <name>BoolSubcategory</name>
+        <initializer>= TEXT(&quot;Boolean&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="7" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d5e/_definitions_8h_1a0b7148489c1b67968fa84e65aaf94965" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>TCHAR</type>
+        <definition>TCHAR ClassSubcategory[]</definition>
+        <argsstring>[]</argsstring>
+        <name>ClassSubcategory</name>
+        <initializer>= TEXT(&quot;Class&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="9" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d5e/_definitions_8h_1a028d69bcd5b53541247d8c93c47f7315" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>TCHAR</type>
+        <definition>TCHAR NumericSubcategory[]</definition>
+        <argsstring>[]</argsstring>
+        <name>NumericSubcategory</name>
+        <initializer>= TEXT(&quot;Numeric&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="6" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d5e/_definitions_8h_1a09ea254ee0e6adf928d57c9f4ba1049f" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>TCHAR</type>
+        <definition>TCHAR ObjectSubcategory[]</definition>
+        <argsstring>[]</argsstring>
+        <name>ObjectSubcategory</name>
+        <initializer>= TEXT(&quot;Object&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="8" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d5e/_definitions_8h_1aa1314dc07ad85de16334568e498fa080" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>TCHAR</type>
+        <definition>TCHAR StructSubcategory[]</definition>
+        <argsstring>[]</argsstring>
+        <name>StructSubcategory</name>
+        <initializer>= TEXT(&quot;Struct&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="10" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d5e/_definitions_8h_1a3a7ff2ca90cd62ab5b1c8aee9bd87543" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>TCHAR</type>
+        <definition>TCHAR WildcardSubcategory[]</definition>
+        <argsstring>[]</argsstring>
+        <name>WildcardSubcategory</name>
+        <initializer>= TEXT(&quot;Wildcard&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" line="5" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>TCHAR<sp/>WildcardSubcategory[]<sp/>=<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Wildcard&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>TCHAR<sp/>NumericSubcategory[]<sp/>=<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Numeric&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>TCHAR<sp/>BoolSubcategory[]<sp/>=<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Boolean&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>TCHAR<sp/>ObjectSubcategory[]<sp/>=<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Object&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>TCHAR<sp/>ClassSubcategory[]<sp/>=<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Class&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>TCHAR<sp/>StructSubcategory[]<sp/>=<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Struct&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="db/ddc/namespace_e_nodes_actions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="db/ddc/namespace_e_nodes_actions" kindref="compound">ENodesActions</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea6313f5a0d3863c1ac3d09bc66ee5b4e9" kindref="member">EDelete</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8eafdbf6439cf3a7ddd8f5a6e950f1f324f" kindref="member">ERefresh</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea3546115a89f1ac22484417f8c2017082" kindref="member">EGoToDefinition</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea076adf6e54f287b9477090b216ea0e66" kindref="member">ALL</ref><sp/>=<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea6313f5a0d3863c1ac3d09bc66ee5b4e9" kindref="member">EDelete</ref><sp/>|<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8eafdbf6439cf3a7ddd8f5a6e950f1f324f" kindref="member">ERefresh</ref><sp/>|<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8ea3546115a89f1ac22484417f8c2017082" kindref="member">EGoToDefinition</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref>&amp;<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1a61376ebfe8bc56c1435fb2c6f58b17a8" kindref="member">operator&amp;=</ref>(<ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref>&amp;<sp/>lhs,<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref><sp/>rhs)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lhs<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref></highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(lhs)<sp/>&amp;<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(rhs));</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref>&amp;<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1a641ebf4183574ca30e0cf2e63e6d62ab" kindref="member">operator|=</ref>(<ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref>&amp;<sp/>lhs,<sp/><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref><sp/>rhs)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lhs<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal"><ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">Type</ref></highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(lhs)<sp/>|<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(rhs));</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>EPinActions</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>ENone<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>EDelete<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>EMultiInput<sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>EDynamicType<sp/><sp/><sp/><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>ALL<sp/>=<sp/>EDelete<sp/>|<sp/>EMultiInput<sp/>|<sp/>EDynamicType</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="d9/d03/namespace_e_pin_actions_operations" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="d9/d03/namespace_e_pin_actions_operations" kindref="compound">EPinActionsOperations</ref></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>EPinActions&amp;<sp/><ref refid="d9/d03/namespace_e_pin_actions_operations_1accfb4cce1682ef45fee2c591d3dfaad5" kindref="member">operator&amp;=</ref>(EPinActions&amp;<sp/>lhs,<sp/>EPinActions<sp/>rhs)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lhs<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">EPinActions</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(lhs)<sp/>&amp;<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(rhs));</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>EPinActions&amp;<sp/><ref refid="d9/d03/namespace_e_pin_actions_operations_1ae002caa582fd998de66493f20963aee3" kindref="member">operator|=</ref>(EPinActions&amp;<sp/>lhs,<sp/>EPinActions<sp/>rhs)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lhs<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">EPinActions</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(lhs)<sp/>|<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(rhs));</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>lhs;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/Definitions.h"/>
+  </compounddef>
+</doxygen>

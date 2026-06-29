@@ -1,0 +1,7 @@
+<map id="AWeaponAssetActor" name="AWeaponAssetActor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="35,96,176,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,67,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,43,98,94,93,97,53,46"/>
+<area shape="rect" id="Node000003" href="$d0/d9f/struct_f_modification_architecture.html" title=" " alt="" coords="91,5,261,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,46,118,97,113,94,155,42"/>
+</map>

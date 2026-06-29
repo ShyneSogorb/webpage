@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d0/dc3/_weapon_characteristics_details_8cpp" kind="file" language="C++">
+    <compoundname>WeaponCharacteristicsDetails.cpp</compoundname>
+    <includes refid="d2/dc4/_weapon_characteristics_details_8h" local="yes">WeaponCharacteristics/WeaponCharacteristicsDetails.h</includes>
+    <includes local="yes">DetailCategoryBuilder.h</includes>
+    <includes local="yes">DetailLayoutBuilder.h</includes>
+    <includes local="yes">DetailWidgetRow.h</includes>
+    <includes refid="d3/d94/_w_a_s_editor_8h" local="yes">WASEditor.h</includes>
+    <includes local="yes">Widgets/DeclarativeSyntaxSupport.h</includes>
+    <includes local="yes">Widgets/Input/SButton.h</includes>
+    <includes local="yes">Widgets/Text/STextBlock.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponCharacteristics/WeaponCharacteristicsDetails.cpp</label>
+        <link refid="d0/dc3/_weapon_characteristics_details_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DetailCategoryBuilder.h</label>
+      </node>
+      <node id="3">
+        <label>DetailLayoutBuilder.h</label>
+      </node>
+      <node id="4">
+        <label>DetailWidgetRow.h</label>
+      </node>
+      <node id="5">
+        <label>Widgets/DeclarativeSyntaxSupport.h</label>
+      </node>
+      <node id="6">
+        <label>Widgets/Input/SButton.h</label>
+      </node>
+      <node id="7">
+        <label>Widgets/Text/STextBlock.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="d0/dc3/_weapon_characteristics_details_8cpp_1a0de3ae51f3a629a8e5d113f1b9390da7" prot="public" static="no">
+        <name>LOCTEXT_NAMESPACE</name>
+        <initializer>&quot;FWeaponCharacteristicsDetails&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponCharacteristics/WeaponCharacteristicsDetails.cpp" line="13" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponCharacteristics/WeaponCharacteristicsDetails.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponCharacteristics/WeaponCharacteristicsDetails.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DetailCategoryBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DetailLayoutBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DetailWidgetRow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WASEditor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Widgets/DeclarativeSyntaxSupport.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Widgets/Input/SButton.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Widgets/Text/STextBlock.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOCTEXT_NAMESPACE<sp/>&quot;FWeaponCharacteristicsDetails&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">TSharedRef&lt;IDetailCustomization&gt;<sp/><ref refid="d9/dd8/class_f_weapon_characteristics_details_1a1681f8b955964f1616d5685a37504605" kindref="member">FWeaponCharacteristicsDetails::MakeInstance</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>MakeShareable(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d9/dd8/class_f_weapon_characteristics_details" kindref="compound">FWeaponCharacteristicsDetails</ref>());</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/dd8/class_f_weapon_characteristics_details_1af6a582ee80cdba6dd54869e9b87ff00a" kindref="member">FWeaponCharacteristicsDetails::CustomizeDetails</ref>(IDetailLayoutBuilder&amp;<sp/>DetailBuilder)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Creating<sp/>sample<sp/>button<sp/>and<sp/>category</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>IDetailCategoryBuilder&amp;<sp/>EngineCategory<sp/>=<sp/>DetailBuilder.EditCategory(TEXT(</highlight><highlight class="stringliteral">&quot;Automation&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FText<sp/>DummyBrn<sp/>=<sp/>LOCTEXT(</highlight><highlight class="stringliteral">&quot;DummyBtn&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;DummyBtn&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>EngineCategory.AddCustomRow(DummyBrn,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>.NameContent()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SNullWidget::NullWidget</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>].ValueContent()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>.VAlign(VAlign_Center)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>.MaxDesiredWidth(100)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>[</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SNew(SButton)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.VAlign(VAlign_Center)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.OnClicked(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="d9/dd8/class_f_weapon_characteristics_details_1a3929eaa87668c6415045f3c8feeb2164" kindref="member">FWeaponCharacteristicsDetails::ClickBtn</ref>)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.Content()</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SNew(STextBlock)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.Text(DummyBrn)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">FReply<sp/><ref refid="d9/dd8/class_f_weapon_characteristics_details_1a3929eaa87668c6415045f3c8feeb2164" kindref="member">FWeaponCharacteristicsDetails::ClickBtn</ref>()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogWASEditor,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Hohoho&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>FReply::Handled();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponCharacteristics/WeaponCharacteristicsDetails.cpp"/>
+  </compounddef>
+</doxygen>

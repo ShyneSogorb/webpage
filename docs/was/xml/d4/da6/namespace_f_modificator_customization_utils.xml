@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d4/da6/namespace_f_modificator_customization_utils" kind="namespace" language="C++">
+    <compoundname>FModificatorCustomizationUtils</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d4/da6/namespace_f_modificator_customization_utils_1a0873ca12312e52d3e34724f2ec0f5da3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FModificatorCustomizationUtils::PopulateMapKeys</definition>
+        <argsstring>(const TSharedPtr&lt; IPropertyHandle &gt; &amp;Handle, const FGameplayTag &amp;RootTag)</argsstring>
+        <name>PopulateMapKeys</name>
+        <qualifiedname>FModificatorCustomizationUtils::PopulateMapKeys</qualifiedname>
+        <param>
+          <type>const TSharedPtr&lt; IPropertyHandle &gt; &amp;</type>
+          <declname>Handle</declname>
+        </param>
+        <param>
+          <type>const FGameplayTag &amp;</type>
+          <declname>RootTag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.h" line="20" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.cpp" bodystart="67" bodyend="165" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.h" declline="20" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/da6/namespace_f_modificator_customization_utils_1a28c58e9595e70961e1fa31476820cf0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>auto</type>
+            <declname>IsDefault</declname>
+            <defname>IsDefault</defname>
+            <defval>[](const T&amp; V){return V == T();}</defval>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void FModificatorCustomizationUtils::SetPropertyValueIfDefault</definition>
+        <argsstring>(TSharedPtr&lt; IPropertyHandle &gt; Property, const T &amp;NewValue)</argsstring>
+        <name>SetPropertyValueIfDefault</name>
+        <qualifiedname>FModificatorCustomizationUtils::SetPropertyValueIfDefault</qualifiedname>
+        <param>
+          <type>TSharedPtr&lt; IPropertyHandle &gt;</type>
+          <declname>Property</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>NewValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.h" line="18" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.h" bodystart="25" bodyend="33" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.h" declline="18" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/da6/namespace_f_modificator_customization_utils_1ae7b9d0c3648f21661d69b2ba0586097c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FName</type>
+        <definition>FName FModificatorCustomizationUtils::TryDeduceName</definition>
+        <argsstring>(const FString &amp;From)</argsstring>
+        <name>TryDeduceName</name>
+        <qualifiedname>FModificatorCustomizationUtils::TryDeduceName</qualifiedname>
+        <param>
+          <type>const FString &amp;</type>
+          <declname>From</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.h" line="15" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.cpp" bodystart="54" bodyend="65" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.h" declline="15" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/da6/namespace_f_modificator_customization_utils_1a9f495c0935fc44bbddfc0caff33512c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FModificatorCustomizationUtils::TrySetDefaultDescriptionValue</definition>
+        <argsstring>(TSharedPtr&lt; IPropertyHandle &gt; DescriptionProp, UEnum *ModEnum, int32 Index=-1)</argsstring>
+        <name>TrySetDefaultDescriptionValue</name>
+        <qualifiedname>FModificatorCustomizationUtils::TrySetDefaultDescriptionValue</qualifiedname>
+        <param>
+          <type>TSharedPtr&lt; IPropertyHandle &gt;</type>
+          <declname>DescriptionProp</declname>
+        </param>
+        <param>
+          <type>UEnum *</type>
+          <declname>ModEnum</declname>
+        </param>
+        <param>
+          <type>int32</type>
+          <declname>Index</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.h" line="13" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.cpp" bodystart="14" bodyend="52" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.h" declline="13" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.h" line="10" column="1"/>
+  </compounddef>
+</doxygen>

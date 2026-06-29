@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d4/d10/class_u_weapon_asset_characteristics" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponAssetCharacteristics</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UObject</basecompoundref>
+    <derivedcompoundref refid="da/db7/class_u_weapon_asset_default_characteristics" prot="public" virt="non-virtual">UWeaponAssetDefaultCharacteristics</derivedcompoundref>
+    <includes local="no">WeaponAssetCharacteristics.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/d10/class_u_weapon_asset_characteristics_1a1a6ce50c3727a92032891b43dc8dc805" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref></type>
+        <definition>FWeaponModifications UWeaponAssetCharacteristics::AppliedModifications</definition>
+        <argsstring></argsstring>
+        <name>AppliedModifications</name>
+        <qualifiedname>UWeaponAssetCharacteristics::AppliedModifications</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="43" column="22" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d10/class_u_weapon_asset_characteristics_1a3a3cc57a90f7aa9ba5e29bf25b200a2b" prot="public" static="no" mutable="no">
+        <type>FString</type>
+        <definition>FString UWeaponAssetCharacteristics::WeaponName</definition>
+        <argsstring></argsstring>
+        <name>WeaponName</name>
+        <qualifiedname>UWeaponAssetCharacteristics::WeaponName</qualifiedname>
+        <initializer>= TEXT(&quot;Default&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="35" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1ac90f0513157c451748dbd70a0c5ed8aa" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Self</type>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE auto &amp;</type>
+        <definition>static FORCEINLINE auto &amp; UWeaponAssetCharacteristics::GetWeaponModifications_Impl</definition>
+        <argsstring>(Self &amp;&amp;self)</argsstring>
+        <name>GetWeaponModifications_Impl</name>
+        <qualifiedname>UWeaponAssetCharacteristics::GetWeaponModifications_Impl</qualifiedname>
+        <param>
+          <type>Self &amp;&amp;</type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="24" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="24" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a3697d511aed311cd4c0662f5dd7a5374" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FGameplayTag</type>
+        <definition>FGameplayTag UWeaponAssetCharacteristics::GetModificationAtSlot</definition>
+        <argsstring>(const FGameplayTag &amp;Slot) const</argsstring>
+        <name>GetModificationAtSlot</name>
+        <qualifiedname>UWeaponAssetCharacteristics::GetModificationAtSlot</qualifiedname>
+        <param>
+          <type>const FGameplayTag &amp;</type>
+          <declname>Slot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="94" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a433630ff5be5aabc178751248925ad4e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+        <definition>const FWeaponModifications &amp; UWeaponAssetCharacteristics::GetModifications</definition>
+        <argsstring>() const</argsstring>
+        <name>GetModifications</name>
+        <qualifiedname>UWeaponAssetCharacteristics::GetModifications</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="91" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a208db3af8bca5623c8d8bd1f47cd1854" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8</type>
+        <definition>uint8 UWeaponAssetCharacteristics::GetNumModification</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNumModification</name>
+        <qualifiedname>UWeaponAssetCharacteristics::GetNumModification</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="57" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a36d467704881dce3b9b228128f1045b4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const FGameplayTag &amp;</type>
+        <definition>const FGameplayTag &amp; UWeaponAssetCharacteristics::GetRootTag</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRootTag</name>
+        <qualifiedname>UWeaponAssetCharacteristics::GetRootTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="73" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1afcf12e269af3d64d2225935d8c4bbe31" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FGameplayTag</type>
+        <definition>FGameplayTag UWeaponAssetCharacteristics::GetWeaponModification</definition>
+        <argsstring>(FGameplayTag Slot) const</argsstring>
+        <name>GetWeaponModification</name>
+        <qualifiedname>UWeaponAssetCharacteristics::GetWeaponModification</qualifiedname>
+        <param>
+          <type>FGameplayTag</type>
+          <declname>Slot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="52" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a620a5e0d5a0f3076f2535a60d59f4e54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+        <definition>FWeaponModifications &amp; UWeaponAssetCharacteristics::GetWeaponModifications</definition>
+        <argsstring>()</argsstring>
+        <name>GetWeaponModifications</name>
+        <qualifiedname>UWeaponAssetCharacteristics::GetWeaponModifications</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="68" column="22" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a8001cd6fb28ff49582edf6734923bb34" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+        <definition>const FWeaponModifications &amp; UWeaponAssetCharacteristics::GetWeaponModifications</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWeaponModifications</name>
+        <qualifiedname>UWeaponAssetCharacteristics::GetWeaponModifications</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="62" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a814df4fe7437c05c6aff913088b59d75" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAssetCharacteristics::HasModAtSlot</definition>
+        <argsstring>(FGameplayTag Slot, FGameplayTag Modification) const</argsstring>
+        <name>HasModAtSlot</name>
+        <qualifiedname>UWeaponAssetCharacteristics::HasModAtSlot</qualifiedname>
+        <param>
+          <type>FGameplayTag</type>
+          <declname>Slot</declname>
+        </param>
+        <param>
+          <type>FGameplayTag</type>
+          <declname>Modification</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="88" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAssetCharacteristics.cpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a4741aee61344ff5a4143d05ce2a9d9fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAssetCharacteristics::SetModificationAtSlot</definition>
+        <argsstring>(FGameplayTag Modification)</argsstring>
+        <name>SetModificationAtSlot</name>
+        <qualifiedname>UWeaponAssetCharacteristics::SetModificationAtSlot</qualifiedname>
+        <param>
+          <type>FGameplayTag</type>
+          <declname>Modification</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="85" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAssetCharacteristics.cpp" bodystart="32" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a36f544695e0db0885be94df00aa3a754" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponAssetCharacteristics::SetWeaponModifications</definition>
+        <argsstring>(const FWeaponModifications &amp;NewMods)</argsstring>
+        <name>SetWeaponModifications</name>
+        <qualifiedname>UWeaponAssetCharacteristics::SetWeaponModifications</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+          <declname>NewMods</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="79" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="79" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a85d7b68d614045209130be7610c12f3f" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE T *</type>
+        <definition>FORCEINLINE T * UWeaponAssetCharacteristics::FindOwner</definition>
+        <argsstring>() const</argsstring>
+        <name>FindOwner</name>
+        <qualifiedname>UWeaponAssetCharacteristics::FindOwner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="124" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="124" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a2f5ee1e1eb1995289d82e5b4ca926603" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE AActor *</type>
+        <definition>FORCEINLINE AActor * UWeaponAssetCharacteristics::FindOwnerActor</definition>
+        <argsstring>() const</argsstring>
+        <name>FindOwnerActor</name>
+        <qualifiedname>UWeaponAssetCharacteristics::FindOwnerActor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="118" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1aa882200bd5f88d9f132488731a63f388" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE UActorComponent *</type>
+        <definition>FORCEINLINE UActorComponent * UWeaponAssetCharacteristics::FindOwnerComponent</definition>
+        <argsstring>() const</argsstring>
+        <name>FindOwnerComponent</name>
+        <qualifiedname>UWeaponAssetCharacteristics::FindOwnerComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="112" column="29" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a5d27ce17a2d29edc35b144b5a47767fd" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+        <definition>const UWeaponAsset * UWeaponAssetCharacteristics::GetWeaponAsset</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWeaponAsset</name>
+        <qualifiedname>UWeaponAssetCharacteristics::GetWeaponAsset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="106" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponAssetCharacteristics.cpp" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/class_u_weapon_asset_characteristics_1a058e82e91a3080ae03a9342aa146b7e2" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE UObject *</type>
+        <definition>FORCEINLINE UObject * UWeaponAssetCharacteristics::GetWorldContext</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWorldContext</name>
+        <qualifiedname>UWeaponAssetCharacteristics::GetWorldContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="109" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents the runtime characteristics and modification state of a weapon asset. Stores applied modifications and provides access to weapon configuration data. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponAssetCharacteristics</label>
+        <link refid="d4/d10/class_u_weapon_asset_characteristics"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UWeaponAssetDefaultCharacteristics</label>
+        <link refid="da/db7/class_u_weapon_asset_default_characteristics"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>FWeaponModifications</label>
+        <link refid="d7/dc9/struct_f_weapon_modifications"/>
+      </node>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponAssetCharacteristics</label>
+        <link refid="d4/d10/class_u_weapon_asset_characteristics"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>AppliedModifications</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" line="17" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetCharacteristics.h" bodystart="18" bodyend="136"/>
+    <listofallmembers>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a1a6ce50c3727a92032891b43dc8dc805" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>AppliedModifications</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a85d7b68d614045209130be7610c12f3f" prot="protected" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>FindOwner</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a2f5ee1e1eb1995289d82e5b4ca926603" prot="protected" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>FindOwnerActor</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1aa882200bd5f88d9f132488731a63f388" prot="protected" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>FindOwnerComponent</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a3697d511aed311cd4c0662f5dd7a5374" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>GetModificationAtSlot</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a433630ff5be5aabc178751248925ad4e" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>GetModifications</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a208db3af8bca5623c8d8bd1f47cd1854" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>GetNumModification</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a36d467704881dce3b9b228128f1045b4" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>GetRootTag</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a5d27ce17a2d29edc35b144b5a47767fd" prot="protected" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>GetWeaponAsset</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1afcf12e269af3d64d2225935d8c4bbe31" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>GetWeaponModification</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a8001cd6fb28ff49582edf6734923bb34" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>GetWeaponModifications</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a620a5e0d5a0f3076f2535a60d59f4e54" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>GetWeaponModifications</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1ac90f0513157c451748dbd70a0c5ed8aa" prot="private" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>GetWeaponModifications_Impl</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a058e82e91a3080ae03a9342aa146b7e2" prot="protected" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>GetWorldContext</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a814df4fe7437c05c6aff913088b59d75" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>HasModAtSlot</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a4741aee61344ff5a4143d05ce2a9d9fa" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>SetModificationAtSlot</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a36f544695e0db0885be94df00aa3a754" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>SetWeaponModifications</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a3a3cc57a90f7aa9ba5e29bf25b200a2b" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristics</scope><name>WeaponName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

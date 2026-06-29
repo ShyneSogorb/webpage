@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_359b3232529c02a0c405c0309ab060de" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public</compoundname>
+    <innerdir refid="dir_6152d4da528c9c5421a234dbcfb34d5e">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Actors</innerdir>
+    <innerdir refid="dir_2a034be66fa0e0ab43fd57592be77504">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Components</innerdir>
+    <innerdir refid="dir_6080c342628a26a03e2812f96a4276b7">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core</innerdir>
+    <innerdir refid="dir_b643e11de9b8df69f7179afd1968e868">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous</innerdir>
+    <innerdir refid="dir_54d1a4dcc36a169e913960cd5b5e221c">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes</innerdir>
+    <innerdir refid="dir_2dffa3ccb3b6236320dc95cb734145d4">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture</innerdir>
+    <innerfile refid="df/da3/_w_a_s_runtime_8h">WASRuntime.h</innerfile>
+    <innerfile refid="d3/d7b/_weapon_asset_library_8h">WeaponAssetLibrary.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/"/>
+  </compounddef>
+</doxygen>

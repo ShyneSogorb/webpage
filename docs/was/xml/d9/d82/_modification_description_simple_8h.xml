@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d9/d82/_modification_description_simple_8h" kind="file" language="C++">
+    <compoundname>ModificationDescriptionSimple.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes local="yes">GameplayTagContainer.h</includes>
+    <includes local="yes">Engine/DataAsset.h</includes>
+    <includes local="yes">UObject/SoftObjectPtr.h</includes>
+    <includes local="yes">ModificationDescriptionSimple.generated.h</includes>
+    <includedby refid="db/dde/_modificator_customization_utils_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/ModificatorCustomizationUtils.cpp</includedby>
+    <includedby refid="d4/d4a/_slot_modification_description_customization_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/SlotModificationDescriptionCustomization.cpp</includedby>
+    <includedby refid="d4/d52/_weapon_modification_description_customization_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/WeaponModificationDescriptionCustomization.cpp</includedby>
+    <includedby refid="d0/d7a/_w_a_s_editor_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WASEditor.cpp</includedby>
+    <includedby refid="db/d40/_weapon_settings_description_funtion_library_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Miscellaneous/WeaponSettingsDescriptionFuntionLibrary.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h</label>
+        <link refid="d9/d82/_modification_description_simple_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="4">
+        <label>Engine/DataAsset.h</label>
+      </node>
+      <node id="3">
+        <label>GameplayTagContainer.h</label>
+      </node>
+      <node id="6">
+        <label>ModificationDescriptionSimple.generated.h</label>
+      </node>
+      <node id="5">
+        <label>UObject/SoftObjectPtr.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d4/de4/struct_f_modification_description_simple" prot="public">FModificationDescriptionSimple</innerclass>
+    <innerclass refid="d3/d99/struct_f_name_description" prot="public">FNameDescription</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d9/d82/_modification_description_simple_8h_1a4a3c28b11ab721f0b2249a785ef96509" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>USTRUCT</definition>
+        <argsstring>(BlueprintType) struct WASRUNTIME_API FWeaponSettingsDescriptionSimple</argsstring>
+        <name>USTRUCT</name>
+        <param>
+          <type>BlueprintType</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A structure that holds the overall weapon settings description with simple name-description pairs. This is useful for scenarios where only basic information is needed without additional data assets. <simplesect kind="see"><para><ref refid="d9/d1e/struct_f_weapon_settings_description" kindref="compound">FWeaponSettingsDescription</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="d4/de4/struct_f_modification_description_simple" kindref="compound">FModificationDescriptionSimple</ref></para>
+</simplesect>
+A structure that holds the overall weapon settings description with soft references to modification descriptions. This allows for lazy loading of the modification description assets, which can be useful for performance optimization. <simplesect kind="see"><para><ref refid="d9/d1e/struct_f_weapon_settings_description" kindref="compound">FWeaponSettingsDescription</ref> </para>
+</simplesect>
+<simplesect kind="see"><para>FModificationDescriptionSoft </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" line="57" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" bodystart="57" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameplayTagContainer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Engine/DataAsset.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;UObject/SoftObjectPtr.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ModificationDescriptionSimple.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
+<codeline lineno="16" refid="d3/d99/struct_f_name_description" refkind="compound"><highlight class="normal">struct<sp/>WASRUNTIME_API<sp/><ref refid="d3/d99/struct_f_name_description" kindref="compound">FNameDescription</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Modification&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>FText<sp/>Description;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Modification&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/>Name;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
+<codeline lineno="34" refid="d4/de4/struct_f_modification_description_simple" refkind="compound"><highlight class="normal">struct<sp/>WASRUNTIME_API<sp/><ref refid="d4/de4/struct_f_modification_description_simple" kindref="compound">FModificationDescriptionSimple</ref></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Modification&quot;</highlight><highlight class="normal">,<sp/>DisplayName=</highlight><highlight class="stringliteral">&quot;Slot<sp/>description&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/d99/struct_f_name_description" kindref="compound">FNameDescription</ref><sp/>ThisDescription;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Modification&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>FGameplayTag<sp/>RootTag;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>EditFixedSize,<sp/>BlueprintReadWrite,<sp/>Category=</highlight><highlight class="stringliteral">&quot;Modification&quot;</highlight><highlight class="normal">,<sp/>meta=(ReadOnlyKeys))</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>TMap&lt;FGameplayTag,<sp/>FNameDescription&gt;<sp/>Descriptions;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">USTRUCT(BlueprintType</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//,<sp/>meta=(</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//HasNativeMake=&quot;WASRuntime.WeaponSettingsDescriptionFunctionLibrary.MakeWeaponSettingsDescriptionSimple&quot;,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//HasNativeBreak=&quot;WASRuntime.WeaponSettingsDescriptionFunctionLibrary.BreakWeaponSettingsDescriptionSimple&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">WASRUNTIME_API<sp/>FWeaponSettingsDescriptionSimple</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category=&quot;Modification&quot;,<sp/>DisplayName=&quot;Weapon<sp/>description&quot;)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/d99/struct_f_name_description" kindref="compound">FNameDescription</ref><sp/>ThisDescription;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category=&quot;Modification&quot;)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>FGameplayTag<sp/>RootTag;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>EditFixedSize,<sp/>BlueprintReadWrite,<sp/>Category=&quot;Modification&quot;,<sp/>meta=(ReadOnlyKeys))</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>TMap&lt;FGameplayTag,<sp/><ref refid="d4/de4/struct_f_modification_description_simple" kindref="compound">FModificationDescriptionSimple</ref>&gt;<sp/>Descriptions;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h"/>
+  </compounddef>
+</doxygen>

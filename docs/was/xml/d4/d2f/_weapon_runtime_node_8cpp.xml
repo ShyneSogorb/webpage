@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d4/d2f/_weapon_runtime_node_8cpp" kind="file" language="C++">
+    <compoundname>WeaponRuntimeNode.cpp</compoundname>
+    <includes refid="d6/de3/_weapon_runtime_node_8h" local="yes">Nodes/WeaponRuntimeNode.h</includes>
+    <includes refid="df/da3/_w_a_s_runtime_8h" local="yes">WASRuntime.h</includes>
+    <includes refid="d0/d9e/_weapon_runtime_graph_8h" local="yes">Nodes/WeaponRuntimeGraph.h</includes>
+    <includes refid="de/d35/_weapon_runtime_pin_8h" local="yes">Nodes/WeaponRuntimePin.h</includes>
+    <includes refid="d0/df9/_node_pin_compatibility_8h" local="yes">Miscellaneous/NodePinCompatibility.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/WeaponRuntimeNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WASRuntime.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/WeaponRuntimeGraph.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/WeaponRuntimePin.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/NodePinCompatibility.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITORONLY_DATA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponRuntimeNode::SetPinsSubcategoryAuto(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1a43f8dfba2462577b2ba953118d255346" kindref="member">PinSubCategory</ref><sp/>=<sp/>Pin-&gt;DeduceSubCategoryFromCompatibility();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a097aad9c43b080b602ac91c362cde920" kindref="member">UWeaponRuntimeNode::ClearCache</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="21"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>Pin<sp/>:<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a3a81c151acd26c1901a22efce8bb6a19" kindref="member">GetAllPins</ref>())</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1aa9272625332d3239bc97223ea92933e0" kindref="member">ClearCache</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a936fcdfe272bd548e51cb3a23b1d89bb" kindref="member">UWeaponRuntimeNode::GetPinConnection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin,<sp/>int32<sp/>Index)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="29"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>check(Pin);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1adc1da951c9b9de0009334f1db231bcd0" kindref="member">Connections</ref>.IsValidIndex(Index))</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Warning,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Trying<sp/>to<sp/>get<sp/>the<sp/>connection<sp/>of<sp/>pin<sp/>%s<sp/>at<sp/>index<sp/>%d<sp/>when<sp/>there<sp/>are<sp/>only<sp/>%d<sp/>connections&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetName(),</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Index,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1adc1da951c9b9de0009334f1db231bcd0" kindref="member">Connections</ref>.Num()</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>Pin-&gt;Connections[Index];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">const<sp/>TArray&lt;<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*&gt;&amp;<sp/><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>::<ref refid="de/dde/class_u_weapon_runtime_node_1a0e86c0ec73005b8ea83f3061287ca3d4" kindref="member">GetPinConnections</ref>(const<sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="45"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>check(Pin)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Pin-&gt;Connections;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>*<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1ac284948005ccd2699b30849031829bbd" kindref="member">UWeaponRuntimeNode::GetNodeFromInput</ref>(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>FromPin)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="51"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FromPin<sp/>&amp;&amp;<sp/>FromPin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1adc1da951c9b9de0009334f1db231bcd0" kindref="member">Connections</ref>.IsValidIndex(0)<sp/>?<sp/>FromPin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1adc1da951c9b9de0009334f1db231bcd0" kindref="member">Connections</ref>[0]-&gt;Parent<sp/>:<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponRuntimeNode::PostEditChangeProperty(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/>FPropertyChangedEvent&amp;<sp/>PropertyChangedEvent)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(int32<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a87b0a5686fa3ae650a539d8ae7e857e1" kindref="member">InputPins</ref>.Num()<sp/>-<sp/>1;<sp/>i++)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>PinConnection<sp/>:<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a0e86c0ec73005b8ea83f3061287ca3d4" kindref="member">GetPinConnections</ref>(<ref refid="de/dde/class_u_weapon_runtime_node_1a87b0a5686fa3ae650a539d8ae7e857e1" kindref="member">InputPins</ref>[i]))</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PinConnection-&gt;PinSubCategory<sp/>=<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a87b0a5686fa3ae650a539d8ae7e857e1" kindref="member">InputPins</ref>[i]-&gt;PinSubCategory;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(GetOuter())</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetOuter()-&gt;PostEditChangeProperty(PropertyChangedEvent);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponRuntimeNode::UpdateCompatibility(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bForce)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin<sp/>:<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a3a81c151acd26c1901a22efce8bb6a19" kindref="member">GetAllPins</ref>())</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!Pin<sp/>||<sp/>(!bForce<sp/>&amp;&amp;<sp/>Pin-&gt;Compatibility.IsValid()))</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Pin)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Verbose,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;UpdateCompatibility<sp/>for<sp/>node<sp/>%s<sp/>pin<sp/>%s<sp/>already<sp/>has<sp/>compatibility.<sp/>Ptr<sp/>%p&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/>*Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1ac5a6112ab90d7be8a59f8173937e0f20" kindref="member">PinName</ref>.ToString(),<sp/>Pin-&gt;Compatibility.Get());</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">FCompatibilityFunction<sp/>=<sp/>TFunction&lt;TSharedRef&lt;FNodePinCompatibility&gt;()&gt;;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>TMap&lt;FName,<sp/>FCompatibilityFunction&gt;<sp/>CompatibilityMap<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>FName(WildcardSubcategory),<sp/><sp/><sp/>[]{<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>MakeShared&lt;FNodePinWildcard&gt;();<sp/><sp/>}<sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>FName(ObjectSubcategory),<sp/><sp/><sp/><sp/><sp/>[]{<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>MakeShared&lt;FNodePinObject&gt;();<sp/><sp/><sp/><sp/>}<sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>FName(ClassSubcategory),<sp/><sp/><sp/><sp/><sp/><sp/>[]{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>MakeShared&lt;FNodePinClass&gt;();<sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>FName(StructSubcategory),<sp/><sp/><sp/><sp/><sp/>[]{<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>MakeShared&lt;FNodePinStruct&gt;();<sp/><sp/><sp/><sp/>}<sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>FName(BoolSubcategory),<sp/><sp/><sp/><sp/><sp/><sp/><sp/>[]{<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>MakeShared&lt;FNodePinNumeric&gt;(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);<sp/><sp/><sp/>}<sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>FName(NumericSubcategory),<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[]{<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>MakeShared&lt;FNodePinNumeric&gt;(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);<sp/><sp/>}<sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(FCompatibilityFunction*<sp/>Function<sp/>=<sp/>CompatibilityMap.Find(Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1a43f8dfba2462577b2ba953118d255346" kindref="member">PinSubCategory</ref>))</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Pin-&gt;Compatibility<sp/>=<sp/>(*Function)();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;UpdateCompatibility<sp/>for<sp/>node<sp/>%s<sp/>pin<sp/>%s<sp/>has<sp/>unknown<sp/>subcategory<sp/>%s.<sp/>Cannot<sp/>assign<sp/>compatibility.<sp/>Using<sp/>wildcard<sp/>as<sp/>fallback&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/>*Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1ac5a6112ab90d7be8a59f8173937e0f20" kindref="member">PinName</ref>.ToString(),<sp/>*Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1a43f8dfba2462577b2ba953118d255346" kindref="member">PinSubCategory</ref>.ToString());</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Pin-&gt;Compatibility<sp/>=<sp/>MakeShared&lt;FNodePinWildcard&gt;();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>check(Pin-&gt;Compatibility.IsValid());</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Verbose,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;PostInit<sp/>for<sp/>node<sp/>%s<sp/>has<sp/>now<sp/>compatibility<sp/>for<sp/>pin<sp/>%s<sp/>with<sp/>subcategory<sp/>%s.<sp/>Ptr<sp/>%p&quot;</highlight><highlight class="normal">),<sp/>*Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1ac5a6112ab90d7be8a59f8173937e0f20" kindref="member">PinName</ref>.ToString(),<sp/>*Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1ac5a6112ab90d7be8a59f8173937e0f20" kindref="member">PinName</ref>.ToString(),<sp/>*Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1a43f8dfba2462577b2ba953118d255346" kindref="member">PinSubCategory</ref>.ToString(),<sp/>Pin-&gt;Compatibility.Get());</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a682006234c51db491300bd9c57f038e9" kindref="member">UWeaponRuntimeNode::GetPinByName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FName&amp;<sp/>PinName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TOptional&lt;bool&gt;&amp;<sp/>OptionalInputOnly)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="113"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//CREATE_STACK_ELEMENT(TArray&lt;UWeaponRuntimePin*&gt;,<sp/>ListToSearch,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//This<sp/>function<sp/>can<sp/>not<sp/>fail<sp/>therefore<sp/>no<sp/>abort<sp/>possible<sp/>so<sp/>is<sp/>safe<sp/>to<sp/>call<sp/>outside<sp/>the<sp/>execution<sp/>context<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;UWeaponRuntimePin*&gt;<sp/>ListToSearch<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OptionalInputOnly<sp/>?<sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*OptionalInputOnly<sp/>?<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a87b0a5686fa3ae650a539d8ae7e857e1" kindref="member">InputPins</ref><sp/>:<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a9382e9942f86a6f125815cf12e28a394" kindref="member">OutputPins</ref>)<sp/>:</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a3a81c151acd26c1901a22efce8bb6a19" kindref="member">GetAllPins</ref>()</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>Predicate<sp/>=<sp/>[PinName](<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin){check(Pin)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1ac5a6112ab90d7be8a59f8173937e0f20" kindref="member">PinName</ref><sp/>==<sp/>PinName;};</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>**<sp/>FoundPin<sp/>=<sp/>ListToSearch.FindByPredicate(Predicate))</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*FoundPin;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Node<sp/>%s<sp/>could<sp/>not<sp/>find<sp/>a<sp/>pin<sp/>with<sp/>name<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/>*PinName.ToString())</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>::<ref refid="de/dde/class_u_weapon_runtime_node_1ac284948005ccd2699b30849031829bbd" kindref="member">GetNodeFromInput</ref>(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>FromPin,<sp/>TArray&lt;<ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>*&gt;&amp;<sp/>ConnectedNodes)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="134"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>ConnectedNodes.Empty();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!FromPin<sp/>||<sp/>FromPin-&gt;Connections.IsEmpty())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>ConnectedNodes.Reserve(FromPin-&gt;Connections.Num());</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>CREATE_STACK_ELEMENT(TArray&lt;UWeaponRuntimePin*&gt;,<sp/>ValidPins);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin<sp/>:<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a0e86c0ec73005b8ea83f3061287ca3d4" kindref="member">GetPinConnections</ref>(FromPin))</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1ad9ffa02073ad640309062839b1fc2149" kindref="member">Parent</ref>-&gt;<ref refid="de/dde/class_u_weapon_runtime_node_1a2f809a9a3404afd492998a16ad3a26cc" kindref="member">GetValidPin</ref>(ValidPins);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ConnectedNodes.Emplace(ValidPins[0]-&gt;Parent);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ValidPins.Empty();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><ref refid="d1/db3/class_u_weapon_runtime_graph" kindref="compound">UWeaponRuntimeGraph</ref>*<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1aac61ae0f66550aa137e4a184faabf048" kindref="member">UWeaponRuntimeNode::GetGraph</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="149"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph" kindref="compound">UWeaponRuntimeGraph</ref>*<sp/>Graph<sp/>=<sp/>CastChecked&lt;UWeaponRuntimeGraph&gt;(GetOuter());</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>check(Graph-&gt;<ref refid="d1/db3/class_u_weapon_runtime_graph_1a7759f47db09ceb8ef6e6cc8bdd02e171" kindref="member">IsExecuting</ref>())</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>Graph;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal">class<sp/><ref refid="d1/db3/class_u_weapon_runtime_graph" kindref="compound">UWeaponRuntimeGraph</ref>*<sp/><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>::<ref refid="de/dde/class_u_weapon_runtime_node_1ab6393f301bda4e8d04d4221f3f0bb0f1" kindref="member">GetGraphAnyContext</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="156"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CastChecked&lt;UWeaponRuntimeGraph&gt;(GetOuter());</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref>&amp;<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a2e3a0fc8f08a800e379d9f599747eaee" kindref="member">UWeaponRuntimeNode::GetExecutionContext</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="161"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>check(<ref refid="de/dde/class_u_weapon_runtime_node_1aac61ae0f66550aa137e4a184faabf048" kindref="member">GetGraph</ref>());</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1aac61ae0f66550aa137e4a184faabf048" kindref="member">GetGraph</ref>()-&gt;<ref refid="d1/db3/class_u_weapon_runtime_graph_1ab9ac45f99810f042f460fdf2963bb4ad" kindref="member">GetExecutionContext</ref>();</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref>&amp;<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a0e06f43998bb8ce34259e7a8e8c0dd63" kindref="member">UWeaponRuntimeNode::GetDefaultExecutionContext</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="167"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>check(<ref refid="de/dde/class_u_weapon_runtime_node_1ab6393f301bda4e8d04d4221f3f0bb0f1" kindref="member">GetGraphAnyContext</ref>());</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1ab6393f301bda4e8d04d4221f3f0bb0f1" kindref="member">GetGraphAnyContext</ref>()-&gt;<ref refid="d1/db3/class_u_weapon_runtime_graph_1a5ff4c3c2a4362017a38e2f852902739b" kindref="member">GetDefaultExecutionContext</ref>();</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a8b02d257beb3602d90bc3648402c56fb" kindref="member">UWeaponRuntimeNode::IsAborting</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="173"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1aac61ae0f66550aa137e4a184faabf048" kindref="member">GetGraph</ref>()-&gt;<ref refid="d1/db3/class_u_weapon_runtime_graph_1a1fd684b6d32f99fc0f7a7ebe2236a3c3" kindref="member">IsAborting</ref>();</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a9a6f0658cff37983c31f96150036330c" kindref="member">UWeaponRuntimeNode::AbortExecution</ref>(FString&amp;&amp;<sp/>Reason)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="178"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1aac61ae0f66550aa137e4a184faabf048" kindref="member">GetGraph</ref>()-&gt;<ref refid="d1/db3/class_u_weapon_runtime_graph_1ab49333396781d58c8c75252931989ef2" kindref="member">AbortExecution</ref>(MoveTemp(Reason));<sp/></highlight><highlight class="comment">//Only<sp/>set<sp/>the<sp/>reason<sp/>if<sp/>it&apos;s<sp/>not<sp/>already<sp/>aborting,<sp/>to<sp/>avoid<sp/>overwriting<sp/>the<sp/>original<sp/>reason</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a4fc374839e2e0e2d269069a225eaf07c" kindref="member">UWeaponRuntimeNode::PreExecuteNode</ref>()</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a38092b83d1b72b205de9df38aef30283" kindref="member">RemoveDuplicatedConections</ref>();</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>SortConnections();</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1ac796930a6646e7fe5ce8aee4521f7911" kindref="member">FixInvalidPinsConnections</ref>();</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>FixDataFromAsset(*<ref refid="de/dde/class_u_weapon_runtime_node_1aac61ae0f66550aa137e4a184faabf048" kindref="member">GetGraph</ref>()-&gt;GetWeaponAsset());</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponRuntimeNode::SortConnections()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="196"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin<sp/>:<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a3a81c151acd26c1901a22efce8bb6a19" kindref="member">GetAllPins</ref>())</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1adc1da951c9b9de0009334f1db231bcd0" kindref="member">Connections</ref>.Sort([](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>&amp;<sp/>A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>&amp;<sp/>B)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Sort<sp/>from<sp/>up<sp/>to<sp/>down</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>A.<ref refid="dd/d5d/class_u_weapon_runtime_pin_1ad9ffa02073ad640309062839b1fc2149" kindref="member">Parent</ref>-&gt;Location.Y<sp/>&lt;<sp/>B.<ref refid="dd/d5d/class_u_weapon_runtime_pin_1ad9ffa02073ad640309062839b1fc2149" kindref="member">Parent</ref>-&gt;Location.Y;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a38092b83d1b72b205de9df38aef30283" kindref="member">UWeaponRuntimeNode::RemoveDuplicatedConections</ref>()</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin<sp/>:<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a3a81c151acd26c1901a22efce8bb6a19" kindref="member">GetAllPins</ref>())</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CREATE_STACK_ELEMENT(TSet&lt;const<sp/>UWeaponRuntimePin*&gt;,<sp/>FoundConnections);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FoundConnections.Reserve(Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1adc1da951c9b9de0009334f1db231bcd0" kindref="member">Connections</ref>.Num());</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1adc1da951c9b9de0009334f1db231bcd0" kindref="member">Connections</ref><sp/>=<sp/>Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1adc1da951c9b9de0009334f1db231bcd0" kindref="member">Connections</ref>.FilterByPredicate([&amp;FoundConnections](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Connection)</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Existed<sp/>=<sp/>FoundConnections.Contains(Connection);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FoundConnections.Add(Connection);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!Existed;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>});</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1ac796930a6646e7fe5ce8aee4521f7911" kindref="member">UWeaponRuntimeNode::FixInvalidPinsConnections</ref>()</highlight></codeline>
+<codeline lineno="225"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin<sp/>:<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a3a81c151acd26c1901a22efce8bb6a19" kindref="member">GetAllPins</ref>())</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!Pin)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>It<sp/>=<sp/>Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1adc1da951c9b9de0009334f1db231bcd0" kindref="member">Connections</ref>.CreateIterator();<sp/>It;<sp/>++It)</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!*It<sp/>||<sp/>!((*It)-&gt;Parent))</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>It.RemoveCurrent();</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref>*<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1ae80914a1cbed5c244202b092e2ef28ec" kindref="member">UWeaponRuntimeNode::GetCharacteristics</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="240"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a2e3a0fc8f08a800e379d9f599747eaee" kindref="member">GetExecutionContext</ref>().<ref refid="df/dfa/struct_f_weapon_execution_context_1aa3882013fb6e73ca5041bcd73d2ff360" kindref="member">GetCharacteristics</ref>().Get();<sp/></highlight><highlight class="comment">//This<sp/>will<sp/>return<sp/>the<sp/>characteristics<sp/>of<sp/>the<sp/>parent<sp/>asset<sp/>if<sp/>it<sp/>exists,<sp/>otherwise<sp/>it<sp/>will<sp/>return<sp/>the<sp/>characteristics<sp/>of<sp/>the<sp/>working<sp/>asset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref>*<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1abb907691503dfaa932260f6f435b8507" kindref="member">UWeaponRuntimeNode::GetDefaultCharacteristics</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="245"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>check(<ref refid="de/dde/class_u_weapon_runtime_node_1a0e06f43998bb8ce34259e7a8e8c0dd63" kindref="member">GetDefaultExecutionContext</ref>().<ref refid="de/dde/class_u_weapon_runtime_node_1ae80914a1cbed5c244202b092e2ef28ec" kindref="member">GetCharacteristics</ref>().Get())</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a0e06f43998bb8ce34259e7a8e8c0dd63" kindref="member">GetDefaultExecutionContext</ref>().<ref refid="de/dde/class_u_weapon_runtime_node_1ae80914a1cbed5c244202b092e2ef28ec" kindref="member">GetCharacteristics</ref>().Get();<sp/></highlight><highlight class="comment">//This<sp/>will<sp/>return<sp/>the<sp/>characteristics<sp/>of<sp/>the<sp/>parent<sp/>asset<sp/>if<sp/>it<sp/>exists,<sp/>otherwise<sp/>it<sp/>will<sp/>return<sp/>the<sp/>characteristics<sp/>of<sp/>the<sp/>working<sp/>asset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal">const<sp/><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref>*<sp/><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>::<ref refid="de/dde/class_u_weapon_runtime_node_1a7d23cc8247b2869f34967baa9dc82084" kindref="member">GetCharacteristicsCDO</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="251"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref>*<sp/>Obj<sp/>=<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a2e3a0fc8f08a800e379d9f599747eaee" kindref="member">GetExecutionContext</ref>().<ref refid="df/dfa/struct_f_weapon_execution_context_1aa3882013fb6e73ca5041bcd73d2ff360" kindref="member">GetCharacteristics</ref>().Get();</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>check(Obj);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Obj-&gt;GetClass()-&gt;GetDefaultObject&lt;<ref refid="d4/d10/class_u_weapon_asset_characteristics" kindref="compound">UWeaponAssetCharacteristics</ref>&gt;();</highlight></codeline>
+<codeline lineno="255"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal">TSubclassOf&lt;UWeaponAssetCharacteristics&gt;<sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1aef3d877ebe533c11c0d4708e0a59ab69" kindref="member">UWeaponRuntimeNode::GetDefaultCharacteristicsClass</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="258"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1abb907691503dfaa932260f6f435b8507" kindref="member">GetDefaultCharacteristics</ref>()-&gt;GetClass();<sp/></highlight><highlight class="comment">//This<sp/>will<sp/>return<sp/>the<sp/>characteristics<sp/>of<sp/>the<sp/>parent<sp/>asset<sp/>if<sp/>it<sp/>exists,<sp/>otherwise<sp/>it<sp/>will<sp/>return<sp/>the<sp/>characteristics<sp/>of<sp/>the<sp/>working<sp/>asset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal">UObject*<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1aa0c2351d764b462aec9d95de918f9ccb" kindref="member">UWeaponRuntimeNode::GetWorldContext</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="263"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1aac61ae0f66550aa137e4a184faabf048" kindref="member">GetGraph</ref>()-&gt;<ref refid="d1/db3/class_u_weapon_runtime_graph_1ad499596f47b78f4b00ed4611b3154dfe" kindref="member">GetWorldContext</ref>();</highlight></codeline>
+<codeline lineno="265"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>WITH_EDITOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponRuntimeNode::DefaultPins(TArray&lt;FRuntimePin&gt;&amp;<sp/>Pins)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="270"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>SimplePinning(Pins,<sp/>WildcardSubcategory);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponRuntimeNode::SimplePinning(TArray&lt;FRuntimePin&gt;&amp;<sp/>Pins,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FName&amp;<sp/>DefaultSubcategory,<sp/>EPinActions<sp/>Actions)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="275"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>Pins.Add(FRuntimePin(EGPD_Input,<sp/></highlight><highlight class="stringliteral">&quot;Input&quot;</highlight><highlight class="normal">,<sp/>DefaultSubcategory,<sp/>Actions));</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>Pins.Add(FRuntimePin(EGPD_Output,<sp/></highlight><highlight class="stringliteral">&quot;Output&quot;</highlight><highlight class="normal">,<sp/>DefaultSubcategory,<sp/>Actions));</highlight></codeline>
+<codeline lineno="278"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal">FText<sp/>UWeaponRuntimeNode::GetDisplayName()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="281"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>FString<sp/>DisplayName<sp/>=<sp/>GetClass()-&gt;GetName();</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/>DisplayName.RemoveFromStart(</highlight><highlight class="stringliteral">&quot;UWeapon&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>DisplayName.RemoveFromEnd(</highlight><highlight class="stringliteral">&quot;RuntimeNode&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>DisplayName<sp/>=<sp/>FName::NameToDisplayString(DisplayName,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FText::FromString(DisplayName);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!UE_BUILD_SHIPPING</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a98485396e2cdb40bd1fc2936ed350e95" kindref="member">UWeaponRuntimeNode::GetNodeDebugString</ref>(TArray&lt;FString&gt;&amp;<sp/>DebugStrings)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="294"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>Pin<sp/>:<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a87b0a5686fa3ae650a539d8ae7e857e1" kindref="member">InputPins</ref>)</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DebugStrings.Add(Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1a8c0a80497c11631561a0151318205b0d" kindref="member">BuildPinDebugString</ref>());</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(DebugStrings.IsEmpty())<sp/>DebugStrings.Add(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/>DebugStrings[0]<sp/>+=<sp/>FString::Printf(TEXT(</highlight><highlight class="stringliteral">&quot;<sp/>--<sp/>Node:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GetName());</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(int32<sp/>i<sp/>=<sp/>0;<sp/>i&lt;<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a9382e9942f86a6f125815cf12e28a394" kindref="member">OutputPins</ref>.Num();<sp/>i++)</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/>Pin<sp/>=<sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a9382e9942f86a6f125815cf12e28a394" kindref="member">OutputPins</ref>[i];</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FString<sp/>NewDebugStrings<sp/>=<sp/>Pin-&gt;<ref refid="dd/d5d/class_u_weapon_runtime_pin_1a8c0a80497c11631561a0151318205b0d" kindref="member">BuildPinDebugString</ref>();</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(DebugStrings.IsValidIndex(i))</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DebugStrings[i]<sp/>+=<sp/>FString::Printf(TEXT(</highlight><highlight class="stringliteral">&quot;<sp/>--<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*NewDebugStrings);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DebugStrings.Add(NewDebugStrings);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="312"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a5b779b5faae2e23bb5ab0081d290e117" kindref="member">UWeaponRuntimeNode::UpdateNodeFlowDebugString</ref>()</highlight></codeline>
+<codeline lineno="315"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a7252e50ac97fa71d3163cad0ccb4e636" kindref="member">NodeFlowDebugString</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;FString&gt;<sp/>Data;</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a98485396e2cdb40bd1fc2936ed350e95" kindref="member">GetNodeDebugString</ref>(Data);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>Line<sp/>:<sp/>Data)</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dde/class_u_weapon_runtime_node_1a7252e50ac97fa71d3163cad0ccb4e636" kindref="member">NodeFlowDebugString</ref><sp/>+=<sp/>Line<sp/>+<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="323"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponRuntimeNode.cpp"/>
+  </compounddef>
+</doxygen>

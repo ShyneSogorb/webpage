@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d6/d56/struct_f_weapon_int_select_by_mod" kind="struct" language="C++" prot="public">
+    <compoundname>FWeaponIntSelectByMod</compoundname>
+    <includes local="no">WeaponSelectByMod.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/d56/struct_f_weapon_int_select_by_mod_1a1384a0ab69fd30948efd93798cd19a49" prot="public" static="no" mutable="no">
+        <type>FGameplayTag</type>
+        <definition>FGameplayTag FWeaponIntSelectByMod::TagName</definition>
+        <argsstring></argsstring>
+        <name>TagName</name>
+        <qualifiedname>FWeaponIntSelectByMod::TagName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/FlowNodes/WeaponSelectByMod.h" line="164" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/FlowNodes/WeaponSelectByMod.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d56/struct_f_weapon_int_select_by_mod_1af476e458fd747fb0549a39841cb6d2dc" prot="public" static="no" mutable="no">
+        <type>int64</type>
+        <definition>int64 FWeaponIntSelectByMod::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>FWeaponIntSelectByMod::Value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/FlowNodes/WeaponSelectByMod.h" line="167" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/FlowNodes/WeaponSelectByMod.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/FlowNodes/WeaponSelectByMod.h" line="159" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/FlowNodes/WeaponSelectByMod.h" bodystart="160" bodyend="169"/>
+    <listofallmembers>
+      <member refid="d6/d56/struct_f_weapon_int_select_by_mod_1a1384a0ab69fd30948efd93798cd19a49" prot="public" virt="non-virtual"><scope>FWeaponIntSelectByMod</scope><name>TagName</name></member>
+      <member refid="d6/d56/struct_f_weapon_int_select_by_mod_1af476e458fd747fb0549a39841cb6d2dc" prot="public" virt="non-virtual"><scope>FWeaponIntSelectByMod</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

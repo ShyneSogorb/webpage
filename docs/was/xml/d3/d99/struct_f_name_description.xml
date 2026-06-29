@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d3/d99/struct_f_name_description" kind="struct" language="C++" prot="public">
+    <compoundname>FNameDescription</compoundname>
+    <includes local="no">ModificationDescriptionSimple.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d99/struct_f_name_description_1adea51ab00be43d82a2c8155ed2de9040" prot="public" static="no" mutable="no">
+        <type>FText</type>
+        <definition>FText FNameDescription::Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>FNameDescription::Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" line="23" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d99/struct_f_name_description_1a00ce528a0a1cad9e155b898325c8c8c5" prot="public" static="no" mutable="no">
+        <type>FName</type>
+        <definition>FName FNameDescription::Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>FNameDescription::Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" line="26" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Text label and description pair for modifications. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" line="16" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" bodystart="17" bodyend="28"/>
+    <listofallmembers>
+      <member refid="d3/d99/struct_f_name_description_1adea51ab00be43d82a2c8155ed2de9040" prot="public" virt="non-virtual"><scope>FNameDescription</scope><name>Description</name></member>
+      <member refid="d3/d99/struct_f_name_description_1a00ce528a0a1cad9e155b898325c8c8c5" prot="public" virt="non-virtual"><scope>FNameDescription</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

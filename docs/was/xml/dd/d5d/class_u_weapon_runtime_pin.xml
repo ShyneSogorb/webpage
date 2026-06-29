@@ -1,0 +1,787 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dd/d5d/class_u_weapon_runtime_pin" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponRuntimePin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UObject</basecompoundref>
+    <includes local="no">WeaponRuntimePin.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dd/d5d/class_u_weapon_runtime_pin_1ac32119c3bdbe6a5e1f2c69255d109acf" prot="public" static="no" mutable="yes">
+        <type>TSharedPtr&lt; <ref refid="d2/d3b/struct_f_pin_value" kindref="compound">FPinValue</ref> &gt;</type>
+        <definition>TSharedPtr&lt;FPinValue&gt; UWeaponRuntimePin::CacheValue</definition>
+        <argsstring></argsstring>
+        <name>CacheValue</name>
+        <qualifiedname>UWeaponRuntimePin::CacheValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="51" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d5d/class_u_weapon_runtime_pin_1adc1da951c9b9de0009334f1db231bcd0" prot="public" static="no" mutable="no">
+        <type>TArray&lt; <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> * &gt;</type>
+        <definition>TArray&lt;UWeaponRuntimePin*&gt; UWeaponRuntimePin::Connections</definition>
+        <argsstring></argsstring>
+        <name>Connections</name>
+        <qualifiedname>UWeaponRuntimePin::Connections</qualifiedname>
+        <initializer>= TArray&lt;<ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="400" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="400" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d5d/class_u_weapon_runtime_pin_1ad9ffa02073ad640309062839b1fc2149" prot="public" static="no" mutable="no">
+        <type>class <ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> *</type>
+        <definition>class UWeaponRuntimeNode* UWeaponRuntimePin::Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <qualifiedname>UWeaponRuntimePin::Parent</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="404" column="26" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="404" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d5d/class_u_weapon_runtime_pin_1a5123eb1dfe84052c9a66e762c09c3976" prot="public" static="no" mutable="no">
+        <type>FString</type>
+        <definition>FString UWeaponRuntimePin::PinDebugValue</definition>
+        <argsstring></argsstring>
+        <name>PinDebugValue</name>
+        <qualifiedname>UWeaponRuntimePin::PinDebugValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="409" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d5d/class_u_weapon_runtime_pin_1aeb4caa44c2100ad0dfa91105f5faa297" prot="public" static="no" mutable="no">
+        <type>FGuid</type>
+        <definition>FGuid UWeaponRuntimePin::PinGuid</definition>
+        <argsstring></argsstring>
+        <name>PinGuid</name>
+        <qualifiedname>UWeaponRuntimePin::PinGuid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="48" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d5d/class_u_weapon_runtime_pin_1ac5a6112ab90d7be8a59f8173937e0f20" prot="public" static="no" mutable="no">
+        <type>FName</type>
+        <definition>FName UWeaponRuntimePin::PinName</definition>
+        <argsstring></argsstring>
+        <name>PinName</name>
+        <qualifiedname>UWeaponRuntimePin::PinName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="42" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d5d/class_u_weapon_runtime_pin_1a43f8dfba2462577b2ba953118d255346" prot="public" static="no" mutable="no">
+        <type>FName</type>
+        <definition>FName UWeaponRuntimePin::PinSubCategory</definition>
+        <argsstring></argsstring>
+        <name>PinSubCategory</name>
+        <qualifiedname>UWeaponRuntimePin::PinSubCategory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="45" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a94c7d7aa469a0ac7cca99371ce39c7ff" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Fmt</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::AbortExecution</definition>
+        <argsstring>(Fmt &amp;&amp;Format, Args &amp;&amp;... args) const</argsstring>
+        <name>AbortExecution</name>
+        <qualifiedname>UWeaponRuntimePin::AbortExecution</qualifiedname>
+        <param>
+          <type>Fmt &amp;&amp;</type>
+          <declname>Format</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="74" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1aea1007639810781266bd111dfabe9855" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::AbortExecution</definition>
+        <argsstring>(FString &amp;&amp;Reason=&quot;&quot;) const</argsstring>
+        <name>AbortExecution</name>
+        <qualifiedname>UWeaponRuntimePin::AbortExecution</qualifiedname>
+        <param>
+          <type>FString &amp;&amp;</type>
+          <declname>Reason</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="71" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponRuntimePin.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a8c0a80497c11631561a0151318205b0d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FString</type>
+        <definition>FString UWeaponRuntimePin::BuildPinDebugString</definition>
+        <argsstring>() const</argsstring>
+        <name>BuildPinDebugString</name>
+        <qualifiedname>UWeaponRuntimePin::BuildPinDebugString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="411" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="411" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1aa9272625332d3239bc97223ea92933e0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::ClearCache</definition>
+        <argsstring>() const</argsstring>
+        <name>ClearCache</name>
+        <qualifiedname>UWeaponRuntimePin::ClearCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="356" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="356" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1ab54955949f6c94f9bae9031948d89451" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+          <param>
+            <type>bool</type>
+            <declname>DoEnsure</declname>
+            <defname>DoEnsure</defname>
+            <defval>true</defval>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::ConvertDataTypeToArrayType</definition>
+        <argsstring>() const</argsstring>
+        <name>ConvertDataTypeToArrayType</name>
+        <qualifiedname>UWeaponRuntimePin::ConvertDataTypeToArrayType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="165" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="165" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1af8586491ad0fb64834098f2181d10460" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::CopyCacheValue</definition>
+        <argsstring>(const UWeaponRuntimePin *OtherPin) const</argsstring>
+        <name>CopyCacheValue</name>
+        <qualifiedname>UWeaponRuntimePin::CopyCacheValue</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>OtherPin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="304" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="304" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1aeb06c62d4b643db81001755fcb61f666" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::EnsureCachePointer</definition>
+        <argsstring>() const</argsstring>
+        <name>EnsureCachePointer</name>
+        <qualifiedname>UWeaponRuntimePin::EnsureCachePointer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="54" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponRuntimePin.cpp" bodystart="22" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a03fb096c659286a43e184a8295a109f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponRuntimePin::EnsureCacheValue</definition>
+        <argsstring>() const</argsstring>
+        <name>EnsureCacheValue</name>
+        <qualifiedname>UWeaponRuntimePin::EnsureCacheValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="53" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponRuntimePin.cpp" bodystart="12" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1afe623f14d217d6f5ec5e1a180e72e0c3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const FInstancedStruct &amp;</type>
+        <definition>const FInstancedStruct &amp; UWeaponRuntimePin::GetCacheStructValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCacheStructValue</name>
+        <qualifiedname>UWeaponRuntimePin::GetCacheStructValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="125" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="125" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a9e1192b6d571c7cf75168eb00c8d6549" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>const T &amp;</type>
+        <definition>const T &amp; UWeaponRuntimePin::GetCacheStructValueAs</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCacheStructValueAs</name>
+        <qualifiedname>UWeaponRuntimePin::GetCacheStructValueAs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="140" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="140" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a9984e922e1e2f1bb190099f335354a40" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>_NODISCARD void *</type>
+        <definition>_NODISCARD void * UWeaponRuntimePin::GetCacheValueData</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCacheValueData</name>
+        <qualifiedname>UWeaponRuntimePin::GetCacheValueData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="56" column="17" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="56" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1ad4f5ca20513b5c0a929278d63ecbcd0f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/db3/class_u_weapon_runtime_graph" kindref="compound">UWeaponRuntimeGraph</ref> *</type>
+        <definition>UWeaponRuntimeGraph * UWeaponRuntimePin::GetGraph</definition>
+        <argsstring>() const</argsstring>
+        <name>GetGraph</name>
+        <qualifiedname>UWeaponRuntimePin::GetGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="317" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="317" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a174362e70df5dadc5193aee8d4d1eee2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ENumericType</type>
+        <definition>ENumericType UWeaponRuntimePin::GetNumericType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNumericType</name>
+        <qualifiedname>UWeaponRuntimePin::GetNumericType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="79" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="79" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a7401eb02b5a90cb332f0d4cf785b0938" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="dd/de0/concept_any_numeric" kindref="compound">AnyNumeric</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T UWeaponRuntimePin::GetNumericValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNumericValue</name>
+        <qualifiedname>UWeaponRuntimePin::GetNumericValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="103" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="103" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a4aafe4e585bddd2d923aebd89dd9002d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="dd/de0/concept_any_numeric" kindref="compound">AnyNumeric</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::GetNumericValue</definition>
+        <argsstring>(T &amp;OutValue) const</argsstring>
+        <name>GetNumericValue</name>
+        <qualifiedname>UWeaponRuntimePin::GetNumericValue</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>OutValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="92" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a23b87045f99c0321a2502292be25edd2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="d5/d94/concept_any_object_type" kindref="compound">AnyObjectType</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+            <defval>UObject</defval>
+          </param>
+        </templateparamlist>
+        <type>const TPersistantArray&lt; T &gt; &amp;</type>
+        <definition>const TPersistantArray&lt; T &gt; &amp; UWeaponRuntimePin::GetObjectArray</definition>
+        <argsstring>() const</argsstring>
+        <name>GetObjectArray</name>
+        <qualifiedname>UWeaponRuntimePin::GetObjectArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="152" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="152" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a5f8adbf859fbf91ab5a165192baddc01" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="d5/d94/concept_any_object_type" kindref="compound">AnyObjectType</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+            <defval>UObject</defval>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE T *</type>
+        <definition>FORCEINLINE T * UWeaponRuntimePin::GetSingleObjectValue</definition>
+        <argsstring>(const int32 Index=0) const</argsstring>
+        <name>GetSingleObjectValue</name>
+        <qualifiedname>UWeaponRuntimePin::GetSingleObjectValue</qualifiedname>
+        <param>
+          <type>const int32</type>
+          <declname>Index</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="267" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="267" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a301fd31ca287035633dd5064db336842" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="d5/d94/concept_any_object_type" kindref="compound">AnyObjectType</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+            <defval>UObject</defval>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE TStrongObjectPtr&lt; T &gt;</type>
+        <definition>FORCEINLINE TStrongObjectPtr&lt; T &gt; UWeaponRuntimePin::GetSingleObjectValueStrongObject</definition>
+        <argsstring>(const int32 Index=0) const</argsstring>
+        <name>GetSingleObjectValueStrongObject</name>
+        <qualifiedname>UWeaponRuntimePin::GetSingleObjectValueStrongObject</qualifiedname>
+        <param>
+          <type>const int32</type>
+          <declname>Index</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="249" column="30" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="249" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1afd600a43a7abf03ccb3e4f0805529d76" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool UWeaponRuntimePin::HasAnyConnection</definition>
+        <argsstring>() const</argsstring>
+        <name>HasAnyConnection</name>
+        <qualifiedname>UWeaponRuntimePin::HasAnyConnection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="386" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="386" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1ad40dfe324ce78c07fd2f79144e8dd665" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponRuntimePin::IsAborting</definition>
+        <argsstring>() const</argsstring>
+        <name>IsAborting</name>
+        <qualifiedname>UWeaponRuntimePin::IsAborting</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="69" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponRuntimePin.cpp" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1ac42a043bd5ed098cd913e82b54f3f369" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponRuntimePin::IsValidNumericType</definition>
+        <argsstring>() const</argsstring>
+        <name>IsValidNumericType</name>
+        <qualifiedname>UWeaponRuntimePin::IsValidNumericType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="97" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a9974b730b9dda6e9475c13663d7c1ec7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool UWeaponRuntimePin::IsValidType</definition>
+        <argsstring>(auto &amp;&amp;Type) const</argsstring>
+        <name>IsValidType</name>
+        <qualifiedname>UWeaponRuntimePin::IsValidType</qualifiedname>
+        <param>
+          <type>auto &amp;&amp;</type>
+          <declname>Type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="392" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="392" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a55190ba15ecd5388dfc3cb32fd898e10" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::SetCacheNumericValue</definition>
+        <argsstring>(T Value) const</argsstring>
+        <name>SetCacheNumericValue</name>
+        <qualifiedname>UWeaponRuntimePin::SetCacheNumericValue</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="277" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="277" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1ad8b6d038fbf7b9ba552372d2a09b67bd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="d5/d94/concept_any_object_type" kindref="compound">AnyObjectType</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::SetCacheObjectArray</definition>
+        <argsstring>(TPersistantArray&lt; T &gt; &amp;&amp;Value) const</argsstring>
+        <name>SetCacheObjectArray</name>
+        <qualifiedname>UWeaponRuntimePin::SetCacheObjectArray</qualifiedname>
+        <param>
+          <type>TPersistantArray&lt; T &gt; &amp;&amp;</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="333" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="333" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1ae4f0a099815166ad38fa5f3cd763f987" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="d5/d94/concept_any_object_type" kindref="compound">AnyObjectType</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+            <defval>UObject</defval>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::SetCacheObjectValue</definition>
+        <argsstring>(T *Object) const</argsstring>
+        <name>SetCacheObjectValue</name>
+        <qualifiedname>UWeaponRuntimePin::SetCacheObjectValue</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>Object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="323" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="323" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1af1d39247adcd1ea8c3cb878d05ad46f5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::SetCacheStringValue</definition>
+        <argsstring>(FString &amp;&amp;Value) const</argsstring>
+        <name>SetCacheStringValue</name>
+        <qualifiedname>UWeaponRuntimePin::SetCacheStringValue</qualifiedname>
+        <param>
+          <type>FString &amp;&amp;</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="285" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="285" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1ab48c1dec542727a96eda46080836c6fd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::SetCacheStructValue</definition>
+        <argsstring>(const FInstancedStruct &amp;Value) const</argsstring>
+        <name>SetCacheStructValue</name>
+        <qualifiedname>UWeaponRuntimePin::SetCacheStructValue</qualifiedname>
+        <param>
+          <type>const FInstancedStruct &amp;</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="292" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="292" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a5c59f39e35f552363a484baf5597bae8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::SetCacheStructValueAs</definition>
+        <argsstring>(T &amp;&amp;Value) const</argsstring>
+        <name>SetCacheStructValueAs</name>
+        <qualifiedname>UWeaponRuntimePin::SetCacheStructValueAs</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="299" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="299" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a19c340239d58c52c7bfe409715970fd5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponRuntimePin::SetPropertyValue</definition>
+        <argsstring>(FProperty *Property, const void *Data) const</argsstring>
+        <name>SetPropertyValue</name>
+        <qualifiedname>UWeaponRuntimePin::SetPropertyValue</qualifiedname>
+        <param>
+          <type>FProperty *</type>
+          <declname>Property</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>Data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="63" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="63" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1ab9e244cb3659f4b941b84624317d6e86" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const TPersistantArray&lt; UObject &gt; &amp;</type>
+        <definition>const TPersistantArray&lt; UObject &gt; &amp; UWeaponRuntimePin::GetObjectArray_Impl</definition>
+        <argsstring>() const</argsstring>
+        <name>GetObjectArray_Impl</name>
+        <qualifiedname>UWeaponRuntimePin::GetObjectArray_Impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="208" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="208" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5d/class_u_weapon_runtime_pin_1a2bfa9203f1012890a10443496bf3a819" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="d5/d94/concept_any_object_type" kindref="compound">AnyObjectType</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>const TPersistantArray&lt; T &gt; &amp;</type>
+        <definition>const TPersistantArray&lt; T &gt; &amp; UWeaponRuntimePin::GetObjectArrayAs_Impl</definition>
+        <argsstring>() const</argsstring>
+        <name>GetObjectArrayAs_Impl</name>
+        <qualifiedname>UWeaponRuntimePin::GetObjectArrayAs_Impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="229" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="229" bodyend="244"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponRuntimePin</label>
+        <link refid="dd/d5d/class_u_weapon_runtime_pin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+      <node id="3">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>UWeaponRuntimePin</label>
+        <link refid="dd/d5d/class_u_weapon_runtime_pin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" line="35" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponRuntimePin.h" bodystart="36" bodyend="418"/>
+    <listofallmembers>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1aea1007639810781266bd111dfabe9855" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>AbortExecution</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a94c7d7aa469a0ac7cca99371ce39c7ff" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>AbortExecution</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a8c0a80497c11631561a0151318205b0d" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>BuildPinDebugString</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1ac32119c3bdbe6a5e1f2c69255d109acf" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>CacheValue</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1aa9272625332d3239bc97223ea92933e0" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>ClearCache</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1adc1da951c9b9de0009334f1db231bcd0" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>Connections</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1ab54955949f6c94f9bae9031948d89451" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>ConvertDataTypeToArrayType</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1af8586491ad0fb64834098f2181d10460" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>CopyCacheValue</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1aeb06c62d4b643db81001755fcb61f666" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>EnsureCachePointer</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a03fb096c659286a43e184a8295a109f2" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>EnsureCacheValue</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1afe623f14d217d6f5ec5e1a180e72e0c3" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>GetCacheStructValue</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a9e1192b6d571c7cf75168eb00c8d6549" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>GetCacheStructValueAs</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a9984e922e1e2f1bb190099f335354a40" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>GetCacheValueData</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1ad4f5ca20513b5c0a929278d63ecbcd0f" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>GetGraph</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a174362e70df5dadc5193aee8d4d1eee2" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>GetNumericType</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a4aafe4e585bddd2d923aebd89dd9002d" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>GetNumericValue</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a7401eb02b5a90cb332f0d4cf785b0938" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>GetNumericValue</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a23b87045f99c0321a2502292be25edd2" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>GetObjectArray</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1ab9e244cb3659f4b941b84624317d6e86" prot="protected" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>GetObjectArray_Impl</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a2bfa9203f1012890a10443496bf3a819" prot="protected" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>GetObjectArrayAs_Impl</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a5f8adbf859fbf91ab5a165192baddc01" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>GetSingleObjectValue</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a301fd31ca287035633dd5064db336842" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>GetSingleObjectValueStrongObject</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1afd600a43a7abf03ccb3e4f0805529d76" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>HasAnyConnection</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1ad40dfe324ce78c07fd2f79144e8dd665" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>IsAborting</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1ac42a043bd5ed098cd913e82b54f3f369" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>IsValidNumericType</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a9974b730b9dda6e9475c13663d7c1ec7" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>IsValidType</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1ad9ffa02073ad640309062839b1fc2149" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>Parent</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a5123eb1dfe84052c9a66e762c09c3976" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>PinDebugValue</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1aeb4caa44c2100ad0dfa91105f5faa297" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>PinGuid</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1ac5a6112ab90d7be8a59f8173937e0f20" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>PinName</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a43f8dfba2462577b2ba953118d255346" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>PinSubCategory</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a55190ba15ecd5388dfc3cb32fd898e10" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>SetCacheNumericValue</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1ad8b6d038fbf7b9ba552372d2a09b67bd" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>SetCacheObjectArray</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1ae4f0a099815166ad38fa5f3cd763f987" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>SetCacheObjectValue</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1af1d39247adcd1ea8c3cb878d05ad46f5" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>SetCacheStringValue</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1ab48c1dec542727a96eda46080836c6fd" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>SetCacheStructValue</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a5c59f39e35f552363a484baf5597bae8" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>SetCacheStructValueAs</name></member>
+      <member refid="dd/d5d/class_u_weapon_runtime_pin_1a19c340239d58c52c7bfe409715970fd5" prot="public" virt="non-virtual"><scope>UWeaponRuntimePin</scope><name>SetPropertyValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

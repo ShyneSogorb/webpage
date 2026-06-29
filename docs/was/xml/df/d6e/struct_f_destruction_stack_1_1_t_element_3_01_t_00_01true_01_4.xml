@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>FDestructionStack::TElement&lt; T, true &gt;</compoundname>
+    <includes local="no">WeaponNodeStack.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a3aebe811817cd25b0b198eaeadccb4ad" prot="protected" static="no" mutable="no">
+        <type>T</type>
+        <definition>T FDestructionStack::TElement&lt; T, true &gt;::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>FDestructionStack::TElement&lt; T, true &gt;::Value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="122" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a683fdf402b5399afabda013b674c6aa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FDestructionStack::TElement&lt; T, true &gt;::TElement</definition>
+        <argsstring>(const TElement &amp;)=delete</argsstring>
+        <name>TElement</name>
+        <qualifiedname>FDestructionStack::TElement&lt; T, true &gt;::TElement</qualifiedname>
+        <param>
+          <type>const <ref refid="da/d10/struct_f_destruction_stack_1_1_t_element" kindref="compound">TElement</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1adb242094eb935e86265d39173dfdea4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>FDestructionStack::TElement&lt; T, true &gt;::TElement</definition>
+        <argsstring>(FDestructionStack &amp;, Args &amp;&amp;... args)</argsstring>
+        <name>TElement</name>
+        <qualifiedname>FDestructionStack::TElement&lt; T, true &gt;::TElement</qualifiedname>
+        <param>
+          <type><ref refid="d4/df7/struct_f_destruction_stack" kindref="compound">FDestructionStack</ref> &amp;</type>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="104" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="104" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a0aa5e9bd812c7674ea48fc73b0efe94f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FDestructionStack::TElement&lt; T, true &gt;::TElement</definition>
+        <argsstring>(TElement &amp;&amp;)=delete</argsstring>
+        <name>TElement</name>
+        <qualifiedname>FDestructionStack::TElement&lt; T, true &gt;::TElement</qualifiedname>
+        <param>
+          <type><ref refid="da/d10/struct_f_destruction_stack_1_1_t_element" kindref="compound">TElement</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="116" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1aa05dd274bac1e08507fa4c6219bc6213" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * FDestructionStack::TElement&lt; T, true &gt;::operator new</definition>
+        <argsstring>(size_t)=delete</argsstring>
+        <name>operator new</name>
+        <qualifiedname>FDestructionStack::TElement&lt; T, true &gt;::operator new</qualifiedname>
+        <param>
+          <type>size_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="113" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1aeffaa61e42e6996b2352f4f7990be2e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * FDestructionStack::TElement&lt; T, true &gt;::operator new[]</definition>
+        <argsstring>(size_t)=delete</argsstring>
+        <name>operator new[]</name>
+        <qualifiedname>FDestructionStack::TElement&lt; T, true &gt;::operator new[]</qualifiedname>
+        <param>
+          <type>size_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="114" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a6be59b703d84b79fb67d4c81da820a13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; FDestructionStack::TElement&lt; T, true &gt;::operator*</definition>
+        <argsstring>()</argsstring>
+        <name>operator*</name>
+        <qualifiedname>FDestructionStack::TElement&lt; T, true &gt;::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="107" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a945b8bfede3bdd1aacc15f3ebd6f73c9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T &amp; FDestructionStack::TElement&lt; T, true &gt;::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <qualifiedname>FDestructionStack::TElement&lt; T, true &gt;::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="108" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1ad559d2ef2664177574e99577fdb3591a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T * FDestructionStack::TElement&lt; T, true &gt;::operator-&gt;</definition>
+        <argsstring>()</argsstring>
+        <name>operator-&gt;</name>
+        <qualifiedname>FDestructionStack::TElement&lt; T, true &gt;::operator-&gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="110" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a9757e7d4bc78fd4d8f581e7d58b50736" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T *</type>
+        <definition>const T * FDestructionStack::TElement&lt; T, true &gt;::operator-&gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator-&gt;</name>
+        <qualifiedname>FDestructionStack::TElement&lt; T, true &gt;::operator-&gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="111" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1aa43674cf47991ef6e3a75d4d1f21c0f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d10/struct_f_destruction_stack_1_1_t_element" kindref="compound">TElement</ref> &amp;</type>
+        <definition>TElement &amp; FDestructionStack::TElement&lt; T, true &gt;::operator=</definition>
+        <argsstring>(const TElement &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>FDestructionStack::TElement&lt; T, true &gt;::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="da/d10/struct_f_destruction_stack_1_1_t_element" kindref="compound">TElement</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="117" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a4781437b71c2a3e21dc86963ba4dd884" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d10/struct_f_destruction_stack_1_1_t_element" kindref="compound">TElement</ref> &amp;</type>
+        <definition>TElement &amp; FDestructionStack::TElement&lt; T, true &gt;::operator=</definition>
+        <argsstring>(TElement &amp;&amp;)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>FDestructionStack::TElement&lt; T, true &gt;::operator=</qualifiedname>
+        <param>
+          <type><ref refid="da/d10/struct_f_destruction_stack_1_1_t_element" kindref="compound">TElement</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="118" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" line="100" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/WeaponNodeStack.h" bodystart="101" bodyend="124"/>
+    <listofallmembers>
+      <member refid="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1aa05dd274bac1e08507fa4c6219bc6213" prot="public" virt="non-virtual"><scope>FDestructionStack::TElement&lt; T, true &gt;</scope><name>operator new</name></member>
+      <member refid="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1aeffaa61e42e6996b2352f4f7990be2e9" prot="public" virt="non-virtual"><scope>FDestructionStack::TElement&lt; T, true &gt;</scope><name>operator new[]</name></member>
+      <member refid="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a6be59b703d84b79fb67d4c81da820a13" prot="public" virt="non-virtual"><scope>FDestructionStack::TElement&lt; T, true &gt;</scope><name>operator*</name></member>
+      <member refid="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a945b8bfede3bdd1aacc15f3ebd6f73c9" prot="public" virt="non-virtual"><scope>FDestructionStack::TElement&lt; T, true &gt;</scope><name>operator*</name></member>
+      <member refid="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1ad559d2ef2664177574e99577fdb3591a" prot="public" virt="non-virtual"><scope>FDestructionStack::TElement&lt; T, true &gt;</scope><name>operator-&gt;</name></member>
+      <member refid="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a9757e7d4bc78fd4d8f581e7d58b50736" prot="public" virt="non-virtual"><scope>FDestructionStack::TElement&lt; T, true &gt;</scope><name>operator-&gt;</name></member>
+      <member refid="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1aa43674cf47991ef6e3a75d4d1f21c0f8" prot="public" virt="non-virtual"><scope>FDestructionStack::TElement&lt; T, true &gt;</scope><name>operator=</name></member>
+      <member refid="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a4781437b71c2a3e21dc86963ba4dd884" prot="public" virt="non-virtual"><scope>FDestructionStack::TElement&lt; T, true &gt;</scope><name>operator=</name></member>
+      <member refid="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1adb242094eb935e86265d39173dfdea4f" prot="public" virt="non-virtual"><scope>FDestructionStack::TElement&lt; T, true &gt;</scope><name>TElement</name></member>
+      <member refid="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a683fdf402b5399afabda013b674c6aa3" prot="public" virt="non-virtual"><scope>FDestructionStack::TElement&lt; T, true &gt;</scope><name>TElement</name></member>
+      <member refid="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a0aa5e9bd812c7674ea48fc73b0efe94f" prot="public" virt="non-virtual"><scope>FDestructionStack::TElement&lt; T, true &gt;</scope><name>TElement</name></member>
+      <member refid="df/d6e/struct_f_destruction_stack_1_1_t_element_3_01_t_00_01true_01_4_1a3aebe811817cd25b0b198eaeadccb4ad" prot="protected" virt="non-virtual"><scope>FDestructionStack::TElement&lt; T, true &gt;</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

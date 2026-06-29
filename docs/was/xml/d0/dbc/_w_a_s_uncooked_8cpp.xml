@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d0/dbc/_w_a_s_uncooked_8cpp" kind="file" language="C++">
+    <compoundname>WASUncooked.cpp</compoundname>
+    <includes refid="db/d9f/_w_a_s_uncooked_8h" local="yes">WASUncooked.h</includes>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="d0/dbc/_w_a_s_uncooked_8cpp_1a0de3ae51f3a629a8e5d113f1b9390da7" prot="public" static="no">
+        <name>LOCTEXT_NAMESPACE</name>
+        <initializer>&quot;FWASUncookedModule&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/WASUncooked.cpp" line="3" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/WASUncooked.cpp" bodystart="3" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;WASUncooked.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOCTEXT_NAMESPACE<sp/>&quot;FWASUncookedModule&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d22/class_f_w_a_s_uncooked_module_1a442473bf1d4818c6f6f7e3e72fd01df8" kindref="member">FWASUncookedModule::StartupModule</ref>()</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d22/class_f_w_a_s_uncooked_module_1a4515be12b97457ea98122858e2d07ba8" kindref="member">FWASUncookedModule::ShutdownModule</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>LOCTEXT_NAMESPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">IMPLEMENT_MODULE(<ref refid="d5/d22/class_f_w_a_s_uncooked_module" kindref="compound">FWASUncookedModule</ref>,<sp/><ref refid="d8/d3f/class_w_a_s_uncooked" kindref="compound">WASUncooked</ref>)</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/Private/WASUncooked.cpp"/>
+  </compounddef>
+</doxygen>

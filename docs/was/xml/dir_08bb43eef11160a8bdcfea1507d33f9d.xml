@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_08bb43eef11160a8bdcfea1507d33f9d" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes</compoundname>
+    <innerdir refid="dir_838b6530bbf51a19e5ebc223caec1e74">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ComponentsNodes</innerdir>
+    <innerdir refid="dir_d50873a3ac8e5888eb5750890937ce30">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/EndNodes</innerdir>
+    <innerdir refid="dir_7e50b3f8845f7cf7aeff3f7cd9b36d93">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/FlowNodes</innerdir>
+    <innerdir refid="dir_8d9966fe0ed822d5679eee48e9de3d43">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/LiteralNodes</innerdir>
+    <innerdir refid="dir_22e4f57930c85dfb032e716f22bc02d6">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/Materials</innerdir>
+    <innerdir refid="dir_4e2ace750ef2e703004cab2f32a2e2d3">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes</innerdir>
+    <innerdir refid="dir_81f7dc9da55559e5559925045a066fda">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/ReflectionNodes</innerdir>
+    <innerdir refid="dir_166dc89337b8d9dcdb8395bb1684e2a3">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/Utils</innerdir>
+    <innerfile refid="df/d5f/_weapon_runtime_graph_8cpp">WeaponRuntimeGraph.cpp</innerfile>
+    <innerfile refid="d4/d2f/_weapon_runtime_node_8cpp">WeaponRuntimeNode.cpp</innerfile>
+    <innerfile refid="d2/d4e/_weapon_runtime_pin_8cpp">WeaponRuntimePin.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/"/>
+  </compounddef>
+</doxygen>

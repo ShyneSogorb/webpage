@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d9/d6f/struct_robber" kind="struct" language="C++" prot="public">
+    <compoundname>Robber</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename Tag</type>
+      </param>
+      <param>
+        <type>typename Tag::type</type>
+        <declname>M</declname>
+        <defname>M</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="d9/d6f/struct_robber_1ad4a4a3abc80ce29807d4e6ce5556f37f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Tag::type</type>
+        <definition>Tag::type get</definition>
+        <argsstring>(Tag)</argsstring>
+        <name>get</name>
+        <qualifiedname>Robber::get</qualifiedname>
+        <param>
+          <type>Tag</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/EditorUtils.cpp" line="20" column="27" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/EditorUtils.cpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/EditorUtils.cpp" line="18" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/EditorUtils.cpp" bodystart="19" bodyend="24"/>
+    <listofallmembers>
+      <member refid="d9/d6f/struct_robber_1ad4a4a3abc80ce29807d4e6ce5556f37f" prot="public" virt="non-virtual"><scope>Robber</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

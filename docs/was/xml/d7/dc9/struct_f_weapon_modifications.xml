@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d7/dc9/struct_f_weapon_modifications" kind="struct" language="C++" prot="public">
+    <compoundname>FWeaponModifications</compoundname>
+    <includes local="no">WeaponModifications.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="d7/dc9/struct_f_weapon_modifications_1a0bf3f5559600474a5ffe3810190b72cd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class FWeaponModificationsAppliedCustomization</definition>
+        <argsstring></argsstring>
+        <name>FWeaponModificationsAppliedCustomization</name>
+        <qualifiedname>FWeaponModifications::FWeaponModificationsAppliedCustomization</qualifiedname>
+        <param>
+          <type><ref refid="d9/d9e/class_f_weapon_modifications_applied_customization" kindref="compound">FWeaponModificationsAppliedCustomization</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" line="57" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d7/dc9/struct_f_weapon_modifications_1aee2e77905c3a8fd0ce403775c332504c" prot="protected" static="no" mutable="no">
+        <type>FGameplayTagContainer</type>
+        <definition>FGameplayTagContainer FWeaponModifications::Container</definition>
+        <argsstring></argsstring>
+        <name>Container</name>
+        <qualifiedname>FWeaponModifications::Container</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" line="63" column="23" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dc9/struct_f_weapon_modifications_1a8957f9a241f9121fd730a23759c5d1f2" prot="protected" static="no" mutable="no">
+        <type>FGameplayTag</type>
+        <definition>FGameplayTag FWeaponModifications::WeaponRoot</definition>
+        <argsstring></argsstring>
+        <name>WeaponRoot</name>
+        <qualifiedname>FWeaponModifications::WeaponRoot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" line="60" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dc9/struct_f_weapon_modifications_1ac18722faf7639cfa21d3f8ba83f4791e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FGameplayTag</type>
+        <definition>FGameplayTag FWeaponModifications::GetModificationAtSlot</definition>
+        <argsstring>(const FGameplayTag &amp;Slot) const</argsstring>
+        <name>GetModificationAtSlot</name>
+        <qualifiedname>FWeaponModifications::GetModificationAtSlot</qualifiedname>
+        <param>
+          <type>const FGameplayTag &amp;</type>
+          <declname>Slot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" line="23" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponModifications.cpp" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc9/struct_f_weapon_modifications_1a5b66fde498892c8c5d9e6a77a8c3bfeb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>_NODISCARD const TArray&lt; FGameplayTag &gt; &amp;</type>
+        <definition>const TArray&lt; FGameplayTag &gt; &amp; FWeaponModifications::GetModsAsArray</definition>
+        <argsstring>() const</argsstring>
+        <name>GetModsAsArray</name>
+        <qualifiedname>FWeaponModifications::GetModsAsArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" line="25" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponModifications.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc9/struct_f_weapon_modifications_1a092021860fdcfe4daaadb619d2419fca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int32</type>
+        <definition>int32 FWeaponModifications::GetNumSlots</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNumSlots</name>
+        <qualifiedname>FWeaponModifications::GetNumSlots</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" line="27" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponModifications.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc9/struct_f_weapon_modifications_1ac28a2487b28a06726bfc7f43bfd1a9b4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const FGameplayTag &amp;</type>
+        <definition>const FGameplayTag &amp; FWeaponModifications::GetRootTag</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRootTag</name>
+        <qualifiedname>FWeaponModifications::GetRootTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" line="48" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc9/struct_f_weapon_modifications_1a010451b4c79d8d9adda291c9b356d4b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FWeaponModifications::HasModification</definition>
+        <argsstring>(const FGameplayTag &amp;Modificator) const</argsstring>
+        <name>HasModification</name>
+        <qualifiedname>FWeaponModifications::HasModification</qualifiedname>
+        <param>
+          <type>const FGameplayTag &amp;</type>
+          <declname>Modificator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" line="21" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponModifications.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc9/struct_f_weapon_modifications_1a216ec5bddc3de5f56e41966453560519" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FWeaponModifications::operator!=</definition>
+        <argsstring>(const FWeaponModifications &amp;Other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>FWeaponModifications::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" line="42" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc9/struct_f_weapon_modifications_1ab95e08c8aa55f19fa94d8f315e366013" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+        <definition>FWeaponModifications &amp; FWeaponModifications::operator=</definition>
+        <argsstring>(const FWeaponModifications &amp;Other)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>FWeaponModifications::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" line="29" column="22" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc9/struct_f_weapon_modifications_1ad05f9b14bdd2c4a37adbe4f245ee8f1f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FWeaponModifications::operator==</definition>
+        <argsstring>(const FWeaponModifications &amp;Other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>FWeaponModifications::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" line="37" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dc9/struct_f_weapon_modifications_1a719aa0a4742d993185100c7b17e5e6f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWeaponModifications::SetModification</definition>
+        <argsstring>(const FGameplayTag &amp;ApplyModification)</argsstring>
+        <name>SetModification</name>
+        <qualifiedname>FWeaponModifications::SetModification</qualifiedname>
+        <param>
+          <type>const FGameplayTag &amp;</type>
+          <declname>ApplyModification</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" line="19" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponModifications.cpp" bodystart="9" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" line="15" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponModifications.h" bodystart="16" bodyend="65"/>
+    <listofallmembers>
+      <member refid="d7/dc9/struct_f_weapon_modifications_1aee2e77905c3a8fd0ce403775c332504c" prot="protected" virt="non-virtual"><scope>FWeaponModifications</scope><name>Container</name></member>
+      <member refid="d7/dc9/struct_f_weapon_modifications_1a0bf3f5559600474a5ffe3810190b72cd" prot="protected" virt="non-virtual"><scope>FWeaponModifications</scope><name>FWeaponModificationsAppliedCustomization</name></member>
+      <member refid="d7/dc9/struct_f_weapon_modifications_1ac18722faf7639cfa21d3f8ba83f4791e" prot="public" virt="non-virtual"><scope>FWeaponModifications</scope><name>GetModificationAtSlot</name></member>
+      <member refid="d7/dc9/struct_f_weapon_modifications_1a5b66fde498892c8c5d9e6a77a8c3bfeb" prot="public" virt="non-virtual"><scope>FWeaponModifications</scope><name>GetModsAsArray</name></member>
+      <member refid="d7/dc9/struct_f_weapon_modifications_1a092021860fdcfe4daaadb619d2419fca" prot="public" virt="non-virtual"><scope>FWeaponModifications</scope><name>GetNumSlots</name></member>
+      <member refid="d7/dc9/struct_f_weapon_modifications_1ac28a2487b28a06726bfc7f43bfd1a9b4" prot="public" virt="non-virtual"><scope>FWeaponModifications</scope><name>GetRootTag</name></member>
+      <member refid="d7/dc9/struct_f_weapon_modifications_1a010451b4c79d8d9adda291c9b356d4b6" prot="public" virt="non-virtual"><scope>FWeaponModifications</scope><name>HasModification</name></member>
+      <member refid="d7/dc9/struct_f_weapon_modifications_1a216ec5bddc3de5f56e41966453560519" prot="public" virt="non-virtual"><scope>FWeaponModifications</scope><name>operator!=</name></member>
+      <member refid="d7/dc9/struct_f_weapon_modifications_1ab95e08c8aa55f19fa94d8f315e366013" prot="public" virt="non-virtual"><scope>FWeaponModifications</scope><name>operator=</name></member>
+      <member refid="d7/dc9/struct_f_weapon_modifications_1ad05f9b14bdd2c4a37adbe4f245ee8f1f" prot="public" virt="non-virtual"><scope>FWeaponModifications</scope><name>operator==</name></member>
+      <member refid="d7/dc9/struct_f_weapon_modifications_1a719aa0a4742d993185100c7b17e5e6f5" prot="public" virt="non-virtual"><scope>FWeaponModifications</scope><name>SetModification</name></member>
+      <member refid="d7/dc9/struct_f_weapon_modifications_1a8957f9a241f9121fd730a23759c5d1f2" prot="protected" virt="non-virtual"><scope>FWeaponModifications</scope><name>WeaponRoot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

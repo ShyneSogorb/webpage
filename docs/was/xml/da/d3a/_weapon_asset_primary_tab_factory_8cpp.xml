@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="da/d3a/_weapon_asset_primary_tab_factory_8cpp" kind="file" language="C++">
+    <compoundname>WeaponAssetPrimaryTabFactory.cpp</compoundname>
+    <includes refid="d6/d45/_weapon_asset_primary_tab_factory_8h" local="yes">Tabs/WeaponAssetPrimaryTabFactory.h</includes>
+    <includes refid="db/d51/_weapon_asset_editor_app_8h" local="yes">WeaponAssetEditorApp.h</includes>
+    <includes refid="d4/dfe/_weapon_asset_8h" local="yes">Core/WeaponAsset.h</includes>
+    <includes local="yes">IDetailsView.h</includes>
+    <includes local="yes">PropertyEditorModule.h</includes>
+    <includes local="yes">GraphEditor.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Tabs/WeaponAssetPrimaryTabFactory.cpp</label>
+        <link refid="da/d3a/_weapon_asset_primary_tab_factory_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphEditor.h</label>
+      </node>
+      <node id="2">
+        <label>IDetailsView.h</label>
+      </node>
+      <node id="3">
+        <label>PropertyEditorModule.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Tabs/WeaponAssetPrimaryTabFactory.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponAssetEditorApp.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Core/WeaponAsset.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;IDetailsView.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;PropertyEditorModule.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GraphEditor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="d0/d50/class_f_weapon_asset_primary_tab_factory_1aee649a2ee40f9c01535fea504649215c" kindref="member">FWeaponAssetPrimaryTabFactory::FWeaponAssetPrimaryTabFactory</ref>(TSharedPtr&lt;class<sp/>FWeaponAssetEditorApp&gt;<sp/>InApp)<sp/>:<sp/>FWorkflowTabFactory(FName(</highlight><highlight class="stringliteral">&quot;WeaponAssetPrimaryTab&quot;</highlight><highlight class="normal">),<sp/>InApp)<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>App<sp/>=<sp/>InApp;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>TabLabel<sp/>=<sp/>FText::FromString(TEXT(</highlight><highlight class="stringliteral">&quot;Primary&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>ViewMenuDescription<sp/>=<sp/>FText::FromString(TEXT(</highlight><highlight class="stringliteral">&quot;Displays<sp/>a<sp/>primary<sp/>view<sp/>for<sp/>the<sp/>design&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>ViewMenuTooltip<sp/>=<sp/>FText::FromString(TEXT(</highlight><highlight class="stringliteral">&quot;Show<sp/>primary<sp/>view&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">TSharedRef&lt;SWidget&gt;<sp/><ref refid="d0/d50/class_f_weapon_asset_primary_tab_factory_1acbefd433bf0df80be13a345ae91210cc" kindref="member">FWeaponAssetPrimaryTabFactory::CreateTabBody</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FWorkflowTabSpawnInfo&amp;<sp/>Info)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;FWeaponAssetEditorApp&gt;<sp/>app<sp/>=<sp/>App.Pin();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>SGraphEditor::FGraphEditorEvents<sp/>graphEvents;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>graphEvents.OnSelectionChanged.BindRaw(app.Get(),<sp/>&amp;<ref refid="da/d5f/class_f_weapon_asset_editor_app_1acda82c76918dd5cb21c4592abdd92559" kindref="member">FWeaponAssetEditorApp::OnGraphSelectionChanged</ref>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;SGraphEditor&gt;<sp/>GraphEditor<sp/>=</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SNew(SGraphEditor)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.IsEditable(!!App.Pin()-&gt;GetWorkingAsset())</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.GraphEvents(graphEvents)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.GraphToEdit(app-&gt;GetWorkingGraph());</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>app-&gt;SetWorkingGraphUi(GraphEditor);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>SNew(SVerticalBox)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>SVerticalBox::Slot()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.FillHeight(1.0f)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.HAlign(HAlign_Fill)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GraphEditor.ToSharedRef()</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">FText<sp/><ref refid="d0/d50/class_f_weapon_asset_primary_tab_factory_1a9584b02f809de6981501e6c85cc1f2af" kindref="member">FWeaponAssetPrimaryTabFactory::GetTabToolTipText</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FWorkflowTabSpawnInfo&amp;<sp/>Info)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FText::FromString(TEXT(</highlight><highlight class="stringliteral">&quot;A<sp/>primary<sp/>view&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Tabs/WeaponAssetPrimaryTabFactory.cpp"/>
+  </compounddef>
+</doxygen>

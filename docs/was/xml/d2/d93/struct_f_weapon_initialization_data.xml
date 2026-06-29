@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d2/d93/struct_f_weapon_initialization_data" kind="struct" language="C++" prot="public">
+    <compoundname>FWeaponInitializationData</compoundname>
+    <includes local="no">WeaponInitializationData.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d2/d93/struct_f_weapon_initialization_data_1ac5bb6f428db878c16e0e6864bcea7d8d" prot="public" static="no" mutable="no">
+        <type>int32</type>
+        <definition>int32 FWeaponInitializationData::AmmoInMagazine</definition>
+        <argsstring></argsstring>
+        <name>AmmoInMagazine</name>
+        <qualifiedname>FWeaponInitializationData::AmmoInMagazine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponInitializationData.h" line="24" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponInitializationData.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d93/struct_f_weapon_initialization_data_1aa147a332f52f60ea596e43679e4ca93d" prot="public" static="no" mutable="no">
+        <type>uint8</type>
+        <definition>uint8 FWeaponInitializationData::bJammed</definition>
+        <argsstring></argsstring>
+        <name>bJammed</name>
+        <qualifiedname>FWeaponInitializationData::bJammed</qualifiedname>
+        <bitfield>1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponInitializationData.h" line="27" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponInitializationData.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d93/struct_f_weapon_initialization_data_1acfbd0d6ac1e8a4cd031e417c2d24f30f" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref></type>
+        <definition>FWeaponModifications FWeaponInitializationData::Components</definition>
+        <argsstring></argsstring>
+        <name>Components</name>
+        <qualifiedname>FWeaponInitializationData::Components</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponInitializationData.h" line="21" column="22" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponInitializationData.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d93/struct_f_weapon_initialization_data_1a345a4958060bc89ad9abf80032767790" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FWeaponInitializationData::FWeaponInitializationData</definition>
+        <argsstring>()</argsstring>
+        <name>FWeaponInitializationData</name>
+        <qualifiedname>FWeaponInitializationData::FWeaponInitializationData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponInitializationData.h" line="29" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponInitializationData.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d93/struct_f_weapon_initialization_data_1a4acbd70bcf6f5600feb7c747e4cd2116" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FWeaponInitializationData::FWeaponInitializationData</definition>
+        <argsstring>(const FWeaponModifications &amp;InComponents, const int32 Ammo, const bool Jammed)</argsstring>
+        <name>FWeaponInitializationData</name>
+        <qualifiedname>FWeaponInitializationData::FWeaponInitializationData</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/dc9/struct_f_weapon_modifications" kindref="compound">FWeaponModifications</ref> &amp;</type>
+          <declname>InComponents</declname>
+        </param>
+        <param>
+          <type>const int32</type>
+          <declname>Ammo</declname>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>Jammed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponInitializationData.h" line="31" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponInitializationData.h" bodystart="31" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Initial state for weapon component assembly. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>FWeaponInitializationData</label>
+        <link refid="d2/d93/struct_f_weapon_initialization_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Components</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FWeaponModifications</label>
+        <link refid="d7/dc9/struct_f_weapon_modifications"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponInitializationData.h" line="14" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/WeaponInitializationData.h" bodystart="15" bodyend="34"/>
+    <listofallmembers>
+      <member refid="d2/d93/struct_f_weapon_initialization_data_1ac5bb6f428db878c16e0e6864bcea7d8d" prot="public" virt="non-virtual"><scope>FWeaponInitializationData</scope><name>AmmoInMagazine</name></member>
+      <member refid="d2/d93/struct_f_weapon_initialization_data_1aa147a332f52f60ea596e43679e4ca93d" prot="public" virt="non-virtual"><scope>FWeaponInitializationData</scope><name>bJammed</name></member>
+      <member refid="d2/d93/struct_f_weapon_initialization_data_1acfbd0d6ac1e8a4cd031e417c2d24f30f" prot="public" virt="non-virtual"><scope>FWeaponInitializationData</scope><name>Components</name></member>
+      <member refid="d2/d93/struct_f_weapon_initialization_data_1a345a4958060bc89ad9abf80032767790" prot="public" virt="non-virtual"><scope>FWeaponInitializationData</scope><name>FWeaponInitializationData</name></member>
+      <member refid="d2/d93/struct_f_weapon_initialization_data_1a4acbd70bcf6f5600feb7c747e4cd2116" prot="public" virt="non-virtual"><scope>FWeaponInitializationData</scope><name>FWeaponInitializationData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

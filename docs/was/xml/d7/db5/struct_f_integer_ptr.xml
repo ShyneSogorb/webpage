@@ -1,0 +1,1810 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d7/db5/struct_f_integer_ptr" kind="struct" language="C++" prot="public">
+    <compoundname>FIntegerPtr</compoundname>
+    <includes local="no">DynamicPointer.h</includes>
+    <innerclass refid="d4/dac/struct_f_integer_ptr_1_1_type_helper" prot="private">FIntegerPtr::TypeHelper</innerclass>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="d7/db5/struct_f_integer_ptr_1adcdae12952def9af24e84e3c816747a2" prot="private" static="no">
+        <type><ref refid="d8/ddd/struct_type_list_1a471c5931737bf16d4ae128fa13eb369d" kindref="member">UnsignedTypes::Reduce</ref>&lt; <ref refid="dc/d69/structlarger" kindref="compound">larger</ref> &gt;</type>
+        <definition>using FIntegerPtr::BiggestUnsigned =  UnsignedTypes::Reduce&lt;larger&gt;</definition>
+        <argsstring></argsstring>
+        <name>BiggestUnsigned</name>
+        <qualifiedname>FIntegerPtr::BiggestUnsigned</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="137" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="enum" id="d7/db5/struct_f_integer_ptr_1a6575745c99c1f94450acbe3b81e121a8" prot="private" static="no" strong="no">
+        <type>SmallestUnsigned_t&lt; SizeReservedBits+4 &gt;</type>
+        <name>EFlags</name>
+        <qualifiedname>FIntegerPtr::EFlags</qualifiedname>
+        <enumvalue id="d7/db5/struct_f_integer_ptr_1a6575745c99c1f94450acbe3b81e121a8aad7d9688a8bd4f3d7e913aa18f2f1b8f" prot="private">
+          <name>Valid</name>
+          <initializer>= 1 &lt;&lt; (SizeReservedBits + 1)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/db5/struct_f_integer_ptr_1a6575745c99c1f94450acbe3b81e121a8a2b6a92a3a8894034b70d2bf57a267432" prot="private">
+          <name>External</name>
+          <initializer>= 1 &lt;&lt; (SizeReservedBits + 2)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/db5/struct_f_integer_ptr_1a6575745c99c1f94450acbe3b81e121a8a5270a6f9d14b9557899dc2f2a0fd3cae" prot="private">
+          <name>Signed</name>
+          <initializer>= 1 &lt;&lt; (SizeReservedBits + 3)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/db5/struct_f_integer_ptr_1a6575745c99c1f94450acbe3b81e121a8af0eaf0527a0affc0c307712e8a7ee202" prot="private">
+          <name>Active</name>
+          <initializer>= 1 &lt;&lt; (SizeReservedBits + 4)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="344" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="345" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/db5/struct_f_integer_ptr_1acfa097031f93adc8e23b7a69631950ab" prot="private" static="no">
+        <type><ref refid="d8/ddd/struct_type_list" kindref="compound">TypeList</ref>&lt; int8, int16, int32, int64 &gt;</type>
+        <definition>using FIntegerPtr::SignedTypes =  TypeList&lt;int8, int16, int32, int64&gt;</definition>
+        <argsstring></argsstring>
+        <name>SignedTypes</name>
+        <qualifiedname>FIntegerPtr::SignedTypes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="134" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/db5/struct_f_integer_ptr_1a5f379e74ed20fac32a0c7ecb308a6457" prot="private" static="no">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>ReservedBits</declname>
+            <defname>ReservedBits</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="d8/ddd/struct_type_list_1a471c5931737bf16d4ae128fa13eb369d" kindref="member">SignedTypes::Reduce</ref>&lt; <ref refid="db/d41/structsmaller_min_requirement" kindref="compound">smallerMinRequirement</ref>&lt; ReservedBits &gt; &gt;</type>
+        <definition>using FIntegerPtr::SmallestSigned_t =  SignedTypes::Reduce&lt;smallerMinRequirement&lt;ReservedBits&gt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>SmallestSigned_t</name>
+        <qualifiedname>FIntegerPtr::SmallestSigned_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="150" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/db5/struct_f_integer_ptr_1ad89246c7f3ce869b5908bd0832103944" prot="private" static="no">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>ReservedBits</declname>
+            <defname>ReservedBits</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="d8/ddd/struct_type_list_1a471c5931737bf16d4ae128fa13eb369d" kindref="member">UnsignedTypes::Reduce</ref>&lt; <ref refid="db/d41/structsmaller_min_requirement" kindref="compound">smallerMinRequirement</ref>&lt; ReservedBits &gt; &gt;</type>
+        <definition>using FIntegerPtr::SmallestUnsigned_t =  UnsignedTypes::Reduce&lt;smallerMinRequirement&lt;ReservedBits&gt;&gt;</definition>
+        <argsstring></argsstring>
+        <name>SmallestUnsigned_t</name>
+        <qualifiedname>FIntegerPtr::SmallestUnsigned_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="147" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/db5/struct_f_integer_ptr_1a79d07efd87d768ab1ad3ee9d86f7cdd0" prot="private" static="no">
+        <type><ref refid="d8/ddd/struct_type_list" kindref="compound">TypeList</ref>&lt; uint8, int8, uint16, int16, uint32, int32, uint64, int64 &gt;</type>
+        <definition>using FIntegerPtr::Types =  TypeList&lt;
+		uint8,   int8,
+		uint16,  int16,
+		uint32,  int32,
+		uint64,  int64
+	&gt;</definition>
+        <argsstring></argsstring>
+        <name>Types</name>
+        <qualifiedname>FIntegerPtr::Types</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="377" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="377" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/db5/struct_f_integer_ptr_1a99b3305e843ccd1b7207b8991a2e781d" prot="private" static="no">
+        <type><ref refid="d8/ddd/struct_type_list" kindref="compound">TypeList</ref>&lt; uint8, uint16, uint32, uint64 &gt;</type>
+        <definition>using FIntegerPtr::UnsignedTypes =  TypeList&lt;uint8, uint16, uint32, uint64&gt;</definition>
+        <argsstring></argsstring>
+        <name>UnsignedTypes</name>
+        <qualifiedname>FIntegerPtr::UnsignedTypes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="135" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d7/db5/struct_f_integer_ptr_1a4b7a3444d73183fb969c71e2d5bb2c8e" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>size_t</type>
+        <definition>size_t FIntegerPtr::FlagSize</definition>
+        <argsstring></argsstring>
+        <name>FlagSize</name>
+        <qualifiedname>FIntegerPtr::FlagSize</qualifiedname>
+        <initializer>= sizeof(EFlags)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="356" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/db5/struct_f_integer_ptr_1af43994cea7ee875f443c9385597471a3" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>size_t</type>
+        <definition>size_t FIntegerPtr::MaxAlign</definition>
+        <argsstring></argsstring>
+        <name>MaxAlign</name>
+        <qualifiedname>FIntegerPtr::MaxAlign</qualifiedname>
+        <initializer>= alignof(<ref refid="d8/ddd/struct_type_list_1a471c5931737bf16d4ae128fa13eb369d" kindref="member">UnsignedTypes::Reduce</ref>&lt;<ref refid="d2/da4/structlarger_align" kindref="compound">largerAlign</ref>&gt;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="140" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/db5/struct_f_integer_ptr_1a4bcf2e51810aa1102bee2bb671c7f679" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>size_t</type>
+        <definition>size_t FIntegerPtr::MaxSize</definition>
+        <argsstring></argsstring>
+        <name>MaxSize</name>
+        <qualifiedname>FIntegerPtr::MaxSize</qualifiedname>
+        <initializer>= sizeof(<ref refid="d8/ddd/struct_type_list_1a471c5931737bf16d4ae128fa13eb369d" kindref="member">UnsignedTypes::Reduce</ref>&lt;<ref refid="dc/d69/structlarger" kindref="compound">larger</ref>&gt;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="139" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/db5/struct_f_integer_ptr_1a9e37796fdb951259f1f9829a14dd4331" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>size_t</type>
+        <definition>size_t FIntegerPtr::SizeMask</definition>
+        <argsstring></argsstring>
+        <name>SizeMask</name>
+        <qualifiedname>FIntegerPtr::SizeMask</qualifiedname>
+        <initializer>= (1 &lt;&lt; (SizeReservedBits + 1)) - 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="143" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/db5/struct_f_integer_ptr_1a053fa26359ec41219830ec1cf05e50a1" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>size_t</type>
+        <definition>size_t FIntegerPtr::SizeReservedBits</definition>
+        <argsstring></argsstring>
+        <name>SizeReservedBits</name>
+        <qualifiedname>FIntegerPtr::SizeReservedBits</qualifiedname>
+        <initializer>= std::countr_zero(MaxSize)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="142" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/db5/struct_f_integer_ptr_1a0b8549f82d6fbe94169fe7d1a1b54ad1" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool FIntegerPtr::UseSwitch</definition>
+        <argsstring></argsstring>
+        <name>UseSwitch</name>
+        <qualifiedname>FIntegerPtr::UseSwitch</qualifiedname>
+        <initializer>= UE_BUILD_SHIPPING</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="132" column="23" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/db5/struct_f_integer_ptr_1a2c459df3ac6b719268183fd3f452518c" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* FIntegerPtr::Ptr</definition>
+        <argsstring></argsstring>
+        <name>Ptr</name>
+        <qualifiedname>FIntegerPtr::Ptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="338" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/db5/struct_f_integer_ptr_1acb8033ad79ec383a6456121b2c19e3a0" prot="public" static="no" mutable="no">
+        <type>std::byte</type>
+        <definition>std::byte FIntegerPtr::Value[MaxSize]</definition>
+        <argsstring>[MaxSize]</argsstring>
+        <name>Value</name>
+        <qualifiedname>FIntegerPtr::Value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="340" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="340" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/db5/struct_f_integer_ptr_1ae4e0690f20c1ed099721bb03f36827a2" prot="private" static="no" mutable="no">
+        <type>std::underlying_type_t&lt; EFlags &gt;</type>
+        <definition>std::underlying_type_t&lt;EFlags&gt; FIntegerPtr::Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <qualifiedname>FIntegerPtr::Data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="354" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/db5/struct_f_integer_ptr_1a59a358cd2ff6bb54e11dca263bcd2681" prot="private" static="no" mutable="no">
+        <type>union <ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref></type>
+        <definition>union FIntegerPtr FIntegerPtr::Element</definition>
+        <argsstring></argsstring>
+        <name>Element</name>
+        <qualifiedname>FIntegerPtr::Element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="341" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1aa2bffd9f81758f7b4c23b17c2f01bd73" prot="private" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>auto ...</type>
+            <declname>FlagsToAdd</declname>
+            <defname>FlagsToAdd</defname>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE void</type>
+        <definition>FORCEINLINE void FIntegerPtr::AddFlag</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>AddFlag</name>
+        <qualifiedname>FIntegerPtr::AddFlag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="359" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="359" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a682d6511d43164d3abd7ff6721a50634" prot="private" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>auto...</type>
+            <declname>FlagsToCheck</declname>
+            <defname>FlagsToCheck</defname>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool FIntegerPtr::AreFlags</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>AreFlags</name>
+        <qualifiedname>FIntegerPtr::AreFlags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="392" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="392" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a63f6486eb4c4d333304737c48d3d9088" prot="private" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>auto...</type>
+            <declname>FlagsToCheck</declname>
+            <defname>FlagsToCheck</defname>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool FIntegerPtr::AreFlags_Impl</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>AreFlags_Impl</name>
+        <qualifiedname>FIntegerPtr::AreFlags_Impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="385" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="385" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1aa8df5424fbd933b0854845e294c73e6e" prot="private" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>auto...</type>
+            <declname>FlagsToCheck</declname>
+            <defname>FlagsToCheck</defname>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool FIntegerPtr::AreFlagsNot</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>AreFlagsNot</name>
+        <qualifiedname>FIntegerPtr::AreFlagsNot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="399" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="399" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a9dd50ebb5880a0fc8add5447ca0ed9c6" prot="private" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * FIntegerPtr::GetMutablePtr</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>GetMutablePtr</name>
+        <qualifiedname>FIntegerPtr::GetMutablePtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="310" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="310" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a8f38643d4880e6fcef7ef2448db079bb" prot="private" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const void *</type>
+        <definition>const void * FIntegerPtr::GetPtr_Internal</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>GetPtr_Internal</name>
+        <qualifiedname>FIntegerPtr::GetPtr_Internal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="305" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="305" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a60ab1af1f86f400c6e9d3f742a0529d6" prot="private" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * FIntegerPtr::GetPtr_Internal</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>GetPtr_Internal</name>
+        <qualifiedname>FIntegerPtr::GetPtr_Internal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="300" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="300" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a36682883ed335422ef0f38624c74af2b" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8</type>
+        <definition>uint8 FIntegerPtr::GetSizeImpl</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSizeImpl</name>
+        <qualifiedname>FIntegerPtr::GetSizeImpl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="160" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1aac49bed06f61e9b520c919f9f06d754c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BiggestUnsigned &amp;</type>
+        <definition>BiggestUnsigned &amp; FIntegerPtr::GetValueRef</definition>
+        <argsstring>()</argsstring>
+        <name>GetValueRef</name>
+        <qualifiedname>FIntegerPtr::GetValueRef</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="326" column="17" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="326" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1afb80d14296a8f21aa2dead26dfe29af2" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const BiggestUnsigned &amp;</type>
+        <definition>const BiggestUnsigned &amp; FIntegerPtr::GetValueRef</definition>
+        <argsstring>() const</argsstring>
+        <name>GetValueRef</name>
+        <qualifiedname>FIntegerPtr::GetValueRef</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="331" column="23" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="331" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a887058fe0d6f70c11e79ce8148028e01" prot="private" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>auto...</type>
+            <declname>FlagsToRemove</declname>
+            <defname>FlagsToRemove</defname>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE void</type>
+        <definition>FORCEINLINE void FIntegerPtr::RemoveFlag</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>RemoveFlag</name>
+        <qualifiedname>FIntegerPtr::RemoveFlag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="365" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="365" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a0340ea5c6f892b1dde024b5f6ff9e8b3" prot="private" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::SetExternal</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>SetExternal</name>
+        <qualifiedname>FIntegerPtr::SetExternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="406" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="406" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1aeef5f38b985856bf87655c8d3d121099" prot="private" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>bool</type>
+            <declname>SetValue</declname>
+            <defname>SetValue</defname>
+          </param>
+          <param>
+            <type>auto...</type>
+            <declname>Flags</declname>
+            <defname>Flags</defname>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE void</type>
+        <definition>FORCEINLINE void FIntegerPtr::SetFlag</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>SetFlag</name>
+        <qualifiedname>FIntegerPtr::SetFlag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="371" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="371" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a7a97628a996c04aaca0fe0025be01ec1" prot="private" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::SetInternal</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>SetInternal</name>
+        <qualifiedname>FIntegerPtr::SetInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="408" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="408" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a5271cbf6b836e612a63f64a62d396132" prot="private" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::SetInternalValue</definition>
+        <argsstring>(BiggestUnsigned Value) noexcept</argsstring>
+        <name>SetInternalValue</name>
+        <qualifiedname>FIntegerPtr::SetInternalValue</qualifiedname>
+        <param>
+          <type>BiggestUnsigned</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="316" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="316" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a5e0e0c3aa907f3bef4635958f9fa4a9c" prot="private" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::SetPtr</definition>
+        <argsstring>(void *Ptr) noexcept</argsstring>
+        <name>SetPtr</name>
+        <qualifiedname>FIntegerPtr::SetPtr</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>Ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="321" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="321" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a8bcac9a04afd6f5fad7375b19df72de6" prot="private" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::SetSigned</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>SetSigned</name>
+        <qualifiedname>FIntegerPtr::SetSigned</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="407" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="407" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1aef51306ea8629e913380a01f35ac6a40" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::SetSize_Impl</definition>
+        <argsstring>(uint8 NewSize)</argsstring>
+        <name>SetSize_Impl</name>
+        <qualifiedname>FIntegerPtr::SetSize_Impl</qualifiedname>
+        <param>
+          <type>uint8</type>
+          <declname>NewSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="165" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="165" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1ae61eec42a82a5cb92db545576841ba90" prot="private" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::SetUnsigned</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>SetUnsigned</name>
+        <qualifiedname>FIntegerPtr::SetUnsigned</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="409" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="409" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a9ed38de860a54c71a898e2be4d4f13d2" prot="private" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::SetValid</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>SetValid</name>
+        <qualifiedname>FIntegerPtr::SetValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="405" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="405" bodyend="405"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a8b9fc242a5d65817368bb7fd8be41e52" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ConvertTo</type>
+          </param>
+          <param>
+            <type>typename ThisClass</type>
+          </param>
+          <param>
+            <type>auto</type>
+            <declname>Callable</declname>
+            <defname>Callable</defname>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>decltype(auto)</type>
+        <definition>static decltype(auto) FIntegerPtr::ExecuteOverType</definition>
+        <argsstring>(ThisClass &amp;&amp;Self, Args &amp;&amp;... args)</argsstring>
+        <name>ExecuteOverType</name>
+        <qualifiedname>FIntegerPtr::ExecuteOverType</qualifiedname>
+        <param>
+          <type>ThisClass &amp;&amp;</type>
+          <declname>Self</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="200" column="17" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="200" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1aaecace6e1c520c7afd515045b91b61c1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename List</type>
+          </param>
+          <param>
+            <type>typename ConvertTo</type>
+          </param>
+          <param>
+            <type>typename ThisClass</type>
+          </param>
+          <param>
+            <type>auto</type>
+            <declname>Callable</declname>
+            <defname>Callable</defname>
+          </param>
+          <param>
+            <type>std::size_t...</type>
+            <declname>Is</declname>
+            <defname>Is</defname>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>ConvertTo</type>
+        <definition>static ConvertTo FIntegerPtr::ExecuteOverType_Impl</definition>
+        <argsstring>(ThisClass &amp;&amp;Self, std::index_sequence&lt; Is... &gt;, Args &amp;&amp;... args)</argsstring>
+        <name>ExecuteOverType_Impl</name>
+        <qualifiedname>FIntegerPtr::ExecuteOverType_Impl</qualifiedname>
+        <param>
+          <type>ThisClass &amp;&amp;</type>
+          <declname>Self</declname>
+        </param>
+        <param>
+          <type>std::index_sequence&lt; Is... &gt;</type>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="173" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="173" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a8914bf228a42b517b4bd34ee9ded94bb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ConvertTo</type>
+          </param>
+          <param>
+            <type>typename ThisClass</type>
+          </param>
+          <param>
+            <type>auto</type>
+            <declname>Callable</declname>
+            <defname>Callable</defname>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>ConvertTo</type>
+        <definition>static ConvertTo FIntegerPtr::ExecuteOverTypeMeta</definition>
+        <argsstring>(ThisClass &amp;&amp;Self, Args &amp;&amp;... args)</argsstring>
+        <name>ExecuteOverTypeMeta</name>
+        <qualifiedname>FIntegerPtr::ExecuteOverTypeMeta</qualifiedname>
+        <param>
+          <type>ThisClass &amp;&amp;</type>
+          <declname>Self</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="219" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="219" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a0e119a92d4cfa8034d4b9df193d9544f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ConvertTo</type>
+          </param>
+          <param>
+            <type>typename ThisClass</type>
+          </param>
+          <param>
+            <type>auto</type>
+            <declname>Callable</declname>
+            <defname>Callable</defname>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>ConvertTo</type>
+        <definition>static ConvertTo FIntegerPtr::ExecuteOverTypeSwitch</definition>
+        <argsstring>(ThisClass &amp;&amp;Self, Args &amp;&amp;... args)</argsstring>
+        <name>ExecuteOverTypeSwitch</name>
+        <qualifiedname>FIntegerPtr::ExecuteOverTypeSwitch</qualifiedname>
+        <param>
+          <type>ThisClass &amp;&amp;</type>
+          <declname>Self</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="245" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="245" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a633fb21e342f354c863a1990029d2247" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+          <param>
+            <type>typename ThisClass</type>
+            <defval><ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref></defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>static T FIntegerPtr::Get_Impl</definition>
+        <argsstring>(ThisClass &amp;&amp;Self)</argsstring>
+        <name>Get_Impl</name>
+        <qualifiedname>FIntegerPtr::Get_Impl</qualifiedname>
+        <param>
+          <type>ThisClass &amp;&amp;</type>
+          <declname>Self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="282" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="282" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1af0ec92f4c21cbfa19ad8a9f5cec9c0a4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+          <param>
+            <type>typename ThisClass</type>
+            <defval><ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref></defval>
+          </param>
+        </templateparamlist>
+        <type>decltype(auto)</type>
+        <definition>static decltype(auto) FIntegerPtr::GetRef_Impl</definition>
+        <argsstring>(ThisClass &amp;&amp;Self)</argsstring>
+        <name>GetRef_Impl</name>
+        <qualifiedname>FIntegerPtr::GetRef_Impl</qualifiedname>
+        <param>
+          <type>ThisClass &amp;&amp;</type>
+          <declname>Self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="292" column="17" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="292" bodyend="298"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a77ef70e13d705b79a3f666867abce7b2" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>FIntegerPtr::FIntegerPtr</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>FIntegerPtr</name>
+        <qualifiedname>FIntegerPtr::FIntegerPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="415" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="415" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a8c8c939bd273e4e50ceca64e8eb6c26f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FIntegerPtr::FIntegerPtr</definition>
+        <argsstring>(const FIntegerPtr &amp;Other)=delete</argsstring>
+        <name>FIntegerPtr</name>
+        <qualifiedname>FIntegerPtr::FIntegerPtr</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="413" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1ade8791371865913bf599af97af59cc90" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>FIntegerPtr::FIntegerPtr</definition>
+        <argsstring>(FIntegerPtr &amp;&amp;Other) noexcept</argsstring>
+        <name>FIntegerPtr</name>
+        <qualifiedname>FIntegerPtr::FIntegerPtr</qualifiedname>
+        <param>
+          <type><ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref> &amp;&amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="416" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="416" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a9937484fea78ca531294d46d2f8dd515" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>FIntegerPtr::~FIntegerPtr</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>~FIntegerPtr</name>
+        <qualifiedname>FIntegerPtr::~FIntegerPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="421" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="421" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a4a674b47aa5c69a5fe20502b187fcca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void FIntegerPtr::AllocateNewValue</definition>
+        <argsstring>(T &amp;&amp;Value=T())</argsstring>
+        <name>AllocateNewValue</name>
+        <qualifiedname>FIntegerPtr::AllocateNewValue</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Value</declname>
+          <defval>T()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Allocates and stores an integer value inline. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Integer type to store. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to store (defaults to zero-initialized). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="509" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="509" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a620ee2406626c03c55634cb51db462ce" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::Deactivate</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>Deactivate</name>
+        <qualifiedname>FIntegerPtr::Deactivate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="488" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="488" bodyend="491"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1ad5431a3a3fd8b90fad5c7784ecbace7b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T FIntegerPtr::Get</definition>
+        <argsstring>() const</argsstring>
+        <name>Get</name>
+        <qualifiedname>FIntegerPtr::Get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="560" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="560" bodyend="560"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1acf1a9a55165b2addf4c65fef5d592b34" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const void *</type>
+        <definition>const void * FIntegerPtr::GetPtr</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>GetPtr</name>
+        <qualifiedname>FIntegerPtr::GetPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns pointer to the stored integer (internal or external). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="745" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="745" bodyend="749"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a0f6cdf3d7b45dac5b88184d9a579e77f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>T &amp;</type>
+        <definition>T &amp; FIntegerPtr::GetRef</definition>
+        <argsstring>()</argsstring>
+        <name>GetRef</name>
+        <qualifiedname>FIntegerPtr::GetRef</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns mutable reference to the stored integer. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Expected integer type. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Reference to the value (must match actual type). </para>
+</simplesect>
+<simplesect kind="warning"><para>Behavior is undefined if T does not match the actual stored type. Use with caution. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="569" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="569" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1aa4f529c2dea90e0b42e86e907ee1a1c4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>const T &amp;</type>
+        <definition>const T &amp; FIntegerPtr::GetRef</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRef</name>
+        <qualifiedname>FIntegerPtr::GetRef</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns const reference to the stored integer. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Expected integer type. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Const reference to the value. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="580" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="580" bodyend="583"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1aebbcdb3fbe7611ba780d60785010d724" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>uint8</type>
+        <definition>uint8 FIntegerPtr::GetSize</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>GetSize</name>
+        <qualifiedname>FIntegerPtr::GetSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="446" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="446" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1aaa269ed5184bfbf24a0a6beceac4fba0" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>BiggestUnsigned</type>
+        <definition>BiggestUnsigned FIntegerPtr::GetValueRaw</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>GetValueRaw</name>
+        <qualifiedname>FIntegerPtr::GetValueRaw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns raw stored value (internal storage only). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="752" column="17" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="752" bodyend="756"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1ac2add28d13da305d38f6e9d4bdeccd88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void FIntegerPtr::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>FIntegerPtr::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes pointer metadata for type T. Must be called before setting values. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Integer type or pointer to integer type. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="431" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="431" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a09e6361a5cf430def0d02eefc6922eea" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FIntegerPtr::IsActive</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>IsActive</name>
+        <qualifiedname>FIntegerPtr::IsActive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="493" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="493" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a4aa730664f78893dfe46c248720cb1eb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool FIntegerPtr::IsEqual</definition>
+        <argsstring>(T Operational) const</argsstring>
+        <name>IsEqual</name>
+        <qualifiedname>FIntegerPtr::IsEqual</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>Operational</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests equality between stored value and integer. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="717" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="717" bodyend="720"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a34d352733b7ac7f839d60b385590e356" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FIntegerPtr::IsExternal</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>IsExternal</name>
+        <qualifiedname>FIntegerPtr::IsExternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="464" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="464" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a4611d8acd96ca901ffb950be520a965f" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FIntegerPtr::IsInternal</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>IsInternal</name>
+        <qualifiedname>FIntegerPtr::IsInternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="468" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="468" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a764f3bf3324c13b953cbc58221e53580" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FIntegerPtr::IsSigned</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>IsSigned</name>
+        <qualifiedname>FIntegerPtr::IsSigned</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="473" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="473" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1add660366d1e9dca8c2dfaf7900a9c802" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FIntegerPtr::IsUnsigned</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>IsUnsigned</name>
+        <qualifiedname>FIntegerPtr::IsUnsigned</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="477" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="477" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a0d839c757a844c7871192b2a6dd5f60d" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FIntegerPtr::IsValid</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>IsValid</name>
+        <qualifiedname>FIntegerPtr::IsValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="498" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="498" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a8bc3acbca7d1f05051087b5f91187a67" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FIntegerPtr::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>FIntegerPtr::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bool conversion (true if valid). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="665" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="665" bodyend="668"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a27f6bccd030b7eb3832464cdfcd9dbe0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>FIntegerPtr::operator T</definition>
+        <argsstring>() const</argsstring>
+        <name>operator T</name>
+        <qualifiedname>FIntegerPtr::operator T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Implicit conversion to integer (returns value via Get&lt;T&gt;). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="659" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="659" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a1172a20ca27909dc78ab0814902358b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref> &amp;</type>
+        <definition>FIntegerPtr &amp; FIntegerPtr::operator=</definition>
+        <argsstring>(const FIntegerPtr &amp;Other)=delete</argsstring>
+        <name>operator=</name>
+        <qualifiedname>FIntegerPtr::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copy assignment deleted to prevent accidental pointer sharing. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="591" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a4ba82c146ff2706358203672203f211d" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref> &amp;</type>
+        <definition>FIntegerPtr &amp; FIntegerPtr::operator=</definition>
+        <argsstring>(FIntegerPtr &amp;&amp;Other) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>FIntegerPtr::operator=</qualifiedname>
+        <param>
+          <type><ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref> &amp;&amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Move assignment operator. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="594" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="594" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1acb87aae586c9b3a245730d4e09393bdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref> &amp;</type>
+        <definition>FIntegerPtr &amp; FIntegerPtr::operator=</definition>
+        <argsstring>(T Other)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>FIntegerPtr::operator=</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assignment from integer value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="735" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="735" bodyend="739"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a76a0efebda0505a15cc091601f31776d" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FIntegerPtr::operator==</definition>
+        <argsstring>(const FIntegerPtr &amp;Other) const noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>FIntegerPtr::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares stored values byte-for-byte for equality. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="625" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="625" bodyend="634"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a1ce89328ad1c4109458cad5a9a123972" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool FIntegerPtr::operator==</definition>
+        <argsstring>(T Other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>FIntegerPtr::operator==</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Equality comparison with integer value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="731" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="731" bodyend="731"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1aeadbf756201df5ba311ad03f8848d7e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <qualifiedname>FIntegerPtr::Reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Marks pointer as invalid and initializes to safe state. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="552" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="552" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1ad26664a9f420e1c9f5145dfadec6b287" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::SetActive</definition>
+        <argsstring>() noexcept</argsstring>
+        <name>SetActive</name>
+        <qualifiedname>FIntegerPtr::SetActive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="484" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="484" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1aef2672b729055dccc9bf1b3e4d4e567a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T FIntegerPtr::SetEqualTo</definition>
+        <argsstring>(T Operational)</argsstring>
+        <name>SetEqualTo</name>
+        <qualifiedname>FIntegerPtr::SetEqualTo</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>Operational</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets stored value equal to integer and returns new value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="724" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="724" bodyend="727"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a6570bda0d145802fd4051299969ff9c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void FIntegerPtr::SetExternalPointer</definition>
+        <argsstring>(T Pointer)</argsstring>
+        <name>SetExternalPointer</name>
+        <qualifiedname>FIntegerPtr::SetExternalPointer</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>Pointer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Points to an external integer variable without taking ownership. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to integer type. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Address of the integer variable. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="522" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="522" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a063f98e2db27f10e0a505984c68889b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::SetExternalPointer</definition>
+        <argsstring>(void *Pointer, uint8 Size, bool bSigned)</argsstring>
+        <name>SetExternalPointer</name>
+        <qualifiedname>FIntegerPtr::SetExternalPointer</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>Pointer</declname>
+        </param>
+        <param>
+          <type>uint8</type>
+          <declname>Size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bSigned</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Points to an external variable using reflection metadata. Used for FProperty access where type information comes from parameters. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Address of the variable (from FNumericProperty). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of the variable in bytes. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bSigned</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True if variable is signed integer. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="warning"><para>This does not verify that the pointer is valid for the given size/type. Use with caution. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="539" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="539" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a4f9323b4356b5e29bca0cd43d1acebc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::SetSize</definition>
+        <argsstring>(uint8 NewSize)</argsstring>
+        <name>SetSize</name>
+        <qualifiedname>FIntegerPtr::SetSize</qualifiedname>
+        <param>
+          <type>uint8</type>
+          <declname>NewSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="454" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="454" bodyend="462"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a8fa2843e58827b29bb8e57a4f47b3505" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FIntegerPtr::ShareFromOther</definition>
+        <argsstring>(FIntegerPtr &amp;Other)</argsstring>
+        <name>ShareFromOther</name>
+        <qualifiedname>FIntegerPtr::ShareFromOther</qualifiedname>
+        <param>
+          <type><ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shares pointer with another <ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref>, making both reference the same value. <simplesect kind="warning"><para>Shares only the address; if Other resets or is destroyed, this becomes a dangling pointer. </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source pointer to share from. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="609" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="609" bodyend="614"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1ae7366e7c205a6d0ad3880ad852c347ba" prot="public" static="no" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FIntegerPtr::SharesPointer</definition>
+        <argsstring>(const FIntegerPtr &amp;Other) const noexcept</argsstring>
+        <name>SharesPointer</name>
+        <qualifiedname>FIntegerPtr::SharesPointer</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/db5/struct_f_integer_ptr" kindref="compound">FIntegerPtr</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if two pointers reference the same address (both must be valid). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="619" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="619" bodyend="622"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a8db3c06effb8afb333e41dd9e6bb8cb6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type><ref refid="da/dbd/concept_t_any_int" kindref="compound">TAnyInt</ref></type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>int8</type>
+        <definition>int8 FIntegerPtr::TypeSizeComparison</definition>
+        <argsstring>() const</argsstring>
+        <name>TypeSizeComparison</name>
+        <qualifiedname>FIntegerPtr::TypeSizeComparison</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Three-way comparison with integer value. Compares size of this pointer&apos;s type with sizeof(T). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="652" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="652" bodyend="655"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/db5/struct_f_integer_ptr_1a600cff3299b33e6362bed613c02de243" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>auto</type>
+            <declname>Callable</declname>
+            <defname>Callable</defname>
+          </param>
+          <param>
+            <type>typename ConvertTo</type>
+          </param>
+          <param>
+            <type>typename VoidType</type>
+          </param>
+          <param>
+            <type>typename List</type>
+          </param>
+          <param>
+            <type>size_t</type>
+            <declname>Is</declname>
+            <defname>Is</defname>
+          </param>
+          <param>
+            <type>bool</type>
+            <declname>IsConst</declname>
+            <defname>IsConst</defname>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>ConvertTo</type>
+        <definition>static ConvertTo FIntegerPtr::Func</definition>
+        <argsstring>(VoidType Ptr, Args... args)</argsstring>
+        <name>Func</name>
+        <qualifiedname>FIntegerPtr::Func</qualifiedname>
+        <param>
+          <type>VoidType</type>
+          <declname>Ptr</declname>
+        </param>
+        <param>
+          <type>Args...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="759" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="759" bodyend="767"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="127" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="128" bodyend="772"/>
+    <listofallmembers>
+      <member refid="d7/db5/struct_f_integer_ptr_1a6575745c99c1f94450acbe3b81e121a8af0eaf0527a0affc0c307712e8a7ee202" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>Active</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1aa2bffd9f81758f7b4c23b17c2f01bd73" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>AddFlag</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a4a674b47aa5c69a5fe20502b187fcca3" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>AllocateNewValue</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a682d6511d43164d3abd7ff6721a50634" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>AreFlags</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a63f6486eb4c4d333304737c48d3d9088" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>AreFlags_Impl</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1aa8df5424fbd933b0854845e294c73e6e" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>AreFlagsNot</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1adcdae12952def9af24e84e3c816747a2" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>BiggestUnsigned</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1ae4e0690f20c1ed099721bb03f36827a2" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>Data</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a620ee2406626c03c55634cb51db462ce" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>Deactivate</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a6575745c99c1f94450acbe3b81e121a8" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>EFlags</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a59a358cd2ff6bb54e11dca263bcd2681" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>Element</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a8b9fc242a5d65817368bb7fd8be41e52" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>ExecuteOverType</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1aaecace6e1c520c7afd515045b91b61c1" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>ExecuteOverType_Impl</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a8914bf228a42b517b4bd34ee9ded94bb" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>ExecuteOverTypeMeta</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a0e119a92d4cfa8034d4b9df193d9544f" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>ExecuteOverTypeSwitch</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a6575745c99c1f94450acbe3b81e121a8a2b6a92a3a8894034b70d2bf57a267432" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>External</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a8c8c939bd273e4e50ceca64e8eb6c26f" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>FIntegerPtr</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a77ef70e13d705b79a3f666867abce7b2" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>FIntegerPtr</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1ade8791371865913bf599af97af59cc90" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>FIntegerPtr</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a4b7a3444d73183fb969c71e2d5bb2c8e" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>FlagSize</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a600cff3299b33e6362bed613c02de243" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>Func</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1ad5431a3a3fd8b90fad5c7784ecbace7b" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>Get</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a633fb21e342f354c863a1990029d2247" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>Get_Impl</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a9dd50ebb5880a0fc8add5447ca0ed9c6" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>GetMutablePtr</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1acf1a9a55165b2addf4c65fef5d592b34" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>GetPtr</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a60ab1af1f86f400c6e9d3f742a0529d6" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>GetPtr_Internal</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a8f38643d4880e6fcef7ef2448db079bb" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>GetPtr_Internal</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a0f6cdf3d7b45dac5b88184d9a579e77f" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>GetRef</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1aa4f529c2dea90e0b42e86e907ee1a1c4" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>GetRef</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1af0ec92f4c21cbfa19ad8a9f5cec9c0a4" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>GetRef_Impl</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1aebbcdb3fbe7611ba780d60785010d724" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>GetSize</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a36682883ed335422ef0f38624c74af2b" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>GetSizeImpl</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1aaa269ed5184bfbf24a0a6beceac4fba0" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>GetValueRaw</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1aac49bed06f61e9b520c919f9f06d754c" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>GetValueRef</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1afb80d14296a8f21aa2dead26dfe29af2" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>GetValueRef</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1ac2add28d13da305d38f6e9d4bdeccd88" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>Initialize</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a09e6361a5cf430def0d02eefc6922eea" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>IsActive</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a4aa730664f78893dfe46c248720cb1eb" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>IsEqual</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a34d352733b7ac7f839d60b385590e356" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>IsExternal</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a4611d8acd96ca901ffb950be520a965f" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>IsInternal</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a764f3bf3324c13b953cbc58221e53580" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>IsSigned</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1add660366d1e9dca8c2dfaf7900a9c802" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>IsUnsigned</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a0d839c757a844c7871192b2a6dd5f60d" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>IsValid</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1af43994cea7ee875f443c9385597471a3" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>MaxAlign</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a4bcf2e51810aa1102bee2bb671c7f679" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>MaxSize</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a8bc3acbca7d1f05051087b5f91187a67" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>operator bool</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a27f6bccd030b7eb3832464cdfcd9dbe0" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>operator T</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a1172a20ca27909dc78ab0814902358b1" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>operator=</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a4ba82c146ff2706358203672203f211d" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>operator=</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1acb87aae586c9b3a245730d4e09393bdb" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>operator=</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a76a0efebda0505a15cc091601f31776d" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>operator==</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a1ce89328ad1c4109458cad5a9a123972" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>operator==</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a2c459df3ac6b719268183fd3f452518c" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>Ptr</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a887058fe0d6f70c11e79ce8148028e01" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>RemoveFlag</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1aeadbf756201df5ba311ad03f8848d7e3" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>Reset</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1ad26664a9f420e1c9f5145dfadec6b287" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetActive</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1aef2672b729055dccc9bf1b3e4d4e567a" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetEqualTo</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a0340ea5c6f892b1dde024b5f6ff9e8b3" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetExternal</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a6570bda0d145802fd4051299969ff9c0" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetExternalPointer</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a063f98e2db27f10e0a505984c68889b1" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetExternalPointer</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1aeef5f38b985856bf87655c8d3d121099" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetFlag</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a7a97628a996c04aaca0fe0025be01ec1" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetInternal</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a5271cbf6b836e612a63f64a62d396132" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetInternalValue</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a5e0e0c3aa907f3bef4635958f9fa4a9c" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetPtr</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a8bcac9a04afd6f5fad7375b19df72de6" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetSigned</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a4f9323b4356b5e29bca0cd43d1acebc3" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetSize</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1aef51306ea8629e913380a01f35ac6a40" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetSize_Impl</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1ae61eec42a82a5cb92db545576841ba90" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetUnsigned</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a9ed38de860a54c71a898e2be4d4f13d2" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SetValid</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a8fa2843e58827b29bb8e57a4f47b3505" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>ShareFromOther</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1ae7366e7c205a6d0ad3880ad852c347ba" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>SharesPointer</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a6575745c99c1f94450acbe3b81e121a8a5270a6f9d14b9557899dc2f2a0fd3cae" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>Signed</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1acfa097031f93adc8e23b7a69631950ab" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SignedTypes</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a9e37796fdb951259f1f9829a14dd4331" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SizeMask</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a053fa26359ec41219830ec1cf05e50a1" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SizeReservedBits</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a5f379e74ed20fac32a0c7ecb308a6457" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SmallestSigned_t</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1ad89246c7f3ce869b5908bd0832103944" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>SmallestUnsigned_t</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a79d07efd87d768ab1ad3ee9d86f7cdd0" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>Types</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a8db3c06effb8afb333e41dd9e6bb8cb6" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>TypeSizeComparison</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a99b3305e843ccd1b7207b8991a2e781d" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>UnsignedTypes</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a0b8549f82d6fbe94169fe7d1a1b54ad1" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>UseSwitch</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a6575745c99c1f94450acbe3b81e121a8aad7d9688a8bd4f3d7e913aa18f2f1b8f" prot="private" virt="non-virtual"><scope>FIntegerPtr</scope><name>Valid</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1acb8033ad79ec383a6456121b2c19e3a0" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>Value</name></member>
+      <member refid="d7/db5/struct_f_integer_ptr_1a9937484fea78ca531294d46d2f8dd515" prot="public" virt="non-virtual"><scope>FIntegerPtr</scope><name>~FIntegerPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

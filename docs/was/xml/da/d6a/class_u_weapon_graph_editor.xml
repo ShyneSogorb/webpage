@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="da/d6a/class_u_weapon_graph_editor" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponGraphEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UEdGraph</basecompoundref>
+    <includes local="no">WeaponGraphEditor.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="da/d6a/class_u_weapon_graph_editor_1a45ee393d8b930838ca97493717091f0d" prot="protected" static="no" mutable="no">
+        <type>TWeakPtr&lt; class <ref refid="da/d5f/class_f_weapon_asset_editor_app" kindref="compound">FWeaponAssetEditorApp</ref> &gt;</type>
+        <definition>TWeakPtr&lt;class FWeaponAssetEditorApp&gt; UWeaponGraphEditor::App</definition>
+        <argsstring></argsstring>
+        <name>App</name>
+        <qualifiedname>UWeaponGraphEditor::App</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A weak pointer to the weapon asset editor application. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponGraphEditor.h" line="35" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponGraphEditor.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d6a/class_u_weapon_graph_editor_1a74616c61a2e98e2fa571dae5b0eeb3a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>TWeakPtr&lt; class <ref refid="da/d5f/class_f_weapon_asset_editor_app" kindref="compound">FWeaponAssetEditorApp</ref> &gt;</type>
+        <definition>TWeakPtr&lt; class FWeaponAssetEditorApp &gt; UWeaponGraphEditor::GetApp</definition>
+        <argsstring>() const</argsstring>
+        <name>GetApp</name>
+        <qualifiedname>UWeaponGraphEditor::GetApp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the application instance associated with this graph editor. <simplesect kind="return"><para>A weak pointer to the weapon asset editor application. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponGraphEditor.h" line="25" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponGraphEditor.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d6a/class_u_weapon_graph_editor_1aaa76a919fa8f2a65600801fde6ebe0fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>class <ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref> *</type>
+        <definition>class UWeaponAsset * UWeaponGraphEditor::GetWorkingAsset</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWorkingAsset</name>
+        <qualifiedname>UWeaponGraphEditor::GetWorkingAsset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the working weapon asset associated with this graph editor. <simplesect kind="return"><para>A pointer to the working weapon asset. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponGraphEditor.h" line="31" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponGraphEditor.cpp" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d6a/class_u_weapon_graph_editor_1a992d5bdaa559afda5663e306cfe1fe6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphEditor::SetApp</definition>
+        <argsstring>(TSharedPtr&lt; class FWeaponAssetEditorApp &gt; app)</argsstring>
+        <name>SetApp</name>
+        <qualifiedname>UWeaponGraphEditor::SetApp</qualifiedname>
+        <param>
+          <type>TSharedPtr&lt; class <ref refid="da/d5f/class_f_weapon_asset_editor_app" kindref="compound">FWeaponAssetEditorApp</ref> &gt;</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the application instance associated with this graph editor. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>app</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- A shared pointer to the weapon asset editor application. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponGraphEditor.h" line="19" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponGraphEditor.cpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UEdGraph</label>
+      </node>
+      <node id="1">
+        <label>UWeaponGraphEditor</label>
+        <link refid="da/d6a/class_u_weapon_graph_editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UEdGraph</label>
+      </node>
+      <node id="1">
+        <label>UWeaponGraphEditor</label>
+        <link refid="da/d6a/class_u_weapon_graph_editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponGraphEditor.h" line="10" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponGraphEditor.h" bodystart="11" bodyend="38"/>
+    <listofallmembers>
+      <member refid="da/d6a/class_u_weapon_graph_editor_1a45ee393d8b930838ca97493717091f0d" prot="protected" virt="non-virtual"><scope>UWeaponGraphEditor</scope><name>App</name></member>
+      <member refid="da/d6a/class_u_weapon_graph_editor_1a74616c61a2e98e2fa571dae5b0eeb3a5" prot="public" virt="non-virtual"><scope>UWeaponGraphEditor</scope><name>GetApp</name></member>
+      <member refid="da/d6a/class_u_weapon_graph_editor_1aaa76a919fa8f2a65600801fde6ebe0fc" prot="public" virt="non-virtual"><scope>UWeaponGraphEditor</scope><name>GetWorkingAsset</name></member>
+      <member refid="da/d6a/class_u_weapon_graph_editor_1a992d5bdaa559afda5663e306cfe1fe6b" prot="public" virt="non-virtual"><scope>UWeaponGraphEditor</scope><name>SetApp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

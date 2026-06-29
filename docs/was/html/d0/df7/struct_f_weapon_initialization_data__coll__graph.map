@@ -1,0 +1,5 @@
+<map id="FWeaponInitializationData" name="FWeaponInitializationData">
+<area shape="rect" id="Node000001" title="Initial state for weapon component assembly." alt="" coords="5,96,179,123"/>
+<area shape="rect" id="Node000002" href="$d7/dc9/struct_f_weapon_modifications.html" title=" " alt="" coords="15,5,169,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,48,95,95,89,95,89,48"/>
+</map>

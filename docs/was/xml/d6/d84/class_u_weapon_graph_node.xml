@@ -1,0 +1,829 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d6/d84/class_u_weapon_graph_node" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>UWeaponGraphNode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UEdGraphNode</basecompoundref>
+    <includes local="no">WeaponGraphNode.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d6/d84/class_u_weapon_graph_node_1a1eb1e4a2d3172c652d12f2d400d3d717" prot="protected" static="no" mutable="no">
+        <type>UEdGraphPin *</type>
+        <definition>UEdGraphPin* UWeaponGraphNode::DefaultInputPin</definition>
+        <argsstring></argsstring>
+        <name>DefaultInputPin</name>
+        <qualifiedname>UWeaponGraphNode::DefaultInputPin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="111" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d84/class_u_weapon_graph_node_1a3f9dd6c49535b1eaa2411f38d2fbaee1" prot="protected" static="no" mutable="no">
+        <type>TMap&lt; UEdGraphPin *, FRuntimePin &gt;</type>
+        <definition>TMap&lt;UEdGraphPin*, FRuntimePin&gt; UWeaponGraphNode::PinRepresentation</definition>
+        <argsstring></argsstring>
+        <name>PinRepresentation</name>
+        <qualifiedname>UWeaponGraphNode::PinRepresentation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="116" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d84/class_u_weapon_graph_node_1ae1c51e3b63ccff6d81b29967598c5c81" prot="protected" static="no" mutable="no">
+        <type><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> *</type>
+        <definition>UWeaponRuntimeNode* UWeaponGraphNode::RuntimeNode</definition>
+        <argsstring></argsstring>
+        <name>RuntimeNode</name>
+        <qualifiedname>UWeaponGraphNode::RuntimeNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="114" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a1bd9a5970cb296d639898efc97787d4d" prot="public" static="no" const="no" explicit="no" inline="no" final="yes" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::AllocateDefaultPins</definition>
+        <argsstring>() override final</argsstring>
+        <name>AllocateDefaultPins</name>
+        <qualifiedname>UWeaponGraphNode::AllocateDefaultPins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="76" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="303" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a1482891ce3df1b0cae28497a6c92f160" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>FORCEINLINE bool</type>
+        <definition>virtual FORCEINLINE bool UWeaponGraphNode::AllowMultipleInputsPin</definition>
+        <argsstring>(const UEdGraphPin *Pin) const</argsstring>
+        <name>AllowMultipleInputsPin</name>
+        <qualifiedname>UWeaponGraphNode::AllowMultipleInputsPin</qualifiedname>
+        <param>
+          <type>const UEdGraphPin *</type>
+          <declname>Pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="80" column="26" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a77d1b0257331e31847a57b8b7cf49075" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool UWeaponGraphNode::CanDuplicateNode</definition>
+        <argsstring>() const override</argsstring>
+        <name>CanDuplicateNode</name>
+        <qualifiedname>UWeaponGraphNode::CanDuplicateNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="42" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a1518245f95812bcd7c8a3c1288cf6505" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool UWeaponGraphNode::CanJumpToDefinition</definition>
+        <argsstring>() const override</argsstring>
+        <name>CanJumpToDefinition</name>
+        <qualifiedname>UWeaponGraphNode::CanJumpToDefinition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="28" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="19" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a89183a910412a234e84fecd5032d0bec" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool UWeaponGraphNode::CanUserDeleteNode</definition>
+        <argsstring>() const override</argsstring>
+        <name>CanUserDeleteNode</name>
+        <qualifiedname>UWeaponGraphNode::CanUserDeleteNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="40" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1aed17769cadc4793c25eb41242dd0889a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UEdGraphPin *</type>
+        <definition>UEdGraphPin * UWeaponGraphNode::CreateCustomPin</definition>
+        <argsstring>(const FRuntimePin &amp;PinData)</argsstring>
+        <name>CreateCustomPin</name>
+        <qualifiedname>UWeaponGraphNode::CreateCustomPin</qualifiedname>
+        <param>
+          <type>const FRuntimePin &amp;</type>
+          <declname>PinData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="64" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="242" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a908bb310e4ea5e5005b2fb8206a7bb3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> *</type>
+        <definition>UWeaponRuntimeNode * UWeaponGraphNode::CreateRuntimeNode</definition>
+        <argsstring>(const TSubclassOf&lt; UWeaponRuntimeNode &gt; &amp;RuntimeClass)</argsstring>
+        <name>CreateRuntimeNode</name>
+        <qualifiedname>UWeaponGraphNode::CreateRuntimeNode</qualifiedname>
+        <param>
+          <type>const TSubclassOf&lt; <ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> &gt; &amp;</type>
+          <declname>RuntimeClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="87" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="390" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a005575b7bfc743ad631d95886f6f8cd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::DestroyNode</definition>
+        <argsstring>() override</argsstring>
+        <name>DestroyNode</name>
+        <qualifiedname>UWeaponGraphNode::DestroyNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="46" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="186" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1aad3db0d4efdb221a417504058f0bea61" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool UWeaponGraphNode::ExistsPin</definition>
+        <argsstring>(EEdGraphPinDirection Direction, FName name=&quot;&quot;) const</argsstring>
+        <name>ExistsPin</name>
+        <qualifiedname>UWeaponGraphNode::ExistsPin</qualifiedname>
+        <param>
+          <type>EEdGraphPinDirection</type>
+          <declname>Direction</declname>
+        </param>
+        <param>
+          <type>FName</type>
+          <declname>name</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="65" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="255" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a3253a17314bce061188fd81d66e4aac9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UEdGraphPin **</type>
+        <definition>UEdGraphPin ** UWeaponGraphNode::FindPin</definition>
+        <argsstring>(EEdGraphPinDirection Direction, FName name=&quot;&quot;)</argsstring>
+        <name>FindPin</name>
+        <qualifiedname>UWeaponGraphNode::FindPin</qualifiedname>
+        <param>
+          <type>EEdGraphPinDirection</type>
+          <declname>Direction</declname>
+        </param>
+        <param>
+          <type>FName</type>
+          <declname>name</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="66" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="263" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1aacc2f2299db84d59c34540bf2f398787" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>UEdGraphPin *</type>
+        <definition>UEdGraphPin * UWeaponGraphNode::GetDefaultInputPin</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDefaultInputPin</name>
+        <qualifiedname>UWeaponGraphNode::GetDefaultInputPin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="78" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a0b934e01104cd89a12e184763a3ac269" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::GetNodeContextMenuActions</definition>
+        <argsstring>(class UToolMenu *Menu, class UGraphNodeContextMenuContext *Context) const override</argsstring>
+        <name>GetNodeContextMenuActions</name>
+        <qualifiedname>UWeaponGraphNode::GetNodeContextMenuActions</qualifiedname>
+        <param>
+          <type>class UToolMenu *</type>
+          <declname>Menu</declname>
+        </param>
+        <param>
+          <type>class UGraphNodeContextMenuContext *</type>
+          <declname>Context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="41" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="52" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a5b9949a9ec4713dc2ae9b63b4ab0fd9a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d9/d59/namespace_e_node_flow_1ace6412fad06b7d580460602bd5a84b55" kindref="member">ENodeFlow::Type</ref></type>
+        <definition>virtual constexpr ENodeFlow::Type UWeaponGraphNode::GetNodeFlow</definition>
+        <argsstring>()</argsstring>
+        <name>GetNodeFlow</name>
+        <qualifiedname>UWeaponGraphNode::GetNodeFlow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="84" column="35" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a02ff108dc9a9202e41b52eb11f2557e5" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE constexpr <ref refid="db/ddc/namespace_e_nodes_actions_1aaaba138c30340bcdfe1b80e5b05a9d8e" kindref="member">ENodesActions::Type</ref></type>
+        <definition>FORCEINLINE constexpr ENodesActions::Type UWeaponGraphNode::GetNodesActions</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNodesActions</name>
+        <qualifiedname>UWeaponGraphNode::GetNodesActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="89" column="43" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1ac8bf18f88a45a55feecc1132dbd9e719" prot="public" static="no" const="yes" explicit="no" inline="yes" final="yes" virt="virtual">
+        <type>FText</type>
+        <definition>virtual FText UWeaponGraphNode::GetNodeTitle</definition>
+        <argsstring>(ENodeTitleType::Type TitleType) const override final</argsstring>
+        <name>GetNodeTitle</name>
+        <qualifiedname>UWeaponGraphNode::GetNodeTitle</qualifiedname>
+        <param>
+          <type>ENodeTitleType::Type</type>
+          <declname>TitleType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="30" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="30" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a61fe07d75ea37547530fcbb39d0a58c9" prot="public" static="no" const="yes" explicit="no" inline="yes" final="yes" virt="virtual">
+        <type>FLinearColor</type>
+        <definition>virtual FLinearColor UWeaponGraphNode::GetNodeTitleColor</definition>
+        <argsstring>() const override final</argsstring>
+        <name>GetNodeTitleColor</name>
+        <qualifiedname>UWeaponGraphNode::GetNodeTitleColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="39" column="22" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1aeeeee0b87e03d7c092b640b40c73b4a2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8</type>
+        <definition>uint8 UWeaponGraphNode::GetPinActions</definition>
+        <argsstring>(const UEdGraphPin *Pin) const</argsstring>
+        <name>GetPinActions</name>
+        <qualifiedname>UWeaponGraphNode::GetPinActions</qualifiedname>
+        <param>
+          <type>const UEdGraphPin *</type>
+          <declname>Pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="91" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="397" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a16d7b227d2622d084f24ca42a270ef10" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> *</type>
+        <definition>virtual UWeaponRuntimeNode * UWeaponGraphNode::GetRuntimeNode</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRuntimeNode</name>
+        <qualifiedname>UWeaponGraphNode::GetRuntimeNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="71" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1aaa58cc6e4c586c486d148c700f881175" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>TSubclassOf&lt; <ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> &gt;</type>
+        <definition>virtual TSubclassOf&lt; UWeaponRuntimeNode &gt; UWeaponGraphNode::GetRuntimeVersion</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRuntimeVersion</name>
+        <qualifiedname>UWeaponGraphNode::GetRuntimeVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="85" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a06789d17a9019f4679be08392631b988" prot="public" static="no" const="yes" explicit="no" inline="yes" final="yes" virt="virtual">
+        <type>FORCEINLINE FText</type>
+        <definition>virtual FORCEINLINE FText UWeaponGraphNode::GetTooltipText</definition>
+        <argsstring>() const override final</argsstring>
+        <name>GetTooltipText</name>
+        <qualifiedname>UWeaponGraphNode::GetTooltipText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="93" column="27" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="93" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a1b1dff9436488f1357382cc865a5a212" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <qualifiedname>UWeaponGraphNode::Init</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="63" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="210" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1afc1773e4cebed0f1c98cf4984841de62" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::JumpToDefinition</definition>
+        <argsstring>() const override</argsstring>
+        <name>JumpToDefinition</name>
+        <qualifiedname>UWeaponGraphNode::JumpToDefinition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="29" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="27" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a71fa18d592c8d382dd90d434416d4542" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::PinConnectionListChanged</definition>
+        <argsstring>(UEdGraphPin *Pin) override</argsstring>
+        <name>PinConnectionListChanged</name>
+        <qualifiedname>UWeaponGraphNode::PinConnectionListChanged</qualifiedname>
+        <param>
+          <type>UEdGraphPin *</type>
+          <declname>Pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="44" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="178" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a57295ce2b773fb13b2d6c4fb46caedf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::PostEditChangeProperty</definition>
+        <argsstring>(struct FPropertyChangedEvent &amp;PropertyChangedEvent) override</argsstring>
+        <name>PostEditChangeProperty</name>
+        <qualifiedname>UWeaponGraphNode::PostEditChangeProperty</qualifiedname>
+        <param>
+          <type>struct FPropertyChangedEvent &amp;</type>
+          <declname>PropertyChangedEvent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="49" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="193" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a9b7c85403cfab8e12e050db7f88cfd57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::RemoveAllPins</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveAllPins</name>
+        <qualifiedname>UWeaponGraphNode::RemoveAllPins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="51" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="200" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a5f5019b4c22bd1268a0c1a1c5b3c9ff8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::RemovePins</definition>
+        <argsstring>(const TArray&lt; UEdGraphPin * &gt; &amp;PinsToRemove)</argsstring>
+        <name>RemovePins</name>
+        <qualifiedname>UWeaponGraphNode::RemovePins</qualifiedname>
+        <param>
+          <type>const TArray&lt; UEdGraphPin * &gt; &amp;</type>
+          <declname>PinsToRemove</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="68" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="271" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a149cb65ced7dde32e4e5bafea5e9ec77" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::SetNode</definition>
+        <argsstring>(UWeaponRuntimeNode *Node)</argsstring>
+        <name>SetNode</name>
+        <qualifiedname>UWeaponGraphNode::SetNode</qualifiedname>
+        <param>
+          <type><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref> *</type>
+          <declname>Node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="70" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="280" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1af1f95aae072d1cb36b53588102a5d9b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::SetUpRuntimePins</definition>
+        <argsstring>()</argsstring>
+        <name>SetUpRuntimePins</name>
+        <qualifiedname>UWeaponGraphNode::SetUpRuntimePins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="82" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="363" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1af60d9ca5e020bb630971033298b27237" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>FORCEINLINE void UWeaponGraphNode::UpdateCompatibility</definition>
+        <argsstring>() const</argsstring>
+        <name>UpdateCompatibility</name>
+        <qualifiedname>UWeaponGraphNode::UpdateCompatibility</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="101" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a67c6c1b94f03920f471660a7b8a641ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::UpdatePinRepresentation</definition>
+        <argsstring>()</argsstring>
+        <name>UpdatePinRepresentation</name>
+        <qualifiedname>UWeaponGraphNode::UpdatePinRepresentation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="72" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="286" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a0b86ceb24b61b8b6ff8be35e1fa2658c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::UpdatePinsType</definition>
+        <argsstring>(UEdGraphPin *Pin) const</argsstring>
+        <name>UpdatePinsType</name>
+        <qualifiedname>UWeaponGraphNode::UpdatePinsType</qualifiedname>
+        <param>
+          <type>UEdGraphPin *</type>
+          <declname>Pin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="106" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="138" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1acdc06be85377bb928d81dfe9a1457c67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::UpdateTooltips</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateTooltips</name>
+        <qualifiedname>UWeaponGraphNode::UpdateTooltips</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="108" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="166" bodyend="175"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a4f142bd1f60591106c7468fd085dd3b5" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UEdGraphPin *</type>
+        <definition>UEdGraphPin * UWeaponGraphNode::CreateCustomPin</definition>
+        <argsstring>(EEdGraphPinDirection Direction, FName name, FName SubCategory)</argsstring>
+        <name>CreateCustomPin</name>
+        <qualifiedname>UWeaponGraphNode::CreateCustomPin</qualifiedname>
+        <param>
+          <type>EEdGraphPinDirection</type>
+          <declname>Direction</declname>
+        </param>
+        <param>
+          <type>FName</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>FName</type>
+          <declname>SubCategory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="57" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="218" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a1bb043a3eefe9c6856b131293f585985" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UEdGraphPin *</type>
+        <definition>UEdGraphPin * UWeaponGraphNode::CreateCustomPin</definition>
+        <argsstring>(EEdGraphPinDirection Direction, UWeaponRuntimePin *FromPin)</argsstring>
+        <name>CreateCustomPin</name>
+        <qualifiedname>UWeaponGraphNode::CreateCustomPin</qualifiedname>
+        <param>
+          <type>EEdGraphPinDirection</type>
+          <declname>Direction</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref> *</type>
+          <declname>FromPin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="58" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="230" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1ab06733cb1ef1c57a2b1306c8e7a1533c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UEdGraphPin *</type>
+        <definition>UEdGraphPin * UWeaponGraphNode::CreateCustomPinIfNonExisting</definition>
+        <argsstring>(EEdGraphPinDirection Direction, FName name, FName SubCategory, bool bAlwaysReturn=false)</argsstring>
+        <name>CreateCustomPinIfNonExisting</name>
+        <qualifiedname>UWeaponGraphNode::CreateCustomPinIfNonExisting</qualifiedname>
+        <param>
+          <type>EEdGraphPinDirection</type>
+          <declname>Direction</declname>
+        </param>
+        <param>
+          <type>FName</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>FName</type>
+          <declname>SubCategory</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bAlwaysReturn</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="59" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="249" bodyend="253"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a031eca1d0b938938312ee14262599037" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::DeleteAction</definition>
+        <argsstring>(struct FToolMenuSection &amp;Section, TArray&lt; UWeaponGraphNode * &gt; &amp;SelectedNodes) const</argsstring>
+        <name>DeleteAction</name>
+        <qualifiedname>UWeaponGraphNode::DeleteAction</qualifiedname>
+        <param>
+          <type>struct FToolMenuSection &amp;</type>
+          <declname>Section</declname>
+        </param>
+        <param>
+          <type>TArray&lt; <ref refid="d6/d84/class_u_weapon_graph_node" kindref="compound">UWeaponGraphNode</ref> * &gt; &amp;</type>
+          <declname>SelectedNodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="128" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="77" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1ab24b5ef90fee41356f7d4a014326892c" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/db3/class_u_weapon_runtime_graph" kindref="compound">UWeaponRuntimeGraph</ref> *</type>
+        <definition>UWeaponRuntimeGraph * UWeaponGraphNode::GetRuntimeGraph</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRuntimeGraph</name>
+        <qualifiedname>UWeaponGraphNode::GetRuntimeGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="123" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1aef0e5a05afffc8956ccd6edc8fb22e27" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/d6a/class_u_weapon_graph_editor" kindref="compound">UWeaponGraphEditor</ref> *</type>
+        <definition>UWeaponGraphEditor * UWeaponGraphNode::GetWeaponGraphEditor</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWeaponGraphEditor</name>
+        <qualifiedname>UWeaponGraphNode::GetWeaponGraphEditor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="118" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1ac10a193f799c55b39f20ce651a508f25" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::GoToDefinitionAction</definition>
+        <argsstring>(struct FToolMenuSection &amp;Section, TArray&lt; UWeaponGraphNode * &gt; &amp;SelectedNodes) const</argsstring>
+        <name>GoToDefinitionAction</name>
+        <qualifiedname>UWeaponGraphNode::GoToDefinitionAction</qualifiedname>
+        <param>
+          <type>struct FToolMenuSection &amp;</type>
+          <declname>Section</declname>
+        </param>
+        <param>
+          <type>TArray&lt; <ref refid="d6/d84/class_u_weapon_graph_node" kindref="compound">UWeaponGraphNode</ref> * &gt; &amp;</type>
+          <declname>SelectedNodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="130" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="116" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d84/class_u_weapon_graph_node_1a59f4f02bbfea9e47befd555e047763cc" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UWeaponGraphNode::RefreshAction</definition>
+        <argsstring>(struct FToolMenuSection &amp;Section, TArray&lt; UWeaponGraphNode * &gt; &amp;SelectedNodes) const</argsstring>
+        <name>RefreshAction</name>
+        <qualifiedname>UWeaponGraphNode::RefreshAction</qualifiedname>
+        <param>
+          <type>struct FToolMenuSection &amp;</type>
+          <declname>Section</declname>
+        </param>
+        <param>
+          <type>TArray&lt; <ref refid="d6/d84/class_u_weapon_graph_node" kindref="compound">UWeaponGraphNode</ref> * &gt; &amp;</type>
+          <declname>SelectedNodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="129" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp" bodystart="94" bodyend="114"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UEdGraphNode</label>
+      </node>
+      <node id="1">
+        <label>UWeaponGraphNode</label>
+        <link refid="d6/d84/class_u_weapon_graph_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UEdGraphNode</label>
+      </node>
+      <node id="4">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponGraphNode</label>
+        <link refid="d6/d84/class_u_weapon_graph_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>RuntimeNode</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" line="22" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Nodes/WeaponGraphNode.h" bodystart="23" bodyend="131"/>
+    <listofallmembers>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a1bd9a5970cb296d639898efc97787d4d" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>AllocateDefaultPins</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a1482891ce3df1b0cae28497a6c92f160" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>AllowMultipleInputsPin</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a77d1b0257331e31847a57b8b7cf49075" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>CanDuplicateNode</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a1518245f95812bcd7c8a3c1288cf6505" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>CanJumpToDefinition</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a89183a910412a234e84fecd5032d0bec" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>CanUserDeleteNode</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a4f142bd1f60591106c7468fd085dd3b5" prot="private" virt="virtual"><scope>UWeaponGraphNode</scope><name>CreateCustomPin</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a1bb043a3eefe9c6856b131293f585985" prot="private" virt="virtual"><scope>UWeaponGraphNode</scope><name>CreateCustomPin</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1aed17769cadc4793c25eb41242dd0889a" prot="public" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>CreateCustomPin</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1ab06733cb1ef1c57a2b1306c8e7a1533c" prot="private" virt="virtual"><scope>UWeaponGraphNode</scope><name>CreateCustomPinIfNonExisting</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a908bb310e4ea5e5005b2fb8206a7bb3f" prot="public" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>CreateRuntimeNode</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a1eb1e4a2d3172c652d12f2d400d3d717" prot="protected" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>DefaultInputPin</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a031eca1d0b938938312ee14262599037" prot="protected" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>DeleteAction</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a005575b7bfc743ad631d95886f6f8cd3" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>DestroyNode</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1aad3db0d4efdb221a417504058f0bea61" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>ExistsPin</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a3253a17314bce061188fd81d66e4aac9" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>FindPin</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1aacc2f2299db84d59c34540bf2f398787" prot="public" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>GetDefaultInputPin</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a0b934e01104cd89a12e184763a3ac269" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>GetNodeContextMenuActions</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a5b9949a9ec4713dc2ae9b63b4ab0fd9a" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>GetNodeFlow</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a02ff108dc9a9202e41b52eb11f2557e5" prot="public" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>GetNodesActions</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1ac8bf18f88a45a55feecc1132dbd9e719" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>GetNodeTitle</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a61fe07d75ea37547530fcbb39d0a58c9" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>GetNodeTitleColor</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1aeeeee0b87e03d7c092b640b40c73b4a2" prot="public" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>GetPinActions</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1ab24b5ef90fee41356f7d4a014326892c" prot="protected" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>GetRuntimeGraph</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a16d7b227d2622d084f24ca42a270ef10" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>GetRuntimeNode</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1aaa58cc6e4c586c486d148c700f881175" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>GetRuntimeVersion</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a06789d17a9019f4679be08392631b988" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>GetTooltipText</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1aef0e5a05afffc8956ccd6edc8fb22e27" prot="protected" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>GetWeaponGraphEditor</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1ac10a193f799c55b39f20ce651a508f25" prot="protected" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>GoToDefinitionAction</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a1b1dff9436488f1357382cc865a5a212" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>Init</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1afc1773e4cebed0f1c98cf4984841de62" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>JumpToDefinition</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a71fa18d592c8d382dd90d434416d4542" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>PinConnectionListChanged</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a3f9dd6c49535b1eaa2411f38d2fbaee1" prot="protected" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>PinRepresentation</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a57295ce2b773fb13b2d6c4fb46caedf3" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>PostEditChangeProperty</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a59f4f02bbfea9e47befd555e047763cc" prot="protected" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>RefreshAction</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a9b7c85403cfab8e12e050db7f88cfd57" prot="public" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>RemoveAllPins</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a5f5019b4c22bd1268a0c1a1c5b3c9ff8" prot="public" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>RemovePins</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1ae1c51e3b63ccff6d81b29967598c5c81" prot="protected" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>RuntimeNode</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a149cb65ced7dde32e4e5bafea5e9ec77" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>SetNode</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1af1f95aae072d1cb36b53588102a5d9b6" prot="public" virt="virtual"><scope>UWeaponGraphNode</scope><name>SetUpRuntimePins</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1af60d9ca5e020bb630971033298b27237" prot="public" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>UpdateCompatibility</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a67c6c1b94f03920f471660a7b8a641ab" prot="public" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>UpdatePinRepresentation</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1a0b86ceb24b61b8b6ff8be35e1fa2658c" prot="public" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>UpdatePinsType</name></member>
+      <member refid="d6/d84/class_u_weapon_graph_node_1acdc06be85377bb928d81dfe9a1457c67" prot="public" virt="non-virtual"><scope>UWeaponGraphNode</scope><name>UpdateTooltips</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

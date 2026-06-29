@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d5/dd9/namespace_w_a_s_editor_utils" kind="namespace" language="C++">
+    <compoundname>WASEditorUtils</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d5/dd9/namespace_w_a_s_editor_utils_1ac23bffe9a07b925cae5ffbcba8ea2bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/d63/class_f_property_handle_item_add_result" kindref="compound">FPropertyHandleItemAddResult</ref></type>
+        <definition>FPropertyHandleItemAddResult WASEditorUtils::AddItem</definition>
+        <argsstring>(IPropertyHandleMap &amp;InMap)</argsstring>
+        <name>AddItem</name>
+        <qualifiedname>WASEditorUtils::AddItem</qualifiedname>
+        <param>
+          <type>IPropertyHandleMap &amp;</type>
+          <declname>InMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" line="39" column="30" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/EditorUtils.cpp" bodystart="30" bodyend="59" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" declline="39" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/dd9/namespace_w_a_s_editor_utils_1a4871dda206cc0b38ad1003592799d5d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FString</type>
+        <definition>FString WASEditorUtils::GetDevComment</definition>
+        <argsstring>(const FGameplayTag &amp;Tag)</argsstring>
+        <name>GetDevComment</name>
+        <qualifiedname>WASEditorUtils::GetDevComment</qualifiedname>
+        <param>
+          <type>const FGameplayTag &amp;</type>
+          <declname>Tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" line="41" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/EditorUtils.cpp" bodystart="61" bodyend="75" declfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" declline="41" declcolumn="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/EditorUtils.h" line="36" column="1"/>
+  </compounddef>
+</doxygen>

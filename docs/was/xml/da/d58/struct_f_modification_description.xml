@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="da/d58/struct_f_modification_description" kind="struct" language="C++" prot="public">
+    <compoundname>FModificationDescription</compoundname>
+    <includes local="no">ModificationDescriptionDataAsset.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="da/d58/struct_f_modification_description_1a467df978eabd5094e7b2a52fbaec08c1" prot="public" static="no" mutable="no">
+        <type>TMap&lt; FGameplayTag, TObjectPtr&lt; UDataAsset &gt; &gt;</type>
+        <definition>TMap&lt;FGameplayTag, TObjectPtr&lt;UDataAsset&gt; &gt; FModificationDescription::Descriptions</definition>
+        <argsstring></argsstring>
+        <name>Descriptions</name>
+        <qualifiedname>FModificationDescription::Descriptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" line="28" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d58/struct_f_modification_description_1aea418af87aa241cbdecc8b1beed5bdcf" prot="public" static="no" mutable="no">
+        <type>FGameplayTag</type>
+        <definition>FGameplayTag FModificationDescription::RootTag</definition>
+        <argsstring></argsstring>
+        <name>RootTag</name>
+        <qualifiedname>FModificationDescription::RootTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" line="25" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d58/struct_f_modification_description_1ac135eead0cc1d4f56b4bc50e72f45c3b" prot="public" static="no" mutable="no">
+        <type>TObjectPtr&lt; UDataAsset &gt;</type>
+        <definition>TObjectPtr&lt;UDataAsset&gt; FModificationDescription::ThisDescription</definition>
+        <argsstring></argsstring>
+        <name>ThisDescription</name>
+        <qualifiedname>FModificationDescription::ThisDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" line="22" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Modification slot with data assets for each option. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" line="15" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionDataAsset.h" bodystart="16" bodyend="30"/>
+    <listofallmembers>
+      <member refid="da/d58/struct_f_modification_description_1a467df978eabd5094e7b2a52fbaec08c1" prot="public" virt="non-virtual"><scope>FModificationDescription</scope><name>Descriptions</name></member>
+      <member refid="da/d58/struct_f_modification_description_1aea418af87aa241cbdecc8b1beed5bdcf" prot="public" virt="non-virtual"><scope>FModificationDescription</scope><name>RootTag</name></member>
+      <member refid="da/d58/struct_f_modification_description_1ac135eead0cc1d4f56b4bc50e72f45c3b" prot="public" virt="non-virtual"><scope>FModificationDescription</scope><name>ThisDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

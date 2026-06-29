@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_9531d6bd9de037d04314c068e8afcc7a" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes</compoundname>
+    <innerfile refid="d6/de2/_weapon_custom_function_runtime_node_8h">WeaponCustomFunctionRuntimeNode.h</innerfile>
+    <innerfile refid="d9/d51/_weapon_member_node_8h">WeaponMemberNode.h</innerfile>
+    <innerfile refid="dc/d89/_weapon_numeric_property_overrider_runtime_node_8h">WeaponNumericPropertyOverriderRuntimeNode.h</innerfile>
+    <innerfile refid="d2/dc3/_weapon_numeric_property_runtime_node_8h">WeaponNumericPropertyRuntimeNode.h</innerfile>
+    <innerfile refid="d3/df4/_weapon_object_function_node_8h">WeaponObjectFunctionNode.h</innerfile>
+    <innerfile refid="d0/db2/_weapon_object_property_node_8h">WeaponObjectPropertyNode.h</innerfile>
+    <innerfile refid="d3/d31/_weapon_property_runtime_node_8h">WeaponPropertyRuntimeNode.h</innerfile>
+    <innerfile refid="db/d7c/_weapon_struct_property_node_8h">WeaponStructPropertyNode.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Nodes/ReflectionNodes/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,814 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="da/db7/class_u_weapon_asset_default_characteristics" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponAssetDefaultCharacteristics</compoundname>
+    <basecompoundref refid="d4/d10/class_u_weapon_asset_characteristics" prot="public" virt="non-virtual">UWeaponAssetCharacteristics</basecompoundref>
+    <includes local="no">WeaponAssetDefaultCharacteristics.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1a55d1d9de278dc70cf7ca7e825f3ea85e" prot="public" static="no" mutable="no">
+        <type>FAmmoLoosePerTriggerChanged</type>
+        <definition>FAmmoLoosePerTriggerChanged UWeaponAssetDefaultCharacteristics::OnAmmoLoosePerTriggerChanged</definition>
+        <argsstring></argsstring>
+        <name>OnAmmoLoosePerTriggerChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnAmmoLoosePerTriggerChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="163" column="29" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1a055a63361b6e59ea16be86c30efc6dcd" prot="public" static="no" mutable="no">
+        <type>FAmmoTypeChanged</type>
+        <definition>FAmmoTypeChanged UWeaponAssetDefaultCharacteristics::OnAmmoTypeChanged</definition>
+        <argsstring></argsstring>
+        <name>OnAmmoTypeChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnAmmoTypeChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="184" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1aae43bf926b8aa5b5c2eb5604fb3f2a10" prot="public" static="no" mutable="no">
+        <type>FBurstTriggersChanged</type>
+        <definition>FBurstTriggersChanged UWeaponAssetDefaultCharacteristics::OnBurstTriggersChanged</definition>
+        <argsstring></argsstring>
+        <name>OnBurstTriggersChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnBurstTriggersChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="145" column="23" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1ac71bf50b55c78bc12bb19aa265781941" prot="public" static="no" mutable="no">
+        <type>FCustomReloadExecutionTimingChanged</type>
+        <definition>FCustomReloadExecutionTimingChanged UWeaponAssetDefaultCharacteristics::OnCustomReloadExecutionTimingChanged</definition>
+        <argsstring></argsstring>
+        <name>OnCustomReloadExecutionTimingChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnCustomReloadExecutionTimingChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="169" column="37" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1a51151526e9df15715487c0c488d165e0" prot="public" static="no" mutable="no">
+        <type>FCustomTriggerExecutionTimingChanged</type>
+        <definition>FCustomTriggerExecutionTimingChanged UWeaponAssetDefaultCharacteristics::OnCustomTriggerExecutionTimingChanged</definition>
+        <argsstring></argsstring>
+        <name>OnCustomTriggerExecutionTimingChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnCustomTriggerExecutionTimingChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="166" column="38" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1a1af9f100c250f5bb299d7eecdac68a09" prot="public" static="no" mutable="no">
+        <type>FCustomUnjamExecutionTimingChanged</type>
+        <definition>FCustomUnjamExecutionTimingChanged UWeaponAssetDefaultCharacteristics::OnCustomUnjamExecutionTimingChanged</definition>
+        <argsstring></argsstring>
+        <name>OnCustomUnjamExecutionTimingChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnCustomUnjamExecutionTimingChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="178" column="36" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1a542d9d0d57980bf6dd538c70bc555633" prot="public" static="no" mutable="no">
+        <type>FIterationReloadStepAmountChanged</type>
+        <definition>FIterationReloadStepAmountChanged UWeaponAssetDefaultCharacteristics::OnIterationReloadStepAmountChanged</definition>
+        <argsstring></argsstring>
+        <name>OnIterationReloadStepAmountChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnIterationReloadStepAmountChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="175" column="35" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1a4094efbfb125ee5a11c2e111f80ceb56" prot="public" static="no" mutable="no">
+        <type>FJamProbabilityChanged</type>
+        <definition>FJamProbabilityChanged UWeaponAssetDefaultCharacteristics::OnJamProbabilityChanged</definition>
+        <argsstring></argsstring>
+        <name>OnJamProbabilityChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnJamProbabilityChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="151" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1af76608512c031b27121db4d7a02b57d3" prot="public" static="no" mutable="no">
+        <type>FLooseExtraAmmoOnReloadChanged</type>
+        <definition>FLooseExtraAmmoOnReloadChanged UWeaponAssetDefaultCharacteristics::OnLooseExtraAmmoOnReloadChanged</definition>
+        <argsstring></argsstring>
+        <name>OnLooseExtraAmmoOnReloadChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnLooseExtraAmmoOnReloadChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="172" column="32" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1a8f16492cbeb83b3fa07242761236a400" prot="public" static="no" mutable="no">
+        <type>FMagazineCapabilityChanged</type>
+        <definition>FMagazineCapabilityChanged UWeaponAssetDefaultCharacteristics::OnMagazineCapabilityChanged</definition>
+        <argsstring></argsstring>
+        <name>OnMagazineCapabilityChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnMagazineCapabilityChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="148" column="28" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1a31727f24c8d237eebcc04a97a57fce0f" prot="public" static="no" mutable="no">
+        <type>FReloadByMagazineChanged</type>
+        <definition>FReloadByMagazineChanged UWeaponAssetDefaultCharacteristics::OnReloadByMagazineChanged</definition>
+        <argsstring></argsstring>
+        <name>OnReloadByMagazineChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnReloadByMagazineChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="181" column="26" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1a199d94f2a2747800a6dcaba3ab7242aa" prot="public" static="no" mutable="no">
+        <type>FTriggerIfAmmoLessThanRequiredChanged</type>
+        <definition>FTriggerIfAmmoLessThanRequiredChanged UWeaponAssetDefaultCharacteristics::OnTriggerIfAmmoLessThanRequiredChanged</definition>
+        <argsstring></argsstring>
+        <name>OnTriggerIfAmmoLessThanRequiredChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnTriggerIfAmmoLessThanRequiredChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="160" column="39" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1afd0873fbafa580fb743177f589f1fb00" prot="public" static="no" mutable="no">
+        <type>FTriggerModeChanged</type>
+        <definition>FTriggerModeChanged UWeaponAssetDefaultCharacteristics::OnTriggerModeChanged</definition>
+        <argsstring></argsstring>
+        <name>OnTriggerModeChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnTriggerModeChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="139" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1a5feb8cc5e96ea11d1f7b625a502abc76" prot="public" static="no" mutable="no">
+        <type>FTriggerRateChanged</type>
+        <definition>FTriggerRateChanged UWeaponAssetDefaultCharacteristics::OnTriggerRateChanged</definition>
+        <argsstring></argsstring>
+        <name>OnTriggerRateChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnTriggerRateChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="142" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1a1ae6ef528d8baa14b07c63b974616921" prot="public" static="no" mutable="no">
+        <type>FUsesAmmoChanged</type>
+        <definition>FUsesAmmoChanged UWeaponAssetDefaultCharacteristics::OnUsesAmmoChanged</definition>
+        <argsstring></argsstring>
+        <name>OnUsesAmmoChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnUsesAmmoChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="154" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db7/class_u_weapon_asset_default_characteristics_1adb0f5efcf4f4a15c39dd09f2f38bbab1" prot="public" static="no" mutable="no">
+        <type>FUsesMagazineChanged</type>
+        <definition>FUsesMagazineChanged UWeaponAssetDefaultCharacteristics::OnUsesMagazineChanged</definition>
+        <argsstring></argsstring>
+        <name>OnUsesMagazineChanged</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::OnUsesMagazineChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="157" column="22" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a619b6cea640b03bb824c1608a5d88cda" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int32</type>
+        <definition>int32 UWeaponAssetDefaultCharacteristics::GetAmmoLoosePerTrigger</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAmmoLoosePerTrigger</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetAmmoLoosePerTrigger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns ammo consumed per trigger. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="96" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1ab7095a09e382117cd8e3c615e66fe8c5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>int32</type>
+        <definition>virtual int32 UWeaponAssetDefaultCharacteristics::GetAmmoLoosePerTrigger_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAmmoLoosePerTrigger_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetAmmoLoosePerTrigger_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="97" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a8a7ddb4dd06410106bd551b244cd3412" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>EAmmoType</type>
+        <definition>EAmmoType UWeaponAssetDefaultCharacteristics::GetAmmoType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAmmoType</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetAmmoType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns ammo type classification. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="131" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a7652e364fc0345385c95d4e1976fd575" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>EAmmoType</type>
+        <definition>virtual EAmmoType UWeaponAssetDefaultCharacteristics::GetAmmoType_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAmmoType_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetAmmoType_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="132" column="19" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a7c6910c55b65f8c06359953f2a5026cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8</type>
+        <definition>uint8 UWeaponAssetDefaultCharacteristics::GetBurstTriggers</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBurstTriggers</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetBurstTriggers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns number of shots in a burst. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="66" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a0243983b8f166cfbc4aaadd457ae8445" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>uint8</type>
+        <definition>virtual uint8 UWeaponAssetDefaultCharacteristics::GetBurstTriggers_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBurstTriggers_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetBurstTriggers_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="67" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1afc3c9a79c44afdf77b805aef684a42d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAssetDefaultCharacteristics::GetCustomReloadExecutionTiming</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCustomReloadExecutionTiming</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetCustomReloadExecutionTiming</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if custom reload execution timing enabled. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="106" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1aa232a1b36185bfc937ef134fcce721d4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool UWeaponAssetDefaultCharacteristics::GetCustomReloadExecutionTiming_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCustomReloadExecutionTiming_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetCustomReloadExecutionTiming_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="107" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a137af7c83e0169122bd1765a3e746f27" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAssetDefaultCharacteristics::GetCustomTriggerExecutionTiming</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCustomTriggerExecutionTiming</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetCustomTriggerExecutionTiming</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if custom trigger execution timing enabled. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="101" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1ade5fe0f8bad0876c20cba618dc546bf5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool UWeaponAssetDefaultCharacteristics::GetCustomTriggerExecutionTiming_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCustomTriggerExecutionTiming_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetCustomTriggerExecutionTiming_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="102" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a8620d022daa444b608681412e2003332" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAssetDefaultCharacteristics::GetCustomUnjamExecutionTiming</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCustomUnjamExecutionTiming</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetCustomUnjamExecutionTiming</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if custom unjam execution timing enabled. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="121" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a9356eabc6dce4f856f07c25a62fb052f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool UWeaponAssetDefaultCharacteristics::GetCustomUnjamExecutionTiming_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCustomUnjamExecutionTiming_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetCustomUnjamExecutionTiming_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="122" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a39a0f29368f0168c37b665d604f7526b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8</type>
+        <definition>uint8 UWeaponAssetDefaultCharacteristics::GetIterationReloadStepAmount</definition>
+        <argsstring>() const</argsstring>
+        <name>GetIterationReloadStepAmount</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetIterationReloadStepAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns reload ammo per step (iteration reload). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="116" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a91430d7a7498f9eecfc7b94279f1b449" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>uint8</type>
+        <definition>virtual uint8 UWeaponAssetDefaultCharacteristics::GetIterationReloadStepAmount_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetIterationReloadStepAmount_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetIterationReloadStepAmount_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="117" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a36288d16c2a6103b697e83546dbb5652" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float UWeaponAssetDefaultCharacteristics::GetJamProbability</definition>
+        <argsstring>() const</argsstring>
+        <name>GetJamProbability</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetJamProbability</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns probability of weapon jamming (0-1). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="76" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1acb08b7b608357b836e02a96c7c492a38" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>virtual float UWeaponAssetDefaultCharacteristics::GetJamProbability_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetJamProbability_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetJamProbability_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="77" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1ac9ac2098272e128b9b80050aea5e6e1c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAssetDefaultCharacteristics::GetLooseExtraAmmoOnReload</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLooseExtraAmmoOnReload</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetLooseExtraAmmoOnReload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if extra ammo discarded on reload. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="111" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a06e75aa2ac47729be71d3c437a6ed961" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool UWeaponAssetDefaultCharacteristics::GetLooseExtraAmmoOnReload_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLooseExtraAmmoOnReload_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetLooseExtraAmmoOnReload_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="112" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a96a383004921b27c2a1d866ff08c3cd9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int32</type>
+        <definition>int32 UWeaponAssetDefaultCharacteristics::GetMagazineCapability</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMagazineCapability</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetMagazineCapability</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns maximum magazine capacity. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="71" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a38c51c03cc6e4b92287b7effc0176875" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>int32</type>
+        <definition>virtual int32 UWeaponAssetDefaultCharacteristics::GetMagazineCapability_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMagazineCapability_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetMagazineCapability_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="72" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a5b079deb09bc9415cbe7eb55dfae2e54" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAssetDefaultCharacteristics::GetReloadByMagazine</definition>
+        <argsstring>() const</argsstring>
+        <name>GetReloadByMagazine</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetReloadByMagazine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if reload operates by magazine swap. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="126" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a153d798be6c99516be819e3d72b062e4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool UWeaponAssetDefaultCharacteristics::GetReloadByMagazine_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetReloadByMagazine_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetReloadByMagazine_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="127" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a78f9fe787ee8d1a7533bd6364da4ef8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAssetDefaultCharacteristics::GetTriggerIfAmmoLessThanRequired</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTriggerIfAmmoLessThanRequired</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetTriggerIfAmmoLessThanRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if trigger blocked when insufficient ammo. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="91" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1aaa0b3604172f6450aab482e2c2a06433" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool UWeaponAssetDefaultCharacteristics::GetTriggerIfAmmoLessThanRequired_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTriggerIfAmmoLessThanRequired_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetTriggerIfAmmoLessThanRequired_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="92" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a3012868ed9400afb35d2dd3534dae8a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ETriggerMode</type>
+        <definition>ETriggerMode UWeaponAssetDefaultCharacteristics::GetTriggerMode</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTriggerMode</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetTriggerMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the weapon&apos;s firing mode. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="56" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1aba5776484fa3ce7a852d5a7feddf2d64" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>ETriggerMode</type>
+        <definition>virtual ETriggerMode UWeaponAssetDefaultCharacteristics::GetTriggerMode_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTriggerMode_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetTriggerMode_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="57" column="22" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a3572dec9ff494d52ccbcc73c81147f99" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float UWeaponAssetDefaultCharacteristics::GetTriggerRate</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTriggerRate</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetTriggerRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns delay between shots (shots per second). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="61" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1ac0732402df1407c2591c85c33138bec7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>virtual float UWeaponAssetDefaultCharacteristics::GetTriggerRate_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTriggerRate_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetTriggerRate_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="62" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a67c077d691b00ead6a268c173fc84cb1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAssetDefaultCharacteristics::GetUsesAmmo</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUsesAmmo</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetUsesAmmo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if weapon consumes ammo. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="81" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a73b4990746f125937d7ffcda482de0c3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool UWeaponAssetDefaultCharacteristics::GetUsesAmmo_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUsesAmmo_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetUsesAmmo_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="82" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1a3e05378d600d42b82114be9aeef764d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAssetDefaultCharacteristics::GetUsesMagazine</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUsesMagazine</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetUsesMagazine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if weapon uses magazines. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="86" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db7/class_u_weapon_asset_default_characteristics_1ad5bea9002be528e96d943120b13606bd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool UWeaponAssetDefaultCharacteristics::GetUsesMagazine_Implementation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUsesMagazine_Implementation</name>
+        <qualifiedname>UWeaponAssetDefaultCharacteristics::GetUsesMagazine_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="87" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Default weapon characteristics implementation with blueprint support. Provides virtual getters and event delegates for trigger, ammo, and jam mechanics. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>UObject</label>
+      </node>
+      <node id="2">
+        <label>UWeaponAssetCharacteristics</label>
+        <link refid="d4/d10/class_u_weapon_asset_characteristics"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>UWeaponAssetDefaultCharacteristics</label>
+        <link refid="da/db7/class_u_weapon_asset_default_characteristics"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>FWeaponModifications</label>
+        <link refid="d7/dc9/struct_f_weapon_modifications"/>
+      </node>
+      <node id="3">
+        <label>UObject</label>
+      </node>
+      <node id="2">
+        <label>UWeaponAssetCharacteristics</label>
+        <link refid="d4/d10/class_u_weapon_asset_characteristics"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>AppliedModifications</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>UWeaponAssetDefaultCharacteristics</label>
+        <link refid="da/db7/class_u_weapon_asset_default_characteristics"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" line="45" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Core/WeaponAssetDefaultCharacteristics.h" bodystart="46" bodyend="188"/>
+    <listofallmembers>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a1a6ce50c3727a92032891b43dc8dc805" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>AppliedModifications</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a85d7b68d614045209130be7610c12f3f" prot="protected" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>FindOwner</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a2f5ee1e1eb1995289d82e5b4ca926603" prot="protected" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>FindOwnerActor</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1aa882200bd5f88d9f132488731a63f388" prot="protected" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>FindOwnerComponent</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a619b6cea640b03bb824c1608a5d88cda" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetAmmoLoosePerTrigger</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1ab7095a09e382117cd8e3c615e66fe8c5" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetAmmoLoosePerTrigger_Implementation</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a8a7ddb4dd06410106bd551b244cd3412" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetAmmoType</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a7652e364fc0345385c95d4e1976fd575" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetAmmoType_Implementation</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a7c6910c55b65f8c06359953f2a5026cf" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetBurstTriggers</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a0243983b8f166cfbc4aaadd457ae8445" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetBurstTriggers_Implementation</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1afc3c9a79c44afdf77b805aef684a42d4" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetCustomReloadExecutionTiming</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1aa232a1b36185bfc937ef134fcce721d4" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetCustomReloadExecutionTiming_Implementation</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a137af7c83e0169122bd1765a3e746f27" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetCustomTriggerExecutionTiming</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1ade5fe0f8bad0876c20cba618dc546bf5" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetCustomTriggerExecutionTiming_Implementation</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a8620d022daa444b608681412e2003332" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetCustomUnjamExecutionTiming</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a9356eabc6dce4f856f07c25a62fb052f" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetCustomUnjamExecutionTiming_Implementation</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a39a0f29368f0168c37b665d604f7526b" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetIterationReloadStepAmount</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a91430d7a7498f9eecfc7b94279f1b449" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetIterationReloadStepAmount_Implementation</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a36288d16c2a6103b697e83546dbb5652" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetJamProbability</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1acb08b7b608357b836e02a96c7c492a38" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetJamProbability_Implementation</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1ac9ac2098272e128b9b80050aea5e6e1c" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetLooseExtraAmmoOnReload</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a06e75aa2ac47729be71d3c437a6ed961" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetLooseExtraAmmoOnReload_Implementation</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a96a383004921b27c2a1d866ff08c3cd9" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetMagazineCapability</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a38c51c03cc6e4b92287b7effc0176875" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetMagazineCapability_Implementation</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a3697d511aed311cd4c0662f5dd7a5374" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetModificationAtSlot</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a433630ff5be5aabc178751248925ad4e" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetModifications</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a208db3af8bca5623c8d8bd1f47cd1854" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetNumModification</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a5b079deb09bc9415cbe7eb55dfae2e54" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetReloadByMagazine</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a153d798be6c99516be819e3d72b062e4" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetReloadByMagazine_Implementation</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a36d467704881dce3b9b228128f1045b4" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetRootTag</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a78f9fe787ee8d1a7533bd6364da4ef8c" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetTriggerIfAmmoLessThanRequired</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1aaa0b3604172f6450aab482e2c2a06433" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetTriggerIfAmmoLessThanRequired_Implementation</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a3012868ed9400afb35d2dd3534dae8a0" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetTriggerMode</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1aba5776484fa3ce7a852d5a7feddf2d64" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetTriggerMode_Implementation</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a3572dec9ff494d52ccbcc73c81147f99" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetTriggerRate</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1ac0732402df1407c2591c85c33138bec7" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetTriggerRate_Implementation</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a67c077d691b00ead6a268c173fc84cb1" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetUsesAmmo</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a73b4990746f125937d7ffcda482de0c3" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetUsesAmmo_Implementation</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a3e05378d600d42b82114be9aeef764d1" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetUsesMagazine</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1ad5bea9002be528e96d943120b13606bd" prot="public" virt="virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetUsesMagazine_Implementation</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a5d27ce17a2d29edc35b144b5a47767fd" prot="protected" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetWeaponAsset</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1afcf12e269af3d64d2225935d8c4bbe31" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetWeaponModification</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a8001cd6fb28ff49582edf6734923bb34" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetWeaponModifications</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a620a5e0d5a0f3076f2535a60d59f4e54" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetWeaponModifications</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a058e82e91a3080ae03a9342aa146b7e2" prot="protected" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>GetWorldContext</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a814df4fe7437c05c6aff913088b59d75" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>HasModAtSlot</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a55d1d9de278dc70cf7ca7e825f3ea85e" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnAmmoLoosePerTriggerChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a055a63361b6e59ea16be86c30efc6dcd" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnAmmoTypeChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1aae43bf926b8aa5b5c2eb5604fb3f2a10" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnBurstTriggersChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1ac71bf50b55c78bc12bb19aa265781941" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnCustomReloadExecutionTimingChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a51151526e9df15715487c0c488d165e0" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnCustomTriggerExecutionTimingChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a1af9f100c250f5bb299d7eecdac68a09" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnCustomUnjamExecutionTimingChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a542d9d0d57980bf6dd538c70bc555633" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnIterationReloadStepAmountChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a4094efbfb125ee5a11c2e111f80ceb56" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnJamProbabilityChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1af76608512c031b27121db4d7a02b57d3" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnLooseExtraAmmoOnReloadChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a8f16492cbeb83b3fa07242761236a400" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnMagazineCapabilityChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a31727f24c8d237eebcc04a97a57fce0f" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnReloadByMagazineChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a199d94f2a2747800a6dcaba3ab7242aa" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnTriggerIfAmmoLessThanRequiredChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1afd0873fbafa580fb743177f589f1fb00" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnTriggerModeChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a5feb8cc5e96ea11d1f7b625a502abc76" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnTriggerRateChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1a1ae6ef528d8baa14b07c63b974616921" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnUsesAmmoChanged</name></member>
+      <member refid="da/db7/class_u_weapon_asset_default_characteristics_1adb0f5efcf4f4a15c39dd09f2f38bbab1" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>OnUsesMagazineChanged</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a4741aee61344ff5a4143d05ce2a9d9fa" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>SetModificationAtSlot</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a36f544695e0db0885be94df00aa3a754" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>SetWeaponModifications</name></member>
+      <member refid="d4/d10/class_u_weapon_asset_characteristics_1a3a3cc57a90f7aa9ba5e29bf25b200a2b" prot="public" virt="non-virtual"><scope>UWeaponAssetDefaultCharacteristics</scope><name>WeaponName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

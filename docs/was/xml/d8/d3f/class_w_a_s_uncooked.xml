@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d8/d3f/class_w_a_s_uncooked" kind="class" language="C#" prot="public">
+    <compoundname>WASUncooked</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModuleRules</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d3f/class_w_a_s_uncooked_1a26b5848eff19edc2282e8c40b3cb9769" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WASUncooked.WASUncooked</definition>
+        <argsstring>(ReadOnlyTargetRules Target)</argsstring>
+        <name>WASUncooked</name>
+        <qualifiedname>WASUncooked.WASUncooked</qualifiedname>
+        <param>
+          <type>ReadOnlyTargetRules</type>
+          <declname>Target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/WASUncooked.Build.cs" line="5" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/WASUncooked.Build.cs" bodystart="5" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModuleRules</label>
+      </node>
+      <node id="1">
+        <label>WASUncooked</label>
+        <link refid="d8/d3f/class_w_a_s_uncooked"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModuleRules</label>
+      </node>
+      <node id="1">
+        <label>WASUncooked</label>
+        <link refid="d8/d3f/class_w_a_s_uncooked"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/WASUncooked.Build.cs" line="3" column="7" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemUncooked/WASUncooked.Build.cs" bodystart="4" bodyend="34"/>
+    <listofallmembers>
+      <member refid="d8/d3f/class_w_a_s_uncooked_1a26b5848eff19edc2282e8c40b3cb9769" prot="public" virt="non-virtual"><scope>WASUncooked</scope><name>WASUncooked</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

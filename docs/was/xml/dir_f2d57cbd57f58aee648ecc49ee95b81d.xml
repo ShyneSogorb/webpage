@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_f2d57cbd57f58aee648ecc49ee95b81d" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations</compoundname>
+    <innerfile refid="da/dab/_function_node_property_customization_8h">FunctionNodePropertyCustomization.h</innerfile>
+    <innerfile refid="d7/d9a/_select_by_mod_customization_8h">SelectByModCustomization.h</innerfile>
+    <innerfile refid="d6/dde/_slot_modification_description_customization_8h">SlotModificationDescriptionCustomization.h</innerfile>
+    <innerfile refid="dd/d63/_weapon_mod_applied_customization_8h">WeaponModAppliedCustomization.h</innerfile>
+    <innerfile refid="da/d69/_weapon_modification_description_customization_8h">WeaponModificationDescriptionCustomization.h</innerfile>
+    <innerfile refid="da/d1a/_weapon_modifications_applied_customization_8h">WeaponModificationsAppliedCustomization.h</innerfile>
+    <innerfile refid="d9/d6d/_weapon_modificator_customization_8h">WeaponModificatorCustomization.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d2/dfb/_weapon_modifications_8cpp" kind="file" language="C++">
+    <compoundname>WeaponModifications.cpp</compoundname>
+    <includes refid="de/dcd/_weapon_modifications_8h" local="yes">Core/WeaponModifications.h</includes>
+    <includes local="yes">GameplayTagsManager.h</includes>
+    <includes refid="d9/dd5/_runtime_utils_8h" local="yes">Miscellaneous/RuntimeUtils.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponModifications.cpp</label>
+        <link refid="d2/dfb/_weapon_modifications_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GameplayTagsManager.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Core/WeaponModifications.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameplayTagsManager.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/RuntimeUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d7/dc9/struct_f_weapon_modifications_1a719aa0a4742d993185100c7b17e5e6f5" kindref="member">FWeaponModifications::SetModification</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGameplayTag&amp;<sp/>ApplyModification)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>FGameplayTagContainer<sp/>Children<sp/>=<sp/>UGameplayTagsManager::Get().RequestGameplayTagChildren(ApplyModification.RequestDirectParent());</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dc9/struct_f_weapon_modifications_1aee2e77905c3a8fd0ce403775c332504c" kindref="member">Container</ref>.RemoveTags(Children);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dc9/struct_f_weapon_modifications_1aee2e77905c3a8fd0ce403775c332504c" kindref="member">Container</ref>.AddTag(ApplyModification);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d7/dc9/struct_f_weapon_modifications_1a010451b4c79d8d9adda291c9b356d4b6" kindref="member">FWeaponModifications::HasModification</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGameplayTag&amp;<sp/>Modificator)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="17"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/dc9/struct_f_weapon_modifications_1aee2e77905c3a8fd0ce403775c332504c" kindref="member">Container</ref>.MatchesQuery(FGameplayTagQuery::MakeQuery_MatchTag(Modificator));</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">FGameplayTag<sp/><ref refid="d7/dc9/struct_f_weapon_modifications_1ac18722faf7639cfa21d3f8ba83f4791e" kindref="member">FWeaponModifications::GetModificationAtSlot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGameplayTag&amp;<sp/>Slot)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="22"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>FGameplayTagContainer<sp/>Mods<sp/>=<sp/>UGameplayTagsManager::Get().RequestGameplayTagChildren(Slot);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/dc9/struct_f_weapon_modifications_1aee2e77905c3a8fd0ce403775c332504c" kindref="member">Container</ref>.Filter(Mods).First();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FGameplayTag&gt;&amp;<sp/><ref refid="d7/dc9/struct_f_weapon_modifications_1a5b66fde498892c8c5d9e6a77a8c3bfeb" kindref="member">FWeaponModifications::GetModsAsArray</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="28"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/dc9/struct_f_weapon_modifications_1aee2e77905c3a8fd0ce403775c332504c" kindref="member">Container</ref>.GetGameplayTagArray();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">int32<sp/><ref refid="d7/dc9/struct_f_weapon_modifications_1a092021860fdcfe4daaadb619d2419fca" kindref="member">FWeaponModifications::GetNumSlots</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="33"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d1/d18/namespace_w_a_s_runtime_utils_1a525cc35d5e011a49cac2d279a84b5a39" kindref="member">WASRuntimeUtils::GetDirectChildrenGameplayTag</ref>(<ref refid="d7/dc9/struct_f_weapon_modifications_1a8957f9a241f9121fd730a23759c5d1f2" kindref="member">WeaponRoot</ref>).Num();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//<sp/>FGameplayTag&amp;<sp/>FWeaponModifications::operator[](int32<sp/>v)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>return<sp/>WASUtils::GetDirectChildrenGameplayTag(WeaponRoot)[v];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//<sp/>const<sp/>FGameplayTag&amp;<sp/>FWeaponModifications::operator[](int32<sp/>v)<sp/>const</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>return<sp/>WASUtils::GetDirectChildrenGameplayTag(WeaponRoot)[v];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Core/WeaponModifications.cpp"/>
+  </compounddef>
+</doxygen>

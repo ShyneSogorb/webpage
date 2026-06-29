@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d4/dac/struct_f_integer_ptr_1_1_type_helper" kind="struct" language="C++" prot="private">
+    <compoundname>FIntegerPtr::TypeHelper</compoundname>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="d4/dac/struct_f_integer_ptr_1_1_type_helper_1ad8a0335d2f5e4c6fbdcf3d6107e9adbf" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename ThisClass</type>
+          </param>
+        </templateparamlist>
+        <type>std::conditional_t&lt; std::is_const_v&lt; std::remove_pointer_t&lt; ThisClass &gt; &gt;, const T *, T * &gt;</type>
+        <definition>using FIntegerPtr::TypeHelper::ConstCorrectType =  std::conditional_t&lt;
+			std::is_const_v&lt;std::remove_pointer_t&lt;ThisClass&gt;&gt;,
+			const T*,
+			T*
+		&gt;</definition>
+        <argsstring></argsstring>
+        <name>ConstCorrectType</name>
+        <qualifiedname>FIntegerPtr::TypeHelper::ConstCorrectType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="237" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d4/dac/struct_f_integer_ptr_1_1_type_helper_1aba5e5c8c0f612663b2247cb248870c27" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::add_pointer_t&lt; T &gt;</type>
+        <definition>using FIntegerPtr::TypeHelper::TypePointer =  std::add_pointer_t&lt;T&gt;</definition>
+        <argsstring></argsstring>
+        <name>TypePointer</name>
+        <qualifiedname>FIntegerPtr::TypeHelper::TypePointer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="234" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" line="231" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DynamicPointer.h" bodystart="232" bodyend="242"/>
+    <listofallmembers>
+      <member refid="d4/dac/struct_f_integer_ptr_1_1_type_helper_1ad8a0335d2f5e4c6fbdcf3d6107e9adbf" prot="public" virt="non-virtual"><scope>FIntegerPtr::TypeHelper</scope><name>ConstCorrectType</name></member>
+      <member refid="d4/dac/struct_f_integer_ptr_1_1_type_helper_1aba5e5c8c0f612663b2247cb248870c27" prot="public" virt="non-virtual"><scope>FIntegerPtr::TypeHelper</scope><name>TypePointer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

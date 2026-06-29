@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d5/d9b/class_u_weapon_asset_characteristics_factory" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponAssetCharacteristicsFactory</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UFactory</basecompoundref>
+    <includes local="no">WeaponAssetFactory.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d9b/class_u_weapon_asset_characteristics_factory_1ab4ffcc76d74aedce0a47971fb4859b61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UWeaponAssetCharacteristicsFactory::UWeaponAssetCharacteristicsFactory</definition>
+        <argsstring>(const FObjectInitializer &amp;objectInitializer)</argsstring>
+        <name>UWeaponAssetCharacteristicsFactory</name>
+        <qualifiedname>UWeaponAssetCharacteristicsFactory::UWeaponAssetCharacteristicsFactory</qualifiedname>
+        <param>
+          <type>const FObjectInitializer &amp;</type>
+          <declname>objectInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetFactory.h" line="26" column="5" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetFactory.cpp" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9b/class_u_weapon_asset_characteristics_factory_1add1e8241d1de2e3620b97cf8f1feefff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool UWeaponAssetCharacteristicsFactory::CanCreateNew</definition>
+        <argsstring>() const override</argsstring>
+        <name>CanCreateNew</name>
+        <qualifiedname>UWeaponAssetCharacteristicsFactory::CanCreateNew</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetFactory.h" line="30" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetFactory.cpp" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9b/class_u_weapon_asset_characteristics_factory_1a492b6aa2527fef38ed746a68784b1fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>UObject *</type>
+        <definition>UObject * UWeaponAssetCharacteristicsFactory::FactoryCreateNew</definition>
+        <argsstring>(UClass *InClass, UObject *InParent, FName Name, EObjectFlags Flags, UObject *Context, FFeedbackContext *Warn) override</argsstring>
+        <name>FactoryCreateNew</name>
+        <qualifiedname>UWeaponAssetCharacteristicsFactory::FactoryCreateNew</qualifiedname>
+        <param>
+          <type>UClass *</type>
+          <declname>InClass</declname>
+        </param>
+        <param>
+          <type>UObject *</type>
+          <declname>InParent</declname>
+        </param>
+        <param>
+          <type>FName</type>
+          <declname>Name</declname>
+        </param>
+        <param>
+          <type>EObjectFlags</type>
+          <declname>Flags</declname>
+        </param>
+        <param>
+          <type>UObject *</type>
+          <declname>Context</declname>
+        </param>
+        <param>
+          <type>FFeedbackContext *</type>
+          <declname>Warn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetFactory.h" line="29" column="21" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetFactory.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UFactory</label>
+      </node>
+      <node id="1">
+        <label>UWeaponAssetCharacteristicsFactory</label>
+        <link refid="d5/d9b/class_u_weapon_asset_characteristics_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UFactory</label>
+      </node>
+      <node id="1">
+        <label>UWeaponAssetCharacteristicsFactory</label>
+        <link refid="d5/d9b/class_u_weapon_asset_characteristics_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetFactory.h" line="22" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetFactory.h" bodystart="22" bodyend="31"/>
+    <listofallmembers>
+      <member refid="d5/d9b/class_u_weapon_asset_characteristics_factory_1add1e8241d1de2e3620b97cf8f1feefff" prot="public" virt="virtual"><scope>UWeaponAssetCharacteristicsFactory</scope><name>CanCreateNew</name></member>
+      <member refid="d5/d9b/class_u_weapon_asset_characteristics_factory_1a492b6aa2527fef38ed746a68784b1fa0" prot="public" virt="virtual"><scope>UWeaponAssetCharacteristicsFactory</scope><name>FactoryCreateNew</name></member>
+      <member refid="d5/d9b/class_u_weapon_asset_characteristics_factory_1ab4ffcc76d74aedce0a47971fb4859b61" prot="public" virt="non-virtual"><scope>UWeaponAssetCharacteristicsFactory</scope><name>UWeaponAssetCharacteristicsFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

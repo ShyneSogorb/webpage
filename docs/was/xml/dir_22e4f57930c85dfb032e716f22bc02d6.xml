@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_22e4f57930c85dfb032e716f22bc02d6" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/Materials</compoundname>
+    <innerfile refid="df/d23/_weapon_material_instance_dynamic_node_8cpp">WeaponMaterialInstanceDynamicNode.cpp</innerfile>
+    <innerfile refid="de/d16/_weapon_material_instance_dynamic_node_8h">WeaponMaterialInstanceDynamicNode.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/Materials/"/>
+  </compounddef>
+</doxygen>

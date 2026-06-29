@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d3/d76/struct_f_numeric_holder" kind="struct" language="C++" prot="public">
+    <compoundname>FNumericHolder</compoundname>
+    <includes local="no">WeaponMathRuntimeNode.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d76/struct_f_numeric_holder_1adf21f11f3def39c02154989e79fd4591" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double FNumericHolder::Float</definition>
+        <argsstring></argsstring>
+        <name>Float</name>
+        <qualifiedname>FNumericHolder::Float</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="16" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d76/struct_f_numeric_holder_1a0917e5366c026b5ef37255a1f43eafdf" prot="public" static="no" mutable="no">
+        <type>int64</type>
+        <definition>int64 FNumericHolder::Int</definition>
+        <argsstring></argsstring>
+        <name>Int</name>
+        <qualifiedname>FNumericHolder::Int</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="16" column="26" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d76/struct_f_numeric_holder_1a755fea586292cc6018d7f0f2563ccfaf" prot="public" static="no" mutable="no">
+        <type>ENumericType</type>
+        <definition>ENumericType FNumericHolder::Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <qualifiedname>FNumericHolder::Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="15" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d76/struct_f_numeric_holder_1ae96bf40438e58734bd5b67f05a75b7a1" prot="public" static="no" mutable="no">
+        <type>uint64</type>
+        <definition>uint64 FNumericHolder::UInt</definition>
+        <argsstring></argsstring>
+        <name>UInt</name>
+        <qualifiedname>FNumericHolder::UInt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="16" column="37" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d76/struct_f_numeric_holder_1a454dfa0a3730c22f12b293ed40f34bad" prot="public" static="no" mutable="no">
+        <type>union <ref refid="d3/d76/struct_f_numeric_holder" kindref="compound">FNumericHolder</ref></type>
+        <definition>union FNumericHolder FNumericHolder::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>FNumericHolder::Value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="16" column="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d76/struct_f_numeric_holder_1aad037cc7b41c8353f2dbcef7093d23cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FNumericHolder::FNumericHolder</definition>
+        <argsstring>()</argsstring>
+        <name>FNumericHolder</name>
+        <qualifiedname>FNumericHolder::FNumericHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="18" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d76/struct_f_numeric_holder_1af684ab0e1b916d8e6e9c4ab85dce9c79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>FNumericHolder::FNumericHolder</definition>
+        <argsstring>(T &amp;&amp;InValue)</argsstring>
+        <name>FNumericHolder</name>
+        <qualifiedname>FNumericHolder::FNumericHolder</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="21" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d76/struct_f_numeric_holder_1a18fdc23ce164ead6d4b25f121ce83945" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T &amp;</type>
+        <definition>T &amp; FNumericHolder::Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <qualifiedname>FNumericHolder::Get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="34" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d76/struct_f_numeric_holder_1a41784f374f969fe4a7d08b6ab3f7cb3d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>const T &amp;</type>
+        <definition>const T &amp; FNumericHolder::Get</definition>
+        <argsstring>() const</argsstring>
+        <name>Get</name>
+        <qualifiedname>FNumericHolder::Get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="37" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d76/struct_f_numeric_holder_1a03fe761d5c2334a11e2d216baa9f6df5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>FNumericHolder::operator T</definition>
+        <argsstring>()</argsstring>
+        <name>operator T</name>
+        <qualifiedname>FNumericHolder::operator T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="64" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d76/struct_f_numeric_holder_1aa83986177df39d035ff00cdab15e3bfe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool FNumericHolder::operator!=</definition>
+        <argsstring>(T &amp;&amp;Other) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>FNumericHolder::operator!=</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="114" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="114" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d76/struct_f_numeric_holder_1a558b461745dcc4ad6b2af13dec8dbcf0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d3/d76/struct_f_numeric_holder" kindref="compound">FNumericHolder</ref></type>
+        <definition>FNumericHolder FNumericHolder::operator+</definition>
+        <argsstring>(const FNumericHolder &amp;Other) const</argsstring>
+        <name>operator+</name>
+        <qualifiedname>FNumericHolder::operator+</qualifiedname>
+        <param>
+          <type>const <ref refid="d3/d76/struct_f_numeric_holder" kindref="compound">FNumericHolder</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="84" column="16" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="84" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d76/struct_f_numeric_holder_1a1cf81571c692cbf0ea923197e4e8eec6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T &amp;</type>
+        <definition>T &amp; FNumericHolder::operator=</definition>
+        <argsstring>(T &amp;&amp;InValue)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>FNumericHolder::operator=</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="27" column="3" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d76/struct_f_numeric_holder_1af20e08446fb557802cba93dfd1dd7c32" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool FNumericHolder::operator==</definition>
+        <argsstring>(T &amp;&amp;Other) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>FNumericHolder::operator==</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>Other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="100" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="100" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d76/struct_f_numeric_holder_1ad454a20983b6a40ce7ccfe41f136a85a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void FNumericHolder::Set</definition>
+        <argsstring>(T &amp;&amp;InValue)</argsstring>
+        <name>Set</name>
+        <qualifiedname>FNumericHolder::Set</qualifiedname>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>InValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="123" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="123" bodyend="144"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d3/d76/struct_f_numeric_holder_1a79b52b29ad467fb94d0c55bd11fd00b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename SelfType</type>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;</type>
+        <definition>static auto &amp; FNumericHolder::Get_Impl</definition>
+        <argsstring>(SelfType &amp;&amp;Self)</argsstring>
+        <name>Get_Impl</name>
+        <qualifiedname>FNumericHolder::Get_Impl</qualifiedname>
+        <param>
+          <type>SelfType &amp;&amp;</type>
+          <declname>Self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="40" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="40" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Union type holding any numeric value with runtime type tracking. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" line="13" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponMathRuntimeNode.h" bodystart="14" bodyend="146"/>
+    <listofallmembers>
+      <member refid="d3/d76/struct_f_numeric_holder_1adf21f11f3def39c02154989e79fd4591" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>Float</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1aad037cc7b41c8353f2dbcef7093d23cd" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>FNumericHolder</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1af684ab0e1b916d8e6e9c4ab85dce9c79" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>FNumericHolder</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1a18fdc23ce164ead6d4b25f121ce83945" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>Get</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1a41784f374f969fe4a7d08b6ab3f7cb3d" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>Get</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1a79b52b29ad467fb94d0c55bd11fd00b7" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>Get_Impl</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1a0917e5366c026b5ef37255a1f43eafdf" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>Int</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1a03fe761d5c2334a11e2d216baa9f6df5" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>operator T</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1aa83986177df39d035ff00cdab15e3bfe" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>operator!=</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1a558b461745dcc4ad6b2af13dec8dbcf0" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>operator+</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1a1cf81571c692cbf0ea923197e4e8eec6" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>operator=</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1af20e08446fb557802cba93dfd1dd7c32" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>operator==</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1ad454a20983b6a40ce7ccfe41f136a85a" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>Set</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1a755fea586292cc6018d7f0f2563ccfaf" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>Type</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1ae96bf40438e58734bd5b67f05a75b7a1" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>UInt</name></member>
+      <member refid="d3/d76/struct_f_numeric_holder_1a454dfa0a3730c22f12b293ed40f34bad" prot="public" virt="non-virtual"><scope>FNumericHolder</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

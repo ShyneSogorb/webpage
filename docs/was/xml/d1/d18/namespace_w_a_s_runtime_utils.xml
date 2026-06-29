@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d1/d18/namespace_w_a_s_runtime_utils" kind="namespace" language="C++">
+    <compoundname>WASRuntimeUtils</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d1/d18/namespace_w_a_s_runtime_utils_1a525cc35d5e011a49cac2d279a84b5a39" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TArray&lt; FGameplayTag &gt;</type>
+        <definition>static TArray&lt; FGameplayTag &gt; WASRuntimeUtils::GetDirectChildrenGameplayTag</definition>
+        <argsstring>(const FGameplayTag &amp;Parent)</argsstring>
+        <name>GetDirectChildrenGameplayTag</name>
+        <qualifiedname>WASRuntimeUtils::GetDirectChildrenGameplayTag</qualifiedname>
+        <param>
+          <type>const FGameplayTag &amp;</type>
+          <declname>Parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/RuntimeUtils.h" line="56" column="15" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/RuntimeUtils.h" bodystart="56" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d18/namespace_w_a_s_runtime_utils_1adb8e4fd534bd88d12a4bce5efca709c1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FName</type>
+        <definition>static FName WASRuntimeUtils::GetTagLeafName</definition>
+        <argsstring>(const FGameplayTag &amp;Tag)</argsstring>
+        <name>GetTagLeafName</name>
+        <qualifiedname>WASRuntimeUtils::GetTagLeafName</qualifiedname>
+        <param>
+          <type>const FGameplayTag &amp;</type>
+          <declname>Tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/RuntimeUtils.h" line="73" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/RuntimeUtils.h" bodystart="73" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d18/namespace_w_a_s_runtime_utils_1ae259c9253ce155d8e13e3341fa5c18b6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool WASRuntimeUtils::IsInputParam</definition>
+        <argsstring>(const FProperty *Prop)</argsstring>
+        <name>IsInputParam</name>
+        <qualifiedname>WASRuntimeUtils::IsInputParam</qualifiedname>
+        <param>
+          <type>const FProperty *</type>
+          <declname>Prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/RuntimeUtils.h" line="11" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/RuntimeUtils.h" bodystart="11" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d18/namespace_w_a_s_runtime_utils_1a07c327c3e0f894c9cf9dfa954ff056ca" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool WASRuntimeUtils::IsOutputParam</definition>
+        <argsstring>(const FProperty *Prop)</argsstring>
+        <name>IsOutputParam</name>
+        <qualifiedname>WASRuntimeUtils::IsOutputParam</qualifiedname>
+        <param>
+          <type>const FProperty *</type>
+          <declname>Prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if property is output/return parameter. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/RuntimeUtils.h" line="48" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/RuntimeUtils.h" bodystart="48" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d18/namespace_w_a_s_runtime_utils_1adea6f971ae588fba0a92a04463e063a7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool WASRuntimeUtils::IsSigned</definition>
+        <argsstring>(const FProperty *Property)</argsstring>
+        <name>IsSigned</name>
+        <qualifiedname>WASRuntimeUtils::IsSigned</qualifiedname>
+        <param>
+          <type>const FProperty *</type>
+          <declname>Property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/RuntimeUtils.h" line="24" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/RuntimeUtils.h" bodystart="24" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d18/namespace_w_a_s_runtime_utils_1a4bae5c13b28ea5ca7afe5d3e87696a8d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool WASRuntimeUtils::IsUnsigned</definition>
+        <argsstring>(const FProperty *Property)</argsstring>
+        <name>IsUnsigned</name>
+        <qualifiedname>WASRuntimeUtils::IsUnsigned</qualifiedname>
+        <param>
+          <type>const FProperty *</type>
+          <declname>Property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if property is unsigned integer type. Ordered by probability for lazy evaluation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/RuntimeUtils.h" line="36" column="13" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/RuntimeUtils.h" bodystart="36" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/RuntimeUtils.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>

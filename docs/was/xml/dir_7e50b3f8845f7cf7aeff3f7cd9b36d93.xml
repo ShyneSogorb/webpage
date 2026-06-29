@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dir_7e50b3f8845f7cf7aeff3f7cd9b36d93" kind="dir">
+    <compoundname>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/FlowNodes</compoundname>
+    <innerfile refid="d4/d7d/_weapon_if_runtime_node_8cpp">WeaponIfRuntimeNode.cpp</innerfile>
+    <innerfile refid="d6/d18/_weapon_if_runtime_node_8h">WeaponIfRuntimeNode.h</innerfile>
+    <innerfile refid="d5/d39/_weapon_select_by_mod_8cpp">WeaponSelectByMod.cpp</innerfile>
+    <innerfile refid="d0/d39/_weapon_select_enum_runtime_node_8cpp">WeaponSelectEnumRuntimeNode.cpp</innerfile>
+    <innerfile refid="dd/d86/_weapon_select_enum_runtime_node_8h">WeaponSelectEnumRuntimeNode.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/FlowNodes/"/>
+  </compounddef>
+</doxygen>

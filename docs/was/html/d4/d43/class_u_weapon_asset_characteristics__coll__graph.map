@@ -1,0 +1,7 @@
+<map id="UWeaponAssetCharacteristics" name="UWeaponAssetCharacteristics">
+<area shape="rect" id="Node000001" title=" " alt="" coords="8,96,208,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,75,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="61,43,100,94,96,97,57,46"/>
+<area shape="rect" id="Node000003" href="$d7/dc9/struct_f_weapon_modifications.html" title=" " alt="" coords="99,5,253,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,46,120,97,116,94,155,43"/>
+</map>

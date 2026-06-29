@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="db/d51/_weapon_asset_editor_app_8h" kind="file" language="C++">
+    <compoundname>WeaponAssetEditorApp.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes local="yes">SGraphPanel.h</includes>
+    <includes local="yes">Misc/NotifyHook.h</includes>
+    <includes refid="db/da8/_weapon_graph_editor_8h" local="yes">WeaponGraphEditor.h</includes>
+    <includes local="yes">EdGraph/EdGraph.h</includes>
+    <includes local="yes">EditorUndoClient.h</includes>
+    <includes local="yes">WorkflowOrientedApp/WorkflowCentricApplication.h</includes>
+    <includedby refid="d1/d50/_weapon_graph_node_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Nodes/WeaponGraphNode.cpp</includedby>
+    <includedby refid="d6/d5a/_weapon_graph_schema_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Schemas/WeaponGraphSchema.cpp</includedby>
+    <includedby refid="da/d3a/_weapon_asset_primary_tab_factory_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Tabs/WeaponAssetPrimaryTabFactory.cpp</includedby>
+    <includedby refid="d7/d74/_weapon_asset_properties_tab_factory_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Tabs/WeaponAssetPropertiesTabFactory.cpp</includedby>
+    <includedby refid="d1/d72/_weapon_preview_scene_tab_factory_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Tabs/WeaponPreviewSceneTabFactory.cpp</includedby>
+    <includedby refid="de/dd3/_weapon_asset_action_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetAction.cpp</includedby>
+    <includedby refid="dc/de7/_weapon_asset_app_mode_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetAppMode.cpp</includedby>
+    <includedby refid="d5/d3b/_weapon_asset_editor_app_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponAssetEditorApp.cpp</includedby>
+    <includedby refid="da/d42/_weapon_graph_editor_8cpp" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WeaponGraphEditor.cpp</includedby>
+    <includedby refid="df/d7d/_weapon_preview_viewport_8h" local="yes">C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/Viewport/WeaponPreviewViewport.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h</label>
+        <link refid="db/d51/_weapon_asset_editor_app_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="5">
+        <label>EdGraph/EdGraph.h</label>
+      </node>
+      <node id="6">
+        <label>EditorUndoClient.h</label>
+      </node>
+      <node id="4">
+        <label>Misc/NotifyHook.h</label>
+      </node>
+      <node id="3">
+        <label>SGraphPanel.h</label>
+      </node>
+      <node id="7">
+        <label>WorkflowOrientedApp/WorkflowCentricApplication.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="da/d5f/class_f_weapon_asset_editor_app" prot="public">FWeaponAssetEditorApp</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="db/d51/_weapon_asset_editor_app_8h_1aa882ac720a7f45a085fbdcbcbf2d66bc" prot="public" static="no">
+        <name>APP_MODE</name>
+        <initializer>TEXT(&quot;WeaponAssetAppMode&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" line="13" column="9" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;SGraphPanel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Misc/NotifyHook.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponGraphEditor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;EdGraph/EdGraph.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;EditorUndoClient.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WorkflowOrientedApp/WorkflowCentricApplication.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APP_MODE<sp/>TEXT(&quot;WeaponAssetAppMode&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d84/class_u_weapon_graph_node" kindref="compound">UWeaponGraphNode</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="da/d5f/class_f_weapon_asset_editor_app" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d5f/class_f_weapon_asset_editor_app" kindref="compound">FWeaponAssetEditorApp</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>FWorkflowCentricApplication,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>FEditorUndoClient,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>FNotifyHook{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a1b5215b7a5155f1524a863b414836e92" kindref="member">RegisterTabSpawners</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSharedRef&lt;class<sp/>FTabManager&gt;&amp;<sp/>TabManager)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a48bb201908d1984aa20e2dfb9dc05746" kindref="member">InitEditor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EToolkitMode::Type<sp/>Mode,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSharedPtr&lt;class<sp/>IToolkitHost&gt;&amp;<sp/>InitToolkitHost,<sp/>UObject*<sp/>InObject);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a407f3f3528b1f86bddc5003dd92e153e" kindref="member">GetWorkingAsset</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>WorkingAsset;}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a407f3f3528b1f86bddc5003dd92e153e" kindref="member">GetWorkingAsset</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>WorkingAsset;}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UEdGraph*<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a0386108a0d3e0239246e3a1db3e0e98a" kindref="member">GetWorkingGraph</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>WorkingGraph;}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UEdGraph*<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a0386108a0d3e0239246e3a1db3e0e98a" kindref="member">GetWorkingGraph</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>WorkingGraph;}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">USceneComponent*<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1ad8bb250ff716c5f3e9874cc3a6d7c30e" kindref="member">GetPreviewComponent</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PreviewAssetComponent;}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>TWeakPtr&lt;class<sp/>FWeaponPreviewScene&gt;<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a8595f8ba63c77abc14fdead8a9edcfb2" kindref="member">GetPreviewScene</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PreviewScene;}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">SGraphEditor*<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a660242388b750a452bf3b10c25cb70c6" kindref="member">GetWorkingGraphUi</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>WorkingGraphUi.Get();}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a81fe5850ef36c8a2716ed96c129c3f53" kindref="member">SetWorkingGraphUi</ref>(TSharedPtr&lt;SGraphEditor&gt;<sp/>InWorkingGraphUi)<sp/>{WorkingGraphUi<sp/>=<sp/>InWorkingGraphUi;}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a0b0a283db7009a8e7a0654dffd7e7a7a" kindref="member">SetPreviewComponent</ref>(USceneComponent*<sp/>PreviewAsset)<sp/>{PreviewAssetComponent<sp/>=<sp/>PreviewAsset;}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a996383ad5f0449b035d28d4824564aa0" kindref="member">SetPreviewScene</ref>(TSharedPtr&lt;class<sp/>FWeaponPreviewScene&gt;<sp/>InPreviewScene)<sp/>{PreviewScene<sp/>=<sp/>InPreviewScene.ToWeakPtr();}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a990ba2a026b5cce473790840cc43d78a" kindref="member">SetSelectedNodeDetailView</ref>(TSharedPtr&lt;class<sp/>IDetailsView&gt;<sp/>DetailsView);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1acda82c76918dd5cb21c4592abdd92559" kindref="member">OnGraphSelectionChanged</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGraphPanelSelectionSet&amp;<sp/>Selection);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a1702002f2461ce857120ea45918c2982" kindref="member">OnPropertyUpdated</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="comment">//FAssetEditorToolkit<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FName<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a3befcaa1cb47bc1353ad706124cf122d" kindref="member">GetToolkitFName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FName(TEXT(</highlight><highlight class="stringliteral">&quot;WeaponAssetEditorApp&quot;</highlight><highlight class="normal">));}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FText<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a56f32b968a404e401f38c0be8c56515c" kindref="member">GetBaseToolkitName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FText::FromString(TEXT(</highlight><highlight class="stringliteral">&quot;WeaponAssetEditorApp&quot;</highlight><highlight class="normal">));}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FString<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1acbd7363bec3df129141df0577a47cacb" kindref="member">GetWorldCentricTabPrefix</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;WeaponAssetEditorApp&quot;</highlight><highlight class="normal">);}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FLinearColor<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a4370342e1a9205aae5e2bff90e13b880" kindref="member">GetWorldCentricTabColorScale</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FLinearColor(0.3f,<sp/>0.2f,<sp/>0.15f,<sp/>0.5f);}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FString<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a34e15bd469f50be35b308ce5d7207eb9" kindref="member">GetDocumentationLink</ref>()</highlight><highlight class="keyword"><sp/>const<sp/>override<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);}<sp/></highlight><highlight class="comment">//TODO<sp/>documentation<sp/>link</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a67a1bedc4592f063d37579b475c9206e" kindref="member">OnToolkitHostingStarted</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSharedRef&lt;class<sp/>IToolkit&gt;&amp;<sp/>toolkit)</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1ae669f417ce536525cb69ed7afeb4d254" kindref="member">OnToolkitHostingFinished</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSharedRef&lt;class<sp/>IToolkit&gt;&amp;<sp/>toolkit)</highlight><highlight class="keyword"><sp/>override<sp/></highlight><highlight class="normal">{}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1ac979307a86b262a5f038a9f175eed8cc" kindref="member">OnAssetsSaved</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;UObject*&gt;&amp;<sp/>SavedObjects)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a5c47497565776f2e8519a5c5ecd121e2" kindref="member">OnClose</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a2cebfd0cde22c315c2f769c45e7a601a" kindref="member">OnNodeDetailViewPropertiesUpdated</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FPropertyChangedEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a1b1899dae717a7efd303bdf475823aa3" kindref="member">OnGraphChanged</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FEdGraphEditAction&amp;<sp/>EditAction);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1ad5cbe1d9042d505c7bfa48333c9d2bbe" kindref="member">SaveAsset_Execute</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Weapon<sp/>Asset<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;UWeaponGraphNode*&gt;<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a0785f74bed73a668ef76d37a12630434" kindref="member">GetSelectedNodes</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>*<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a881538e719af5ec13c079ad0e77eb41e" kindref="member">CopyRuntimeNodeFromGraphNode</ref>(<ref refid="d6/d84/class_u_weapon_graph_node" kindref="compound">UWeaponGraphNode</ref>*<sp/>EditorNode,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph" kindref="compound">UWeaponRuntimeGraph</ref>*<sp/>Outer,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TArray&lt;std::pair&lt;FGuid,<sp/>FGuid&gt;&gt;&amp;<sp/>Connections,<sp/>TMap&lt;FGuid,<sp/>class<sp/>UWeaponRuntimePin*&gt;&amp;<sp/>IdToPinMap);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="dd/d5d/class_u_weapon_runtime_pin" kindref="compound">UWeaponRuntimePin</ref>*<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1aa2c07a14068266a3f54f81f969cfa24a" kindref="member">CopyRuntimePinFromGraphPin</ref>(UEdGraphPin*<sp/>GraphPin,<sp/><ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>*<sp/>RuntimeNode,<sp/><ref refid="d6/d84/class_u_weapon_graph_node" kindref="compound">UWeaponGraphNode</ref>*<sp/>EditorNode);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1ae644c28120176022688a5eb7668d96ac" kindref="member">NotifyPostChange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FPropertyChangedEvent&amp;<sp/>PropertyChangedEvent,<sp/>FProperty*<sp/>PropertyThatChanged)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1ae644c28120176022688a5eb7668d96ac" kindref="member">NotifyPostChange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FPropertyChangedEvent&amp;<sp/>PropertyChangedEvent,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>FEditPropertyChain*<sp/>PropertyThatChanged)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a6dc09f41571f97e58fd4c644e4f8fdb9" kindref="member">UpdatePreview</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Save<sp/>asset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1aeaab25564740452f54ac5f0d2b303025" kindref="member">SaveGraphToAsset</ref>();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Load<sp/>asset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1ae845afd52222b40a5bb93822801e46a5" kindref="member">LoadAssetToGraph</ref>();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SaveGraphToAsset_Impl(<ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>&amp;<sp/>AssetToLoadInto,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/><ref refid="da/d6a/class_u_weapon_graph_editor" kindref="compound">UWeaponGraphEditor</ref>&amp;<sp/>GraphToLoadFrom);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/>WorkingAsset<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d6a/class_u_weapon_graph_editor" kindref="compound">UWeaponGraphEditor</ref>*<sp/>WorkingGraph<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">USceneComponent*<sp/>PreviewAssetComponent<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>TWeakPtr&lt;class<sp/>FWeaponPreviewScene&gt;<sp/>PreviewScene;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>FDelegateHandle<sp/>OnGraphChangedDelegate;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Working<sp/>graph<sp/>ui<sp/>(the<sp/>slate<sp/>widget<sp/>that<sp/>displays<sp/>the<sp/>graph)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;SGraphEditor&gt;<sp/>WorkingGraphUi<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;class<sp/>IDetailsView&gt;<sp/>SelectedNodeDetailsView<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;UEdGraphNode*&gt;<sp/>NodesSelected;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;class<sp/>SWeaponViewportTabBody&gt;<sp/>TabBody;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DeleteSelectedNodes();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DuplicateSelectedNodes();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CopySelectedNodes();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PasteSelectedNodes();</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CommentSelectedNodes();</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d84/class_u_weapon_graph_node" kindref="compound">UWeaponGraphNode</ref>*<sp/>DuplicateNode(<ref refid="d6/d84/class_u_weapon_graph_node" kindref="compound">UWeaponGraphNode</ref>*<sp/>NodeToDuplicate);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;IDetailsView&gt;<sp/><ref refid="da/d5f/class_f_weapon_asset_editor_app_1a2fb38c1db21afe7374d2959a69d457c4" kindref="member">GetNodeDetailsView</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>SelectedNodeDetailsView;}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WeaponAssetEditorApp.h"/>
+  </compounddef>
+</doxygen>

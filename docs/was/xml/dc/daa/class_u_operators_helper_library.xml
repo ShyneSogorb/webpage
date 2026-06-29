@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="dc/daa/class_u_operators_helper_library" kind="class" language="C++" prot="public">
+    <compoundname>UOperatorsHelperLibrary</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UBlueprintFunctionLibrary</basecompoundref>
+    <includes local="no">PropertiesOverriderHelperLibrary.h</includes>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1a783aa2435ce1f5c90350d7160bc9d78d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE EOperator</type>
+        <definition>EOperator UOperatorsHelperLibrary::GetDoubleOverriderOperation</definition>
+        <argsstring>(const FPropertyOverriderDouble &amp;Overrider)</argsstring>
+        <name>GetDoubleOverriderOperation</name>
+        <qualifiedname>UOperatorsHelperLibrary::GetDoubleOverriderOperation</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d11/struct_f_property_overrider_double" kindref="compound">FPropertyOverriderDouble</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="60" column="30" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1a21cb76494318b2ffea509ef33b6b2ed4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE double</type>
+        <definition>double UOperatorsHelperLibrary::GetDoubleOverriderOperator</definition>
+        <argsstring>(const FPropertyOverriderDouble &amp;Overrider)</argsstring>
+        <name>GetDoubleOverriderOperator</name>
+        <qualifiedname>UOperatorsHelperLibrary::GetDoubleOverriderOperator</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d11/struct_f_property_overrider_double" kindref="compound">FPropertyOverriderDouble</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="63" column="27" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" bodystart="126" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1a1d14a6fad63444ab4821a579fa5afb57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE double</type>
+        <definition>double UOperatorsHelperLibrary::GetDoubleOverriderOriginalValue</definition>
+        <argsstring>(const FPropertyOverriderDouble &amp;Overrider)</argsstring>
+        <name>GetDoubleOverriderOriginalValue</name>
+        <qualifiedname>UOperatorsHelperLibrary::GetDoubleOverriderOriginalValue</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d11/struct_f_property_overrider_double" kindref="compound">FPropertyOverriderDouble</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="57" column="27" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1a543044bd6f758bb260139a69763b065a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE double</type>
+        <definition>double UOperatorsHelperLibrary::GetDoubleOverriderValue</definition>
+        <argsstring>(const FPropertyOverriderDouble &amp;Overrider)</argsstring>
+        <name>GetDoubleOverriderValue</name>
+        <qualifiedname>UOperatorsHelperLibrary::GetDoubleOverriderValue</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d11/struct_f_property_overrider_double" kindref="compound">FPropertyOverriderDouble</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="54" column="27" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1aad31a38c591995dcf56d81ebf0589903" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE EOperator</type>
+        <definition>static FORCEINLINE EOperator UOperatorsHelperLibrary::GetIntOverriderOperation</definition>
+        <argsstring>(const FPropertyOverriderInt &amp;Overrider)</argsstring>
+        <name>GetIntOverriderOperation</name>
+        <qualifiedname>UOperatorsHelperLibrary::GetIntOverriderOperation</qualifiedname>
+        <param>
+          <type>const <ref refid="d5/d9c/struct_f_property_overrider_int" kindref="compound">FPropertyOverriderInt</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="85" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1a2e3a8a7d94a6c90bcf58e74010aba907" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE int32</type>
+        <definition>static FORCEINLINE int32 UOperatorsHelperLibrary::GetIntOverriderOperator</definition>
+        <argsstring>(const FPropertyOverriderInt &amp;Overrider)</argsstring>
+        <name>GetIntOverriderOperator</name>
+        <qualifiedname>UOperatorsHelperLibrary::GetIntOverriderOperator</qualifiedname>
+        <param>
+          <type>const <ref refid="d5/d9c/struct_f_property_overrider_int" kindref="compound">FPropertyOverriderInt</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="88" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1a00780b8937097f7100d6bd0d816895ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE int32</type>
+        <definition>static FORCEINLINE int32 UOperatorsHelperLibrary::GetIntOverriderOriginalValue</definition>
+        <argsstring>(const FPropertyOverriderInt &amp;Overrider)</argsstring>
+        <name>GetIntOverriderOriginalValue</name>
+        <qualifiedname>UOperatorsHelperLibrary::GetIntOverriderOriginalValue</qualifiedname>
+        <param>
+          <type>const <ref refid="d5/d9c/struct_f_property_overrider_int" kindref="compound">FPropertyOverriderInt</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="82" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1a3a463b8487896b47bea1b88556282241" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE int32</type>
+        <definition>static FORCEINLINE int32 UOperatorsHelperLibrary::GetIntOverriderValue</definition>
+        <argsstring>(const FPropertyOverriderInt &amp;Overrider)</argsstring>
+        <name>GetIntOverriderValue</name>
+        <qualifiedname>UOperatorsHelperLibrary::GetIntOverriderValue</qualifiedname>
+        <param>
+          <type>const <ref refid="d5/d9c/struct_f_property_overrider_int" kindref="compound">FPropertyOverriderInt</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="79" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1ab178c00fe9044c120f21322f30f572c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>void UOperatorsHelperLibrary::SetDoubleOverriderOperation</definition>
+        <argsstring>(UPARAM(ref) FPropertyOverriderDouble &amp;Overrider, EOperator Operation)</argsstring>
+        <name>SetDoubleOverriderOperation</name>
+        <qualifiedname>UOperatorsHelperLibrary::SetDoubleOverriderOperation</qualifiedname>
+        <param>
+          <type>UPARAM(ref) <ref refid="d4/d11/struct_f_property_overrider_double" kindref="compound">FPropertyOverriderDouble</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <param>
+          <type>EOperator</type>
+          <declname>Operation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="48" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" bodystart="100" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1ac5e0a060f810094b8f3383930793edaa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>void UOperatorsHelperLibrary::SetDoubleOverriderOperator</definition>
+        <argsstring>(UPARAM(ref) FPropertyOverriderDouble &amp;Overrider, double Operator)</argsstring>
+        <name>SetDoubleOverriderOperator</name>
+        <qualifiedname>UOperatorsHelperLibrary::SetDoubleOverriderOperator</qualifiedname>
+        <param>
+          <type>UPARAM(ref) <ref refid="d4/d11/struct_f_property_overrider_double" kindref="compound">FPropertyOverriderDouble</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Operator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="51" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1a1cb00c0dadd496ba3e57f21f54198b2c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>void UOperatorsHelperLibrary::SetDoubleOverriderOriginalValue</definition>
+        <argsstring>(UPARAM(ref) FPropertyOverriderDouble &amp;Overrider, double OriginalValue)</argsstring>
+        <name>SetDoubleOverriderOriginalValue</name>
+        <qualifiedname>UOperatorsHelperLibrary::SetDoubleOverriderOriginalValue</qualifiedname>
+        <param>
+          <type>UPARAM(ref) <ref refid="d4/d11/struct_f_property_overrider_double" kindref="compound">FPropertyOverriderDouble</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>OriginalValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="45" column="29" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" bodystart="94" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1ad0b29c76562d4637cf594134068d386b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>static FORCEINLINE void UOperatorsHelperLibrary::SetIntOverriderOperation</definition>
+        <argsstring>(UPARAM(ref) FPropertyOverriderInt &amp;Overrider, EOperator Operation)</argsstring>
+        <name>SetIntOverriderOperation</name>
+        <qualifiedname>UOperatorsHelperLibrary::SetIntOverriderOperation</qualifiedname>
+        <param>
+          <type>UPARAM(ref) <ref refid="d5/d9c/struct_f_property_overrider_int" kindref="compound">FPropertyOverriderInt</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <param>
+          <type>EOperator</type>
+          <declname>Operation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="73" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1a18f31f79e3ba29880222a1bddb45030c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>static FORCEINLINE void UOperatorsHelperLibrary::SetIntOverriderOperator</definition>
+        <argsstring>(UPARAM(ref) FPropertyOverriderInt &amp;Overrider, int32 Operator)</argsstring>
+        <name>SetIntOverriderOperator</name>
+        <qualifiedname>UOperatorsHelperLibrary::SetIntOverriderOperator</qualifiedname>
+        <param>
+          <type>UPARAM(ref) <ref refid="d5/d9c/struct_f_property_overrider_int" kindref="compound">FPropertyOverriderInt</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <param>
+          <type>int32</type>
+          <declname>Operator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="76" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/daa/class_u_operators_helper_library_1a4c6ea851638eaaa926120531223d44a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>static FORCEINLINE void UOperatorsHelperLibrary::SetIntOverriderOriginalValue</definition>
+        <argsstring>(UPARAM(ref) FPropertyOverriderInt &amp;Overrider, int32 OriginalValue)</argsstring>
+        <name>SetIntOverriderOriginalValue</name>
+        <qualifiedname>UOperatorsHelperLibrary::SetIntOverriderOriginalValue</qualifiedname>
+        <param>
+          <type>UPARAM(ref) <ref refid="d5/d9c/struct_f_property_overrider_int" kindref="compound">FPropertyOverriderInt</ref> &amp;</type>
+          <declname>Overrider</declname>
+        </param>
+        <param>
+          <type>int32</type>
+          <declname>OriginalValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="70" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Blueprint function library for property overrider access and manipulation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UBlueprintFunctionLibrary</label>
+      </node>
+      <node id="1">
+        <label>UOperatorsHelperLibrary</label>
+        <link refid="dc/daa/class_u_operators_helper_library"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UBlueprintFunctionLibrary</label>
+      </node>
+      <node id="1">
+        <label>UOperatorsHelperLibrary</label>
+        <link refid="dc/daa/class_u_operators_helper_library"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" line="36" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/PropertiesOverriderHelperLibrary.h" bodystart="37" bodyend="92"/>
+    <listofallmembers>
+      <member refid="dc/daa/class_u_operators_helper_library_1a783aa2435ce1f5c90350d7160bc9d78d" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>GetDoubleOverriderOperation</name></member>
+      <member refid="dc/daa/class_u_operators_helper_library_1a21cb76494318b2ffea509ef33b6b2ed4" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>GetDoubleOverriderOperator</name></member>
+      <member refid="dc/daa/class_u_operators_helper_library_1a1d14a6fad63444ab4821a579fa5afb57" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>GetDoubleOverriderOriginalValue</name></member>
+      <member refid="dc/daa/class_u_operators_helper_library_1a543044bd6f758bb260139a69763b065a" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>GetDoubleOverriderValue</name></member>
+      <member refid="dc/daa/class_u_operators_helper_library_1aad31a38c591995dcf56d81ebf0589903" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>GetIntOverriderOperation</name></member>
+      <member refid="dc/daa/class_u_operators_helper_library_1a2e3a8a7d94a6c90bcf58e74010aba907" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>GetIntOverriderOperator</name></member>
+      <member refid="dc/daa/class_u_operators_helper_library_1a00780b8937097f7100d6bd0d816895ee" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>GetIntOverriderOriginalValue</name></member>
+      <member refid="dc/daa/class_u_operators_helper_library_1a3a463b8487896b47bea1b88556282241" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>GetIntOverriderValue</name></member>
+      <member refid="dc/daa/class_u_operators_helper_library_1ab178c00fe9044c120f21322f30f572c9" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>SetDoubleOverriderOperation</name></member>
+      <member refid="dc/daa/class_u_operators_helper_library_1ac5e0a060f810094b8f3383930793edaa" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>SetDoubleOverriderOperator</name></member>
+      <member refid="dc/daa/class_u_operators_helper_library_1a1cb00c0dadd496ba3e57f21f54198b2c" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>SetDoubleOverriderOriginalValue</name></member>
+      <member refid="dc/daa/class_u_operators_helper_library_1ad0b29c76562d4637cf594134068d386b" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>SetIntOverriderOperation</name></member>
+      <member refid="dc/daa/class_u_operators_helper_library_1a18f31f79e3ba29880222a1bddb45030c" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>SetIntOverriderOperator</name></member>
+      <member refid="dc/daa/class_u_operators_helper_library_1a4c6ea851638eaaa926120531223d44a6" prot="public" virt="non-virtual"><scope>UOperatorsHelperLibrary</scope><name>SetIntOverriderOriginalValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

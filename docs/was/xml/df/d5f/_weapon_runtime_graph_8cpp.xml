@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="df/d5f/_weapon_runtime_graph_8cpp" kind="file" language="C++">
+    <compoundname>WeaponRuntimeGraph.cpp</compoundname>
+    <includes refid="d0/d9e/_weapon_runtime_graph_8h" local="yes">Nodes/WeaponRuntimeGraph.h</includes>
+    <includes refid="d6/de3/_weapon_runtime_node_8h" local="yes">Nodes/WeaponRuntimeNode.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/WeaponRuntimeGraph.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Nodes/WeaponRuntimeNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1ab6a04b43f8213a11c3b9bf63e6537f9b" kindref="member">UWeaponRuntimeGraph::PrepareExecution</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref>&amp;<sp/>Context,<sp/>std::jmp_buf&amp;<sp/>AbortCheckpoint)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>checkf(<ref refid="d1/db3/class_u_weapon_runtime_graph_1a7c2da4503fc04f8f0ee156254f7c7c87" kindref="member">StackCheckPoint</ref><sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Called<sp/>prepare<sp/>execution<sp/>without<sp/>finish<sp/>previous<sp/>execution&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1a44bee8877df63731c608f7e05bbdde71" kindref="member">ExecutionContext</ref><sp/>=<sp/>Context;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1a7c2da4503fc04f8f0ee156254f7c7c87" kindref="member">StackCheckPoint</ref><sp/>=<sp/>&amp;AbortCheckpoint;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1abb81bd51e3806ecf0f59d33d66dba058" kindref="member">UWeaponRuntimeGraph::FinishExecution</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1a7c2da4503fc04f8f0ee156254f7c7c87" kindref="member">StackCheckPoint</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//This<sp/>should<sp/>mostly<sp/>be<sp/>true</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d1/db3/class_u_weapon_runtime_graph_1aaf91e0f62e213a6a5a00fbd68f0ba32c" kindref="member">DestructionStack</ref>.<ref refid="d4/df7/struct_f_destruction_stack_1adac5b2f2ae365bcc699e953cceaab17b" kindref="member">IsEmpty</ref>()<sp/>&amp;&amp;<sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1a1fd684b6d32f99fc0f7a7ebe2236a3c3" kindref="member">IsAborting</ref>())</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Warning,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Execution<sp/>has<sp/>aborted<sp/>but<sp/>the<sp/>destruction<sp/>stack<sp/>is<sp/>empty.<sp/>This<sp/>can<sp/>happen<sp/>if<sp/>the<sp/>abort<sp/>occurs<sp/>before<sp/>creating<sp/>any<sp/>stack<sp/>variable<sp/>or<sp/>after<sp/>exiting<sp/>the<sp/>scope.<sp/>In<sp/>any<sp/>other<sp/>case<sp/>memory<sp/>was<sp/>leaked&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//check(DestructionStack.IsEmpty()<sp/>==<sp/>!IsAborting())</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//If<sp/>was<sp/>aborted<sp/>clears<sp/>everything.<sp/>Otherwise<sp/>was<sp/>already<sp/>empty</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1aaf91e0f62e213a6a5a00fbd68f0ba32c" kindref="member">DestructionStack</ref>.<ref refid="d4/df7/struct_f_destruction_stack_1a156a829b5c15473c3ea38ff3546fe220" kindref="member">Flush</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d1/db3/class_u_weapon_runtime_graph_1a1fd684b6d32f99fc0f7a7ebe2236a3c3" kindref="member">IsAborting</ref>())</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASRuntime,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Execution<sp/>of<sp/>asset<sp/>%s<sp/>was<sp/>aborted<sp/>during<sp/>build<sp/>nodes<sp/>execution.<sp/>Reason:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GetOuter()-&gt;GetName(),<sp/>*<ref refid="d1/db3/class_u_weapon_runtime_graph_1a95dee43035ead20733b3095cba6b9998" kindref="member">AbortReason</ref>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1a95dee43035ead20733b3095cba6b9998" kindref="member">AbortReason</ref>.Empty();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1a8b3a8cda5e56932c183e9161e59ec698" kindref="member">bAbortExecution</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1a44bee8877df63731c608f7e05bbdde71" kindref="member">ExecutionContext</ref><sp/>=<sp/><ref refid="df/dfa/struct_f_weapon_execution_context" kindref="compound">FWeaponExecutionContext</ref>{};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1aaafe0dc89dbc3aeabd6f86cfbb8da923" kindref="member">Reset</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1ab49333396781d58c8c75252931989ef2" kindref="member">UWeaponRuntimeGraph::AbortExecution</ref>(FString&amp;&amp;<sp/>Reason)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="d1/db3/class_u_weapon_runtime_graph_1a8b3a8cda5e56932c183e9161e59ec698" kindref="member">bAbortExecution</ref>)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1a95dee43035ead20733b3095cba6b9998" kindref="member">AbortReason</ref><sp/>=<sp/>MoveTemp(Reason);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1a8b3a8cda5e56932c183e9161e59ec698" kindref="member">bAbortExecution</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>check(<ref refid="d1/db3/class_u_weapon_runtime_graph_1a7c2da4503fc04f8f0ee156254f7c7c87" kindref="member">StackCheckPoint</ref>!=</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>longjmp(*<ref refid="d1/db3/class_u_weapon_runtime_graph_1a7c2da4503fc04f8f0ee156254f7c7c87" kindref="member">StackCheckPoint</ref>,<sp/>1);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/db3/class_u_weapon_runtime_graph" kindref="compound">UWeaponRuntimeGraph</ref>::<ref refid="d1/db3/class_u_weapon_runtime_graph_1aaafe0dc89dbc3aeabd6f86cfbb8da923" kindref="member">Reset</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="60"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="de/dde/class_u_weapon_runtime_node" kindref="compound">UWeaponRuntimeNode</ref>*<sp/>Node<sp/>:<sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1aecb8029e8cca20c54b6237d1dc5f9768" kindref="member">Nodes</ref>)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Node-&gt;<ref refid="d1/db3/class_u_weapon_runtime_graph_1aaafe0dc89dbc3aeabd6f86cfbb8da923" kindref="member">Reset</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">TArray&lt;const<sp/>UWeaponRuntimeNode*&gt;<sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1a36289378d5296d462b24d19361502fa0" kindref="member">UWeaponRuntimeGraph::GetConstantNodes</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="68"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TArray&lt;const<sp/>UWeaponRuntimeNode*&gt;(<ref refid="d1/db3/class_u_weapon_runtime_graph_1aecb8029e8cca20c54b6237d1dc5f9768" kindref="member">Nodes</ref>.GetData(),<sp/><ref refid="d1/db3/class_u_weapon_runtime_graph_1aecb8029e8cca20c54b6237d1dc5f9768" kindref="member">Nodes</ref>.Num());</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/WeaponRuntimeGraph.cpp"/>
+  </compounddef>
+</doxygen>

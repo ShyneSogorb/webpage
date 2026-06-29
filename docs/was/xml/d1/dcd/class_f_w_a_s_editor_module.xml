@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d1/dcd/class_f_w_a_s_editor_module" kind="class" language="C++" prot="public">
+    <compoundname>FWASEditorModule</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IModuleInterface</basecompoundref>
+    <includes local="no">WASEditor.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/dcd/class_f_w_a_s_editor_module_1a27592173f76924a27a192d9986737603" prot="private" static="no" mutable="no">
+        <type>TSharedPtr&lt; struct <ref refid="dd/d06/struct_f_weapon_pin_factory" kindref="compound">FWeaponPinFactory</ref> &gt;</type>
+        <definition>TSharedPtr&lt;struct FWeaponPinFactory&gt; FWASEditorModule::PinFactory</definition>
+        <argsstring></argsstring>
+        <name>PinFactory</name>
+        <qualifiedname>FWASEditorModule::PinFactory</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WASEditor.h" line="35" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WASEditor.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dcd/class_f_w_a_s_editor_module_1a4ee9adec88d4c00e8e72dc528d88781a" prot="private" static="no" mutable="no">
+        <type>TSharedPtr&lt; FSlateStyleSet &gt;</type>
+        <definition>TSharedPtr&lt;FSlateStyleSet&gt; FWASEditorModule::StyleSet</definition>
+        <argsstring></argsstring>
+        <name>StyleSet</name>
+        <qualifiedname>FWASEditorModule::StyleSet</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WASEditor.h" line="34" column="12" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WASEditor.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/dcd/class_f_w_a_s_editor_module_1aec8d28a7e074f729314e1609b8b7a4a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWASEditorModule::ShutdownModule</definition>
+        <argsstring>() override</argsstring>
+        <name>ShutdownModule</name>
+        <qualifiedname>FWASEditorModule::ShutdownModule</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WASEditor.h" line="19" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WASEditor.cpp" bodystart="155" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dcd/class_f_w_a_s_editor_module_1a5e33677dcc18093d8bebda732324f0f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FWASEditorModule::StartupModule</definition>
+        <argsstring>() override</argsstring>
+        <name>StartupModule</name>
+        <qualifiedname>FWASEditorModule::StartupModule</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IModuleInterface implementation </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WASEditor.h" line="18" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WASEditor.cpp" bodystart="110" bodyend="153"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d1/dcd/class_f_w_a_s_editor_module_1a0fe541d0e0ca9dbe168dbdb9c68a6339" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWASEditorModule::LoadProjectSettings</definition>
+        <argsstring>()</argsstring>
+        <name>LoadProjectSettings</name>
+        <qualifiedname>FWASEditorModule::LoadProjectSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WASEditor.h" line="29" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WASEditor.cpp" bodystart="262" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dcd/class_f_w_a_s_editor_module_1a6fc32a1f13a1bddb30c7ced84fcf3eeb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWASEditorModule::RegisterCustomPropertyLayouts</definition>
+        <argsstring>(FPropertyEditorModule &amp;PropertyModule)</argsstring>
+        <name>RegisterCustomPropertyLayouts</name>
+        <qualifiedname>FWASEditorModule::RegisterCustomPropertyLayouts</qualifiedname>
+        <param>
+          <type>FPropertyEditorModule &amp;</type>
+          <declname>PropertyModule</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WASEditor.h" line="24" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WASEditor.cpp" bodystart="172" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dcd/class_f_w_a_s_editor_module_1aa3af921ccc7a87263baa67d1a1aca522" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWASEditorModule::RegisterIsWeaponActiveDetails</definition>
+        <argsstring>()</argsstring>
+        <name>RegisterIsWeaponActiveDetails</name>
+        <qualifiedname>FWASEditorModule::RegisterIsWeaponActiveDetails</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WASEditor.h" line="32" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WASEditor.cpp" bodystart="284" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dcd/class_f_w_a_s_editor_module_1a15581ad614fe3c1dbada21f22fa671a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWASEditorModule::UnloadProjectSettings</definition>
+        <argsstring>()</argsstring>
+        <name>UnloadProjectSettings</name>
+        <qualifiedname>FWASEditorModule::UnloadProjectSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WASEditor.h" line="30" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WASEditor.cpp" bodystart="275" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dcd/class_f_w_a_s_editor_module_1a35f172705b3589ee70bc8a2cbce2907b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FWASEditorModule::UnregisterCustomPropertyLayouts</definition>
+        <argsstring>(FPropertyEditorModule &amp;PropertyModule)</argsstring>
+        <name>UnregisterCustomPropertyLayouts</name>
+        <qualifiedname>FWASEditorModule::UnregisterCustomPropertyLayouts</qualifiedname>
+        <param>
+          <type>FPropertyEditorModule &amp;</type>
+          <declname>PropertyModule</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WASEditor.h" line="27" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/WASEditor.cpp" bodystart="241" bodyend="260"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FWASEditorModule</label>
+        <link refid="d1/dcd/class_f_w_a_s_editor_module"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IModuleInterface</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FWASEditorModule</label>
+        <link refid="d1/dcd/class_f_w_a_s_editor_module"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IModuleInterface</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WASEditor.h" line="13" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/WASEditor.h" bodystart="14" bodyend="36"/>
+    <listofallmembers>
+      <member refid="d1/dcd/class_f_w_a_s_editor_module_1a0fe541d0e0ca9dbe168dbdb9c68a6339" prot="private" virt="non-virtual"><scope>FWASEditorModule</scope><name>LoadProjectSettings</name></member>
+      <member refid="d1/dcd/class_f_w_a_s_editor_module_1a27592173f76924a27a192d9986737603" prot="private" virt="non-virtual"><scope>FWASEditorModule</scope><name>PinFactory</name></member>
+      <member refid="d1/dcd/class_f_w_a_s_editor_module_1a6fc32a1f13a1bddb30c7ced84fcf3eeb" prot="private" virt="non-virtual"><scope>FWASEditorModule</scope><name>RegisterCustomPropertyLayouts</name></member>
+      <member refid="d1/dcd/class_f_w_a_s_editor_module_1aa3af921ccc7a87263baa67d1a1aca522" prot="private" virt="non-virtual"><scope>FWASEditorModule</scope><name>RegisterIsWeaponActiveDetails</name></member>
+      <member refid="d1/dcd/class_f_w_a_s_editor_module_1aec8d28a7e074f729314e1609b8b7a4a0" prot="public" virt="virtual"><scope>FWASEditorModule</scope><name>ShutdownModule</name></member>
+      <member refid="d1/dcd/class_f_w_a_s_editor_module_1a5e33677dcc18093d8bebda732324f0f8" prot="public" virt="virtual"><scope>FWASEditorModule</scope><name>StartupModule</name></member>
+      <member refid="d1/dcd/class_f_w_a_s_editor_module_1a4ee9adec88d4c00e8e72dc528d88781a" prot="private" virt="non-virtual"><scope>FWASEditorModule</scope><name>StyleSet</name></member>
+      <member refid="d1/dcd/class_f_w_a_s_editor_module_1a15581ad614fe3c1dbada21f22fa671a9" prot="private" virt="non-virtual"><scope>FWASEditorModule</scope><name>UnloadProjectSettings</name></member>
+      <member refid="d1/dcd/class_f_w_a_s_editor_module_1a35f172705b3589ee70bc8a2cbce2907b" prot="private" virt="non-virtual"><scope>FWASEditorModule</scope><name>UnregisterCustomPropertyLayouts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

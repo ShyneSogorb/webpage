@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-azvyptdz> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Astro v5.5.3"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title></title><!-- Bootstrap JS bundle (Popper included) --><script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><!-- FontAwesome (solo si lo necesitas realmente) --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><link rel="stylesheet" href="/webpage/assets/acs.BFHYjjad.css">
+<style>.container[data-astro-cid-b3w6o7l7]>div[data-astro-cid-b3w6o7l7]:nth-child(-n+9){display:none}
+</style></head> <body class="d-flex flex-column min-vh-100 bg-light" data-astro-cid-azvyptdz> <header class="border-bottom bg-primary text-light"> <!-- TITLE --> <div class="text-center py-4"> <h1 class="display-6 fw-bold mb-1"></h1> <p class="lead mb-0 opacity-75"></p> </div> <!-- NAVBAR --> <nav class="navbar navbar-expand-lg navbar-dark bg-primary border-top border-light border-opacity-25"> <div class="container"> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse justify-content-center" id="mainNavbar"> <ul class="navbar-nav gap-3 align-items-lg-center text-center"> <!-- HOME --> <li class="nav-item"> <a class="nav-link" href="/webpage">Home</a> </li> <!-- PROJECTS DROPDOWN DINÁMICO --> <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+Projects
+</a> <ul class="dropdown-menu"> <li> <a class="dropdown-item" href="/acs"> ACS </a> </li><li> <a class="dropdown-item" href="/dishop"> Dishop </a> </li><li> <a class="dropdown-item" href="/sombras"> Sombras </a> </li><li> <a class="dropdown-item" href="/was"> WAS </a> </li> </ul> </li> <!-- CV --> <li class="nav-item"> <a class="nav-link" href="/webpage/download/cv.pdf" target="_blank">
+CV
+</a> </li> <!-- EXTERNAL --> <li class="nav-item"> <a class="nav-link" href="https://protectoravillena.com/" target="_blank">
+Shelter
+</a> </li> </ul> </div> </div> </nav> </header> <main class="flex-grow-1 py-4" data-astro-cid-azvyptdz> <div class="container" data-astro-cid-azvyptdz> <div class="container py-4" data-astro-cid-b3w6o7l7><div class="mb-5" data-astro-cid-b3w6o7l7><h1 class="display-6" data-astro-cid-b3w6o7l7>Setting up the weapon</h1><p class="text-muted" data-astro-cid-b3w6o7l7>
+Guide for configuring the Weaponry Assembly System (WAS) in Unreal Engine.
+</p></div><!-- Requirements --><div class="card mb-4 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h4" data-astro-cid-b3w6o7l7>Ensure requirements</h2><p class="mb-0" data-astro-cid-b3w6o7l7>
+First of all, make sure you have the plugin installed and active in your project
+<strong data-astro-cid-b3w6o7l7>Weaponry Assembly System (WAS)</strong>. Also ensure Gameplay Tags are enabled,
+          and Niagara Particle System is active in your project settings.
+</p></div></div><!-- Gameplay Tags --><div class="card mb-4 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h4" data-astro-cid-b3w6o7l7>Create the gameplay tags</h2><p data-astro-cid-b3w6o7l7>
+You will need to define slots and modifications per weapon. The recommended approach is editing:
+<code data-astro-cid-b3w6o7l7>Config/DefaultGameplayTags.ini</code></p><p class="text-muted" data-astro-cid-b3w6o7l7>
+Structure reference:
+</p><ul class="list-group mb-3" data-astro-cid-b3w6o7l7><li class="list-group-item" data-astro-cid-b3w6o7l7><strong data-astro-cid-b3w6o7l7>Weapon</strong><ul class="mt-2" data-astro-cid-b3w6o7l7><li class="mb-2" data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>Weapon.Slot0</code><ul class="mt-1" data-astro-cid-b3w6o7l7><li data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>Weapon.Slot0.Modification0</code></li><li data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>Weapon.Slot0.Modification1</code></li><li data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>Weapon.Slot0.Modification2</code></li></ul></li><li class="mb-2" data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>Weapon.Slot1</code><ul class="mt-1" data-astro-cid-b3w6o7l7><li data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>Weapon.Slot1.Modification0</code></li><li data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>Weapon.Slot1.Modification1</code></li><li data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>Weapon.Slot1.Modification2</code></li></ul></li><li class="mb-2" data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>Weapon.Slot2</code><ul class="mt-1" data-astro-cid-b3w6o7l7><li data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>Weapon.Slot2.Modification0</code></li><li data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>Weapon.Slot2.Modification1</code></li><li data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>Weapon.Slot2.Modification2</code></li></ul></li></ul></li></ul><p class="mb-0" data-astro-cid-b3w6o7l7>
+Slot children must always represent modifications. DevComments can be used to annotate metadata later.
+</p></div></div><!-- Weapon Characteristics --><div class="card mb-4 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h4" data-astro-cid-b3w6o7l7>Create weapon characteristics</h2><p data-astro-cid-b3w6o7l7>
+This is a <strong data-astro-cid-b3w6o7l7>data container class</strong>, not the weapon itself.
+          It behaves like a data asset storing configurable parameters.
+</p><p data-astro-cid-b3w6o7l7>
+Create a Blueprint derived from <code data-astro-cid-b3w6o7l7>UWeaponDefaultCharacteristics</code>.
+          Add variables like fire rate, magazine size, recoil, etc. For now lets create at least a fire-rate variable which will be floating point.
+          Override the <code data-astro-cid-b3w6o7l7>GetTriggerRate</code> and just connect the variable to the return value. Now also override <code data-astro-cid-b3w6o7l7>GetTriggerMode</code>
+and return automatic.
+</p><p data-astro-cid-b3w6o7l7>
+Also you should override the <code data-astro-cid-b3w6o7l7>GetUsesAmmo</code> and <code data-astro-cid-b3w6o7l7>GetUsesMagazine</code> and make both return false so you dont need ammo
+            in order to test it
+</p><p data-astro-cid-b3w6o7l7>
+Override required functions using the <em data-astro-cid-b3w6o7l7>Override</em> dropdown in the Blueprint editor
+          and map them to your variables.
+</p></div></div><!-- Weapon Asset --><div class="card mb-4 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h4" data-astro-cid-b3w6o7l7>Create the weapon asset</h2><p data-astro-cid-b3w6o7l7>
+Right-click wherever you want to create your asset. Then go to Weapon Asset in create advanced asset and select <code data-astro-cid-b3w6o7l7>Weapon Asset</code> give it a name and open it
+</p><p data-astro-cid-b3w6o7l7>
+Here you will find a editor graphp, preview window and properties.
+</p><p data-astro-cid-b3w6o7l7>
+First of all you should go to properties and at characteristics change it to the one you created on previous step. 
+            Once you have change it all your properties must appear as editable. For now we will continue expanding the Modification section. 
+            You will see a <code data-astro-cid-b3w6o7l7>Weapon Root</code> variable and <code data-astro-cid-b3w6o7l7>Container</code>. Change <code data-astro-cid-b3w6o7l7>Weapon Root</code> with the root of this weapon's tag
+            Meaning, the tag that contains all the slots. Now you may have to close and open the asset again in order for the changes to take place.
+            And now you will have a list of options with all the slots you created, each one with their own modifications options
+</p><p data-astro-cid-b3w6o7l7>
+Next, in order to build the weapon you have to create an end node, right-click on the graph and use a build visuals. 
+          This node is intended to be executed when you only want to build up the visuals aspects of the weapon, leaving properties unchanged.
+          Lets create a static mesh component in this case with the node <code data-astro-cid-b3w6o7l7>Weapon Static Mesh</code> under the Spawn category.
+          And on the input asset, we will use <code data-astro-cid-b3w6o7l7>Literal Object</code>. By default it can be any object, but once you have connected it with a pin
+          that requires a specific type it will filter by acceptable types only, so when you connect it the Object node will become StaticMesh. 
+          And there, on the details you can set your mesh to spawn.
+</p><p data-astro-cid-b3w6o7l7>
+We will continue with the basis, adding the attachments. In a very similar way that we have created this sole static mesh, first create another 
+            static mesh component, and this time the input asset will be <code data-astro-cid-b3w6o7l7>Select Object By Mod</code>. Connect it to the input and go to the details.
+            You will see <code data-astro-cid-b3w6o7l7>Slot</code> set to None. Change it to whichever slot you desire. Then the options map will be generated with all the possible modification
+            Just select the mesh you want to spawn for each modificator. From the outpin of the generated static mesh would be a good idea to assign it a tag.
+            In order to do so just create a new <code data-astro-cid-b3w6o7l7>Tag</code> node. Give the tag that you wish since this is just to help identifying the component later.
+            Next create a <code data-astro-cid-b3w6o7l7>Weapon Attachment</code>, where the parent is who will hold the components, and the children the attached. 
+            You can repeat the process concatenating the Result output with the parent of the next <code data-astro-cid-b3w6o7l7>Weapon Attachment</code>. 
+            Remember to connect the end to the build visuals node.
+</p><p data-astro-cid-b3w6o7l7>
+Now lets change our fire-rate so we can test it out later. Add a new node called <code data-astro-cid-b3w6o7l7>Execute Operations</code>, this will execute anything
+            connected to it, but is intended to be used just to modify properties, so lets do that. Create a new node, fire-rate, which is the one we created
+            previously in the characteristics. And use a <code data-astro-cid-b3w6o7l7>SelectDoubleByMod</code>(or float), and connect it to the input of the fire-rate. 
+            Just like we did with the components, select a slot, and give values for each modificator
+</p></div></div><!-- Create your weapon component  --><div class="card mb-3 border-0 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h5 mb-0" data-astro-cid-b3w6o7l7>Create your weapon component</h2><p data-astro-cid-b3w6o7l7>
+Lets start testing out with a simple new blueprint derived from <code data-astro-cid-b3w6o7l7>UWeaponComponent</code><span class="note" data-astro-cid-b3w6o7l7>I will keep it short since this is slightly off-topic. </span>
+You will see that there are a lot of different functions that can be overriden, lets override <code data-astro-cid-b3w6o7l7>OnEventTriggered</code>. And print string
+<code data-astro-cid-b3w6o7l7>Shooting works!!!</code>. Then repeat with <code data-astro-cid-b3w6o7l7>OnEventTriggerFailed</code> and now print <code data-astro-cid-b3w6o7l7>Could not shot :(</code>.
+</p><p data-astro-cid-b3w6o7l7>
+This is all at the moment from our <code data-astro-cid-b3w6o7l7>UWeaponComponent</code>, lets go now to our character
+</p></div></div><!-- Create your character --><div class="card mb-3 border-0 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h5 mb-0" data-astro-cid-b3w6o7l7>Create your character</h2><p data-astro-cid-b3w6o7l7>
+Create a new <code data-astro-cid-b3w6o7l7>ACharacter</code> (or use the one that you, very likely, already have), and add a new component of the type we just created.
+            On the details panel of the component look for <code data-astro-cid-b3w6o7l7>Weapon Asset</code>, and there, select the Weapon Asset we created.
+</p><p data-astro-cid-b3w6o7l7>
+Next lets add a simple input event, <code data-astro-cid-b3w6o7l7>OnLeftMouseButton</code>, when pressed we will call <code data-astro-cid-b3w6o7l7>EnterTrigger</code> from our <code data-astro-cid-b3w6o7l7>WeaponComponent</code>
+And when we release the left click, we call <code data-astro-cid-b3w6o7l7>ExitTrigger</code></p></div></div><!-- "Test it!", --><div class="card mb-3 border-0 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h5 mb-0" data-astro-cid-b3w6o7l7>Test it!</h2><p data-astro-cid-b3w6o7l7>
+As soon as your character appears, you should be able to see your weapon built. In case you don't, make sure it is visible,
+                the attachment is correctly set, not undergrown or any other random location. Also make sure you have set the weapon
+<code data-astro-cid-b3w6o7l7>Weapon Asset</code></p><p data-astro-cid-b3w6o7l7>
+Now you should be able to shot. And the message should be printing on screen. The shooting should be continuous if the trigger
+                mode is set to automatic, and as soon as you release the click, will release the trigger and stopped shooting
+</p><p data-astro-cid-b3w6o7l7>
+In case something goes wrong. And just keeps telling you that "Could not shot :(" Very likely you have no ammo,
+              you could override the <code data-astro-cid-b3w6o7l7>GetUsesAmmo</code> and <code data-astro-cid-b3w6o7l7>GetUsesMagazine</code> and make both return false
+              in the <code data-astro-cid-b3w6o7l7>UWeaponCharacteristics</code></p></div></div><!-- Indicate all information in data assets --><div class="card mb-3 border-0 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h5 mb-0" data-astro-cid-b3w6o7l7>Indicate all information in data assets</h2><p data-astro-cid-b3w6o7l7>
+Now lets continue by filling information for the slots and modifiers. <span class="note" data-astro-cid-b3w6o7l7>In case you have not set DevComment to each 
+            slot and modificator I recommend you to do so. Even with AI, since will give you an output that you can use as placeholder.</span>
+This depends on your project, but a recomendation would be to create two <code data-astro-cid-b3w6o7l7>Primary Data Assets</code>. One will be called PDA_WeaponDescription
+            and the other PDA_WeaponLibrary.
+</p><p data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>PDA_WeaponDescription</code> This <code data-astro-cid-b3w6o7l7>Primary Data Asset</code> consist on just a single variable of type <code data-astro-cid-b3w6o7l7>Weapon Settings Description Simple</code>.
+            Save and create a <code data-astro-cid-b3w6o7l7>DataAsset</code> from it, this is just a DataAsset for a single weapon. So open it up, and where you read RootTag, give it the
+            tag root of yout weapon, just the same we gave at the WeaponAsset. Once you give it the value, will populate with all slots and modificators
+            automatically, if you filled the comment dev then also the description will be filled automatically
+</p><p data-astro-cid-b3w6o7l7><code data-astro-cid-b3w6o7l7>PDA_WeaponLibrary</code> is the second primary data asset and will serve as a library with the information of all weapon assets. 
+            So open it up and create a new map container variable of type WeaponAsset as key and PDA_WeaponDescription as value. I recommend using a
+            soft reference for both Key and Value. Create a new DataAsset from it and give a new input, the WeaponAsset we are working on and the Weapon
+            Description we just created.
+</p></div></div><!-- Display and modify weapon in game--><div class="card mb-3 border-0 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h5 mb-0" data-astro-cid-b3w6o7l7>Display and modify weapon in game</h2><p data-astro-cid-b3w6o7l7>
+Now lets add the ability to modify the weapon in runtime. So, for that, go back to your character, and create an event to display the modification
+                for example letter "c".
+</p><p data-astro-cid-b3w6o7l7>
+Add a new variable and call it library, make it PDA_LibraryWeapon and give it the value of that library data asset we made previously.
+                Now, when we enter the event to display the widget, first will get the <code data-astro-cid-b3w6o7l7>WeaponComponent</code> from our character, and from it,
+<code data-astro-cid-b3w6o7l7>GetWeaponAsset</code>. From the Library variable we will get the map property and use <code data-astro-cid-b3w6o7l7>find</code>. The the find input will
+                be the <code data-astro-cid-b3w6o7l7>GetWeaponAsset</code>. From it, if we are using a soft reference we must load it, when it loads, the object resultant will
+                be a PDA_WeaponDescription since that's the value of the map. You may need to use a cast for it, and from there just get the variable description
+</p><p data-astro-cid-b3w6o7l7>
+Now we have all information that the widget needs, so just <code data-astro-cid-b3w6o7l7>CreateWidget</code>, where class should be <code data-astro-cid-b3w6o7l7>WBP Modify Weapon</code>.
+                That is the built in implementation, and the input pins will be <code data-astro-cid-b3w6o7l7>WeaponToModify</code>, the weapon component of our character.
+                Weapon Asset will be the weapon asset of the weapon component, and finally the Weapon Settings Description Simple, will be the value
+                received from the Primary Data Asset.
+</p><p data-astro-cid-b3w6o7l7>
+Now the return value, you can bind Apply Mods to a close widget function, so when you apply the modificators the that function gets called 
+                automatically. From there treat it as a regular widget, add it to screen, show mouse cursor, set gameplay mode to UI, etc.
+</p></div></div><!-- Add more variability --><div class="card mb-3 border-0 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h5 mb-0" data-astro-cid-b3w6o7l7>Add more variability</h2><p data-astro-cid-b3w6o7l7>
+Now with everithing setted up. You can start adding more modifiers, more static meshes, more variables, etc.
+</p></div></div><!-- Test it (again)! --><div class="card mb-3 border-0 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h5 mb-0" data-astro-cid-b3w6o7l7>Test it (again)!</h2><p data-astro-cid-b3w6o7l7>
+If your fire-rate is based on a variable, you can see how the fire-rate changes with the mod.
+</p></div></div><!-- Placeholder sections --><div class="card mb-3 border-0 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h5 mb-0" data-astro-cid-b3w6o7l7>Create your own nodes with blueprints</h2><p class="text-muted mb-0" data-astro-cid-b3w6o7l7>Pending documentation...</p></div></div><div class="card mb-3 border-0 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h5 mb-0" data-astro-cid-b3w6o7l7>Extending nodes in C++</h2><p class="text-muted mb-0" data-astro-cid-b3w6o7l7>Pending documentation...</p></div></div><div class="card mb-3 border-0 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h5 mb-0" data-astro-cid-b3w6o7l7>Create your game Widget for modifiers</h2><p class="text-muted mb-0" data-astro-cid-b3w6o7l7>Pending documentation...</p></div></div><div class="card mb-3 border-0 shadow-sm" data-astro-cid-b3w6o7l7><div class="card-body" data-astro-cid-b3w6o7l7><h2 class="h5 mb-0" data-astro-cid-b3w6o7l7>Use your own weapon logic</h2><p class="text-muted mb-0" data-astro-cid-b3w6o7l7>Pending documentation...</p></div></div></div> </div> </main> <footer class="bg-dark text-light border-top mt-auto py-5"> <div class="container"> <div class="row row-cols-1 row-cols-md-2 g-4"> <div class="col text-center text-md-start"> <h5 class="mb-3 fw-bold">Find me in</h5> <ul class="nav flex-column gap-2"> <li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://linkedin.com/in/kingsley-shyne-mattis-sogorb-a4a898214" target="_blank"> Linkedin </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://www.fab.com/sellers/DocCodding" target="_blank"> Fab </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://www.youtube.com/@DocCodding/videos" target="_blank"> Youtube </a> </li> </ul> </div> <div class="col text-center text-md-start"> <h5 class="mb-3 fw-bold">Projects</h5> <ul class="nav flex-column gap-2"> <li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://fab.com/s/d377034b3991" target="_blank"> Advanced Combat System </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://dishop.avtrixgames.com/" target="_blank"> Dishop </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://www.wattpad.com/story/316243226-sombras" target="_blank"> Sombras </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://fab.com/s/44c75b99152f" target="_blank"> Weaponry Assembly System </a> </li> </ul> </div> </div> <hr class="border-secondary my-4"> <div class="text-center small text-secondary">
+© 2026 — Built with Astro + Bootstrap
+</div> </div> </footer> </body></html>

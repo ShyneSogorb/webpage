@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d5/d85/_weapon_preview_scene_8cpp" kind="file" language="C++">
+    <compoundname>WeaponPreviewScene.cpp</compoundname>
+    <includes refid="df/de8/_weapon_preview_scene_8h" local="yes">Viewport/WeaponPreviewScene.h</includes>
+    <includes refid="d3/d94/_w_a_s_editor_8h" local="yes">WASEditor.h</includes>
+    <includes local="yes">Components/DirectionalLightComponent.h</includes>
+    <includes local="yes">GameFramework/WorldSettings.h</includes>
+    <includes local="yes">Components/StaticMeshComponent.h</includes>
+    <includes local="yes">Materials/Material.h</includes>
+    <includes local="yes">Engine/StaticMesh.h</includes>
+    <includes local="yes">GameFramework/RotatingMovementComponent.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport/WeaponPreviewScene.cpp</label>
+        <link refid="d5/d85/_weapon_preview_scene_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Components/DirectionalLightComponent.h</label>
+      </node>
+      <node id="4">
+        <label>Components/StaticMeshComponent.h</label>
+      </node>
+      <node id="6">
+        <label>Engine/StaticMesh.h</label>
+      </node>
+      <node id="7">
+        <label>GameFramework/RotatingMovementComponent.h</label>
+      </node>
+      <node id="3">
+        <label>GameFramework/WorldSettings.h</label>
+      </node>
+      <node id="5">
+        <label>Materials/Material.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2025<sp/>Kingsley<sp/>Shyne<sp/>Mattis<sp/>Sogorb.<sp/>All<sp/>Rights<sp/>Reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Viewport/WeaponPreviewScene.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WASEditor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Components/DirectionalLightComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/WorldSettings.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Components/StaticMeshComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Materials/Material.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Engine/StaticMesh.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/RotatingMovementComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><ref refid="d5/d59/class_f_weapon_preview_scene_1accddd4a29f55d12dd026068c19b88320" kindref="member">FWeaponPreviewScene::FWeaponPreviewScene</ref>(ConstructionValues<sp/>CVS,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/d06/class_u_weapon_asset" kindref="compound">UWeaponAsset</ref>*<sp/>InAsset)<sp/>:<sp/>FPreviewScene(CVS)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>GetWorld()-&gt;GetWorldSettings()-&gt;NotifyBeginPlay();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>GetWorld()-&gt;GetWorldSettings()-&gt;NotifyMatchStarted();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>GetWorld()-&gt;GetWorldSettings()-&gt;SetActorHiddenInGame(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>GetWorld()-&gt;SetBegunPlay(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>light<sp/>options<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>DirectionalLight-&gt;SetRelativeLocation(FVector(-1024.f,<sp/>1024.f,<sp/>2048.f));</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>DirectionalLight-&gt;SetRelativeScale3D(FVector(15.f));</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>SetLightBrightness(4.f);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>DirectionalLight-&gt;InvalidateLightingCache();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//DirectionalLight-&gt;RecreateRenderState_Concurrent();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>creae<sp/>a<sp/>sky<sp/>sphere</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>UStaticMeshComponent*<sp/>SkyComp<sp/>=<sp/>NewObject&lt;UStaticMeshComponent&gt;(PreviewWorld);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>UStaticMesh<sp/>*<sp/>StaticMesh<sp/>=<sp/>LoadObject&lt;UStaticMesh&gt;(NULL,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;/Engine/MapTemplates/Sky/SM_SkySphere.SM_SkySphere&quot;</highlight><highlight class="normal">),<sp/>NULL,<sp/>LOAD_None,<sp/>NULL);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>SkyComp-&gt;SetStaticMesh(StaticMesh);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>UMaterial*<sp/>SkyMaterial<sp/>=<sp/>LoadObject&lt;UMaterial&gt;(NULL,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;/Engine/EditorMaterials/PersonaSky.PersonaSky&quot;</highlight><highlight class="normal">),<sp/>NULL,<sp/>LOAD_None,<sp/>NULL);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>SkyComp-&gt;SetMaterial(0,<sp/>SkyMaterial);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>SkySphereScale<sp/>=<sp/>1000.f;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FTransform<sp/>SkyTransform(FRotator(0,<sp/>0,<sp/>0),<sp/>FVector(0,<sp/>0,<sp/>0),<sp/>FVector(SkySphereScale));</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>AddComponent(SkyComp,<sp/>SkyTransform);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PreviewWorld)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AActor*<sp/>ProxyActor<sp/>=<sp/>PreviewWorld-&gt;SpawnActor&lt;AActor&gt;();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PreviewComponent<sp/>=<sp/>NewObject&lt;USceneComponent&gt;(ProxyActor);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AddComponent(PreviewComponent,<sp/>FTransform::Identity);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogWASEditor,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>initialize<sp/>Preview<sp/>World!&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/Viewport/WeaponPreviewScene.cpp"/>
+  </compounddef>
+</doxygen>

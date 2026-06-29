@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d9/df8/class_u_weapon_architecture" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponArchitecture</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UPrimaryDataAsset</basecompoundref>
+    <includes local="no">WeaponArchitecture.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d9/df8/class_u_weapon_architecture_1a3c4af5ff1a0a4e9b116b9a3985720fb8" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d9f/struct_f_modification_architecture" kindref="compound">FModificationArchitecture</ref></type>
+        <definition>FModificationArchitecture UWeaponArchitecture::Architecture</definition>
+        <argsstring></argsstring>
+        <name>Architecture</name>
+        <qualifiedname>UWeaponArchitecture::Architecture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" line="36" column="27" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d9/df8/class_u_weapon_architecture_1a1bbb4ed551869d676b3b73a09967888f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE auto &amp;</type>
+        <definition>static FORCEINLINE auto &amp; UWeaponArchitecture::GetModificationsEnumImpl</definition>
+        <argsstring>(T &amp;Obj)</argsstring>
+        <name>GetModificationsEnumImpl</name>
+        <qualifiedname>UWeaponArchitecture::GetModificationsEnumImpl</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>Obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" line="22" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/df8/class_u_weapon_architecture_1a7125961c88daa6e9cbf7339509692861" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>FORCEINLINE auto &amp;</type>
+        <definition>static FORCEINLINE auto &amp; UWeaponArchitecture::GetSlotModsEnumImpl</definition>
+        <argsstring>(T &amp;Obj)</argsstring>
+        <name>GetSlotModsEnumImpl</name>
+        <qualifiedname>UWeaponArchitecture::GetSlotModsEnumImpl</qualifiedname>
+        <param>
+          <type>T &amp;</type>
+          <declname>Obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" line="28" column="25" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" bodystart="28" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/df8/class_u_weapon_architecture_1a352bc0b78c12252dbbee28b35e31863d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE TObjectPtr&lt; UEnum &gt; &amp;</type>
+        <definition>FORCEINLINE TObjectPtr&lt; UEnum &gt; &amp; UWeaponArchitecture::GetModificationsEnum</definition>
+        <argsstring>()</argsstring>
+        <name>GetModificationsEnum</name>
+        <qualifiedname>UWeaponArchitecture::GetModificationsEnum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" line="38" column="24" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/df8/class_u_weapon_architecture_1aacc88dcba291e9ef0d8da50c2b65f7f0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const TObjectPtr&lt; UEnum &gt; &amp;</type>
+        <definition>FORCEINLINE const TObjectPtr&lt; UEnum &gt; &amp; UWeaponArchitecture::GetModificationsEnum</definition>
+        <argsstring>() const</argsstring>
+        <name>GetModificationsEnum</name>
+        <qualifiedname>UWeaponArchitecture::GetModificationsEnum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" line="39" column="30" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/df8/class_u_weapon_architecture_1af70afe5ab84eb07c463f60326887eac3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE uint32</type>
+        <definition>FORCEINLINE uint32 UWeaponArchitecture::GetNumSlots</definition>
+        <argsstring>()</argsstring>
+        <name>GetNumSlots</name>
+        <qualifiedname>UWeaponArchitecture::GetNumSlots</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" line="44" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/df8/class_u_weapon_architecture_1ab1e7328d986408f3c587f9687fc449ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE TArray&lt; TObjectPtr&lt; UEnum &gt; &gt; &amp;</type>
+        <definition>FORCEINLINE TArray&lt; TObjectPtr&lt; UEnum &gt; &gt; &amp; UWeaponArchitecture::GetSlotModifiersEnum</definition>
+        <argsstring>()</argsstring>
+        <name>GetSlotModifiersEnum</name>
+        <qualifiedname>UWeaponArchitecture::GetSlotModifiersEnum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" line="41" column="20" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/df8/class_u_weapon_architecture_1a77604e08ea7bda22d67cf367a16e4433" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE const TArray&lt; TObjectPtr&lt; UEnum &gt; &gt; &amp;</type>
+        <definition>FORCEINLINE const TArray&lt; TObjectPtr&lt; UEnum &gt; &gt; &amp; UWeaponArchitecture::GetSlotModifiersEnum</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSlotModifiersEnum</name>
+        <qualifiedname>UWeaponArchitecture::GetSlotModifiersEnum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" line="42" column="26" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>UPrimaryDataAsset that contains the weapon modification architecture for consistency across multiple places. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UPrimaryDataAsset</label>
+      </node>
+      <node id="1">
+        <label>UWeaponArchitecture</label>
+        <link refid="d9/df8/class_u_weapon_architecture"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>FModificationArchitecture</label>
+        <link refid="d0/d9f/struct_f_modification_architecture"/>
+      </node>
+      <node id="2">
+        <label>UPrimaryDataAsset</label>
+      </node>
+      <node id="1">
+        <label>UWeaponArchitecture</label>
+        <link refid="d9/df8/class_u_weapon_architecture"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>Architecture</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" line="15" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/WeaponArchitecture/WeaponArchitecture.h" bodystart="16" bodyend="47"/>
+    <listofallmembers>
+      <member refid="d9/df8/class_u_weapon_architecture_1a3c4af5ff1a0a4e9b116b9a3985720fb8" prot="public" virt="non-virtual"><scope>UWeaponArchitecture</scope><name>Architecture</name></member>
+      <member refid="d9/df8/class_u_weapon_architecture_1a352bc0b78c12252dbbee28b35e31863d" prot="public" virt="non-virtual"><scope>UWeaponArchitecture</scope><name>GetModificationsEnum</name></member>
+      <member refid="d9/df8/class_u_weapon_architecture_1aacc88dcba291e9ef0d8da50c2b65f7f0" prot="public" virt="non-virtual"><scope>UWeaponArchitecture</scope><name>GetModificationsEnum</name></member>
+      <member refid="d9/df8/class_u_weapon_architecture_1a1bbb4ed551869d676b3b73a09967888f" prot="private" virt="non-virtual"><scope>UWeaponArchitecture</scope><name>GetModificationsEnumImpl</name></member>
+      <member refid="d9/df8/class_u_weapon_architecture_1af70afe5ab84eb07c463f60326887eac3" prot="public" virt="non-virtual"><scope>UWeaponArchitecture</scope><name>GetNumSlots</name></member>
+      <member refid="d9/df8/class_u_weapon_architecture_1ab1e7328d986408f3c587f9687fc449ff" prot="public" virt="non-virtual"><scope>UWeaponArchitecture</scope><name>GetSlotModifiersEnum</name></member>
+      <member refid="d9/df8/class_u_weapon_architecture_1a77604e08ea7bda22d67cf367a16e4433" prot="public" virt="non-virtual"><scope>UWeaponArchitecture</scope><name>GetSlotModifiersEnum</name></member>
+      <member refid="d9/df8/class_u_weapon_architecture_1a7125961c88daa6e9cbf7339509692861" prot="private" virt="non-virtual"><scope>UWeaponArchitecture</scope><name>GetSlotModsEnumImpl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

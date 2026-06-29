@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="d4/de4/struct_f_modification_description_simple" kind="struct" language="C++" prot="public">
+    <compoundname>FModificationDescriptionSimple</compoundname>
+    <includes local="no">ModificationDescriptionSimple.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/de4/struct_f_modification_description_simple_1a734a7eafb87e8c6159c604b36e22b8be" prot="public" static="no" mutable="no">
+        <type>TMap&lt; FGameplayTag, <ref refid="d3/d99/struct_f_name_description" kindref="compound">FNameDescription</ref> &gt;</type>
+        <definition>TMap&lt;FGameplayTag, FNameDescription&gt; FModificationDescriptionSimple::Descriptions</definition>
+        <argsstring></argsstring>
+        <name>Descriptions</name>
+        <qualifiedname>FModificationDescriptionSimple::Descriptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" line="47" column="6" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/de4/struct_f_modification_description_simple_1ac725fc378b200cd273977f6069452ebc" prot="public" static="no" mutable="no">
+        <type>FGameplayTag</type>
+        <definition>FGameplayTag FModificationDescriptionSimple::RootTag</definition>
+        <argsstring></argsstring>
+        <name>RootTag</name>
+        <qualifiedname>FModificationDescriptionSimple::RootTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" line="44" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/de4/struct_f_modification_description_simple_1a779c65e0e5fe265131298446bfe809a0" prot="public" static="no" mutable="no">
+        <type><ref refid="d3/d99/struct_f_name_description" kindref="compound">FNameDescription</ref></type>
+        <definition>FNameDescription FModificationDescriptionSimple::ThisDescription</definition>
+        <argsstring></argsstring>
+        <name>ThisDescription</name>
+        <qualifiedname>FModificationDescriptionSimple::ThisDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" line="41" column="18" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Modification slot with name-description pairs for each option. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>FModificationDescriptionSimple</label>
+        <link refid="d4/de4/struct_f_modification_description_simple"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ThisDescription</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FNameDescription</label>
+        <link refid="d3/d99/struct_f_name_description"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" line="34" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Public/Miscellaneous/DescriptionStructs/ModificationDescriptionSimple.h" bodystart="35" bodyend="49"/>
+    <listofallmembers>
+      <member refid="d4/de4/struct_f_modification_description_simple_1a734a7eafb87e8c6159c604b36e22b8be" prot="public" virt="non-virtual"><scope>FModificationDescriptionSimple</scope><name>Descriptions</name></member>
+      <member refid="d4/de4/struct_f_modification_description_simple_1ac725fc378b200cd273977f6069452ebc" prot="public" virt="non-virtual"><scope>FModificationDescriptionSimple</scope><name>RootTag</name></member>
+      <member refid="d4/de4/struct_f_modification_description_simple_1a779c65e0e5fe265131298446bfe809a0" prot="public" virt="non-virtual"><scope>FModificationDescriptionSimple</scope><name>ThisDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

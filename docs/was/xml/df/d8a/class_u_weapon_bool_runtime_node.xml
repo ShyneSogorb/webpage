@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="df/d8a/class_u_weapon_bool_runtime_node" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponBoolRuntimeNode</compoundname>
+    <basecompoundref refid="d2/d51/class_u_weapon_value_runtime_node" prot="public" virt="non-virtual">UWeaponValueRuntimeNode</basecompoundref>
+    <includes local="no">WeaponValueNode.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="df/d8a/class_u_weapon_bool_runtime_node_1a5faf0d77acbebe88f848f689d517504e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UWeaponBoolRuntimeNode::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>UWeaponBoolRuntimeNode::Value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponValueNode.h" line="175" column="10" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponValueNode.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Boolean literal node. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponBoolRuntimeNode</label>
+        <link refid="df/d8a/class_u_weapon_bool_runtime_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UWeaponValueRuntimeNode</label>
+        <link refid="d2/d51/class_u_weapon_value_runtime_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>UObject</label>
+      </node>
+      <node id="1">
+        <label>UWeaponBoolRuntimeNode</label>
+        <link refid="df/d8a/class_u_weapon_bool_runtime_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UWeaponRuntimeNode</label>
+        <link refid="de/dde/class_u_weapon_runtime_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UWeaponValueRuntimeNode</label>
+        <link refid="d2/d51/class_u_weapon_value_runtime_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponValueNode.h" line="168" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemRuntime/Private/Nodes/MathNodes/WeaponValueNode.h" bodystart="169" bodyend="187"/>
+    <listofallmembers>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a9a6f0658cff37983c31f96150036330c" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>AbortExecution</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a8a4b5342d06d48fa98eb3a4dceccba64" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>AbortExecution</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a097aad9c43b080b602ac91c362cde920" prot="public" virt="virtual"><scope>UWeaponBoolRuntimeNode</scope><name>ClearCache</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a88ef5d2e2ba3a4a36694c0b193409ea3" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>Execute</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1af568529f6969f90377c23b72f0adf203" prot="protected" virt="virtual"><scope>UWeaponBoolRuntimeNode</scope><name>ExecuteNode</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ac796930a6646e7fe5ce8aee4521f7911" prot="protected" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>FixInvalidPinsConnections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a3a81c151acd26c1901a22efce8bb6a19" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetAllPins</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ae80914a1cbed5c244202b092e2ef28ec" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetCharacteristics</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a7d23cc8247b2869f34967baa9dc82084" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetCharacteristicsCDO</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1abb907691503dfaa932260f6f435b8507" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetDefaultCharacteristics</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aef3d877ebe533c11c0d4708e0a59ab69" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetDefaultCharacteristicsClass</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0e06f43998bb8ce34259e7a8e8c0dd63" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetDefaultExecutionContext</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a2e3a0fc8f08a800e379d9f599747eaee" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetExecutionContext</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aac61ae0f66550aa137e4a184faabf048" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetGraph</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ab6393f301bda4e8d04d4221f3f0bb0f1" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetGraphAnyContext</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1adabcaf20d45c695c870c24d1822b1460" prot="public" virt="virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ab0ed90456b663568fdb8c8eae8b45b0f" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetLastInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ad83305eea700b8aad7904e542f1fdd4b" prot="public" virt="virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetMainInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1abbe1c76ce8e8161ed6405e3bc3068ceb" prot="public" virt="virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetMainOutput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a98485396e2cdb40bd1fc2936ed350e95" prot="protected" virt="virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetNodeDebugString</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ac284948005ccd2699b30849031829bbd" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a44bbe10ae3aa2b5f628566022ddb6538" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a13bd56c9affe83d039eb35416f982317" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aa3651afaba4ab612835a5181011d65de" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetNodeFromInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1added18f27b0bf53fd8951fd83c383b97" prot="public" virt="virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetOutput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a682006234c51db491300bd9c57f038e9" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetPinByName</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a936fcdfe272bd548e51cb3a23b1d89bb" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetPinConnection</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a53ac22a37bc5310a743f45d2e6061ac1" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetPinConnection</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0e86c0ec73005b8ea83f3061287ca3d4" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetPinConnections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0fe1f31d6c8fc4e93fd0e9bf02326bd5" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetPinConnections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a2f809a9a3404afd492998a16ad3a26cc" prot="public" virt="virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetValidPin</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1aa0c2351d764b462aec9d95de918f9ccb" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>GetWorldContext</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ae9f7fdfd9a2c22c099623934aec9bd3c" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>HasInput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ae0d83dd1242a32b1b0456e6e9339be03" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>HasOutput</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1ae62d6dc1344811d094ad6e743feda8f3" prot="public" virt="virtual"><scope>UWeaponBoolRuntimeNode</scope><name>Init</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a87b0a5686fa3ae650a539d8ae7e857e1" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>InputPins</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a8b02d257beb3602d90bc3648402c56fb" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>IsAborting</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a7252e50ac97fa71d3163cad0ccb4e636" prot="protected" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>NodeFlowDebugString</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a9382e9942f86a6f125815cf12e28a394" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>OutputPins</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a0d0227f100d4c07f3f2aeda00e35d467" prot="protected" virt="virtual"><scope>UWeaponBoolRuntimeNode</scope><name>PostExecuteNode</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a4fc374839e2e0e2d269069a225eaf07c" prot="protected" virt="virtual"><scope>UWeaponBoolRuntimeNode</scope><name>PreExecuteNode</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a38092b83d1b72b205de9df38aef30283" prot="protected" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>RemoveDuplicatedConections</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a324d234b56cb804537a91bd1c04099ad" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>Reset</name></member>
+      <member refid="de/dde/class_u_weapon_runtime_node_1a5b779b5faae2e23bb5ab0081d290e117" prot="protected" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>UpdateNodeFlowDebugString</name></member>
+      <member refid="df/d8a/class_u_weapon_bool_runtime_node_1a5faf0d77acbebe88f848f689d517504e" prot="public" virt="non-virtual"><scope>UWeaponBoolRuntimeNode</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

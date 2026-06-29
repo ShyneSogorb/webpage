@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="de/d6f/class_f_select_by_mod_customization" kind="class" language="C++" prot="public">
+    <compoundname>FSelectByModCustomization</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDetailCustomization</basecompoundref>
+    <includes local="no">SelectByModCustomization.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="de/d6f/class_f_select_by_mod_customization_1a82e35e16deed3078ebf8f3bcddbd8c73" prot="private" static="no" mutable="no">
+        <type>TArray&lt; TSharedPtr&lt; FGameplayTag &gt; &gt;</type>
+        <definition>TArray&lt;TSharedPtr&lt;FGameplayTag&gt; &gt; FSelectByModCustomization::SlotOptions</definition>
+        <argsstring></argsstring>
+        <name>SlotOptions</name>
+        <qualifiedname>FSelectByModCustomization::SlotOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/SelectByModCustomization.h" line="22" column="8" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/SelectByModCustomization.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="de/d6f/class_f_select_by_mod_customization_1a8c24203f64084668d365ee6d662dff0a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE TSharedRef&lt; IDetailCustomization &gt;</type>
+        <definition>static FORCEINLINE TSharedRef&lt; IDetailCustomization &gt; FSelectByModCustomization::MakeInstance</definition>
+        <argsstring>()</argsstring>
+        <name>MakeInstance</name>
+        <qualifiedname>FSelectByModCustomization::MakeInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/SelectByModCustomization.h" line="13" column="31" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/SelectByModCustomization.h" bodystart="13" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d6f/class_f_select_by_mod_customization_1aa83266d02697baf618f39917ac5a35fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FSelectByModCustomization::CustomizeDetails</definition>
+        <argsstring>(IDetailLayoutBuilder &amp;DetailBuilder) override</argsstring>
+        <name>CustomizeDetails</name>
+        <qualifiedname>FSelectByModCustomization::CustomizeDetails</qualifiedname>
+        <param>
+          <type>IDetailLayoutBuilder &amp;</type>
+          <declname>DetailBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/SelectByModCustomization.h" line="18" column="14" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Private/PropertyCustomizations/SelectByModCustomization.cpp" bodystart="15" bodyend="123"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FSelectByModCustomization</label>
+        <link refid="de/d6f/class_f_select_by_mod_customization"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDetailCustomization</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FSelectByModCustomization</label>
+        <link refid="de/d6f/class_f_select_by_mod_customization"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDetailCustomization</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/SelectByModCustomization.h" line="9" column="1" bodyfile="C:/Users/user/Documents/UnrealProjects/FacilityBreach5.5/Plugins/WeaponryAssemblySystem/Source/WeaponryAssemblySystemEditor/Public/PropertyCustomizations/SelectByModCustomization.h" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="de/d6f/class_f_select_by_mod_customization_1aa83266d02697baf618f39917ac5a35fd" prot="public" virt="virtual"><scope>FSelectByModCustomization</scope><name>CustomizeDetails</name></member>
+      <member refid="de/d6f/class_f_select_by_mod_customization_1a8c24203f64084668d365ee6d662dff0a" prot="public" virt="non-virtual"><scope>FSelectByModCustomization</scope><name>MakeInstance</name></member>
+      <member refid="de/d6f/class_f_select_by_mod_customization_1a82e35e16deed3078ebf8f3bcddbd8c73" prot="private" virt="non-virtual"><scope>FSelectByModCustomization</scope><name>SlotOptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
