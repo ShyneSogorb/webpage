@@ -1,165 +1,455 @@
-<!DOCTYPE html><html lang="en" data-astro-cid-azvyptdz> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Astro v5.5.3"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title></title><!-- Bootstrap JS bundle (Popper included) --><script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><!-- FontAwesome (solo si lo necesitas realmente) --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><link rel="stylesheet" href="/webpage/assets/acs.BFHYjjad.css"></head> <body class="d-flex flex-column min-vh-100 bg-light" data-astro-cid-azvyptdz> <header class="border-bottom bg-primary text-light"> <!-- TITLE --> <div class="text-center py-4"> <h1 class="display-6 fw-bold mb-1"></h1> <p class="lead mb-0 opacity-75"></p> </div> <!-- NAVBAR --> <nav class="navbar navbar-expand-lg navbar-dark bg-primary border-top border-light border-opacity-25"> <div class="container"> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse justify-content-center" id="mainNavbar"> <ul class="navbar-nav gap-3 align-items-lg-center text-center"> <!-- HOME --> <li class="nav-item"> <a class="nav-link" href="/webpage">Home</a> </li> <!-- PROJECTS DROPDOWN DINÁMICO --> <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+<!DOCTYPE html><html lang="en" data-astro-cid-azvyptdz> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Astro v5.5.3"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>Weaponry Assembly System</title><!-- Bootstrap JS bundle (Popper included) --><script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><!-- FontAwesome (solo si lo necesitas realmente) --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><link rel="stylesheet" href="/webpage/assets/acs.D4xwtK-m.css"></head> <body class="d-flex flex-column min-vh-100 bg-light" data-astro-cid-azvyptdz> <header class="border-bottom bg-primary text-light"> <!-- TITLE --> <div class="text-center py-4"> <h1 class="display-6 fw-bold mb-1">Weaponry Assembly System</h1> <p class="lead mb-0 opacity-75">First Steps</p> </div> <!-- NAVBAR --> <nav class="navbar navbar-expand-lg navbar-dark bg-primary border-top border-light border-opacity-25"> <div class="container"> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse justify-content-center" id="mainNavbar"> <ul class="navbar-nav gap-3 align-items-lg-center text-center"> <!-- HOME --> <li class="nav-item"> <a class="nav-link" href="/webpage/">Home</a> </li> <!-- PROJECTS DROPDOWN DINÁMICO --> <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
 Projects
-</a> <ul class="dropdown-menu"> <li> <a class="dropdown-item" href="/acs"> ACS </a> </li><li> <a class="dropdown-item" href="/dishop"> Dishop </a> </li><li> <a class="dropdown-item" href="/sombras"> Sombras </a> </li><li> <a class="dropdown-item" href="/was"> WAS </a> </li> </ul> </li> <!-- CV --> <li class="nav-item"> <a class="nav-link" href="/webpage/download/cv.pdf" target="_blank">
+</a> <ul class="dropdown-menu"> <li> <a class="dropdown-item" href="/webpage/acs"> ACS </a> </li><li> <a class="dropdown-item" href="/webpage/dishop"> Dishop </a> </li><li> <a class="dropdown-item" href="/webpage/sombras"> Sombras </a> </li><li> <a class="dropdown-item" href="/webpage/was"> WAS </a> </li> </ul> </li> <!-- CV --> <li class="nav-item"> <a class="nav-link" href="/webpage/download/cv.pdf" target="_blank">
 CV
 </a> </li> <!-- EXTERNAL --> <li class="nav-item"> <a class="nav-link" href="https://protectoravillena.com/" target="_blank">
 Shelter
-</a> </li> </ul> </div> </div> </nav> </header> <main class="flex-grow-1 py-4" data-astro-cid-azvyptdz> <div class="container" data-astro-cid-azvyptdz>  <div class="container py-4"> <div class="mb-5"> <h1 class="display-6">Setting up the weapon</h1> <p class="text-muted">
-Guide for configuring the <strong>Weaponry Assembly System (WAS)</strong> in Unreal Engine.
-</p> </div> <!-- Requirements --> <div class="card mb-4 shadow-sm"> <div class="card-body"> <h2 class="h4">Check the requirements</h2> <p class="mb-0">
-First of all, make sure you have the <strong>Weaponry Assembly System (WAS)</strong> plugin
-          installed and enabled in your project. Also make sure <em>Gameplay Tags</em> are enabled, and
-          that <strong>Niagara</strong> is active in your project settings.
-</p> </div> </div> <!-- Gameplay Tags --> <div class="card mb-4 shadow-sm"> <div class="card-body"> <h2 class="h4">Create the gameplay tags</h2> <p>
-You will need to define the slots and modifications for each weapon. The recommended way to
-          do this is by editing:
-<code>Config/DefaultGameplayTags.ini</code> </p> <p class="text-muted">
-Structure reference:
-</p> <ul class="list-group mb-3"> <li class="list-group-item"> <strong>Weapon</strong> <ul class="mt-2"> <li class="mb-2"> <code>Weapon.Slot0</code> <ul class="mt-1"> <li><code>Weapon.Slot0.Modification0</code></li><li><code>Weapon.Slot0.Modification1</code></li><li><code>Weapon.Slot0.Modification2</code></li> </ul> </li><li class="mb-2"> <code>Weapon.Slot1</code> <ul class="mt-1"> <li><code>Weapon.Slot1.Modification0</code></li><li><code>Weapon.Slot1.Modification1</code></li><li><code>Weapon.Slot1.Modification2</code></li> </ul> </li><li class="mb-2"> <code>Weapon.Slot2</code> <ul class="mt-1"> <li><code>Weapon.Slot2.Modification0</code></li><li><code>Weapon.Slot2.Modification1</code></li><li><code>Weapon.Slot2.Modification2</code></li> </ul> </li> </ul> </li> </ul> <p class="mb-0">
-A slot's children must always represent modifications. You can use <strong>DevComments</strong>
-to annotate metadata, which we will use later on.
-</p> </div> </div> <!-- Weapon Characteristics --> <div class="card mb-4 shadow-sm"> <div class="card-body"> <h2 class="h4">Create the weapon characteristics</h2> <p>
-This is a <strong>data container class</strong>, not the weapon itself. It behaves like a
-          data asset that stores the weapon's configurable parameters.
+</a> </li> </ul> </div> </div> </nav> </header> <main class="flex-grow-1 py-4" data-astro-cid-azvyptdz> <div class="container" data-astro-cid-azvyptdz>  <div class="container py-4"> <!-- Introduction --> <div class="mb-5"> <h1 class="display-5 fw-bold">Setting Up a Weapon</h1> <p class="lead">
+This guide walks you through the complete process of creating a
+                weapon using the
+<strong>Weaponry Assembly System (WAS)</strong>, from
+                configuring Gameplay Tags to building the weapon, attaching it
+                to a character and modifying it at runtime.
+</p> <div class="alert alert-primary"> <strong>Goal</strong> <p class="mb-0 mt-2">
+By the end of this tutorial you will have a fully functional
+                    modular weapon capable of changing both its appearance and
+                    gameplay properties depending on the selected modifications.
+</p> </div> <p class="text-center mb-3"> <img src="/webpage/images/0.was.jpg" alt="Weaponry Assembly System overview" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> </div> <!-- Requirements --> <div class="card shadow-sm mb-4"> <div class="card-body"> <h2 class="h3">Requirements</h2> <p>
+Before creating your first weapon, make sure your Unreal
+                    Engine project is correctly configured.
+</p> <ul> <li> <strong>Weaponry Assembly System</strong> must be installed
+                        and enabled.
+</li> <li>
+The <strong>Gameplay Tags</strong> plugin must be enabled.
+</li> <li>
+The <strong>Niagara</strong> plugin must also be enabled.
+                        Unless it has been manually disabled, it is enabled by default
+                        in most Unreal Engine projects.
+</li> <li>
+For this tutorial I will be using <a href="https://fab.com/s/6b60e748a4c0" target="_blank">this asset</a> to create a modular M4. Feel free to use your own but make sure to follow <a href="#mesh-rules">the mesh rules</a> </li> </ul> <div class="alert alert-info mt-4"> <strong>Note</strong> <p class="mb-0 mt-2">
+This tutorial assumes you are using the default
+                        implementation included with WAS. Once you understand
+                        the workflow, replacing the default weapon component
+                        with your own implementation is straightforward.
+</p> </div> <p class="text-center mb-3"> <img src="/webpage/images/plugin.was.jpg" alt="Required Unreal Engine plugins" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> </div> </div> <!-- Preparing the meshes --> <div class="card shadow-sm mb-4" id="mesh-rules"> <div class="card-body"> <h2 class="h3">Preparing the Meshes</h2> <p>
+Before creating the weapon, it is important to prepare your
+                    meshes correctly. A proper mesh setup makes the assembly
+                    process much easier and ensures that every attachment aligns
+                    correctly regardless of the selected modification.
+</p> <div class="alert alert-info"> <strong>Tip</strong><br>
+Spending a few minutes preparing your meshes will save a significant
+                    amount of time later. Most visual issues during assembly are caused
+                    by incorrectly configured meshes rather than the Weapon Asset
+                    itself.
+</div> <h3 class="h5 mt-4">Mesh preparation checklist</h3> <ul class="list-group mb-4"> <li class="list-group-item"> <strong>Split every attachment into its own Static Mesh.</strong><br>
+Each interchangeable part (barrel, stock, sight, magazine,
+                        grip, etc.) should be stored as an independent
+<code>Static Mesh</code>. This allows WAS to swap
+                        individual parts without rebuilding the entire weapon.
+</li> <li class="list-group-item"> <strong>Create sockets for every attachment point.</strong><br>
+Any mesh capable of receiving attachments should expose one
+                        or more sockets. The socket name should match the logical
+                        attachment point you intend to use (for example
+<code>Sight</code>, <code>Barrel</code>, <code>Magazine</code> or <code>Grip</code>). WAS will use these sockets when
+                        attaching child components.
+</li> <li class="list-group-item"> <strong>Place the pivot at the attachment point.</strong><br>
+Every interchangeable mesh should have its pivot positioned
+                        where it connects to its parent. This allows different modifications
+                        to share the same alignment without requiring individual offsets.
+</li> <li class="list-group-item"> <strong>Verify socket transforms.</strong><br>
+Use the Static Mesh Editor's <em>Preview Asset</em> feature
+                        to check that sockets are positioned and rotated correctly.
+                        Doing this before importing the meshes into the Weapon Asset
+                        will prevent most alignment problems.
+</li> </ul> <p class="text-center mb-3"> <img src="/webpage/images/mesh-setup.was.jpg" alt="Preparing weapon meshes for Weaponry Assembly System" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> <div class="alert alert-warning mt-4"> <strong>Common mistakes</strong> <ul class="mb-0 mt-2"> <li>
+Using a single mesh containing the entire weapon.
+</li> <li>
+Pivots placed at the world origin instead of the
+                            connection point.
+</li> <li>Sockets with incorrect orientation or position.</li> <li>
+Different modifiers using inconsistent pivot
+                            locations.
+</li> </ul> </div> <p class="mt-4 mb-0">
+Once every mesh is prepared correctly, creating the <strong>Weapon Asset</strong> becomes a straightforward process. The editor will only need
+                    to spawn the appropriate meshes and attach them through their
+                    sockets, allowing every weapon configuration to assemble automatically
+                    at runtime.
+</p> </div> </div> <!-- Gameplay Tags --> <div class="card shadow-sm mb-4"> <div class="card-body"> <h2 class="h3">Create the Gameplay Tags</h2> <p>
+The entire Weaponry Assembly System is driven by
+<strong>Gameplay Tags</strong>. Instead of hardcoding every
+                    slot or attachment, the plugin reads your tag hierarchy and
+                    automatically generates the available modification points.
 </p> <p>
-Create a Blueprint derived from <code>UWeaponDefaultCharacteristics</code> and add variables
-          such as fire rate, magazine size, recoil, and so on. For now, create at least a fire-rate
-          variable of type <em>float</em>. Override <code>GetTriggerRate</code> and connect that variable
-          directly to the return value. Also override <code>GetTriggerMode</code> and make it return
-<strong>Automatic</strong>.
+Although tags can be created from the Unreal Editor, editing
+<code>Config/DefaultGameplayTags.ini</code>
+is usually much faster when creating many weapons.
+</p> <div class="alert alert-success"> <strong>Recommended</strong> <p class="mb-0 mt-2">
+Define your Gameplay Tags before creating weapon assets.
+                        Changing the hierarchy later may require updating
+                        existing assets.
+</p> </div> <h3 class="h5 mt-4">Expected hierarchy</h3> <ul class="list-group"> <li class="list-group-item"> <strong>Weapon</strong> <ul class="mt-3"> <li class="mb-3"> <code>Weapon.Slot0</code> <ul class="mt-2"> <li> <code>Weapon.Slot0.Modification0</code> </li><li> <code>Weapon.Slot0.Modification1</code> </li><li> <code>Weapon.Slot0.Modification2</code> </li> </ul> </li><li class="mb-3"> <code>Weapon.Slot1</code> <ul class="mt-2"> <li> <code>Weapon.Slot1.Modification0</code> </li><li> <code>Weapon.Slot1.Modification1</code> </li><li> <code>Weapon.Slot1.Modification2</code> </li> </ul> </li><li class="mb-3"> <code>Weapon.Slot2</code> <ul class="mt-2"> <li> <code>Weapon.Slot2.Modification0</code> </li><li> <code>Weapon.Slot2.Modification1</code> </li><li> <code>Weapon.Slot2.Modification2</code> </li> </ul> </li> </ul> </li> </ul> <p class="mt-4">The plugin only requires one rule:</p> <ul> <li>Every weapon root must contain its available slots.</li> <li>
+Every slot must contain every available modification.
+</li> </ul> <p>For example:</p> <pre><code>Weapon
+├── Slot0
+│   ├── Modification0
+│   ├── Modification1
+│   └── Modification2
+├── Slot1
+└── Slot2
+</code></pre> <div class="alert alert-info"> <strong>Tip</strong> <p class="mb-0 mt-2">
+Populate the <code>DevComment</code> field for every Gameplay
+                        Tag. Those descriptions can later be reused inside the in-game
+                        weapon customization menu, reducing duplicated work.
+</p> </div> <p class="text-center mb-3"> <img src="/webpage/images/gameplay-tags.was.jpg" alt="Gameplay Tags configuration" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> </div> </div> <!-- Weapon Characteristics --> <div class="card shadow-sm mb-4"> <div class="card-body"> <h2 class="h3">Create Weapon Characteristics</h2> <p>
+Before creating the weapon itself, we first need a class
+                    that stores its configurable gameplay properties.
 </p> <p>
-On top of that, override <code>GetUsesAmmo</code> and <code>GetUsesMagazine</code> and make
-          both return <code>false</code>, so you won't need ammo for your first tests.
-</p> <p class="mb-0">
-To override these functions, use the <em>Override</em> dropdown in the Blueprint editor and
-          map them to your variables.
-</p> </div> </div> <!-- Weapon Asset --> <div class="card mb-4 shadow-sm"> <div class="card-body"> <h2 class="h4">Create the weapon asset</h2> <p>
-Right-click in the folder where you want to create the asset, go to <em>Create Advanced
-          Asset</em>, select <strong>Weapon Asset</strong>, give it a name, and open it.
+Think of <code>UWeaponDefaultCharacteristics</code> as a reusable
+                    data container. It does <strong>not</strong>
+represent the weapon actor or component. Instead, it exposes every
+                    configurable property such as fire rate, recoil, magazine size,
+                    spread, damage and any custom variables you decide to add.
+</p> <div class="alert alert-primary"> <strong>Architecture</strong> <p class="mb-0 mt-2">
+Separating gameplay data from the weapon implementation
+                        allows multiple weapons to reuse the same logic while
+                        exposing completely different configurations.
+</p> </div> <h3 class="h5 mt-4">Creating the Blueprint</h3> <ol> <li>
+Create a new Blueprint derived from
+<code>UWeaponDefaultCharacteristics</code>.
+</li> <li>
+Add a new <code>float</code> variable called
+<strong>Fire Rate</strong>.
+</li> <li>
+Override <code>GetTriggerRate()</code> and return the variable.
+</li> <li>
+Override <code>GetTriggerMode()</code> and return
+<code>Automatic</code>.
+</li> <li>
+Override <code>GetUsesAmmo()</code> and
+<code>GetUsesMagazine()</code> and temporarily return
+<code>false</code> for both.
+</li> </ol> <div class="alert alert-warning"> <strong>Why disable ammo?</strong> <p class="mb-0 mt-2">
+During the first setup we want to verify that the weapon
+                        is working correctly. Disabling ammunition avoids
+                        introducing extra systems before the weapon itself has
+                        been validated.
+</p> </div> <p class="text-center mb-3"> <img src="/webpage/images/characteristics.was.jpg" alt="Weapon Characteristics Blueprint" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> </div> </div> <!-- Weapon Asset --> <div class="card shadow-sm mb-4"> <div class="card-body"> <h2 class="h3">Create the Weapon Asset</h2> <p>
+The <code>Weapon Asset</code> is the heart of the Weaponry Assembly
+                    System. Unlike the
+<code>Weapon Characteristics</code>, which only store
+                    gameplay values, the Weapon Asset defines
+<strong>how the weapon is built</strong>,
+<strong>which components are spawned</strong>, and
+<strong>how every modification affects both visuals and
+                        gameplay</strong>.
+</p> <div class="alert alert-primary"> <strong>Architecture</strong> <p class="mb-0 mt-2">
+Think of the Weapon Asset as a construction blueprint.
+                        Every time the weapon needs to be assembled or rebuilt,
+                        the graph is evaluated and all selected modifications
+                        are applied automatically.
+</p> </div> <p class="text-center mb-3"> <img src="/webpage/images/weapon-asset-creation.was.jpg" alt="Weapon Asset overview" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> <hr class="my-5"> <h3 class="h4">Create the asset</h3> <ol> <li>Right-click anywhere inside the Content Browser.</li> <li>Select <strong>Create Advanced Asset</strong>.</li> <li>Open the <strong>Weapon Asset</strong> category.</li> <li>Create a new <code>Weapon Asset</code>.</li> <li>
+Give it a meaningful name, for example <code>WA_M4</code>.
+</li> <li>Open it.</li> </ol> <p>The editor is divided into three main areas:</p> <ul> <li> <strong>Graph</strong> – defines how the weapon is assembled.
+</li> <li> <strong>Viewport</strong> – previews the generated weapon.
+</li> <li> <strong>Details Panel</strong> – exposes all editable settings.
+</li> </ul> <p class="text-center mb-3"> <img src="/webpage/images/editor.was.jpg" alt="Weapon Asset editor" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> <hr class="my-5"> <h3 class="h4">Assign the Characteristics</h3> <p>
+Before creating the graph, assign the characteristics
+                    blueprint created in the previous step.
+</p> <ol> <li>Open the <strong>Properties</strong> panel.</li> <li>Locate the <code>Characteristics</code> property.</li> <li>
+Assign your <code>UWeaponDefaultCharacteristics</code> Blueprint.
+</li> </ol> <p>
+As soon as the asset knows which characteristics class it
+                    should use, all exposed gameplay properties become editable
+                    directly inside the asset.
+</p> <div class="alert alert-info"> <strong>Why?</strong> <p class="mb-0 mt-2">
+This allows designers to tweak weapon values without
+                        modifying the Blueprint itself. The Blueprint defines
+                        what can be configured. The Weapon Asset defines which
+                        values are used.
+</p> </div> <p class="text-center mb-3"> <img src="/webpage/images/characteristics-assignation.was.jpg" alt="Assigned Weapon Characteristics" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> <hr class="my-5"> <h3 class="h4">Configure the Gameplay Tag hierarchy</h3> <p>
+Next, configure the Gameplay Tag root used by this weapon.
+</p> <ol> <li>Locate the <code>Weapon Root</code> property.</li> <li>Select the Gameplay Tag representing this weapon.</li> </ol> <p>For example:</p> <pre><code>Weapon</code></pre> <p>
+The plugin automatically searches every child slot and every
+                    modification belonging to that hierarchy.
+</p> <div class="alert alert-warning"> <strong>Important</strong> <p class="mb-0 mt-2">
+If the slot list does not update immediately, simply
+                        save, close and reopen the asset. The editor caches part
+                        of the hierarchy to improve performance.
+</p> </div> <p class="text-center mb-3"> <img src="/webpage/images/root-assignment.was.jpg" alt="Weapon Root configuration" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> <p>
+Once refreshed, every slot appears automatically inside the
+<strong>Modification</strong> section. Each slot contains every
+                    modification defined by its Gameplay Tags.
+</p> <hr class="my-5"> <h3 class="h4">Build the base weapon</h3> <p>
+Now we can start defining how the weapon is assembled. The
+                    graph is executed from one or more
+<strong>entry nodes</strong>. Each entry node has a
+                    different purpose.
 </p> <p>
-Inside, you will find an editor graph, a preview window, and a properties panel.
+For building the visual representation, create a
+<code>Build Visuals</code> node.
+</p> <div class="alert alert-success"> <strong>Build Visuals</strong> <p class="mb-0 mt-2">
+This entry point should only create or attach
+                        components. Avoid modifying gameplay properties here.
+</p> </div> <ol> <li>Create a <code>Build Visuals</code> node.</li> <li>Create a <code>Weapon Static Mesh</code> node.</li> <li>Create a <code>Literal Object</code> node.</li> <li>Connect the nodes together.</li> <li>Assign a Static Mesh inside the Details panel.</li> </ol> <p>
+The <code>Literal Object</code> node is context-sensitive. Initially
+                    it accepts any UObject, but once connected, it automatically filters
+                    itself to the required asset type.
+</p> <p class="text-center mb-3"> <img src="/webpage/images/initial-visuals.was.jpg" alt="Build Visuals graph" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> <hr class="my-5"> <h3 class="h4">Adding modular attachments</h3> <p>
+Static meshes become truly modular when combined with
+<code>Select Object By Mod</code>. Instead of spawning a
+                    fixed mesh, the selected asset depends on the active weapon
+                    modification.
+</p> <ol> <li>Create another <code>Weapon Static Mesh</code>.</li> <li>
+Replace the <code>Literal Object</code> with
+<code>Select Object By Mod</code>.
+</li> <li>Choose the slot this selector controls.</li> <li>Assign one mesh for every available modification.</li> </ol> <p>
+When the weapon is assembled, the correct mesh is selected
+                    automatically.
+</p> <div class="alert alert-primary"> <strong>Tip</strong> <p class="mb-0 mt-2">
+Adding a <code>Tag</code> node after spawning the component
+                        is recommended. Tags make it much easier to identify components
+                        later when adding animations, effects or custom gameplay logic.
+</p> </div> <p>
+To attach the generated component to another component, use
+                    the <code>Weapon Attachment</code> node. You can chain multiple
+                    attachments together to build complex weapon hierarchies.
+</p> <p class="text-center mb-3"> <img src="/webpage/images/build-attachments.was.jpg" alt="Modular weapon attachments" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> <hr class="my-5"> <h3 class="h4">Modify gameplay properties</h3> <p>
+Visuals are only half of the weapon. Different modifications
+                    usually change gameplay values as well.
 </p> <p>
-First, go to the properties panel and, under <em>Characteristics</em>, switch it to the one
-          you created in the previous step. As soon as you do, all your properties will become editable.
-          For now we'll focus on expanding the <strong>Modification</strong> section. You will see a
-<code>Weapon Root</code> variable and a <code>Container</code> one. Replace
-<code>Weapon Root</code> with this weapon's root tag, meaning the tag that contains all the
-          slots. You may need to close and reopen the asset for the changes to take effect. After that,
-          you'll get a list of options for every slot you created, each one with its own modification
-          options.
+For that purpose, create an
+<code>Execute Operations</code> entry node.
+</p> <div class="alert alert-success"> <strong>Execute Operations</strong> <p class="mb-0 mt-2">
+Unlike <code>Build Visuals</code>, this graph should
+                        only modify gameplay properties. Keeping visuals and
+                        gameplay separated makes graphs significantly easier to
+                        maintain.
+</p> </div> <ol> <li>Create an <code>Execute Operations</code> node.</li> <li>Create the <code>Fire Rate</code> property node.</li> <li>Connect a <code>Select Float By Mod</code>.</li> <li>Select the desired slot.</li> <li>
+Assign a different fire rate for every modification.
+</li> </ol> <p>
+Whenever the weapon is rebuilt, the selected modification
+                    automatically updates both the weapon's appearance and its
+                    gameplay values.
+</p> <p class="text-center mb-3"> <img src="/webpage/images/modify-property.was.jpg" alt="Fire rate modified by weapon attachments" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> </div> </div> <!-- Create the Weapon Component --> <div class="card shadow-sm mb-4"> <div class="card-body"> <h2 class="h3">Create the Weapon Component</h2> <p>
+So far we have defined <em>what</em> the weapon is and
+<em>how</em> it should be built. The next step is to give it a
+                    brain – a component that handles input, fires the weapon and communicates
+                    with the rest of the game.
 </p> <p>
-Next, to actually build the weapon, you need to create an end node: right-click on the graph
-          and add a <strong>Build Visuals</strong> node. This node is meant to run when you only want to
-          build the visual side of the weapon, leaving properties untouched. Let's create a static mesh
-          component using the <code>Weapon Static Mesh</code> node, under the <strong>Spawn</strong>
-category. For the input <em>Asset</em> pin, we'll use a <code>Literal Object</code> node. By
-          default it can be any object, but as soon as you connect it to a pin that requires a specific
-          type, it will automatically filter to acceptable types only — in this case, the Object node
-          will become a <em>StaticMesh</em>. From there, in the node's details, you can set the mesh
-          you want to spawn.
+The plugin provides a base class,
+<code>UWeaponComponent</code>, that already contains all the
+                    core logic for trigger handling, firing and rebuild events.
+                    We only need to create a child Blueprint and override a few
+                    functions to hook into those events.
+</p> <h3 class="h5 mt-4">Blueprint Setup</h3> <ol> <li>
+Create a new Blueprint class, parent
+<code>UWeaponComponent</code>. Name it something like
+<strong>BP_SimpleWeapon</strong>.
+</li> <li>
+Open the Blueprint and go to the <strong>Event Graph</strong>.
+</li> </ol> <h3 class="h5">Override Trigger Events</h3> <p>
+Override <code>OnEventTriggered</code> and
+<code>OnEventTriggerFailed</code>. These are called
+                    automatically by the base component whenever the weapon
+                    tries to fire.
+</p> <div class="row"> <div class="col-md-6"> <div class="card bg-light mb-3"> <div class="card-body"> <h6 class="card-title">OnEventTriggered</h6> <p class="card-text small">
+Called when the weapon successfully fires.
+                                    For now, just print a message.
+</p> <pre><code>Print String "Shooting works!!!"</code></pre> </div> </div> </div> <div class="col-md-6"> <div class="card bg-light mb-3"> <div class="card-body"> <h6 class="card-title">OnEventTriggerFailed</h6> <p class="card-text small">
+Called when the weapon <strong>cannot</strong> fire.
+</p> <pre><code>Print String "Could not shoot :("</code></pre> </div> </div> </div> </div> <div class="alert alert-info"> <strong>What about other functions?</strong> <p class="mb-0 mt-2">
+The base component already handles continuous trigger
+                        pull (automatic fire), rate limiting and state
+                        management. You only need to override the events you
+                        care about.
+</p> </div> <p class="text-center mb-3"> <img src="/webpage/images/component-child.was.jpg" alt="Weapon Component Blueprint" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> </div> </div> <!-- Set up the Character --> <div class="card shadow-sm mb-4"> <div class="card-body"> <h2 class="h3">Set up the Character</h2> <p>
+With the Weapon Component ready, we can attach it to a
+                    character and bind the shooting input.
+</p> <h3 class="h5 mt-4">Add the Weapon Component</h3> <ol> <li>
+Open your Character Blueprint (or create a new one based
+                        on <code>ACharacter</code>).
+</li> <li>
+In the <strong>Components</strong> panel, click
+<em>Add Component</em> and search for your
+<code>BP_SimpleWeapon</code> (or any
+<code>UWeaponComponent</code> child).
+</li> <li>
+Select the newly added component and, in the
+<strong>Details</strong> panel, assign the
+<strong>Weapon Asset</strong> you created earlier (<code>WA_M4</code>).
+</li> </ol> <h3 class="h5">Bind Input</h3> <p>
+Now we'll set up the input so the left mouse button controls
+                    the trigger.
+</p> <ol> <li>
+In the Character's Event Graph, add an
+<strong>InputAction</strong> or
+<strong>InputKey</strong> node for
+<strong>Left Mouse Button</strong>.
+</li> <li>
+From the <strong>Pressed</strong> output, drag off and call
+<strong>EnterTrigger</strong> on the Weapon Component.
+</li> <li>
+From the <strong>Released</strong> output, drag off and call
+<strong>ExitTrigger</strong>.
+</li> </ol> <div class="alert alert-warning"> <strong>Make sure your input is enabled!</strong> <p class="mb-0 mt-2">
+If you are using Enhanced Input, create an
+<strong>Input Action</strong> asset and bind it in your Input
+                        Mapping Context. The exact method depends on your project
+                        setup; the key point is that
+<code>EnterTrigger</code> and
+<code>ExitTrigger</code> are called correctly.
+</p> </div> <p class="text-center mb-3"> <img src="/webpage/images/character.was.jpg" alt="Character input binding" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> </div> </div> <!-- Test the Weapon (1st time) --> <div class="card shadow-sm mb-4"> <div class="card-body"> <h2 class="h3">Test the Weapon (First Run)</h2> <p>
+Now that the Weapon Component is attached and the input is
+                    wired, launch the game. You should see the weapon appear
+                    attached to your character and respond to the left mouse
+                    button.
+</p> <h3 class="h5 mt-4">Verify visual assembly</h3> <ol> <li>Start the game.</li> <li>
+Confirm the weapon and all its attachments are visible.
+</li> <li>
+Check that no components are floating at the world
+                        origin.
+</li> </ol> <h3 class="h5">Verify the trigger</h3> <p>
+Press and hold the left mouse button. You should see a
+                    continuous stream of "Shooting works!!!" messages. Release
+                    the button and the messages stop.
+</p> <div class="accordion mt-4" id="testTroubleshooting"> <div class="accordion-item"> <h2 class="accordion-header"> <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#noShoot">
+The weapon does not appear or does not shoot
+</button> </h2> <div id="noShoot" class="accordion-collapse collapse"> <div class="accordion-body"> <ul> <li>
+Is the correct <strong>Weapon Asset</strong> assigned to the component?
+</li> <li>
+Did you set the <strong>Weapon Root</strong> Gameplay Tag correctly?
+</li> <li>
+Are <code>GetUsesAmmo()</code> and <code>GetUsesMagazine()</code> returning <code>false</code>?
+</li> <li>
+Is the Weapon Component added to the
+                                        Character?
+</li> <li>
+Are the input nodes calling <code>EnterTrigger</code> and <code>ExitTrigger</code>?
+</li> </ul> </div> </div> </div> </div> <div class="alert alert-success mt-4"> <strong>Congratulations!</strong> <p class="mb-0 mt-2">
+The core loop is working. Now we'll make it richer by
+                        adding data assets and an in-game modification UI.
+</p> </div> </div> </div> <!-- Data Assets for Weapon Descriptions --> <div class="card shadow-sm mb-4"> <div class="card-body"> <h2 class="h3">Create Data Assets for Descriptions</h2> <p>
+The plugin can automatically generate a user‑friendly
+                    description of the weapon, its slots and modifications using
+                    the <code>DevComment</code> fields you filled in the Gameplay
+                    Tags. To expose this data to UI, we need to wrap it in Primary
+                    Data Assets.
+</p> <p>We'll create two assets:</p> <ul> <li> <strong>PDA_WeaponDescription</strong> – stores the description
+                        of a single weapon.
+</li> <li> <strong>PDA_WeaponLibrary</strong> – a map that links Weapon
+                        Assets to their descriptions.
+</li> </ul> <h3 class="h5 mt-4">PDA_WeaponDescription</h3> <ol> <li>
+Create a new Blueprint class derived from <code>PrimaryDataAsset</code>.
+</li> <li>
+Add a new variable of type
+<strong>Weapon Settings Description Simple</strong>
+(this is a struct provided by WAS). Name it
+<code>Description</code>.
+</li> <li>
+Save and compile. Name the Blueprint <strong>BP_WeaponDescription</strong>.
+</li> <li>
+Create a Data Asset instance from it (right‑click → <em>Miscellaneous</em> → <em>Data Asset</em>).
+</li> <li>
+Open the Data Asset and set <strong>Root Tag</strong> to the
+                        same weapon root (e.g., <code>Weapon</code>).
+</li> <li>
+The struct auto‑populates with all slots and
+                        modifications. If you filled the <code>DevComment</code> fields,
+                        the descriptions appear automatically.
+</li> </ol> <h3 class="h5 mt-4">PDA_WeaponLibrary</h3> <ol> <li>
+Create another <code>PrimaryDataAsset</code> Blueprint, name
+                        it <strong>BP_WeaponLibrary</strong>.
+</li> <li>
+Add a variable of type <strong>Map</strong>:
+<ul> <li>
+Key: <code>Weapon Asset</code> (soft reference)
+</li> <li>
+Value: <code>BP_WeaponDescription</code> (soft reference)
+</li> </ul> </li> <li>Compile and create a Data Asset instance.</li> <li>
+Add an entry: set the key to your
+<code>WA_M4</code> and the value to the
+<code>PDA_WeaponDescription</code> instance you just created.
+</li> </ol> <p class="text-center mb-3"> <img src="/webpage/images/data-assets.was.jpg" alt="Weapon Data Assets" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> </div> </div> <!-- Display and modify weapon in-game --> <div class="card shadow-sm mb-4"> <div class="card-body"> <h2 class="h3">Display and Modify Weapon In‑Game</h2> <p>
+Now we'll bring up a UI that lets you swap modifications at
+                    runtime and see the weapon rebuild instantly.
+</p> <h3 class="h5 mt-4">Step 1: Open the modification menu</h3> <ol> <li>
+In your Character Blueprint, add an input event (e.g., <strong>C key</strong>).
+</li> <li>
+Add a variable <code>Library</code> of type
+<code>BP_WeaponLibrary</code> and assign the Data Asset you
+                        just created.
+</li> <li>
+From the input event, get the
+<code>WeaponComponent</code> → call
+<code>Get Weapon Asset</code>.
+</li> <li>
+Use the <code>Library</code> variable → get the Map property
+                        → <strong>Find</strong> using the Weapon Asset as key.
+</li> <li>
+Load the soft reference to obtain the
+<code>PDA_WeaponDescription</code> (you may need a cast).
+</li> <li>Get the <code>Description</code> struct from it.</li> </ol> <h3 class="h5">
+Step 2: Create the built‑in modification widget
+</h3> <p>
+WAS ships with a ready‑to‑use widget called
+<code>WBP_ModifyWeapon</code>.
+</p> <ol> <li>
+Call <strong>Create Widget</strong> and select
+<code>WBP_ModifyWeapon</code> as the class.
+</li> <li>
+Connect the following input pins:
+<ul> <li> <code>WeaponToModify</code> – your Weapon Component
+</li> <li> <code>WeaponAsset</code> – the Weapon Asset from the
+                                component
+</li> <li> <code>WeaponSettingsDescriptionSimple</code> – the
+                                struct from the Data Asset
+</li> </ul> </li> <li>
+Bind the <strong>OnApplyMods</strong> event to a custom event
+                        that removes the widget (or closes it).
+</li> <li>
+Add the widget to the viewport, show the mouse cursor
+                        and switch input mode to UI only.
+</li> </ol> <div class="alert alert-primary"> <strong>Ready to go</strong> <p class="mb-0 mt-2">
+The default widget lists every slot, every modification
+                        (with their descriptions) and includes Apply/Revert
+                        buttons. When you press Apply, the weapon rebuilds
+                        automatically.
+</p> </div> <p class="text-center mb-3"> <img src="/webpage/images/ui-creation.was.jpg" alt="In-game modification widget" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> </div> </div> <!-- Add More Variability --> <div class="card shadow-sm mb-4"> <div class="card-body"> <h2 class="h3">Add More Variability</h2> <p>
+Now that the whole pipeline works, you can enrich your
+                    weapon by adding more slots, more modifications, more
+                    properties and more graph nodes.
+</p> <ul> <li>
+Duplicate your Weapon Asset and try different fire‑rate
+                        curves per modification.
+</li> <li>
+Add a new slot (e.g., <code>Muzzle</code>) and hook it
+                        to different muzzle flash Niagara systems.
+</li> <li>
+Override additional characteristics variables (recoil,
+                        spread, etc.) and expose them in the <code>Execute Operations</code> graph.
+</li> </ul> <p class="mb-0">
+The system scales gracefully – every new Gameplay Tag is
+                    automatically recognised by the Weapon Asset editor and the
+                    modification UI.
+</p> <p class="text-center mb-3"> <img src="/webpage/images/final-asset.was.jpg" alt="M4 asset result" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> <div class="alert alert-warning"> <strong>Make sure your weapon description reflects the weapon!</strong> <p class="mb-0 mt-2">
+If you modify your gameplay tags, by adding a new slot
+                        or a new modifier make sure the modifications are
+                        reflected at the description data asset. Once you open
+                        the data asset should automatically update to your new
+                        architecture, but you still need to at least open it
+                        once
+</p> </div> </div> </div> <!-- Test Again --> <div class="card shadow-sm mb-4"> <div class="card-body"> <h2 class="h3">Test Again</h2> <p>
+Launch the game once more. Press the key you assigned to
+                    open the modification menu, swap a few attachments and
+                    observe how both the visual mesh and the fire rate change
+                    immediately.
 </p> <p>
-Let's continue with the basics by adding attachments. In a very similar way to how we created
-          this single static mesh, create another static mesh component, but this time the input
-<em>Asset</em> will be <code>Select Object By Mod</code>. Connect it to the input and go to its
-          details. You will see a <code>Slot</code> field set to <strong>None</strong>. Change it to
-          whichever slot you want. An options map will then be generated automatically with every
-          possible modification — just select the mesh you want to spawn for each modifier. From the
-          output pin of the generated static mesh, it's a good idea to assign it a tag, which you can do
-          by creating a new <code>Tag</code> node. Give it whatever tag you like, since this is just to
-          help identify the component later on. Next, create a <code>Weapon Attachment</code> node, where
-          the parent is whoever will hold the components, and the children are the ones attached to it.
-          You can repeat the process by chaining the <code>Result</code> output into the parent of the
-          next <code>Weapon Attachment</code>. Remember to connect the end of the chain to the
-<strong>Build Visuals</strong> node.
-</p> <p class="mb-0">
-Now let's make our fire rate changeable so we can test it later. Add a new
-<code>Execute Operations</code> node — this node will run anything connected to it, but it's
-          meant to be used purely to modify properties, so let's use it for that. Create a new node for
-          the fire-rate property (the one we created earlier in the characteristics) and use a
-<code>SelectDoubleByMod</code> node (or <em>Float</em>), connecting it to the fire rate's input.
-          Just like we did with the components, select a slot and give a value for each modifier.
-</p> </div> </div> <!-- Create your weapon component  --> <div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Create your weapon component</h2> <p>
-Let's start testing this out with a simple new Blueprint derived from
-<code>UWeaponComponent</code>. <span class="note">I'll keep this short since it's a bit
-            off-topic.</span> You'll see there are many different functions you can override. Override
-<code>OnEventTriggered</code> and print the string <code>Shooting works!!!</code>. Then do
-            the same with <code>OnEventTriggerFailed</code> and print <code>Could not shoot :(</code>.
-</p> <p class="mb-0">
-That's all for now on our <code>UWeaponComponent</code>. Let's move on to our character.
-</p> </div> </div> <!-- Create your character --> <div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Create your character</h2> <p>
-Create a new <code>ACharacter</code> (or use the one you most likely already have) and add a
-            new component of the type we just created. In the component's details panel, look for
-<code>Weapon Asset</code> and select the Weapon Asset we created.
-</p> <p class="mb-0">
-Next, let's add a simple input event, <code>OnLeftMouseButton</code>: when pressed, we'll
-            call <code>EnterTrigger</code> on our <code>WeaponComponent</code>, and when we release the
-            left click, we'll call <code>ExitTrigger</code>.
-</p> </div> </div> <!-- "Test it!", --> <div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Test it!</h2> <p>
-As soon as your character appears, you should be able to see your weapon already built.
-                If you can't, make sure it's visible, the attachment is set up correctly, and that it
-                isn't underground or in some other unexpected location. Also double-check that you've
-                set the <code>Weapon Asset</code>.
-</p> <p>
-You should now be able to shoot, and the message should print to screen. Shooting will
-                be continuous if the trigger mode is set to <strong>Automatic</strong>, and as soon as
-                you release the click, the trigger will be released and shooting will stop.
-</p> <p class="mb-0">
-If something goes wrong and the game keeps printing <em>"Could not shoot :("</em>, you very
-              likely have no ammo. You can override <code>GetUsesAmmo</code> and
-<code>GetUsesMagazine</code> on your <code>UWeaponCharacteristics</code> and make both
-              return <code>false</code>.
-</p> </div> </div> <!-- Indicate all information in data assets --> <div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Indicate all information in data assets</h2> <p>
-Now let's fill in the information for the slots and modifiers.
-<span class="note">If you haven't set a DevComment for each slot and modifier yet, I'd
-            recommend doing so now — even with AI, since it will give you an output you can use as a
-            starting placeholder.</span> This depends on your project, but a good recommendation is to
-            create two <strong>Primary Data Assets</strong>: one called <code>PDA_WeaponDescription</code>
-and another called <code>PDA_WeaponLibrary</code>.
-</p> <p> <code>PDA_WeaponDescription</code>: this <em>Primary Data Asset</em> consists of a single
-            variable of type <code>Weapon Settings Description Simple</code>. Save it and create a
-<em>DataAsset</em> from it — this is just a DataAsset for a single weapon. Open it up and,
-            where you see <code>RootTag</code>, give it your weapon's root tag, the same one you assigned
-            on the Weapon Asset. As soon as you set that value, it will automatically populate with all
-            the slots and modifiers, and if you filled in the DevComments, the description will be
-            populated automatically too.
-</p> <p class="mb-0"> <code>PDA_WeaponLibrary</code> is the second Primary Data Asset, and it will act as a library
-            holding the information for every weapon asset. Open it up and create a new <em>Map</em>
-variable, using <code>WeaponAsset</code> as the key and <code>PDA_WeaponDescription</code> as
-            the value. I'd recommend using a soft reference for both the key and the value. Create a new
-            DataAsset from it and add an entry: the Weapon Asset we're working on and the Weapon
-            Description we just created.
-</p> </div> </div> <!-- Display and modify weapon in game--> <div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Display and modify the weapon in game</h2> <p>
-Now let's add the ability to modify the weapon at runtime. Go back to your character and
-                create an event to display the modification widget — for example, on pressing the
-<strong>"C"</strong> key.
-</p> <p>
-Add a new variable called <em>library</em>, of type <code>PDA_LibraryWeapon</code>, and
-                set it to the library data asset we created earlier. Now, when we enter the event to
-                display the widget, we'll first get the <code>WeaponComponent</code> from our character,
-                and from it, <code>GetWeaponAsset</code>. From the <em>Library</em> variable we'll get the
-                Map property and use <code>Find</code>. The input for that <em>Find</em> will be the
-                result of <code>GetWeaponAsset</code>. If we're using a soft reference, we'll need to
-                load it; once loaded, the resulting object will be a <code>PDA_WeaponDescription</code>,
-                since that's the value type of the map. You may need to use a cast, and from there just
-                get the <em>description</em> variable.
-</p> <p>
-Now we have all the information the widget needs, so just call <code>CreateWidget</code>,
-                where the class should be <code>WBP_ModifyWeapon</code>. That's the built-in
-                implementation, and its input pins will be <code>WeaponToModify</code> (our character's
-                weapon component), <em>Weapon Asset</em> (the weapon component's weapon asset), and
-                finally the <em>Weapon Settings Description Simple</em>, which will be the value we got
-                from the Primary Data Asset.
-</p> <p class="mb-0">
-As for the return value, you can bind <em>Apply Mods</em> to a function that closes the
-                widget, so that function gets called automatically whenever the modifiers are applied.
-                From there, treat it like a regular widget: add it to the screen, show the mouse cursor,
-                set the input mode to UI, and so on.
-</p> </div> </div> <!-- Add more variability --> <div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Add more variability</h2> <p class="mb-0">
-Now that everything is set up, you can start adding more modifiers, more static meshes,
-                more variables, and so on.
-</p> </div> </div> <!-- Test it (again)! --> <div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Test it (again)!</h2> <p class="mb-0">
-If your fire rate is driven by a variable, you'll be able to see how it changes with each
-                modifier.
-</p> </div> </div> <!-- Placeholder sections --> <div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Create your own nodes with Blueprints</h2> <p class="text-muted mb-0">Pending documentation...</p> </div> </div><div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Extending nodes in C++</h2> <p class="text-muted mb-0">Pending documentation...</p> </div> </div><div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Create your own widget for modifiers</h2> <p class="text-muted mb-0">Pending documentation...</p> </div> </div><div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Use your own weapon logic</h2> <p class="text-muted mb-0">Pending documentation...</p> </div> </div> </div>  </div> </main> <footer class="bg-dark text-light border-top mt-auto py-5"> <div class="container"> <div class="row row-cols-1 row-cols-md-2 g-4"> <div class="col text-center text-md-start"> <h5 class="mb-3 fw-bold">Find me in</h5> <ul class="nav flex-column gap-2"> <li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://linkedin.com/in/kingsley-shyne-mattis-sogorb-a4a898214" target="_blank"> Linkedin </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://www.fab.com/sellers/DocCodding" target="_blank"> Fab </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://www.youtube.com/@DocCodding/videos" target="_blank"> Youtube </a> </li> </ul> </div> <div class="col text-center text-md-start"> <h5 class="mb-3 fw-bold">Projects</h5> <ul class="nav flex-column gap-2"> <li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://fab.com/s/d377034b3991" target="_blank"> Advanced Combat System </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://dishop.avtrixgames.com/" target="_blank"> Dishop </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://www.wattpad.com/story/316243226-sombras" target="_blank"> Sombras </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://fab.com/s/44c75b99152f" target="_blank"> Weaponry Assembly System </a> </li> </ul> </div> </div> <hr class="border-secondary my-4"> <div class="text-center small text-secondary">
+If you added different meshes for each modification, you
+                    should also see the weapon geometry update seamlessly.
+</p> <p class="text-center mb-3"> <img src="/webpage/images/result-optimized.was.gif" alt="M4 final result" class="img-fluid rounded mb-3 margin-auto" style="max-width: 600px; max-height: 400px; width: auto; height: auto;"> </p> <div class="alert alert-success"> <strong>You've built a fully modular weapon!</strong> <p class="mb-0 mt-2">
+From here, the possibilities are endless. Every weapon
+                        in your game can follow the same pattern, and designers
+                        can tweak values without touching a single line of code.
+</p> </div> </div> </div> <!-- Placeholder sections --> <div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Create your own nodes with blueprints</h2> <p class="text-muted mb-0">Pending documentation...</p> </div> </div><div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Extending nodes in C++</h2> <p class="text-muted mb-0">Pending documentation...</p> </div> </div><div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Create your game Widget for modifiers</h2> <p class="text-muted mb-0">Pending documentation...</p> </div> </div><div class="card mb-3 border-0 shadow-sm"> <div class="card-body"> <h2 class="h5 mb-0">Use your own weapon logic</h2> <p class="text-muted mb-0">Pending documentation...</p> </div> </div> </div>  </div> </main> <footer class="bg-dark text-light border-top mt-auto py-5"> <div class="container"> <div class="row row-cols-1 row-cols-md-2 g-4"> <div class="col text-center text-md-start"> <h5 class="mb-3 fw-bold">Find me in</h5> <ul class="nav flex-column gap-2"> <li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://linkedin.com/in/kingsley-shyne-mattis-sogorb-a4a898214" target="_blank"> Linkedin </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://www.fab.com/sellers/DocCodding" target="_blank"> Fab </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://www.youtube.com/@DocCodding/videos" target="_blank"> Youtube </a> </li> </ul> </div> <div class="col text-center text-md-start"> <h5 class="mb-3 fw-bold">Projects</h5> <ul class="nav flex-column gap-2"> <li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://fab.com/s/d377034b3991" target="_blank"> Advanced Combat System </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://dishop.avtrixgames.com/" target="_blank"> Dishop </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://www.wattpad.com/story/316243226-sombras" target="_blank"> Sombras </a> </li><li class="nav-item"> <a class="nav-link p-0 text-light opacity-75" href="https://fab.com/s/44c75b99152f" target="_blank"> Weaponry Assembly System </a> </li> </ul> </div> </div> <hr class="border-secondary my-4"> <div class="text-center small text-secondary">
 © 2026 — Built with Astro + Bootstrap
 </div> </div> </footer> </body></html>
